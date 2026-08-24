@@ -1,13 +1,26 @@
 import pygame
-import sys
+
+from board import Board
+from board_view import BoardView
+from constants import (
+    BG_COLOR,
+    BOARD_ORIGIN_X,
+    BOARD_ORIGIN_Y,
+    BOARD_REGION,
+    SCREEN_HEIGHT,
+    SCREEN_WIDTH,
+)
 
 pygame.init()
 
-screen = pygame.display.set_mode((1280, 720))
+screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT), pygame.SCALED)
 pygame.display.set_caption("My Pygame Window")
 
 clock = pygame.time.Clock()
-dt = 60
+fps = 60
+
+board = Board(5,5)
+view = BoardView(board, BOARD_ORIGIN_X, BOARD_ORIGIN_Y, BOARD_REGION)
 
 # Main loop
 
@@ -15,9 +28,10 @@ running = True
 
 while running:
     for event in pygame.event.get():
-            if event.type == pygame.QUIT:
-                running = False
+        if event.type == pygame.QUIT:
+            running = False
 
-screen.fill((255, 255, 255))
-pygame.display.flip()
-clock.tick(dt)
+    screen.fill(BG_COLOR)
+    view.draw(screen)
+    pygame.display.flip()
+    clock.tick(fps)
