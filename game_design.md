@@ -44,7 +44,7 @@ Characters / Classes
 
 Academic content / question sourcing
 - Textbook, questions I've created 
-- Will need to determine how to set "difficulty" levels
+- Will need to determine how to set difficulty levels
 
 ## 5. UX and UI
 
@@ -63,4 +63,5 @@ Milestones
 Unknowns
 - Web app vs executable file, or just leave as .py 
 - Timeframe, may need to reduce scope if >40 hours required
-  - Start with Catch Blue, only add Run from Red if under 30 hours 
+  - Start with Catch Blue, only add Run from Red if under 30 hours
+- Later: Multiplayer
