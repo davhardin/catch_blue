@@ -21,11 +21,13 @@ By this point in the DevOps path you've completed: Python basics, Bookbot (a CLI
 
 If you'd rather keep this project small and lean into the DevOps identity, the terminal version is the legitimate alternative — but given the GDD's click-a-square design, Pygame is the better fit.
 
+**Settled in M0: the flavor is `pygame-ce`, not upstream `pygame`.** pygame-ce is the community fork that most of the active maintainers moved to in 2023. It's a drop-in — you still write `import pygame`, and every pro/con above holds unchanged. The deciding factor was Python support: upstream's last release is 2.6.1 (Sept 2024), shipping wheels only through cp313, while this machine runs Python 3.14. pygame-ce 2.5.8 ships cp314 wheels and releases on a regular cadence. One rule: never install both into the same venv — they claim the same `pygame` import name and will clobber each other.
+
 ## 3. Recommended stack
 
-- Python 3.12+, `pygame` (same version you used for Asteroids), in a venv with `requirements.txt`
+- **Python 3.14** with `pygame-ce==2.5.8` (see §2), in a `uv`-managed venv. Runtime deps live in `requirements.txt`; test-only deps belong in `requirements-dev.txt`, so the eventual container doesn't ship a test runner. Note the venv is uv-created and therefore has no `pip` — install with `uv pip install <pkg>`, not `python -m pip`.
 - Questions stored as **JSON files** in a `data/` folder (no database needed)
-- `pytest` for unit-testing the game *logic* (movement rules, answer checking) — a nice DevOps-path touch, and easy if you keep logic separate from rendering
+- `pytest` for unit-testing the game *logic* (movement rules, answer checking) — a nice DevOps-path touch, and easy if you keep logic separate from rendering. **This is real as of M0:** `tests/test_board.py` covers the grid math and runs fully headless, because `pygame.Rect` works without `pygame.init()` and no window is ever opened. That means it runs in CI with no display attached. `pytest.ini` sets `pythonpath = .` so `tests/` can import top-level modules without any packaging ceremony.
 - Distribution: just run it as `.py` for the project submission. Later, `PyInstaller` makes an executable and `pygbag` compiles Pygame to WebAssembly for the browser — both are post-MVP, and this answers the "web app vs executable" unknown in the GDD: **defer it; the code doesn't change either way.**
 
 ## 4. Proposed architecture
@@ -43,11 +45,23 @@ One top-level `Game` class runs the loop and delegates to the current state obje
 ### Classes (maps to GDD §4)
 
 - `Game` — window, clock, main loop, state switching
-- `Board` — grid model: square contents, adjacency checks, `is_adjacent(a, b)`, occupancy. **Keep this pure logic (no Pygame imports)** so it's unit-testable; a separate `BoardView` draws it.
+- `Cell` — a `NamedTuple` of `(col, row)`. Unpacks and hashes like a plain tuple, but `.col` / `.row` at call sites kills a whole class of transposition bug. *(Built in M0.)*
+- `Board` — grid model, **pure logic, no pygame import**. Holds `cols` / `rows`; provides `in_bounds(col, row)` and `cells()`, a generator yielding every `Cell` col-major so the nested loop is written exactly once. Later gains `is_adjacent(a, b)` and occupancy. *(Built in M0; adjacency and occupancy land in M2.)*
+- `BoardView` — everything pixel-shaped: `cell_size`, `origin_x` / `origin_y`, `cell_to_rect(cell)`, `pixel_to_cell(x, y) -> Cell | None`, and `draw(screen)`. Holds a reference to its `Board`; the board knows nothing about the view. *(Built in M0.)*
 - `Player` — grid position, move validation
 - `NPC` (base) → `Blue` (moves *away* from player on wrong answers) and `Red` (moves *toward* player every turn). A greedy "step in the direction that increases/decreases distance" is fine — no pathfinding needed on an open grid.
 - `Question` / `QuestionBank` — load JSON, filter by topic and difficulty, track which questions were used
 - UI helpers — `Button`, `TextBox` (word-wrapped text rendering), later `TextInput` for fill-in-the-blank
+
+### Grid and screen layout (settled in M0)
+
+**Window: 1280×720, created with the `pygame.SCALED` flag.** 720p fits every laptop panel including old 1366×768 ones, matches what Asteroids used, and leaves a natural side column for HUD. `SCALED` means all code works in fixed 1280×720 logical coordinates while pygame scales the output to the real display — so HiDPI monitors and a future fullscreen toggle cost nothing in layout math.
+
+**Fixed board *region*, derived cell size.** The board occupies a square 640×640 region at origin (40, 40); `cell_size = BOARD_REGION // max(cols, rows)`, and any leftover pixels are absorbed by centring the board inside the region. This is what lets one `BoardView` serve Catch Blue's 5×5 (128px cells, no slack) and Run from Red's 9×9 (71px cells, 1px slack) without the window resizing between modes and without every HUD coordinate moving. For Marathon's unbounded grid, the same region becomes a viewport: hold `cell_size` fixed and scrolling is an offset change rather than a layout rewrite.
+
+**Coordinate order is `(col, row)`, everywhere, forever.** Integer division must use `//`, never `int(x / y)`: `//` floors, so a click left of or above the grid yields a negative index that `in_bounds` rejects, whereas `int()` truncates toward zero and would silently land that click in column 0. Bounds are checked *after* dividing, reusing `Board.in_bounds` rather than a second pixel-space guard.
+
+All layout numbers live in `constants.py` — one definition each, so changing `BOARD_REGION` moves everything consistently.
 
 ### Question data format
 
@@ -67,19 +81,28 @@ For fill-in-the-blank, use `"type": "fill_blank"` with an `"accepted_answers"` l
 
 ### Suggested file layout
 
+Files marked ✅ exist as of M0; the rest are still planned.
+
 ```
 catch_blue/
-├── main.py
-├── game.py            # Game class + state machine
-├── states/            # menu.py, board_state.py, question_state.py, game_over.py
-├── board.py           # pure logic
-├── characters.py      # Player, NPC, Blue, Red
-├── questions.py       # Question, QuestionBank
-├── ui.py              # Button, TextBox
+├── main.py            ✅ init, window, main loop  (becomes a thin entry point once game.py lands)
+├── constants.py       ✅ screen + board geometry, colors
+├── board.py           ✅ pure logic: Cell, Board
+├── board_view.py      ✅ pixel conversions + drawing
+├── game.py               Game class + state machine
+├── states/               menu.py, board_state.py, question_state.py, game_over.py
+├── characters.py         Player, NPC, Blue, Red
+├── questions.py          Question, QuestionBank
+├── ui.py                 Button, TextBox
 ├── data/questions/*.json
-├── tests/             # test_board.py, test_questions.py
-└── requirements.txt
+├── tests/             ✅ test_board.py  (later: test_questions.py)
+├── pytest.ini         ✅ pythonpath = .
+├── .gitignore         ✅
+├── requirements.txt   ✅ runtime only
+└── requirements-dev.txt  pytest and friends
 ```
+
+`board_view.py` and `constants.py` weren't in the original layout — they fell out of the M0 decision to keep pixels out of `board.py`.
 
 ## 5. Milestones and time estimates
 
@@ -89,7 +112,7 @@ Estimates assume you're writing most code yourself, are new-ish to coding, and i
 
 | Milestone | Deliverable | Hours |
 |---|---|---|
-| M0 | Repo, venv, window opens, empty 5×5 grid drawn | 1–2 |
+| ~~M0~~ ✅ | Repo, venv, window opens, empty 5×5 grid drawn — *plus* the pixel↔cell conversions and 25 passing tests | 1–2 |
 | M1 | Click detection on squares; player + Blue rendered at opposite corners | 3–5 |
 | M2 | Movement rules: adjacency check, player moves on click, Blue's flee logic | 4–6 |
 | M3 | Question system: JSON loading, question popup with clickable multiple-choice answers, correct/incorrect flow | 6–10 |
@@ -118,4 +141,5 @@ Multiplayer, colorblind/low-vision modes (do pick colorblind-safe colors from da
 2. **Fill-in-the-blank is deceptively expensive** (cursor, backspace, focus, answer normalization). That's why it's a stretch goal, not MVP.
 3. **Marathon mode's procedural/unlimited grid** implies a camera system. Everything else in the GDD lives on a fixed screen; this one feature doesn't. Cut it first if hours run long.
 4. **Question authoring is a content treadmill.** Timebox it — 20–30 questions is plenty to prove the game works.
-5. **Logic/rendering separation** is the difference between a testable project and an untestable one. If `board.py` never imports pygame, you can `pytest` your rules — and that's the line on this project that will impress on the DevOps path.
+5. **Logic/rendering separation** is the difference between a testable project and an untestable one. If `board.py` never imports pygame, you can `pytest` your rules — and that's the line on this project that will impress on the DevOps path. **This is now enforced, not aspirational:** `test_board_module_never_imports_pygame` imports `board` in a subprocess and asserts `pygame` never lands in `sys.modules`. It fails the moment someone reaches for `pygame.Rect` in the wrong file.
+6. **`.gitignore` before the first commit, not after.** M0 committed `__pycache__` because the ignore file didn't exist yet; untracking it needed `git rm -r --cached`, since git ignores untracked files only. Bytecode in history is harmless, but the same mistake with a `.env` is not — set this up before adding any file you'd regret.
