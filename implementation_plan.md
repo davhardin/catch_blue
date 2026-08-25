@@ -27,7 +27,7 @@ If you'd rather keep this project small and lean into the DevOps identity, the t
 
 - **Python 3.14** with `pygame-ce==2.5.8` (see §2), in a `uv`-managed venv. Runtime deps live in `requirements.txt`; test-only deps belong in `requirements-dev.txt`, so the eventual container doesn't ship a test runner. Note the venv is uv-created and therefore has no `pip` — install with `uv pip install <pkg>`, not `python -m pip`.
 - Questions stored as **JSON files** in a `data/` folder (no database needed)
-- `pytest` for unit-testing the game *logic* (movement rules, answer checking) — a nice DevOps-path touch, and easy if you keep logic separate from rendering. **This is real as of M0:** `tests/test_board.py` covers the grid math and runs fully headless, because `pygame.Rect` works without `pygame.init()` and no window is ever opened. That means it runs in CI with no display attached. `pytest.ini` sets `pythonpath = .` so `tests/` can import top-level modules without any packaging ceremony.
+- `pytest` for unit-testing the game *logic* (movement rules, answer checking) — a nice DevOps-path touch, and easy if you keep logic separate from rendering. **This is real as of M0:** `tests/test_board.py` covers the grid math and runs fully headless, because `pygame.Rect` works without `pygame.init()` and no window is ever opened. M1 added `tests/test_characters.py` — starting positions, arbitrary placement, and the shape/color contract the view draws against — 36 tests total, all headless. That means it runs in CI with no display attached. `pytest.ini` sets `pythonpath = .` so `tests/` can import top-level modules without any packaging ceremony.
 - Distribution: just run it as `.py` for the project submission. Later, `PyInstaller` makes an executable and `pygbag` compiles Pygame to WebAssembly for the browser — both are post-MVP, and this answers the "web app vs executable" unknown in the GDD: **defer it; the code doesn't change either way.**
 
 ## 4. Proposed architecture
@@ -40,16 +40,22 @@ The biggest structural difference from Asteroids: Catch Blue is a sequence of *m
 MENU ──► BOARD ──► QUESTION ──► BOARD ──► ... ──► GAME_OVER ──► MENU
 ```
 
-One top-level `Game` class runs the loop and delegates to the current state object. Clicking a topic square switches `BOARD → QUESTION`; answering switches back and applies the result (Blue flees or holds).
+One top-level `Game` class runs the loop and delegates to the current state object. Clicking a topic square switches `BOARD → QUESTION`; answering switches back and applies the result per the turn rules below.
+
+### Turn and question rules (settled 2026-08-25)
+
+- **Movement is 4-way orthogonal for every character.** Player, Blue, and later Red move only left, right, up, or down, one square, within the board. `is_adjacent` / `distance` in `board.py` are the single definition (built in M2 — see `milestones/m2.md`).
+- **Answer outcomes are asymmetric.** Correct answer: the player moves onto the clicked square; Blue holds still. Incorrect answer: the player stays put; Blue flees. Exactly one side moves per question — the player's progress and Blue's movement are both rationed by answer quality.
+- **Red's movement trigger is undecided.** Move-on-incorrect-only (mirroring Blue) makes Red gentle; the GDD's original "toward the player every turn" makes Red relentless — very different difficulty curves for Escape and Marathon. Deliberately deferred: decide from game balance once Catch Blue mode is fully playable, not before.
+- **Squares have persistent categories; questions rotate.** At game start each square is assigned a question category (the `topic` field in the question JSON — same concept, one word per layer), fixed for the whole game. The *question* shown for a square is not fixed: once the player answers it — correct or not — and moves on, revisiting that square draws a fresh question from the same category. Implications for M3: the cell → category mapping is game state assigned at setup (not `Board` geometry), and `QuestionBank` needs "give me an unused question from category X" plus a policy for what happens when a category runs dry (recycle oldest is the likely answer — decide in M3).
 
 ### Classes (maps to GDD §4)
 
 - `Game` — window, clock, main loop, state switching
 - `Cell` — a `NamedTuple` of `(col, row)`. Unpacks and hashes like a plain tuple, but `.col` / `.row` at call sites kills a whole class of transposition bug. *(Built in M0.)*
-- `Board` — grid model, **pure logic, no pygame import**. Holds `cols` / `rows`; provides `in_bounds(col, row)` and `cells()`, a generator yielding every `Cell` col-major so the nested loop is written exactly once. Later gains `is_adjacent(a, b)` and occupancy. *(Built in M0; adjacency and occupancy land in M2.)*
-- `BoardView` — everything pixel-shaped: `cell_size`, `origin_x` / `origin_y`, `cell_to_rect(cell)`, `pixel_to_cell(x, y) -> Cell | None`, and `draw(screen)`. Holds a reference to its `Board`; the board knows nothing about the view. *(Built in M0.)*
-- `Player` — grid position, move validation
-- `NPC` (base) → `Blue` (moves *away* from player on wrong answers) and `Red` (moves *toward* player every turn). A greedy "step in the direction that increases/decreases distance" is fine — no pathfinding needed on an open grid.
+- `Board` — grid model, **pure logic, no pygame import**. Holds `cols` / `rows`; provides `in_bounds(col, row)` and `cells()`, a generator yielding every `Cell` col-major so the nested loop is written exactly once. Later gains adjacency helpers. *(Built in M0. Adjacency lands in M2 as free functions `is_adjacent` / `distance` plus `Board.neighbors`; occupancy is handled as explicit blocked-cell sets passed to the rule functions, not board state — see `milestones/m2.md`.)*
+- `BoardView` — everything pixel-shaped: `cell_size`, `origin_x` / `origin_y`, `cell_to_rect(cell)`, `pixel_to_cell(x, y) -> Cell | None`, and `draw(screen)`. Holds a reference to its `Board`; the board knows nothing about the view. *(Built in M0; M1 added entity drawing — dispatch on `shape` — plus hover and selection highlights.)*
+- `Character` (base) → `Player`, `Blue` — *(Built in M1, superseding the planned `NPC` base: with two concrete classes in hand the shared surface was visible — a `cell`, plus `shape` and `color` as class-attribute defaults the subclasses override. Pygame-free like `board.py`; `BoardView` renders by dispatching on `shape`. See `milestones/m1.md`.)* Starting corners live in per-subclass `at_start(board)` classmethods. Movement (`move_to`, `legal_moves`) and Blue's flee land in M2 — a greedy "step in the direction that increases/decreases distance" is fine, no pathfinding needed on an open grid. `Red` (moves *toward* the player; whether every turn or only on incorrect answers is an open balance question — see the turn rules below) joins as a third subclass in Phase 2.
 - `Question` / `QuestionBank` — load JSON, filter by topic and difficulty, track which questions were used
 - UI helpers — `Button`, `TextBox` (word-wrapped text rendering), later `TextInput` for fill-in-the-blank
 
@@ -91,11 +97,11 @@ catch_blue/
 ├── board_view.py      ✅ pixel conversions + drawing
 ├── game.py               Game class + state machine
 ├── states/               menu.py, board_state.py, question_state.py, game_over.py
-├── characters.py         Player, NPC, Blue, Red
+├── characters.py      ✅ Character, Player, Blue  (Red lands with Phase 2)
 ├── questions.py          Question, QuestionBank
 ├── ui.py                 Button, TextBox
 ├── data/questions/*.json
-├── tests/             ✅ test_board.py  (later: test_questions.py)
+├── tests/             ✅ test_board.py, test_characters.py  (later: test_questions.py)
 ├── pytest.ini         ✅ pythonpath = .
 ├── .gitignore         ✅
 ├── requirements.txt   ✅ runtime only
@@ -113,7 +119,7 @@ Estimates assume you're writing most code yourself, are new-ish to coding, and i
 | Milestone | Deliverable | Hours |
 |---|---|---|
 | ~~M0~~ ✅ | Repo, venv, window opens, empty 5×5 grid drawn — *plus* the pixel↔cell conversions and 25 passing tests | 1–2 |
-| M1 | Click detection on squares; player + Blue rendered at opposite corners | 3–5 |
+| ~~M1~~ ✅ | Click → cell with hover + selection highlights; `Character` base class; Player + Blue drawn at opposite corners; 36 tests total | 3–5 |
 | M2 | Movement rules: adjacency check, player moves on click, Blue's flee logic | 4–6 |
 | M3 | Question system: JSON loading, question popup with clickable multiple-choice answers, correct/incorrect flow | 6–10 |
 | M4 | Game flow: menu, win condition (click adjacent Blue), optional move-limit loss, game-over screen | 5–8 |
