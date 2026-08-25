@@ -1,6 +1,6 @@
 import pygame
 from board import Board, Cell
-from constants import CELL_COLOR, LINE_COLOR
+from constants import CELL_COLOR, LINE_COLOR, LINE_WIDTH
 
 class BoardView:
     def __init__(self,
@@ -26,8 +26,11 @@ class BoardView:
             return Cell(col, row)
         return None
 
-    def draw(self, screen: pygame.Surface) -> None:
+    def draw(self, screen: pygame.Surface, hovered: Cell | None) -> None:
         for cell in self.board.cells():
             rect = self.cell_to_rect(cell)
             pygame.draw.rect(screen, CELL_COLOR, rect)
-            pygame.draw.rect(screen, LINE_COLOR, rect, width=1)
+            pygame.draw.rect(screen, LINE_COLOR, rect, width=LINE_WIDTH)
+        if hovered is not None:
+            hov_rect = self.cell_to_rect(hovered)
+            pygame.draw.rect(screen, LINE_COLOR, hov_rect, width=LINE_WIDTH*4)
