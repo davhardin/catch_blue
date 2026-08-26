@@ -10,7 +10,7 @@ from pathlib import Path
 
 import pytest
 
-from board import Board, Cell
+from board import Board, Cell, get_distance, is_adjacent
 from board_view import BoardView
 from constants import BOARD_ORIGIN_X, BOARD_ORIGIN_Y, BOARD_REGION
 
@@ -50,6 +50,80 @@ def test_cells_yields_every_cell_exactly_once():
     cells = list(board.cells())
     assert len(cells) == 45
     assert len(set(cells)) == 45
+
+
+# --- board.py: adjacency geometry (M2.a) -----------------------------------
+
+@pytest.mark.parametrize(
+    "a,b,expected",
+    [
+        (Cell(0, 0), Cell(0, 0), 0),
+        (Cell(0, 0), Cell(1, 0), 1),
+        (Cell(0, 0), Cell(0, 1), 1),
+        (Cell(0, 0), Cell(1, 1), 2),  # diagonal is two steps, not one
+        (Cell(2, 3), Cell(4, 0), 5),
+    ],
+)
+def test_distance_is_manhattan(a, b, expected):
+    assert get_distance(a, b) == expected
+
+
+def test_no_cell_is_adjacent_to_itself():
+    assert not any(is_adjacent(c, c) for c in Board(5, 5).cells())
+
+
+def test_adjacency_is_symmetric():
+    cells = list(Board(5, 5).cells())
+    for a in cells:
+        for b in cells:
+            assert is_adjacent(a, b) == is_adjacent(b, a)
+
+
+def test_diagonal_cells_are_not_adjacent():
+    """Adjacency is 4-way orthogonal (m2.md); 8-way creep starts here."""
+    assert not is_adjacent(Cell(2, 2), Cell(3, 3))
+    assert not is_adjacent(Cell(2, 2), Cell(1, 3))
+
+
+@pytest.mark.parametrize(
+    "cell,count",
+    [
+        (Cell(0, 0), 2),
+        (Cell(4, 4), 2),
+        (Cell(2, 0), 3),
+        (Cell(0, 2), 3),
+        (Cell(2, 2), 4),
+    ],
+    ids=["corner", "far-corner", "top-edge", "left-edge", "middle"],
+)
+def test_neighbor_counts_match_position(cell, count):
+    assert len(Board(5, 5).neighbors(cell)) == count
+
+
+def test_every_neighbor_is_on_the_board():
+    board = Board(5, 5)
+    for cell in board.cells():
+        for neighbor in board.neighbors(cell):
+            assert board.in_bounds(neighbor.col, neighbor.row)
+
+
+def test_neighbors_agrees_with_is_adjacent_for_every_pair():
+    """One adjacency rule, two views (set-valued and boolean) -- no drift."""
+    board = Board(5, 5)
+    for a in board.cells():
+        neighbors = board.neighbors(a)
+        for b in board.cells():
+            assert (b in neighbors) == is_adjacent(a, b)
+
+
+def test_neighbors_is_not_confused_by_a_non_square_board():
+    board = Board(cols=9, rows=5)
+    assert len(board.neighbors(Cell(2, 4))) == 3  # bottom edge, not interior
+    assert len(board.neighbors(Cell(8, 2))) == 3  # right edge
+
+
+def test_a_one_by_one_board_has_no_neighbors():
+    assert Board(1, 1).neighbors(Cell(0, 0)) == set()
 
 
 # --- board_view.py: conversions -------------------------------------------

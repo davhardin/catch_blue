@@ -8,6 +8,12 @@ class Character():
     def __init__(self, cell: Cell) -> None:
         self.cell = cell
 
+    def move_to(self, cell: Cell) -> None:
+        self.cell = cell
+
+    def legal_moves(self, board: Board, blocked: set[Cell]) -> set[Cell]:
+        return board.neighbors(self.cell) - blocked
+
 
 class Player(Character):
     color = PLAYER_COLOR
