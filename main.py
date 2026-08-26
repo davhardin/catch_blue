@@ -35,6 +35,9 @@ running = True
 
 
 while running:
+
+    moves = player.legal_moves(board, {blue.cell})
+
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
             running = False
@@ -47,17 +50,19 @@ while running:
                 selected = None
             elif cell == blue.cell and is_adjacent(player.cell, blue.cell):
                 print("caught!")
-            elif cell in player.legal_moves(board, {blue.cell}):
+            elif cell in moves:
                 player.move_to(cell)
             else:
                 selected = cell
 
+        if event.type == pygame.KEYDOWN and event.key == pygame.K_f:
+            blue.move_to(blue.flee_step(board, player.cell))
 
         if event.type == pygame.MOUSEMOTION:
             hovering = view.pixel_to_cell(*event.pos)
 
 
     screen.fill(BG_COLOR)
-    view.draw(screen, hovering, entities, selected)
+    view.draw(screen, hovering, entities, selected, moves)
     pygame.display.flip()
     clock.tick(fps)
