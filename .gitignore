@@ -24,3 +24,7 @@ dist/
 .idea/
 *.swp
 .DS_Store
+
+# Scraps
+scrapyard.py
+json_test.py
