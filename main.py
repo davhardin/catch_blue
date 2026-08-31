@@ -11,6 +11,7 @@ from constants import (
     BOARD_ORIGIN_Y,
     BOARD_REGION,
     CELL_COLOR,
+    LABEL_FONT_SIZE,
     LINE_COLOR,
     MOVE_COLOR,
     SCREEN_HEIGHT,
@@ -73,6 +74,7 @@ def build_question_popup(question: Question, font):
 
 pygame.init()
 font = pygame.font.Font(None, 28)
+label_font = pygame.font.Font(None, LABEL_FONT_SIZE)
 
 screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT), pygame.SCALED)
 pygame.display.set_caption("Catch Blue: The Science Learning Game")
@@ -87,8 +89,13 @@ bank = QuestionBank(questions_path)
 if not bank.topics:
     raise ValueError("The question bank contains no topics")
 
+topic_subtopics = [
+    (topic, subtopic)
+    for topic in bank.topics
+    for subtopic in bank.subtopics(topic)
+]
 cell_topics = {
-    cell: bank.topics[index % len(bank.topics)]
+    cell: topic_subtopics[index % len(topic_subtopics)]
     for index, cell in enumerate(board.cells())
 }
 
@@ -163,8 +170,8 @@ while running:
                     intent = "move"
 
                 if target is not None and intent is not None:
-                    topic = cell_topics[target]
-                    question = bank.next_question(topic)
+                    topic, subtopic = cell_topics[target]
+                    question = bank.next_question(topic, subtopic)
 
                     pending = (question, target, intent)
                     selected = target
@@ -180,7 +187,16 @@ while running:
     moves = player.legal_moves(board, {blue.cell})
 
     screen.fill(BG_COLOR)
-    view.draw(screen, hovering, entities, selected, moves)
+    view.draw(
+        screen,
+        hovering,
+        entities,
+        selected,
+        moves,
+        cell_topics,
+        label_font,
+    )
+
 
     if pending is not None:
         assert popup_rect is not None

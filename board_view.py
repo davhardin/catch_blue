@@ -1,7 +1,11 @@
 import pygame
 from board import Board, Cell
 from characters import Character
-from constants import CELL_COLOR, LINE_COLOR, LINE_WIDTH, SELECTED_LINE_COLOR, MOVE_COLOR
+from ui import word_wrap
+from constants import (
+    CELL_COLOR, LINE_COLOR,
+    LINE_WIDTH, SELECTED_LINE_COLOR, MOVE_COLOR,
+    LABEL_COLOR, LABEL_PADDING)
 
 class BoardView:
     def __init__(self,
@@ -32,8 +36,11 @@ class BoardView:
         screen: pygame.Surface,
         hovered: Cell | None,
         entities: list[Character],
-        selected: Cell| None,
-        moves: set[Cell]) -> None:
+        selected: Cell | None,
+        moves: set[Cell],
+        labels: dict[Cell, tuple[str, str]],
+        label_font: pygame.font.Font,
+    ) -> None:
         for cell in self.board.cells():
             rect = self.cell_to_rect(cell)
             pygame.draw.rect(screen, CELL_COLOR, rect)
@@ -43,6 +50,29 @@ class BoardView:
             rect = self.cell_to_rect(cell)
             pygame.draw.rect(screen, MOVE_COLOR, rect)
             pygame.draw.rect(screen, LINE_COLOR, rect, width=LINE_WIDTH)
+
+        occupied_cells = {entity.cell for entity in entities}
+
+        for cell in self.board.cells():
+            if cell in occupied_cells:
+                continue
+
+            rect = self.cell_to_rect(cell)
+            _, subtopic = labels[cell]
+            label_width = rect.width - 2 * LABEL_PADDING
+            lines = word_wrap(subtopic, label_width, label_font)
+
+            for line_index, line in enumerate(lines):
+                label = label_font.render(line, True, LABEL_COLOR)
+                screen.blit(
+                    label,
+                    (
+                        rect.left + LABEL_PADDING,
+                        rect.top
+                        + LABEL_PADDING
+                        + line_index * label_font.get_linesize(),
+                    ),
+                )
 
         if hovered is not None and hovered in moves:
             hov_rect = self.cell_to_rect(hovered)

@@ -2,9 +2,10 @@ import json
 from pathlib import Path
 
 class Question:
-    def __init__(self, id, topic, difficulty, type, prompt, choices, answer_index):
+    def __init__(self, id, topic, subtopic, difficulty, type, prompt, choices, answer_index):
         self.id = id
         self.topic = topic
+        self.subtopic = subtopic
         self.difficulty = difficulty
         self.type = type
         self.prompt = prompt
@@ -22,6 +23,7 @@ class Question:
             return cls(
                 id = data['id'],
                 topic = data['topic'],
+                subtopic = data['subtopic'],
                 difficulty = data['difficulty'],
                 type = data['type'],
                 prompt = data['prompt'],
@@ -54,11 +56,19 @@ class QuestionBank:
 
         self.topics = sorted(set(q.topic for q in self.questions))
 
+    def subtopics(self, topic):
+        return sorted(
+            set(q.subtopic for q in self.questions if q.topic == topic)
+        )
 
-    def next_question(self, topic):
-        candidates = [q for q in self.questions if q.topic == topic]
+    def next_question(self, topic, subtopic):
+        candidates = [
+            q
+            for q in self.questions
+            if q.topic == topic and q.subtopic == subtopic
+        ]
         if not candidates:
-            raise ValueError(f"No questions available for topic: {topic}")
+            raise ValueError(f"No questions available for topic '{topic}' and subtopic '{subtopic}'")
 
         for q in candidates:
             if q.id not in self.used_ids:
