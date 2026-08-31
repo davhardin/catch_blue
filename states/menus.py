@@ -6,7 +6,12 @@ from constants import (
     MOVE_COLOR,
     SCREEN_WIDTH,
 )
-from game_setup import GameConfig, prettify_topic
+from game_setup import (
+    GameConfig,
+    order_topics_for_subject,
+    prettify_topic,
+    subject_display_name,
+)
 from questions import QuestionBank
 from ui import Button, Checkbox
 
@@ -20,6 +25,10 @@ CHECKBOX_LEFT = 380
 CHECKBOX_TOP = 225
 CHECKBOX_SIZE = 30
 CHECKBOX_GAP = 52
+
+SCROLL_REGION = pygame.Rect(300, 200, 680, 390)
+SCROLL_STEP = CHECKBOX_GAP
+START_BUTTON_TOP = 620
 
 
 def _draw_centered_text(screen, text, font, color, y):
@@ -100,12 +109,12 @@ class SubjectState:
         self.button_font = pygame.font.Font(None, 36)
 
         self.anatomy_button = _make_menu_button(
-            "Anatomy & Physiology",
+            subject_display_name("anatomy_physiology"),
             self.button_font,
             FIRST_BUTTON_TOP,
         )
         self.organic_chemistry_button = _make_menu_button(
-            "Organic Chemistry (coming soon)",
+            f"{subject_display_name('organic_chemistry')} (coming soon)",
             self.button_font,
             FIRST_BUTTON_TOP + BUTTON_HEIGHT + BUTTON_GAP,
             active=False,
@@ -146,6 +155,10 @@ class TopicsState:
         self.bank = bank
         self.mode = mode
         self.subject = subject
+        self.topics = order_topics_for_subject(
+            self.subject,
+            self.bank.topics(self.subject),
+        )
         self.title_font = pygame.font.Font(None, 56)
         self.checkbox_font = pygame.font.Font(None, 30)
         self.button_font = pygame.font.Font(None, 36)
@@ -164,7 +177,7 @@ class TopicsState:
         )
 
         self.topic_checkboxes = []
-        for index, topic in enumerate(self.bank.topics, start=1):
+        for index, topic in enumerate(self.topics, start=1):
             checkbox = Checkbox(
                 pygame.Rect(
                     CHECKBOX_LEFT,
@@ -179,15 +192,27 @@ class TopicsState:
             )
             self.topic_checkboxes.append((topic, checkbox))
 
-        start_top = (
-            CHECKBOX_TOP
-            + (len(self.bank.topics) + 1) * CHECKBOX_GAP
-            + 20
+        checkboxes = [
+            self.all_checkbox,
+            *[
+                checkbox
+                for _, checkbox in self.topic_checkboxes
+            ],
+        ]
+        content_bottom = max(
+            checkbox.hit_rect.bottom
+            for checkbox in checkboxes
         )
+        self.scroll_offset = 0
+        self.max_scroll = max(
+            0,
+            content_bottom - SCROLL_REGION.bottom,
+        )
+
         self.start_button = _make_menu_button(
             "Start",
             self.button_font,
-            start_top,
+            START_BUTTON_TOP,
         )
         self._update_start_button()
 
@@ -197,31 +222,21 @@ class TopicsState:
             for _, checkbox in self.topic_checkboxes
         )
 
+    def _set_scroll_offset(self, offset):
+        self.scroll_offset = max(
+            0,
+            min(offset, self.max_scroll),
+        )
+
     def handle_events(self, events):
         for event in events:
+            if event.type == pygame.MOUSEWHEEL:
+                self._set_scroll_offset(
+                    self.scroll_offset - event.y * SCROLL_STEP
+                )
+                continue
+
             if event.type != pygame.MOUSEBUTTONDOWN or event.button != 1:
-                continue
-
-            if self.all_checkbox.is_clicked(event.pos):
-                self.all_checkbox.toggle()
-                for _, checkbox in self.topic_checkboxes:
-                    checkbox.checked = self.all_checkbox.checked
-                self._update_start_button()
-                continue
-
-            topic_toggled = False
-            for _, checkbox in self.topic_checkboxes:
-                if checkbox.is_clicked(event.pos):
-                    checkbox.toggle()
-                    self.all_checkbox.checked = all(
-                        topic_checkbox.checked
-                        for _, topic_checkbox in self.topic_checkboxes
-                    )
-                    self._update_start_button()
-                    topic_toggled = True
-                    break
-
-            if topic_toggled:
                 continue
 
             if self.start_button.is_clicked(event.pos):
@@ -238,6 +253,31 @@ class TopicsState:
                 self.game.start_play(self.bank, config)
                 return
 
+            if not SCROLL_REGION.collidepoint(event.pos):
+                continue
+
+            content_pos = (
+                event.pos[0],
+                event.pos[1] + self.scroll_offset,
+            )
+
+            if self.all_checkbox.is_clicked(content_pos):
+                self.all_checkbox.toggle()
+                for _, checkbox in self.topic_checkboxes:
+                    checkbox.checked = self.all_checkbox.checked
+                self._update_start_button()
+                continue
+
+            for _, checkbox in self.topic_checkboxes:
+                if checkbox.is_clicked(content_pos):
+                    checkbox.toggle()
+                    self.all_checkbox.checked = all(
+                        topic_checkbox.checked
+                        for _, topic_checkbox in self.topic_checkboxes
+                    )
+                    self._update_start_button()
+                    break
+
     def draw(self, screen):
         screen.fill(BG_COLOR)
         _draw_centered_text(
@@ -247,9 +287,18 @@ class TopicsState:
             MENU_TEXT_COLOR,
             120,
         )
-        self.all_checkbox.draw(screen)
+        previous_clip = screen.get_clip()
+        screen.set_clip(SCROLL_REGION)
 
+        self.all_checkbox.draw(
+            screen,
+            offset_y=self.scroll_offset,
+        )
         for _, checkbox in self.topic_checkboxes:
-            checkbox.draw(screen)
+            checkbox.draw(
+                screen,
+                offset_y=self.scroll_offset,
+            )
 
+        screen.set_clip(previous_clip)
         self.start_button.draw(screen)

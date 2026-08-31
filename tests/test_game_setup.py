@@ -19,7 +19,11 @@ from random import Random
 import pytest
 
 from board import Board
-from game_setup import assign_cell_topics, prettify_topic
+from game_setup import (
+    assign_cell_topics,
+    order_topics_for_subject,
+    prettify_topic,
+)
 
 # --- prettify_topic ---------------------------------------------------------
 
@@ -31,6 +35,59 @@ from game_setup import assign_cell_topics, prettify_topic
 ])
 def test_prettify_topic(raw, display):
     assert prettify_topic(raw) == display
+
+
+# --- order_topics_for_subject ----------------------------------------------
+
+
+ANATOMY_PHYSIOLOGY_TOPICS = [
+    "anatomical_language",
+    "chemical_foundations",
+    "cells",
+    "tissues",
+    "integumentary_system",
+    "skeletal_system",
+    "muscular_system",
+    "nervous_tissue",
+    "spinal_cord",
+    "brain",
+    "sensory_pathways_and_somatic_nervous_system",
+    "autonomic_nervous_system",
+    "special_senses",
+    "endocrine_system",
+]
+
+
+def test_anatomy_physiology_topics_follow_curriculum_order():
+    scrambled = list(reversed(ANATOMY_PHYSIOLOGY_TOPICS))
+    assert order_topics_for_subject("anatomy_physiology", scrambled) == (
+        ANATOMY_PHYSIOLOGY_TOPICS
+    )
+
+
+def test_topic_order_omits_configured_topics_absent_from_bank():
+    available = ["cells", "anatomical_language", "brain"]
+    assert order_topics_for_subject("anatomy_physiology", available) == [
+        "anatomical_language",
+        "cells",
+        "brain",
+    ]
+
+
+def test_unknown_topics_follow_configured_topics_alphabetically():
+    available = ["future_z", "cells", "future_a"]
+    assert order_topics_for_subject("anatomy_physiology", available) == [
+        "cells",
+        "future_a",
+        "future_z",
+    ]
+
+
+def test_subject_without_configured_order_is_alphabetical():
+    assert order_topics_for_subject(
+        "organic_chemistry",
+        ["alkenes", "acids", "alkanes"],
+    ) == ["acids", "alkanes", "alkenes"]
 
 
 # --- assign_cell_topics -----------------------------------------------------

@@ -8,8 +8,8 @@ def main():
     questions_path = Path(__file__).parent / "data" / "questions"
     bank = QuestionBank(questions_path)
 
-    if not bank.topics:
-        raise ValueError("The question bank contains no topics")
+    if not bank.subjects:
+        raise ValueError("The question bank contains no subjects")
 
     game = Game(bank)
     game.run()

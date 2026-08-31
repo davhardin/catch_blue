@@ -1,9 +1,15 @@
 import json
 from pathlib import Path
 
+
+def _normalize_label(value: str) -> str:
+    return " ".join(value.split()).casefold()
+
+
 class Question:
-    def __init__(self, id, topic, subtopic, difficulty, type, prompt, choices, answer_index):
+    def __init__(self, id, subject, topic, subtopic, difficulty, type, prompt, choices, answer_index):
         self.id = id
+        self.subject = subject
         self.topic = topic
         self.subtopic = subtopic
         self.difficulty = difficulty
@@ -22,6 +28,7 @@ class Question:
 
             return cls(
                 id = data['id'],
+                subject = data['subject'],
                 topic = data['topic'],
                 subtopic = data['subtopic'],
                 difficulty = data['difficulty'],
@@ -43,18 +50,67 @@ class QuestionBank:
         self.data_dir = data_dir
 
         path = Path(self.data_dir)
+        seen_ids = {}
+        seen_subjects = {}
+        seen_subtopics = {}
 
         for filename in sorted(path.rglob("*.json")):
             if filename.is_file():
                 with open(filename, encoding='utf-8') as f:
-                    data = json.load(f)
+                    try:
+                        data = json.load(f)
+                    except json.JSONDecodeError as e:
+                        raise ValueError(
+                            f"Error parsing JSON from {filename}: {e}"
+                        ) from e
+
                     for d in data:
                         try:
-                            self.questions.append(Question.from_dict(d))
-                        except (ValueError, KeyError) as e:
-                            raise ValueError(f"Error parsing question from {filename}: {e}") from e
+                            question = Question.from_dict(d)
 
-        self.topics = sorted(set(q.topic for q in self.questions))
+                            first_file = seen_ids.get(question.id)
+                            if first_file is not None:
+                                raise ValueError(f"Duplicate question id '{question.id}' in {filename}; first seen in {first_file}")
+
+                            normalized_subject = _normalize_label(question.subject)
+                            existing_subject = seen_subjects.get(normalized_subject)
+                            if existing_subject is not None:
+                                first_subject, first_subject_file = existing_subject
+                                if first_subject != question.subject:
+                                    raise ValueError(f"Subjects '{first_subject}' and '{question.subject}' differ only by case or whitespace; found in {first_subject_file} and {filename}")
+
+                            normalized = _normalize_label(question.subtopic)
+                            key = (question.subject, question.topic, normalized)
+                            existing = seen_subtopics.get(key)
+
+                            if existing is not None:
+                                first_spelling, first_subtopic_file = existing
+                                if first_spelling != question.subtopic:
+                                    raise ValueError(f"Subtopics '{first_spelling}' and '{question.subtopic}' in topic '{question.topic}' differ only by case or whitespace; found in {first_subtopic_file} and {filename}")
+
+                            seen_ids[question.id] = filename
+                            if existing_subject is None:
+                                seen_subjects[normalized_subject] = (
+                                    question.subject,
+                                    filename,
+                                )
+                            if existing is None:
+                                seen_subtopics[key] = (
+                                    question.subtopic,
+                                    filename,
+                                )
+                            self.questions.append(question)
+                        except (ValueError, KeyError) as e:
+                            raise ValueError(
+                                f"Error parsing question from {filename}: {e}"
+                            ) from e
+
+        self.subjects = sorted(set(q.subject for q in self.questions))
+
+    def topics(self, subject):
+        return sorted(
+            set(q.topic for q in self.questions if q.subject == subject)
+        )
 
     def subtopics(self, topic):
         return sorted(

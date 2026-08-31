@@ -25,6 +25,7 @@ def make_question(**overrides):
     """A complete, valid question dict; override fields per test."""
     q = {
         "id": "q-001",
+        "subject": "subject_a",
         "topic": "topic_a",
         "subtopic": "Section One",
         "difficulty": 1,
@@ -53,6 +54,7 @@ def build_bank(tmp_path, questions, filename="bank.json"):
 def test_from_dict_carries_every_field():
     q = Question.from_dict(make_question())
     assert q.id == "q-001"
+    assert q.subject == "subject_a"
     assert q.topic == "topic_a"
     assert q.subtopic == "Section One"
     assert q.difficulty == 1
@@ -72,6 +74,7 @@ def test_is_correct_only_at_answer_index(choice_index):
 
 REQUIRED_FIELDS = [
     "id",
+    "subject",
     "topic",
     "subtopic",
     "difficulty",
@@ -140,16 +143,114 @@ def test_bank_missing_field_also_names_the_bad_file(tmp_path):
         QuestionBank(tmp_path)
 
 
+def test_bank_json_syntax_error_names_file(tmp_path):
+    broken = tmp_path / "broken.json"
+    broken.write_text('[{"id": "q-001",}]', encoding="utf-8")
+
+    with pytest.raises(ValueError) as exc_info:
+        QuestionBank(tmp_path)
+
+    assert "broken.json" in str(exc_info.value)
+    assert isinstance(exc_info.value.__cause__, json.JSONDecodeError)
+
+
+def test_bank_rejects_duplicate_ids_across_files(tmp_path):
+    write_file(tmp_path, "first.json", [make_question(id="duplicate-id")])
+    write_file(tmp_path, "second.json", [
+        make_question(id="duplicate-id", topic="topic_b")
+    ])
+
+    with pytest.raises(ValueError) as exc_info:
+        QuestionBank(tmp_path)
+
+    message = str(exc_info.value)
+    assert "duplicate-id" in message
+    assert "first.json" in message
+    assert "second.json" in message
+
+
+def test_bank_rejects_near_identical_subtopics(tmp_path):
+    write_file(tmp_path, "broken.json", [
+        make_question(
+            id="q-001",
+            topic="anatomy",
+            subtopic="Body Regions",
+        ),
+        make_question(
+            id="q-002",
+            topic="anatomy",
+            subtopic=" body  regions ",
+        ),
+    ])
+
+    with pytest.raises(ValueError) as exc_info:
+        QuestionBank(tmp_path)
+
+    message = str(exc_info.value)
+    assert "Body Regions" in message
+    assert " body  regions " in message
+    assert "anatomy" in message
+    assert "broken.json" in message
+
+
+def test_bank_rejects_near_identical_subjects(tmp_path):
+    write_file(tmp_path, "broken.json", [
+        make_question(id="q-001", subject="anatomy_physiology"),
+        make_question(
+            id="q-002",
+            subject=" ANATOMY_PHYSIOLOGY ",
+            topic="topic_b",
+        ),
+    ])
+
+    with pytest.raises(ValueError) as exc_info:
+        QuestionBank(tmp_path)
+
+    message = str(exc_info.value)
+    assert "anatomy_physiology" in message
+    assert " ANATOMY_PHYSIOLOGY " in message
+    assert "broken.json" in message
+
+
+def test_near_identical_subtopics_are_allowed_under_different_topics(tmp_path):
+    bank = build_bank(tmp_path, [
+        make_question(
+            id="a1",
+            topic="topic_a",
+            subtopic="Overview",
+        ),
+        make_question(
+            id="b1",
+            topic="topic_b",
+            subtopic=" overview ",
+        ),
+    ])
+
+    assert bank.subtopics("topic_a") == ["Overview"]
+    assert bank.subtopics("topic_b") == [" overview "]
+
+
 # --- topics and subtopics ---------------------------------------------------
 
 
-def test_topics_are_sorted_and_unique(tmp_path):
+def test_subjects_are_sorted_and_unique(tmp_path):
     bank = build_bank(tmp_path, [
-        make_question(id="1", topic="zoology"),
-        make_question(id="2", topic="anatomy"),
-        make_question(id="3", topic="anatomy"),
+        make_question(id="1", subject="subject_z"),
+        make_question(id="2", subject="subject_a", topic="anatomy"),
+        make_question(id="3", subject="subject_a", topic="zoology"),
     ])
-    assert bank.topics == ["anatomy", "zoology"]
+    assert bank.subjects == ["subject_a", "subject_z"]
+
+
+def test_topics_are_sorted_unique_and_scoped_to_subject(tmp_path):
+    bank = build_bank(tmp_path, [
+        make_question(id="1", subject="subject_a", topic="zoology"),
+        make_question(id="2", subject="subject_a", topic="anatomy"),
+        make_question(id="3", subject="subject_b", topic="chemistry"),
+    ])
+    assert bank.topics("subject_a") == ["anatomy", "zoology"]
+    assert bank.topics("subject_b") == ["chemistry"]
+    assert bank.topics("made_up_subject") == []
 
 
 def test_subtopics_are_sorted_unique_and_scoped_to_their_topic(tmp_path):
@@ -237,9 +338,12 @@ def test_shipped_question_files_load_and_validate():
     """Content is data, not behavior -- this only proves the real files pass
     the from_dict gate and every topic has at least one subtopic."""
     bank = QuestionBank(Path(__file__).parent.parent / "data" / "questions")
-    assert bank.topics
-    for topic in bank.topics:
-        assert bank.subtopics(topic)
+    assert bank.subjects
+    for subject in bank.subjects:
+        topics = bank.topics(subject)
+        assert topics
+        for topic in topics:
+            assert bank.subtopics(topic)
 
 
 # --- the pure/pixel line ----------------------------------------------------

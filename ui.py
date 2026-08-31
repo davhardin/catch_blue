@@ -79,11 +79,14 @@ class Checkbox:
     def is_clicked(self, pos):
         return self.hit_rect.collidepoint(pos)
 
-    def draw(self, surface):
-        pygame.draw.rect(surface, self.color, self.rect, width=2)
+    def draw(self, surface, offset_y=0):
+        draw_rect = self.rect.move(0, -offset_y)
+        draw_label_rect = self.label_rect.move(0, -offset_y)
+
+        pygame.draw.rect(surface, self.color, draw_rect, width=2)
 
         if self.checked:
-            inner = self.rect.inflate(-8, -8)
+            inner = draw_rect.inflate(-8, -8)
             pygame.draw.rect(surface, self.color, inner)
 
-        surface.blit(self.label, self.label_rect)
+        surface.blit(self.label, draw_label_rect)
