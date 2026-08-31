@@ -42,6 +42,8 @@ MENU ──► BOARD ──► QUESTION ──► BOARD ──► ... ──► 
 
 One top-level `Game` class runs the loop and delegates to the current state object. Clicking a topic square switches `BOARD → QUESTION`; answering switches back and applies the result per the turn rules below.
 
+*(Revised 2026-08-31, settled in `milestones/m4.md`: MENU is three screens — Game Select → Subject → Topics — and QUESTION stays an overlay `if` inside the play state rather than a sibling state, since the popup overlays a live board instead of replacing it. Five states total: GAME_SELECT, SUBJECT, TOPICS, PLAY, GAME_OVER.)*
+
 ### Turn and question rules (settled 2026-08-25)
 
 - **Movement is 4-way orthogonal for every character.** Player, Blue, and later Red move only left, right, up, or down, one square, within the board. `is_adjacent` / `get_distance` in `board.py` are the single definition (built in M2 — see `milestones/m2.md`).
@@ -89,21 +91,22 @@ For fill-in-the-blank, use `"type": "fill_blank"` with an `"accepted_answers"` l
 
 ### Suggested file layout
 
-Files marked ✅ exist as of M0; the rest are still planned.
+Files marked ✅ exist; the rest are still planned.
 
 ```
 catch_blue/
-├── main.py            ✅ init, window, main loop  (becomes a thin entry point once game.py lands)
-├── constants.py       ✅ screen + board geometry, colors
+├── main.py            ✅ init, window, main loop  (becomes a thin entry point once game.py lands in M4)
+├── constants.py       ✅ screen + board geometry, colors, label styling
 ├── board.py           ✅ pure logic: Cell, Board
-├── board_view.py      ✅ pixel conversions + drawing
-├── game.py               Game class + state machine
-├── states/               menu.py, board_state.py, question_state.py, game_over.py
+├── board_view.py      ✅ pixel conversions + drawing, incl. subtopic labels
+├── game.py               Game class + state machine  (M4)
+├── states/               menus.py, play.py, game_over.py  (M4)
+├── game_setup.py         pure helpers: topic prettify, scrambled cell→pair assignment  (M4, pygame-free)
 ├── characters.py      ✅ Character, Player, Blue  (Red lands with Phase 2)
-├── questions.py          Question, QuestionBank
-├── ui.py                 Button, TextBox
-├── data/questions/*.json
-├── tests/             ✅ test_board.py, test_characters.py  (later: test_questions.py)
+├── questions.py       ✅ Question, QuestionBank  (M3: subtopics, pair-scoped rotation)
+├── ui.py              ✅ Button, TextBox  (M4 adds Checkbox + inactive buttons)
+├── data/questions/    ✅ *.json question content
+├── tests/             ✅ test_board.py, test_characters.py, test_questions.py  (later: test_game_setup.py)
 ├── pytest.ini         ✅ pythonpath = .
 ├── .gitignore         ✅
 ├── requirements.txt   ✅ runtime only
@@ -124,10 +127,10 @@ Estimates assume you're writing most code yourself, are new-ish to coding, and i
 | ~~M1~~ ✅ | Click → cell with hover + selection highlights; `Character` base class; Player + Blue drawn at opposite corners; 36 tests total | 3–5 |
 | ~~M2~~ ✅ | Click-to-move with legal-move highlights, catch detection (`print` for now), Blue's greedy flee behind a debug key, Blue's start moved to center; 66 tests total | 4–6 |
 | M3 | Question system: JSON loading, question popup with clickable multiple-choice answers, correct/incorrect flow — *expanded 2026-08-31:* topic/subtopic hierarchy and subtopic labels drawn on the board | 8–14 |
-| M4 | Game flow: menu, win condition (catch adjacent Blue through its question — see §4), optional move-limit loss, game-over screen | 5–8 |
-| M5 | Content: write/import a starter question bank with difficulty tags | 3–5 |
+| M4 | Game flow: state machine, three-screen menu wizard (Game Select → Subject → Topics), win condition (catch adjacent Blue through its question — see §4), 20-move loss, end screens with replay — *scope settled 2026-08-31, see `milestones/m4.md`* | 8–12 |
+| M5 | Content: write/import a starter question bank with difficulty tags — plus the Topics screen learns to scroll *(added 2026-08-31)*: real content will outgrow the fixed checkbox layout M4 shipped, so the topic list scrolls within its own region while the Start button stays stationary | 4–6 |
 | M6 | Polish: playtesting, bug fixes, visual cleanup | 4–8 |
-| | **Total** | **~28–48** |
+| | **Total** | **~32–53** |
 
 The GDD's gate says "only add Run from Red if Catch Blue lands under 30 hours." That's achievable if you stay multiple-choice-only, keep art to colored rectangles + text, and defer accessibility modes. If you're past 30 hours at M6, ship it — a finished Catch Blue is a better portfolio piece than a half-finished Run from Red.
 
@@ -157,11 +160,12 @@ Multiplayer, colorblind/low-vision modes (do pick colorblind-safe colors from da
 Knobs deliberately left at their simplest setting until the game is playable end-to-end. Revisit during M6 (or Phase 2 balance work) — none of these are worth tuning against an imagined player.
 
 - **Randomized flee tie-breaks.** Blue currently breaks ties among equally-good escape cells by sorted order — deterministic, which is what makes the flee tests assertable, but learnable: a threat directly below always sends Blue *left*, never up or right. Randomizing the pick among tied candidates would make Blue feel evasive rather than mechanical. Two facts to carry into that change: equal-*distance* sidesteps are impossible (each orthogonal step changes Manhattan distance by exactly ±1 — see the corrected note in `milestones/m2.md` M2.e), so ties among improving candidates are the only randomness that exists to add; and the tests would need to either seed the randomness or assert membership in the tied set instead of an exact cell.
-- **Randomized question rotation within a pool.** M3 hands out questions in deterministic load order — testable, but memorizable. The forcing function is the menu's planned topic selection (settled as design 2026-08-31, UI unscheduled): when the user picks which topics are on the board, a game might run on only 1–3 of them, and a fixed rotation becomes obvious fast. Switch `next_question` to a shuffled draw (per-(topic, subtopic)-pool shuffle, reshuffle on recycle); same test strategy as randomized flee — seed it or assert membership.
-- **Randomized cell→category assignment.** The startup round-robin is deterministic for the same reason rotation is: simplest testable thing first. Once the question layer randomizes, the board layout should too, so repeated games don't teach the map instead of the material.
+- **Randomized question rotation within a pool.** M3 hands out questions in deterministic load order — testable, but memorizable. The forcing function is topic selection, and it ships in M4's Topics screen: when the user picks which topics are on the board, a game might run on only 1–3 of them, and a fixed rotation becomes obvious fast. Softened somewhat by the bank surviving replays (used-marks carry over, so rotation continues rather than restarts — see `milestones/m4.md`), but a full app restart still opens identically. Switch `next_question` to a shuffled draw (per-(topic, subtopic)-pool shuffle, reshuffle on recycle); same test strategy as randomized flee — seed it or assert membership.
+- **Randomized cell→category assignment** *(shipped in M4 — settled 2026-08-31)*. Every game start shuffles a balanced cell→pair assignment (pairs cycled to fill the board, then shuffled), driven by an injected `random.Random` so tests can seed it. See `milestones/m4.md`. Question *rotation* (previous entry) is now the only deterministic layer left.
 - **Blue's square holds a random category.** Planned evolution of the question-gated catch (§4): while Blue stands on a square, that square temporarily *possesses a random (topic, subtopic) pair* — the catch question could be anything — reverting to the square's assigned pair when Blue moves off. Makes the final catch a test of everything rather than one known category. Build the possession/reversion logic during playtesting once the gated catch is proven in its simple form.
 - **Red's movement trigger** (already flagged in §4's turn rules): move-every-turn (relentless) vs move-on-incorrect-only (gentle, mirrors Blue). Deferred until Catch Blue mode is fully playable; this is the main difficulty lever for Escape and Marathon.
-- **Move-limit loss (M4).** Whether the optional move limit ships at all, and how tight it is if so. Tune only after the question flow exists — question difficulty and move budget trade off against each other.
+- **Move-limit difficulty** *(mechanism settled 2026-08-31, number still a knob)*. M4 ships the loss: 20 moves, every answered question — right or wrong, move or catch — costs one. What remains tunable is the number itself, and whether difficulty presets or user-facing fine-tuning ever expose it. Question difficulty and move budget trade off against each other, so tune only with the full flow playable.
+- **Subject → data mechanism** *(deferred 2026-08-31)*. M4's Subject screen is cosmetic — everything in `data/questions/` is Anatomy & Physiology, so its one active option filters nothing. When Organic Chemistry content actually exists, decide how subjects scope the bank: a `subject` field per question (consistent with M3's topic-from-data principle) vs. a subdirectory per subject (cheap, but rubs against the filenames-never-categorize decision). Decide with real content in hand, not before.
 - **Board size as difficulty.** With Blue starting center, board size scales how much herding a catch requires with no other code changes (5×5 quick, 9×9 patient). If Catch Blue needs difficulty settings, try board size before touching the flee rules.
 - **Board labels re-wrap every frame** *(noted 2026-08-31)*. `BoardView.draw` calls `word_wrap` for all 25 cells on every frame at 60fps, even though the labels are static for the whole game. Harmless at this scale — measured in fractions of a millisecond — and not worth complicating the view over. If profiling during M6 polish (or Run from Red's 81-cell board) ever shows it, the fix is caching: pre-render each label to a surface once when the cell map is built, and blit the cached surfaces in `draw`. Don't do it speculatively; a cache is a second copy of the truth, and the one-map rule in `milestones/m3.md` exists for a reason.
 - **JSON *syntax* errors crash without a filename** *(decided 2026-08-27)*. `QuestionBank`'s loader enriches *shape* errors (missing field, bad index, wrong type) with the offending filename, but a syntactically broken file — stray comma, single quotes — crashes inside `json.load` with a raw `JSONDecodeError`: line and column, no file named. Deliberately left that way: the IDE flags syntax errors live while editing data files, so the gap only bites if a file is edited outside the IDE. If a bare "Expecting ',' delimiter: line 3 column 5" ever appears at startup (M5's content authoring is the likely moment), this is why — the fix is the same catch-enrich-reraise the loader already applies around `from_dict`, wrapped around the `json.load` call instead.
