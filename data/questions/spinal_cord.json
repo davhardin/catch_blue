@@ -6,14 +6,14 @@
     "subtopic": "Spinal Cord Structure",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "_____ form the gray matter of the CNS.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "Neuron bodies and unmyelinated axons",
+      "Myelinated axons and their tracts",
+      "Ependymal cells and cerebrospinal fluid",
+      "Myelinated axons and Schwann cells"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-09-002",
@@ -22,14 +22,14 @@
     "subtopic": "Spinal Cord Structure",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "White matter is composed of _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "myelinated neuronal axons",
+      "neuron cell bodies and dendrites",
+      "unmyelinated axons and neuroglia",
+      "ependymal cells and capillaries"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-09-003",
@@ -38,14 +38,14 @@
     "subtopic": "Spinal Cord Structure",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "_____ is found in the central region of all major CNS areas.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "Gray matter",
+      "White matter",
+      "Cerebrospinal fluid",
+      "Myelin"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-09-004",
@@ -54,14 +54,14 @@
     "subtopic": "Spinal Cord Structure",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "_____ surrounds the central core of gray matter in the CNS.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "White matter",
+      "Gray matter",
+      "Cerebrospinal fluid",
+      "The meninges"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-09-005",
@@ -70,14 +70,14 @@
     "subtopic": "Spinal Cord Structure",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The spinal cord itself is formed from the _____, and the dorsal root ganglia are formed from the _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "neural tube; neural crest",
+      "neural crest; neural tube",
+      "notochord; neural tube",
+      "neural tube; notochord"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-09-006",
@@ -86,14 +86,14 @@
     "subtopic": "Spinal Cord Structure",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The spinal cord extends from the _____ to the _____; below L1 it branches to form the _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "skull; L1 vertebra; cauda equina",
+      "skull; sacrum; cauda equina",
+      "skull; L1 vertebra; conus medullaris",
+      "foramen magnum; sacrum; filum terminale"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-09-007",
@@ -102,14 +102,14 @@
     "subtopic": "Spinal Cord Structure",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "In addition to the vertebral column, the spinal cord is protected by the _____ and _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "meninges; CSF",
+      "ligaments; synovial fluid",
+      "periosteum; interstitial fluid",
+      "fasciae; lymph"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-09-008",
@@ -118,14 +118,14 @@
     "subtopic": "Spinal Cord Structure",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "In the inferior regions, there is a gap between the _____ and the _____ into which anesthetics are often introduced (\"epidural\" – \"upon the dura\").",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "dura mater; vertebrae",
+      "arachnoid mater; pia mater",
+      "dura mater; arachnoid mater",
+      "pia mater; spinal cord"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-09-009",
@@ -134,14 +134,14 @@
     "subtopic": "Spinal Cord Structure",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The butterfly-shaped central core of gray matter in the spinal cord can be divided into three regions. The _____ contains the cell bodies of somatic motor neurons.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "anterior horn",
+      "posterior horn",
+      "lateral horn",
+      "gray commissure"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-09-010",
@@ -150,222 +150,222 @@
     "subtopic": "Spinal Cord Structure",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The butterfly-shaped central core of gray matter in the spinal cord can be divided into three regions. The _____ contains the cell bodies of the autonomic motor neurons and is present only in the thoracic and upper lumbar (L1 and L2) regions.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "lateral horn",
+      "anterior horn",
+      "posterior horn",
+      "gray commissure"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-09-011",
     "subject": "anatomy_physiology",
     "topic": "spinal_cord",
-    "subtopic": "Gray Matter vs White Matter",
+    "subtopic": "Spinal Cord Structure",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The butterfly-shaped central core of gray matter in the spinal cord can be divided into three regions. The _____ contains interneurons.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "posterior horn",
+      "anterior horn",
+      "lateral horn",
+      "gray commissure"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-09-012",
     "subject": "anatomy_physiology",
     "topic": "spinal_cord",
-    "subtopic": "Gray Matter vs White Matter",
+    "subtopic": "Spinal Cord Structure",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "_____ are white-matter columns consisting of the myelinated axons of neurons associated with the spinal cord.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "Funiculi",
+      "Fasciculi",
+      "Horns",
+      "Commissures"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-09-013",
     "subject": "anatomy_physiology",
     "topic": "spinal_cord",
-    "subtopic": "Gray Matter vs White Matter",
+    "subtopic": "Spinal Cord Structure",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The neuronal cell bodies for the ascending pathways of the spinal cord itself are found in the _____ or _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "dorsal horn; dorsal root ganglia",
+      "ventral horn; autonomic ganglia",
+      "lateral horn; dorsal root ganglia",
+      "ventral horn; dorsal root ganglia"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-09-014",
     "subject": "anatomy_physiology",
     "topic": "spinal_cord",
-    "subtopic": "Gray Matter vs White Matter",
+    "subtopic": "Spinal Cord Structure",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Detailed information concerning position, vibration, or fine touch are transmitted by the _____ pathway of the somatosensory tracts of the spinal cord. This pathway is located in the _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "specific ascending (lemniscal); posterior funiculus",
+      "non-specific ascending (anterolateral); anterior funiculus",
+      "spinocerebellar; lateral funiculus",
+      "direct (pyramidal); lateral funiculus"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-09-015",
     "subject": "anatomy_physiology",
     "topic": "spinal_cord",
-    "subtopic": "Gray Matter vs White Matter",
+    "subtopic": "Spinal Cord Structure",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Information regarding crude touch, temperature, pressure, and pain is carried through the _____ pathway of the somatosensory tracts of the spinal cord.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "non-specific ascending (anterolateral)",
+      "specific ascending (lemniscal)",
+      "spinocerebellar",
+      "direct (pyramidal)"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-09-016",
     "subject": "anatomy_physiology",
     "topic": "spinal_cord",
-    "subtopic": "Gray Matter vs White Matter",
+    "subtopic": "Spinal Cord Structure",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Messages carried in the specific and non-specific ascending pathways ultimately reach the somatosensory cortex on _____ the sensor.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "the side of the body opposite to (contralateral to)",
+      "the same side of the body as (ipsilateral to)",
+      "both sides of the body equally",
+      "alternating sides of the body"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-09-017",
     "subject": "anatomy_physiology",
     "topic": "spinal_cord",
-    "subtopic": "Gray Matter vs White Matter",
+    "subtopic": "Spinal Cord Structure",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Impulses from the trunk and lower limb regarding position and movement are carried through the _____ pathway of the somatosensory tracts of the spinal cord. This pathway is located in the _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "spinocerebellar; lateral funiculi",
+      "specific ascending (lemniscal); posterior funiculi",
+      "non-specific ascending (anterolateral); anterior funiculi",
+      "direct (pyramidal); lateral funiculi"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-09-018",
     "subject": "anatomy_physiology",
     "topic": "spinal_cord",
-    "subtopic": "Gray Matter vs White Matter",
+    "subtopic": "Spinal Cord Structure",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Messages carried in the spinocerebellar pathways ultimately reach the cerebellum on _____ the sensor.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "the same side of the body as (ipsilateral to)",
+      "the side of the body opposite to (contralateral to)",
+      "both sides of the body equally",
+      "alternating sides of the body"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-09-019",
     "subject": "anatomy_physiology",
     "topic": "spinal_cord",
-    "subtopic": "Gray Matter vs White Matter",
+    "subtopic": "Spinal Cord Structure",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Signals from the pyramidal cells in the motor cortex to the spinal cord are carried by the _____, one of the two motor tracts of the spinal cord.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "direct system (pyramidal system)",
+      "indirect (extra-pyramidal) system",
+      "spinocerebellar pathway",
+      "lemniscal pathway"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-09-020",
     "subject": "anatomy_physiology",
     "topic": "spinal_cord",
-    "subtopic": "Gray Matter vs White Matter",
+    "subtopic": "Spinal Cord Structure",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Signals controlling automatic movements such as those needed to maintain balance are carried by the _____ system, one of the two motor tracts of the spinal cord.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "indirect (extra-pyramidal)",
+      "direct (pyramidal)",
+      "spinocerebellar",
+      "specific ascending (lemniscal)"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-09-021",
     "subject": "anatomy_physiology",
     "topic": "spinal_cord",
-    "subtopic": "Spinal Nerves",
+    "subtopic": "Spinal Cord Structure",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The motor tracts of the spinal cord are located in the _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "lateral and anterior funiculi",
+      "posterior funiculi",
+      "posterior and lateral funiculi",
+      "anterior funiculi only"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-09-022",
     "subject": "anatomy_physiology",
     "topic": "spinal_cord",
-    "subtopic": "Spinal Nerves",
+    "subtopic": "Spinal Cord Structure",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Damage to the _____ of the spinal cord prevents nerve impulses from reaching the muscle and causes the muscles to remain limp, a condition called _____ paralysis.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "anterior horn neurons; flaccid",
+      "anterior horn neurons; spastic",
+      "posterior horn neurons; flaccid",
+      "posterior horn neurons; spastic"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-09-023",
     "subject": "anatomy_physiology",
     "topic": "spinal_cord",
-    "subtopic": "Spinal Nerves",
+    "subtopic": "Spinal Cord Structure",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Because injuries to the anterior spinal cord are nearly always accompanied by injuries to the _____, flaccid paralysis is often accompanied by _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "posterior spinal cord; numbness (anesthesia)",
+      "posterior spinal cord; spasticity",
+      "lateral horns; numbness",
+      "brain stem; pain"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-09-024",
@@ -374,14 +374,14 @@
     "subtopic": "Spinal Nerves",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The axons of the neurons from the _____ and _____ horns emerge together as the ventral roots.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "lateral; anterior",
+      "posterior; anterior",
+      "posterior; lateral",
+      "all three horns"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-09-025",
@@ -390,14 +390,14 @@
     "subtopic": "Spinal Nerves",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The _____ are formed from the cell bodies of sensory neurons whose axons branch to extend inward to the spinal cord and outward to the body.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "dorsal root ganglia",
+      "ventral roots",
+      "autonomic ganglia",
+      "anterior horns"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-09-026",
@@ -406,14 +406,14 @@
     "subtopic": "Spinal Nerves",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Neurons in the _____ have axons which extend from the receptor to the spinal cord, or in some cases all the way to the brain.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "dorsal root ganglia",
+      "anterior horns",
+      "lateral horns",
+      "autonomic ganglia"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-09-027",
@@ -422,14 +422,14 @@
     "subtopic": "Spinal Nerves",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Neurons of the dorsal horn receive signals from those in the _____. Their own axons extend to reach neurons in the brain stem, diencephalon, etc.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "dorsal root ganglia",
+      "ventral horn",
+      "lateral horn",
+      "autonomic ganglia"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-09-028",
@@ -438,14 +438,14 @@
     "subtopic": "Spinal Nerves",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "_____ are cordlike organs in the PNS consisting of peripheral axons, blood vessels, and connective tissue.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "Nerves",
+      "Tracts",
+      "Ganglia",
+      "Nuclei"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-09-029",
@@ -454,14 +454,14 @@
     "subtopic": "Spinal Nerves",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The _____ is the connective tissue surrounding individual axons within a nerve.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "endoneurium",
+      "perineurium",
+      "epineurium",
+      "endomysium"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-09-030",
@@ -470,333 +470,605 @@
     "subtopic": "Spinal Nerves",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The _____ is the connective tissue surrounding a fascicle of axons in a nerve.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "perineurium",
+      "endoneurium",
+      "epineurium",
+      "perimysium"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-09-031",
     "subject": "anatomy_physiology",
     "topic": "spinal_cord",
-    "subtopic": "Interneurons",
+    "subtopic": "Spinal Nerves",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The _____ is the connective tissue surrounding the entire nerve (including the blood vessels).",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "epineurium",
+      "perineurium",
+      "endoneurium",
+      "epimysium"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-09-032",
     "subject": "anatomy_physiology",
     "topic": "spinal_cord",
-    "subtopic": "Interneurons",
+    "subtopic": "Spinal Nerves",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "After the axon of a peripheral neuron is damaged, the _____ end deteriorates.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "distal",
+      "proximal",
+      "medial",
+      "lateral"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-09-033",
     "subject": "anatomy_physiology",
     "topic": "spinal_cord",
-    "subtopic": "Interneurons",
+    "subtopic": "Spinal Nerves",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "After the axon of a peripheral neuron is damaged, _____ cells detach from the myelin sheath and divide to guide new axonal growth.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "Schwann",
+      "satellite",
+      "ependymal",
+      "microglial"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-09-034",
     "subject": "anatomy_physiology",
     "topic": "spinal_cord",
-    "subtopic": "Interneurons",
+    "subtopic": "Spinal Nerves",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "_____ are small bundles of axons emerging from or entering the spinal cord.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "Rootlets",
+      "Roots",
+      "Rami",
+      "Fascicles"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-09-035",
     "subject": "anatomy_physiology",
     "topic": "spinal_cord",
-    "subtopic": "Interneurons",
+    "subtopic": "Spinal Nerves",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "As the distance from the spinal cord increases, rootlets merge to form _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "roots",
+      "rami",
+      "trunks",
+      "plexuses"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-09-036",
     "subject": "anatomy_physiology",
     "topic": "spinal_cord",
-    "subtopic": "Interneurons",
+    "subtopic": "Spinal Nerves",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "_____ are roots that are formed from the axons of neurons whose cell bodies are in the anterior horn of the spinal cord.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "Ventral roots",
+      "Dorsal roots",
+      "Ventral rami",
+      "Dorsal rami"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-09-037",
     "subject": "anatomy_physiology",
     "topic": "spinal_cord",
-    "subtopic": "Interneurons",
+    "subtopic": "Spinal Nerves",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The dorsal roots are formed from the axons of neurons whose cell bodies are in the _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "dorsal root ganglia",
+      "anterior horn",
+      "lateral horn",
+      "sympathetic chain ganglia"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-09-038",
     "subject": "anatomy_physiology",
     "topic": "spinal_cord",
-    "subtopic": "Interneurons",
+    "subtopic": "Spinal Nerves",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Dorsal roots contain _____ fibers.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "sensory (afferent)",
+      "motor (efferent)",
+      "both sensory and motor",
+      "autonomic"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-09-039",
     "subject": "anatomy_physiology",
     "topic": "spinal_cord",
-    "subtopic": "Interneurons",
+    "subtopic": "Spinal Nerves",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Spinal nerves leave the spinal column through _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "intervertebral foramina",
+      "the vertebral foramen",
+      "transverse foramina",
+      "the vertebral canal"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-09-040",
     "subject": "anatomy_physiology",
     "topic": "spinal_cord",
-    "subtopic": "Interneurons",
+    "subtopic": "Spinal Nerves",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The ventral and dorsal roots merge to form the _____ as they exit the vertebral column.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "spinal nerves",
+      "rami communicantes",
+      "dorsal rami",
+      "plexuses"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-09-041",
     "subject": "anatomy_physiology",
     "topic": "spinal_cord",
-    "subtopic": "Spinal Reflexes",
+    "subtopic": "Spinal Nerves",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Soon after exiting the vertebral column, each spinal nerve divides into four branches, the _____, ______, _____ and _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "dorsal ramus; ventral ramus; meningeal branch; rami communicantes",
+      "dorsal root; ventral root; meningeal branch; gray ramus",
+      "dorsal ramus; ventral ramus; cauda equina; filum terminale",
+      "dorsal root; ventral ramus; rami communicantes; dorsal root ganglion"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-09-042",
     "subject": "anatomy_physiology",
     "topic": "spinal_cord",
-    "subtopic": "Spinal Reflexes",
+    "subtopic": "Spinal Nerves",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "A(n) _____ is a complex network of interacting and cross connected nerves.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "plexus",
+      "ganglion",
+      "tract",
+      "commissure"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-09-043",
     "subject": "anatomy_physiology",
     "topic": "spinal_cord",
-    "subtopic": "Spinal Reflexes",
+    "subtopic": "Spinal Nerves",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Each nerve leaving a plexus is a combination of axons from several _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "spinal nerves",
+      "cranial nerves",
+      "dermatomes",
+      "ganglia"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-09-044",
     "subject": "anatomy_physiology",
     "topic": "spinal_cord",
-    "subtopic": "Spinal Reflexes",
+    "subtopic": "Spinal Nerves",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Plexuses consist of axons from the _____ rami of spinal nerves.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "ventral",
+      "dorsal",
+      "meningeal",
+      "communicating"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-09-045",
     "subject": "anatomy_physiology",
     "topic": "spinal_cord",
-    "subtopic": "Spinal Reflexes",
+    "subtopic": "Spinal Nerves",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "All ventral rami except those from _____ intertwine in plexus.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "T2 - T12",
+      "C1 - C4",
+      "C5 - T1",
+      "L1 - L4"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-09-046",
     "subject": "anatomy_physiology",
     "topic": "spinal_cord",
-    "subtopic": "Spinal Reflexes",
+    "subtopic": "Spinal Nerves",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "_____ innervate the thorax, controlling muscles to the ribs, anterolateral thorax, and abdominal wall.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "Ventral rami from T1 to T12",
+      "Dorsal rami from T1 to T12",
+      "Ventral rami from C5 to T1",
+      "Ventral rami from L1 to L4"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-09-047",
     "subject": "anatomy_physiology",
     "topic": "spinal_cord",
-    "subtopic": "Spinal Reflexes",
+    "subtopic": "Spinal Nerves",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Because of the complex intertwining of the motor nerves in plexuses, damage to the spinal nerves can be difficult to diagnose based on motor deficits, and must instead be diagnosed based on _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "sensory deficits",
+      "motor deficits",
+      "autonomic deficits",
+      "reflex deficits"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-09-048",
     "subject": "anatomy_physiology",
     "topic": "spinal_cord",
-    "subtopic": "Spinal Reflexes",
+    "subtopic": "Spinal Nerves",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "A dermatome is a(n) _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "area of skin innervated by a single spinal nerve",
+      "group of skeletal muscles innervated by a single spinal nerve",
+      "area of skin innervated by a single cranial nerve",
+      "segment of the spinal cord that serves a single limb"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-09-049",
     "subject": "anatomy_physiology",
     "topic": "spinal_cord",
-    "subtopic": "Spinal Reflexes",
+    "subtopic": "Spinal Nerves",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The _____ innervates the skin of the neck, ear, back of the head, shoulders, and diaphragm, and is formed from the ventral rami of _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "cervical plexus; C1 to C4",
+      "brachial plexus; C5 to T1",
+      "cervical plexus; C5 to T1",
+      "brachial plexus; C1 to C4"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-09-050",
     "subject": "anatomy_physiology",
     "topic": "spinal_cord",
+    "subtopic": "Spinal Nerves",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The most important nerve of the cervical plexus is the _____, which innervates the diaphragm and controls _____.",
+    "choices": [
+      "phrenic; breathing",
+      "vagus; breathing",
+      "ansa cervicalis; neck flexion",
+      "accessory; head rotation"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-09-051",
+    "subject": "anatomy_physiology",
+    "topic": "spinal_cord",
+    "subtopic": "Spinal Nerves",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The _____ plexus innervates the upper limb, and is formed from the ventral rami of _____.",
+    "choices": [
+      "brachial; C5 to T1",
+      "cervical; C1 to C4",
+      "brachial; C1 to C4",
+      "lumbar; L1 to L4"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-09-052",
+    "subject": "anatomy_physiology",
+    "topic": "spinal_cord",
+    "subtopic": "Spinal Nerves",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The five ventral rami that form the _____ of the brachial plexus merge to form three _____, which then quickly branch into six _____. These then recombine to form three _____. Finally, these branch again to form the five nerves of the upper limb.",
+    "choices": [
+      "roots; trunks; divisions; cords",
+      "trunks; roots; cords; divisions",
+      "roots; divisions; trunks; cords",
+      "cords; divisions; trunks; roots"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-09-053",
+    "subject": "anatomy_physiology",
+    "topic": "spinal_cord",
+    "subtopic": "Spinal Nerves",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The _____ nerve of the brachial plexus innervates the deltoid and teres minor.",
+    "choices": [
+      "axillary",
+      "musculocutaneous",
+      "radial",
+      "median"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-09-054",
+    "subject": "anatomy_physiology",
+    "topic": "spinal_cord",
+    "subtopic": "Spinal Nerves",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The _____ nerve of the brachial plexus innervates the biceps brachii, brachialis and coracobrachialis.",
+    "choices": [
+      "musculocutaneous",
+      "axillary",
+      "median",
+      "ulnar"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-09-055",
+    "subject": "anatomy_physiology",
+    "topic": "spinal_cord",
+    "subtopic": "Spinal Nerves",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The _____ nerve of the brachial plexus innervates most of the flexor muscles of the forearm and the lateral portions of the hand.",
+    "choices": [
+      "median",
+      "ulnar",
+      "radial",
+      "musculocutaneous"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-09-056",
+    "subject": "anatomy_physiology",
+    "topic": "spinal_cord",
+    "subtopic": "Spinal Nerves",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The _____ nerve of the brachial plexus innervates the flexor carpi ulnaris, flexor digitorum profundus and the medial portions of the hand.",
+    "choices": [
+      "ulnar",
+      "median",
+      "radial",
+      "axillary"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-09-057",
+    "subject": "anatomy_physiology",
+    "topic": "spinal_cord",
+    "subtopic": "Spinal Nerves",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The _____ plexus innervates the thigh, abdominal wall, and psoas muscles, which is formed from the ventral rami of _____.",
+    "choices": [
+      "lumbar; L1 to L4",
+      "sacral; L4 to S4",
+      "lumbar; T12 to L2",
+      "sacral; S1 to S4"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-09-058",
+    "subject": "anatomy_physiology",
+    "topic": "spinal_cord",
+    "subtopic": "Spinal Nerves",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The _____ plexus innervates the foot and leg, and is formed from the ventral rami of _____.",
+    "choices": [
+      "sacral; L4 to S4",
+      "lumbar; L1 to L4",
+      "sacral; S1 to S5",
+      "lumbar; L4 to S4"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-09-059",
+    "subject": "anatomy_physiology",
+    "topic": "spinal_cord",
+    "subtopic": "Spinal Nerves",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The _____ is the major nerve of the sacral plexus and is the longest and thickest nerve of the body. It is actually a single name for two separate nerves, the tibial nerve and the fibular or peroneal nerve.",
+    "choices": [
+      "sciatic nerve",
+      "femoral nerve",
+      "obturator nerve",
+      "pudendal nerve"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-09-060",
+    "subject": "anatomy_physiology",
+    "topic": "spinal_cord",
     "subtopic": "Spinal Reflexes",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "_____ tests are used to verify that the spinal cord and brain are functioning properly.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "Reflex",
+      "Blood",
+      "Vision",
+      "Hearing"
     ],
-    "answer_index": 1
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-09-061",
+    "subject": "anatomy_physiology",
+    "topic": "spinal_cord",
+    "subtopic": "Spinal Reflexes",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "A(n) _____ is a rapid, involuntary response to a stimulus.",
+    "choices": [
+      "reflex",
+      "sensation",
+      "perception",
+      "adaptation"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-09-062",
+    "subject": "anatomy_physiology",
+    "topic": "spinal_cord",
+    "subtopic": "Spinal Reflexes",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "If its effector is a skeletal muscle, a reflex is a(n) _____ reflex.",
+    "choices": [
+      "somatic",
+      "autonomic",
+      "visceral",
+      "cranial"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-09-063",
+    "subject": "anatomy_physiology",
+    "topic": "spinal_cord",
+    "subtopic": "Spinal Reflexes",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "If its effector is a smooth muscle, cardiac muscle, or gland, a reflex is a(n) _____ reflex.",
+    "choices": [
+      "autonomic",
+      "somatic",
+      "spinal",
+      "cranial"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-09-064",
+    "subject": "anatomy_physiology",
+    "topic": "spinal_cord",
+    "subtopic": "Spinal Reflexes",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "_____ reflexes cause contraction of a stretched muscle and relaxation of the antagonist muscle. The most famous example is the patellar reflex, in which the muscles of the quadriceps are stretched by tapping the patellar tendon.",
+    "choices": [
+      "Stretch",
+      "Flexor",
+      "Crossed-extensor",
+      "Golgi tendon"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-09-065",
+    "subject": "anatomy_physiology",
+    "topic": "spinal_cord",
+    "subtopic": "Spinal Reflexes",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Pulling a bodypart away from a painful stimulus is a(n) _____ reflex.",
+    "choices": [
+      "flexor (withdrawal)",
+      "stretch",
+      "crossed-extensor",
+      "Golgi tendon"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-09-066",
+    "subject": "anatomy_physiology",
+    "topic": "spinal_cord",
+    "subtopic": "Spinal Reflexes",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The _____ reflex leads to activation of flexors on one side of the body and extensors on the opposite side.",
+    "choices": [
+      "cross-extensor",
+      "stretch",
+      "flexor (withdrawal)",
+      "Golgi tendon"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-09-067",
+    "subject": "anatomy_physiology",
+    "topic": "spinal_cord",
+    "subtopic": "Spinal Reflexes",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The _____ reflex prevents an overly-powerful muscle contraction from tearing a tendon by inhibiting the contraction of the muscle.",
+    "choices": [
+      "Golgi tendon",
+      "stretch",
+      "flexor (withdrawal)",
+      "crossed-extensor"
+    ],
+    "answer_index": 0
   }
 ]

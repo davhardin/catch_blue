@@ -20,7 +20,7 @@ SUBJECT_TOPIC_ORDERS = {
         "integumentary_system",
         "skeletal_system",
         "muscular_system",
-        "nervous_tissue",
+        "nervous_system",
         "spinal_cord",
         "brain",
         "sensory_pathways_and_somatic_nervous_system",

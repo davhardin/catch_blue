@@ -1,5 +1,6 @@
 import json
 from pathlib import Path
+from random import Random
 
 
 def _normalize_label(value: str) -> str:
@@ -7,7 +8,19 @@ def _normalize_label(value: str) -> str:
 
 
 class Question:
-    def __init__(self, id, subject, topic, subtopic, difficulty, type, prompt, choices, answer_index):
+    def __init__(
+        self,
+        id,
+        subject,
+        topic,
+        subtopic,
+        difficulty,
+        type,
+        prompt,
+        choices,
+        answer_index,
+        shuffle=True,
+    ):
         self.id = id
         self.subject = subject
         self.topic = topic
@@ -17,6 +30,7 @@ class Question:
         self.prompt = prompt
         self.choices = choices
         self.answer_index = answer_index
+        self.shuffle = shuffle
 
     @classmethod
     def from_dict(cls, data):
@@ -25,6 +39,10 @@ class Question:
                 raise ValueError(f"Invalid question type: {data['type']}, see question {data.get('id', 'unknown')}")
             if data['answer_index'] < 0 or data['answer_index'] >= len(data['choices']):
                 raise ValueError(f"Invalid answer index: {data['answer_index']}, see question {data.get('id', 'unknown')}")
+
+            shuffle = data.get('shuffle', True)
+            if not isinstance(shuffle, bool):
+                raise ValueError(f"Invalid shuffle value: {shuffle!r}, see question {data.get('id', 'unknown')}")
 
             return cls(
                 id = data['id'],
@@ -36,12 +54,19 @@ class Question:
                 prompt = data['prompt'],
                 choices = data['choices'],
                 answer_index = data['answer_index'],
+                shuffle = shuffle,
             )
         except KeyError as e:
             raise KeyError(f"Missing key: {e}") from e
 
     def is_correct(self, choice_index):
         return self.answer_index == choice_index
+
+    def display_order(self, rng: Random) -> list[int]:
+        order = list(range(len(self.choices)))
+        if self.shuffle:
+            rng.shuffle(order)
+        return order
 
 class QuestionBank:
     def __init__(self, data_dir):

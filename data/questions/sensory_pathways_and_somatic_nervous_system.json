@@ -3,640 +3,624 @@
     "id": "bio-anat-11-001",
     "subject": "anatomy_physiology",
     "topic": "sensory_pathways_and_somatic_nervous_system",
-    "subtopic": "Sensory vs Motor",
+    "subtopic": "Afferent Division",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "_____ is the awareness of changes in the internal or external environment while _____ is their interpretation. Both of these occur only in the _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "Sensation; perception; CNS",
+      "Perception; sensation; CNS",
+      "Sensation; perception; PNS",
+      "Perception; sensation; PNS"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-11-002",
     "subject": "anatomy_physiology",
     "topic": "sensory_pathways_and_somatic_nervous_system",
-    "subtopic": "Sensory vs Motor",
+    "subtopic": "Afferent Division",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "_____ are the neurons that are the first to generate an action potential in response to an event.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "First order neurons",
+      "Second order neurons",
+      "Third order neurons",
+      "Lower motor neurons"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-11-003",
     "subject": "anatomy_physiology",
     "topic": "sensory_pathways_and_somatic_nervous_system",
-    "subtopic": "Sensory vs Motor",
+    "subtopic": "Afferent Division",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The soma (cell bodies) of the first order neurons reside in the _____ or _____ ganglia.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "dorsal root; cranial",
+      "ventral root; cranial",
+      "dorsal horn; thalamic",
+      "autonomic; collateral"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-11-004",
     "subject": "anatomy_physiology",
     "topic": "sensory_pathways_and_somatic_nervous_system",
-    "subtopic": "Sensory vs Motor",
+    "subtopic": "Afferent Division",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The _____ are the interneurons in the CNS which receive the signal from the first order neurons. Their cell bodies are found in the _____ of the spinal cord or in the _____, and convey their signals within the spinal cord, or to the thalamus or cerebellum.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "second order neurons; dorsal horn; medullary nuclei",
+      "first order neurons; dorsal root ganglia; thalamus",
+      "third order neurons; ventral horn; cerebellar nuclei",
+      "second order neurons; lateral horn; basal nuclei"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-11-005",
     "subject": "anatomy_physiology",
     "topic": "sensory_pathways_and_somatic_nervous_system",
-    "subtopic": "Sensory vs Motor",
+    "subtopic": "Afferent Division",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Some sensory signals are received by third order neurons in the _____ and are passed on to the cerebrum for perception. Others are never perceived, but are instead only sensed and acted on at the subconscious level.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "thalamus",
+      "hypothalamus",
+      "cerebellum",
+      "medulla oblongata"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-11-006",
     "subject": "anatomy_physiology",
     "topic": "sensory_pathways_and_somatic_nervous_system",
-    "subtopic": "Sensory vs Motor",
+    "subtopic": "Afferent Division",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Perception occurs in the _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "cerebral cortex",
+      "thalamus",
+      "cerebellum",
+      "spinal cord"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-11-007",
     "subject": "anatomy_physiology",
     "topic": "sensory_pathways_and_somatic_nervous_system",
-    "subtopic": "Sensory vs Motor",
+    "subtopic": "Afferent Division",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Signals carrying information regarding odors are carried to the brain via cranial nerve # _____, the _____ nerve.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "1; olfactory",
+      "2; optic",
+      "7; facial",
+      "9; glossopharyngeal"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-11-008",
     "subject": "anatomy_physiology",
     "topic": "sensory_pathways_and_somatic_nervous_system",
-    "subtopic": "Sensory vs Motor",
+    "subtopic": "Afferent Division",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Visual signals are carried to the brain via cranial nerve # _____, the _____ nerve.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "2; optic",
+      "1; olfactory",
+      "3; oculomotor",
+      "8; vestibulocochlear"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-11-009",
     "subject": "anatomy_physiology",
     "topic": "sensory_pathways_and_somatic_nervous_system",
-    "subtopic": "Sensory vs Motor",
+    "subtopic": "Afferent Division",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Cranial nerve # _____, the _____ nerve, controls several of the muscles needed for speech, chewing, and swallowing, as well as carrying sensory information from the face, scalp, and mandibles. (Two of its three branches innervate the teeth.)",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "5; trigeminal",
+      "7; facial",
+      "9; glossopharyngeal",
+      "12; hypoglossal"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-11-010",
     "subject": "anatomy_physiology",
     "topic": "sensory_pathways_and_somatic_nervous_system",
-    "subtopic": "Sensory vs Motor",
+    "subtopic": "Afferent Division",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Cranial nerve # _____, the _____ nerve, carries sensations needed for hearing and maintaining balance.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "8; vestibulocochlear",
+      "7; facial",
+      "9; glossopharyngeal",
+      "5; trigeminal"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-11-011",
     "subject": "anatomy_physiology",
     "topic": "sensory_pathways_and_somatic_nervous_system",
-    "subtopic": "Sensory Receptors",
+    "subtopic": "Afferent Division",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Cranial nerve # _____, the _____ nerve, is involved in taste and carries sensory signals from the tongue, middle ear, and pharynx. It also assists in monitoring blood pressure and blood gas concentrations by carrying information received from receptors in the carotid arteries.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "9; glossopharyngeal",
+      "7; facial",
+      "10; vagus",
+      "12; hypoglossal"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-11-012",
     "subject": "anatomy_physiology",
     "topic": "sensory_pathways_and_somatic_nervous_system",
-    "subtopic": "Sensory Receptors",
+    "subtopic": "Afferent Division",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "_____ is pain arising from the viscera which is perceived to be in a different location. This is thought to be because visceral afferents travel the same pathways as somatic afferents.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "Referred pain",
+      "Phantom pain",
+      "Somatic pain",
+      "Neuropathic pain"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-11-013",
     "subject": "anatomy_physiology",
     "topic": "sensory_pathways_and_somatic_nervous_system",
-    "subtopic": "Sensory Receptors",
+    "subtopic": "Afferent Division",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Unexplained pain in areas of the body not normally considered to be likely to give rise to life threatening problems (for example, the left arm) should be treated seriously because it may be _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "referred pain from a vital organ such as the heart",
+      "phantom pain from an amputated limb",
+      "psychosomatic pain with no physical cause",
+      "delayed-onset muscle soreness"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-11-014",
     "subject": "anatomy_physiology",
     "topic": "sensory_pathways_and_somatic_nervous_system",
-    "subtopic": "Sensory Receptors",
+    "subtopic": "Efferent Division",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Cranial nerve # _____, the _____ nerve, is primarily a motor nerve: it controls the eyelid, four of the six extrinsic muscles which move the eye, and also resizes the iris and focuses the lens.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "3; oculomotor",
+      "4; trochlear",
+      "6; abducens",
+      "2; optic"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-11-015",
     "subject": "anatomy_physiology",
     "topic": "sensory_pathways_and_somatic_nervous_system",
-    "subtopic": "Sensory Receptors",
+    "subtopic": "Efferent Division",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Cranial nerve # _____, the _____ nerve, innervates only one of the six muscles which move the eye, the superior oblique muscle.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "4; trochlear",
+      "3; oculomotor",
+      "6; abducens",
+      "11; accessory"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-11-016",
     "subject": "anatomy_physiology",
     "topic": "sensory_pathways_and_somatic_nervous_system",
-    "subtopic": "Sensory Receptors",
+    "subtopic": "Efferent Division",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Cranial nerve # _____, the _____ nerve, innervates the muscles of the eye which abduct the eyeballs.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "6; abducens",
+      "4; trochlear",
+      "3; oculomotor",
+      "2; optic"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-11-017",
     "subject": "anatomy_physiology",
     "topic": "sensory_pathways_and_somatic_nervous_system",
-    "subtopic": "Sensory Receptors",
+    "subtopic": "Efferent Division",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Sensations of taste and the ability to control facial expression are provided by cranial nerve # _____, the _____ nerve. It also helps with swallowing and controls the tear glands and two sets of salivary glands.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "7; facial",
+      "5; trigeminal",
+      "9; glossopharyngeal",
+      "12; hypoglossal"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-11-018",
     "subject": "anatomy_physiology",
     "topic": "sensory_pathways_and_somatic_nervous_system",
-    "subtopic": "Sensory Receptors",
+    "subtopic": "Efferent Division",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Cranial nerve # _____, the _____ nerve, is the only cranial nerve to extend below the neck. It innervates the throat and mouth as well as thoracic and abdominal organs.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "10; vagus",
+      "9; glossopharyngeal",
+      "11; accessory",
+      "5; trigeminal"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-11-019",
     "subject": "anatomy_physiology",
     "topic": "sensory_pathways_and_somatic_nervous_system",
-    "subtopic": "Sensory Receptors",
+    "subtopic": "Efferent Division",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Cranial nerve # _____, the _____ nerve, is the only 'cranial' nerve to include a spinal root. It innervates the larynx, pharynx, and several muscles of the neck.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "11; accessory",
+      "10; vagus",
+      "12; hypoglossal",
+      "7; facial"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-11-020",
     "subject": "anatomy_physiology",
     "topic": "sensory_pathways_and_somatic_nervous_system",
-    "subtopic": "Sensory Receptors",
+    "subtopic": "Efferent Division",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Cranial nerve # _____, the _____ nerve, allows tongue movement during eating and speaking.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "12; hypoglossal",
+      "11; accessory",
+      "9; glossopharyngeal",
+      "5; trigeminal"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-11-021",
     "subject": "anatomy_physiology",
     "topic": "sensory_pathways_and_somatic_nervous_system",
-    "subtopic": "Afferent Division",
+    "subtopic": "Efferent Division",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "In the _____ nervous system, efferent neurons extend their axons directly from the CNS to the effector.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "somatic",
+      "autonomic",
+      "sympathetic",
+      "parasympathetic"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-11-022",
     "subject": "anatomy_physiology",
     "topic": "sensory_pathways_and_somatic_nervous_system",
-    "subtopic": "Afferent Division",
+    "subtopic": "Sensory Receptors",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "_____ are sensitive to changes in temperature.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "Thermoreceptors",
+      "Mechanoreceptors",
+      "Chemoreceptors",
+      "Nociceptors"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-11-023",
     "subject": "anatomy_physiology",
     "topic": "sensory_pathways_and_somatic_nervous_system",
-    "subtopic": "Afferent Division",
+    "subtopic": "Sensory Receptors",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "_____ respond to light energy; in humans, these are found in the retina.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "Photoreceptors",
+      "Chemoreceptors",
+      "Mechanoreceptors",
+      "Thermoreceptors"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-11-024",
     "subject": "anatomy_physiology",
     "topic": "sensory_pathways_and_somatic_nervous_system",
-    "subtopic": "Afferent Division",
+    "subtopic": "Sensory Receptors",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "_____ respond to chemicals, and are used in our senses of smell and taste and to detect changes in blood chemistry.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "Chemoreceptors",
+      "Photoreceptors",
+      "Mechanoreceptors",
+      "Nociceptors"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-11-025",
     "subject": "anatomy_physiology",
     "topic": "sensory_pathways_and_somatic_nervous_system",
-    "subtopic": "Afferent Division",
+    "subtopic": "Sensory Receptors",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "_____ are receptors that are dedicated to sensing pain.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "Nociceptors",
+      "Mechanoreceptors",
+      "Thermoreceptors",
+      "Chemoreceptors"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-11-026",
     "subject": "anatomy_physiology",
     "topic": "sensory_pathways_and_somatic_nervous_system",
-    "subtopic": "Afferent Division",
+    "subtopic": "Sensory Receptors",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Receptors near the body's surface which respond to changes in the external environment are called _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "exteroceptors",
+      "interoceptors",
+      "proprioceptors",
+      "nociceptors"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-11-027",
     "subject": "anatomy_physiology",
     "topic": "sensory_pathways_and_somatic_nervous_system",
-    "subtopic": "Afferent Division",
+    "subtopic": "Sensory Receptors",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "_____ are receptors in internal viscera and blood vessels which sense chemical changes, temperature, and other factors necessary to maintain homeostasis.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "Interoceptors",
+      "Exteroceptors",
+      "Proprioceptors",
+      "Nociceptors"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-11-028",
     "subject": "anatomy_physiology",
     "topic": "sensory_pathways_and_somatic_nervous_system",
-    "subtopic": "Afferent Division",
+    "subtopic": "Sensory Receptors",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "_____ are receptors which are found in skeletal muscles, tendons, joints, ligaments, etc., which allow us to sense the position of the body.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "Proprioceptors",
+      "Interoceptors",
+      "Exteroceptors",
+      "Chemoreceptors"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-11-029",
     "subject": "anatomy_physiology",
     "topic": "sensory_pathways_and_somatic_nervous_system",
-    "subtopic": "Afferent Division",
+    "subtopic": "Sensory Receptors",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Free nerve endings are responsible for detecting _____, _____, _____, _____ and _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "pain, temperature, itch, joint movement, proprioception",
+      "deep pressure and vibration",
+      "light pressure and texture",
+      "muscle and tendon stretch"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-11-030",
     "subject": "anatomy_physiology",
     "topic": "sensory_pathways_and_somatic_nervous_system",
-    "subtopic": "Afferent Division",
+    "subtopic": "Sensory Receptors",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Merkel disks respond to _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "light pressure",
+      "deep pressure",
+      "vibration",
+      "temperature"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-11-031",
     "subject": "anatomy_physiology",
     "topic": "sensory_pathways_and_somatic_nervous_system",
-    "subtopic": "Efferent Division",
+    "subtopic": "Sensory Receptors",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Hair follicle receptors are responsible for detecting _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "light touch (hair deflection)",
+      "deep pressure",
+      "pain",
+      "vibration"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-11-032",
     "subject": "anatomy_physiology",
     "topic": "sensory_pathways_and_somatic_nervous_system",
-    "subtopic": "Efferent Division",
+    "subtopic": "Sensory Receptors",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Meissner's corpuscles are responsible for detecting _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "light pressure and texture",
+      "deep pressure and vibration",
+      "pain and temperature",
+      "muscle stretch"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-11-033",
     "subject": "anatomy_physiology",
     "topic": "sensory_pathways_and_somatic_nervous_system",
-    "subtopic": "Efferent Division",
+    "subtopic": "Sensory Receptors",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Pacinian corpuscles are responsible for detecting _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "deep pressure",
+      "light pressure",
+      "temperature",
+      "itch"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-11-034",
     "subject": "anatomy_physiology",
     "topic": "sensory_pathways_and_somatic_nervous_system",
-    "subtopic": "Efferent Division",
+    "subtopic": "Sensory Receptors",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Ruffini's corpuscles are responsible for detecting _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "deep pressure or stretch",
+      "light touch",
+      "pain",
+      "temperature"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-11-035",
     "subject": "anatomy_physiology",
     "topic": "sensory_pathways_and_somatic_nervous_system",
-    "subtopic": "Efferent Division",
+    "subtopic": "Sensory Receptors",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Muscle spindles are responsible for detecting _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "muscle stretch",
+      "tendon stretch",
+      "deep pressure",
+      "vibration"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-11-036",
     "subject": "anatomy_physiology",
     "topic": "sensory_pathways_and_somatic_nervous_system",
-    "subtopic": "Efferent Division",
+    "subtopic": "Sensory Receptors",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Golgi tendon organs are responsible for detecting _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "tendon stretch",
+      "muscle stretch",
+      "skin stretch",
+      "joint pressure"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-11-037",
     "subject": "anatomy_physiology",
     "topic": "sensory_pathways_and_somatic_nervous_system",
-    "subtopic": "Efferent Division",
+    "subtopic": "Sensory Receptors",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "A generator potential is a(n) _____ potential and so depends on the strength of the stimulus.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "graded",
+      "action",
+      "resting",
+      "equilibrium"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-11-038",
     "subject": "anatomy_physiology",
     "topic": "sensory_pathways_and_somatic_nervous_system",
-    "subtopic": "Efferent Division",
+    "subtopic": "Sensory Receptors",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "In receptors that are capable of adaptation, an unchanging stimulus leads to a(n) _____ response.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "decreasing and eventually absent",
+      "steadily increasing",
+      "constant and unchanging",
+      "rapidly oscillating"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-11-039",
     "subject": "anatomy_physiology",
     "topic": "sensory_pathways_and_somatic_nervous_system",
-    "subtopic": "Efferent Division",
+    "subtopic": "Sensory Receptors",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "With age, the number of general sensory receptors such as Meissner's corpuscles and Pacinian corpuscles _____",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "decreases",
+      "increases",
+      "remains unchanged",
+      "first increases, then decreases"
     ],
-    "answer_index": 1
-  },
-  {
-    "id": "bio-anat-11-040",
-    "subject": "anatomy_physiology",
-    "topic": "sensory_pathways_and_somatic_nervous_system",
-    "subtopic": "Efferent Division",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "Question",
-    "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "answer_index": 1
+    "answer_index": 0
   }
 ]

@@ -3,2672 +3,3744 @@
     "id": "bio-anat-07-001",
     "subject": "anatomy_physiology",
     "topic": "muscular_system",
-    "subtopic": "Muscle Functions",
+    "subtopic": "Appendicular Muscles",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Contraction of the entire _____ pulls a tuberosity of the humerus toward the clavicle and scapula.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "deltoid",
+      "pectoralis major",
+      "trapezius",
+      "supraspinatus"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-07-002",
     "subject": "anatomy_physiology",
     "topic": "muscular_system",
-    "subtopic": "Muscle Functions",
+    "subtopic": "Appendicular Muscles",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "For abduction beyond horizontal (to bring arm above head) the _____ and _____ must raise and rotate the scapula, so that the glenoid cavity faces upward.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "trapezius; serratus anterior",
+      "rhomboids; pectoralis minor",
+      "deltoid; supraspinatus",
+      "levator scapulae; latissimus dorsi"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-07-003",
     "subject": "anatomy_physiology",
     "topic": "muscular_system",
-    "subtopic": "Muscle Functions",
+    "subtopic": "Appendicular Muscles",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The _____ and _____ act together to pull the intertubercular groove of the humerus toward the ribcage: one pulls toward the front, and the other toward the back.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "pectoralis major; latissimus dorsi",
+      "deltoid; trapezius",
+      "biceps brachii; triceps brachii",
+      "serratus anterior; rhomboids"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-07-004",
     "subject": "anatomy_physiology",
     "topic": "muscular_system",
-    "subtopic": "Skeletal Muscle Structure",
+    "subtopic": "Appendicular Muscles",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The ____ portion of the _____ is used to flex the shoulder from the adducted position by pulling the humerus upward, toward the clavicle.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "anterior; deltoid",
+      "posterior; deltoid",
+      "anterior; trapezius",
+      "middle; deltoid"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-07-005",
     "subject": "anatomy_physiology",
     "topic": "muscular_system",
-    "subtopic": "Skeletal Muscle Structure",
+    "subtopic": "Appendicular Muscles",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The _____ flexes the shoulder from the abducted position by pulling the intertubercular groove of the humerus toward the sternum.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "pectoralis major",
+      "latissimus dorsi",
+      "anterior deltoid",
+      "coracobrachialis"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-07-006",
     "subject": "anatomy_physiology",
     "topic": "muscular_system",
-    "subtopic": "Skeletal Muscle Structure",
+    "subtopic": "Appendicular Muscles",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The _____ extends the shoulder by pulling the intertubercular groove of the humerus toward the vertebral column.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "latissimus dorsi",
+      "pectoralis major",
+      "deltoid",
+      "biceps brachii"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-07-007",
     "subject": "anatomy_physiology",
     "topic": "muscular_system",
-    "subtopic": "Skeletal Muscle Structure",
+    "subtopic": "Appendicular Muscles",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The tendon connecting the _____ to its insertion (on the lesser tubercle of the humerus) wraps around the humerus from front toward back, so that contraction spins the humerus medially.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "subscapularis",
+      "infraspinatus",
+      "supraspinatus",
+      "teres minor"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-07-008",
     "subject": "anatomy_physiology",
     "topic": "muscular_system",
-    "subtopic": "Skeletal Muscle Structure",
+    "subtopic": "Appendicular Muscles",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The tendons of the _____ and _____ wrap the humerus from back toward front, so that contraction rotates the humerus laterally.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "teres minor; infraspinatus",
+      "subscapularis; supraspinatus",
+      "teres major; subscapularis",
+      "supraspinatus; deltoid"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-07-009",
     "subject": "anatomy_physiology",
     "topic": "muscular_system",
-    "subtopic": "Skeletal Muscle Structure",
+    "subtopic": "Appendicular Muscles",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The upper fascicles of the _____ allow us to shrug by pulling the scapula toward the cervical vertebrae.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "trapezius",
+      "levator scapulae",
+      "rhomboid major",
+      "serratus anterior"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-07-010",
     "subject": "anatomy_physiology",
     "topic": "muscular_system",
-    "subtopic": "Skeletal Muscle Structure",
+    "subtopic": "Appendicular Muscles",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The _____ pulls the radial tuberosity of the radius toward the shoulder, flexing the elbow. Its leverage is reduced dramatically if the forearm is _____, since in this position the radial tuberosity faces away from the shoulder.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "biceps brachii; pronated",
+      "biceps brachii; supinated",
+      "brachialis; pronated",
+      "triceps brachii; supinated"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-07-011",
     "subject": "anatomy_physiology",
     "topic": "muscular_system",
-    "subtopic": "Skeletal Muscle Structure",
+    "subtopic": "Appendicular Muscles",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The _____ pulls the coronoid process of the ulna toward the humerus, thus flexing the elbow.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "brachialis",
+      "biceps brachii",
+      "brachioradialis",
+      "triceps brachii"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-07-012",
     "subject": "anatomy_physiology",
     "topic": "muscular_system",
-    "subtopic": "Skeletal Muscle Structure",
+    "subtopic": "Appendicular Muscles",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "If the forearm is pronated, the _____ and _____ are the prime movers in elbow flexion: the biceps brachii cannot contribute much force.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "brachioradialis; brachialis",
+      "biceps brachii; brachialis",
+      "brachioradialis; biceps brachii",
+      "pronator teres; supinator"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-07-013",
     "subject": "anatomy_physiology",
     "topic": "muscular_system",
-    "subtopic": "Skeletal Muscle Structure",
+    "subtopic": "Appendicular Muscles",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The _____ extends the forearm by pulling the olecranon process toward the superior, posterior shaft of the humerus and toward the scapula.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "triceps brachii",
+      "biceps brachii",
+      "brachialis",
+      "brachioradialis"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-07-014",
     "subject": "anatomy_physiology",
     "topic": "muscular_system",
-    "subtopic": "The Neuromuscular Junction",
+    "subtopic": "Appendicular Muscles",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The _____ wraps around the radius, originating at the lateral epicondyle of the humerus. Contraction rotates the radius.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "supinator",
+      "pronator teres",
+      "pronator quadratus",
+      "brachioradialis"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-07-015",
     "subject": "anatomy_physiology",
     "topic": "muscular_system",
-    "subtopic": "The Neuromuscular Junction",
+    "subtopic": "Appendicular Muscles",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The _____ in the arm is also a powerful supinator, since its insertion (the radial tuberosity) is rotated to face the shoulder when this muscle contracts.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "biceps brachii",
+      "brachialis",
+      "brachioradialis",
+      "triceps brachii"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-07-016",
     "subject": "anatomy_physiology",
     "topic": "muscular_system",
-    "subtopic": "The Neuromuscular Junction",
+    "subtopic": "Appendicular Muscles",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The _____ pulls the front of the radius toward the front of the ulna.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "pronator quadratus",
+      "pronator teres",
+      "supinator",
+      "brachioradialis"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-07-017",
     "subject": "anatomy_physiology",
     "topic": "muscular_system",
-    "subtopic": "The Neuromuscular Junction",
+    "subtopic": "Appendicular Muscles",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The _____ pull the bones of the wrist and hand toward the medial epicondyle of the humerus.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "flexor carpi radialis; flexor carpi ulnaris; flexor digitorum superficialis",
+      "flexor carpi radialis; flexor carpi ulnaris; flexor digitorum profundus",
+      "extensor carpi radialis longus; extensor carpi ulnaris; extensor digitorum",
+      "palmaris longus; pronator teres; brachioradialis"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-07-018",
     "subject": "anatomy_physiology",
     "topic": "muscular_system",
-    "subtopic": "The Neuromuscular Junction",
+    "subtopic": "Appendicular Muscles",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The _____ pulls the posterior surfaces of several bones of the hand toward the lateral epicondyle of the humerus, resulting in both finger and wrist extension. (Other extensors also contribute to wrist extension.)",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "extensor digitorum",
+      "extensor carpi ulnaris",
+      "flexor digitorum superficialis",
+      "extensor indicis"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-07-019",
     "subject": "anatomy_physiology",
     "topic": "muscular_system",
-    "subtopic": "The Neuromuscular Junction",
+    "subtopic": "Appendicular Muscles",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The flexor carpi radialis, extensor carpi radialis longus, extensor carpi radialis brevis and abductor pollicis longus all contribute to _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "abduction of the wrist",
+      "adduction of the wrist",
+      "flexion of the wrist",
+      "extension of the wrist"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-07-020",
     "subject": "anatomy_physiology",
     "topic": "muscular_system",
-    "subtopic": "The Neuromuscular Junction",
+    "subtopic": "Appendicular Muscles",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The _____ and _____ contribute to adduction of the wrist.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "flexor carpi ulnaris; extensor carpi ulnaris",
+      "flexor carpi radialis; extensor carpi radialis longus",
+      "flexor digitorum superficialis; extensor digitorum",
+      "palmaris longus; extensor indicis"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-07-021",
     "subject": "anatomy_physiology",
     "topic": "muscular_system",
-    "subtopic": "The Neuromuscular Junction",
+    "subtopic": "Appendicular Muscles",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The _____ and _____ both flex the fingers.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "flexor digitorum superficialis; flexor digitorum profundus",
+      "flexor carpi radialis; flexor carpi ulnaris",
+      "flexor pollicis longus; palmaris longus",
+      "extensor digitorum; extensor indicis"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-07-022",
     "subject": "anatomy_physiology",
     "topic": "muscular_system",
-    "subtopic": "The Neuromuscular Junction",
+    "subtopic": "Appendicular Muscles",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The _____ flexes the pollex (thumb).",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "flexor pollicis longus",
+      "flexor digitorum profundus",
+      "flexor hallucis longus",
+      "abductor pollicis longus"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-07-023",
     "subject": "anatomy_physiology",
     "topic": "muscular_system",
-    "subtopic": "The Neuromuscular Junction",
+    "subtopic": "Appendicular Muscles",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Flexors are on the _____ of the forearm.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "anterior",
+      "posterior",
+      "lateral",
+      "medial"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-07-024",
     "subject": "anatomy_physiology",
     "topic": "muscular_system",
-    "subtopic": "Excitation-Contraction Coupling",
+    "subtopic": "Appendicular Muscles",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The _____ and _____ extend the fingers.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "extensor digitorum; extensor indicis",
+      "extensor pollicis longus; extensor pollicis brevis",
+      "flexor digitorum superficialis; flexor digitorum profundus",
+      "extensor carpi radialis longus; extensor carpi ulnaris"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-07-025",
     "subject": "anatomy_physiology",
     "topic": "muscular_system",
-    "subtopic": "Excitation-Contraction Coupling",
+    "subtopic": "Appendicular Muscles",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The _____ and _____ extend the pollex (thumb).",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "extensor pollicis longus; extensor pollicis brevis",
+      "abductor pollicis longus; flexor pollicis longus",
+      "extensor digitorum; extensor indicis",
+      "extensor carpi radialis longus; extensor carpi radialis brevis"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-07-026",
     "subject": "anatomy_physiology",
     "topic": "muscular_system",
-    "subtopic": "Excitation-Contraction Coupling",
+    "subtopic": "Appendicular Muscles",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Extensors are on the _____ of the forearm.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "posterior",
+      "anterior",
+      "lateral",
+      "medial"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-07-027",
     "subject": "anatomy_physiology",
     "topic": "muscular_system",
-    "subtopic": "Excitation-Contraction Coupling",
+    "subtopic": "Appendicular Muscles",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Abduction of the thumb is accomplished by the _____ in the forearm, as well as by several muscles _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "abductor pollicis longus; in the hand itself",
+      "extensor pollicis brevis; in the forearm",
+      "flexor pollicis longus; in the wrist",
+      "adductor pollicis; in the hand itself"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-07-028",
     "subject": "anatomy_physiology",
     "topic": "muscular_system",
-    "subtopic": "Excitation-Contraction Coupling",
+    "subtopic": "Appendicular Muscles",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Abduction and adduction of the other fingers is accomplished by _____. (Details are beyond the scope of this question bank.)",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "muscles in the hand",
+      "muscles in the anterior forearm",
+      "muscles in the posterior forearm",
+      "muscles in the arm"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-07-029",
     "subject": "anatomy_physiology",
     "topic": "muscular_system",
-    "subtopic": "Excitation-Contraction Coupling",
+    "subtopic": "Appendicular Muscles",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The _____ pulls the femur toward the iliac crest, sacrum, and lumbar vertebrae, thus flexing the hip.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "iliopsoas",
+      "gluteus maximus",
+      "rectus femoris",
+      "sartorius"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-07-030",
     "subject": "anatomy_physiology",
     "topic": "muscular_system",
-    "subtopic": "Excitation-Contraction Coupling",
+    "subtopic": "Appendicular Muscles",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The _____ pulls the femur toward the dorsal ilium, sacrum, and coccyx, extending the hip.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "gluteus maximus",
+      "gluteus medius",
+      "iliopsoas",
+      "biceps femoris"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-07-031",
     "subject": "anatomy_physiology",
     "topic": "muscular_system",
-    "subtopic": "Excitation-Contraction Coupling",
+    "subtopic": "Appendicular Muscles",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The _____ pull the fibula and tibia toward the ischial tuberosity of the os coxa; with the knee locked, this extends the hip.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "hamstrings",
+      "quadriceps femoris",
+      "hip adductors",
+      "triceps surae"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-07-032",
     "subject": "anatomy_physiology",
     "topic": "muscular_system",
-    "subtopic": "Excitation-Contraction Coupling",
+    "subtopic": "Appendicular Muscles",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The _____ pulls the greater trochanter of the femur toward the iliac crest, abducting the thigh.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "gluteus medius",
+      "gluteus maximus",
+      "adductor magnus",
+      "iliopsoas"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-07-033",
     "subject": "anatomy_physiology",
     "topic": "muscular_system",
-    "subtopic": "Excitation-Contraction Coupling",
+    "subtopic": "Appendicular Muscles",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The _____, _____, and _____, together with the _____, pull the medial surface of the femur toward the pubis, thus adducting the thigh.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "adductor longus; adductor brevis; adductor magnus; pectineus",
+      "adductor longus; adductor brevis; adductor magnus; sartorius",
+      "gluteus medius; gluteus minimus; tensor fasciae latae; pectineus",
+      "vastus medialis; gracilis; sartorius; iliopsoas"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-07-034",
     "subject": "anatomy_physiology",
     "topic": "muscular_system",
-    "subtopic": "Cross-Bridge Cycling",
+    "subtopic": "Appendicular Muscles",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The _____ pulls the medial surface of the tibia toward the pubis, thus adducting the thigh.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "gracilis",
+      "sartorius",
+      "pectineus",
+      "adductor magnus"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-07-035",
     "subject": "anatomy_physiology",
     "topic": "muscular_system",
-    "subtopic": "Cross-Bridge Cycling",
+    "subtopic": "Appendicular Muscles",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Medial rotation is accomplished by the same muscles that _____ the thigh, together with the _____ and _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "adduct; gluteus medius; gluteus minimus",
+      "abduct; gluteus maximus; piriformis",
+      "adduct; gluteus maximus; obturator internus",
+      "flex; iliopsoas; sartorius"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-07-036",
     "subject": "anatomy_physiology",
     "topic": "muscular_system",
-    "subtopic": "Cross-Bridge Cycling",
+    "subtopic": "Appendicular Muscles",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "A group of muscles in the posterior of the upper thigh and hip, the sartorius in the anterior thigh, and the popliteus in the back of the knee work together to _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "laterally rotate the thigh",
+      "medially rotate the thigh",
+      "abduct the thigh",
+      "extend the knee"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-07-037",
     "subject": "anatomy_physiology",
     "topic": "muscular_system",
-    "subtopic": "Cross-Bridge Cycling",
+    "subtopic": "Appendicular Muscles",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Prior to knee flexion, the _____ rotates the tibia medially relative to the femur, unlocking the knee.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "popliteus",
+      "plantaris",
+      "gastrocnemius",
+      "tibialis posterior"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-07-038",
     "subject": "anatomy_physiology",
     "topic": "muscular_system",
-    "subtopic": "Cross-Bridge Cycling",
+    "subtopic": "Appendicular Muscles",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The _____, _____ and _____ flex the knee. Together, these three muscles are called the _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "biceps femoris, semitendinosus, semimembranosus; hamstrings",
+      "vastus lateralis, vastus medialis, vastus intermedius; quadriceps",
+      "gastrocnemius, soleus, plantaris; triceps surae",
+      "gracilis, sartorius, pectineus; adductor group"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-07-039",
     "subject": "anatomy_physiology",
     "topic": "muscular_system",
-    "subtopic": "Cross-Bridge Cycling",
+    "subtopic": "Appendicular Muscles",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The _____, _____ and _____ pull the tibial tuberosity toward the proximal femur, extending the knee.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "vastus lateralis; vastus intermedius; vastus medialis",
+      "biceps femoris; semitendinosus; semimembranosus",
+      "rectus femoris; sartorius; gracilis",
+      "gluteus maximus; gluteus medius; gluteus minimus"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-07-040",
     "subject": "anatomy_physiology",
     "topic": "muscular_system",
-    "subtopic": "Cross-Bridge Cycling",
+    "subtopic": "Appendicular Muscles",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The _____ pulls the tibial tuberosity toward the ilium, extending the knee.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "rectus femoris",
+      "vastus intermedius",
+      "sartorius",
+      "biceps femoris"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-07-041",
     "subject": "anatomy_physiology",
     "topic": "muscular_system",
-    "subtopic": "Cross-Bridge Cycling",
+    "subtopic": "Appendicular Muscles",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The four muscles which together constitute the quadriceps are the _____, _____, _____ and _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "vastus lateralis; vastus intermedius; vastus medialis; rectus femoris",
+      "vastus lateralis; vastus medialis; rectus femoris; sartorius",
+      "biceps femoris; semitendinosus; semimembranosus; gracilis",
+      "rectus femoris; vastus lateralis; gracilis; pectineus"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-07-042",
     "subject": "anatomy_physiology",
     "topic": "muscular_system",
-    "subtopic": "Cross-Bridge Cycling",
+    "subtopic": "Appendicular Muscles",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The _____ pulls the calcaneus toward the distal end of the femur, plantar flexing the ankle. It is most powerful when the knee is straight.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "gastrocnemius",
+      "soleus",
+      "tibialis posterior",
+      "fibularis longus"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-07-043",
     "subject": "anatomy_physiology",
     "topic": "muscular_system",
-    "subtopic": "Cross-Bridge Cycling",
+    "subtopic": "Appendicular Muscles",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The _____ pulls the calcaneus toward the proximal ends of the tibia and fibula, plantar flexing the ankle.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "soleus",
+      "gastrocnemius",
+      "plantaris",
+      "tibialis anterior"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-07-044",
     "subject": "anatomy_physiology",
     "topic": "muscular_system",
-    "subtopic": "Muscle Tension",
+    "subtopic": "Appendicular Muscles",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Together, the gastrocnemius and soleus muscles are known as the _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "triceps surae",
+      "quadriceps femoris",
+      "hamstrings",
+      "fibularis group"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-07-045",
     "subject": "anatomy_physiology",
     "topic": "muscular_system",
-    "subtopic": "Muscle Tension",
+    "subtopic": "Appendicular Muscles",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The _____ pulls the foot toward the lateral tibial condyle and proximal tibia, dorsiflexing the ankle.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "tibialis anterior",
+      "tibialis posterior",
+      "fibularis longus",
+      "flexor digitorum longus"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-07-046",
     "subject": "anatomy_physiology",
     "topic": "muscular_system",
-    "subtopic": "Muscle Tension",
+    "subtopic": "Appendicular Muscles",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The _____ pulls the medial edge of the foot toward the superior tibia and fibula via a tendon adjacent to the medial malleolus, inverting the foot.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "tibialis posterior",
+      "tibialis anterior",
+      "fibularis brevis",
+      "extensor hallucis longus"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-07-047",
     "subject": "anatomy_physiology",
     "topic": "muscular_system",
-    "subtopic": "Muscle Tension",
+    "subtopic": "Appendicular Muscles",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The _____, _____ and _____ pull the lateral edge of the foot toward the lateral surface of the fibula, everting the foot.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "fibularis longus; fibularis brevis; fibularis tertius",
+      "tibialis anterior; tibialis posterior; plantaris",
+      "extensor digitorum longus; extensor hallucis longus; fibularis longus",
+      "gastrocnemius; soleus; plantaris"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-07-048",
     "subject": "anatomy_physiology",
     "topic": "muscular_system",
-    "subtopic": "Muscle Tension",
+    "subtopic": "Appendicular Muscles",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The four smaller toes are flexed by the action of the _____, whose tendon passes through a fibrous band at the ankle which serves as a pulley before reaching the toes.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "flexor digitorum longus",
+      "flexor hallucis longus",
+      "extensor digitorum longus",
+      "tibialis posterior"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-07-049",
     "subject": "anatomy_physiology",
     "topic": "muscular_system",
-    "subtopic": "Muscle Tension",
+    "subtopic": "Appendicular Muscles",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The hallux (great toe) is flexed by the _____, whose tendon passes through a fibrous band at the ankle which serves as a pulley before reaching the toes..",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "flexor hallucis longus",
+      "flexor digitorum longus",
+      "extensor hallucis longus",
+      "flexor pollicis longus"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-07-050",
     "subject": "anatomy_physiology",
     "topic": "muscular_system",
-    "subtopic": "Muscle Tension",
+    "subtopic": "Appendicular Muscles",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Several muscles in _____ also play a role in toe flexion.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "the foot itself",
+      "the anterior compartment of the leg",
+      "the posterior thigh",
+      "the hip"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-07-051",
     "subject": "anatomy_physiology",
     "topic": "muscular_system",
-    "subtopic": "Muscle Tension",
+    "subtopic": "Appendicular Muscles",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The four smaller toes are extended by the action of the _____, whose tendon passes through a fibrous band at the ankle which serves as a pulley before reaching the toes.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "extensor digitorum longus",
+      "extensor hallucis longus",
+      "flexor digitorum longus",
+      "fibularis tertius"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-07-052",
     "subject": "anatomy_physiology",
     "topic": "muscular_system",
-    "subtopic": "Muscle Tension",
+    "subtopic": "Appendicular Muscles",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The hallux (great toe) is extended by the _____, whose tendon passes through a fibrous band at the ankle which serves as a pulley before reaching the toes.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "extensor hallucis longus",
+      "extensor digitorum longus",
+      "flexor hallucis longus",
+      "extensor pollicis longus"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-07-053",
     "subject": "anatomy_physiology",
     "topic": "muscular_system",
-    "subtopic": "Muscle Tension",
+    "subtopic": "Appendicular Muscles",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Abduction and adduction of the toes is accomplished by _____: although important, these are beyond the scope of this question bank.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "muscles in the foot",
+      "muscles in the anterior leg",
+      "muscles in the posterior leg",
+      "muscles in the thigh"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-07-054",
     "subject": "anatomy_physiology",
     "topic": "muscular_system",
-    "subtopic": "Muscle Energy & Recovery",
+    "subtopic": "Appendicular Muscles",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The most important function of the supraspinatus, infraspinatus, teres minor, and subscapularis is to prevent _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "dislocation of the humerus",
+      "fracture of the clavicle",
+      "winging of the scapula",
+      "hyperextension of the elbow"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-07-055",
     "subject": "anatomy_physiology",
     "topic": "muscular_system",
-    "subtopic": "Muscle Energy & Recovery",
+    "subtopic": "Appendicular Muscles",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The glenoid cavity is so shallow and the range of motion so great that the shoulder is held together primarily by the tendons of the muscles that surround it. The four muscles whose tendons contribute the most stability are together called the _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "rotator cuff",
+      "shoulder girdle",
+      "deltoid group",
+      "glenoid labrum"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-07-056",
     "subject": "anatomy_physiology",
     "topic": "muscular_system",
-    "subtopic": "Muscle Energy & Recovery",
+    "subtopic": "Appendicular Muscles",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The four muscles which comprise the rotator cuff are the _____, _____, _____ and _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "supraspinatus; infraspinatus; teres minor; subscapularis",
+      "supraspinatus; infraspinatus; teres major; subscapularis",
+      "deltoid; supraspinatus; teres minor; subscapularis",
+      "infraspinatus; teres major; deltoid; coracobrachialis"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-07-057",
     "subject": "anatomy_physiology",
     "topic": "muscular_system",
-    "subtopic": "Muscle Energy & Recovery",
+    "subtopic": "Axial Muscles",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The _____ protract the jaw. (They provide the \"front\" motion in grinding while chewing - contracting one side at a time helps produce side to side grinding as well.)",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "pterygoids",
+      "masseter",
+      "temporalis",
+      "buccinator"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-07-058",
     "subject": "anatomy_physiology",
     "topic": "muscular_system",
-    "subtopic": "Muscle Fiber Types",
+    "subtopic": "Axial Muscles",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The _____ pulls the coronoid process of the mandible toward the temple, deep to the zygomatic arch.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "temporalis",
+      "masseter",
+      "medial pterygoid",
+      "buccinator"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-07-059",
     "subject": "anatomy_physiology",
     "topic": "muscular_system",
-    "subtopic": "Muscle Fiber Types",
+    "subtopic": "Axial Muscles",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The temporalis _____ the jaw and also _____ it.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "retracts; elevates",
+      "protracts; depresses",
+      "depresses; retracts",
+      "elevates; protracts"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-07-060",
     "subject": "anatomy_physiology",
     "topic": "muscular_system",
-    "subtopic": "Muscle Fiber Types",
+    "subtopic": "Axial Muscles",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The _____ is the prime mover in jaw elevation: it pulls the ramus of the mandible toward the zygomatic arch.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "masseter",
+      "temporalis",
+      "lateral pterygoid",
+      "buccinator"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-07-061",
     "subject": "anatomy_physiology",
     "topic": "muscular_system",
-    "subtopic": "Muscle Fiber Types",
+    "subtopic": "Axial Muscles",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The _____ has two bellies held together by a tendon which runs through a fibrous loop on the hyoid.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "digastric",
+      "omohyoid",
+      "mylohyoid",
+      "stylohyoid"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-07-062",
     "subject": "anatomy_physiology",
     "topic": "muscular_system",
-    "subtopic": "Muscle Fiber Types",
+    "subtopic": "Axial Muscles",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Contraction of the _____ pulls the mandible down toward the hyoid, if movement of the hyoid is prevented by contraction of the _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "digastric; infrahyoid muscles",
+      "mylohyoid; suprahyoid muscles",
+      "digastric; suprahyoid muscles",
+      "geniohyoid; infrahyoid muscles"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-07-063",
     "subject": "anatomy_physiology",
     "topic": "muscular_system",
-    "subtopic": "Muscle Fiber Types",
+    "subtopic": "Axial Muscles",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The _____ (one on each side) pull the mastoid process of the skull toward the sternum and clavicle. When both contract together, they flex the neck.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "sternocleidomastoid muscles",
+      "splenius muscles",
+      "scalenes",
+      "trapezius"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-07-064",
     "subject": "anatomy_physiology",
     "topic": "muscular_system",
-    "subtopic": "Muscle Fiber Types",
+    "subtopic": "Axial Muscles",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The _____ pull the mastoid process and transverse processes of C2 to C4 toward the spinous processes of C7 through T6. If the muscles on both sides of the body contract together, the neck is extended or hyperextended.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "splenius muscles",
+      "sternocleidomastoid muscles",
+      "trapezius",
+      "erector spinae"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-07-065",
     "subject": "anatomy_physiology",
     "topic": "muscular_system",
-    "subtopic": "Muscle Fiber Types",
+    "subtopic": "Axial Muscles",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "If the scapulae are fixed, the _____ is also a powerful neck extensor.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "trapezius",
+      "splenius",
+      "levator scapulae",
+      "sternocleidomastoid"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-07-066",
     "subject": "anatomy_physiology",
     "topic": "muscular_system",
-    "subtopic": "Muscle Fiber Types",
+    "subtopic": "Axial Muscles",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Contracting the _____ on one side and the _____ on the other side results in head rotation.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "sternocleidomastoid; splenius",
+      "trapezius; sternocleidomastoid",
+      "splenius; erector spinae",
+      "scalenes; trapezius"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-07-067",
     "subject": "anatomy_physiology",
     "topic": "muscular_system",
-    "subtopic": "Muscle Fiber Types",
+    "subtopic": "Axial Muscles",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Unilateral contraction of the _____ rotates head away from contracting side.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "sternocleidomastoid",
+      "splenius",
+      "trapezius",
+      "scalenes"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-07-068",
     "subject": "anatomy_physiology",
     "topic": "muscular_system",
-    "subtopic": "Cardiac Muscle",
+    "subtopic": "Axial Muscles",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Unilateral contraction of the _____ muscles rotates head toward the contracting side.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "splenius",
+      "sternocleidomastoid",
+      "trapezius",
+      "scalenes"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-07-069",
     "subject": "anatomy_physiology",
     "topic": "muscular_system",
-    "subtopic": "Cardiac Muscle",
+    "subtopic": "Axial Muscles",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Contracting the _____ and the _____ on the same side results in tilting of the head toward that side.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "sternocleidomastoid; splenius",
+      "trapezius; splenius",
+      "sternocleidomastoid; erector spinae",
+      "scalenes; levator scapulae"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-07-070",
     "subject": "anatomy_physiology",
     "topic": "muscular_system",
-    "subtopic": "Cardiac Muscle",
+    "subtopic": "Axial Muscles",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Contracting the _____ on one side of the body and the _____ of the other rotates the thorax relative to the pelvis.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "external oblique; internal oblique",
+      "rectus abdominis; transversus abdominis",
+      "external oblique; rectus abdominis",
+      "transversus abdominis; internal oblique"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-07-071",
     "subject": "anatomy_physiology",
     "topic": "muscular_system",
-    "subtopic": "Cardiac Muscle",
+    "subtopic": "Axial Muscles",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The _____ pull posterior regions of the ribs toward the midline of the abdomen, the pubic crest, and relatively anterior portions of the iliac crest.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "external obliques",
+      "internal obliques",
+      "transversus abdominis",
+      "rectus abdominis"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-07-072",
     "subject": "anatomy_physiology",
     "topic": "muscular_system",
-    "subtopic": "Cardiac Muscle",
+    "subtopic": "Axial Muscles",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Portions of the _____ pull the anterior ribcage toward relatively posterior portions of the iliac crest, and the lumbar fascia.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "internal obliques",
+      "external obliques",
+      "transversus abdominis",
+      "rectus abdominis"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-07-073",
     "subject": "anatomy_physiology",
     "topic": "muscular_system",
-    "subtopic": "Cardiac Muscle",
+    "subtopic": "Axial Muscles",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The _____, a pair of segmented muscles, pulls the xiphoid process and costal cartilages of the ribs toward the pubic crest and symphysis, thereby flexing the lumbar vertebrae.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "rectus abdominis",
+      "external obliques",
+      "transversus abdominis",
+      "erector spinae"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-07-074",
     "subject": "anatomy_physiology",
     "topic": "muscular_system",
-    "subtopic": "Cardiac Muscle",
+    "subtopic": "Axial Muscles",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The _____ pull superior ribs and vertebral process toward relatively inferior vertebral processes and the dorsal iliac crests, extending the back. (There are several synergists nearby.) They are visible in the lumbar region: above this, they are deep to other muscles.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "erector spinae",
+      "quadratus lumborum",
+      "latissimus dorsi",
+      "rectus abdominis"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-07-075",
     "subject": "anatomy_physiology",
     "topic": "muscular_system",
-    "subtopic": "Cardiac Muscle",
+    "subtopic": "Axial Muscles",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "When the _____ and _____ on one side of the body contract together, rotation is prevented, and the lateral ribcage is pulled toward the iliac crest.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "internal obliques; external obliques",
+      "rectus abdominis; transversus abdominis",
+      "erector spinae; quadratus lumborum",
+      "internal obliques; rectus abdominis"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-07-076",
     "subject": "anatomy_physiology",
     "topic": "muscular_system",
-    "subtopic": "Cardiac Muscle",
+    "subtopic": "Axial Muscles",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The _____ raises the eyebrows.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "epicranius (frontalis)",
+      "corrugator supercilii",
+      "orbicularis oculi",
+      "procerus"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-07-077",
     "subject": "anatomy_physiology",
     "topic": "muscular_system",
-    "subtopic": "Cardiac Muscle",
+    "subtopic": "Axial Muscles",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The _____ pulls the eyebrows together into a frown.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "corrugator supercilii",
+      "frontalis",
+      "orbicularis oculi",
+      "zygomaticus"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-07-078",
     "subject": "anatomy_physiology",
     "topic": "muscular_system",
-    "subtopic": "Smooth Muscle",
+    "subtopic": "Axial Muscles",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "One winks, blinks, or squints by contracting the _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "orbicularis oculi",
+      "orbicularis oris",
+      "levator palpebrae superioris",
+      "corrugator supercilii"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-07-079",
     "subject": "anatomy_physiology",
     "topic": "muscular_system",
-    "subtopic": "Smooth Muscle",
+    "subtopic": "Axial Muscles",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The corners of the mouth are raised during a smile by the _____ and _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "zygomaticus; risorius",
+      "levator labii superioris; mentalis",
+      "depressor anguli oris; platysma",
+      "buccinator; orbicularis oris"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-07-080",
     "subject": "anatomy_physiology",
     "topic": "muscular_system",
-    "subtopic": "Smooth Muscle",
+    "subtopic": "Axial Muscles",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "We raise the upper lip to show the front teeth by contracting the _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "levator labii superioris",
+      "depressor labii inferioris",
+      "zygomaticus",
+      "orbicularis oris"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-07-081",
     "subject": "anatomy_physiology",
     "topic": "muscular_system",
-    "subtopic": "Smooth Muscle",
+    "subtopic": "Axial Muscles",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "To pout (push the lower lip down and out), we contract the _____ and _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "depressor labii inferioris; mentalis",
+      "levator labii superioris; zygomaticus",
+      "depressor anguli oris; risorius",
+      "orbicularis oris; buccinator"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-07-082",
     "subject": "anatomy_physiology",
     "topic": "muscular_system",
-    "subtopic": "Smooth Muscle",
+    "subtopic": "Axial Muscles",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "To pull the outer corners of the mouth down into a grimace, we contract the _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "depressor anguli oris",
+      "depressor labii inferioris",
+      "zygomaticus",
+      "mentalis"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-07-083",
     "subject": "anatomy_physiology",
     "topic": "muscular_system",
-    "subtopic": "Smooth Muscle",
+    "subtopic": "Axial Muscles",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "To purse the lips when we want to kiss or whistle, we contract the _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "orbicularis oris",
+      "orbicularis oculi",
+      "buccinator",
+      "zygomaticus"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-07-084",
     "subject": "anatomy_physiology",
     "topic": "muscular_system",
-    "subtopic": "Smooth Muscle",
+    "subtopic": "Axial Muscles",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "To widen the mouth, or compress puffed cheeks, we contract the _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "buccinator",
+      "orbicularis oris",
+      "risorius",
+      "masseter"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-07-085",
     "subject": "anatomy_physiology",
     "topic": "muscular_system",
-    "subtopic": "Smooth Muscle",
+    "subtopic": "Axial Muscles",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The _____ pulls the mouth down, tensing the skin of the neck.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "platysma",
+      "sternocleidomastoid",
+      "depressor anguli oris",
+      "buccinator"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-07-086",
     "subject": "anatomy_physiology",
     "topic": "muscular_system",
-    "subtopic": "Smooth Muscle",
+    "subtopic": "Axial Muscles",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The prime mover for inspiration (breathing in) is the _____, which presses into the abdominal cavity, expanding the thoracic cavity as it does.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "diaphragm",
+      "external intercostals",
+      "internal intercostals",
+      "rectus abdominis"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-07-087",
     "subject": "anatomy_physiology",
     "topic": "muscular_system",
-    "subtopic": "Smooth Muscle",
+    "subtopic": "Axial Muscles",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The _____ assist in inspiration.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "external intercostals",
+      "internal intercostals",
+      "transversus abdominis",
+      "rectus abdominis"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-07-088",
     "subject": "anatomy_physiology",
     "topic": "muscular_system",
-    "subtopic": "Fascicle Arrangement",
+    "subtopic": "Axial Muscles",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The _____ draw ribs together during forced exhalation, but for forced expiration, the _____ are used to increase intra-abdominal pressure.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "internal intercostals; abdominal muscles",
+      "external intercostals; abdominal muscles",
+      "internal intercostals; diaphragm",
+      "external intercostals; diaphragm"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-07-089",
     "subject": "anatomy_physiology",
     "topic": "muscular_system",
-    "subtopic": "Fascicle Arrangement",
+    "subtopic": "Axial Muscles",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The bulk of the crushing force applied by the jaw during mastication is provided by the _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "masseter",
+      "temporalis",
+      "pterygoids",
+      "buccinator"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-07-090",
     "subject": "anatomy_physiology",
     "topic": "muscular_system",
-    "subtopic": "Fascicle Arrangement",
+    "subtopic": "Axial Muscles",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The _____ pushes food from the cheek to the center of the mouth.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "buccinator",
+      "orbicularis oris",
+      "genioglossus",
+      "masseter"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-07-091",
     "subject": "anatomy_physiology",
     "topic": "muscular_system",
-    "subtopic": "Fascicle Arrangement",
+    "subtopic": "Axial Muscles",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The extrinsic tongue muscles (primarily the _____, _____ and _____) control the position of the tongue.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "genioglossus; styloglossus; hyoglossus",
+      "mylohyoid; geniohyoid; stylohyoid",
+      "masseter; temporalis; buccinator",
+      "palatoglossus; digastric; omohyoid"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-07-092",
     "subject": "anatomy_physiology",
     "topic": "muscular_system",
-    "subtopic": "Fascicle Arrangement",
+    "subtopic": "Axial Muscles",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The _____ control the shape of the tongue.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "intrinsic tongue muscles",
+      "extrinsic tongue muscles",
+      "suprahyoid muscles",
+      "pharyngeal constrictor muscles"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-07-093",
     "subject": "anatomy_physiology",
     "topic": "muscular_system",
-    "subtopic": "Fascicle Arrangement",
+    "subtopic": "Axial Muscles",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "In the first stage of swallowing, the _____ widen the pharynx and close the larynx by pulling they hyoid bone forward and upward.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "suprahyoid muscles",
+      "infrahyoid muscles",
+      "pharyngeal constrictor muscles",
+      "pterygoid muscles"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-07-094",
     "subject": "anatomy_physiology",
     "topic": "muscular_system",
-    "subtopic": "Fascicle Arrangement",
+    "subtopic": "Axial Muscles",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "In the second stage of swallowing, the _____ and _____ close the nasal passage by elevating the soft palate.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "tensor veli palatini; levator veli palatini",
+      "palatoglossus; palatopharyngeus",
+      "genioglossus; hyoglossus",
+      "suprahyoid muscles; infrahyoid muscles"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-07-095",
     "subject": "anatomy_physiology",
     "topic": "muscular_system",
-    "subtopic": "Fascicle Arrangement",
+    "subtopic": "Axial Muscles",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "In the third stage of swallowing, the _____ propel the food into the esophagus.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "pharyngeal constrictor muscles",
+      "suprahyoid muscles",
+      "infrahyoid muscles",
+      "intrinsic tongue muscles"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-07-096",
     "subject": "anatomy_physiology",
     "topic": "muscular_system",
-    "subtopic": "Fascicle Arrangement",
+    "subtopic": "Axial Muscles",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "In the fourth stage of swallowing, the _____ pull the hyoid bone and larynx down to their original positions.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "infrahyoid muscles",
+      "suprahyoid muscles",
+      "pharyngeal constrictor muscles",
+      "sternocleidomastoid muscles"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-07-097",
     "subject": "anatomy_physiology",
     "topic": "muscular_system",
-    "subtopic": "Fascicle Arrangement",
+    "subtopic": "Axial Muscles",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Intra-abdominal pressure is increased by contraction of the _____, the _____ and _____, the _____ and the _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "rectus abdominis; internal obliques; external obliques; transversus abdominis; diaphragm",
+      "erector spinae; quadratus lumborum; latissimus dorsi; trapezius; diaphragm",
+      "rectus abdominis; erector spinae; iliopsoas; pectoralis major; internal intercostals",
+      "internal obliques; external obliques; serratus anterior; sternocleidomastoid; scalenes"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-07-098",
     "subject": "anatomy_physiology",
     "topic": "muscular_system",
-    "subtopic": "Origin and Insertion of Skeletal Muscles",
+    "subtopic": "Axial Muscles",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "If the breath is held and _____ is increased, the entire trunk serves as a supportive column many times stronger than the spine itself so that heavy weights can be lifted.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "intra-abdominal pressure",
+      "intracranial pressure",
+      "blood pressure",
+      "intraocular pressure"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-07-099",
     "subject": "anatomy_physiology",
     "topic": "muscular_system",
-    "subtopic": "Origin and Insertion of Skeletal Muscles",
+    "subtopic": "Axial Muscles",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Forced expulsion during childbirth, defecation, vomiting, and forced exhalation (e.g. coughing and sneezing) are all accomplished by increasing _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "intra-abdominal pressure",
+      "intracranial pressure",
+      "blood pressure",
+      "intraocular pressure"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-07-100",
     "subject": "anatomy_physiology",
     "topic": "muscular_system",
-    "subtopic": "Origin and Insertion of Skeletal Muscles",
+    "subtopic": "Axial Muscles",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "If the bladder or anal sphincters are weak, involuntary \"forced expulsion\" of urine or feces may occur whenever _____ is increased.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "intra-abdominal pressure",
+      "intracranial pressure",
+      "blood pressure",
+      "intraocular pressure"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-07-101",
     "subject": "anatomy_physiology",
     "topic": "muscular_system",
-    "subtopic": "Origin and Insertion of Skeletal Muscles",
+    "subtopic": "Axial Muscles",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The _____ lifts the anal canal to resist intra-abdominal pressure (and prevent defecation, etc.).",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "levator ani",
+      "coccygeus",
+      "external anal sphincter",
+      "ischiocavernosus"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-07-102",
     "subject": "anatomy_physiology",
     "topic": "muscular_system",
-    "subtopic": "Origin and Insertion of Skeletal Muscles",
+    "subtopic": "Axial Muscles",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The _____ constricts the urethra and inhibits urination.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "sphincter urethrae",
+      "external anal sphincter",
+      "levator ani",
+      "bulbospongiosus"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-07-103",
     "subject": "anatomy_physiology",
     "topic": "muscular_system",
-    "subtopic": "Origin and Insertion of Skeletal Muscles",
+    "subtopic": "Axial Muscles",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The _____ constricts the anus and inhibits defecation.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "external anal sphincter",
+      "sphincter urethrae",
+      "ischiocavernosus",
+      "coccygeus"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-07-104",
     "subject": "anatomy_physiology",
     "topic": "muscular_system",
-    "subtopic": "Origin and Insertion of Skeletal Muscles",
+    "subtopic": "Axial Muscles",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The _____ and _____ retard blood drainage from the penis (male) or clitoris (female), allowing erection.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "ischiocavernosus; bulbospongiosus",
+      "levator ani; coccygeus",
+      "sphincter urethrae; external anal sphincter",
+      "superficial transverse perineal; deep transverse perineal"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-07-105",
     "subject": "anatomy_physiology",
     "topic": "muscular_system",
-    "subtopic": "Origin and Insertion of Skeletal Muscles",
+    "subtopic": "Axial Muscles",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The _____ forms the lower muscular boundary to the abdominopelvic cavity: its two major muscles, the _____ and _____, contract to resist intra-abdominal pressure and to support the abdominal and pelvic organs.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "pelvic diaphragm; levator ani; coccygeus",
+      "urogenital diaphragm; deep transverse perineal; sphincter urethrae",
+      "pelvic diaphragm; ischiocavernosus; bulbospongiosus",
+      "perineum; external anal sphincter; gluteus maximus"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-07-106",
     "subject": "anatomy_physiology",
     "topic": "muscular_system",
-    "subtopic": "Origin and Insertion of Skeletal Muscles",
+    "subtopic": "Cardiac and Smooth Muscle",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Slow, sustained contractions are the specialty of _____ muscle.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "smooth",
+      "skeletal",
+      "cardiac",
+      "fast-twitch skeletal"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-07-107",
     "subject": "anatomy_physiology",
     "topic": "muscular_system",
-    "subtopic": "Origin and Insertion of Skeletal Muscles",
+    "subtopic": "Cardiac and Smooth Muscle",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Since _____ and _____ muscle cells can communicate with one another, not all of them must be individually supplied with instructions by a nerve.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "smooth; cardiac",
+      "skeletal; cardiac",
+      "skeletal; smooth",
+      "all three muscle types"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-07-108",
     "subject": "anatomy_physiology",
     "topic": "muscular_system",
-    "subtopic": "Axial Muscles",
+    "subtopic": "Cardiac and Smooth Muscle",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The most fatigue-resistant muscle cells are those of _____ muscle.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "cardiac",
+      "smooth",
+      "slow-twitch skeletal",
+      "fast-twitch skeletal"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-07-109",
     "subject": "anatomy_physiology",
     "topic": "muscular_system",
-    "subtopic": "Axial Muscles",
+    "subtopic": "Cardiac and Smooth Muscle",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Cardiac muscle fibers contain large numbers of _____, which allow them to have incredible endurance.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "mitochondria",
+      "ribosomes",
+      "lysosomes",
+      "peroxisomes"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-07-110",
     "subject": "anatomy_physiology",
     "topic": "muscular_system",
-    "subtopic": "Axial Muscles",
+    "subtopic": "Cardiac and Smooth Muscle",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "_____ muscle is found in hollow organs whose contents must be moved.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "smooth",
+      "skeletal",
+      "cardiac",
+      "skeletal and cardiac"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-07-111",
     "subject": "anatomy_physiology",
     "topic": "muscular_system",
-    "subtopic": "Axial Muscles",
+    "subtopic": "Cardiac and Smooth Muscle",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Smooth muscle is found primarily in _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "the walls of hollow organs",
+      "the heart wall",
+      "attachments to the skeleton",
+      "the diaphragm"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-07-112",
     "subject": "anatomy_physiology",
     "topic": "muscular_system",
-    "subtopic": "Axial Muscles",
+    "subtopic": "Cardiac and Smooth Muscle",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "In order to allow them to shorten or squeeze a tubular organ, the cells of smooth muscle are organized into _____ and _____ layers.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "longitudinal; circular",
+      "transverse; oblique",
+      "superficial; deep",
+      "radial; spiral"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-07-113",
     "subject": "anatomy_physiology",
     "topic": "muscular_system",
-    "subtopic": "Axial Muscles",
+    "subtopic": "Cardiac and Smooth Muscle",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Unlike skeletal muscle fibers, each of which is controlled by a nerve, smooth muscle lacks individual _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "neuromuscular junctions",
+      "gap junctions",
+      "dense bodies",
+      "myosin filaments"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-07-114",
     "subject": "anatomy_physiology",
     "topic": "muscular_system",
-    "subtopic": "Axial Muscles",
+    "subtopic": "Cardiac and Smooth Muscle",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Nerves which control smooth muscles release neurotransmitters from bulbous regions in their axons called _____. These diffuse across the gap and may stimulate several smooth muscle cells.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "varicosities",
+      "axon hillocks",
+      "nodes of Ranvier",
+      "dendritic spines"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-07-115",
     "subject": "anatomy_physiology",
     "topic": "muscular_system",
-    "subtopic": "Axial Muscles",
+    "subtopic": "Cardiac and Smooth Muscle",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Calcium in smooth muscles is stored both in the _____ and _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "sarcoplasmic reticulum; outside the cell",
+      "mitochondria; the nucleus",
+      "T tubules; the Golgi apparatus",
+      "lysosomes; the cytosol"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-07-116",
     "subject": "anatomy_physiology",
     "topic": "muscular_system",
-    "subtopic": "Axial Muscles",
+    "subtopic": "Cardiac and Smooth Muscle",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Instead of pulling against Z disks as in skeletal muscle, myofilaments in smooth muscle pull against structures called _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "dense bodies",
+      "intercalated discs",
+      "terminal cisternae",
+      "M lines"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-07-117",
     "subject": "anatomy_physiology",
     "topic": "muscular_system",
-    "subtopic": "Axial Muscles",
+    "subtopic": "Cardiac and Smooth Muscle",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Only _____ muscle fibers can divide.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "smooth",
+      "skeletal",
+      "cardiac",
+      "both skeletal and cardiac"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-07-118",
     "subject": "anatomy_physiology",
     "topic": "muscular_system",
-    "subtopic": "Axial Muscles",
+    "subtopic": "Cardiac and Smooth Muscle",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "In smooth muscle, _____ may be transmitted from cell to cell through _____, allowing entire sheets of cells to contract in response to a single signal.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "action potentials; gap junctions",
+      "neurotransmitters; synaptic clefts",
+      "calcium ions; T tubules",
+      "graded potentials; desmosomes"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-07-119",
     "subject": "anatomy_physiology",
     "topic": "muscular_system",
-    "subtopic": "Axial Muscles",
+    "subtopic": "Cardiac and Smooth Muscle",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Smooth muscle that must contract regularly contains pacemaker cells that initiate contractions periodically, without needing _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "a signal from a nerve",
+      "extracellular calcium",
+      "ATP",
+      "gap junctions"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-07-120",
     "subject": "anatomy_physiology",
     "topic": "muscular_system",
-    "subtopic": "Axial Muscles",
+    "subtopic": "Cardiac and Smooth Muscle",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Unlike in skeletal muscle, calcium in smooth muscle does not interact with _____, but instead indirectly triggers the phosphorylation of myosin.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "troponin",
+      "calmodulin",
+      "actin",
+      "tropomyosin"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-07-121",
     "subject": "anatomy_physiology",
     "topic": "muscular_system",
-    "subtopic": "Axial Muscles",
+    "subtopic": "Cardiac and Smooth Muscle",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The cells of _____ smooth muscle are coupled by gap junctions and contract as a group.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "single unit",
+      "multi-unit",
+      "striated",
+      "voluntary"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-07-122",
     "subject": "anatomy_physiology",
     "topic": "muscular_system",
-    "subtopic": "Axial Muscles",
+    "subtopic": "Cardiac and Smooth Muscle",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The cells of _____ smooth muscle are rarely coupled by gap junctions and contract individually.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "multi-unit",
+      "single unit",
+      "visceral",
+      "pacemaker"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-07-123",
     "subject": "anatomy_physiology",
     "topic": "muscular_system",
-    "subtopic": "Axial Muscles",
+    "subtopic": "Cardiac and Smooth Muscle",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "One major difference between voluntary and involuntary muscle during development is that the cells of voluntary (skeletal) muscle _____, while those of smooth and cardiac muscle do not, often developing _____ at sites of contact instead.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "fuse; gap junctions",
+      "divide; tight junctions",
+      "branch; desmosomes",
+      "atrophy; synapses"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-07-124",
     "subject": "anatomy_physiology",
     "topic": "muscular_system",
-    "subtopic": "Axial Muscles",
+    "subtopic": "Neuromuscular Junction, EC Coupling, and Cross-Bridge Cycling",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "One end of each _____ is attached to a Z disk, and the other end is pulled past myosin. As a result, the Z disks move closer together.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "actin microfilament",
+      "myosin filament",
+      "titin filament",
+      "intermediate filament"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-07-125",
     "subject": "anatomy_physiology",
     "topic": "muscular_system",
-    "subtopic": "Axial Muscles",
+    "subtopic": "Neuromuscular Junction, EC Coupling, and Cross-Bridge Cycling",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The major function of the smooth ER (sarcoplasmic reticulum) in muscle cells is to _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "store and release calcium",
+      "synthesize contractile proteins",
+      "store glycogen",
+      "produce ATP"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-07-126",
     "subject": "anatomy_physiology",
     "topic": "muscular_system",
-    "subtopic": "Axial Muscles",
+    "subtopic": "Neuromuscular Junction, EC Coupling, and Cross-Bridge Cycling",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Action potentials that are carried deep into the cell by _____ signal the sarcoplasmic reticulum to _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "T tubules; release calcium",
+      "T tubules; absorb calcium",
+      "terminal cisternae; release sodium",
+      "myofibrils; release calcium"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-07-127",
     "subject": "anatomy_physiology",
     "topic": "muscular_system",
-    "subtopic": "Axial Muscles",
+    "subtopic": "Neuromuscular Junction, EC Coupling, and Cross-Bridge Cycling",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "In a skeletal muscle fiber, when ADP and inorganic phosphate are bound to myosin, _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "the myosin is 'set' and can contract when the signal is given",
+      "the myosin releases actin and the muscle relaxes",
+      "the power stroke occurs immediately",
+      "tropomyosin moves away from actin's binding sites"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-07-128",
     "subject": "anatomy_physiology",
     "topic": "muscular_system",
-    "subtopic": "Axial Muscles",
+    "subtopic": "Neuromuscular Junction, EC Coupling, and Cross-Bridge Cycling",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The signal for a skeletal muscle to contract is calcium, which binds to troponin, causing _____ to _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "tropomyosin; move out of myosin's way",
+      "tropomyosin; cover actin's binding sites",
+      "troponin; detach from actin",
+      "myosin; release ADP"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-07-129",
     "subject": "anatomy_physiology",
     "topic": "muscular_system",
-    "subtopic": "Axial Muscles",
+    "subtopic": "Neuromuscular Junction, EC Coupling, and Cross-Bridge Cycling",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "In a skeletal muscle fiber, after tropomyosin shifts in response to calcium, _____ binds to actin.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "myosin",
+      "troponin",
+      "tropomyosin",
+      "titin"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-07-130",
     "subject": "anatomy_physiology",
     "topic": "muscular_system",
-    "subtopic": "Axial Muscles",
+    "subtopic": "Neuromuscular Junction, EC Coupling, and Cross-Bridge Cycling",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Once myosin binds to actin, _____ changes shape, pulling the two filaments past one another.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "myosin",
+      "actin",
+      "troponin",
+      "tropomyosin"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-07-131",
     "subject": "anatomy_physiology",
     "topic": "muscular_system",
-    "subtopic": "Axial Muscles",
+    "subtopic": "Neuromuscular Junction, EC Coupling, and Cross-Bridge Cycling",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "As the two filaments (actin and myosin) slide past one another, _____ are released from the myosin.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "ADP and inorganic phosphate",
+      "ATP",
+      "calcium ions",
+      "acetylcholine molecules"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-07-132",
     "subject": "anatomy_physiology",
     "topic": "muscular_system",
-    "subtopic": "Axial Muscles",
+    "subtopic": "Neuromuscular Junction, EC Coupling, and Cross-Bridge Cycling",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "In order for myosin to release actin, it must bind _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "ATP",
+      "ADP",
+      "inorganic phosphate",
+      "calcium"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-07-133",
     "subject": "anatomy_physiology",
     "topic": "muscular_system",
-    "subtopic": "Axial Muscles",
+    "subtopic": "Neuromuscular Junction, EC Coupling, and Cross-Bridge Cycling",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The first event in leading to skeletal muscle contraction is _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "the arrival of the signal from the nerve",
+      "release of calcium from the sarcoplasmic reticulum",
+      "binding of ATP to myosin",
+      "the power stroke of the myosin heads"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-07-134",
     "subject": "anatomy_physiology",
     "topic": "muscular_system",
-    "subtopic": "Axial Muscles",
+    "subtopic": "Neuromuscular Junction, EC Coupling, and Cross-Bridge Cycling",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Muscle fibers are stimulated to contract in two phases: (1) _____ (2) _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "the action potential phase; excitation-contraction coupling",
+      "depolarization; repolarization",
+      "the latent period; the contraction period",
+      "cross-bridge cycling; relaxation"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-07-135",
     "subject": "anatomy_physiology",
     "topic": "muscular_system",
-    "subtopic": "Axial Muscles",
+    "subtopic": "Neuromuscular Junction, EC Coupling, and Cross-Bridge Cycling",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "After a nerve releases a chemical signal (the neurotransmitter _____), receptors on the muscle fiber, at the neuromuscular junction, _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "acetylcholine; open to admit sodium ions",
+      "acetylcholine; open to admit potassium ions",
+      "norepinephrine; open to admit sodium ions",
+      "acetylcholinesterase; close to keep out sodium ions"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-07-136",
     "subject": "anatomy_physiology",
     "topic": "muscular_system",
-    "subtopic": "Axial Muscles",
+    "subtopic": "Neuromuscular Junction, EC Coupling, and Cross-Bridge Cycling",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "After a few sodium ions enter the skeletal muscle cell at the neuromuscular junction, nearby voltage-sensitive _____ respond to the increased positive charge and open to _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "channel proteins; allow more sodium to enter",
+      "channel proteins; allow potassium to enter",
+      "pump proteins; push sodium out of the cell",
+      "carrier proteins; bring calcium in"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-07-137",
     "subject": "anatomy_physiology",
     "topic": "muscular_system",
-    "subtopic": "Axial Muscles",
+    "subtopic": "Neuromuscular Junction, EC Coupling, and Cross-Bridge Cycling",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "After many sodium ions have entered a cell in a given region, causing the membrane potential there to become positive, two things happen: (1) sodium's entry is _____, and (2) potassium channels _____, allowing _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "blocked; open; potassium to leave the cell",
+      "increased; close; potassium to enter the cell",
+      "blocked; close; calcium to enter the cell",
+      "increased; open; sodium to leave the cell"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-07-138",
     "subject": "anatomy_physiology",
     "topic": "muscular_system",
-    "subtopic": "Appendicular Muscles",
+    "subtopic": "Neuromuscular Junction, EC Coupling, and Cross-Bridge Cycling",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "In order to fully restore ion balance, the _____ must use energy to bring potassium into the cell, and push sodium out.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "sodium potassium pump",
+      "calcium pump",
+      "voltage-gated sodium channel",
+      "potassium leak channel"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-07-139",
     "subject": "anatomy_physiology",
     "topic": "muscular_system",
-    "subtopic": "Appendicular Muscles",
+    "subtopic": "Neuromuscular Junction, EC Coupling, and Cross-Bridge Cycling",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The events which occur after the action potential travels through the muscle fiber's membrane and which cause the muscle to contract are called _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "excitation-contraction coupling",
+      "cross-bridge cycling",
+      "wave summation",
+      "the latent period"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-07-140",
     "subject": "anatomy_physiology",
     "topic": "muscular_system",
-    "subtopic": "Appendicular Muscles",
+    "subtopic": "Neuromuscular Junction, EC Coupling, and Cross-Bridge Cycling",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The action potential traveling down the T-tubule triggers _____ by the _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "calcium release; sarcoplasmic reticulum",
+      "calcium release; mitochondria",
+      "sodium release; sarcoplasmic reticulum",
+      "calcium uptake; sarcoplasmic reticulum"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-07-141",
     "subject": "anatomy_physiology",
     "topic": "muscular_system",
-    "subtopic": "Appendicular Muscles",
+    "subtopic": "Neuromuscular Junction, EC Coupling, and Cross-Bridge Cycling",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "After the action potential ends, contraction will eventually stop because _____ is constantly being _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "calcium; transported back into the sarcoplasmic reticulum",
+      "calcium; released from the sarcoplasmic reticulum",
+      "ATP; produced by the mitochondria",
+      "acetylcholine; released at the neuromuscular junction"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-07-142",
     "subject": "anatomy_physiology",
     "topic": "muscular_system",
-    "subtopic": "Appendicular Muscles",
+    "subtopic": "Neuromuscular Junction, EC Coupling, and Cross-Bridge Cycling",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "During the period of contraction, _____ form and the muscle fiber shortens.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "actin-myosin crossbridges",
+      "troponin-tropomyosin complexes",
+      "neuromuscular junctions",
+      "transverse tubules"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-07-143",
     "subject": "anatomy_physiology",
     "topic": "muscular_system",
-    "subtopic": "Appendicular Muscles",
+    "subtopic": "Muscle Energy & Recovery",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "_____ is a molecule found in muscle cells. It is similar in some ways to hemoglobin, and its function is to _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "myoglobin; store oxygen for the muscle cell",
+      "hemoglobin; carry oxygen in the blood",
+      "myoglobin; store glucose for the muscle cell",
+      "glycogen; store oxygen for the muscle cell"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-07-144",
     "subject": "anatomy_physiology",
     "topic": "muscular_system",
-    "subtopic": "Appendicular Muscles",
+    "subtopic": "Muscle Energy & Recovery",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Muscle cells store carbohydrates for use as fuel in the form of _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "glycogen",
+      "starch",
+      "glucose",
+      "triglycerides"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-07-145",
     "subject": "anatomy_physiology",
     "topic": "muscular_system",
-    "subtopic": "Appendicular Muscles",
+    "subtopic": "Muscle Energy & Recovery",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Since a muscle will keep contracting if calcium and ATP are both present, and calcium is returned to the sarcoplasmic reticulum by active transport, ATP is needed _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "both to start and to stop the contraction",
+      "only to start the contraction",
+      "only to stop the contraction",
+      "only when the muscle is stretched"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-07-146",
     "subject": "anatomy_physiology",
     "topic": "muscular_system",
-    "subtopic": "Appendicular Muscles",
+    "subtopic": "Muscle Energy & Recovery",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Three methods used by muscle cells to regenerate ATP are _____, _____ and _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "direct phosphorylation; glycolysis; aerobic respiration",
+      "glycogenesis; gluconeogenesis; lipolysis",
+      "beta-oxidation; fermentation; deamination",
+      "hydrolysis; the citric acid cycle; glycogenolysis"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-07-147",
     "subject": "anatomy_physiology",
     "topic": "muscular_system",
-    "subtopic": "Appendicular Muscles",
+    "subtopic": "Muscle Energy & Recovery",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "In direct phosphorylation, phospate from _____ is directly transferred to ATP.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "creatine phosphate",
+      "glycogen",
+      "ADP",
+      "glucose"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-07-148",
     "subject": "anatomy_physiology",
     "topic": "muscular_system",
-    "subtopic": "Appendicular Muscles",
+    "subtopic": "Muscle Energy & Recovery",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "In _____, a small amount of the energy in glucose is captured, very quickly, in ATP; the rest is exported in lactic acid.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "glycolysis",
+      "aerobic respiration",
+      "direct phosphorylation",
+      "beta-oxidation"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-07-149",
     "subject": "anatomy_physiology",
     "topic": "muscular_system",
-    "subtopic": "Appendicular Muscles",
+    "subtopic": "Muscle Energy & Recovery",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "In _____, as much of the energy in glucose as possible is captured in ATP, but the process is slow and requires oxygen.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "aerobic respiration",
+      "glycolysis",
+      "direct phosphorylation",
+      "anaerobic fermentation"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-07-150",
     "subject": "anatomy_physiology",
     "topic": "muscular_system",
-    "subtopic": "Appendicular Muscles",
+    "subtopic": "Muscle Energy & Recovery",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "If ATP production in a muscle does not keep pace with ATP usage, the result will be _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "muscle fatigue",
+      "tetanus",
+      "treppe",
+      "contracture"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-07-151",
     "subject": "anatomy_physiology",
     "topic": "muscular_system",
-    "subtopic": "Appendicular Muscles",
+    "subtopic": "Muscle Energy & Recovery",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "If the supply of ATP in a muscle becomes severely limited, the result will be a(n) _____, which is a 'locked' muscle that cannot relax. (When this happens after death, the result is called _____.)",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "contracture; rigor mortis",
+      "tetanus; rigor mortis",
+      "cramp; contracture",
+      "spasm; tetany"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-07-152",
     "subject": "anatomy_physiology",
     "topic": "muscular_system",
-    "subtopic": "Appendicular Muscles",
+    "subtopic": "Muscle Energy & Recovery",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "If the levels of calcium or potassium are too low in a muscle, or if sodium is too high, the result will be _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "muscle fatigue",
+      "tetanus",
+      "contracture",
+      "treppe"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-07-153",
     "subject": "anatomy_physiology",
     "topic": "muscular_system",
-    "subtopic": "Appendicular Muscles",
+    "subtopic": "Muscle Energy & Recovery",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Recovery from fatigue due to intense, brief exercise is usually _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "rapid",
+      "slow",
+      "incomplete",
+      "delayed for several days"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-07-154",
     "subject": "anatomy_physiology",
     "topic": "muscular_system",
-    "subtopic": "Appendicular Muscles",
+    "subtopic": "Muscle Energy & Recovery",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Recovery from fatigue due to prolonged exercise is usually _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "slow",
+      "rapid",
+      "immediate",
+      "unnecessary"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-07-155",
     "subject": "anatomy_physiology",
     "topic": "muscular_system",
-    "subtopic": "Appendicular Muscles",
+    "subtopic": "Muscle Energy & Recovery",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Fatigue caused by alterations in sodium and potassium balances in a muscle cell is usually caused by _____ exercise.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "intense, brief",
+      "prolonged",
+      "low-intensity",
+      "aerobic"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-07-156",
     "subject": "anatomy_physiology",
     "topic": "muscular_system",
-    "subtopic": "Appendicular Muscles",
+    "subtopic": "Muscle Energy & Recovery",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Fatigue caused by disruption of calcium regulation or glycogen depletion is usually caused by _____ exercise.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "prolonged",
+      "intense, brief",
+      "resistance",
+      "isometric"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-07-157",
     "subject": "anatomy_physiology",
     "topic": "muscular_system",
-    "subtopic": "Appendicular Muscles",
+    "subtopic": "Muscle Energy & Recovery",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Although muscle can contract anaerobically by relying on _____, _____ will be needed later for replacement of glycogen stores, metabolism of lactic acid, and restoration of creatine phosphate reserves.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "glycolysis; oxygen",
+      "aerobic respiration; glucose",
+      "direct phosphorylation; ATP",
+      "glycolysis; carbon dioxide"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-07-158",
     "subject": "anatomy_physiology",
     "topic": "muscular_system",
-    "subtopic": "Appendicular Muscles",
+    "subtopic": "Muscle Energy & Recovery",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The need for oxygen to restore the body to its resting state after muscular activity has been completed is called _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "oxygen debt",
+      "oxygen deficit",
+      "anaerobic threshold",
+      "hypoxia"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-07-159",
     "subject": "anatomy_physiology",
     "topic": "muscular_system",
-    "subtopic": "Appendicular Muscles",
+    "subtopic": "Muscle Energy & Recovery",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The duration of muscular effort will be increased if most fibers rely on _____ for generation of ATP.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "aerobic respiration",
+      "glycolysis",
+      "direct phosphorylation",
+      "glycogenolysis"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-07-160",
     "subject": "anatomy_physiology",
     "topic": "muscular_system",
-    "subtopic": "Appendicular Muscles",
+    "subtopic": "Muscle Energy & Recovery",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The duration of muscular effort will be _____ if oxygen is not available.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "decreased",
+      "increased",
+      "unchanged",
+      "maximal"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-07-161",
     "subject": "anatomy_physiology",
     "topic": "muscular_system",
-    "subtopic": "Appendicular Muscles",
+    "subtopic": "Muscle Energy & Recovery",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The major direct effects of aerobic exercise on muscle are to increase _____ and _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "the blood supply; the number of mitochondria",
+      "fiber diameter; the number of myofilaments",
+      "glycogen reserves; the number of fast fibers",
+      "tendon thickness; the number of motor units"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-07-162",
     "subject": "anatomy_physiology",
     "topic": "muscular_system",
-    "subtopic": "Appendicular Muscles",
+    "subtopic": "Muscle Energy & Recovery",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The major indirect effect of aerobic exercise is to increase the efficiency (and health) of the _____ system.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "cardiovascular",
+      "digestive",
+      "endocrine",
+      "integumentary"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-07-163",
     "subject": "anatomy_physiology",
     "topic": "muscular_system",
-    "subtopic": "Appendicular Muscles",
+    "subtopic": "Muscle Energy & Recovery",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Recovery time between exercise sessions is important for two major reasons: it prevents _____ and allows _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "overuse injuries; adaptation",
+      "atrophy; tetanus",
+      "hypertrophy; fatigue",
+      "cramping; recruitment"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-07-164",
     "subject": "anatomy_physiology",
     "topic": "muscular_system",
-    "subtopic": "Appendicular Muscles",
+    "subtopic": "Muscle Energy & Recovery",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The two major direct effects of anaerobic (e.g., resistance) exercise on muscle are to increase the number of _____ and _____ in fast muscle cells.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "myofilaments per myofibril; myofibrils per cell",
+      "mitochondria per cell; capillaries per fiber",
+      "nuclei per fiber; T tubules per myofibril",
+      "motor units per muscle; fibers per motor unit"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-07-165",
     "subject": "anatomy_physiology",
     "topic": "muscular_system",
-    "subtopic": "Appendicular Muscles",
+    "subtopic": "Muscle Energy & Recovery",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "In addition to adaptation in the muscle fibers, two other adaptations occur in order to allow an athlete to lift heavy weights: the _____ changes to maximize motor unit recruitment, and _____ thickens and strengthens.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "nervous system; connective tissue",
+      "endocrine system; adipose tissue",
+      "cardiovascular system; epithelial tissue",
+      "skeletal system; nervous tissue"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-07-166",
     "subject": "anatomy_physiology",
     "topic": "muscular_system",
-    "subtopic": "Appendicular Muscles",
+    "subtopic": "Muscle Functions",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "If a muscle contains primarily glycolytic muscle fibers, its contractions will be _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "rapid",
+      "slow",
+      "weak",
+      "sustained"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-07-167",
     "subject": "anatomy_physiology",
     "topic": "muscular_system",
-    "subtopic": "Appendicular Muscles",
+    "subtopic": "Muscle Functions",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "If a muscle contains primarily fatigue-resistant muscle fibers which rely on oxygen for metabolism, its contractions will be _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "slow",
+      "rapid",
+      "brief",
+      "easily fatigued"
     ],
-    "answer_index": 1
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-07-168",
+    "subject": "anatomy_physiology",
+    "topic": "muscular_system",
+    "subtopic": "Muscle Functions",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "_____ can contract over and over for ages (a marathon).",
+    "choices": [
+      "Slow oxidative fibers",
+      "Fast oxidative fibers",
+      "Glycolytic fibers",
+      "White fibers"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-07-169",
+    "subject": "anatomy_physiology",
+    "topic": "muscular_system",
+    "subtopic": "Muscle Functions",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "_____ can do hard work for a moderate length of time (100 yard dash).",
+    "choices": [
+      "Fast oxidative fibers",
+      "Slow oxidative fibers",
+      "Glycolytic fibers",
+      "White fibers"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-07-170",
+    "subject": "anatomy_physiology",
+    "topic": "muscular_system",
+    "subtopic": "Muscle Functions",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "_____ can give a burst of power (that car is coming right for you! JUMP!).",
+    "choices": [
+      "Glycolytic fibers",
+      "Slow oxidative fibers",
+      "Fast oxidative fibers",
+      "Red fibers"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-07-171",
+    "subject": "anatomy_physiology",
+    "topic": "muscular_system",
+    "subtopic": "Muscle Functions",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "_____ are red due to the presence of myoglobin, which holds a small amount of reserve oxygen.",
+    "choices": [
+      "Oxidative fibers (both slow and fast)",
+      "Glycolytic fibers",
+      "White fibers",
+      "Anaerobic fast-twitch fibers"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-07-172",
+    "subject": "anatomy_physiology",
+    "topic": "muscular_system",
+    "subtopic": "Muscle Functions",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The ability of a tissue or cell to forcefully shorten is called _____.",
+    "choices": [
+      "contractility",
+      "excitability",
+      "extensibility",
+      "elasticity"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-07-173",
+    "subject": "anatomy_physiology",
+    "topic": "muscular_system",
+    "subtopic": "Muscle Functions",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The ability of a tissue or cell to be stretched or extended is called _____; if it resumes its original shape or length afterward, the property which allows it to do so is called _____.",
+    "choices": [
+      "extensibility; elasticity",
+      "elasticity; extensibility",
+      "contractility; excitability",
+      "extensibility; contractility"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-07-174",
+    "subject": "anatomy_physiology",
+    "topic": "muscular_system",
+    "subtopic": "Muscle Functions",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "_____ muscle cells must be controlled independently, so that force can be modulated precisely to meet a need.",
+    "choices": [
+      "skeletal",
+      "cardiac",
+      "smooth",
+      "cardiac and smooth"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-07-175",
+    "subject": "anatomy_physiology",
+    "topic": "muscular_system",
+    "subtopic": "Muscle Functions",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Much of the heat in the body is produced by _____ muscle.",
+    "choices": [
+      "skeletal",
+      "cardiac",
+      "smooth",
+      "cardiac and smooth"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-07-176",
+    "subject": "anatomy_physiology",
+    "topic": "muscular_system",
+    "subtopic": "Muscle Functions",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "A motor unit consists of a motor neuron and _____.",
+    "choices": [
+      "all of the muscle fibers that it innervates",
+      "a single muscle fiber",
+      "all of the fibers in one fascicle",
+      "every fiber in the whole muscle"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-07-177",
+    "subject": "anatomy_physiology",
+    "topic": "muscular_system",
+    "subtopic": "Muscle Functions",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "All of the fibers in a motor unit contract _____.",
+    "choices": [
+      "at the same time",
+      "one after another in sequence",
+      "in random order",
+      "only during maximal contraction"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-07-178",
+    "subject": "anatomy_physiology",
+    "topic": "muscular_system",
+    "subtopic": "Muscle Functions",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The three phases of a muscle twitch are the _____, _____, and _____.",
+    "choices": [
+      "latent period; period of contraction; period of relaxation",
+      "latent period; refractory period; recovery period",
+      "depolarization; contraction; repolarization",
+      "excitation; tetanus; fatigue"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-07-179",
+    "subject": "anatomy_physiology",
+    "topic": "muscular_system",
+    "subtopic": "Muscle Functions",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Since calcium is either released by the sarcoplasmic reticulum in the innervated cells, or it is not, a motor unit cannot _____.",
+    "choices": [
+      "partially contract",
+      "fully contract",
+      "remain relaxed",
+      "be recruited individually"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-07-180",
+    "subject": "anatomy_physiology",
+    "topic": "muscular_system",
+    "subtopic": "Muscle Functions",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "A single stimulus to a muscle fiber results in _____.",
+    "choices": [
+      "a single twitch",
+      "tetanus",
+      "treppe",
+      "wave summation"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-07-181",
+    "subject": "anatomy_physiology",
+    "topic": "muscular_system",
+    "subtopic": "Muscle Functions",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The effect of frequent stimuli on a muscle fiber is to increase _____.",
+    "choices": [
+      "the force of the contraction",
+      "the speed of relaxation",
+      "the threshold stimulus",
+      "the fiber's resting length"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-07-182",
+    "subject": "anatomy_physiology",
+    "topic": "muscular_system",
+    "subtopic": "Muscle Functions",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "_____ refers to a single, constant muscle contraction.",
+    "choices": [
+      "tetanus",
+      "treppe",
+      "a twitch",
+      "recruitment"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-07-183",
+    "subject": "anatomy_physiology",
+    "topic": "muscular_system",
+    "subtopic": "Muscle Functions",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "When a muscle is stimulated so rapidly that calcium re-uptake into the sarcoplasmic reticulum has no time to occur, the result is _____.",
+    "choices": [
+      "tetanus",
+      "treppe",
+      "a single twitch",
+      "muscle fatigue"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-07-184",
+    "subject": "anatomy_physiology",
+    "topic": "muscular_system",
+    "subtopic": "Muscle Functions",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "_____ is the process in which more and more motor units are stimulated to create a combined force.",
+    "choices": [
+      "Recruitment",
+      "Wave summation",
+      "Treppe",
+      "Facilitation"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-07-185",
+    "subject": "anatomy_physiology",
+    "topic": "muscular_system",
+    "subtopic": "Muscle Functions",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "In a(n) _____ contraction, the distance between a muscle's origin and insertion does not change.",
+    "choices": [
+      "isometric",
+      "isotonic",
+      "concentric",
+      "eccentric"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-07-186",
+    "subject": "anatomy_physiology",
+    "topic": "muscular_system",
+    "subtopic": "Muscle Functions",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "In a(n) _____ contraction, the force generation does not change.",
+    "choices": [
+      "isotonic",
+      "isometric",
+      "isokinetic",
+      "tetanic"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-07-187",
+    "subject": "anatomy_physiology",
+    "topic": "muscular_system",
+    "subtopic": "Muscle Functions",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "If the overlap between actin and myosin is minimized due to muscle stretch, the force of contraction _____.",
+    "choices": [
+      "will decrease",
+      "will increase",
+      "will stay the same",
+      "will become maximal"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-07-188",
+    "subject": "anatomy_physiology",
+    "topic": "muscular_system",
+    "subtopic": "Muscle Functions",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "When actin and myosin in a muscle approach the point at which they are fully overlapping, the force of the contraction _____.",
+    "choices": [
+      "decreases",
+      "increases",
+      "remains constant",
+      "doubles"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-07-189",
+    "subject": "anatomy_physiology",
+    "topic": "muscular_system",
+    "subtopic": "Muscle Functions",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "If the number of motor units stimulated increases, the force of the contraction will _____.",
+    "choices": [
+      "increase",
+      "decrease",
+      "remain constant",
+      "drop to zero"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-07-190",
+    "subject": "anatomy_physiology",
+    "topic": "muscular_system",
+    "subtopic": "Muscle Functions",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "If the number of fibers in each motor unit is _____, then each motor unit will produce more force than it would otherwise.",
+    "choices": [
+      "high",
+      "low",
+      "exactly one",
+      "decreasing"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-07-191",
+    "subject": "anatomy_physiology",
+    "topic": "muscular_system",
+    "subtopic": "Muscle Functions",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "If the number of _____ in each fiber is high, the force exerted by the fiber will be high.",
+    "choices": [
+      "myofilaments",
+      "nuclei",
+      "T tubules",
+      "mitochondria"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-07-192",
+    "subject": "anatomy_physiology",
+    "topic": "muscular_system",
+    "subtopic": "Muscle Functions",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "If the frequency of stimulation is raised, there is not time for tendons and connective tissue to stretch between contractions, and the overall force of the contraction _____.",
+    "choices": [
+      "will increase",
+      "will decrease",
+      "will remain constant",
+      "will fall to zero"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-07-193",
+    "subject": "anatomy_physiology",
+    "topic": "muscular_system",
+    "subtopic": "Muscle Functions",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The speed of a muscle's contraction will be increased if the load is _____.",
+    "choices": [
+      "decreased",
+      "increased",
+      "maximal",
+      "unchanged"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-07-194",
+    "subject": "anatomy_physiology",
+    "topic": "muscular_system",
+    "subtopic": "Muscle Functions",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Loads light enough to be moved by a small number of the available motor units increase the endurance of a muscle because _____.",
+    "choices": [
+      "each motor unit has time to rest",
+      "all motor units contract at once, sharing the load",
+      "glycolytic fibers are recruited first",
+      "less calcium is needed per contraction"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-07-195",
+    "subject": "anatomy_physiology",
+    "topic": "muscular_system",
+    "subtopic": "Muscle Functions",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The direction of a muscle's pull is determined by the direction of the _____.",
+    "choices": [
+      "fascicles",
+      "tendons",
+      "myofibrils",
+      "motor units"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-07-196",
+    "subject": "anatomy_physiology",
+    "topic": "muscular_system",
+    "subtopic": "Skeletal Muscle Structure",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The _____ of a muscle is its attachment to an immovable bone.",
+    "choices": [
+      "origin",
+      "insertion",
+      "belly",
+      "aponeurosis"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-07-197",
+    "subject": "anatomy_physiology",
+    "topic": "muscular_system",
+    "subtopic": "Skeletal Muscle Structure",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The _____ of a muscle is its attachment to a bone that moves when the muscle is contracted.",
+    "choices": [
+      "insertion",
+      "origin",
+      "belly",
+      "tendon"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-07-198",
+    "subject": "anatomy_physiology",
+    "topic": "muscular_system",
+    "subtopic": "Skeletal Muscle Structure",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "A muscle's more mobile attachment is called the _____.",
+    "choices": [
+      "insertion",
+      "origin",
+      "belly",
+      "action"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-07-199",
+    "subject": "anatomy_physiology",
+    "topic": "muscular_system",
+    "subtopic": "Skeletal Muscle Structure",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "A muscle's more immobile attachment is called the _____.",
+    "choices": [
+      "origin",
+      "insertion",
+      "belly",
+      "action"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-07-200",
+    "subject": "anatomy_physiology",
+    "topic": "muscular_system",
+    "subtopic": "Skeletal Muscle Structure",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Muscle cells are also called muscle _____.",
+    "choices": [
+      "fibers",
+      "fascicles",
+      "myofibrils",
+      "filaments"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-07-201",
+    "subject": "anatomy_physiology",
+    "topic": "muscular_system",
+    "subtopic": "Skeletal Muscle Structure",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Striations are seen in cardiac and skeletal muscle because the _____ are _____.",
+    "choices": [
+      "myofilaments; aligned",
+      "myofibrils; branched",
+      "mitochondria; abundant",
+      "nuclei; peripheral"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-07-202",
+    "subject": "anatomy_physiology",
+    "topic": "muscular_system",
+    "subtopic": "Skeletal Muscle Structure",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "A group of muscle fibers is called a muscle _____, which means 'bundle'.",
+    "choices": [
+      "fascicle",
+      "myofibril",
+      "sarcomere",
+      "myofilament"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-07-203",
+    "subject": "anatomy_physiology",
+    "topic": "muscular_system",
+    "subtopic": "Skeletal Muscle Structure",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Within a skeletal muscle, a connective tissue membrane called the _____ surrounds each fascicle.",
+    "choices": [
+      "perimysium",
+      "epimysium",
+      "endomysium",
+      "periosteum"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-07-204",
+    "subject": "anatomy_physiology",
+    "topic": "muscular_system",
+    "subtopic": "Skeletal Muscle Structure",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "_____ is a dense irregular connective tissue surrounding an entire skeletal muscle.",
+    "choices": [
+      "epimysium",
+      "perimysium",
+      "endomysium",
+      "periosteum"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-07-205",
+    "subject": "anatomy_physiology",
+    "topic": "muscular_system",
+    "subtopic": "Skeletal Muscle Structure",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Each muscle fiber is enclosed in a delicate, areolar connective tissue sheath called the _____.",
+    "choices": [
+      "endomysium",
+      "perimysium",
+      "epimysium",
+      "sarcolemma"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-07-206",
+    "subject": "anatomy_physiology",
+    "topic": "muscular_system",
+    "subtopic": "Skeletal Muscle Structure",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "For many muscles, the connective tissue membranes within the muscle merge at the ends with a connective tissue 'rope' called a(n) _____.",
+    "choices": [
+      "tendon",
+      "ligament",
+      "aponeurosis",
+      "retinaculum"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-07-207",
+    "subject": "anatomy_physiology",
+    "topic": "muscular_system",
+    "subtopic": "Skeletal Muscle Structure",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "When a muscle attaches directly to a bone, rather than to a tendon which is attached to a bone, the _____ of the muscle fuses with the _____ of the bone.",
+    "choices": [
+      "epimysium; periosteum",
+      "endomysium; periosteum",
+      "epimysium; endosteum",
+      "perimysium; perichondrium"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-07-208",
+    "subject": "anatomy_physiology",
+    "topic": "muscular_system",
+    "subtopic": "Skeletal Muscle Structure",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "A connective tissue structure that connects a muscle to a bone, and which is wide and flat, is called a(n) _____.",
+    "choices": [
+      "aponeurosis",
+      "tendon",
+      "ligament",
+      "retinaculum"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-07-209",
+    "subject": "anatomy_physiology",
+    "topic": "muscular_system",
+    "subtopic": "Skeletal Muscle Structure",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Each skeletal muscle is served by _____ nerve.",
+    "choices": [
+      "one",
+      "two",
+      "three",
+      "more than one"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-07-210",
+    "subject": "anatomy_physiology",
+    "topic": "muscular_system",
+    "subtopic": "Skeletal Muscle Structure",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Each skeletal muscle is served by _____ artery and _____ vein.",
+    "choices": [
+      "one; more than one",
+      "one; one",
+      "more than one; one",
+      "more than one; more than one"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-07-211",
+    "subject": "anatomy_physiology",
+    "topic": "muscular_system",
+    "subtopic": "Skeletal Muscle Structure",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "A nerve or blood vessel usually enters a skeletal muscle in a(n) _____ location.",
+    "choices": [
+      "central",
+      "proximal",
+      "distal",
+      "superficial"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-07-212",
+    "subject": "anatomy_physiology",
+    "topic": "muscular_system",
+    "subtopic": "Skeletal Muscle Structure",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Place the following in order from small to large: myofibril, myofilament, muscle, fascicle, muscle fiber.",
+    "choices": [
+      "myofilament, myofibril, muscle fiber, fascicle, muscle",
+      "myofibril, myofilament, muscle fiber, fascicle, muscle",
+      "myofilament, muscle fiber, myofibril, fascicle, muscle",
+      "myofilament, myofibril, fascicle, muscle fiber, muscle"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-07-213",
+    "subject": "anatomy_physiology",
+    "topic": "muscular_system",
+    "subtopic": "Skeletal Muscle Structure",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "A(n) _____ is the smallest contractile unit of a skeletal muscle: it extends from one Z-disk to the next.",
+    "choices": [
+      "sarcomere",
+      "myofibril",
+      "myofilament",
+      "triad"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-07-214",
+    "subject": "anatomy_physiology",
+    "topic": "muscular_system",
+    "subtopic": "Skeletal Muscle Structure",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "There are two types of _____, actin and myosin.",
+    "choices": [
+      "myofilament",
+      "myofibril",
+      "microtubule",
+      "intermediate filament"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-07-215",
+    "subject": "anatomy_physiology",
+    "topic": "muscular_system",
+    "subtopic": "Skeletal Muscle Structure",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Another name for 'thin myofilament' is _____.",
+    "choices": [
+      "actin",
+      "myosin",
+      "titin",
+      "tropomyosin"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-07-216",
+    "subject": "anatomy_physiology",
+    "topic": "muscular_system",
+    "subtopic": "Skeletal Muscle Structure",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Another name for 'thick myofilament' is _____.",
+    "choices": [
+      "myosin",
+      "actin",
+      "titin",
+      "troponin"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-07-217",
+    "subject": "anatomy_physiology",
+    "topic": "muscular_system",
+    "subtopic": "Skeletal Muscle Structure",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Skeletal muscle fibers are formed when several stem cells merge: as a result, skeletal muscle fibers have _____.",
+    "choices": [
+      "multiple nuclei",
+      "a single central nucleus",
+      "no nuclei",
+      "exactly two nuclei"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-07-218",
+    "subject": "anatomy_physiology",
+    "topic": "muscular_system",
+    "subtopic": "Skeletal Muscle Structure",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The nuclei of a skeletal muscle cell are located _____.",
+    "choices": [
+      "just beneath the sarcolemma",
+      "in the center of the fiber",
+      "inside the sarcoplasmic reticulum",
+      "clustered at one end of the fiber"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-07-219",
+    "subject": "anatomy_physiology",
+    "topic": "muscular_system",
+    "subtopic": "Skeletal Muscle Structure",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The plasma membrane of a skeletal muscle cell is called the _____.",
+    "choices": [
+      "sarcolemma",
+      "sarcoplasm",
+      "sarcoplasmic reticulum",
+      "endomysium"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-07-220",
+    "subject": "anatomy_physiology",
+    "topic": "muscular_system",
+    "subtopic": "Skeletal Muscle Structure",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Skeletal muscle fibers are syncytiums, which means that _____.",
+    "choices": [
+      "they are formed by the fusion of several cells",
+      "they contain only one nucleus",
+      "they can regenerate by mitosis",
+      "they are electrically coupled by gap junctions"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-07-221",
+    "subject": "anatomy_physiology",
+    "topic": "muscular_system",
+    "subtopic": "Skeletal Muscle Structure",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Individual skeletal muscle cells can be _____ micrometers long, while smooth muscle fibers and cardiac fibers are _____ micrometers long.",
+    "choices": [
+      "over 10,000; much less than 1000",
+      "much less than 1000; over 10,000",
+      "about 100; about 100",
+      "over 10,000; over 10,000"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-07-222",
+    "subject": "anatomy_physiology",
+    "topic": "muscular_system",
+    "subtopic": "Skeletal Muscle Structure",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The cytoplasm of a muscle cell is called _____.",
+    "choices": [
+      "sarcoplasm",
+      "sarcolemma",
+      "sarcomere",
+      "sarcoplasmic reticulum"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-07-223",
+    "subject": "anatomy_physiology",
+    "topic": "muscular_system",
+    "subtopic": "Skeletal Muscle Structure",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The smooth endoplasmic reticulum (smooth ER) of muscle cells is called the _____.",
+    "choices": [
+      "sarcoplasmic reticulum",
+      "sarcolemma",
+      "T tubule network",
+      "terminal cisternae"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-07-224",
+    "subject": "anatomy_physiology",
+    "topic": "muscular_system",
+    "subtopic": "Skeletal Muscle Structure",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "At the end of each sarcomere, the sarcoplasmic reticulum forms chambers which extend across the cell and are called the _____.",
+    "choices": [
+      "terminal cisternae",
+      "T tubules",
+      "triads",
+      "Z disks"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-07-225",
+    "subject": "anatomy_physiology",
+    "topic": "muscular_system",
+    "subtopic": "Skeletal Muscle Structure",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "_____ within each sarcomere form channels running transversely through the skeletal muscle cell.",
+    "choices": [
+      "T tubules",
+      "terminal cisternae",
+      "sarcoplasmic reticulum tubules",
+      "myofibrils"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-07-226",
+    "subject": "anatomy_physiology",
+    "topic": "muscular_system",
+    "subtopic": "Skeletal Muscle Structure",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Taken together, the terminal cisternae on each side of a T tubule and the T tubule itself are called a(n) _____.",
+    "choices": [
+      "triad",
+      "dyad",
+      "tetrad",
+      "sarcomere"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-07-227",
+    "subject": "anatomy_physiology",
+    "topic": "muscular_system",
+    "subtopic": "Skeletal Muscle Structure",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Light striations called I bands are formed where only _____ is present.",
+    "choices": [
+      "actin",
+      "myosin",
+      "titin",
+      "tropomyosin"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-07-228",
+    "subject": "anatomy_physiology",
+    "topic": "muscular_system",
+    "subtopic": "Skeletal Muscle Structure",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "_____ are found at each end of the sarcomere.",
+    "choices": [
+      "Z disks",
+      "M lines",
+      "A bands",
+      "H zones"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-07-229",
+    "subject": "anatomy_physiology",
+    "topic": "muscular_system",
+    "subtopic": "Skeletal Muscle Structure",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "In relaxed muscle, the Z-disks of the sarcomere are held together by the protein _____. This allows the muscle to resist tearing when stretch, and such resistance is called _____ force.",
+    "choices": [
+      "titin; passive",
+      "titin; active",
+      "actin; passive",
+      "myosin; elastic"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-07-230",
+    "subject": "anatomy_physiology",
+    "topic": "muscular_system",
+    "subtopic": "Skeletal Muscle Structure",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "In the long term, both disuse and aging result in the replacement of muscle fibers with _____.",
+    "choices": [
+      "connective tissue",
+      "epithelial tissue",
+      "nervous tissue",
+      "bone tissue"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-07-231",
+    "subject": "anatomy_physiology",
+    "topic": "muscular_system",
+    "subtopic": "Skeletal Muscle Structure",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "_____ provide the major force for producing a specific movement.",
+    "choices": [
+      "Prime movers",
+      "Synergists",
+      "Antagonists",
+      "Fixators"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-07-232",
+    "subject": "anatomy_physiology",
+    "topic": "muscular_system",
+    "subtopic": "Skeletal Muscle Structure",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "_____ are pairs of muscles which lengthen one another: e.g., extensors and flexors around a common joint.",
+    "choices": [
+      "Antagonists",
+      "Synergists",
+      "Prime movers",
+      "Fixators"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-07-233",
+    "subject": "anatomy_physiology",
+    "topic": "muscular_system",
+    "subtopic": "Skeletal Muscle Structure",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "_____ are muscles which assist in a particular movement by adding force, stability, or direction. They are not covered in this question bank in detail, but are involved in almost all movements.",
+    "choices": [
+      "Synergists",
+      "Antagonists",
+      "Prime movers",
+      "Fixators"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-07-234",
+    "subject": "anatomy_physiology",
+    "topic": "muscular_system",
+    "subtopic": "Skeletal Muscle Structure",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Synergists which stabilize a muscle's origin so that it does not move during contraction are called _____.",
+    "choices": [
+      "fixators",
+      "prime movers",
+      "antagonists",
+      "agonists"
+    ],
+    "answer_index": 0
   }
 ]

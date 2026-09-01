@@ -1,0 +1,1794 @@
+[
+  {
+    "id": "bio-anat-08-001",
+    "subject": "anatomy_physiology",
+    "topic": "nervous_system",
+    "subtopic": "Action Potential",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "An electrical impulse carried along the length of a neuron's axon is called a(n) _____.",
+    "choices": [
+      "action potential",
+      "graded potential",
+      "resting potential",
+      "postsynaptic potential"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-08-002",
+    "subject": "anatomy_physiology",
+    "topic": "nervous_system",
+    "subtopic": "Action Potential",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Action potentials in neurons are generated in the region called the _____.",
+    "choices": [
+      "trigger zone",
+      "synaptic cleft",
+      "node of Ranvier",
+      "dendritic spine"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-08-003",
+    "subject": "anatomy_physiology",
+    "topic": "nervous_system",
+    "subtopic": "Action Potential",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "In a typical action potential, the membrane potential of the neuron or muscle changes from _____ millivolts to _____ millivolts.",
+    "choices": [
+      "-70; +30",
+      "+30; -70",
+      "-90; +60",
+      "-55; 0"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-08-004",
+    "subject": "anatomy_physiology",
+    "topic": "nervous_system",
+    "subtopic": "Action Potential",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Another word or phrase used to refer to an action potential in a neuron is _____.",
+    "choices": [
+      "nerve impulse",
+      "graded potential",
+      "synaptic potential",
+      "membrane oscillation"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-08-005",
+    "subject": "anatomy_physiology",
+    "topic": "nervous_system",
+    "subtopic": "Action Potential",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Only two types of cells can generate action potentials: _____ cells and _____.",
+    "choices": [
+      "muscle; neurons",
+      "epithelial cells; neurons",
+      "muscle; gland cells",
+      "neurons; connective tissue cells"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-08-006",
+    "subject": "anatomy_physiology",
+    "topic": "nervous_system",
+    "subtopic": "Action Potential",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "As the membrane potential near a voltage regulated sodium channel increases from -70 mV to -55 mV, the _____ of the voltage regulated sodium channel _____.",
+    "choices": [
+      "activation gate; opens",
+      "activation gate; closes",
+      "inactivation gate; opens",
+      "inactivation gate; closes"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-08-007",
+    "subject": "anatomy_physiology",
+    "topic": "nervous_system",
+    "subtopic": "Action Potential",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "As the membrane potential near a voltage regulated sodium channel approaches +30 mV, the _____ begins to _____.",
+    "choices": [
+      "inactivation gate; close",
+      "activation gate; close",
+      "inactivation gate; open",
+      "activation gate; open"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-08-008",
+    "subject": "anatomy_physiology",
+    "topic": "nervous_system",
+    "subtopic": "Action Potential",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "As the membrane potential near a voltage regulated _____ channel approaches +30 mV, the channel opens.",
+    "choices": [
+      "potassium",
+      "sodium",
+      "calcium",
+      "chloride"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-08-009",
+    "subject": "anatomy_physiology",
+    "topic": "nervous_system",
+    "subtopic": "Action Potential",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "In the resting state, before or long after an action potential occurs, the activation gates of voltage regulated sodium channels are _____, the inactivation gates of the voltage regulated sodium channels are _____, and the voltage regulated potassium channels are _____.",
+    "choices": [
+      "closed; open; closed",
+      "open; closed; open",
+      "closed; closed; open",
+      "open; open; closed"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-08-010",
+    "subject": "anatomy_physiology",
+    "topic": "nervous_system",
+    "subtopic": "Action Potential",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "An influx of positive sodium ions causes opening of the activation gates of voltage regulated sodium channels resulting in a further influx of positive sodium ions, and thus the initial stages of an action potential are regulated by _____ feedback.",
+    "choices": [
+      "positive",
+      "negative",
+      "feed-forward",
+      "tonic"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-08-011",
+    "subject": "anatomy_physiology",
+    "topic": "nervous_system",
+    "subtopic": "Action Potential",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "An influx of positive sodium ions eventually causes closing of the inactivation gates of voltage regulated sodium channels, stopping the influx of positive sodium ions, and thus the final stages of an action potential are regulated by _____ feedback.",
+    "choices": [
+      "negative",
+      "positive",
+      "feed-forward",
+      "tonic"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-08-012",
+    "subject": "anatomy_physiology",
+    "topic": "nervous_system",
+    "subtopic": "Action Potential",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "During the _____ phase of an action potential, both gates of the voltage regulated sodium channels are open and the voltage regulated potassium channels are closed.",
+    "choices": [
+      "depolarization",
+      "repolarization",
+      "hyperpolarization",
+      "refractory"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-08-013",
+    "subject": "anatomy_physiology",
+    "topic": "nervous_system",
+    "subtopic": "Action Potential",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "During the _____ phase of an action potential, the membrane potential is more positive than the resting potential, but potassium is leaving the cell and sodium is no longer entering, so membrane potential is _____.",
+    "choices": [
+      "repolarization; becoming more negative",
+      "depolarization; becoming more positive",
+      "hyperpolarization; becoming more positive",
+      "repolarization; becoming more positive"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-08-014",
+    "subject": "anatomy_physiology",
+    "topic": "nervous_system",
+    "subtopic": "Action Potential",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "During the _____ phase of an action potential, so much potassium has left the cell that the membrane potential is actually more negative than the resting potential.",
+    "choices": [
+      "hyperpolarization",
+      "depolarization",
+      "repolarization",
+      "refractory"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-08-015",
+    "subject": "anatomy_physiology",
+    "topic": "nervous_system",
+    "subtopic": "Action Potential",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "During an action potential, the intracellular concentration of sodium increases and of potassium, decreases. The normal concentrations must be restored by the _____.",
+    "choices": [
+      "sodium-potassium pump",
+      "voltage gated sodium channels",
+      "potassium leak channels",
+      "calcium pump"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-08-016",
+    "subject": "anatomy_physiology",
+    "topic": "nervous_system",
+    "subtopic": "Action Potential",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "While the inactivation gate is closed and the activation gate is open, sodium channels are _____.",
+    "choices": [
+      "inactive",
+      "open",
+      "closed",
+      "resting"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-08-017",
+    "subject": "anatomy_physiology",
+    "topic": "nervous_system",
+    "subtopic": "Action Potential",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "During the _____ phase of an action potential, the voltage regulated sodium channels are open or inactive and voltage regulated potassium channels are open. During this time, the channels cannot respond to a voltage _____.",
+    "choices": [
+      "absolute refractory; increase",
+      "relative refractory; increase",
+      "absolute refractory; decrease",
+      "relative refractory; decrease"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-08-018",
+    "subject": "anatomy_physiology",
+    "topic": "nervous_system",
+    "subtopic": "Action Potential",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The relative refractory period occurs during the time when _____ channels are inactive.",
+    "choices": [
+      "many voltage regulated sodium",
+      "all voltage regulated sodium",
+      "voltage regulated potassium",
+      "chemically gated sodium"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-08-019",
+    "subject": "anatomy_physiology",
+    "topic": "nervous_system",
+    "subtopic": "Action Potential",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "During the relative refractory period, action potentials require a(n) _____ stimulus.",
+    "choices": [
+      "stronger than normal",
+      "weaker than normal",
+      "threshold-level",
+      "subthreshold"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-08-020",
+    "subject": "anatomy_physiology",
+    "topic": "nervous_system",
+    "subtopic": "Action Potential",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "A change in the voltage near a voltage regulated sodium channel that is exactly sufficient to generate an action potential is called the _____.",
+    "choices": [
+      "threshold stimulus",
+      "maximal stimulus",
+      "supramaximal stimulus",
+      "subthreshold stimulus"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-08-021",
+    "subject": "anatomy_physiology",
+    "topic": "nervous_system",
+    "subtopic": "Action Potential",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The voltage required to cause action potentials to be generated so rapidly that their rate is controlled by the refractory period is called the _____.",
+    "choices": [
+      "maximal stimulus",
+      "threshold stimulus",
+      "supramaximal stimulus",
+      "subthreshold stimulus"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-08-022",
+    "subject": "anatomy_physiology",
+    "topic": "nervous_system",
+    "subtopic": "Action Potential",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "A voltage greater than that which is required to cause action potentials to be generated so rapidly that their rate is controlled by the length of the refractory periods is called a(n) _____.",
+    "choices": [
+      "supramaximal stimulus",
+      "maximal stimulus",
+      "threshold stimulus",
+      "tetanic stimulus"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-08-023",
+    "subject": "anatomy_physiology",
+    "topic": "nervous_system",
+    "subtopic": "Action Potential",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The narrower the diameter of the axon, the _____ the speed of the action potential.",
+    "choices": [
+      "slower",
+      "faster",
+      "more variable",
+      "unchanged"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-08-024",
+    "subject": "anatomy_physiology",
+    "topic": "nervous_system",
+    "subtopic": "Action Potential",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The speed of an action potential is greatest when it is traveling through an axon which is _____.",
+    "choices": [
+      "myelinated",
+      "unmyelinated",
+      "narrow",
+      "short"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-08-025",
+    "subject": "anatomy_physiology",
+    "topic": "nervous_system",
+    "subtopic": "Action Potential",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "In myelinated neuronal processes, ions enter during an action potential only _____.",
+    "choices": [
+      "at the nodes of Ranvier",
+      "along the entire axon",
+      "at the axon hillock only",
+      "at the synaptic terminals"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-08-026",
+    "subject": "anatomy_physiology",
+    "topic": "nervous_system",
+    "subtopic": "Action Potential",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Saltatory conduction depends on the presence of _____, which are gaps through which ions in the extracellular fluid can reach the neuron's plasma membrane.",
+    "choices": [
+      "nodes of Ranvier",
+      "synaptic clefts",
+      "gap junctions",
+      "axon hillocks"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-08-027",
+    "subject": "anatomy_physiology",
+    "topic": "nervous_system",
+    "subtopic": "Divisions of the Nervous System",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "A(n) _____ is a gland, muscle, etc., that responds to a signal by changing the internal or external environment in some way (altering secretions, contracting, etc.).",
+    "choices": [
+      "effector",
+      "receptor",
+      "integrating center",
+      "interneuron"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-08-028",
+    "subject": "anatomy_physiology",
+    "topic": "nervous_system",
+    "subtopic": "Divisions of the Nervous System",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Nerve fibers that carry signals toward the brain are called _____ or _____ fibers.",
+    "choices": [
+      "afferent; sensory",
+      "efferent; motor",
+      "somatic; autonomic",
+      "visceral; efferent"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-08-029",
+    "subject": "anatomy_physiology",
+    "topic": "nervous_system",
+    "subtopic": "Divisions of the Nervous System",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Nerve fibers that carry signals from the brain are called _____ or _____ fibers.",
+    "choices": [
+      "motor; efferent",
+      "sensory; afferent",
+      "somatic; autonomic",
+      "visceral; afferent"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-08-030",
+    "subject": "anatomy_physiology",
+    "topic": "nervous_system",
+    "subtopic": "Divisions of the Nervous System",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The brain and spinal cord make up the _____ nervous system. All other nerves are part of the _____ nervous system.",
+    "choices": [
+      "central; peripheral",
+      "peripheral; central",
+      "somatic; autonomic",
+      "afferent; efferent"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-08-031",
+    "subject": "anatomy_physiology",
+    "topic": "nervous_system",
+    "subtopic": "Divisions of the Nervous System",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The PNS has two major divisions: the _____ division and the _____ division.",
+    "choices": [
+      "sensory; motor",
+      "somatic; autonomic",
+      "central; peripheral",
+      "sympathetic; parasympathetic"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-08-032",
+    "subject": "anatomy_physiology",
+    "topic": "nervous_system",
+    "subtopic": "Divisions of the Nervous System",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "There are two classes of motor nerves: _____ fibers, which control involuntary effectors, and _____ fibers, which control voluntary effectors (muscles).",
+    "choices": [
+      "visceral efferent; somatic efferent",
+      "somatic efferent; visceral efferent",
+      "visceral afferent; somatic afferent",
+      "sympathetic; parasympathetic"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-08-033",
+    "subject": "anatomy_physiology",
+    "topic": "nervous_system",
+    "subtopic": "Divisions of the Nervous System",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The _____ nervous system receives signals and controls actions which are not consciously perceived or controlled.",
+    "choices": [
+      "autonomic",
+      "somatic",
+      "central",
+      "sensory"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-08-034",
+    "subject": "anatomy_physiology",
+    "topic": "nervous_system",
+    "subtopic": "Divisions of the Nervous System",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The _____ nervous system receives signals and controls actions which are consciously perceived or controlled.",
+    "choices": [
+      "somatic",
+      "autonomic",
+      "visceral",
+      "sympathetic"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-08-035",
+    "subject": "anatomy_physiology",
+    "topic": "nervous_system",
+    "subtopic": "Divisions of the Nervous System",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "A(n) _____ is a collection of neuronal cell bodies located inside of the CNS.",
+    "choices": [
+      "nucleus",
+      "ganglion",
+      "tract",
+      "nerve"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-08-036",
+    "subject": "anatomy_physiology",
+    "topic": "nervous_system",
+    "subtopic": "Divisions of the Nervous System",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "A(n) _____ is a group of neuronal cell bodies located in the PNS.",
+    "choices": [
+      "ganglion",
+      "nucleus",
+      "nerve",
+      "tract"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-08-037",
+    "subject": "anatomy_physiology",
+    "topic": "nervous_system",
+    "subtopic": "Divisions of the Nervous System",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "A(n) _____ is a collection of neuronal axons, blood vessels, and connective tissues in the PNS.",
+    "choices": [
+      "nerve",
+      "tract",
+      "ganglion",
+      "nucleus"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-08-038",
+    "subject": "anatomy_physiology",
+    "topic": "nervous_system",
+    "subtopic": "Divisions of the Nervous System",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "A(n) _____ is a collection of neuronal axons with a common origin and destination found in the CNS.",
+    "choices": [
+      "tract",
+      "nerve",
+      "ganglion",
+      "nucleus"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-08-039",
+    "subject": "anatomy_physiology",
+    "topic": "nervous_system",
+    "subtopic": "Divisions of the Nervous System",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "One of the differences between a nerve and a tract is that a(n) _____ does not carry its own blood and lymphatic supply.",
+    "choices": [
+      "tract",
+      "nerve",
+      "ganglion",
+      "plexus"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-08-040",
+    "subject": "anatomy_physiology",
+    "topic": "nervous_system",
+    "subtopic": "Divisions of the Nervous System",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Neural structures other than the brain and spinal cord are all part of the _____.",
+    "choices": [
+      "peripheral nervous system",
+      "central nervous system",
+      "autonomic nervous system",
+      "somatic nervous system"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-08-041",
+    "subject": "anatomy_physiology",
+    "topic": "nervous_system",
+    "subtopic": "Membrane Potential",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Resting membrane potential in many nerve cells is roughly _____ millivolts.",
+    "choices": [
+      "-70",
+      "+30",
+      "-90",
+      "0"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-08-042",
+    "subject": "anatomy_physiology",
+    "topic": "nervous_system",
+    "subtopic": "Membrane Potential",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The major ions which contribute to the resting membrane potential are _____ and _____.",
+    "choices": [
+      "sodium; potassium",
+      "sodium; calcium",
+      "potassium; chloride",
+      "calcium; chloride"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-08-043",
+    "subject": "anatomy_physiology",
+    "topic": "nervous_system",
+    "subtopic": "Membrane Potential",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "There is _____ potassium inside of, than outside of, the cell.",
+    "choices": [
+      "more",
+      "less",
+      "the same amount of",
+      "almost no"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-08-044",
+    "subject": "anatomy_physiology",
+    "topic": "nervous_system",
+    "subtopic": "Membrane Potential",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "There is _____ sodium inside of, than outside of, the cell.",
+    "choices": [
+      "less",
+      "more",
+      "the same amount of",
+      "almost no"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-08-045",
+    "subject": "anatomy_physiology",
+    "topic": "nervous_system",
+    "subtopic": "Membrane Potential",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Cells allow _____ to diffuse slowly but freely across the cell membrane to generate a membrane potential.",
+    "choices": [
+      "potassium",
+      "sodium",
+      "calcium",
+      "chloride"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-08-046",
+    "subject": "anatomy_physiology",
+    "topic": "nervous_system",
+    "subtopic": "Membrane Potential",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The concentrations of sodium and potassium inside of the cell are maintained by the _____.",
+    "choices": [
+      "sodium-potassium pump",
+      "calcium pump",
+      "potassium leak channels",
+      "voltage gated sodium channels"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-08-047",
+    "subject": "anatomy_physiology",
+    "topic": "nervous_system",
+    "subtopic": "Membrane Potential",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Potassium tends to diffuse from the inside to the outside of a cell due to its _____.",
+    "choices": [
+      "concentration gradient",
+      "electrostatic attraction",
+      "active transport",
+      "osmotic pressure"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-08-048",
+    "subject": "anatomy_physiology",
+    "topic": "nervous_system",
+    "subtopic": "Membrane Potential",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The amount of potassium which leaves the cell is limited by _____.",
+    "choices": [
+      "electrostatic attraction",
+      "concentration gradient",
+      "the sodium-potassium pump",
+      "membrane impermeability"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-08-049",
+    "subject": "anatomy_physiology",
+    "topic": "nervous_system",
+    "subtopic": "Membrane Potential",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "An electrochemical gradient is the sum of the _____ and _____, both of which influence the motion of an ion across a membrane.",
+    "choices": [
+      "concentration gradient; electrostatic attraction",
+      "osmotic pressure; hydrostatic pressure",
+      "active transport; passive transport",
+      "voltage; resistance"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-08-050",
+    "subject": "anatomy_physiology",
+    "topic": "nervous_system",
+    "subtopic": "Membrane Potential",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "A change in membrane potential which is due to ion influx or efflux in a single region with the ions then diffusing away from that region is called a(n) _____.",
+    "choices": [
+      "graded potential",
+      "action potential",
+      "resting potential",
+      "threshold potential"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-08-051",
+    "subject": "anatomy_physiology",
+    "topic": "nervous_system",
+    "subtopic": "Membrane Potential",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "_____ potentials decrease in intensity as the distance from the site of generation increases.",
+    "choices": [
+      "Graded",
+      "Action",
+      "Resting",
+      "Threshold"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-08-052",
+    "subject": "anatomy_physiology",
+    "topic": "nervous_system",
+    "subtopic": "Membrane Potential",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The magnitude of a(n) _____ potential varies directly with the strength of the initial stimulus.",
+    "choices": [
+      "graded",
+      "action",
+      "resting",
+      "equilibrium"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-08-053",
+    "subject": "anatomy_physiology",
+    "topic": "nervous_system",
+    "subtopic": "Neural Cells",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The two principal cell types of the nervous system are _____ and supporting cells called _____.",
+    "choices": [
+      "neurons; glial cells",
+      "glial cells; neurons",
+      "neurons; fibroblasts",
+      "axons; dendrites"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-08-054",
+    "subject": "anatomy_physiology",
+    "topic": "nervous_system",
+    "subtopic": "Neural Cells",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "_____ are excitable cells that transmit electrical signals.",
+    "choices": [
+      "Neurons",
+      "Glial cells",
+      "Ependymal cells",
+      "Fibroblasts"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-08-055",
+    "subject": "anatomy_physiology",
+    "topic": "nervous_system",
+    "subtopic": "Neural Cells",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "_____ are supporting cells that help neurons to function and thrive.",
+    "choices": [
+      "Glial cells",
+      "Neurons",
+      "Erythrocytes",
+      "Fibroblasts"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-08-056",
+    "subject": "anatomy_physiology",
+    "topic": "nervous_system",
+    "subtopic": "Neural Cells",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "In the CNS, _____ are supporting cells which guide the migration of young neurons.",
+    "choices": [
+      "astrocytes",
+      "oligodendrocytes",
+      "microglia",
+      "ependymal cells"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-08-057",
+    "subject": "anatomy_physiology",
+    "topic": "nervous_system",
+    "subtopic": "Neural Cells",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "In the CNS, _____ are cells which line the fluid-filled cavities and which produce, transport, and circulate the fluid surrounding the brain and spinal cord.",
+    "choices": [
+      "ependymal cells",
+      "astrocytes",
+      "microglia",
+      "oligodendrocytes"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-08-058",
+    "subject": "anatomy_physiology",
+    "topic": "nervous_system",
+    "subtopic": "Neural Cells",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "_____ are cells in the PNS which surround the cell bodies of neurons which are grouped in ganglia. They maintain the microenvironment and provide insulation.",
+    "choices": [
+      "Satellite cells",
+      "Schwann cells",
+      "Astrocytes",
+      "Ependymal cells"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-08-059",
+    "subject": "anatomy_physiology",
+    "topic": "nervous_system",
+    "subtopic": "Neural Cells",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "A(n) _____ is a coating wrapped around neuronal axons which insulates them and protects them.",
+    "choices": [
+      "myelin sheath",
+      "neurilemma",
+      "endoneurium",
+      "basement membrane"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-08-060",
+    "subject": "anatomy_physiology",
+    "topic": "nervous_system",
+    "subtopic": "Neural Cells",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "_____ are cells which produce the myelin sheath in the peripheral nervous system, but not in the central nervous system.",
+    "choices": [
+      "Schwann cells",
+      "Oligodendrocytes",
+      "Satellite cells",
+      "Astrocytes"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-08-061",
+    "subject": "anatomy_physiology",
+    "topic": "nervous_system",
+    "subtopic": "Neural Cells",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "_____ adjacent Schwann cells or oligodendrocytes are called 'nodes of Ranvier.'",
+    "choices": [
+      "Short, unmyelinated regions between",
+      "Thickly myelinated segments between",
+      "Gap junctions connecting",
+      "Overlapping myelin layers of"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-08-062",
+    "subject": "anatomy_physiology",
+    "topic": "nervous_system",
+    "subtopic": "Neural Cells",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "In the CNS, _____ are cells which are phagocytic: they defend against pathogens and ingest cellular debris.",
+    "choices": [
+      "microglia",
+      "astrocytes",
+      "ependymal cells",
+      "satellite cells"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-08-063",
+    "subject": "anatomy_physiology",
+    "topic": "nervous_system",
+    "subtopic": "Neural Cells",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "In the CNS, _____ regulate the transport of nutrients and wastes to and from neurons and form part of the barrier which limits substances which may enter the CNS.",
+    "choices": [
+      "astrocytes",
+      "microglia",
+      "oligodendrocytes",
+      "ependymal cells"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-08-064",
+    "subject": "anatomy_physiology",
+    "topic": "nervous_system",
+    "subtopic": "Neural Cells",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "_____ are cells which produce the myelin sheath in the central nervous system, but not in the peripheral nervous system.",
+    "choices": [
+      "Oligodendrocytes",
+      "Schwann cells",
+      "Astrocytes",
+      "Microglia"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-08-065",
+    "subject": "anatomy_physiology",
+    "topic": "nervous_system",
+    "subtopic": "Neural Cells",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "In the CNS, _____ are the glial cells which regulate the microenvironment (ion concentrations, etc.) surrounding the neuron.",
+    "choices": [
+      "astrocytes",
+      "ependymal cells",
+      "microglia",
+      "oligodendrocytes"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-08-066",
+    "subject": "anatomy_physiology",
+    "topic": "nervous_system",
+    "subtopic": "Neural Cells",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "In the CNS, _____ are the glial cells which anchor neurons to blood vessels.",
+    "choices": [
+      "astrocytes",
+      "microglia",
+      "oligodendrocytes",
+      "Schwann cells"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-08-067",
+    "subject": "anatomy_physiology",
+    "topic": "nervous_system",
+    "subtopic": "Neural Cells",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Nissl bodies are found in the _____ of the cell.",
+    "choices": [
+      "body (or soma)",
+      "axon",
+      "axon terminal",
+      "myelin sheath"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-08-068",
+    "subject": "anatomy_physiology",
+    "topic": "nervous_system",
+    "subtopic": "Neural Cells",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "_____ are short, branching neuronal processes which receive stimuli from receptors or other neurons.",
+    "choices": [
+      "Dendrites",
+      "Axons",
+      "Axon terminals",
+      "Nodes of Ranvier"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-08-069",
+    "subject": "anatomy_physiology",
+    "topic": "nervous_system",
+    "subtopic": "Neural Cells",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "One of the main differences between an axon and a dendrite is that the axon contains _____ ion channels, while the dendrite contains _____ ion channels.",
+    "choices": [
+      "voltage gated; chemically gated",
+      "chemically gated; voltage gated",
+      "mechanically gated; chemically gated",
+      "leak; voltage gated"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-08-070",
+    "subject": "anatomy_physiology",
+    "topic": "nervous_system",
+    "subtopic": "Neural Cells",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The _____ functions to protect the axon and to electrically insulate axons from each other.",
+    "choices": [
+      "myelin sheath",
+      "neurilemma",
+      "endoneurium",
+      "perineurium"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-08-071",
+    "subject": "anatomy_physiology",
+    "topic": "nervous_system",
+    "subtopic": "Neural Cells",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "One of the main functions of the myelin sheath is to increase the _____.",
+    "choices": [
+      "speed of signal transmission",
+      "strength of the action potential",
+      "duration of the action potential",
+      "amount of neurotransmitter released"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-08-072",
+    "subject": "anatomy_physiology",
+    "topic": "nervous_system",
+    "subtopic": "Neural Cells",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "In the PNS, a Schwann cell encloses the axon of a single neuron with an empty portion of its _____.",
+    "choices": [
+      "plasma membrane",
+      "cytoplasm",
+      "nuclear envelope",
+      "rough endoplasmic reticulum"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-08-073",
+    "subject": "anatomy_physiology",
+    "topic": "nervous_system",
+    "subtopic": "Neural Cells",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The _____ is the nucleus and cytoplasm of a Schwann cell which is wrapped around an axon.",
+    "choices": [
+      "neurilemma",
+      "myelin sheath",
+      "node of Ranvier",
+      "endoneurium"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-08-074",
+    "subject": "anatomy_physiology",
+    "topic": "nervous_system",
+    "subtopic": "Neural Cells",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "A single Schwann cell is capable of interacting with the axons of how many neurons?",
+    "choices": [
+      "one",
+      "several",
+      "dozens",
+      "hundreds"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-08-075",
+    "subject": "anatomy_physiology",
+    "topic": "nervous_system",
+    "subtopic": "Neural Cells",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "An oligodendrocyte is capable of interacting with the axons of how many neurons?",
+    "choices": [
+      "several",
+      "one",
+      "none",
+      "thousands"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-08-076",
+    "subject": "anatomy_physiology",
+    "topic": "nervous_system",
+    "subtopic": "Neural Cells",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "During formation of a myelin sheath, the cytoplasm and nucleus of a(n) _____ remains free and does not form a neurilemma.",
+    "choices": [
+      "oligodendrocyte",
+      "Schwann cell",
+      "astrocyte",
+      "satellite cell"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-08-077",
+    "subject": "anatomy_physiology",
+    "topic": "nervous_system",
+    "subtopic": "Neural Cells",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Neurons can be classified functionally as _____, _____ or _____.",
+    "choices": [
+      "sensory, motor, interneurons",
+      "unipolar, bipolar, multipolar",
+      "somatic, autonomic, visceral",
+      "myelinated, unmyelinated, mixed"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-08-078",
+    "subject": "anatomy_physiology",
+    "topic": "nervous_system",
+    "subtopic": "Neural Cells",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Neurons can be classified by structure according to the number of _____ extending directly from the _____.",
+    "choices": [
+      "processes; cell body",
+      "dendrites; axon",
+      "axons; dendrite",
+      "synapses; axon hillock"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-08-079",
+    "subject": "anatomy_physiology",
+    "topic": "nervous_system",
+    "subtopic": "Neural Cells",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Absence of a guiding line of Schwann cells after axonal damage in the PNS _____.",
+    "choices": [
+      "prevents axonal regeneration",
+      "speeds axonal regeneration",
+      "has no effect on axonal regeneration",
+      "triggers immediate remyelination"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-08-080",
+    "subject": "anatomy_physiology",
+    "topic": "nervous_system",
+    "subtopic": "Neural Cells",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "A(n) _____ is a bundle of fibers which carry electrochemical signals.",
+    "choices": [
+      "nerve",
+      "tract",
+      "ganglion",
+      "fascicle"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-08-081",
+    "subject": "anatomy_physiology",
+    "topic": "nervous_system",
+    "subtopic": "Synaptic Transmission",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "A(n) _____ postsynaptic potential (abbreviated _____) occurs when the neurotransmitter activates channels which allow positive ions to leave the cell or negative ions to enter.",
+    "choices": [
+      "inhibitory; IPSP",
+      "excitatory; EPSP",
+      "inhibitory; EPSP",
+      "excitatory; IPSP"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-08-082",
+    "subject": "anatomy_physiology",
+    "topic": "nervous_system",
+    "subtopic": "Synaptic Transmission",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "A(n) _____ postsynaptic potential (abbreviated _____) occurs when the neurotransmitter activates channels which allow positive ions to enter the cell.",
+    "choices": [
+      "excitatory; EPSP",
+      "inhibitory; IPSP",
+      "excitatory; IPSP",
+      "inhibitory; EPSP"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-08-083",
+    "subject": "anatomy_physiology",
+    "topic": "nervous_system",
+    "subtopic": "Synaptic Transmission",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "An inhibitory postsynaptic potential results in a(n) _____ in membrane potential.",
+    "choices": [
+      "decrease",
+      "increase",
+      "no change",
+      "reversal"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-08-084",
+    "subject": "anatomy_physiology",
+    "topic": "nervous_system",
+    "subtopic": "Synaptic Transmission",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "An excitatory postsynaptic potential results in a(n) _____ in membrane potential.",
+    "choices": [
+      "increase",
+      "decrease",
+      "no change",
+      "reversal"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-08-085",
+    "subject": "anatomy_physiology",
+    "topic": "nervous_system",
+    "subtopic": "Synaptic Transmission",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Both excitatory and inhibitory postsynaptic potentials are _____ potentials, not _____ potentials.",
+    "choices": [
+      "graded; action",
+      "action; graded",
+      "resting; action",
+      "graded; resting"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-08-086",
+    "subject": "anatomy_physiology",
+    "topic": "nervous_system",
+    "subtopic": "Synaptic Transmission",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "More than one EPSP is required to produce a(n) _____.",
+    "choices": [
+      "action potential",
+      "IPSP",
+      "graded potential",
+      "resting potential"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-08-087",
+    "subject": "anatomy_physiology",
+    "topic": "nervous_system",
+    "subtopic": "Synaptic Transmission",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "In temporal summation of postsynaptic potentials, several signals are received _____.",
+    "choices": [
+      "in a short time",
+      "from different presynaptic cells",
+      "at different postsynaptic cells",
+      "after long delays"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-08-088",
+    "subject": "anatomy_physiology",
+    "topic": "nervous_system",
+    "subtopic": "Synaptic Transmission",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "In spatial summation of postsynaptic potentials, several signals are received _____.",
+    "choices": [
+      "from different presynaptic cells",
+      "in rapid succession from one presynaptic cell",
+      "after the refractory period",
+      "from the same synapse repeatedly"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-08-089",
+    "subject": "anatomy_physiology",
+    "topic": "nervous_system",
+    "subtopic": "Synaptic Transmission",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "_____ are chemicals used for neuronal communication with the body and the brain.",
+    "choices": [
+      "Neurotransmitters",
+      "Hormones",
+      "Enzymes",
+      "Electrolytes"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-08-090",
+    "subject": "anatomy_physiology",
+    "topic": "nervous_system",
+    "subtopic": "Synaptic Transmission",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Neurotransmitters are generally classified as _____ or _____, depending on their typical effect on cells having appropriate receptors.",
+    "choices": [
+      "excitatory; inhibitory",
+      "direct; indirect",
+      "chemical; electrical",
+      "fast; slow"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-08-091",
+    "subject": "anatomy_physiology",
+    "topic": "nervous_system",
+    "subtopic": "Synaptic Transmission",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Whether a neurotransmitter is excitatory or inhibitory to a given cell is determined by the _____.",
+    "choices": [
+      "type of receptors expressed by the cell",
+      "amount of neurotransmitter released",
+      "width of the synaptic cleft",
+      "speed of the presynaptic action potential"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-08-092",
+    "subject": "anatomy_physiology",
+    "topic": "nervous_system",
+    "subtopic": "Synaptic Transmission",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "In skeletal muscle, the neurotransmitter acetylcholine is _____.",
+    "choices": [
+      "excitatory",
+      "inhibitory",
+      "modulatory",
+      "ineffective"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-08-093",
+    "subject": "anatomy_physiology",
+    "topic": "nervous_system",
+    "subtopic": "Synaptic Transmission",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "In cardiac muscle, the neurotransmitter acetylcholine is _____.",
+    "choices": [
+      "inhibitory",
+      "excitatory",
+      "modulatory",
+      "ineffective"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-08-094",
+    "subject": "anatomy_physiology",
+    "topic": "nervous_system",
+    "subtopic": "Synaptic Transmission",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "_____ neurotransmitters bind to ion channels and cause them to open.",
+    "choices": [
+      "Direct",
+      "Indirect",
+      "Excitatory",
+      "Inhibitory"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-08-095",
+    "subject": "anatomy_physiology",
+    "topic": "nervous_system",
+    "subtopic": "Synaptic Transmission",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "____ neurotransmitters cause membrane proteins to change shape, which activates second messengers within the cell.",
+    "choices": [
+      "Indirect",
+      "Direct",
+      "Excitatory",
+      "Inhibitory"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-08-096",
+    "subject": "anatomy_physiology",
+    "topic": "nervous_system",
+    "subtopic": "Synaptic Transmission",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The response of cells to _____ neurotransmitters is much more rapid than their response to _____ neurotransmitters.",
+    "choices": [
+      "direct; indirect",
+      "indirect; direct",
+      "excitatory; inhibitory",
+      "inhibitory; excitatory"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-08-097",
+    "subject": "anatomy_physiology",
+    "topic": "nervous_system",
+    "subtopic": "Synaptic Transmission",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "A(n) _____ messenger is a molecule that carries a signal to the cell.",
+    "choices": [
+      "first",
+      "second",
+      "intermediate",
+      "terminal"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-08-098",
+    "subject": "anatomy_physiology",
+    "topic": "nervous_system",
+    "subtopic": "Synaptic Transmission",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "A(n) _____ is an intracellular molecule that carries a signal within a cell, allowing the cell to respond to an extracellular signal.",
+    "choices": [
+      "second messenger",
+      "first messenger",
+      "neurotransmitter",
+      "receptor protein"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-08-099",
+    "subject": "anatomy_physiology",
+    "topic": "nervous_system",
+    "subtopic": "Synaptic Transmission",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Second messenger systems allow complex cellular responses, but their signaling is usually _____.",
+    "choices": [
+      "slow",
+      "fast",
+      "brief",
+      "irreversible"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-08-100",
+    "subject": "anatomy_physiology",
+    "topic": "nervous_system",
+    "subtopic": "Synaptic Transmission",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The cell body and dendrites of a neuron contain _____ which allow them to respond to neurotransmitters.",
+    "choices": [
+      "chemically gated ion channels",
+      "voltage gated ion channels",
+      "mechanically gated ion channels",
+      "leak channels"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-08-101",
+    "subject": "anatomy_physiology",
+    "topic": "nervous_system",
+    "subtopic": "Synaptic Transmission",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "There is a secretory region at the distal end of each axon which releases _____.",
+    "choices": [
+      "neurotransmitters",
+      "hormones",
+      "enzymes",
+      "second messengers"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-08-102",
+    "subject": "anatomy_physiology",
+    "topic": "nervous_system",
+    "subtopic": "Synaptic Transmission",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "A(n) _____ is a junction between a neuron and another cell which allows the transfer of information.",
+    "choices": [
+      "synapse",
+      "node of Ranvier",
+      "desmosome",
+      "tight junction"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-08-103",
+    "subject": "anatomy_physiology",
+    "topic": "nervous_system",
+    "subtopic": "Synaptic Transmission",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The _____ neuron conducts the signal to a synapse, while the _____ cell responds or conducts a signal away from it.",
+    "choices": [
+      "presynaptic; postsynaptic",
+      "postsynaptic; presynaptic",
+      "afferent; efferent",
+      "axonal; dendritic"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-08-104",
+    "subject": "anatomy_physiology",
+    "topic": "nervous_system",
+    "subtopic": "Synaptic Transmission",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Synapses are named for the types of presynaptic and postsynaptic cell structures that are involved: for example, if the axon of a presynaptic cell meets the dendrite of a postsynaptic cell, it is a(n) _____ synapse.",
+    "choices": [
+      "axodendritic",
+      "axosomatic",
+      "axoaxonic",
+      "dendrodendritic"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-08-105",
+    "subject": "anatomy_physiology",
+    "topic": "nervous_system",
+    "subtopic": "Synaptic Transmission",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The _____ is the fluid-filled space separating the pre- and postsynaptic cells.",
+    "choices": [
+      "synaptic cleft",
+      "synaptic vesicle",
+      "gap junction",
+      "node of Ranvier"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-08-106",
+    "subject": "anatomy_physiology",
+    "topic": "nervous_system",
+    "subtopic": "Synaptic Transmission",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "In a(n) _____ synapse, the pre- and postsynaptic cells are joined by gap junctions, and changes in the membrane potential of one cell are transmitted to the other.",
+    "choices": [
+      "electrical",
+      "chemical",
+      "axodendritic",
+      "axosomatic"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-08-107",
+    "subject": "anatomy_physiology",
+    "topic": "nervous_system",
+    "subtopic": "Synaptic Transmission",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "_____ synapses provide a one-way transmission of signals, as opposed to _____ synapses, which transmit signals in both directions.",
+    "choices": [
+      "Chemical; electrical",
+      "Electrical; chemical",
+      "Excitatory; inhibitory",
+      "Direct; indirect"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-08-108",
+    "subject": "anatomy_physiology",
+    "topic": "nervous_system",
+    "subtopic": "Synaptic Transmission",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "When a nerve impulse reaches the axonal terminal of a presynaptic neuron, _____ channels open and ions enter the cell.",
+    "choices": [
+      "calcium",
+      "sodium",
+      "potassium",
+      "chloride"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-08-109",
+    "subject": "anatomy_physiology",
+    "topic": "nervous_system",
+    "subtopic": "Synaptic Transmission",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "In response to the influx of calcium, presynaptic neuronal axon terminals release a(n) _____ into the synaptic cleft.",
+    "choices": [
+      "neurotransmitter",
+      "hormone",
+      "enzyme",
+      "second messenger"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-08-110",
+    "subject": "anatomy_physiology",
+    "topic": "nervous_system",
+    "subtopic": "Synaptic Transmission",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "With only a very few exceptions, human synapses are _____ synapses.",
+    "choices": [
+      "chemical",
+      "electrical",
+      "mechanical",
+      "hormonal"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-08-111",
+    "subject": "anatomy_physiology",
+    "topic": "nervous_system",
+    "subtopic": "Synaptic Transmission",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "When the postsynaptic cell is a neuron, it responds to the neurotransmitter by _____.",
+    "choices": [
+      "opening ion channels",
+      "releasing more neurotransmitter",
+      "forming gap junctions",
+      "pumping sodium out"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-08-112",
+    "subject": "anatomy_physiology",
+    "topic": "nervous_system",
+    "subtopic": "Synaptic Transmission",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The number of ions entering or leaving a neuron in response to a neurotransmitter depends on the _____ of the neurotransmitter and the _____ of the signal.",
+    "choices": [
+      "amount; duration",
+      "type; strength",
+      "speed; frequency",
+      "size; charge"
+    ],
+    "answer_index": 0
+  }
+]

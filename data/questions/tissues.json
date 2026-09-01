@@ -3,1392 +3,1216 @@
     "id": "bio-anat-04-001",
     "subject": "anatomy_physiology",
     "topic": "tissues",
-    "subtopic": "Tissue Types",
+    "subtopic": "Aging: Tissues",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "In advanced age, the balance between tissue breakdown and tissue rebuilding during tissue remodeling often shifts to favor _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "breakdown",
+      "rebuilding",
+      "balanced turnover",
+      "matrix synthesis"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-04-002",
     "subject": "anatomy_physiology",
     "topic": "tissues",
-    "subtopic": "Tissue Types",
+    "subtopic": "Aging: Tissues",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "In advanced age, genes often ____ or change their normal pattern of _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "mutate; expression",
+      "replicate; translation",
+      "recombine; replication",
+      "condense; transcription"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-04-003",
     "subject": "anatomy_physiology",
     "topic": "tissues",
-    "subtopic": "Tissue Types",
+    "subtopic": "Connective Tissue",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The _____ is an organized, extracellular mesh of varying density in which cells are found.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "extracellular matrix",
+      "glycocalyx",
+      "basement membrane",
+      "interstitial fluid"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-04-004",
     "subject": "anatomy_physiology",
     "topic": "tissues",
-    "subtopic": "Tissue Types",
+    "subtopic": "Connective Tissue",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Connective tissue is characterized by the presence of a _____ in which the cells are found.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "non-living matrix",
+      "basal lamina",
+      "cytoskeleton",
+      "serous membrane"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-04-005",
     "subject": "anatomy_physiology",
     "topic": "tissues",
-    "subtopic": "Tissue Types",
+    "subtopic": "Connective Tissue",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "With few exceptions, there is little cell:cell contact in _____ tissue.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "connective",
+      "epithelial",
+      "muscle",
+      "nervous"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-04-006",
     "subject": "anatomy_physiology",
     "topic": "tissues",
-    "subtopic": "Tissue Types",
+    "subtopic": "Connective Tissue",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Cells in _____ tissue are surrounded by a complex extracellular matrix.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "connective",
+      "epithelial",
+      "muscle",
+      "nervous"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-04-007",
     "subject": "anatomy_physiology",
     "topic": "tissues",
-    "subtopic": "Tissue Types",
+    "subtopic": "Connective Tissue",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "_____ is the embryonic tissue type that gives rise to all connective tissue in the adult body.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "Mesenchyme",
+      "Ectoderm",
+      "Endoderm",
+      "Epithelium"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-04-008",
     "subject": "anatomy_physiology",
     "topic": "tissues",
-    "subtopic": "Tissue Types",
+    "subtopic": "Connective Tissue",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The unstructured portion of the matrix that fills the space between cells in connective tissue is called the _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "ground substance",
+      "collagen",
+      "basal lamina",
+      "cytosol"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-04-009",
     "subject": "anatomy_physiology",
     "topic": "tissues",
-    "subtopic": "Tissue Types",
+    "subtopic": "Connective Tissue",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "_____ is a tough, extremely strong fibrous protein which gives connective tissue strength.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "Collagen",
+      "Elastin",
+      "Reticular fiber protein",
+      "Keratin"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-04-010",
     "subject": "anatomy_physiology",
     "topic": "tissues",
-    "subtopic": "Tissue Types",
+    "subtopic": "Connective Tissue",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "_____ are fibrous proteins in connective tissue that, when stretched, snaps back to its original length.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "Elastic fibers (elastin)",
+      "Collagen fibers",
+      "Reticular fibers",
+      "Keratin filaments"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-04-011",
     "subject": "anatomy_physiology",
     "topic": "tissues",
-    "subtopic": "Epithelial Tissue",
+    "subtopic": "Connective Tissue",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "_____ are fibrous proteins in connective tissue that branch and cross-connect to provide a flexible but form-holding framework in which cells reside.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "Reticular fibers",
+      "Collagen fibers",
+      "Elastic fibers",
+      "Microfilaments"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-04-012",
     "subject": "anatomy_physiology",
     "topic": "tissues",
-    "subtopic": "Epithelial Tissue",
+    "subtopic": "Connective Tissue",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The major matrix producing cells in connective tissue proper are called _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "fibroblasts",
+      "chondroblasts",
+      "osteoblasts",
+      "macrophages"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-04-013",
     "subject": "anatomy_physiology",
     "topic": "tissues",
-    "subtopic": "Epithelial Tissue",
+    "subtopic": "Connective Tissue",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Connective tissue proper can be sub-classified as either _____ or _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "loose; dense",
+      "regular; irregular",
+      "areolar; reticular",
+      "compact; spongy"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-04-014",
     "subject": "anatomy_physiology",
     "topic": "tissues",
-    "subtopic": "Epithelial Tissue",
+    "subtopic": "Connective Tissue",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "In _____ connective tissue, the fibers are separated by large amounts of ground substance.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "loose",
+      "dense",
+      "regular",
+      "irregular"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-04-015",
     "subject": "anatomy_physiology",
     "topic": "tissues",
-    "subtopic": "Epithelial Tissue",
+    "subtopic": "Connective Tissue",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "In _____ connective tissue, the fibers are tightly packed and very little ground substance is present.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "dense",
+      "loose",
+      "areolar",
+      "reticular"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-04-016",
     "subject": "anatomy_physiology",
     "topic": "tissues",
-    "subtopic": "Epithelial Tissue",
+    "subtopic": "Connective Tissue",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The three types of loose connective tissue are _____, _____ and _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "areolar, adipose, reticular",
+      "areolar, elastic, hyaline",
+      "adipose, regular, irregular",
+      "reticular, elastic, collagenous"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-04-017",
     "subject": "anatomy_physiology",
     "topic": "tissues",
-    "subtopic": "Epithelial Tissue",
+    "subtopic": "Connective Tissue",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The three types of cartilage are _____, _____ and _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "hyaline, fibrocartilage, elastic",
+      "hyaline, reticular, elastic",
+      "fibrocartilage, areolar, elastic",
+      "hyaline, fibrocartilage, spongy"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-04-018",
     "subject": "anatomy_physiology",
     "topic": "tissues",
-    "subtopic": "Epithelial Tissue",
+    "subtopic": "Connective Tissue",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The two types of bone are _____ and _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "compact; spongy",
+      "dense; loose",
+      "cortical; hyaline",
+      "regular; irregular"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-04-019",
     "subject": "anatomy_physiology",
     "topic": "tissues",
-    "subtopic": "Epithelial Tissue",
+    "subtopic": "Connective Tissue",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "_____ connective tissue is usually found under epithelia. It contains both elastic and collagen fibers and a large amount of ground substance.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "Areolar",
+      "Adipose",
+      "Reticular",
+      "Dense irregular"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-04-020",
     "subject": "anatomy_physiology",
     "topic": "tissues",
-    "subtopic": "Epithelial Tissue",
+    "subtopic": "Connective Tissue",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "_____ connective tissue contains many cells whose nucleus has been pushed aside by the large volumes of material that each cell stores.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "Adipose",
+      "Areolar",
+      "Reticular",
+      "Dense regular"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-04-021",
     "subject": "anatomy_physiology",
     "topic": "tissues",
-    "subtopic": "Connective Tissue Proper",
+    "subtopic": "Connective Tissue",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "_____ connective tissue forms a soft internal skeleton that supports other cell types.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "Reticular",
+      "Areolar",
+      "Adipose",
+      "Elastic"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-04-022",
     "subject": "anatomy_physiology",
     "topic": "tissues",
-    "subtopic": "Connective Tissue Proper",
+    "subtopic": "Connective Tissue",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "_____ connective tissue attaches muscle to bone, and is very strong along one axis.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "Regular (dense regular)",
+      "Irregular (dense irregular)",
+      "Areolar",
+      "Reticular"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-04-023",
     "subject": "anatomy_physiology",
     "topic": "tissues",
-    "subtopic": "Connective Tissue Proper",
+    "subtopic": "Connective Tissue",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "_____ connective tissue is strong when pulled from any direction, and tends to form tough but flexible enclosures for joints, organs, etc.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "Irregular (dense irregular)",
+      "Regular (dense regular)",
+      "Areolar",
+      "Adipose"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-04-024",
     "subject": "anatomy_physiology",
     "topic": "tissues",
-    "subtopic": "Connective Tissue Proper",
+    "subtopic": "Connective Tissue",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "_____ has a featureless matrix in which individual fibers can't be clearly seen.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "Hyaline cartilage",
+      "Elastic cartilage",
+      "Fibrocartilage",
+      "Osseous tissue"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-04-025",
     "subject": "anatomy_physiology",
     "topic": "tissues",
-    "subtopic": "Connective Tissue Proper",
+    "subtopic": "Connective Tissue",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "_____ forms the embryonic skeleton, parts of the nose, the trachea, the larynx, and part of the ribs, and coats the ends of long bones.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "Hyaline cartilage",
+      "Elastic cartilage",
+      "Fibrocartilage",
+      "Spongy bone"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-04-026",
     "subject": "anatomy_physiology",
     "topic": "tissues",
-    "subtopic": "Connective Tissue Proper",
+    "subtopic": "Connective Tissue",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "_____ is a very strong and resilient cartilage which is extremely flexible, and will spring back to its original shape after bending.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "Elastic cartilage",
+      "Hyaline cartilage",
+      "Fibrocartilage",
+      "Dense regular connective tissue"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-04-027",
     "subject": "anatomy_physiology",
     "topic": "tissues",
-    "subtopic": "Connective Tissue Proper",
+    "subtopic": "Connective Tissue",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "_____ is a cartilage that is found in regions of the body such as the knees and spine, which must resist both decompression (stretch or pulling) and compression.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "Fibrocartilage",
+      "Hyaline cartilage",
+      "Elastic cartilage",
+      "Dense irregular connective tissue"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-04-028",
     "subject": "anatomy_physiology",
     "topic": "tissues",
-    "subtopic": "Connective Tissue Proper",
+    "subtopic": "Connective Tissue",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "_____ is a hard connective tissue composed of calcium and other minerals surrounding reinforcing protein fibers.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "Bone (osseous tissue)",
+      "Fibrocartilage",
+      "Hyaline cartilage",
+      "Dense regular connective tissue"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-04-029",
     "subject": "anatomy_physiology",
     "topic": "tissues",
-    "subtopic": "Connective Tissue Proper",
+    "subtopic": "Connective Tissue",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The major matrix producing cells in cartilage are called _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "chondroblasts",
+      "osteoblasts",
+      "fibroblasts",
+      "osteoclasts"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-04-030",
     "subject": "anatomy_physiology",
     "topic": "tissues",
-    "subtopic": "Connective Tissue Proper",
+    "subtopic": "Connective Tissue",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The major matrix producing cells in bone are called _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "osteoblasts",
+      "osteocytes",
+      "osteoclasts",
+      "chondroblasts"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-04-031",
     "subject": "anatomy_physiology",
     "topic": "tissues",
-    "subtopic": "Connective Tissue: Blood & Lymph",
+    "subtopic": "Connective Tissue",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "_____ cartilage makes up the larynx and reinforces air passages.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "Respiratory",
+      "Costal",
+      "Articular",
+      "Nasal"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-04-032",
     "subject": "anatomy_physiology",
     "topic": "tissues",
-    "subtopic": "Connective Tissue: Blood & Lymph",
+    "subtopic": "Connective Tissue",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "_____ cartilage supports the nose.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "Nasal",
+      "Respiratory",
+      "Costal",
+      "Articular"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-04-033",
     "subject": "anatomy_physiology",
     "topic": "tissues",
-    "subtopic": "Connective Tissue: Blood & Lymph",
+    "subtopic": "Connective Tissue",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Articular cartilage is composed of _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "hyaline cartilage",
+      "elastic cartilage",
+      "fibrocartilage",
+      "dense regular connective tissue"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-04-034",
     "subject": "anatomy_physiology",
     "topic": "tissues",
-    "subtopic": "Connective Tissue: Blood & Lymph",
+    "subtopic": "Connective Tissue",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Costal cartilage is composed of _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "hyaline cartilage",
+      "fibrocartilage",
+      "elastic cartilage",
+      "dense regular connective tissue"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-04-035",
     "subject": "anatomy_physiology",
     "topic": "tissues",
-    "subtopic": "Connective Tissue: Blood & Lymph",
+    "subtopic": "Connective Tissue",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Respiratory cartilage is composed of _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "hyaline cartilage",
+      "elastic cartilage",
+      "fibrocartilage",
+      "dense irregular connective tissue"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-04-036",
     "subject": "anatomy_physiology",
     "topic": "tissues",
-    "subtopic": "Connective Tissue: Blood & Lymph",
+    "subtopic": "Connective Tissue",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Nasal cartilage is composed of _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "hyaline cartilage",
+      "fibrocartilage",
+      "elastic cartilage",
+      "dense irregular connective tissue"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-04-037",
     "subject": "anatomy_physiology",
     "topic": "tissues",
-    "subtopic": "Connective Tissue: Blood & Lymph",
+    "subtopic": "Connective Tissue",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "_____ cartilage is strong, moderately flexible, and resilient, but does not stretch or bend very far.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "Hyaline",
+      "Elastic",
+      "Fibrocartilage",
+      "Dense regular connective tissue"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-04-038",
     "subject": "anatomy_physiology",
     "topic": "tissues",
-    "subtopic": "Connective Tissue: Blood & Lymph",
+    "subtopic": "Connective Tissue",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "_____ cartilage is fairly strong, very flexible, and somewhat stretchable.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "Elastic",
+      "Hyaline",
+      "Fibrocartilage",
+      "Dense irregular connective tissue"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-04-039",
     "subject": "anatomy_physiology",
     "topic": "tissues",
-    "subtopic": "Connective Tissue: Blood & Lymph",
+    "subtopic": "Connective Tissue",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "_____ <which type of cartilage?> is very strong and extremely resistant to compression, but does not stretch or bend.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "Fibrocartilage",
+      "Hyaline cartilage",
+      "Elastic cartilage",
+      "Dense regular connective tissue"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-04-040",
     "subject": "anatomy_physiology",
     "topic": "tissues",
-    "subtopic": "Connective Tissue: Blood & Lymph",
+    "subtopic": "Connective Tissue",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The external ear and epiglottis are made of _____ cartilage.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "elastic",
+      "hyaline",
+      "fibrocartilage",
+      "articular"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-04-041",
     "subject": "anatomy_physiology",
     "topic": "tissues",
-    "subtopic": "Connective Tissue: Bone",
+    "subtopic": "Epithelial Tissue",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The defining characteristic of epithelial tissue is that it forms a(n) _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "surface",
+      "conducting pathway for electrical impulses",
+      "contractile unit",
+      "matrix-filled framework"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-04-042",
     "subject": "anatomy_physiology",
     "topic": "tissues",
-    "subtopic": "Connective Tissue: Bone",
+    "subtopic": "Epithelial Tissue",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The two major attributes that are used in classifying epithelial tissue are the _____ and cell _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "number of layers; shape",
+      "cell size; fiber type",
+      "vascularity; shape",
+      "number of layers; matrix composition"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-04-043",
     "subject": "anatomy_physiology",
     "topic": "tissues",
-    "subtopic": "Connective Tissue: Bone",
+    "subtopic": "Epithelial Tissue",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Epithelia whose cells are arranged into a single layer of cells is classified as _____, whereas multiple layer epithelia are classified as _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "simple; stratified",
+      "squamous; cuboidal",
+      "thin; thick",
+      "basal; apical"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-04-044",
     "subject": "anatomy_physiology",
     "topic": "tissues",
-    "subtopic": "Connective Tissue: Bone",
+    "subtopic": "Epithelial Tissue",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "_____ cells are squashed, like a fried egg.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "Squamous",
+      "Cuboidal",
+      "Columnar",
+      "Transitional"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-04-045",
     "subject": "anatomy_physiology",
     "topic": "tissues",
-    "subtopic": "Connective Tissue: Bone",
+    "subtopic": "Epithelial Tissue",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "When flat, surface epithelial cells are dead, lack nuclei, and are filled with a tough, cross-linked protein, they are _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "keratinized",
+      "non-keratinized",
+      "transitional",
+      "pseudostratified"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-04-046",
     "subject": "anatomy_physiology",
     "topic": "tissues",
-    "subtopic": "Connective Tissue: Bone",
+    "subtopic": "Epithelial Tissue",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "When flat, surface epithelial cells are alive, they are _____",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "non-keratinized",
+      "keratinized",
+      "cornified",
+      "calcified"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-04-047",
     "subject": "anatomy_physiology",
     "topic": "tissues",
-    "subtopic": "Connective Tissue: Bone",
+    "subtopic": "Epithelial Tissue",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "_____ cells are round or square.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "Cuboidal",
+      "Squamous",
+      "Columnar",
+      "Transitional"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-04-048",
     "subject": "anatomy_physiology",
     "topic": "tissues",
-    "subtopic": "Connective Tissue: Bone",
+    "subtopic": "Epithelial Tissue",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "_____ cells are moderately long and slender.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "Columnar",
+      "Cuboidal",
+      "Squamous",
+      "Transitional"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-04-049",
     "subject": "anatomy_physiology",
     "topic": "tissues",
-    "subtopic": "Connective Tissue: Bone",
+    "subtopic": "Epithelial Tissue",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "_____' means 'at the top.'",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "Apical",
+      "Basal",
+      "Lateral",
+      "Distal"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-04-050",
     "subject": "anatomy_physiology",
     "topic": "tissues",
-    "subtopic": "Connective Tissue: Bone",
+    "subtopic": "Epithelial Tissue",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "A non-cellular, adhesive supporting layer made up of glycoproteins secreted by epithelial cells is called a(n) _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "basal lamina",
+      "reticular lamina",
+      "glycocalyx",
+      "serous membrane"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-04-051",
     "subject": "anatomy_physiology",
     "topic": "tissues",
-    "subtopic": "Muscle Tissue",
+    "subtopic": "Epithelial Tissue",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The two layers that form the basement membrane, from superficial to deep, are the _____ and _____ laminae.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "basal; reticular",
+      "reticular; basal",
+      "apical; basal",
+      "papillary; reticular"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-04-052",
     "subject": "anatomy_physiology",
     "topic": "tissues",
-    "subtopic": "Muscle Tissue",
+    "subtopic": "Epithelial Tissue",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "_____' means, 'containing no blood vessels.'",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "Avascular",
+      "Vascular",
+      "Innervated",
+      "Anucleate"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-04-053",
     "subject": "anatomy_physiology",
     "topic": "tissues",
-    "subtopic": "Muscle Tissue",
+    "subtopic": "Epithelial Tissue",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "_____' means, 'supplied by nerve fibers.'",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "Innervated",
+      "Enervated",
+      "Avascular",
+      "Vascularized"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-04-054",
     "subject": "anatomy_physiology",
     "topic": "tissues",
-    "subtopic": "Muscle Tissue",
+    "subtopic": "Epithelial Tissue",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The cells of epithelial tissue are joined by _____ or _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "tight junctions or desmosomes",
+      "gap junctions or plasmodesmata",
+      "hemidesmosomes or laminae",
+      "collagen or elastic fibers"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-04-055",
     "subject": "anatomy_physiology",
     "topic": "tissues",
-    "subtopic": "Muscle Tissue",
+    "subtopic": "Epithelial Tissue",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "_____ is a tissue which consists of a single layer of flattened cells which control passage of materials from one side to the other, but provide no protection.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "Simple squamous epithelium",
+      "Simple cuboidal epithelium",
+      "Stratified squamous epithelium",
+      "Transitional epithelium"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-04-056",
     "subject": "anatomy_physiology",
     "topic": "tissues",
-    "subtopic": "Muscle Tissue",
+    "subtopic": "Epithelial Tissue",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "_____ is a tissue which consists of a single layer of roughly round or cubical cells with large, spherical nuclei in the center of each, and which secrete or absorb substances into or from their exposed surface.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "Simple cuboidal epithelium",
+      "Simple squamous epithelium",
+      "Simple columnar epithelium",
+      "Stratified cuboidal epithelium"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-04-057",
     "subject": "anatomy_physiology",
     "topic": "tissues",
-    "subtopic": "Muscle Tissue",
+    "subtopic": "Epithelial Tissue",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "_____ is a tissue which consists of a single layer of tall cells with round or oval nuclei, all in a row. It absorbs substances and secretes mucous from its exposed surface.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "Simple columnar epithelium",
+      "Pseudostratified columnar epithelium",
+      "Simple cuboidal epithelium",
+      "Stratified columnar epithelium"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-04-058",
     "subject": "anatomy_physiology",
     "topic": "tissues",
-    "subtopic": "Muscle Tissue",
+    "subtopic": "Epithelial Tissue",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "_____ is a tissue which consists of a single layer of tall cells with round or oval nuclei, some of which are near the basal lamina and some of which are near the apical surface. It secretes mucous from its exposed surface.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "Pseudostratified columnar epithelium",
+      "Simple columnar epithelium",
+      "Stratified columnar epithelium",
+      "Transitional epithelium"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-04-059",
     "subject": "anatomy_physiology",
     "topic": "tissues",
-    "subtopic": "Muscle Tissue",
+    "subtopic": "Epithelial Tissue",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "_____ is a tissue which consists of several layers of cells which separate an open space from a basal or reticular lamina. The surface cells are flat, the basal cells are rounded, square, or tall.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "Stratified squamous epithelium",
+      "Simple squamous epithelium",
+      "Transitional epithelium",
+      "Stratified cuboidal epithelium"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-04-060",
     "subject": "anatomy_physiology",
     "topic": "tissues",
-    "subtopic": "Muscle Tissue",
+    "subtopic": "Epithelial Tissue",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "_____ is a tissue which consists of two layers of round or square cells which separate an open space from a basal or reticular lamina. While most tissue types are found throughout the body, this one is rare and is only seen in sweat and mammary glands.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "Stratified cuboidal epithelium",
+      "Simple cuboidal epithelium",
+      "Stratified columnar epithelium",
+      "Transitional epithelium"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-04-061",
     "subject": "anatomy_physiology",
     "topic": "tissues",
-    "subtopic": "Nervous Tissue",
+    "subtopic": "Epithelial Tissue",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "_____ is a tissue which consists of two layers of tall cells which separate an open space from a basal or reticular lamina.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "Stratified columnar epithelium",
+      "Stratified cuboidal epithelium",
+      "Simple columnar epithelium",
+      "Pseudostratified columnar epithelium"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-04-062",
     "subject": "anatomy_physiology",
     "topic": "tissues",
-    "subtopic": "Nervous Tissue",
+    "subtopic": "Epithelial Tissue",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "_____ is a tissue which is easily stretched. It consists of several layers of cells which separate an open space from a basal or reticular lamina, and the surface cells are usually dome shaped if the tissue is not stretched at the time of fixation.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "Transitional epithelium",
+      "Stratified squamous epithelium",
+      "Stratified cuboidal epithelium",
+      "Simple squamous epithelium"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-04-063",
     "subject": "anatomy_physiology",
     "topic": "tissues",
-    "subtopic": "Nervous Tissue",
+    "subtopic": "Epithelial Tissue",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "A(n) _____ is one or more cells that makes and secretes an aqueous fluid.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "gland",
+      "follicle",
+      "duct",
+      "membrane"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-04-064",
     "subject": "anatomy_physiology",
     "topic": "tissues",
-    "subtopic": "Nervous Tissue",
+    "subtopic": "Epithelial Tissue",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Most glands are multicellular. The only important one that is not is the _____, which produces mucus.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "goblet cell",
+      "mast cell",
+      "plasma cell",
+      "fibroblast"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-04-065",
     "subject": "anatomy_physiology",
     "topic": "tissues",
-    "subtopic": "Nervous Tissue",
+    "subtopic": "Epithelial Tissue",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "_____ exocrine glands secrete substances: that is, the substance is exocytosed into the duct.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "Merocrine",
+      "Apocrine",
+      "Holocrine",
+      "Endocrine"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-04-066",
     "subject": "anatomy_physiology",
     "topic": "tissues",
-    "subtopic": "Nervous Tissue",
+    "subtopic": "Epithelial Tissue",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "_____ exocrine glands become filled with their product, then rupture, spilling their contents into the duct.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "Holocrine",
+      "Merocrine",
+      "Apocrine",
+      "Endocrine"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-04-067",
     "subject": "anatomy_physiology",
     "topic": "tissues",
-    "subtopic": "Nervous Tissue",
+    "subtopic": "Epithelial Tissue",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "_____ exocrine glands accumulate their product in the apex of the cell, which then detaches.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "Apocrine",
+      "Merocrine",
+      "Holocrine",
+      "Endocrine"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-04-068",
     "subject": "anatomy_physiology",
     "topic": "tissues",
-    "subtopic": "Nervous Tissue",
+    "subtopic": "Epithelial Tissue",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The epithelial membranes which line body cavities which are open to the exterior are called _____ membranes.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "mucous",
+      "serous",
+      "cutaneous",
+      "synovial"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-04-069",
     "subject": "anatomy_physiology",
     "topic": "tissues",
-    "subtopic": "Nervous Tissue",
+    "subtopic": "Muscle and Nervous Tissue",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Nervous tissue is characterized by the ability to _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "conduct electrical signals",
+      "shorten (contract)",
+      "secrete extracellular matrix",
+      "form protective surfaces"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-04-070",
     "subject": "anatomy_physiology",
     "topic": "tissues",
-    "subtopic": "Nervous Tissue",
+    "subtopic": "Muscle and Nervous Tissue",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Nerve cells require \"helper\" cells, and are usually surrounded by them. Helper cells (called glia) are _____ than the nerve cells.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "much smaller",
+      "much larger",
+      "about the same size",
+      "slightly larger"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-04-071",
     "subject": "anatomy_physiology",
     "topic": "tissues",
-    "subtopic": "Tissue Injury",
+    "subtopic": "Muscle and Nervous Tissue",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Muscle tissue is characterized by the ability to _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "shorten",
+      "conduct electrical signals to distant cells",
+      "secrete extracellular matrix",
+      "absorb nutrients across a free surface"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-04-072",
     "subject": "anatomy_physiology",
     "topic": "tissues",
-    "subtopic": "Tissue Injury",
+    "subtopic": "Muscle and Nervous Tissue",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "_____ tissue is characterized by large cells with long processes which carry electrical signals, surrounded by smaller supporting cells.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "Nervous",
+      "Muscle",
+      "Epithelial",
+      "Connective"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-04-073",
     "subject": "anatomy_physiology",
     "topic": "tissues",
-    "subtopic": "Tissue Injury",
+    "subtopic": "Muscle and Nervous Tissue",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Striations (stripes) are characteristic of _____ and _____ muscle fibers.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "skeletal and cardiac",
+      "skeletal and smooth",
+      "cardiac and smooth",
+      "smooth only"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-04-074",
     "subject": "anatomy_physiology",
     "topic": "tissues",
-    "subtopic": "Tissue Injury",
+    "subtopic": "Muscle and Nervous Tissue",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Having multiple nuclei, all pushed to the periphery of the cell, is a characteristic of _____ muscle cells.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "skeletal",
+      "cardiac",
+      "smooth",
+      "cardiac and smooth"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-04-075",
     "subject": "anatomy_physiology",
     "topic": "tissues",
-    "subtopic": "Tissue Injury",
+    "subtopic": "Muscle and Nervous Tissue",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Two defining characteristics of cardiac muscle include _____ and _____; the latter contain gap junctions which allow ions to move between cells.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "branching cells and intercalated disks",
+      "striations and peripheral nuclei",
+      "spindle shape and a single central nucleus",
+      "multiple nuclei and lack of striations"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-04-076",
     "subject": "anatomy_physiology",
     "topic": "tissues",
-    "subtopic": "Tissue Injury",
+    "subtopic": "Muscle and Nervous Tissue",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "_____ muscle cells lack striations and have only one nucleus.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "Smooth",
+      "Skeletal",
+      "Cardiac",
+      "Striated"
     ],
-    "answer_index": 1
-  },
-  {
-    "id": "bio-anat-04-077",
-    "subject": "anatomy_physiology",
-    "topic": "tissues",
-    "subtopic": "Tissue Injury",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "Question",
-    "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "answer_index": 1
-  },
-  {
-    "id": "bio-anat-04-078",
-    "subject": "anatomy_physiology",
-    "topic": "tissues",
-    "subtopic": "Tissue Injury",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "Question",
-    "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "answer_index": 1
-  },
-  {
-    "id": "bio-anat-04-079",
-    "subject": "anatomy_physiology",
-    "topic": "tissues",
-    "subtopic": "Tissue Injury",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "Question",
-    "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "answer_index": 1
-  },
-  {
-    "id": "bio-anat-04-080",
-    "subject": "anatomy_physiology",
-    "topic": "tissues",
-    "subtopic": "Tissue Injury",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "Question",
-    "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "answer_index": 1
-  },
-  {
-    "id": "bio-anat-04-081",
-    "subject": "anatomy_physiology",
-    "topic": "tissues",
-    "subtopic": "Aging: Tissues",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "Question",
-    "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "answer_index": 1
-  },
-  {
-    "id": "bio-anat-04-082",
-    "subject": "anatomy_physiology",
-    "topic": "tissues",
-    "subtopic": "Aging: Tissues",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "Question",
-    "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "answer_index": 1
-  },
-  {
-    "id": "bio-anat-04-083",
-    "subject": "anatomy_physiology",
-    "topic": "tissues",
-    "subtopic": "Aging: Tissues",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "Question",
-    "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "answer_index": 1
-  },
-  {
-    "id": "bio-anat-04-084",
-    "subject": "anatomy_physiology",
-    "topic": "tissues",
-    "subtopic": "Aging: Tissues",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "Question",
-    "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "answer_index": 1
-  },
-  {
-    "id": "bio-anat-04-085",
-    "subject": "anatomy_physiology",
-    "topic": "tissues",
-    "subtopic": "Aging: Tissues",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "Question",
-    "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "answer_index": 1
-  },
-  {
-    "id": "bio-anat-04-086",
-    "subject": "anatomy_physiology",
-    "topic": "tissues",
-    "subtopic": "Abnormal Tissue Behavior: Cancer",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "Question",
-    "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "answer_index": 1
-  },
-  {
-    "id": "bio-anat-04-087",
-    "subject": "anatomy_physiology",
-    "topic": "tissues",
-    "subtopic": "Abnormal Tissue Behavior: Cancer",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "Question",
-    "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "answer_index": 1
+    "answer_index": 0
   }
 ]

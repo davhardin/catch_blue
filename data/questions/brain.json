@@ -3,161 +3,161 @@
     "id": "bio-anat-10-001",
     "subject": "anatomy_physiology",
     "topic": "brain",
-    "subtopic": "Brain: Major Developmental Regions",
+    "subtopic": "Brain Protection",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The _____ are a set of three connective tissue membranes that surround the CNS.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "meninges",
+      "ventricles",
+      "choroid plexuses",
+      "dural sinuses"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-10-002",
     "subject": "anatomy_physiology",
     "topic": "brain",
-    "subtopic": "Brain: Major Developmental Regions",
+    "subtopic": "Brain Protection",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The tough, fibrous, double-layered, outermost meninx is the _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "dura mater",
+      "arachnoid mater",
+      "pia mater",
+      "periosteum"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-10-003",
     "subject": "anatomy_physiology",
     "topic": "brain",
-    "subtopic": "Brain: Major Developmental Regions",
+    "subtopic": "Brain Protection",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The separation between the cerebral hemispheres is reinforced by an extension of the dura mater called the _____: anteriorly, it is attached to the crista galli of the skull, and so helps to hold the brain in position.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "falx cerebri",
+      "falx cerebelli",
+      "tentorium cerebelli",
+      "diaphragma sellae"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-10-004",
     "subject": "anatomy_physiology",
     "topic": "brain",
-    "subtopic": "Brain: Major Developmental Regions",
+    "subtopic": "Brain Protection",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The _____ are tubes that are formed between the two layers of the dura mater through which venous blood flows.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "dural sinuses",
+      "choroid plexuses",
+      "arachnoid granulations",
+      "cerebral aqueducts"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-10-005",
     "subject": "anatomy_physiology",
     "topic": "brain",
-    "subtopic": "Brain: Major Developmental Regions",
+    "subtopic": "Brain Protection",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The _____ is the middle meninx.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "arachnoid mater",
+      "dura mater",
+      "pia mater",
+      "falx cerebri"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-10-006",
     "subject": "anatomy_physiology",
     "topic": "brain",
-    "subtopic": "Brain: Major Developmental Regions",
+    "subtopic": "Brain Protection",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The ____ is the innermost meninx: it clings tightly to the surface of the brain, even in the sulci.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "pia mater",
+      "dura mater",
+      "arachnoid mater",
+      "falx cerebri"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-10-007",
     "subject": "anatomy_physiology",
     "topic": "brain",
-    "subtopic": "Brain: Major Developmental Regions",
+    "subtopic": "Brain Protection",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The wide, cerebrospinal fluid containing space is between the _____ mater and the pia mater and is called the _____ space.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "arachnoid; sub-arachnoid",
+      "dura; epidural",
+      "dura; subdural",
+      "pia; epidural"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-10-008",
     "subject": "anatomy_physiology",
     "topic": "brain",
-    "subtopic": "Brain: Major Developmental Regions",
+    "subtopic": "Brain Protection",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The main blood vessels supplying the brain are in the _____ space.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "sub-arachnoid",
+      "epidural",
+      "subdural",
+      "ventricular"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-10-009",
     "subject": "anatomy_physiology",
     "topic": "brain",
-    "subtopic": "Brain: Major Developmental Regions",
+    "subtopic": "Brain Protection",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The cells of the capillaries in the brain are unusual in that they are _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "joined by tight junctions",
+      "joined by gap junctions",
+      "fenestrated",
+      "lined with cilia"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-10-010",
     "subject": "anatomy_physiology",
     "topic": "brain",
-    "subtopic": "Brain: Major Developmental Regions",
+    "subtopic": "Brain Protection",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Capillaries in the brain are much less _____ than capillaries elsewhere in the body.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "permeable",
+      "numerous",
+      "branched",
+      "elastic"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-10-011",
@@ -166,958 +166,958 @@
     "subtopic": "Brain Protection",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Impaired blood circulation to the brain due to a blocked or broken vessel is known as a(n) _____, _____ or _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "cerebrovascular accident; stroke; brain attack",
+      "myocardial infarction; heart attack; cardiac arrest",
+      "aneurysm; hemorrhage; hematoma",
+      "concussion; contusion; brain injury"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-10-012",
     "subject": "anatomy_physiology",
     "topic": "brain",
-    "subtopic": "Brain Protection",
+    "subtopic": "Brain Stem",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "In an adult, the _____ are a functional unit and are called the brain stem.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "midbrain, pons, and medulla oblongata",
+      "thalamus, hypothalamus, and epithalamus",
+      "midbrain, cerebellum, and pons",
+      "cerebrum, cerebellum, and medulla oblongata"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-10-013",
     "subject": "anatomy_physiology",
     "topic": "brain",
-    "subtopic": "Brain Protection",
+    "subtopic": "Brain Stem",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The continuation of automatic behaviors necessary for survival (e.g., breathing) is controlled by the _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "brain stem",
+      "cerebellum",
+      "cerebral cortex",
+      "diencephalon"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-10-014",
     "subject": "anatomy_physiology",
     "topic": "brain",
-    "subtopic": "Brain Protection",
+    "subtopic": "Brain Stem",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The _____ connects the brain to the spinal cord.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "brain stem",
+      "cerebellum",
+      "corpus callosum",
+      "diencephalon"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-10-015",
     "subject": "anatomy_physiology",
     "topic": "brain",
-    "subtopic": "Brain Protection",
+    "subtopic": "Brain Stem",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Ten of the twelve pairs of cranial nerves originate in the _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "brain stem",
+      "cerebrum",
+      "cerebellum",
+      "spinal cord"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-10-016",
     "subject": "anatomy_physiology",
     "topic": "brain",
-    "subtopic": "Brain Protection",
+    "subtopic": "Brain Stem",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Auditory signals from the ears, and eye and head reflexes, are mediated by the corpora quadrigemina, a subdivision of the _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "midbrain",
+      "pons",
+      "medulla oblongata",
+      "cerebellum"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-10-017",
     "subject": "anatomy_physiology",
     "topic": "brain",
-    "subtopic": "Brain Protection",
+    "subtopic": "Brain Stem",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The midbrain is a subdivision of the _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "brain stem",
+      "diencephalon",
+      "cerebrum",
+      "cerebellum"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-10-018",
     "subject": "anatomy_physiology",
     "topic": "brain",
-    "subtopic": "Brain Protection",
+    "subtopic": "Brain Stem",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Red, blood-rich neural centers called red nuclei assist in the unconscious regulation of motor activities and are found in the _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "midbrain",
+      "pons",
+      "medulla oblongata",
+      "thalamus"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-10-019",
     "subject": "anatomy_physiology",
     "topic": "brain",
-    "subtopic": "Brain Protection",
+    "subtopic": "Brain Stem",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Along with the corpus striatum (one of the basal nuclei), the substantia nigra regulates coordination of movement and is found in the _____. (Some authors consider it to be one of the basal nuclei.)",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "midbrain",
+      "pons",
+      "medulla oblongata",
+      "cerebellum"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-10-020",
     "subject": "anatomy_physiology",
     "topic": "brain",
-    "subtopic": "Brain Protection",
+    "subtopic": "Brain Stem",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The fear response, suppression of pain, and the motor nuclei for two of the cranial nerves which control eye movement, are found in the periaqueductal gray matter of the _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "midbrain",
+      "pons",
+      "medulla oblongata",
+      "diencephalon"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-10-021",
     "subject": "anatomy_physiology",
     "topic": "brain",
-    "subtopic": "Cerebrospinal Fluid",
+    "subtopic": "Brain Stem",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The cerebral peduncles found on the ventral face of the _____, house the pyramidal fiber tracts and convey signals from the cerebral cortex to the spinal cord and PNS.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "midbrain",
+      "pons",
+      "medulla oblongata",
+      "cerebellum"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-10-022",
     "subject": "anatomy_physiology",
     "topic": "brain",
-    "subtopic": "Cerebrospinal Fluid",
+    "subtopic": "Brain Stem",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Fibers of the _____ relay impulses between the motor cortex and the cerebellum.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "pons",
+      "midbrain",
+      "medulla oblongata",
+      "thalamus"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-10-023",
     "subject": "anatomy_physiology",
     "topic": "brain",
-    "subtopic": "Cerebrospinal Fluid",
+    "subtopic": "Brain Stem",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The pons is a subdivision of the _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "brain stem",
+      "cerebrum",
+      "cerebellum",
+      "diencephalon"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-10-024",
     "subject": "anatomy_physiology",
     "topic": "brain",
-    "subtopic": "Cerebrospinal Fluid",
+    "subtopic": "Brain Stem",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The lowest portion of the brain stem is the _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "medulla oblongata",
+      "pons",
+      "midbrain",
+      "thalamus"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-10-025",
     "subject": "anatomy_physiology",
     "topic": "brain",
-    "subtopic": "Cerebrospinal Fluid",
+    "subtopic": "Brain Stem",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The reverse-lateralization of hemispheric function (in which the right half of the body is controlled by the left hemisphere, etc.) is caused by crossover of long nerve tracts (the pyramidal tracts) on the ventral surface of the _____ at a point called the decussation of the pyramids.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "medulla oblongata",
+      "pons",
+      "midbrain",
+      "diencephalon"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-10-026",
     "subject": "anatomy_physiology",
     "topic": "brain",
-    "subtopic": "Cerebrospinal Fluid",
+    "subtopic": "Brain Stem",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Respiratory rate, heart rate, and blood pressure are primarily controlled by various nuclei in the _____ of the brain stem.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "medulla oblongata",
+      "pons",
+      "midbrain",
+      "cerebellum"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-10-027",
     "subject": "anatomy_physiology",
     "topic": "brain",
-    "subtopic": "Cerebrospinal Fluid",
+    "subtopic": "Brain Stem",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Coughing, sneezing, swallowing, and vomiting are controlled by nuclei found in the _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "medulla oblongata",
+      "pons",
+      "midbrain",
+      "hypothalamus"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-10-028",
     "subject": "anatomy_physiology",
     "topic": "brain",
-    "subtopic": "Cerebrospinal Fluid",
+    "subtopic": "Brain Stem",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Wakefulness and muscle tone are maintained by small clusters of nuclei called the _____, scattered throughout the brain stem.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "reticular formation",
+      "limbic system",
+      "basal nuclei",
+      "cranial nerve nuclei"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-10-029",
     "subject": "anatomy_physiology",
     "topic": "brain",
-    "subtopic": "Cerebrospinal Fluid",
+    "subtopic": "Brain Stem",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The _____, scattered throughout the brain stem, allow us to filter out unimportant sensory information such as background noises.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "reticular formation",
+      "limbic system",
+      "thalamic relay nuclei",
+      "basal nuclei"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-10-030",
     "subject": "anatomy_physiology",
     "topic": "brain",
-    "subtopic": "Cerebrospinal Fluid",
+    "subtopic": "Brain Development",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The _____ is the tube of ectoderm formed early in embryological development as the embryonic tissue folds longitudinally.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "embryonic neural tube",
+      "notochord",
+      "neural crest",
+      "primitive streak"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-10-031",
     "subject": "anatomy_physiology",
     "topic": "brain",
-    "subtopic": "Brain Stem Structures",
+    "subtopic": "Brain Development",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The three primary brain vesicles are formed during the _____ week after conception.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "4th",
+      "2nd",
+      "6th",
+      "8th"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-10-032",
     "subject": "anatomy_physiology",
     "topic": "brain",
-    "subtopic": "Brain Stem Structures",
+    "subtopic": "Brain Development",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Between the fifth week post-conception and birth, the prosencephalon (aka _____) develops to produce the _____ and _____ of the adult brain.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "forebrain; cerebrum; diencephalon",
+      "hindbrain; pons; cerebellum",
+      "midbrain; tectum; cerebral peduncles",
+      "forebrain; cerebellum; medulla oblongata"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-10-033",
     "subject": "anatomy_physiology",
     "topic": "brain",
-    "subtopic": "Brain Stem Structures",
+    "subtopic": "Brain Development",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Between the fifth week post-conception and birth, the mesencephalon develops to produce the _____ of the adult brain.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "midbrain",
+      "cerebrum",
+      "cerebellum",
+      "pons"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-10-034",
     "subject": "anatomy_physiology",
     "topic": "brain",
-    "subtopic": "Brain Stem Structures",
+    "subtopic": "Brain Development",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Between the fifth week post-conception and birth, the rhombencephalon (aka _____) develops to produce the _____, _____ and _____ of the adult brain.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "hindbrain; pons; medulla; cerebellum",
+      "forebrain; cerebrum; thalamus; hypothalamus",
+      "midbrain; tectum; tegmentum; cerebral peduncles",
+      "hindbrain; thalamus; hypothalamus; cerebellum"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-10-035",
     "subject": "anatomy_physiology",
     "topic": "brain",
-    "subtopic": "Brain Stem Structures",
+    "subtopic": "Brain Development",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The shape and size of the skull causes the embryonic neural tube to _____ during development.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "flex and fold",
+      "remain straight",
+      "shorten and widen",
+      "detach from the surface ectoderm"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-10-036",
     "subject": "anatomy_physiology",
     "topic": "brain",
-    "subtopic": "Brain Stem Structures",
+    "subtopic": "Brain Development",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The _____ is formed of paired strips of cells arising from the ectoderm at the margin of the neural tube.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "neural crest",
+      "neural tube",
+      "notochord",
+      "somites"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-10-037",
     "subject": "anatomy_physiology",
     "topic": "brain",
-    "subtopic": "Brain Stem Structures",
+    "subtopic": "Cerebellum",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The gyri of the cerebellum are called _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "folia",
+      "sulci",
+      "vermis",
+      "arbor vitae"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-10-038",
     "subject": "anatomy_physiology",
     "topic": "brain",
-    "subtopic": "Brain Stem Structures",
+    "subtopic": "Cerebellum",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The _____ is the central region of the cerebellum.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "vermis",
+      "folia",
+      "flocculus",
+      "arbor vitae"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-10-039",
     "subject": "anatomy_physiology",
     "topic": "brain",
-    "subtopic": "Brain Stem Structures",
+    "subtopic": "Cerebellum",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The cerebellum is connected to the _____ by the superior peduncle, to the _____ by the middle peduncle, and to the _____ by the inferior peduncle.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "midbrain; pons; medulla oblongata",
+      "pons; midbrain; medulla oblongata",
+      "medulla oblongata; pons; midbrain",
+      "midbrain; medulla oblongata; pons"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-10-040",
     "subject": "anatomy_physiology",
     "topic": "brain",
-    "subtopic": "Brain Stem Structures",
+    "subtopic": "Cerebellum",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Integration of impulses from the motor cortex and sensory pathways, and comparison of actual to intended motion, is the function of the _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "cerebellum",
+      "basal nuclei",
+      "thalamus",
+      "primary motor cortex"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-10-041",
     "subject": "anatomy_physiology",
     "topic": "brain",
-    "subtopic": "Cerebellum",
+    "subtopic": "Cerebral Cortex",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The outermost layer of an organ or structure (such as the cerebrum or kidney) is often referred to as the _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "cortex",
+      "medulla",
+      "capsule",
+      "hilum"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-10-042",
     "subject": "anatomy_physiology",
     "topic": "brain",
-    "subtopic": "Cerebellum",
+    "subtopic": "Cerebral Cortex",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Gray matter is found in the cortex of the _____ and _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "cerebrum; cerebellum",
+      "pons; medulla oblongata",
+      "thalamus; hypothalamus",
+      "midbrain; pons"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-10-043",
     "subject": "anatomy_physiology",
     "topic": "brain",
-    "subtopic": "Cerebellum",
+    "subtopic": "Cerebral Cortex",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The folds and convolutions of the cerebral hemispheres are named for their three dimensional form. The ridges are called _____ (singular, _____).",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "gyri; gyrus",
+      "sulci; sulcus",
+      "fissures; fissure",
+      "folia; folium"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-10-044",
     "subject": "anatomy_physiology",
     "topic": "brain",
-    "subtopic": "Cerebellum",
+    "subtopic": "Cerebral Cortex",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The folds and convolutions of the cerebral hemispheres are named for their three dimensional form. The shallow grooves are called _____ (singular, _____).",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "sulci; sulcus",
+      "gyri; gyrus",
+      "fissures; fissure",
+      "ventricles; ventricle"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-10-045",
     "subject": "anatomy_physiology",
     "topic": "brain",
-    "subtopic": "Cerebellum",
+    "subtopic": "Cerebral Cortex",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The folds and convolutions of the cerebral hemispheres are named for their three dimensional form. The deep grooves between gyri or regions are called _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "fissures",
+      "sulci",
+      "gyri",
+      "tracts"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-10-046",
     "subject": "anatomy_physiology",
     "topic": "brain",
-    "subtopic": "Cerebellum",
+    "subtopic": "Cerebral Cortex",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The two hemispheres of the brain are separated by a deep cleft called the _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "longitudinal fissure",
+      "transverse fissure",
+      "lateral fissure",
+      "central sulcus"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-10-047",
     "subject": "anatomy_physiology",
     "topic": "brain",
-    "subtopic": "Cerebellum",
+    "subtopic": "Cerebral Cortex",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The cerebrum and cerebellum are separated by the _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "transverse fissure",
+      "longitudinal fissure",
+      "lateral fissure",
+      "central sulcus"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-10-048",
     "subject": "anatomy_physiology",
     "topic": "brain",
-    "subtopic": "Cerebellum",
+    "subtopic": "Cerebral Cortex",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The cerebral cortex is divided conceptually and functionally into five lobes: the _____, _____, _____, _____ lobes, and a fifth, hidden lobe called the _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "frontal; temporal; parietal; occipital; insula",
+      "frontal; temporal; parietal; occipital; limbic",
+      "frontal; sphenoidal; parietal; occipital; insula",
+      "frontal; temporal; parietal; central; insula"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-10-049",
     "subject": "anatomy_physiology",
     "topic": "brain",
-    "subtopic": "Cerebellum",
+    "subtopic": "Cerebral Cortex",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "One of the lobes of the cerebral cortex, the _____, is not visible unless the sides of the lateral fissure are separated.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "insula",
+      "limbic lobe",
+      "temporal lobe",
+      "occipital lobe"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-10-050",
     "subject": "anatomy_physiology",
     "topic": "brain",
-    "subtopic": "Cerebellum",
+    "subtopic": "Cerebral Cortex",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The _____ areas of the cerebral cortex control voluntary movement.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "motor",
+      "sensory",
+      "association",
+      "limbic"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-10-051",
     "subject": "anatomy_physiology",
     "topic": "brain",
-    "subtopic": "Diencephalon",
+    "subtopic": "Cerebral Cortex",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The _____ areas of the cerebral cortex are responsible for conscious awareness of sensation.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "sensory",
+      "motor",
+      "association",
+      "commissural"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-10-052",
     "subject": "anatomy_physiology",
     "topic": "brain",
-    "subtopic": "Diencephalon",
+    "subtopic": "Cerebral Cortex",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The _____ areas of the cerebral cortex allow us to integrate and consider information.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "association",
+      "motor",
+      "sensory",
+      "projection"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-10-053",
     "subject": "anatomy_physiology",
     "topic": "brain",
-    "subtopic": "Diencephalon",
+    "subtopic": "Cerebral Cortex",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The function of the primary motor cortex, which is located in the _____, is to _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "precentral gyrus; control unrehearsed (novel) voluntary movements",
+      "postcentral gyrus; bring sensations to conscious awareness",
+      "precentral gyrus; control learned movement patterns",
+      "prefrontal cortex; plan and sequence complex behavior"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-10-054",
     "subject": "anatomy_physiology",
     "topic": "brain",
-    "subtopic": "Diencephalon",
+    "subtopic": "Cerebral Cortex",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The function of the pre-motor cortex, which is _____ to the primary motor cortex, is to _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "anterior; control learned movements",
+      "posterior; control novel voluntary movements",
+      "anterior; bring touch sensations to conscious awareness",
+      "inferior; coordinate balance and posture"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-10-055",
     "subject": "anatomy_physiology",
     "topic": "brain",
-    "subtopic": "Diencephalon",
+    "subtopic": "Cerebral Cortex",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The _____ is responsible for bringing information regarding touch, surface temperature, etc., to conscious awareness. It is normally located in the _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "primary somatosensory cortex; post-central gyrus",
+      "primary motor cortex; precentral gyrus",
+      "somatosensory association cortex; parietal lobe",
+      "primary somatosensory cortex; precentral gyrus"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-10-056",
     "subject": "anatomy_physiology",
     "topic": "brain",
-    "subtopic": "Diencephalon",
+    "subtopic": "Cerebral Cortex",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The _____ region of the brain is responsible for interpretation of physical sensations, after they have been sorted and integrated by the primary somatosensory cortex.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "somatosensory association cortex",
+      "primary somatosensory cortex",
+      "premotor cortex",
+      "visual association cortex"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-10-057",
     "subject": "anatomy_physiology",
     "topic": "brain",
-    "subtopic": "Diencephalon",
+    "subtopic": "Cerebral Cortex",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The visual cortex is responsible for sight, and is located in the _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "occipital lobe",
+      "temporal lobe",
+      "parietal lobe",
+      "frontal lobe"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-10-058",
     "subject": "anatomy_physiology",
     "topic": "brain",
-    "subtopic": "Diencephalon",
+    "subtopic": "Cerebral Cortex",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The _____ cortex allows us to maintain balance and is located in the _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "vestibular; insula",
+      "vestibular; occipital lobe",
+      "auditory; insula",
+      "vestibular; frontal lobe"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-10-059",
     "subject": "anatomy_physiology",
     "topic": "brain",
-    "subtopic": "Diencephalon",
+    "subtopic": "Cerebral Cortex",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The _____ cortex allows us to perceive sound, and is located in the _____ lobes.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "auditory; temporal",
+      "auditory; parietal",
+      "auditory; occipital",
+      "vestibular; temporal"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-10-060",
     "subject": "anatomy_physiology",
     "topic": "brain",
-    "subtopic": "Diencephalon",
+    "subtopic": "Cerebral Cortex",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Each small region of the motor and somatosensory cortices correspond to a particular body region. This is often represented by a cartoon human called a(n) _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "homunculus",
+      "dermatome",
+      "Brodmann area",
+      "somatotype"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-10-061",
     "subject": "anatomy_physiology",
     "topic": "brain",
-    "subtopic": "Limbic System",
+    "subtopic": "Cerebral Cortex",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The _____ stores memories of sounds and allows identification of sounds.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "auditory association area",
+      "primary auditory cortex",
+      "vestibular cortex",
+      "somatosensory association area"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-10-062",
     "subject": "anatomy_physiology",
     "topic": "brain",
-    "subtopic": "Limbic System",
+    "subtopic": "Cerebral Cortex",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "A patient who is able to speak but who chooses words at random and is unable to connect thought to language is likely to have damage to _____ area, in the _____ hemisphere.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "Wernicke's; left",
+      "Broca's; left",
+      "Wernicke's; right",
+      "Broca's; right"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-10-063",
     "subject": "anatomy_physiology",
     "topic": "brain",
-    "subtopic": "Limbic System",
+    "subtopic": "Cerebral Cortex",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "A patient who is unable to speak despite having a clear concept of what is conceived (e.g., wanting coffee but unable to think of the word 'coffee') has most likely incurred damage to _____ area in the _____ hemisphere.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "Broca's; left",
+      "Wernicke's; left",
+      "Broca's; right",
+      "Wernicke's; right"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-10-064",
     "subject": "anatomy_physiology",
     "topic": "brain",
-    "subtopic": "Limbic System",
+    "subtopic": "Cerebral Cortex",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The ability to distinguish between (for example) a coin and a key by touch is localized in the _____ cortex.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "somatosensory association",
+      "primary somatosensory",
+      "premotor",
+      "visual association"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-10-065",
     "subject": "anatomy_physiology",
     "topic": "brain",
-    "subtopic": "Limbic System",
+    "subtopic": "Cerebral Cortex",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The fact that each hemisphere of the cerebrum has abilities not shared with its partner is referred to as _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "lateralization",
+      "decussation",
+      "cerebral dominance",
+      "corticalization"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-10-066",
     "subject": "anatomy_physiology",
     "topic": "brain",
-    "subtopic": "Limbic System",
+    "subtopic": "Cerebral Cortex",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The _____ hemisphere usually controls math and logic.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "left",
+      "right",
+      "both hemispheres equally",
+      "neither hemisphere"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-10-067",
     "subject": "anatomy_physiology",
     "topic": "brain",
-    "subtopic": "Limbic System",
+    "subtopic": "Cerebral Cortex",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The _____ hemisphere usually controls visual and spatial skills, emotion, and artistic skills.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "right",
+      "left",
+      "both hemispheres equally",
+      "neither hemisphere"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-10-068",
     "subject": "anatomy_physiology",
     "topic": "brain",
-    "subtopic": "Limbic System",
+    "subtopic": "Cerebral Cortex",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Cerebral dominance refers to the hemisphere of the cerebrum that is _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "dominant for language",
+      "larger in size",
+      "on the same side as the dominant hand",
+      "more richly supplied with blood"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-10-069",
     "subject": "anatomy_physiology",
     "topic": "brain",
-    "subtopic": "Limbic System",
+    "subtopic": "Cerebral Cortex",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "_____ are axons which connect the corresponding gray areas of the two brain hemispheres. Most pass through (and form) the _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "Commissural fibers; corpus callosum",
+      "Association fibers; corpus callosum",
+      "Projection fibers; internal capsule",
+      "Commissural fibers; internal capsule"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-10-070",
     "subject": "anatomy_physiology",
     "topic": "brain",
-    "subtopic": "Limbic System",
+    "subtopic": "Cerebral Cortex",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "_____ are axons which connect different parts of a single brain hemisphere.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "Association fibers",
+      "Commissural fibers",
+      "Projection fibers",
+      "Transverse fibers"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-10-071",
@@ -1126,14 +1126,14 @@
     "subtopic": "Cerebral Cortex",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "_____ are nerve fibers which connect the hemispheres of the brain to the spinal cord and PNS.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "Projection fibers",
+      "Commissural fibers",
+      "Association fibers",
+      "Arcuate fibers"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-10-072",
@@ -1142,14 +1142,14 @@
     "subtopic": "Cerebral Cortex",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Masses of gray matter found deep within the cerebral white matter are called _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "basal nuclei",
+      "thalamic nuclei",
+      "cerebellar nuclei",
+      "septal nuclei"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-10-073",
@@ -1158,14 +1158,14 @@
     "subtopic": "Cerebral Cortex",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "For historical reasons, the basal nuclei are also known as the _____, a name whose use is discouraged.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "basal ganglia",
+      "basal bodies",
+      "terminal ganglia",
+      "collateral ganglia"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-10-074",
@@ -1174,14 +1174,14 @@
     "subtopic": "Cerebral Cortex",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "A patient exhibiting spastic movements, tremors, slowness, rigidity, or difficulty initiating voluntary movement may well have damage to the _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "basal nuclei",
+      "cerebellum",
+      "primary motor cortex",
+      "medulla oblongata"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-10-075",
@@ -1190,14 +1190,14 @@
     "subtopic": "Cerebral Cortex",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "A(n) _____ is a recording of the brain's electrical activity.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "EEG or electroencephalogram",
+      "ECG or electrocardiogram",
+      "EMG or electromyogram",
+      "MRI or magnetic resonance image"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-10-076",
@@ -1206,14 +1206,14 @@
     "subtopic": "Cerebral Cortex",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Alpha and beta brainwaves occur _____, while theta waves are more common in _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "primarily in alert adults; children",
+      "primarily in children; alert adults",
+      "during deep sleep; alert adults",
+      "primarily in the elderly; newborns"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-10-077",
@@ -1222,14 +1222,14 @@
     "subtopic": "Cerebral Cortex",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Delta waves occur _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "during deep sleep",
+      "in alert adults",
+      "in children",
+      "during REM sleep"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-10-078",
@@ -1238,14 +1238,14 @@
     "subtopic": "Cerebral Cortex",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "During _____ sleep, skeletal muscle movement is inhibited and most dreams occur.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "REM",
+      "deep (slow-wave)",
+      "stage 1 non-REM",
+      "stage 2 non-REM"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-10-079",
@@ -1254,14 +1254,14 @@
     "subtopic": "Cerebral Cortex",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "During _____ sleep, the brain wave patterns mimic wakefulness.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "REM",
+      "deep (slow-wave)",
+      "stage 1 non-REM",
+      "stage 2 non-REM"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-10-080",
@@ -1270,173 +1270,509 @@
     "subtopic": "Cerebral Cortex",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The type of memory that allows us to complete actions without committing them to permanent memory is called _____ or _____ memory.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "short-term; working",
+      "long-term; declarative",
+      "skill; procedural",
+      "factual; explicit"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-10-081",
     "subject": "anatomy_physiology",
     "topic": "brain",
-    "subtopic": "Cranial Reflexes",
+    "subtopic": "Cerebral Cortex",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Memories of specific words, associations, or facts are classified as _____ or _____ memories.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "factual; declarative (or explicit)",
+      "skill; procedural",
+      "short-term; working",
+      "sensory; immediate"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-10-082",
     "subject": "anatomy_physiology",
     "topic": "brain",
-    "subtopic": "Cranial Reflexes",
+    "subtopic": "Cerebral Cortex",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Riding a bike or roller skating are examples of _____ or _____ memory.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "skill; procedural (or implicit)",
+      "factual; declarative",
+      "short-term; working",
+      "long-term; explicit"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-10-083",
     "subject": "anatomy_physiology",
     "topic": "brain",
-    "subtopic": "Cranial Reflexes",
+    "subtopic": "Cerebral Cortex",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Procedural memory is mediated by the _____, one of the basal nuclei.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "corpus striatum",
+      "amygdaloid body",
+      "substantia nigra",
+      "claustrum"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-10-084",
     "subject": "anatomy_physiology",
     "topic": "brain",
-    "subtopic": "Cranial Reflexes",
+    "subtopic": "Cerebral Cortex",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Two changes that occur at the cellular level in the formation of new memories are the formation of new _____, or changes in the strength of the _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "synapses; response at existing synapses",
+      "neurons; myelin sheaths",
+      "axons; resting potential",
+      "neurotransmitters; blood-brain barrier"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-10-085",
     "subject": "anatomy_physiology",
     "topic": "brain",
-    "subtopic": "Cranial Reflexes",
+    "subtopic": "Cerebral Cortex",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The addition of extra neurotransmitter receptors at an existing synapse during the formation of a memory to make the synapse more responsive to a brief signal is an example of _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "long-term potentiation",
+      "synaptic fatigue",
+      "habituation",
+      "temporal summation"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-10-086",
     "subject": "anatomy_physiology",
     "topic": "brain",
-    "subtopic": "Cranial Reflexes",
+    "subtopic": "Cerebral Cortex",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "An abnormal build up of beta-amyloid protein fragments in the regions surrounding neurons, and of neurofibrillary tangles in the cytoplasm of pyramidal neurons and in that of neurons whose axons connect with them, are the causes of neuronal death in _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "Alzheimer's Disease",
+      "Parkinson's Disease",
+      "Huntington's Disease",
+      "multiple sclerosis"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-10-087",
     "subject": "anatomy_physiology",
     "topic": "brain",
-    "subtopic": "Cranial Reflexes",
+    "subtopic": "Cerebral Cortex",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "In the elderly, drug reactions, poor circulation, or disease, all of which may be curable, can mimic the dementia caused by _____, which is not.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "Alzheimer's Disease",
+      "Parkinson's Disease",
+      "Huntington's Disease",
+      "stroke (cerebrovascular accident)"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-10-088",
     "subject": "anatomy_physiology",
     "topic": "brain",
-    "subtopic": "Cranial Reflexes",
+    "subtopic": "Cerebral Cortex",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "In Huntington's Disease, damage to the caudate nucleus, one of the basal nuclei, caused by an abnormal protein leads to _____ and eventually to death.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "chorea (involuntary spastic movements)",
+      "resting tremor",
+      "muscular rigidity",
+      "flaccid paralysis"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-10-089",
     "subject": "anatomy_physiology",
     "topic": "brain",
-    "subtopic": "Cranial Reflexes",
+    "subtopic": "Cerebral Cortex",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Loss of dopamine-producing neurons in the substantia nigra leads to tremor, muscular rigidity, slow movement and postural instability in _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "Parkinson's Disease",
+      "Huntington's Disease",
+      "Alzheimer's Disease",
+      "amyotrophic lateral sclerosis"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-10-090",
     "subject": "anatomy_physiology",
     "topic": "brain",
-    "subtopic": "Cranial Reflexes",
+    "subtopic": "Cerebral Cortex",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Damage to the _____ in the brain causes the muscles to contract involuntarily and somewhat at random, a condition called _____ paralysis.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "primary motor cortex; spastic",
+      "primary motor cortex; flaccid",
+      "cerebellum; spastic",
+      "primary somatosensory cortex; flaccid"
     ],
-    "answer_index": 1
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-10-091",
+    "subject": "anatomy_physiology",
+    "topic": "brain",
+    "subtopic": "Cerebrospinal Fluid",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "_____ are fluid-filled chambers within the brain.",
+    "choices": [
+      "Ventricles",
+      "Sinuses",
+      "Sulci",
+      "Foramina"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-10-092",
+    "subject": "anatomy_physiology",
+    "topic": "brain",
+    "subtopic": "Cerebrospinal Fluid",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "_____ is the fluid which surrounds, and fills the hollow areas in, the CNS.",
+    "choices": [
+      "Cerebrospinal fluid",
+      "Blood plasma",
+      "Interstitial fluid",
+      "Lymph"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-10-093",
+    "subject": "anatomy_physiology",
+    "topic": "brain",
+    "subtopic": "Cerebrospinal Fluid",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "There are _____ (how many?) ventricles in the brain.",
+    "choices": [
+      "4",
+      "2",
+      "3",
+      "6"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-10-094",
+    "subject": "anatomy_physiology",
+    "topic": "brain",
+    "subtopic": "Cerebrospinal Fluid",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "_____ fills the ventricles and surrounds the brain and spinal cord, acting as a shock absorber, distributing nutritive materials, removing wastes, and providing a chemically stable environment.",
+    "choices": [
+      "Cerebrospinal fluid",
+      "Interstitial fluid",
+      "Blood plasma",
+      "Lymph"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-10-095",
+    "subject": "anatomy_physiology",
+    "topic": "brain",
+    "subtopic": "Cerebrospinal Fluid",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Cerebrospinal fluid is formed in regions within the ventricles called _____ by _____ cells.",
+    "choices": [
+      "choroid plexuses; ependymal",
+      "arachnoid granulations; arachnoid",
+      "dural sinuses; endothelial",
+      "choroid plexuses; astrocyte"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-10-096",
+    "subject": "anatomy_physiology",
+    "topic": "brain",
+    "subtopic": "Cerebrospinal Fluid",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "After the CSF is formed, it circulates from the lateral ventricles to the third and fourth ventricles, and from there to the _____ and central canal of the spinal cord.",
+    "choices": [
+      "sub-arachnoid space",
+      "epidural space",
+      "dural sinuses",
+      "subdural space"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-10-097",
+    "subject": "anatomy_physiology",
+    "topic": "brain",
+    "subtopic": "Cerebrospinal Fluid",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "After circulation the CSF returns to the blood by passing through the _____, which are clusters of the arachnoid mater which project into the dural sinuses and act as one-way valves.",
+    "choices": [
+      "arachnoid granulations",
+      "choroid plexuses",
+      "dural sinuses",
+      "ependymal cells"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-10-098",
+    "subject": "anatomy_physiology",
+    "topic": "brain",
+    "subtopic": "Diencephalon",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The _____ is the central core of the forebrain.",
+    "choices": [
+      "diencephalon",
+      "brain stem",
+      "limbic system",
+      "corpus callosum"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-10-099",
+    "subject": "anatomy_physiology",
+    "topic": "brain",
+    "subtopic": "Diencephalon",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The thalamus, hypothalamus, and epithalamus constitute the _____.",
+    "choices": [
+      "diencephalon",
+      "brain stem",
+      "limbic system",
+      "mesencephalon"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-10-100",
+    "subject": "anatomy_physiology",
+    "topic": "brain",
+    "subtopic": "Diencephalon",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Afferent impulses converge in the _____, where those of similar function are sorted and relayed on as a group.",
+    "choices": [
+      "thalamus",
+      "hypothalamus",
+      "epithalamus",
+      "pons"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-10-101",
+    "subject": "anatomy_physiology",
+    "topic": "brain",
+    "subtopic": "Diencephalon",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Body temperature is mediated by the _____.",
+    "choices": [
+      "hypothalamus",
+      "thalamus",
+      "medulla oblongata",
+      "pineal gland"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-10-102",
+    "subject": "anatomy_physiology",
+    "topic": "brain",
+    "subtopic": "Diencephalon",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Appetite is mediated by the _____.",
+    "choices": [
+      "hypothalamus",
+      "thalamus",
+      "epithalamus",
+      "cerebral cortex"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-10-103",
+    "subject": "anatomy_physiology",
+    "topic": "brain",
+    "subtopic": "Diencephalon",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Much of the influence of the hypothalamus is due to the release of hormones which control the release of other hormones: appropriately enough, their names usually include the phrase, \"_____\".",
+    "choices": [
+      "releasing hormone",
+      "stimulating hormone",
+      "tropic hormone",
+      "second messenger"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-10-104",
+    "subject": "anatomy_physiology",
+    "topic": "brain",
+    "subtopic": "Diencephalon",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The pineal gland, habenula, and choroid plexus of the third ventricle constitute the _____.",
+    "choices": [
+      "epithalamus",
+      "hypothalamus",
+      "subthalamus",
+      "metathalamus"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-10-105",
+    "subject": "anatomy_physiology",
+    "topic": "brain",
+    "subtopic": "Diencephalon",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The _____ connects the limbic system to the midbrain - it's physiological roles are still under active investigation.",
+    "choices": [
+      "habenula",
+      "fornix",
+      "pineal gland",
+      "mammillary body"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-10-106",
+    "subject": "anatomy_physiology",
+    "topic": "brain",
+    "subtopic": "Diencephalon",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The main product of the pineal gland is _____, which helps to control the sleep-wake cycle (and is sold in health food stores to alleviate 'jet lag').",
+    "choices": [
+      "melatonin",
+      "serotonin",
+      "dopamine",
+      "oxytocin"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-10-107",
+    "subject": "anatomy_physiology",
+    "topic": "brain",
+    "subtopic": "Limbic System",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The emotional interpretation of events (enjoyable/aversive, etc.) is controlled by the _____.",
+    "choices": [
+      "limbic system",
+      "reticular formation",
+      "cerebellum",
+      "basal nuclei"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-10-108",
+    "subject": "anatomy_physiology",
+    "topic": "brain",
+    "subtopic": "Limbic System",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The _____ is a group of nuclei and tracts which surround, and include several parts of, the diencephalon.",
+    "choices": [
+      "limbic system",
+      "reticular formation",
+      "basal nuclei",
+      "corpus callosum"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-10-109",
+    "subject": "anatomy_physiology",
+    "topic": "brain",
+    "subtopic": "Limbic System",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The _____ is a bundle of nerve tracts linking structures in the limbic system to one another.",
+    "choices": [
+      "fornix",
+      "corpus callosum",
+      "internal capsule",
+      "anterior commissure"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-10-110",
+    "subject": "anatomy_physiology",
+    "topic": "brain",
+    "subtopic": "Limbic System",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Interactions between the prefrontal lobes and the _____ allow our thoughts to influence our emotions and vice versa.",
+    "choices": [
+      "limbic system",
+      "cerebellum",
+      "reticular formation",
+      "brain stem"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-10-111",
+    "subject": "anatomy_physiology",
+    "topic": "brain",
+    "subtopic": "Limbic System",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Damage to the _____ will prevent the acquisition of new declarative memories.",
+    "choices": [
+      "limbic system",
+      "cerebellum",
+      "corpus striatum",
+      "reticular formation"
+    ],
+    "answer_index": 0
   }
 ]

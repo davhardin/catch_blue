@@ -3,33 +3,33 @@
     "id": "bio-anat-12-001",
     "subject": "anatomy_physiology",
     "topic": "autonomic_nervous_system",
-    "subtopic": "Autonomic Nervous System",
+    "subtopic": "Aging: ANS",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "_____ is a form of low blood pressure common in old age, and occurs when sympathetic vasoconstrictive centers are slow to respond to positional changes.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "Orthostatic hypotension",
+      "Essential hypertension",
+      "Hypovolemic shock",
+      "Raynaud's disease"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-12-002",
     "subject": "anatomy_physiology",
     "topic": "autonomic_nervous_system",
-    "subtopic": "Autonomic Nervous System",
+    "subtopic": "Aging: ANS",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Orthostatic hypotension, dry eyes, and constipation are all linked to a common cause in old age: _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "decrease in the efficiency of the ANS",
+      "increased parasympathetic dominance",
+      "overactivity of the sympathetic division",
+      "degeneration of the somatic motor system"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-12-003",
@@ -38,14 +38,14 @@
     "subtopic": "Autonomic Nervous System",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The autonomic nervous system is a subdivision of the _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "motor division of the PNS",
+      "sensory division of the PNS",
+      "motor division of the CNS",
+      "afferent division of the PNS"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-12-004",
@@ -54,14 +54,14 @@
     "subtopic": "Autonomic Nervous System",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Visceral activities such as blood pressure, heart rate, pupil size, etc., are controlled by the _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "autonomic nervous system (ANS)",
+      "somatic nervous system",
+      "afferent division of the PNS",
+      "limbic system"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-12-005",
@@ -70,14 +70,14 @@
     "subtopic": "Autonomic Nervous System",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "In the autonomic nervous system, the effectors are _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "involuntary muscles and glands",
+      "skeletal muscles",
+      "voluntary muscles and tendons",
+      "sensory receptors and neurons"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-12-006",
@@ -86,14 +86,14 @@
     "subtopic": "Autonomic Nervous System",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "In the _____ nervous system, efferent neurons in the _____ (pre-ganglionic neurons) extend axons to ganglia located throughout the body, where they _____. _____ carry the message to the effector.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "autonomic; CNS; synapse with ganglionic neurons; Ganglionic neurons",
+      "somatic; CNS; synapse with motor neurons; Motor neurons",
+      "autonomic; ganglia; synapse with pre-ganglionic neurons; Pre-ganglionic neurons",
+      "somatic; PNS; synapse with interneurons; Interneurons"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-12-007",
@@ -102,14 +102,14 @@
     "subtopic": "Autonomic Nervous System",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "In the autonomic nervous system, the neurotransmitters are _____ and _____, which can be _____ or _____ depending on the effector involved.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "acetylcholine; norepinephrine; excitatory; inhibitory",
+      "dopamine; serotonin; excitatory; inhibitory",
+      "acetylcholine; epinephrine; always excitatory; never inhibitory",
+      "glutamate; GABA; fast; slow"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-12-008",
@@ -118,14 +118,14 @@
     "subtopic": "Autonomic Nervous System",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "_____ is the neurotransmitter used to activate almost all effectors in the sympathetic division of the ANS while _____ is used by the parasympathetic division.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "Norepinephrine; acetylcholine",
+      "Acetylcholine; norepinephrine",
+      "Epinephrine; dopamine",
+      "Dopamine; serotonin"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-12-009",
@@ -134,14 +134,14 @@
     "subtopic": "Autonomic Nervous System",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "_____ is an adjective that refers to acetylcholine and is used to describe receptors and nerve fibers that bind or release acetylcholine.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "Cholinergic",
+      "Adrenergic",
+      "Dopaminergic",
+      "Serotonergic"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-12-010",
@@ -150,1133 +150,701 @@
     "subtopic": "Autonomic Nervous System",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "There are two types of cholinergic receptors, _____ and _____, which are sufficiently different that drugs can be found which affect one but not the other.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "muscarinic; nicotinic",
+      "alpha-adrenergic; beta-adrenergic",
+      "dopaminergic; serotonergic",
+      "glutamatergic; GABAergic"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-12-011",
     "subject": "anatomy_physiology",
     "topic": "autonomic_nervous_system",
-    "subtopic": "Parasympathetic Nervous System",
+    "subtopic": "Autonomic Nervous System",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "_____ is an adjective that refers to norepinephrine and is used to describe receptors and nerve fibers that bind or release norepinephrine.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "Adrenergic",
+      "Cholinergic",
+      "Dopaminergic",
+      "Histaminergic"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-12-012",
     "subject": "anatomy_physiology",
     "topic": "autonomic_nervous_system",
-    "subtopic": "Parasympathetic Nervous System",
+    "subtopic": "Autonomic Nervous System",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "There are two major classes of adrenergic receptors, _____ and _____, each of which has several sub-classes and each of which may be targeted by specific drugs.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "alpha-adrenergic; beta-adrenergic",
+      "muscarinic; nicotinic",
+      "mu; kappa",
+      "ionotropic glutamate; GABAergic"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-12-013",
     "subject": "anatomy_physiology",
     "topic": "autonomic_nervous_system",
-    "subtopic": "Parasympathetic Nervous System",
+    "subtopic": "Autonomic Nervous System",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The effect of a neurotransmitter depends on two factors: the _____ to which they bind and the _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "receptors; cell type",
+      "ion channels; blood supply",
+      "synaptic vesicles; axon length",
+      "hormones; membrane thickness"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-12-014",
     "subject": "anatomy_physiology",
     "topic": "autonomic_nervous_system",
-    "subtopic": "Parasympathetic Nervous System",
+    "subtopic": "Autonomic Nervous System",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The fact that receptor subtypes exist is very important to the medical field because _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "it allows drugs to be targeted to specific receptors, cells, tissues, etc.",
+      "it prevents any drug from having side effects",
+      "it means all neurotransmitters have identical effects",
+      "it eliminates the need for second messenger systems"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-12-015",
     "subject": "anatomy_physiology",
     "topic": "autonomic_nervous_system",
-    "subtopic": "Parasympathetic Nervous System",
+    "subtopic": "Autonomic Nervous System",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Diverse signals from the limbic system, the reticular formation, the cerebral cortex, and the spinal cord are integrated to influence the activity of the ANS by _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "the hypothalamus",
+      "the cerebellum",
+      "the thalamus",
+      "the pituitary gland"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-12-016",
     "subject": "anatomy_physiology",
     "topic": "autonomic_nervous_system",
-    "subtopic": "Parasympathetic Nervous System",
+    "subtopic": "Autonomic Nervous System",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The _____ mediates many reflex actions required for homeostasis, including breathing, heart rate, heart contraction force, and blood pressure.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "brain stem",
+      "cerebellum",
+      "thalamus",
+      "cerebral cortex"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-12-017",
     "subject": "anatomy_physiology",
     "topic": "autonomic_nervous_system",
-    "subtopic": "Parasympathetic Nervous System",
+    "subtopic": "Autonomic Nervous System",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The _____ mediates many activities requiring autonomic activity, including defecation, urination, erection (penile or clitoral), and ejaculation.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "spinal cord",
+      "brain stem",
+      "cerebellum",
+      "cerebral cortex"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-12-018",
     "subject": "anatomy_physiology",
     "topic": "autonomic_nervous_system",
-    "subtopic": "Parasympathetic Nervous System",
+    "subtopic": "Autonomic Nervous System",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Re-activation of autonomic fibers in the spinal cord following non-permanent injury result in potentially fatal _____ and in _____ as part of the mass reflex reaction.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "blood vessel constriction; colon and bladder emptying",
+      "blood vessel dilation; urinary retention",
+      "bradycardia; constipation",
+      "muscle paralysis; loss of sensation"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-12-019",
     "subject": "anatomy_physiology",
     "topic": "autonomic_nervous_system",
-    "subtopic": "Parasympathetic Nervous System",
+    "subtopic": "Autonomic Nervous System",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "During development, pre-ganglionic neurons of the ANS are derived from the _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "embryonic neural tube",
+      "neural crest",
+      "ectodermal placodes",
+      "embryonic mesoderm"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-12-020",
     "subject": "anatomy_physiology",
     "topic": "autonomic_nervous_system",
-    "subtopic": "Parasympathetic Nervous System",
+    "subtopic": "Autonomic Nervous System",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "During development, autonomic nervous system structures in the PNS such as ganglionic neurons and the adrenal medulla are derived from the _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "neural crest",
+      "neural tube",
+      "endoderm",
+      "mesoderm"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-12-021",
     "subject": "anatomy_physiology",
     "topic": "autonomic_nervous_system",
-    "subtopic": "Sympathetic Nervous System",
+    "subtopic": "Divisions of the Autonomic Nervous System",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The _____ division of the autonomic nervous system controls processes that are active when all is peaceful and going well.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "parasympathetic",
+      "sympathetic",
+      "somatic",
+      "enteric"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-12-022",
     "subject": "anatomy_physiology",
     "topic": "autonomic_nervous_system",
-    "subtopic": "Sympathetic Nervous System",
+    "subtopic": "Divisions of the Autonomic Nervous System",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The _____ division of the autonomic nervous system controls processes that are active when events are stressful.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "sympathetic",
+      "parasympathetic",
+      "somatic",
+      "enteric"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-12-023",
     "subject": "anatomy_physiology",
     "topic": "autonomic_nervous_system",
-    "subtopic": "Sympathetic Nervous System",
+    "subtopic": "Divisions of the Autonomic Nervous System",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "In general, most body functions required for maintenance of homeostasis have components that are controlled by _____ of the ANS.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "competition between the parasympathetic and sympathetic divisions",
+      "the sympathetic division alone",
+      "the parasympathetic division alone",
+      "the enteric division alone"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-12-024",
     "subject": "anatomy_physiology",
     "topic": "autonomic_nervous_system",
-    "subtopic": "Sympathetic Nervous System",
+    "subtopic": "Divisions of the Autonomic Nervous System",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Thermoregulation is controlled by the _____ of the ANS.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "sympathetic division",
+      "parasympathetic division",
+      "both divisions equally",
+      "enteric division"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-12-025",
     "subject": "anatomy_physiology",
     "topic": "autonomic_nervous_system",
-    "subtopic": "Sympathetic Nervous System",
+    "subtopic": "Divisions of the Autonomic Nervous System",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Metabolic rate is controlled by the _____ of the ANS.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "sympathetic division",
+      "parasympathetic division",
+      "both divisions equally",
+      "enteric division"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-12-026",
     "subject": "anatomy_physiology",
     "topic": "autonomic_nervous_system",
-    "subtopic": "Sympathetic Nervous System",
+    "subtopic": "Divisions of the Autonomic Nervous System",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Blood pressure is controlled by the _____ of the ANS.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "sympathetic division",
+      "parasympathetic division",
+      "both divisions equally",
+      "enteric division"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-12-027",
     "subject": "anatomy_physiology",
     "topic": "autonomic_nervous_system",
-    "subtopic": "Sympathetic Nervous System",
+    "subtopic": "Divisions of the Autonomic Nervous System",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Some activities are complex and require control by _____ of the ANS.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "both the parasympathetic and sympathetic divisions",
+      "the sympathetic division only",
+      "the parasympathetic division only",
+      "the enteric division only"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-12-028",
     "subject": "anatomy_physiology",
     "topic": "autonomic_nervous_system",
-    "subtopic": "Sympathetic Nervous System",
+    "subtopic": "Divisions of the Autonomic Nervous System",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Activation by the _____ division of the ANS is longer lasting than by the _____ division.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "sympathetic; parasympathetic",
+      "parasympathetic; sympathetic",
+      "sympathetic; somatic",
+      "parasympathetic; enteric"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-12-029",
     "subject": "anatomy_physiology",
     "topic": "autonomic_nervous_system",
-    "subtopic": "Sympathetic Nervous System",
+    "subtopic": "Divisions of the Autonomic Nervous System",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Two reasons that activation by the sympathetic division of the ANS has a long duration are that the neurotransmitter _____ is inactivated more slowly than _____, and also acts through _____ systems in the cell rather than directly operating ion channels.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "norepinephrine; acetylcholine; second messenger",
+      "acetylcholine; norepinephrine; ion channel",
+      "epinephrine; dopamine; second messenger",
+      "norepinephrine; serotonin; direct electrical"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-12-030",
     "subject": "anatomy_physiology",
     "topic": "autonomic_nervous_system",
-    "subtopic": "Sympathetic Nervous System",
+    "subtopic": "Divisions of the Autonomic Nervous System",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Sympathetic activation releases the neurotransmitters norepinephrine and epinephrine directly into the blood via the action of the _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "adrenal glands",
+      "thyroid gland",
+      "posterior pituitary",
+      "pineal gland"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-12-031",
     "subject": "anatomy_physiology",
     "topic": "autonomic_nervous_system",
-    "subtopic": "Autonomic Organization",
+    "subtopic": "Divisions of the Autonomic Nervous System",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The blood-borne neurotransmitters of the sympathetic division remain active until _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "they are destroyed by the liver",
+      "they are filtered out by the kidneys",
+      "they are broken down in the synaptic cleft",
+      "they are taken back up by the spleen"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-12-032",
     "subject": "anatomy_physiology",
     "topic": "autonomic_nervous_system",
-    "subtopic": "Autonomic Organization",
+    "subtopic": "Divisions of the Autonomic Nervous System",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Ganglia for the parasympathetic division of the ANS are located _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "near, or in, the organs they innervate",
+      "in a chain adjacent to the vertebral column",
+      "along the abdominal aorta",
+      "within the lateral horn of the spinal cord"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-12-033",
     "subject": "anatomy_physiology",
     "topic": "autonomic_nervous_system",
-    "subtopic": "Autonomic Organization",
+    "subtopic": "Divisions of the Autonomic Nervous System",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Sympathetic nerve fibers leave the CNS in the _____ region(s) of the vertebral column.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "thoracic and superior lumbar",
+      "cranial and sacral",
+      "cervical and coccygeal",
+      "inferior lumbar and sacral"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-12-034",
     "subject": "anatomy_physiology",
     "topic": "autonomic_nervous_system",
-    "subtopic": "Autonomic Organization",
+    "subtopic": "Divisions of the Autonomic Nervous System",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The cell bodies of the pre-ganglionic sympathetic neurons of the ANS form the _____ of the spinal cord.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "lateral horn",
+      "anterior horn",
+      "posterior horn",
+      "central canal"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-12-035",
     "subject": "anatomy_physiology",
     "topic": "autonomic_nervous_system",
-    "subtopic": "Autonomic Organization",
+    "subtopic": "Divisions of the Autonomic Nervous System",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The axons of many of the pre-ganglionic sympathetic neurons synapse adjacent to the spinal cord in the _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "chain (paravertebral) ganglia",
+      "collateral ganglia",
+      "intramural (terminal) ganglia",
+      "dorsal root ganglia"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-12-036",
     "subject": "anatomy_physiology",
     "topic": "autonomic_nervous_system",
-    "subtopic": "Autonomic Organization",
+    "subtopic": "Divisions of the Autonomic Nervous System",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The cell bodies of many of the post-ganglionic neurons whose axons innervate sympathetic effectors are located adjacent to the vertebrae and are called _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "chain (paravertebral) ganglia",
+      "collateral ganglia",
+      "intramural (terminal) ganglia",
+      "dorsal root ganglia"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-12-037",
     "subject": "anatomy_physiology",
     "topic": "autonomic_nervous_system",
-    "subtopic": "Autonomic Organization",
+    "subtopic": "Divisions of the Autonomic Nervous System",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The axons of many of the pre-ganglionic sympathetic neurons pass through the chain ganglia and synapse in the _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "collateral ganglia",
+      "chain ganglia",
+      "intramural (terminal) ganglia",
+      "dorsal root ganglia"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-12-038",
     "subject": "anatomy_physiology",
     "topic": "autonomic_nervous_system",
-    "subtopic": "Autonomic Organization",
+    "subtopic": "Divisions of the Autonomic Nervous System",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The cell bodies of many of the post-ganglionic neurons whose axons innervate sympathetic effectors are located near the abdominal aorta and are called _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "collateral ganglia",
+      "chain (paravertebral) ganglia",
+      "intramural (terminal) ganglia",
+      "dorsal root ganglia"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-12-039",
     "subject": "anatomy_physiology",
     "topic": "autonomic_nervous_system",
-    "subtopic": "Autonomic Organization",
+    "subtopic": "Divisions of the Autonomic Nervous System",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The _____, which refers to the collateral ganglia as a group, clings to the walls of the abdominal aorta.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "abdominal aortic plexus",
+      "cardiac plexus",
+      "pulmonary plexus",
+      "brachial plexus"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-12-040",
     "subject": "anatomy_physiology",
     "topic": "autonomic_nervous_system",
-    "subtopic": "Autonomic Organization",
+    "subtopic": "Divisions of the Autonomic Nervous System",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Sympathetic axons which leave_____ are myelinated and are called the white rami.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "the CNS to reach the chain ganglia",
+      "the chain ganglia to reach the effector",
+      "the collateral ganglia to reach the viscera",
+      "the dorsal root ganglia to reach the spinal cord"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-12-041",
     "subject": "anatomy_physiology",
     "topic": "autonomic_nervous_system",
-    "subtopic": "Dual Innervation",
+    "subtopic": "Divisions of the Autonomic Nervous System",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The axons which leave _____ are not myelinated and are called the gray rami.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "neurons in the chain ganglia and extend to the effector",
+      "the CNS and extend to the chain ganglia",
+      "neurons in the collateral ganglia and return to the CNS",
+      "the dorsal horn and extend to the viscera"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-12-042",
     "subject": "anatomy_physiology",
     "topic": "autonomic_nervous_system",
-    "subtopic": "Dual Innervation",
+    "subtopic": "Divisions of the Autonomic Nervous System",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The adrenal medulla is stimulated to secrete epinephrine and norepinephrine directly into the blood by the _____ division of the ANS, and is not affected by the _____ division.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "sympathetic; parasympathetic",
+      "parasympathetic; sympathetic",
+      "somatic; autonomic",
+      "enteric; sympathetic"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-12-043",
     "subject": "anatomy_physiology",
     "topic": "autonomic_nervous_system",
-    "subtopic": "Dual Innervation",
+    "subtopic": "Divisions of the Autonomic Nervous System",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Heart rate is increased by the _____ division of the ANS.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "sympathetic",
+      "parasympathetic",
+      "somatic",
+      "enteric"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-12-044",
     "subject": "anatomy_physiology",
     "topic": "autonomic_nervous_system",
-    "subtopic": "Dual Innervation",
+    "subtopic": "Divisions of the Autonomic Nervous System",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Heart rate is decreased by the _____ division of the ANS.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "parasympathetic",
+      "sympathetic",
+      "somatic",
+      "enteric"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-12-045",
     "subject": "anatomy_physiology",
     "topic": "autonomic_nervous_system",
-    "subtopic": "Dual Innervation",
+    "subtopic": "Divisions of the Autonomic Nervous System",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The bronchioles in the lungs are constricted by the _____ division of the ANS.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "parasympathetic",
+      "sympathetic",
+      "somatic",
+      "enteric"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-12-046",
     "subject": "anatomy_physiology",
     "topic": "autonomic_nervous_system",
-    "subtopic": "Dual Innervation",
+    "subtopic": "Divisions of the Autonomic Nervous System",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The bronchioles in the lungs are dilated by the _____ division of the ANS.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "sympathetic",
+      "parasympathetic",
+      "somatic",
+      "enteric"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-12-047",
     "subject": "anatomy_physiology",
     "topic": "autonomic_nervous_system",
-    "subtopic": "Dual Innervation",
+    "subtopic": "Divisions of the Autonomic Nervous System",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Digestive tract activity, including motility, secretion of digestive juices, and sphincter relaxation are promoted by the _____ division of the ANS.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "parasympathetic",
+      "sympathetic",
+      "somatic",
+      "enteric"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-12-048",
     "subject": "anatomy_physiology",
     "topic": "autonomic_nervous_system",
-    "subtopic": "Dual Innervation",
+    "subtopic": "Divisions of the Autonomic Nervous System",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Digestive tract activity, including motility, secretion of digestive juices, and sphincter relaxation are inhibited by the _____ division of the ANS.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "sympathetic",
+      "parasympathetic",
+      "somatic",
+      "enteric"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-12-049",
     "subject": "anatomy_physiology",
     "topic": "autonomic_nervous_system",
-    "subtopic": "Dual Innervation",
+    "subtopic": "Divisions of the Autonomic Nervous System",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The role of the parasympathetic division of the ANS in the male sexual response is to cause _____, and that of the sympathetic division to cause _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "penile erection; ejaculation",
+      "ejaculation; penile erection",
+      "urination; defecation",
+      "sperm production; testosterone secretion"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-12-050",
     "subject": "anatomy_physiology",
     "topic": "autonomic_nervous_system",
-    "subtopic": "Dual Innervation",
+    "subtopic": "Divisions of the Autonomic Nervous System",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Blood vessels are constricted due to _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "stimulation by the sympathetic division of the ANS",
+      "stimulation by the parasympathetic division of the ANS",
+      "lack of stimulation by the sympathetic division of the ANS",
+      "stimulation by somatic motor neurons"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-12-051",
     "subject": "anatomy_physiology",
     "topic": "autonomic_nervous_system",
-    "subtopic": "Autonomic Regulation",
+    "subtopic": "Divisions of the Autonomic Nervous System",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Blood vessels are dilated due to _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "lack of stimulation by the sympathetic division of the ANS",
+      "stimulation by the parasympathetic division of the ANS",
+      "increased stimulation by the sympathetic division of the ANS",
+      "stimulation by somatic motor neurons"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-12-052",
     "subject": "anatomy_physiology",
     "topic": "autonomic_nervous_system",
-    "subtopic": "Autonomic Regulation",
+    "subtopic": "Divisions of the Autonomic Nervous System",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Hypertension (high blood pressure) results if the _____ response is overactive.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "sympathetic vasoconstrictor",
+      "parasympathetic vasodilator",
+      "sympathetic vasodilator",
+      "somatic motor"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-12-053",
     "subject": "anatomy_physiology",
     "topic": "autonomic_nervous_system",
-    "subtopic": "Autonomic Regulation",
+    "subtopic": "Divisions of the Autonomic Nervous System",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Raynaud's disease is a disease in which _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "blood vessels constrict in the fingers and toes",
+      "blood vessels dilate uncontrollably in the face",
+      "sweat glands become permanently inactive",
+      "heart rate fails to rise during exercise"
     ],
-    "answer_index": 1
-  },
-  {
-    "id": "bio-anat-12-054",
-    "subject": "anatomy_physiology",
-    "topic": "autonomic_nervous_system",
-    "subtopic": "Autonomic Regulation",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "Question",
-    "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "answer_index": 1
-  },
-  {
-    "id": "bio-anat-12-055",
-    "subject": "anatomy_physiology",
-    "topic": "autonomic_nervous_system",
-    "subtopic": "Autonomic Regulation",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "Question",
-    "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "answer_index": 1
-  },
-  {
-    "id": "bio-anat-12-056",
-    "subject": "anatomy_physiology",
-    "topic": "autonomic_nervous_system",
-    "subtopic": "Autonomic Regulation",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "Question",
-    "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "answer_index": 1
-  },
-  {
-    "id": "bio-anat-12-057",
-    "subject": "anatomy_physiology",
-    "topic": "autonomic_nervous_system",
-    "subtopic": "Autonomic Regulation",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "Question",
-    "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "answer_index": 1
-  },
-  {
-    "id": "bio-anat-12-058",
-    "subject": "anatomy_physiology",
-    "topic": "autonomic_nervous_system",
-    "subtopic": "Autonomic Regulation",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "Question",
-    "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "answer_index": 1
-  },
-  {
-    "id": "bio-anat-12-059",
-    "subject": "anatomy_physiology",
-    "topic": "autonomic_nervous_system",
-    "subtopic": "Autonomic Regulation",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "Question",
-    "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "answer_index": 1
-  },
-  {
-    "id": "bio-anat-12-060",
-    "subject": "anatomy_physiology",
-    "topic": "autonomic_nervous_system",
-    "subtopic": "Autonomic Regulation",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "Question",
-    "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "answer_index": 1
-  },
-  {
-    "id": "bio-anat-12-061",
-    "subject": "anatomy_physiology",
-    "topic": "autonomic_nervous_system",
-    "subtopic": "Higher-Order Cognitive Processes",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "Question",
-    "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "answer_index": 1
-  },
-  {
-    "id": "bio-anat-12-062",
-    "subject": "anatomy_physiology",
-    "topic": "autonomic_nervous_system",
-    "subtopic": "Higher-Order Cognitive Processes",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "Question",
-    "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "answer_index": 1
-  },
-  {
-    "id": "bio-anat-12-063",
-    "subject": "anatomy_physiology",
-    "topic": "autonomic_nervous_system",
-    "subtopic": "Higher-Order Cognitive Processes",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "Question",
-    "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "answer_index": 1
-  },
-  {
-    "id": "bio-anat-12-064",
-    "subject": "anatomy_physiology",
-    "topic": "autonomic_nervous_system",
-    "subtopic": "Higher-Order Cognitive Processes",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "Question",
-    "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "answer_index": 1
-  },
-  {
-    "id": "bio-anat-12-065",
-    "subject": "anatomy_physiology",
-    "topic": "autonomic_nervous_system",
-    "subtopic": "Higher-Order Cognitive Processes",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "Question",
-    "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "answer_index": 1
-  },
-  {
-    "id": "bio-anat-12-066",
-    "subject": "anatomy_physiology",
-    "topic": "autonomic_nervous_system",
-    "subtopic": "Higher-Order Cognitive Processes",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "Question",
-    "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "answer_index": 1
-  },
-  {
-    "id": "bio-anat-12-067",
-    "subject": "anatomy_physiology",
-    "topic": "autonomic_nervous_system",
-    "subtopic": "Higher-Order Cognitive Processes",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "Question",
-    "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "answer_index": 1
-  },
-  {
-    "id": "bio-anat-12-068",
-    "subject": "anatomy_physiology",
-    "topic": "autonomic_nervous_system",
-    "subtopic": "Higher-Order Cognitive Processes",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "Question",
-    "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "answer_index": 1
-  },
-  {
-    "id": "bio-anat-12-069",
-    "subject": "anatomy_physiology",
-    "topic": "autonomic_nervous_system",
-    "subtopic": "Higher-Order Cognitive Processes",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "Question",
-    "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "answer_index": 1
-  },
-  {
-    "id": "bio-anat-12-070",
-    "subject": "anatomy_physiology",
-    "topic": "autonomic_nervous_system",
-    "subtopic": "Higher-Order Cognitive Processes",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "Question",
-    "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "answer_index": 1
-  },
-  {
-    "id": "bio-anat-12-071",
-    "subject": "anatomy_physiology",
-    "topic": "autonomic_nervous_system",
-    "subtopic": "Aging: Nervous System",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "Question",
-    "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "answer_index": 1
-  },
-  {
-    "id": "bio-anat-12-072",
-    "subject": "anatomy_physiology",
-    "topic": "autonomic_nervous_system",
-    "subtopic": "Aging: Nervous System",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "Question",
-    "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "answer_index": 1
-  },
-  {
-    "id": "bio-anat-12-073",
-    "subject": "anatomy_physiology",
-    "topic": "autonomic_nervous_system",
-    "subtopic": "Aging: Nervous System",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "Question",
-    "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "answer_index": 1
-  },
-  {
-    "id": "bio-anat-12-074",
-    "subject": "anatomy_physiology",
-    "topic": "autonomic_nervous_system",
-    "subtopic": "Aging: Nervous System",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "Question",
-    "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "answer_index": 1
-  },
-  {
-    "id": "bio-anat-12-075",
-    "subject": "anatomy_physiology",
-    "topic": "autonomic_nervous_system",
-    "subtopic": "Aging: Nervous System",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "Question",
-    "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "answer_index": 1
-  },
-  {
-    "id": "bio-anat-12-076",
-    "subject": "anatomy_physiology",
-    "topic": "autonomic_nervous_system",
-    "subtopic": "Aging: Nervous System",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "Question",
-    "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "answer_index": 1
-  },
-  {
-    "id": "bio-anat-12-077",
-    "subject": "anatomy_physiology",
-    "topic": "autonomic_nervous_system",
-    "subtopic": "Aging: Nervous System",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "Question",
-    "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "answer_index": 1
-  },
-  {
-    "id": "bio-anat-12-078",
-    "subject": "anatomy_physiology",
-    "topic": "autonomic_nervous_system",
-    "subtopic": "Aging: Nervous System",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "Question",
-    "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "answer_index": 1
-  },
-  {
-    "id": "bio-anat-12-079",
-    "subject": "anatomy_physiology",
-    "topic": "autonomic_nervous_system",
-    "subtopic": "Aging: Nervous System",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "Question",
-    "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "answer_index": 1
-  },
-  {
-    "id": "bio-anat-12-080",
-    "subject": "anatomy_physiology",
-    "topic": "autonomic_nervous_system",
-    "subtopic": "Aging: Nervous System",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "Question",
-    "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "answer_index": 1
+    "answer_index": 0
   }
 ]

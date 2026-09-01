@@ -13,6 +13,7 @@ import json
 import subprocess
 import sys
 from pathlib import Path
+from random import Random
 
 import pytest
 
@@ -62,12 +63,77 @@ def test_from_dict_carries_every_field():
     assert q.prompt == "Which organelle is the site of ATP synthesis?"
     assert q.choices == ["Nucleus", "Mitochondrion", "Ribosome"]
     assert q.answer_index == 1
+    assert q.shuffle is True
 
 
 @pytest.mark.parametrize("choice_index", [0, 1, 2])
 def test_is_correct_only_at_answer_index(choice_index):
     q = Question.from_dict(make_question())
     assert q.is_correct(choice_index) == (choice_index == 1)
+
+
+def test_from_dict_preserves_explicit_shuffle_false():
+    q = Question.from_dict(make_question(shuffle=False))
+    assert q.shuffle is False
+
+
+# --- Question display order -------------------------------------------------
+
+
+def test_shuffled_display_order_is_a_permutation_without_mutation():
+    q = Question.from_dict(make_question())
+    original_choices = list(q.choices)
+    original_answer_index = q.answer_index
+
+    order = q.display_order(Random(7))
+    displayed_choices = [q.choices[index] for index in order]
+
+    assert sorted(order) == list(range(len(q.choices)))
+    assert sorted(displayed_choices) == sorted(original_choices)
+    assert q.choices == original_choices
+    assert q.answer_index == original_answer_index
+
+
+def test_correct_answer_tracks_through_every_seeded_display_order():
+    q = Question.from_dict(make_question())
+    correct_text = q.choices[q.answer_index]
+
+    for seed in range(100):
+        order = q.display_order(Random(seed))
+        correct_display_slot = order.index(q.answer_index)
+        displayed_choices = [q.choices[index] for index in order]
+
+        assert displayed_choices[correct_display_slot] == correct_text
+        assert q.is_correct(order[correct_display_slot])
+
+
+def test_shuffle_false_preserves_file_order():
+    q = Question.from_dict(make_question(shuffle=False))
+    canonical_order = list(range(len(q.choices)))
+
+    for seed in range(10):
+        assert q.display_order(Random(seed)) == canonical_order
+
+
+def test_same_seed_produces_same_display_order():
+    q = Question.from_dict(make_question())
+    assert q.display_order(Random(42)) == q.display_order(Random(42))
+
+
+def test_repeated_asks_create_fresh_orders_without_mutating_question():
+    q = Question.from_dict(make_question())
+    original_choices = list(q.choices)
+    rng = Random(3)
+
+    orders = [q.display_order(rng) for _ in range(10)]
+
+    assert all(
+        order is not other
+        for index, order in enumerate(orders)
+        for other in orders[index + 1:]
+    )
+    assert len({tuple(order) for order in orders}) > 1
+    assert q.choices == original_choices
 
 
 # --- Question.from_dict: every rejection ------------------------------------
@@ -105,6 +171,12 @@ def test_from_dict_rejects_unknown_type():
     but only multiple_choice may pass the gate."""
     with pytest.raises(ValueError, match="q-001"):
         Question.from_dict(make_question(type="fill_blank"))
+
+
+@pytest.mark.parametrize("bad_shuffle", ["false", 0, 1, None])
+def test_from_dict_rejects_non_boolean_shuffle(bad_shuffle):
+    with pytest.raises(ValueError, match="q-001"):
+        Question.from_dict(make_question(shuffle=bad_shuffle))
 
 
 # --- QuestionBank: loading --------------------------------------------------

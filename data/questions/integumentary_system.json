@@ -3,961 +3,961 @@
     "id": "bio-anat-05-001",
     "subject": "anatomy_physiology",
     "topic": "integumentary_system",
-    "subtopic": "Epidermis",
+    "subtopic": "Aging: Integumentary System",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "In advanced age, there are _____ dermal papillae.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "fewer and/or smaller",
+      "more numerous and larger",
+      "deeper and more elastic",
+      "unchanged in number but darker"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-05-002",
     "subject": "anatomy_physiology",
     "topic": "integumentary_system",
-    "subtopic": "Epidermis",
+    "subtopic": "Aging: Integumentary System",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "In advanced age, the amount of dermal _____ decreases, and the fibers become thicker and disorganized.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "elastin (or elastic fibers)",
+      "collagen",
+      "keratin",
+      "reticular fibers"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-05-003",
     "subject": "anatomy_physiology",
     "topic": "integumentary_system",
-    "subtopic": "Epidermis",
+    "subtopic": "Dermis and Hypodermis",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The dermis is composed of _____ and _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "areolar connective tissue; dense irregular connective tissue",
+      "areolar connective tissue; adipose connective tissue",
+      "dense regular connective tissue; adipose connective tissue",
+      "reticular connective tissue; dense regular connective tissue"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-05-004",
     "subject": "anatomy_physiology",
     "topic": "integumentary_system",
-    "subtopic": "Epidermis",
+    "subtopic": "Dermis and Hypodermis",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The hypodermis is composed of _____ and _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "areolar connective tissue; adipose connective tissue",
+      "areolar connective tissue; dense irregular connective tissue",
+      "dense irregular connective tissue; adipose connective tissue",
+      "reticular connective tissue; dense regular connective tissue"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-05-005",
     "subject": "anatomy_physiology",
     "topic": "integumentary_system",
-    "subtopic": "Epidermis",
+    "subtopic": "Dermis and Hypodermis",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The dermis consists of two layers: the _____, which is characterized by a dimpled interface with the epidermis, and the _____, which accounts for 80% of the skin's thickness.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "papillary layer; reticular layer",
+      "reticular layer; papillary layer",
+      "papillary layer; subcutaneous layer",
+      "stratum basale; reticular layer"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-05-006",
     "subject": "anatomy_physiology",
     "topic": "integumentary_system",
-    "subtopic": "Epidermis",
+    "subtopic": "Dermis and Hypodermis",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The two major fibers found in the dermis are _____ fibers, which provide its strength, and _____ fibers, which allow it to resume its original shape after stress or stretch.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "collagen; elastic",
+      "elastic; collagen",
+      "collagen; reticular",
+      "reticular; elastic"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-05-007",
     "subject": "anatomy_physiology",
     "topic": "integumentary_system",
-    "subtopic": "Epidermis",
+    "subtopic": "Dermis and Hypodermis",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Many of the molecules in the dermis bind _____, which give it a resilient, shock-absorbing quality.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "water",
+      "calcium ions",
+      "lipids",
+      "glucose"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-05-008",
     "subject": "anatomy_physiology",
     "topic": "integumentary_system",
-    "subtopic": "Epidermis",
+    "subtopic": "Dermis and Hypodermis",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The _____ of the dermis contains capillary loops from which nutrients diffuse to nourish the epidermis.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "papillary layer",
+      "reticular layer",
+      "subcutaneous layer",
+      "stratum basale"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-05-009",
     "subject": "anatomy_physiology",
     "topic": "integumentary_system",
-    "subtopic": "Epidermis",
+    "subtopic": "Dermis and Hypodermis",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The papillary layer of the dermis contains _____ and _____ to sense gentle contact with objects in the environment.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "Meissner's corpuscles; free nerve endings",
+      "Pacinian corpuscles; Ruffini's corpuscles",
+      "Merkel cells; Pacinian corpuscles",
+      "Ruffini's corpuscles; free nerve endings"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-05-010",
     "subject": "anatomy_physiology",
     "topic": "integumentary_system",
-    "subtopic": "Epidermis",
+    "subtopic": "Dermis and Hypodermis",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The reticular layer of the dermis contains _____ and _____ to sense firm pressure.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "Pacinian corpuscles; Ruffini’s corpuscles",
+      "Meissner's corpuscles; free nerve endings",
+      "Merkel cells; Meissner's corpuscles",
+      "free nerve endings; Pacinian corpuscles"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-05-011",
     "subject": "anatomy_physiology",
     "topic": "integumentary_system",
-    "subtopic": "Dermis",
+    "subtopic": "Epidermis",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Most textbooks define the skin itself as having two layers: the _____, and deep to it, the _____. The third layer covering the body is said to be deep to the skin, and is called the _____ layer or _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "epidermis; dermis; subcutaneous; hypodermis",
+      "dermis; epidermis; subcutaneous; hypodermis",
+      "epidermis; hypodermis; subcutaneous; dermis",
+      "epidermis; dermis; papillary; hypodermis"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-05-012",
     "subject": "anatomy_physiology",
     "topic": "integumentary_system",
-    "subtopic": "Dermis",
+    "subtopic": "Epidermis",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The layer of the epidermis that contains dividing cells (which produce the more superficial layers) is the _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "stratum basale (or stratum germinativum)",
+      "stratum spinosum",
+      "stratum granulosum",
+      "stratum corneum"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-05-013",
     "subject": "anatomy_physiology",
     "topic": "integumentary_system",
-    "subtopic": "Dermis",
+    "subtopic": "Epidermis",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The deepest layer of the epidermis is the _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "stratum basale (or stratum germinativum)",
+      "stratum spinosum",
+      "stratum granulosum",
+      "stratum corneum"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-05-014",
     "subject": "anatomy_physiology",
     "topic": "integumentary_system",
-    "subtopic": "Dermis",
+    "subtopic": "Epidermis",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The majority of the cells of the epidermis are _____, so-called because they make _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "keratinocytes; keratin",
+      "melanocytes; melanin",
+      "Merkel cells; keratin",
+      "fibroblasts; collagen"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-05-015",
     "subject": "anatomy_physiology",
     "topic": "integumentary_system",
-    "subtopic": "Dermis",
+    "subtopic": "Epidermis",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Melanocytes in the _____ (which layer?) produce two versions of the pigment, melanin.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "stratum basale (or stratum germinativum)",
+      "stratum spinosum",
+      "stratum granulosum",
+      "stratum lucidum"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-05-016",
     "subject": "anatomy_physiology",
     "topic": "integumentary_system",
-    "subtopic": "Dermis",
+    "subtopic": "Epidermis",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Melanin can be decorative, but its major function in skin is to _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "shield DNA from UV light",
+      "waterproof the skin surface",
+      "provide a precursor for vitamin D",
+      "insulate the body against heat loss"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-05-017",
     "subject": "anatomy_physiology",
     "topic": "integumentary_system",
-    "subtopic": "Dermis",
+    "subtopic": "Epidermis",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Most of the melanin in skin is in _____ (what cell type).",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "keratinocytes",
+      "melanocytes",
+      "Langerhans' cells",
+      "Merkel cells"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-05-018",
     "subject": "anatomy_physiology",
     "topic": "integumentary_system",
-    "subtopic": "Dermis",
+    "subtopic": "Epidermis",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Our most superficial touch receptors are the _____, found in the _____ of the epidermis.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "Merkel cells; stratum basale (or stratum germinativum)",
+      "Merkel cells; stratum corneum",
+      "Langerhans' cells; stratum spinosum",
+      "Meissner's corpuscles; stratum basale"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-05-019",
     "subject": "anatomy_physiology",
     "topic": "integumentary_system",
-    "subtopic": "Dermis",
+    "subtopic": "Epidermis",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Immune cells in the stratum spinosum which protect against invaders are the _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "Langerhans' cells (or dendritic cells)",
+      "Merkel cells",
+      "melanocytes",
+      "keratinocytes"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-05-020",
     "subject": "anatomy_physiology",
     "topic": "integumentary_system",
-    "subtopic": "Dermis",
+    "subtopic": "Epidermis",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "In the _____ of the epidermis, keratinocytes begin to accumulate keratohyalin, which is necessary for keratin production, and to degrade their nuclei and organelles in their final living actions.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "stratum granulosum",
+      "stratum spinosum",
+      "stratum lucidum",
+      "stratum corneum"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-05-021",
     "subject": "anatomy_physiology",
     "topic": "integumentary_system",
-    "subtopic": "Subcutaneous Layer",
+    "subtopic": "Epidermis",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Keratinocytes in the _____ of the epidermis produce lamellated granules filled with a water-proofing glycolipid. <Note: if you can't figure out the meaning of the word - or any other word in these review questions - you should look them up!>",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "stratum granulosum",
+      "stratum basale",
+      "stratum spinosum",
+      "stratum corneum"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-05-022",
     "subject": "anatomy_physiology",
     "topic": "integumentary_system",
-    "subtopic": "Subcutaneous Layer",
+    "subtopic": "Epidermis",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "A very thin layer called the _____ is in the epidermis but is visible only in thick skin: it is just superficial to the stratum granulosum.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "stratum lucidum",
+      "stratum granulosum",
+      "stratum corneum",
+      "stratum spinosum"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-05-023",
     "subject": "anatomy_physiology",
     "topic": "integumentary_system",
-    "subtopic": "Subcutaneous Layer",
+    "subtopic": "Epidermis",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The most superficial layer of the epidermis is called the _____, and forms a waterproof shell around the body.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "stratum corneum",
+      "stratum lucidum",
+      "stratum granulosum",
+      "stratum basale"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-05-024",
     "subject": "anatomy_physiology",
     "topic": "integumentary_system",
-    "subtopic": "Subcutaneous Layer",
+    "subtopic": "Epidermis",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Three quarters of the epidermal thickness is accounted for by the _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "stratum corneum",
+      "stratum basale",
+      "stratum spinosum",
+      "stratum granulosum"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-05-025",
     "subject": "anatomy_physiology",
     "topic": "integumentary_system",
-    "subtopic": "Subcutaneous Layer",
+    "subtopic": "Epidermis",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The first level of protection against abrasion and toxic chemicals at the body's surface is provided by the _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "stratum corneum",
+      "stratum granulosum",
+      "stratum lucidum",
+      "stratum basale"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-05-026",
     "subject": "anatomy_physiology",
     "topic": "integumentary_system",
-    "subtopic": "Subcutaneous Layer",
+    "subtopic": "Epidermis",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Three pigments contribute to skin color: two types of _____ and, to a lesser degree, _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "melanin; carotene",
+      "melanin; hemoglobin",
+      "carotene; hemoglobin",
+      "keratin; carotene"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-05-027",
     "subject": "anatomy_physiology",
     "topic": "integumentary_system",
-    "subtopic": "Subcutaneous Layer",
+    "subtopic": "Epidermis",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "In addition to skin pigments, _____ also contributes to skin color, especially in fair-skinned individuals.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "hemoglobin",
+      "carotene",
+      "melanin",
+      "bilirubin"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-05-028",
     "subject": "anatomy_physiology",
     "topic": "integumentary_system",
-    "subtopic": "Subcutaneous Layer",
+    "subtopic": "Epidermis",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Lack of circulation or low levels of hemoglobin cause _____, in which non-pigmented areas of the skin look white.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "pallor",
+      "cyanosis",
+      "jaundice",
+      "erythema"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-05-029",
     "subject": "anatomy_physiology",
     "topic": "integumentary_system",
-    "subtopic": "Subcutaneous Layer",
+    "subtopic": "Epidermis",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Excessive dilation of the surface blood vessels or binding of carbon monoxide to hemoglobin (which causes it to look oxygenated, even when it is not) cause _____, in which non-pigmented areas of skin look red.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "flushing",
+      "pallor",
+      "cyanosis",
+      "jaundice"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-05-030",
     "subject": "anatomy_physiology",
     "topic": "integumentary_system",
-    "subtopic": "Subcutaneous Layer",
+    "subtopic": "Epidermis",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Poor blood oxygenation causes _____, in which non-pigmented areas of skin look blue.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "cyanosis",
+      "pallor",
+      "flushing",
+      "jaundice"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-05-031",
     "subject": "anatomy_physiology",
     "topic": "integumentary_system",
-    "subtopic": "Epidermal Pigmentation",
+    "subtopic": "Epidermis",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The epithelial membrane that encloses the entire body is called the _____ membrane.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "cutaneous",
+      "mucous",
+      "serous",
+      "synovial"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-05-032",
     "subject": "anatomy_physiology",
     "topic": "integumentary_system",
-    "subtopic": "Epidermal Pigmentation",
+    "subtopic": "Hair and Nails",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The portion of the hair that is above the surface of the skin is called the _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "hair shaft",
+      "hair root",
+      "hair bulb",
+      "hair follicle"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-05-033",
     "subject": "anatomy_physiology",
     "topic": "integumentary_system",
-    "subtopic": "Epidermal Pigmentation",
+    "subtopic": "Hair and Nails",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The sub-surface portion of the hair is called the _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "root",
+      "shaft",
+      "bulb",
+      "matrix"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-05-034",
     "subject": "anatomy_physiology",
     "topic": "integumentary_system",
-    "subtopic": "Epidermal Pigmentation",
+    "subtopic": "Hair and Nails",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The origin of the hair shaft, deep within the dermis, is called the _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "hair bulb",
+      "hair root",
+      "hair follicle",
+      "hair papilla"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-05-035",
     "subject": "anatomy_physiology",
     "topic": "integumentary_system",
-    "subtopic": "Epidermal Pigmentation",
+    "subtopic": "Hair and Nails",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The sheath in which a hair is held is called a(n) _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "follicle",
+      "bulb",
+      "shaft",
+      "matrix"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-05-036",
     "subject": "anatomy_physiology",
     "topic": "integumentary_system",
-    "subtopic": "Epidermal Pigmentation",
+    "subtopic": "Hair and Nails",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The hair follicle is composed of cells from the _____ (which tissue layer in general?), but deep within the follicle, at the hair matrix, only cells of the _____ (which layer, specifically?) are present.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "epidermis; stratum basale",
+      "dermis; stratum basale",
+      "epidermis; stratum corneum",
+      "dermis; papillary layer"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-05-037",
     "subject": "anatomy_physiology",
     "topic": "integumentary_system",
-    "subtopic": "Epidermal Pigmentation",
+    "subtopic": "Hair and Nails",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "In hair, cell division occurs only in the _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "hair matrix",
+      "hair shaft",
+      "hair papilla",
+      "root hair plexus"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-05-038",
     "subject": "anatomy_physiology",
     "topic": "integumentary_system",
-    "subtopic": "Epidermal Pigmentation",
+    "subtopic": "Hair and Nails",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "In the hair, pigment is made by melanocytes and exported to keratinocytes in the _____, within the hair bulb.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "hair matrix",
+      "hair shaft",
+      "hair papilla",
+      "follicle wall"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-05-039",
     "subject": "anatomy_physiology",
     "topic": "integumentary_system",
-    "subtopic": "Epidermal Pigmentation",
+    "subtopic": "Hair and Nails",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The _____ is a sensory nerve cluster that wraps each hair bulb, allowing the hair to serve as a sensitive touch receptor.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "root hair plexus",
+      "Pacinian corpuscle",
+      "Meissner's corpuscle",
+      "Merkel disc"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-05-040",
     "subject": "anatomy_physiology",
     "topic": "integumentary_system",
-    "subtopic": "Epidermal Pigmentation",
+    "subtopic": "Hair and Nails",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The muscles that allow hairs to 'stand on end' (and which cause goose bumps) are the _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "arrector pili",
+      "erector spinae",
+      "root hair plexuses",
+      "dermal papillae"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-05-041",
     "subject": "anatomy_physiology",
     "topic": "integumentary_system",
-    "subtopic": "Skin Functions: Sunlight",
+    "subtopic": "Hair and Nails",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Pale, fine hair like that found on the face of a child is _____ hair.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "vellus",
+      "terminal",
+      "lanugo",
+      "intermediate"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-05-042",
     "subject": "anatomy_physiology",
     "topic": "integumentary_system",
-    "subtopic": "Skin Functions: Sunlight",
+    "subtopic": "Hair and Nails",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Coarse hair, such as the hair of the head, a man's beard, etc., is called _____ hair.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "terminal",
+      "vellus",
+      "lanugo",
+      "club"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-05-043",
     "subject": "anatomy_physiology",
     "topic": "integumentary_system",
-    "subtopic": "Skin Functions: Sunlight",
+    "subtopic": "Hair and Nails",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Loss or thinning of hair is called _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "alopecia",
+      "hirsutism",
+      "seborrhea",
+      "psoriasis"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-05-044",
     "subject": "anatomy_physiology",
     "topic": "integumentary_system",
-    "subtopic": "Skin Functions: Sunlight",
+    "subtopic": "Hair and Nails",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The growth of finger- and toenails occurs in the _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "nail matrix",
+      "nail bed",
+      "lunula",
+      "eponychium"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-05-045",
     "subject": "anatomy_physiology",
     "topic": "integumentary_system",
-    "subtopic": "Skin Functions: Sunlight",
+    "subtopic": "Hair and Nails",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Finger- and toenails are composed of _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "dead, keratinized cells",
+      "living keratinocytes",
+      "chitin",
+      "dense regular connective tissue"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-05-046",
     "subject": "anatomy_physiology",
     "topic": "integumentary_system",
-    "subtopic": "Skin Functions: Sunlight",
+    "subtopic": "Integumentary Damage / Repair",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The least malignant and most common skin cancer is _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "basal cell carcinoma",
+      "squamous cell carcinoma",
+      "melanoma",
+      "Kaposi's sarcoma"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-05-047",
     "subject": "anatomy_physiology",
     "topic": "integumentary_system",
-    "subtopic": "Skin Functions: Sunlight",
+    "subtopic": "Integumentary Damage / Repair",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "_____ results from transformation of cells of the stratum basale leading to invasive, uncontrolled growth.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "Basal cell carcinoma",
+      "Squamous cell carcinoma",
+      "Melanoma",
+      "Merkel cell carcinoma"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-05-048",
     "subject": "anatomy_physiology",
     "topic": "integumentary_system",
-    "subtopic": "Skin Functions: Sunlight",
+    "subtopic": "Integumentary Damage / Repair",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "_____ results from transformation of cells in the stratum spinosum leading to invasive, uncontrolled growth.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "Squamous cell carcinoma",
+      "Basal cell carcinoma",
+      "Melanoma",
+      "Merkel cell carcinoma"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-05-049",
     "subject": "anatomy_physiology",
     "topic": "integumentary_system",
-    "subtopic": "Skin Functions: Sunlight",
+    "subtopic": "Integumentary Damage / Repair",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Squamous cell carcinomas _____ and _____ if not removed.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "grow rapidly; metastasize",
+      "grow slowly; remain localized",
+      "remain benign; resolve spontaneously",
+      "grow slowly; metastasize"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-05-050",
     "subject": "anatomy_physiology",
     "topic": "integumentary_system",
-    "subtopic": "Skin Functions: Sunlight",
+    "subtopic": "Integumentary Damage / Repair",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Squamous cell carcinomas are found most frequently on the _____, _____, and _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "scalp, ears, lower lip",
+      "palms, soles, fingertips",
+      "chest, back, shoulders",
+      "thighs, calves, ankles"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-05-051",
     "subject": "anatomy_physiology",
     "topic": "integumentary_system",
-    "subtopic": "Hair",
+    "subtopic": "Integumentary Damage / Repair",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "_____ is the most dangerous type of skin cancer. It can be cured easily by excision until it metastisizes, after which the prognosis is poor.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "Melanoma",
+      "Basal cell carcinoma",
+      "Squamous cell carcinoma",
+      "Kaposi's sarcoma"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-05-052",
     "subject": "anatomy_physiology",
     "topic": "integumentary_system",
-    "subtopic": "Hair",
+    "subtopic": "Integumentary Damage / Repair",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Melanomas can often be spotted by application of the ABCD(E) rule. The letters refer to: _____, _____, _____, _____ and _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "asymmetry, borders that are irregular, color variations, diameter over 6 mm, and elevation above the surface",
+      "asymmetry, bleeding, crusting, diameter over 6 mm, and elevation above the surface",
+      "area, borders that are irregular, color variations, depth, and edema",
+      "asymmetry, borders that are regular, color uniformity, diameter under 6 mm, and elevation above the surface"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-05-053",
     "subject": "anatomy_physiology",
     "topic": "integumentary_system",
-    "subtopic": "Hair",
+    "subtopic": "Integumentary Damage / Repair",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "In a(n) _____ burn, only the epidermis is damaged.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "first degree",
+      "second degree",
+      "third degree",
+      "fourth degree"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-05-054",
     "subject": "anatomy_physiology",
     "topic": "integumentary_system",
-    "subtopic": "Hair",
+    "subtopic": "Integumentary Damage / Repair",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "In a(n) _____ burn, the epidermis and upper region of the dermis are damaged. Blistering is common.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "second degree",
+      "first degree",
+      "third degree",
+      "fourth degree"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-05-055",
     "subject": "anatomy_physiology",
     "topic": "integumentary_system",
-    "subtopic": "Hair",
+    "subtopic": "Integumentary Damage / Repair",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "In a(n) _____ burn, the entire thickness of the skin, the hypodermis, and possibly underlying tissue, is damaged.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "third degree",
+      "second degree",
+      "first degree",
+      "fourth degree"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-05-056",
     "subject": "anatomy_physiology",
     "topic": "integumentary_system",
-    "subtopic": "Hair",
+    "subtopic": "Integumentary Damage / Repair",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Burns are considered critical if over _____ of the body has second degree burns.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "25%",
+      "10%",
+      "50%",
+      "75%"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-05-057",
     "subject": "anatomy_physiology",
     "topic": "integumentary_system",
-    "subtopic": "Hair",
+    "subtopic": "Integumentary Damage / Repair",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Burns are considered critical if over _____ of the body has third degree burns.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "10%",
+      "25%",
+      "5%",
+      "50%"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-05-058",
     "subject": "anatomy_physiology",
     "topic": "integumentary_system",
-    "subtopic": "Hair",
+    "subtopic": "Integumentary Damage / Repair",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Burns are considered critical if there are third degree burns on the _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "face, hands or feet",
+      "chest and abdomen",
+      "back and buttocks",
+      "thighs and upper arms"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-05-059",
     "subject": "anatomy_physiology",
     "topic": "integumentary_system",
-    "subtopic": "Hair",
+    "subtopic": "Integumentary Damage / Repair",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The area of a body covered by a burn is estimated using _____, which divides the body into regions each containing a defined amount of the total body area.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "the rule of nines",
+      "the ABCD(E) rule",
+      "the rule of thirds",
+      "the Braden scale"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-05-060",
     "subject": "anatomy_physiology",
     "topic": "integumentary_system",
-    "subtopic": "Hair",
+    "subtopic": "Sweat Glands",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Apocrine and eccrine glands are both _____ (sweat) glands.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "sudoriferous",
+      "sebaceous",
+      "ceruminous",
+      "mammary"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-05-061",
@@ -966,14 +966,14 @@
     "subtopic": "Sweat Glands",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Sudoriferous glands are _____ glands, meaning that their products enter the duct via exocytosis.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "merocrine",
+      "holocrine",
+      "apocrine",
+      "endocrine"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-05-062",
@@ -982,14 +982,14 @@
     "subtopic": "Sweat Glands",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "99% of the volume secreted by _____ (a type of sweat gland), is water.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "eccrine glands",
+      "apocrine glands",
+      "sebaceous glands",
+      "ceruminous glands"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-05-063",
@@ -998,14 +998,14 @@
     "subtopic": "Sweat Glands",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "_____ glands are sudoriferous glands that are found in the axillary and anogenital regions of adults, and which secrete a nutrient broth for bacteria.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "Apocrine",
+      "Eccrine",
+      "Sebaceous",
+      "Ceruminous"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-05-064",
@@ -1014,14 +1014,14 @@
     "subtopic": "Sweat Glands",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The ducts of _____ (a type of sweat gland) open into hair follicles, rather than directly onto the skin's surface.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "apocrine",
+      "eccrine",
+      "ceruminous",
+      "mammary"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-05-065",
@@ -1030,14 +1030,14 @@
     "subtopic": "Sweat Glands",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "_____ glands are modified apocrine glands which produce a waxy substance to protect the ear canal from dust, small insects, etc.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "Ceruminous",
+      "Sebaceous",
+      "Mammary",
+      "Eccrine"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-05-066",
@@ -1046,14 +1046,14 @@
     "subtopic": "Sweat Glands",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "_____ are modified sweat glands which produce milk.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "Mammary glands",
+      "Ceruminous glands",
+      "Apocrine glands",
+      "Sebaceous glands"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-05-067",
@@ -1062,14 +1062,14 @@
     "subtopic": "Sweat Glands",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "_____ glands secrete an anti-bacterial oil onto the hair shafts and skin.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "Sebaceous",
+      "Eccrine",
+      "Apocrine",
+      "Ceruminous"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-05-068",
@@ -1078,14 +1078,14 @@
     "subtopic": "Sweat Glands",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Sebaceous glands are _____ glands, which means that the cells rupture in order to spill their contents into the duct.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "holocrine",
+      "merocrine",
+      "apocrine",
+      "endocrine"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-05-069",
@@ -1094,14 +1094,14 @@
     "subtopic": "Sweat Glands",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Sebaceous glands are found on all skin, except for the _____ and _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "palms; soles",
+      "axillae; groin",
+      "scalp; forehead",
+      "back; chest"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-05-070",
@@ -1110,413 +1110,29 @@
     "subtopic": "Sweat Glands",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "_____ glands have a duct through which their products are secreted onto the body's surface or into body cavities.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "Exocrine",
+      "Endocrine",
+      "Paracrine",
+      "Autocrine"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-05-071",
     "subject": "anatomy_physiology",
     "topic": "integumentary_system",
-    "subtopic": "Nails",
+    "subtopic": "Sweat Glands",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Mucous, sweat, oil, and salivary glands are all _____ glands.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "exocrine",
+      "endocrine",
+      "holocrine",
+      "merocrine"
     ],
-    "answer_index": 1
-  },
-  {
-    "id": "bio-anat-05-072",
-    "subject": "anatomy_physiology",
-    "topic": "integumentary_system",
-    "subtopic": "Nails",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "Question",
-    "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "answer_index": 1
-  },
-  {
-    "id": "bio-anat-05-073",
-    "subject": "anatomy_physiology",
-    "topic": "integumentary_system",
-    "subtopic": "Nails",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "Question",
-    "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "answer_index": 1
-  },
-  {
-    "id": "bio-anat-05-074",
-    "subject": "anatomy_physiology",
-    "topic": "integumentary_system",
-    "subtopic": "Nails",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "Question",
-    "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "answer_index": 1
-  },
-  {
-    "id": "bio-anat-05-075",
-    "subject": "anatomy_physiology",
-    "topic": "integumentary_system",
-    "subtopic": "Nails",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "Question",
-    "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "answer_index": 1
-  },
-  {
-    "id": "bio-anat-05-076",
-    "subject": "anatomy_physiology",
-    "topic": "integumentary_system",
-    "subtopic": "Nails",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "Question",
-    "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "answer_index": 1
-  },
-  {
-    "id": "bio-anat-05-077",
-    "subject": "anatomy_physiology",
-    "topic": "integumentary_system",
-    "subtopic": "Nails",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "Question",
-    "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "answer_index": 1
-  },
-  {
-    "id": "bio-anat-05-078",
-    "subject": "anatomy_physiology",
-    "topic": "integumentary_system",
-    "subtopic": "Nails",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "Question",
-    "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "answer_index": 1
-  },
-  {
-    "id": "bio-anat-05-079",
-    "subject": "anatomy_physiology",
-    "topic": "integumentary_system",
-    "subtopic": "Nails",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "Question",
-    "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "answer_index": 1
-  },
-  {
-    "id": "bio-anat-05-080",
-    "subject": "anatomy_physiology",
-    "topic": "integumentary_system",
-    "subtopic": "Nails",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "Question",
-    "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "answer_index": 1
-  },
-  {
-    "id": "bio-anat-05-081",
-    "subject": "anatomy_physiology",
-    "topic": "integumentary_system",
-    "subtopic": "Integumentary Damage / Repair",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "Question",
-    "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "answer_index": 1
-  },
-  {
-    "id": "bio-anat-05-082",
-    "subject": "anatomy_physiology",
-    "topic": "integumentary_system",
-    "subtopic": "Integumentary Damage / Repair",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "Question",
-    "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "answer_index": 1
-  },
-  {
-    "id": "bio-anat-05-083",
-    "subject": "anatomy_physiology",
-    "topic": "integumentary_system",
-    "subtopic": "Integumentary Damage / Repair",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "Question",
-    "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "answer_index": 1
-  },
-  {
-    "id": "bio-anat-05-084",
-    "subject": "anatomy_physiology",
-    "topic": "integumentary_system",
-    "subtopic": "Integumentary Damage / Repair",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "Question",
-    "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "answer_index": 1
-  },
-  {
-    "id": "bio-anat-05-085",
-    "subject": "anatomy_physiology",
-    "topic": "integumentary_system",
-    "subtopic": "Integumentary Damage / Repair",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "Question",
-    "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "answer_index": 1
-  },
-  {
-    "id": "bio-anat-05-086",
-    "subject": "anatomy_physiology",
-    "topic": "integumentary_system",
-    "subtopic": "Integumentary Damage / Repair",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "Question",
-    "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "answer_index": 1
-  },
-  {
-    "id": "bio-anat-05-087",
-    "subject": "anatomy_physiology",
-    "topic": "integumentary_system",
-    "subtopic": "Integumentary Damage / Repair",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "Question",
-    "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "answer_index": 1
-  },
-  {
-    "id": "bio-anat-05-088",
-    "subject": "anatomy_physiology",
-    "topic": "integumentary_system",
-    "subtopic": "Integumentary Damage / Repair",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "Question",
-    "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "answer_index": 1
-  },
-  {
-    "id": "bio-anat-05-089",
-    "subject": "anatomy_physiology",
-    "topic": "integumentary_system",
-    "subtopic": "Integumentary Damage / Repair",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "Question",
-    "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "answer_index": 1
-  },
-  {
-    "id": "bio-anat-05-090",
-    "subject": "anatomy_physiology",
-    "topic": "integumentary_system",
-    "subtopic": "Integumentary Damage / Repair",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "Question",
-    "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "answer_index": 1
-  },
-  {
-    "id": "bio-anat-05-091",
-    "subject": "anatomy_physiology",
-    "topic": "integumentary_system",
-    "subtopic": "Aging: Integumentary System",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "Question",
-    "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "answer_index": 1
-  },
-  {
-    "id": "bio-anat-05-092",
-    "subject": "anatomy_physiology",
-    "topic": "integumentary_system",
-    "subtopic": "Aging: Integumentary System",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "Question",
-    "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "answer_index": 1
-  },
-  {
-    "id": "bio-anat-05-093",
-    "subject": "anatomy_physiology",
-    "topic": "integumentary_system",
-    "subtopic": "Aging: Integumentary System",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "Question",
-    "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "answer_index": 1
-  },
-  {
-    "id": "bio-anat-05-094",
-    "subject": "anatomy_physiology",
-    "topic": "integumentary_system",
-    "subtopic": "Aging: Integumentary System",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "Question",
-    "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "answer_index": 1
-  },
-  {
-    "id": "bio-anat-05-095",
-    "subject": "anatomy_physiology",
-    "topic": "integumentary_system",
-    "subtopic": "Aging: Integumentary System",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "Question",
-    "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "answer_index": 1
+    "answer_index": 0
   }
 ]

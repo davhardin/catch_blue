@@ -3,1025 +3,1025 @@
     "id": "bio-anat-03-001",
     "subject": "anatomy_physiology",
     "topic": "cells",
-    "subtopic": "Plasma Membrane",
+    "subtopic": "Cellular Transport",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "When a molecule moves from an area of high concentration to an area of low concentration, the process is called _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "diffusion",
+      "osmosis",
+      "active transport",
+      "filtration"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-03-002",
     "subject": "anatomy_physiology",
     "topic": "cells",
-    "subtopic": "Plasma Membrane",
+    "subtopic": "Cellular Transport",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Molecules can passively diffuse through the plasma membrane with the aid of _____ proteins, which form a tunnel that specific molecules can travel, and _____ proteins, which bind to a molecule and change shape so that un-binding occurs on the opposite side of the membrane.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "channel; carrier",
+      "carrier; channel",
+      "receptor; channel",
+      "pump; carrier"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-03-003",
     "subject": "anatomy_physiology",
     "topic": "cells",
-    "subtopic": "Plasma Membrane",
+    "subtopic": "Cellular Transport",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "If a molecule can only pass through a membrane with the assistance of a membrane protein, but the direction of its travel is controlled only by its concentration, the process is called _____ diffusion.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "facilitated",
+      "simple",
+      "active",
+      "osmotic"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-03-004",
     "subject": "anatomy_physiology",
     "topic": "cells",
-    "subtopic": "Plasma Membrane",
+    "subtopic": "Cellular Transport",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "When water moves from an area where there is more water to an area where there is less, the process is called _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "osmosis",
+      "diffusion",
+      "filtration",
+      "active transport"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-03-005",
     "subject": "anatomy_physiology",
     "topic": "cells",
-    "subtopic": "Plasma Membrane",
+    "subtopic": "Cellular Transport",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "When a cell is surrounded by solution of equivalent solute concentration, the solution is said to be _____ to the cell, and the net movement of water is _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "isotonic; absent",
+      "hypotonic; into the cell",
+      "hypertonic; out of the cell",
+      "isotonic; into the cell"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-03-006",
     "subject": "anatomy_physiology",
     "topic": "cells",
-    "subtopic": "Plasma Membrane",
+    "subtopic": "Cellular Transport",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "When a cell is surrounded by solution of higher solute concentration, the solution is said to be _____ to the cell, and the net movement of water is _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "hypertonic; out of the cell",
+      "hypotonic; into the cell",
+      "isotonic; absent",
+      "hypertonic; into the cell"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-03-007",
     "subject": "anatomy_physiology",
     "topic": "cells",
-    "subtopic": "Plasma Membrane",
+    "subtopic": "Cellular Transport",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "When a cell is surrounded by solution of lower solute concentration, the solution is said to be _____ to the cell, and the net movement of water is _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "hypotonic; into the cell",
+      "hypertonic; out of the cell",
+      "isotonic; absent",
+      "hypotonic; out of the cell"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-03-008",
     "subject": "anatomy_physiology",
     "topic": "cells",
-    "subtopic": "Plasma Membrane",
+    "subtopic": "Cellular Transport",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "_____ is the passage of liquids and solutes through membranes due to differences in pressure, a process which is important in the kidney.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "filtration",
+      "osmosis",
+      "facilitated diffusion",
+      "active transport"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-03-009",
     "subject": "anatomy_physiology",
     "topic": "cells",
-    "subtopic": "Plasma Membrane",
+    "subtopic": "Cellular Transport",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "When energy is being used to move a solute from low to high areas of concentration, the process is called _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "active transport",
+      "facilitated diffusion",
+      "simple diffusion",
+      "filtration"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-03-010",
     "subject": "anatomy_physiology",
     "topic": "cells",
-    "subtopic": "Plasma Membrane",
+    "subtopic": "Cellular Transport",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Sodium and potassium gradients are maintained by an active-transport protein called the sodium-potassium pump, which moves _____ sodiums out of the cell for every _____ potassium ions brought in.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "3; 2",
+      "2; 3",
+      "1; 1",
+      "3; 3"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-03-011",
     "subject": "anatomy_physiology",
     "topic": "cells",
-    "subtopic": "Organelles",
+    "subtopic": "Cellular Transport",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "In _____, interactions between vesicle proteins and plasma membrane proteins cause a vesicle to merge with the plasma membrane and discharge its contents to the cell's exterior.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "exocytosis",
+      "endocytosis",
+      "phagocytosis",
+      "pinocytosis"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-03-012",
     "subject": "anatomy_physiology",
     "topic": "cells",
-    "subtopic": "Organelles",
+    "subtopic": "Cellular Transport",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "When a vesicle is formed on one side of the cell to endocytose extracellular material, and actually traverses the cell to leave on the other side, the process is called _____. (This process is important in digestion.)",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "transcytosis",
+      "exocytosis",
+      "endocytosis",
+      "phagocytosis"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-03-013",
     "subject": "anatomy_physiology",
     "topic": "cells",
-    "subtopic": "Organelles",
+    "subtopic": "DNA, Transcription and Translation",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "DNA is made by enzymes called _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "DNA polymerases",
+      "RNA polymerases",
+      "DNA ligases",
+      "helicases"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-03-014",
     "subject": "anatomy_physiology",
     "topic": "cells",
-    "subtopic": "Organelles",
+    "subtopic": "DNA, Transcription and Translation",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "During DNA synthesis, new nucleotides can only be added to the _____ end of the DNA.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "3'",
+      "5'",
+      "N-terminal",
+      "C-terminal"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-03-015",
     "subject": "anatomy_physiology",
     "topic": "cells",
-    "subtopic": "Organelles",
+    "subtopic": "DNA, Transcription and Translation",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The _____ strand of DNA is made discontinuously (in small pieces).",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "lagging",
+      "leading",
+      "template",
+      "antisense"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-03-016",
     "subject": "anatomy_physiology",
     "topic": "cells",
-    "subtopic": "Organelles",
+    "subtopic": "DNA, Transcription and Translation",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "DNA polymerases require a(n) _____, which in the cell is either a pre-existing piece of DNA, or a newly made piece of RNA.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "primer",
+      "promoter",
+      "Okazaki fragment",
+      "codon"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-03-017",
     "subject": "anatomy_physiology",
     "topic": "cells",
-    "subtopic": "Organelles",
+    "subtopic": "DNA, Transcription and Translation",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "At the DNA level, the difference between a liver cell and a brain cell, is that they _____, although they have the same _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "have different genes active; DNA",
+      "have different DNA; genes active",
+      "have more chromosomes; genes",
+      "have mutated genes; RNA"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-03-018",
     "subject": "anatomy_physiology",
     "topic": "cells",
-    "subtopic": "Organelles",
+    "subtopic": "DNA, Transcription and Translation",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The development of specific and distinctive features in a cell (example, when a cell becomes a liver or a brain cell) is called _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "differentiation",
+      "proliferation",
+      "apoptosis",
+      "metastasis"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-03-019",
     "subject": "anatomy_physiology",
     "topic": "cells",
-    "subtopic": "Organelles",
+    "subtopic": "DNA, Transcription and Translation",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "A hereditary nucleic acid sequence which contains the information needed to make a cellular component is called a(n) _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "gene",
+      "codon",
+      "nucleotide",
+      "chromosome"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-03-020",
     "subject": "anatomy_physiology",
     "topic": "cells",
-    "subtopic": "Organelles",
+    "subtopic": "DNA, Transcription and Translation",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "In humans, _____ is the chemical which contains the original sequence information encoding proteins and other cellular components, and which is the 'master copy' that is passed on to future generations.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "DNA",
+      "mRNA",
+      "tRNA",
+      "rRNA"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-03-021",
     "subject": "anatomy_physiology",
     "topic": "cells",
-    "subtopic": "Transcription and Translation",
+    "subtopic": "DNA, Transcription and Translation",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "In humans, _____ is a disposable copy of the nucleic acid sequence which contains the information encoding proteins and other cellular components. It is used by the ribosomes in the cytoplasm to create a protein with the correct amino acid sequence.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "mRNA",
+      "DNA",
+      "tRNA",
+      "rRNA"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-03-022",
     "subject": "anatomy_physiology",
     "topic": "cells",
-    "subtopic": "Transcription and Translation",
+    "subtopic": "DNA, Transcription and Translation",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "_____ is a form of RNA that carries amino acids to the ribosome during protein synthesis.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "tRNA",
+      "mRNA",
+      "rRNA",
+      "DNA"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-03-023",
     "subject": "anatomy_physiology",
     "topic": "cells",
-    "subtopic": "Transcription and Translation",
+    "subtopic": "DNA, Transcription and Translation",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "_____ is a form of RNA that is a physical component of the ribosome.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "rRNA",
+      "mRNA",
+      "tRNA",
+      "DNA"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-03-024",
     "subject": "anatomy_physiology",
     "topic": "cells",
-    "subtopic": "Transcription and Translation",
+    "subtopic": "DNA, Transcription and Translation",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "During _____, the sequence of the DNA is copied into RNA. During _____, the ribosome uses the nucleotide sequence to create a protein with the correct amino acid sequence.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "transcription; translation",
+      "translation; transcription",
+      "replication; translation",
+      "transcription; replication"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-03-025",
     "subject": "anatomy_physiology",
     "topic": "cells",
-    "subtopic": "Transcription and Translation",
+    "subtopic": "DNA, Transcription and Translation",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Codons are found in _____ RNA, while anticodons are found in _____ RNA.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "messenger; transfer",
+      "transfer; messenger",
+      "ribosomal; messenger",
+      "messenger; ribosomal"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-03-026",
     "subject": "anatomy_physiology",
     "topic": "cells",
-    "subtopic": "Transcription and Translation",
+    "subtopic": "Cell Membrane",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "A difference in the number of positive and negative charges on the two sides of a membrane is referred to as the _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "membrane potential",
+      "action potential",
+      "concentration gradient",
+      "osmotic pressure"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-03-027",
     "subject": "anatomy_physiology",
     "topic": "cells",
-    "subtopic": "Transcription and Translation",
+    "subtopic": "Cell Membrane",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The two factors that act in opposite ways to stabilize the resting membrane potential are _____ and _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "concentration gradients; electrostatic attraction",
+      "osmotic pressure; hydrostatic pressure",
+      "active transport; filtration",
+      "diffusion; osmosis"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-03-028",
     "subject": "anatomy_physiology",
     "topic": "cells",
-    "subtopic": "Transcription and Translation",
+    "subtopic": "Cell Membrane",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The two major ions responsible for the membrane potential in human cells are _____ and _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "sodium; potassium",
+      "calcium; chloride",
+      "sodium; chloride",
+      "potassium; calcium"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-03-029",
     "subject": "anatomy_physiology",
     "topic": "cells",
-    "subtopic": "Transcription and Translation",
+    "subtopic": "Cell Membrane",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Cellular interactions with the environment are controlled by which region of the cell?",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "membrane",
+      "nucleus",
+      "cytoplasm",
+      "cytoskeleton"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-03-030",
     "subject": "anatomy_physiology",
     "topic": "cells",
-    "subtopic": "Transcription and Translation",
+    "subtopic": "Cell Membrane",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The basic structure of a cell's membrane is a(n) _____ bilayer with associated proteins that can be either _____ or _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "phospholipid; integral; peripheral",
+      "cholesterol; integral; peripheral",
+      "phospholipid; fibrous; globular",
+      "glycolipid; internal; external"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-03-031",
     "subject": "anatomy_physiology",
     "topic": "cells",
-    "subtopic": "Membrane Proteins",
+    "subtopic": "Cell Membrane",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Receptors in the cell's surface tend to be made of _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "protein",
+      "phospholipid",
+      "carbohydrate",
+      "cholesterol"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-03-032",
     "subject": "anatomy_physiology",
     "topic": "cells",
-    "subtopic": "Membrane Proteins",
+    "subtopic": "Cell Membrane",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The molecules that allow cells to join and adhere to one another and or objects are made of _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "protein",
+      "carbohydrate",
+      "phospholipid",
+      "nucleic acid"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-03-033",
     "subject": "anatomy_physiology",
     "topic": "cells",
-    "subtopic": "Membrane Proteins",
+    "subtopic": "Cell Membrane",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "A common function of all _____ is to transmit an external event, as a signal, into the cell to allow the cell to respond.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "membrane receptors",
+      "carrier proteins",
+      "cell adhesion molecules",
+      "channel proteins"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-03-034",
     "subject": "anatomy_physiology",
     "topic": "cells",
-    "subtopic": "Membrane Proteins",
+    "subtopic": "Cell Membrane",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "_____ are membrane junctions which prevent passage of materials between two cells.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "tight junctions",
+      "desmosomes",
+      "gap junctions",
+      "hemidesmosomes"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-03-035",
     "subject": "anatomy_physiology",
     "topic": "cells",
-    "subtopic": "Membrane Proteins",
+    "subtopic": "Cell Membrane",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "_____ are membrane junctions which allow force to be passed from cell to cell without separation of, or damage to, the cellular membranes.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "desmosomes",
+      "tight junctions",
+      "gap junctions",
+      "hemidesmosomes"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-03-036",
     "subject": "anatomy_physiology",
     "topic": "cells",
-    "subtopic": "Membrane Proteins",
+    "subtopic": "Cell Membrane",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "_____ are membrane junctions which contain hollow channels within them that allow ions to pass through from cell to cell.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "gap junctions",
+      "tight junctions",
+      "desmosomes",
+      "hemidesmosomes"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-03-037",
     "subject": "anatomy_physiology",
     "topic": "cells",
-    "subtopic": "Membrane Proteins",
+    "subtopic": "Organelles",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The region in a human cell that houses the bulk of the genetic material is the _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "nucleus",
+      "mitochondrion",
+      "ribosome",
+      "Golgi apparatus"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-03-038",
     "subject": "anatomy_physiology",
     "topic": "cells",
-    "subtopic": "Membrane Proteins",
+    "subtopic": "Organelles",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Most of the cellular machinery in human cells is in the _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "cytoplasm",
+      "nucleus",
+      "plasma membrane",
+      "mitochondria"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-03-039",
     "subject": "anatomy_physiology",
     "topic": "cells",
-    "subtopic": "Membrane Proteins",
+    "subtopic": "Organelles",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The entire region between the cellular nucleus and the membrane is called the _____, the liquid portion is called the _____, and the membrane-enclosed compartments in which specific functions are localized are called _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "cytoplasm; cytosol; organelles",
+      "cytosol; cytoplasm; organelles",
+      "cytoplasm; cytosol; inclusions",
+      "protoplasm; plasma; vesicles"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-03-040",
     "subject": "anatomy_physiology",
     "topic": "cells",
-    "subtopic": "Membrane Proteins",
+    "subtopic": "Organelles",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Mitochondria have _____ (how many?) membranes, each of which is a bilayer.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "two",
+      "one",
+      "three",
+      "four"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-03-041",
     "subject": "anatomy_physiology",
     "topic": "cells",
-    "subtopic": "Cellular Transport",
+    "subtopic": "Organelles",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The innermost membrane of mitochondria is folded, forming wrinkles called _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "cristae",
+      "cisternae",
+      "microvilli",
+      "lamellae"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-03-042",
     "subject": "anatomy_physiology",
     "topic": "cells",
-    "subtopic": "Cellular Transport",
+    "subtopic": "Organelles",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The major (not only) function of mitochondria is to completely oxidize fuels and to capture the energy in a molecule called _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "ATP",
+      "ADP",
+      "glucose",
+      "NADH"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-03-043",
     "subject": "anatomy_physiology",
     "topic": "cells",
-    "subtopic": "Cellular Transport",
+    "subtopic": "Organelles",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "_____ are huge macromolecules composed of RNA and protein, whose function is to synthesize protein.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "ribosomes",
+      "lysosomes",
+      "proteasomes",
+      "centrioles"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-03-044",
     "subject": "anatomy_physiology",
     "topic": "cells",
-    "subtopic": "Cellular Transport",
+    "subtopic": "Organelles",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Cytosolic proteins are made by _____ ribosomes, while proteins destined for export, or use in membrane, are made by _____ ribosomes.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "free; membrane bound",
+      "membrane bound; free",
+      "rough; smooth",
+      "nuclear; cytosolic"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-03-045",
     "subject": "anatomy_physiology",
     "topic": "cells",
-    "subtopic": "Cellular Transport",
+    "subtopic": "Organelles",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The rough endoplasmic reticulum is distinguished by the presence of _____ on its surface, and is responsible for making integral membrane proteins, secreted proteins, and phospholipids.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "ribosomes",
+      "cristae",
+      "microvilli",
+      "glycoproteins"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-03-046",
     "subject": "anatomy_physiology",
     "topic": "cells",
-    "subtopic": "Cellular Transport",
+    "subtopic": "Organelles",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The function of the _______ varies greatly from cell type to cell type, and can include lipid metabolism, steroid synthesis, calcium storage and release, and others.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "smooth ER",
+      "rough ER",
+      "Golgi apparatus",
+      "peroxisome"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-03-047",
     "subject": "anatomy_physiology",
     "topic": "cells",
-    "subtopic": "Cellular Transport",
+    "subtopic": "Organelles",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Proteins leaving the rough ER are transported to the _____ for modification, packaging, and transport to the appropriate location.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "Golgi apparatus",
+      "smooth ER",
+      "lysosome",
+      "mitochondrion"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-03-048",
     "subject": "anatomy_physiology",
     "topic": "cells",
-    "subtopic": "Cellular Transport",
+    "subtopic": "Organelles",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The organelles within the cell whose main functions are digestion and hydrolysis are the _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "lysosomes",
+      "peroxisomes",
+      "ribosomes",
+      "mitochondria"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-03-049",
     "subject": "anatomy_physiology",
     "topic": "cells",
-    "subtopic": "Cellular Transport",
+    "subtopic": "Organelles",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The organelles which isolate hazardous chemical reactions within the cell, especially those producing free radicals, are called _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "peroxisomes",
+      "lysosomes",
+      "mitochondria",
+      "ribosomes"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-03-050",
     "subject": "anatomy_physiology",
     "topic": "cells",
-    "subtopic": "Cellular Transport",
+    "subtopic": "Organelles",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The three principle components of the cytoskeleton are _____, _____, and _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "microfilaments; intermediate filaments; microtubules",
+      "microvilli; intermediate fibers; tubulins",
+      "actin; myosin; collagen",
+      "microfilaments; myofibrils; neurofibrils"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-03-051",
     "subject": "anatomy_physiology",
     "topic": "cells",
-    "subtopic": "Membrane Potential",
+    "subtopic": "Organelles",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The primary functions of _____ are to brace and strengthen the cell's surface and to attach to cellular adhesion molecules which allow binding to substrates and other cells. They also function in endocytosis and exocytosis.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "microfilaments",
+      "microtubules",
+      "intermediate filaments",
+      "myofibrils"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-03-052",
     "subject": "anatomy_physiology",
     "topic": "cells",
-    "subtopic": "Membrane Potential",
+    "subtopic": "Organelles",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The semi-permanent structural framework of the cell, which transmit force from one point in the membrane to others, allowing cells to spread a stretching force across a wide region and to other cells, are the _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "intermediate filaments",
+      "microfilaments",
+      "microtubules",
+      "thick filaments"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-03-053",
     "subject": "anatomy_physiology",
     "topic": "cells",
-    "subtopic": "Membrane Potential",
+    "subtopic": "Organelles",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The dynamic, hollow tubes which help to determine the overall shape of the cell and along which organelles move as if on a conveyor belt are the _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "microtubules",
+      "microfilaments",
+      "intermediate filaments",
+      "myofibrils"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-03-054",
     "subject": "anatomy_physiology",
     "topic": "cells",
-    "subtopic": "Membrane Potential",
+    "subtopic": "Organelles",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The molecules which use energy from ATP to move organelles along certain components of the cytoskeleton are called _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "motor proteins",
+      "carrier proteins",
+      "adhesion molecules",
+      "channel proteins"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-03-055",
     "subject": "anatomy_physiology",
     "topic": "cells",
-    "subtopic": "Membrane Potential",
+    "subtopic": "Organelles",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The structures that organize and generate the microtubules for the mitotic spindle during mitosis and for cilia and flagella are called _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "centrioles",
+      "centromeres",
+      "nucleoli",
+      "ribosomes"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-03-056",
     "subject": "anatomy_physiology",
     "topic": "cells",
-    "subtopic": "Membrane Potential",
+    "subtopic": "Organelles",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Short, cellular projections that allow the cell to move through their environment, or for human cells, to move fluid across their surface, are called _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "cilia",
+      "flagella",
+      "microvilli",
+      "stereocilia"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-03-057",
     "subject": "anatomy_physiology",
     "topic": "cells",
-    "subtopic": "Membrane Potential",
+    "subtopic": "Organelles",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The cytoskeletal components that give cilia their mobility and structural strength are _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "microtubules",
+      "microfilaments",
+      "intermediate filaments",
+      "myofilaments"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-03-058",
     "subject": "anatomy_physiology",
     "topic": "cells",
-    "subtopic": "Membrane Potential",
+    "subtopic": "Organelles",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The primary difference between cilia and flagella is _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "length",
+      "diameter",
+      "protein composition",
+      "membrane structure"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-03-059",
     "subject": "anatomy_physiology",
     "topic": "cells",
-    "subtopic": "Membrane Potential",
+    "subtopic": "Organelles",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The nuclear envelope consists of _____ (how many?) separate membrane bilayers?",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "two",
+      "one",
+      "three",
+      "four"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-03-060",
     "subject": "anatomy_physiology",
     "topic": "cells",
-    "subtopic": "Membrane Potential",
+    "subtopic": "Organelles",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The outer membrane of the nuclear envelope is continuous with the _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "rough E.R.",
+      "smooth E.R.",
+      "Golgi apparatus",
+      "plasma membrane"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-03-061",
     "subject": "anatomy_physiology",
     "topic": "cells",
-    "subtopic": "The Cell Cycle",
+    "subtopic": "Organelles",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Large molecules are transported into or out of the nucleus through _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "nuclear pores",
+      "gap junctions",
+      "nucleoli",
+      "ion channels"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-03-062",
     "subject": "anatomy_physiology",
     "topic": "cells",
-    "subtopic": "The Cell Cycle",
+    "subtopic": "Organelles",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Ribosomal RNA is produced in _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "nucleoli",
+      "ribosomes",
+      "rough ER",
+      "Golgi apparatus"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-03-063",
     "subject": "anatomy_physiology",
     "topic": "cells",
-    "subtopic": "The Cell Cycle",
+    "subtopic": "Organelles",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "DNA wrapped around histones within the nucleus is called _____ because it could take up dyes and showed as a colored substance when a microscope was used.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "chromatin",
+      "chromatid",
+      "centromere",
+      "karyotype"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-03-064",
     "subject": "anatomy_physiology",
     "topic": "cells",
-    "subtopic": "The Cell Cycle",
+    "subtopic": "Organelles",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Non-functional organelles are degraded by _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "lysosomes",
+      "peroxisomes",
+      "proteasomes",
+      "Golgi apparatus"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-03-065",
@@ -1030,14 +1030,14 @@
     "subtopic": "The Cell Cycle",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The cell cycle can be divided into two major phases, _____ and _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "interphase; mitosis",
+      "G1; G2",
+      "prophase; telophase",
+      "mitosis; meiosis"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-03-066",
@@ -1046,14 +1046,14 @@
     "subtopic": "The Cell Cycle",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Interphase can be divided into three groups of events, _____, _____, and _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "G1; S; G2",
+      "G0; G1; G2",
+      "S; G1; G2",
+      "G1; G2; M"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-03-067",
@@ -1062,14 +1062,14 @@
     "subtopic": "The Cell Cycle",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "DNA is made during the _____ phase of the cell cycle (be as specific as possible).",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "S (synthesis)",
+      "G1",
+      "G2",
+      "M (mitosis)"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-03-068",
@@ -1078,14 +1078,14 @@
     "subtopic": "The Cell Cycle",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Cells that have permanently stopped dividing enter a phase of the cell cycle known as _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "G0",
+      "G1",
+      "G2",
+      "S"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-03-069",
@@ -1094,14 +1094,14 @@
     "subtopic": "The Cell Cycle",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Cell growth and preparation for cell division occur during the _____ and _____ phases, respectively.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "G1; G2",
+      "G2; G1",
+      "G0; S",
+      "S; M"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-03-070",
@@ -1110,493 +1110,93 @@
     "subtopic": "The Cell Cycle",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Replication or division of the nucleus is called _____; once there are two nuclei, the cell itself may divide in a process called _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "mitosis; cytokinesis",
+      "cytokinesis; mitosis",
+      "meiosis; mitosis",
+      "interphase; mitosis"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-03-071",
     "subject": "anatomy_physiology",
     "topic": "cells",
-    "subtopic": "DNA Replication",
+    "subtopic": "The Cell Cycle",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Mitosis consists of four phases. In order, they are _____, _____, _____, and _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "prophase; metaphase; anaphase; telophase",
+      "prophase; anaphase; metaphase; telophase",
+      "metaphase; prophase; anaphase; telophase",
+      "prophase; metaphase; telophase; anaphase"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-03-072",
     "subject": "anatomy_physiology",
     "topic": "cells",
-    "subtopic": "DNA Replication",
+    "subtopic": "The Cell Cycle",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "During _____, the nuclear envelope dissolves and the chromatin condenses.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "prophase",
+      "metaphase",
+      "anaphase",
+      "telophase"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-03-073",
     "subject": "anatomy_physiology",
     "topic": "cells",
-    "subtopic": "DNA Replication",
+    "subtopic": "The Cell Cycle",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "During _____, the individual chromosomes line up in the middle of the cell.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "metaphase",
+      "prophase",
+      "anaphase",
+      "telophase"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-03-074",
     "subject": "anatomy_physiology",
     "topic": "cells",
-    "subtopic": "DNA Replication",
+    "subtopic": "The Cell Cycle",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "In _____, the sister chromatids separate.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "anaphase",
+      "metaphase",
+      "telophase",
+      "prophase"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-03-075",
     "subject": "anatomy_physiology",
     "topic": "cells",
-    "subtopic": "DNA Replication",
+    "subtopic": "The Cell Cycle",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "In _____, a new nuclear envelope forms.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "telophase",
+      "prophase",
+      "metaphase",
+      "anaphase"
     ],
-    "answer_index": 1
-  },
-  {
-    "id": "bio-anat-03-076",
-    "subject": "anatomy_physiology",
-    "topic": "cells",
-    "subtopic": "DNA Replication",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "Question",
-    "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "answer_index": 1
-  },
-  {
-    "id": "bio-anat-03-077",
-    "subject": "anatomy_physiology",
-    "topic": "cells",
-    "subtopic": "DNA Replication",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "Question",
-    "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "answer_index": 1
-  },
-  {
-    "id": "bio-anat-03-078",
-    "subject": "anatomy_physiology",
-    "topic": "cells",
-    "subtopic": "DNA Replication",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "Question",
-    "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "answer_index": 1
-  },
-  {
-    "id": "bio-anat-03-079",
-    "subject": "anatomy_physiology",
-    "topic": "cells",
-    "subtopic": "DNA Replication",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "Question",
-    "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "answer_index": 1
-  },
-  {
-    "id": "bio-anat-03-080",
-    "subject": "anatomy_physiology",
-    "topic": "cells",
-    "subtopic": "DNA Replication",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "Question",
-    "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "answer_index": 1
-  },
-  {
-    "id": "bio-anat-03-081",
-    "subject": "anatomy_physiology",
-    "topic": "cells",
-    "subtopic": "Abnormal Cell Behavior: Cancer",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "Question",
-    "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "answer_index": 1
-  },
-  {
-    "id": "bio-anat-03-082",
-    "subject": "anatomy_physiology",
-    "topic": "cells",
-    "subtopic": "Abnormal Cell Behavior: Cancer",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "Question",
-    "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "answer_index": 1
-  },
-  {
-    "id": "bio-anat-03-083",
-    "subject": "anatomy_physiology",
-    "topic": "cells",
-    "subtopic": "Abnormal Cell Behavior: Cancer",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "Question",
-    "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "answer_index": 1
-  },
-  {
-    "id": "bio-anat-03-084",
-    "subject": "anatomy_physiology",
-    "topic": "cells",
-    "subtopic": "Abnormal Cell Behavior: Cancer",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "Question",
-    "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "answer_index": 1
-  },
-  {
-    "id": "bio-anat-03-085",
-    "subject": "anatomy_physiology",
-    "topic": "cells",
-    "subtopic": "Abnormal Cell Behavior: Cancer",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "Question",
-    "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "answer_index": 1
-  },
-  {
-    "id": "bio-anat-03-086",
-    "subject": "anatomy_physiology",
-    "topic": "cells",
-    "subtopic": "Abnormal Cell Behavior: Cancer",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "Question",
-    "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "answer_index": 1
-  },
-  {
-    "id": "bio-anat-03-087",
-    "subject": "anatomy_physiology",
-    "topic": "cells",
-    "subtopic": "Abnormal Cell Behavior: Cancer",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "Question",
-    "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "answer_index": 1
-  },
-  {
-    "id": "bio-anat-03-088",
-    "subject": "anatomy_physiology",
-    "topic": "cells",
-    "subtopic": "Abnormal Cell Behavior: Cancer",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "Question",
-    "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "answer_index": 1
-  },
-  {
-    "id": "bio-anat-03-089",
-    "subject": "anatomy_physiology",
-    "topic": "cells",
-    "subtopic": "Abnormal Cell Behavior: Cancer",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "Question",
-    "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "answer_index": 1
-  },
-  {
-    "id": "bio-anat-03-090",
-    "subject": "anatomy_physiology",
-    "topic": "cells",
-    "subtopic": "Abnormal Cell Behavior: Cancer",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "Question",
-    "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "answer_index": 1
-  },
-  {
-    "id": "bio-anat-03-091",
-    "subject": "anatomy_physiology",
-    "topic": "cells",
-    "subtopic": "Cellular Specialization",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "Question",
-    "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "answer_index": 1
-  },
-  {
-    "id": "bio-anat-03-092",
-    "subject": "anatomy_physiology",
-    "topic": "cells",
-    "subtopic": "Cellular Specialization",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "Question",
-    "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "answer_index": 1
-  },
-  {
-    "id": "bio-anat-03-093",
-    "subject": "anatomy_physiology",
-    "topic": "cells",
-    "subtopic": "Cellular Specialization",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "Question",
-    "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "answer_index": 1
-  },
-  {
-    "id": "bio-anat-03-094",
-    "subject": "anatomy_physiology",
-    "topic": "cells",
-    "subtopic": "Cellular Specialization",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "Question",
-    "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "answer_index": 1
-  },
-  {
-    "id": "bio-anat-03-095",
-    "subject": "anatomy_physiology",
-    "topic": "cells",
-    "subtopic": "Cellular Specialization",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "Question",
-    "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "answer_index": 1
-  },
-  {
-    "id": "bio-anat-03-096",
-    "subject": "anatomy_physiology",
-    "topic": "cells",
-    "subtopic": "Cellular Specialization",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "Question",
-    "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "answer_index": 1
-  },
-  {
-    "id": "bio-anat-03-097",
-    "subject": "anatomy_physiology",
-    "topic": "cells",
-    "subtopic": "Cellular Specialization",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "Question",
-    "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "answer_index": 1
-  },
-  {
-    "id": "bio-anat-03-098",
-    "subject": "anatomy_physiology",
-    "topic": "cells",
-    "subtopic": "Cellular Specialization",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "Question",
-    "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "answer_index": 1
-  },
-  {
-    "id": "bio-anat-03-099",
-    "subject": "anatomy_physiology",
-    "topic": "cells",
-    "subtopic": "Cellular Specialization",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "Question",
-    "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "answer_index": 1
-  },
-  {
-    "id": "bio-anat-03-100",
-    "subject": "anatomy_physiology",
-    "topic": "cells",
-    "subtopic": "Cellular Specialization",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "Question",
-    "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "answer_index": 1
+    "answer_index": 0
   }
 ]

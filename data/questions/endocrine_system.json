@@ -2238,5 +2238,37 @@
       "D"
     ],
     "answer_index": 1
+  },
+  {
+    "id": "bio-anat-14-141",
+    "subject": "anatomy_physiology",
+    "topic": "endocrine_system",
+    "subtopic": "Cell Signaling",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "_____ glands are ductless, that is, their products are released directly from the cells into the bloodstream.",
+    "choices": [
+      "Endocrine",
+      "Exocrine",
+      "Merocrine",
+      "Holocrine"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-14-142",
+    "subject": "anatomy_physiology",
+    "topic": "endocrine_system",
+    "subtopic": "Cell Signaling",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "_____ glands produce hormones.",
+    "choices": [
+      "Endocrine",
+      "Exocrine",
+      "Apocrine",
+      "Merocrine"
+    ],
+    "answer_index": 0
   }
 ]

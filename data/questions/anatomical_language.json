@@ -3,721 +3,721 @@
     "id": "bio-anat-01-001",
     "subject": "anatomy_physiology",
     "topic": "anatomical_language",
-    "subtopic": "Anatomy vs Physiology",
+    "subtopic": "Anatomical Directions",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "In anatomical terms, the relative position of the head and the heels during a somersault is _____, because such descriptions assume that the body is in the _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "unchanged; anatomical position",
+      "reversed; anatomical position",
+      "unchanged; supine position",
+      "reversed; prone position"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-01-002",
     "subject": "anatomy_physiology",
     "topic": "anatomical_language",
-    "subtopic": "Anatomy vs Physiology",
+    "subtopic": "Anatomical Directions",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The knees are _____ to the ankles.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "proximal",
+      "distal",
+      "medial",
+      "lateral"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-01-003",
     "subject": "anatomy_physiology",
     "topic": "anatomical_language",
-    "subtopic": "Anatomy vs Physiology",
+    "subtopic": "Anatomical Directions",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The spine is _____ to the breastbone.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "posterior",
+      "anterior",
+      "lateral",
+      "inferior"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-01-004",
     "subject": "anatomy_physiology",
     "topic": "anatomical_language",
-    "subtopic": "Anatomy vs Physiology",
+    "subtopic": "Anatomical Directions",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The eyes are _____ to the bridge of the nose.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "lateral",
+      "medial",
+      "superior",
+      "inferior"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-01-005",
     "subject": "anatomy_physiology",
     "topic": "anatomical_language",
-    "subtopic": "Anatomy vs Physiology",
+    "subtopic": "Anatomical Directions",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The nose is _____ to the mouth",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "superior",
+      "inferior",
+      "posterior",
+      "lateral"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-01-006",
     "subject": "anatomy_physiology",
     "topic": "anatomical_language",
-    "subtopic": "Levels of Organization",
+    "subtopic": "Anatomical Directions",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The mouth is _____ to the forehead.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "inferior",
+      "superior",
+      "anterior",
+      "lateral"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-01-007",
     "subject": "anatomy_physiology",
     "topic": "anatomical_language",
-    "subtopic": "Levels of Organization",
+    "subtopic": "Anatomical Directions",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The lips are _____ and _____ to the ears.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "anterior and inferior",
+      "posterior and superior",
+      "anterior and superior",
+      "posterior and inferior"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-01-008",
     "subject": "anatomy_physiology",
     "topic": "anatomical_language",
-    "subtopic": "Levels of Organization",
+    "subtopic": "Anatomical Directions",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The hips are _____ to the ribcage.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "inferior",
+      "superior",
+      "anterior",
+      "medial"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-01-009",
     "subject": "anatomy_physiology",
     "topic": "anatomical_language",
-    "subtopic": "Levels of Organization",
+    "subtopic": "Anatomical Directions",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The thumbs are _____ to the pinky fingers.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "lateral",
+      "medial",
+      "proximal",
+      "distal"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-01-010",
     "subject": "anatomy_physiology",
     "topic": "anatomical_language",
-    "subtopic": "Levels of Organization",
+    "subtopic": "Anatomical Directions",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The hands are _______ to the elbows.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "distal",
+      "proximal",
+      "medial",
+      "lateral"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-01-011",
     "subject": "anatomy_physiology",
     "topic": "anatomical_language",
-    "subtopic": "Levels of Organization",
+    "subtopic": "Anatomical Directions",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The pelvis is _______ to the ribs.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "inferior",
+      "superior",
+      "anterior",
+      "posterior"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-01-012",
     "subject": "anatomy_physiology",
     "topic": "anatomical_language",
-    "subtopic": "Levels of Organization",
+    "subtopic": "Anatomical Directions",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The elbows are _______ to the wrists.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "proximal",
+      "distal",
+      "medial",
+      "lateral"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-01-013",
     "subject": "anatomy_physiology",
     "topic": "anatomical_language",
-    "subtopic": "Levels of Organization",
+    "subtopic": "Anatomical Directions",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The calf is _______ to the shin.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "posterior",
+      "anterior",
+      "medial",
+      "lateral"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-01-014",
     "subject": "anatomy_physiology",
     "topic": "anatomical_language",
-    "subtopic": "Levels of Organization",
+    "subtopic": "Anatomical Directions",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The heart is _______ to the ribcage.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "deep",
+      "superficial",
+      "superior",
+      "lateral"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-01-015",
     "subject": "anatomy_physiology",
     "topic": "anatomical_language",
-    "subtopic": "Levels of Organization",
+    "subtopic": "Anatomical Directions",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The ankles are _______ to the shins.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "distal",
+      "proximal",
+      "medial",
+      "superficial"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-01-016",
     "subject": "anatomy_physiology",
     "topic": "anatomical_language",
-    "subtopic": "Body Regions",
+    "subtopic": "Anatomical Directions",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The brain is _______ to the skull.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "deep",
+      "superficial",
+      "lateral",
+      "distal"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-01-017",
     "subject": "anatomy_physiology",
     "topic": "anatomical_language",
-    "subtopic": "Body Regions",
+    "subtopic": "Anatomical Directions",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The thighs are _______ to the feet.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "proximal",
+      "distal",
+      "medial",
+      "lateral"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-01-018",
     "subject": "anatomy_physiology",
     "topic": "anatomical_language",
-    "subtopic": "Body Regions",
+    "subtopic": "Anatomical Directions",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The ribcage is _______ to the lungs.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "superficial",
+      "deep",
+      "medial",
+      "distal"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-01-019",
     "subject": "anatomy_physiology",
     "topic": "anatomical_language",
-    "subtopic": "Body Regions",
+    "subtopic": "Anatomical Directions",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The skin is _______ to the muscles.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "superficial",
+      "deep",
+      "proximal",
+      "distal"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-01-020",
     "subject": "anatomy_physiology",
     "topic": "anatomical_language",
-    "subtopic": "Body Regions",
+    "subtopic": "Anatomical Directions",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The _____ or _____ plane separates the anterior and posterior portions of an object.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "frontal; coronal",
+      "horizontal; transverse",
+      "median; mid-sagittal",
+      "oblique; longitudinal"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-01-021",
     "subject": "anatomy_physiology",
     "topic": "anatomical_language",
-    "subtopic": "Body Regions",
+    "subtopic": "Anatomical Directions",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The _____ or _____ plane separates the superior and inferior portions of an object.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "horizontal; transverse",
+      "frontal; coronal",
+      "median; mid-sagittal",
+      "oblique; longitudinal"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-01-022",
     "subject": "anatomy_physiology",
     "topic": "anatomical_language",
-    "subtopic": "Body Regions",
+    "subtopic": "Anatomical Directions",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The _____ or _____ plane separates the left lateral and the right lateral portions of an object at the midline.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "median; mid-sagittal",
+      "frontal; coronal",
+      "horizontal; transverse",
+      "parasagittal; oblique"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-01-023",
     "subject": "anatomy_physiology",
     "topic": "anatomical_language",
-    "subtopic": "Body Regions",
+    "subtopic": "Anatomical Directions",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "In humans, \"_____\" is a synonym for \"superior,\" but in four-legged animals, it means, \"anterior,\" because it literally means, \"toward the mouth.\"",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "rostral",
+      "caudal",
+      "proximal",
+      "ventral"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-01-024",
     "subject": "anatomy_physiology",
     "topic": "anatomical_language",
-    "subtopic": "Body Regions",
+    "subtopic": "Anatomical Directions",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "In humans, \"_____\" is a synonym for \"inferior,\" but in four-legged animals, it means, \"posterior,\" because it literally means, \"toward the tail.\"",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "caudal",
+      "rostral",
+      "dorsal",
+      "distal"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-01-025",
     "subject": "anatomy_physiology",
     "topic": "anatomical_language",
-    "subtopic": "Body Regions",
+    "subtopic": "Anatomical Directions",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "'_____' refers to two structures on the same side of the body's midline (such as the left arm and left leg).",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "Ipsilateral",
+      "Contralateral",
+      "Bilateral",
+      "Unilateral"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-01-026",
     "subject": "anatomy_physiology",
     "topic": "anatomical_language",
-    "subtopic": "Body Regions",
+    "subtopic": "Anatomical Directions",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "'_____' refers to two structures which are on the opposite side of the body's midline (such as the left arm and right leg).",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "Contralateral",
+      "Ipsilateral",
+      "Bilateral",
+      "Unilateral"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-01-027",
     "subject": "anatomy_physiology",
     "topic": "anatomical_language",
-    "subtopic": "Body Regions",
+    "subtopic": "Anatomy vs Physiology",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Anatomy is the study of the _____ of the body, while physiology is the study of its _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "structure; function",
+      "function; structure",
+      "growth; development",
+      "cells; chemistry"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-01-028",
     "subject": "anatomy_physiology",
     "topic": "anatomical_language",
-    "subtopic": "Body Regions",
+    "subtopic": "Anatomy vs Physiology",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The study of large body structures is called _____ anatomy.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "gross",
+      "microscopic",
+      "regional",
+      "systemic"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-01-029",
     "subject": "anatomy_physiology",
     "topic": "anatomical_language",
-    "subtopic": "Body Regions",
+    "subtopic": "Anatomy vs Physiology",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The study of a body area such as the foot is called _____ anatomy.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "regional",
+      "systemic",
+      "gross",
+      "surface"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-01-030",
     "subject": "anatomy_physiology",
     "topic": "anatomical_language",
-    "subtopic": "Body Regions",
+    "subtopic": "Anatomy vs Physiology",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The study of an organ system's structure is called _____ anatomy.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "systemic",
+      "regional",
+      "gross",
+      "surface"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-01-031",
     "subject": "anatomy_physiology",
     "topic": "anatomical_language",
-    "subtopic": "Body Regions",
+    "subtopic": "Anatomy vs Physiology",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "_____ is the study of small body structures, often too small to be seen with the naked eye.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "Microscopic anatomy",
+      "Gross anatomy",
+      "Regional anatomy",
+      "Surface anatomy"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-01-032",
     "subject": "anatomy_physiology",
     "topic": "anatomical_language",
-    "subtopic": "Body Regions",
+    "subtopic": "Anatomy vs Physiology",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The study of changes in the body's structure over time is called _____ anatomy: a specialized sub-field that deals with such changes prior to birth is called _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "developmental; embryology",
+      "developmental; histology",
+      "gross; embryology",
+      "systemic; gerontology"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-01-033",
     "subject": "anatomy_physiology",
     "topic": "anatomical_language",
-    "subtopic": "Body Regions",
+    "subtopic": "Anatomy vs Physiology",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Physiology is the study of the body's function, often at the _____ or _____ level.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "cellular; molecular",
+      "organ; organismal",
+      "tissue; regional",
+      "gross; microscopic"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-01-034",
     "subject": "anatomy_physiology",
     "topic": "anatomical_language",
-    "subtopic": "Body Regions",
+    "subtopic": "Anatomy vs Physiology",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The principle which allows us to (in many cases) infer the function of a component of the body based on its structure, and vice versa, is the _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "Principle of Complementarity",
+      "Principle of Homeostasis",
+      "Principle of Hierarchical Organization",
+      "Principle of Dynamic Equilibrium"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-01-035",
     "subject": "anatomy_physiology",
     "topic": "anatomical_language",
-    "subtopic": "Body Regions",
+    "subtopic": "Body Cavities",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The thoracic cavity is within the _____ cavity.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "ventral",
+      "dorsal",
+      "abdominopelvic",
+      "pericardial"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-01-036",
     "subject": "anatomy_physiology",
     "topic": "anatomical_language",
-    "subtopic": "Anatomical Directions",
+    "subtopic": "Body Cavities",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The abdominopelvic cavity is within the _____ cavity.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "ventral",
+      "dorsal",
+      "thoracic",
+      "pleural"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-01-037",
     "subject": "anatomy_physiology",
     "topic": "anatomical_language",
-    "subtopic": "Anatomical Directions",
+    "subtopic": "Body Cavities",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The brain is found in the _____ cavity. (Be specific)",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "cranial",
+      "vertebral",
+      "thoracic",
+      "dorsal"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-01-038",
     "subject": "anatomy_physiology",
     "topic": "anatomical_language",
-    "subtopic": "Anatomical Directions",
+    "subtopic": "Body Cavities",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The spinal cord is found in the _____ cavity. (Be specific)",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "vertebral",
+      "cranial",
+      "thoracic",
+      "dorsal"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-01-039",
     "subject": "anatomy_physiology",
     "topic": "anatomical_language",
-    "subtopic": "Anatomical Directions",
+    "subtopic": "Body Cavities",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The lungs and heart are both found in the _____ cavity. (Be specific)",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "thoracic",
+      "pleural",
+      "pericardial",
+      "abdominopelvic"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-01-040",
     "subject": "anatomy_physiology",
     "topic": "anatomical_language",
-    "subtopic": "Anatomical Directions",
+    "subtopic": "Body Cavities",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The heart is found in the _____ cavity. (Be specific)",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "pericardial",
+      "pleural",
+      "mediastinum",
+      "thoracic"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-01-041",
     "subject": "anatomy_physiology",
     "topic": "anatomical_language",
-    "subtopic": "Anatomical Directions",
+    "subtopic": "Body Cavities",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The bladder, some reproductive organs, and rectum are found in the _____ cavity. (Be specific)",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "pelvic",
+      "abdominal",
+      "abdominopelvic",
+      "thoracic"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-01-042",
     "subject": "anatomy_physiology",
     "topic": "anatomical_language",
-    "subtopic": "Anatomical Directions",
+    "subtopic": "Body Cavities",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The heart, trachea and esophagus are found in the _____. (Be specific)",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "mediastinum",
+      "pleural cavity",
+      "pericardial cavity",
+      "abdominal cavity"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-01-043",
     "subject": "anatomy_physiology",
     "topic": "anatomical_language",
-    "subtopic": "Anatomical Directions",
+    "subtopic": "Body Cavities",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The mediastinum is within the _____ cavity, which is in turn within the _____ cavity.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "thoracic; ventral",
+      "ventral; thoracic",
+      "pleural; thoracic",
+      "thoracic; dorsal"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-01-044",
     "subject": "anatomy_physiology",
     "topic": "anatomical_language",
-    "subtopic": "Anatomical Directions",
+    "subtopic": "Body Cavities",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The pelvic cavity is within the _____ cavity, which is within the _____ cavity.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "abdominopelvic; ventral",
+      "abdominal; ventral",
+      "abdominopelvic; dorsal",
+      "ventral; abdominopelvic"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-01-045",
     "subject": "anatomy_physiology",
     "topic": "anatomical_language",
-    "subtopic": "Anatomical Directions",
+    "subtopic": "Body Cavities",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The lungs are found in the _____ cavity. (Be specific)",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "pleural",
+      "pericardial",
+      "thoracic",
+      "mediastinum"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-01-046",
@@ -726,14 +726,14 @@
     "subtopic": "Body Cavities",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The pericardial cavity is within the _____, which is within the _____ cavity, which is within the _____ cavity.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "mediastinum; thoracic; ventral",
+      "thoracic; mediastinum; ventral",
+      "pleural; thoracic; ventral",
+      "mediastinum; thoracic; dorsal"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-01-047",
@@ -742,14 +742,14 @@
     "subtopic": "Body Cavities",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The _____ separates the abdominopelvic and thoracic cavities.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "diaphragm",
+      "mediastinum",
+      "peritoneum",
+      "pericardium"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-01-048",
@@ -758,205 +758,1421 @@
     "subtopic": "Body Cavities",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The double-layered epithelial membranes which line unexposed body cavities, preventing friction between organs, are called _____ membranes.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "serous",
+      "mucous",
+      "cutaneous",
+      "synovial"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-01-049",
     "subject": "anatomy_physiology",
     "topic": "anatomical_language",
-    "subtopic": "Body Cavities",
+    "subtopic": "Body Regions",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "''Nasal'' refers to the _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "nose",
+      "mouth",
+      "forehead",
+      "cheek"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-01-050",
     "subject": "anatomy_physiology",
     "topic": "anatomical_language",
-    "subtopic": "Body Cavities",
+    "subtopic": "Body Regions",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "''Oral'' refers to the _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "mouth",
+      "nose",
+      "chin",
+      "cheek"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-01-051",
     "subject": "anatomy_physiology",
     "topic": "anatomical_language",
-    "subtopic": "Homeostasis",
+    "subtopic": "Body Regions",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "''Cervical'' refers to the _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "neck",
+      "skull",
+      "chest",
+      "lower back"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-01-052",
     "subject": "anatomy_physiology",
     "topic": "anatomical_language",
-    "subtopic": "Homeostasis",
+    "subtopic": "Body Regions",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "''Acromial'' refers to the _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "point of the shoulder",
+      "shoulder blade",
+      "armpit",
+      "elbow"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-01-053",
     "subject": "anatomy_physiology",
     "topic": "anatomical_language",
-    "subtopic": "Homeostasis",
+    "subtopic": "Body Regions",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "''Axillary'' refers to the _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "armpit",
+      "groin",
+      "back of the knee",
+      "wrist"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-01-054",
     "subject": "anatomy_physiology",
     "topic": "anatomical_language",
-    "subtopic": "Homeostasis",
+    "subtopic": "Body Regions",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "''Brachial'' refers to the _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "arm",
+      "forearm",
+      "thigh",
+      "leg"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-01-055",
     "subject": "anatomy_physiology",
     "topic": "anatomical_language",
-    "subtopic": "Homeostasis",
+    "subtopic": "Body Regions",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "''Antecubital'' refers to the _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "front of the elbow",
+      "back of the elbow",
+      "back of the knee",
+      "wrist"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-01-056",
     "subject": "anatomy_physiology",
     "topic": "anatomical_language",
-    "subtopic": "Homeostasis",
+    "subtopic": "Body Regions",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "''Antebrachial'' refers to the _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "forearm",
+      "arm",
+      "leg",
+      "wrist"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-01-057",
     "subject": "anatomy_physiology",
     "topic": "anatomical_language",
-    "subtopic": "Homeostasis",
+    "subtopic": "Body Regions",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "''Carpal'' refers to the _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "wrists",
+      "ankles",
+      "fingers",
+      "palms"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-01-058",
     "subject": "anatomy_physiology",
     "topic": "anatomical_language",
-    "subtopic": "Homeostasis",
+    "subtopic": "Body Regions",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "''Pollex'' refers to the _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "thumb",
+      "great toe",
+      "little finger",
+      "index finger"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-01-059",
     "subject": "anatomy_physiology",
     "topic": "anatomical_language",
-    "subtopic": "Homeostasis",
+    "subtopic": "Body Regions",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "''Digital'' refers to the _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "fingers or toes",
+      "thumbs",
+      "wrists and ankles",
+      "palms and soles"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-01-060",
     "subject": "anatomy_physiology",
     "topic": "anatomical_language",
+    "subtopic": "Body Regions",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "''Pubic'' refers to the _____.",
+    "choices": [
+      "genital region",
+      "groin",
+      "navel",
+      "buttock"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-01-061",
+    "subject": "anatomy_physiology",
+    "topic": "anatomical_language",
+    "subtopic": "Body Regions",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "''Patellar'' refers to the _____.",
+    "choices": [
+      "front of the knee",
+      "back of the knee",
+      "shin",
+      "heel"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-01-062",
+    "subject": "anatomy_physiology",
+    "topic": "anatomical_language",
+    "subtopic": "Body Regions",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "''Crural'' refers to the _____.",
+    "choices": [
+      "leg",
+      "thigh",
+      "forearm",
+      "arm"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-01-063",
+    "subject": "anatomy_physiology",
+    "topic": "anatomical_language",
+    "subtopic": "Body Regions",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "''Pedal'' refers to the _____.",
+    "choices": [
+      "foot",
+      "hand",
+      "ankle",
+      "heel"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-01-064",
+    "subject": "anatomy_physiology",
+    "topic": "anatomical_language",
+    "subtopic": "Body Regions",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "''Tarsal'' refers to the _____.",
+    "choices": [
+      "ankle",
+      "wrist",
+      "heel",
+      "sole of the foot"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-01-065",
+    "subject": "anatomy_physiology",
+    "topic": "anatomical_language",
+    "subtopic": "Body Regions",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "''Frontal'' refers to the _____.",
+    "choices": [
+      "forehead",
+      "chin",
+      "back of head",
+      "cheek"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-01-066",
+    "subject": "anatomy_physiology",
+    "topic": "anatomical_language",
+    "subtopic": "Body Regions",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "''Orbital'' refers to the _____.",
+    "choices": [
+      "eye",
+      "ear",
+      "cheek",
+      "nose"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-01-067",
+    "subject": "anatomy_physiology",
+    "topic": "anatomical_language",
+    "subtopic": "Body Regions",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "''Buccal'' refers to the _____.",
+    "choices": [
+      "cheek",
+      "chin",
+      "lips",
+      "forehead"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-01-068",
+    "subject": "anatomy_physiology",
+    "topic": "anatomical_language",
+    "subtopic": "Body Regions",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "''Mental'' refers to the _____.",
+    "choices": [
+      "chin",
+      "cheek",
+      "forehead",
+      "temple"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-01-069",
+    "subject": "anatomy_physiology",
+    "topic": "anatomical_language",
+    "subtopic": "Body Regions",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "''Thoracic'' refers to the _____.",
+    "choices": [
+      "chest",
+      "abdomen",
+      "lower back",
+      "pelvis"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-01-070",
+    "subject": "anatomy_physiology",
+    "topic": "anatomical_language",
+    "subtopic": "Body Regions",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "''Mammary'' refers to the _____.",
+    "choices": [
+      "breast",
+      "armpit",
+      "navel",
+      "buttock"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-01-071",
+    "subject": "anatomy_physiology",
+    "topic": "anatomical_language",
+    "subtopic": "Body Regions",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "''Coxal'' refers to the _____.",
+    "choices": [
+      "hip",
+      "thigh",
+      "buttock",
+      "groin"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-01-072",
+    "subject": "anatomy_physiology",
+    "topic": "anatomical_language",
+    "subtopic": "Body Regions",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "''Inguinal'' refers to the _____.",
+    "choices": [
+      "groin",
+      "armpit",
+      "hip",
+      "navel"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-01-073",
+    "subject": "anatomy_physiology",
+    "topic": "anatomical_language",
+    "subtopic": "Body Regions",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "''Femoral'' refers to the _____.",
+    "choices": [
+      "thigh",
+      "leg",
+      "hip",
+      "calf"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-01-074",
+    "subject": "anatomy_physiology",
+    "topic": "anatomical_language",
+    "subtopic": "Body Regions",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "''Hallux'' refers to the _____.",
+    "choices": [
+      "great toe",
+      "thumb",
+      "heel",
+      "little toe"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-01-075",
+    "subject": "anatomy_physiology",
+    "topic": "anatomical_language",
+    "subtopic": "Body Regions",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "''Cephalic'' refers to the _____.",
+    "choices": [
+      "head",
+      "neck",
+      "chest",
+      "back"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-01-076",
+    "subject": "anatomy_physiology",
+    "topic": "anatomical_language",
+    "subtopic": "Body Regions",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "''Otic'' refers to the _____.",
+    "choices": [
+      "ear",
+      "eye",
+      "nose",
+      "cheek"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-01-077",
+    "subject": "anatomy_physiology",
+    "topic": "anatomical_language",
+    "subtopic": "Body Regions",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "''Occipital'' refers to the _____.",
+    "choices": [
+      "back of head",
+      "forehead",
+      "top of head",
+      "back of neck"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-01-078",
+    "subject": "anatomy_physiology",
+    "topic": "anatomical_language",
+    "subtopic": "Body Regions",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "''Manus'' refers to the _____.",
+    "choices": [
+      "hand",
+      "foot",
+      "wrist",
+      "forearm"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-01-079",
+    "subject": "anatomy_physiology",
+    "topic": "anatomical_language",
+    "subtopic": "Body Regions",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "''Vertebral'' refers to the _____.",
+    "choices": [
+      "spine",
+      "lower back",
+      "shoulder blade",
+      "breastbone"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-01-080",
+    "subject": "anatomy_physiology",
+    "topic": "anatomical_language",
+    "subtopic": "Body Regions",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "''Scapular'' refers to the _____.",
+    "choices": [
+      "shoulder blade",
+      "collarbone",
+      "breastbone",
+      "lower back"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-01-081",
+    "subject": "anatomy_physiology",
+    "topic": "anatomical_language",
+    "subtopic": "Body Regions",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "''Dorsal'' refers to the _____.",
+    "choices": [
+      "back",
+      "chest",
+      "abdomen",
+      "buttock"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-01-082",
+    "subject": "anatomy_physiology",
+    "topic": "anatomical_language",
+    "subtopic": "Body Regions",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "''Olecranal'' refers to the _____.",
+    "choices": [
+      "back of the elbow",
+      "front of the elbow",
+      "back of the knee",
+      "wrist"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-01-083",
+    "subject": "anatomy_physiology",
+    "topic": "anatomical_language",
+    "subtopic": "Body Regions",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "''Lumbar'' refers to the _____.",
+    "choices": [
+      "lower back",
+      "area between the hips",
+      "buttock",
+      "back of the neck"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-01-084",
+    "subject": "anatomy_physiology",
+    "topic": "anatomical_language",
+    "subtopic": "Body Regions",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "''Sacral'' refers to the _____.",
+    "choices": [
+      "area between the hips",
+      "lower back",
+      "buttock",
+      "region between the anus and genitals"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-01-085",
+    "subject": "anatomy_physiology",
+    "topic": "anatomical_language",
+    "subtopic": "Body Regions",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "''Gluteal'' refers to the _____.",
+    "choices": [
+      "buttock",
+      "hip",
+      "thigh",
+      "lower back"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-01-086",
+    "subject": "anatomy_physiology",
+    "topic": "anatomical_language",
+    "subtopic": "Body Regions",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "''Popliteal'' refers to the _____.",
+    "choices": [
+      "back of the knee",
+      "front of the knee",
+      "back of the elbow",
+      "calf"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-01-087",
+    "subject": "anatomy_physiology",
+    "topic": "anatomical_language",
+    "subtopic": "Body Regions",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "''Sural'' refers to the _____.",
+    "choices": [
+      "calf",
+      "shin",
+      "thigh",
+      "sole of the foot"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-01-088",
+    "subject": "anatomy_physiology",
+    "topic": "anatomical_language",
+    "subtopic": "Body Regions",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "''Calcaneal'' refers to the _____.",
+    "choices": [
+      "heel of the foot",
+      "sole of the foot",
+      "ankle",
+      "great toe"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-01-089",
+    "subject": "anatomy_physiology",
+    "topic": "anatomical_language",
+    "subtopic": "Body Regions",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "''Plantar'' refers to the _____.",
+    "choices": [
+      "sole of the foot",
+      "heel of the foot",
+      "top of the foot",
+      "palm"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-01-090",
+    "subject": "anatomy_physiology",
+    "topic": "anatomical_language",
+    "subtopic": "Body Regions",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The _____ region of the abdomen is superior to the umbilical region of the abdomen.",
+    "choices": [
+      "epigastric",
+      "hypogastric",
+      "umbilical",
+      "right hypochondriac"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-01-091",
+    "subject": "anatomy_physiology",
+    "topic": "anatomical_language",
+    "subtopic": "Body Regions",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The _____ region of the abdomen is superior and left lateral to the umbilical region of the abdomen.",
+    "choices": [
+      "left hypochondriac",
+      "right hypochondriac",
+      "left lumbar",
+      "left iliac"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-01-092",
+    "subject": "anatomy_physiology",
+    "topic": "anatomical_language",
+    "subtopic": "Body Regions",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The _____ region of the abdomen is superior and right lateral to the umbilical region of the abdomen.",
+    "choices": [
+      "right hypochondriac",
+      "left hypochondriac",
+      "right lumbar",
+      "right iliac"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-01-093",
+    "subject": "anatomy_physiology",
+    "topic": "anatomical_language",
+    "subtopic": "Body Regions",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The _____ region of the abdomen is right lateral to the umbilical region of the abdomen.",
+    "choices": [
+      "right lumbar",
+      "left lumbar",
+      "right hypochondriac",
+      "right iliac"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-01-094",
+    "subject": "anatomy_physiology",
+    "topic": "anatomical_language",
+    "subtopic": "Body Regions",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The _____ region of the abdomen is left lateral to the umbilical region of the abdomen.",
+    "choices": [
+      "left lumbar",
+      "right lumbar",
+      "left hypochondriac",
+      "left iliac"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-01-095",
+    "subject": "anatomy_physiology",
+    "topic": "anatomical_language",
+    "subtopic": "Body Regions",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The _____ region of the abdomen is inferior to the umbilical region of the abdomen.",
+    "choices": [
+      "hypogastric or pubic",
+      "epigastric",
+      "umbilical",
+      "right iliac"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-01-096",
+    "subject": "anatomy_physiology",
+    "topic": "anatomical_language",
+    "subtopic": "Body Regions",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The _____ region of the abdomen is inferior and left lateral to the umbilical region of the abdomen.",
+    "choices": [
+      "left iliac or inguinal",
+      "right iliac or inguinal",
+      "left lumbar",
+      "hypogastric"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-01-097",
+    "subject": "anatomy_physiology",
+    "topic": "anatomical_language",
+    "subtopic": "Body Regions",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The _____ region of the abdomen is inferior and right lateral to the umbilical region of the abdomen.",
+    "choices": [
+      "right iliac or inguinal",
+      "left iliac or inguinal",
+      "right lumbar",
+      "hypogastric"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-01-098",
+    "subject": "anatomy_physiology",
+    "topic": "anatomical_language",
     "subtopic": "Homeostasis",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "To live, an organism must separate the _____ and _____ environments.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "internal; external",
+      "intracellular; extracellular",
+      "cellular; molecular",
+      "anterior; posterior"
     ],
-    "answer_index": 1
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-01-099",
+    "subject": "anatomy_physiology",
+    "topic": "anatomical_language",
+    "subtopic": "Homeostasis",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "To live, an organism must be able to _____ and _____ changes in the environment.",
+    "choices": [
+      "sense; respond to",
+      "digest; excrete",
+      "grow; reproduce",
+      "absorb; secrete"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-01-100",
+    "subject": "anatomy_physiology",
+    "topic": "anatomical_language",
+    "subtopic": "Homeostasis",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "_____ refers to the entire set of chemical reactions which occur within an organism.",
+    "choices": [
+      "Metabolism",
+      "Anabolism",
+      "Catabolism",
+      "Homeostasis"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-01-101",
+    "subject": "anatomy_physiology",
+    "topic": "anatomical_language",
+    "subtopic": "Homeostasis",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "_____ refers to chemical reactions which lead to the production of complex molecules or structures within an organism.",
+    "choices": [
+      "Anabolism",
+      "Catabolism",
+      "Metabolism",
+      "Excretion"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-01-102",
+    "subject": "anatomy_physiology",
+    "topic": "anatomical_language",
+    "subtopic": "Homeostasis",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "_____ refers to chemical reactions which degrade or destroy complex molecules or structures within an organism in order to capture energy or raw materials.",
+    "choices": [
+      "Catabolism",
+      "Anabolism",
+      "Metabolism",
+      "Excretion"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-01-103",
+    "subject": "anatomy_physiology",
+    "topic": "anatomical_language",
+    "subtopic": "Homeostasis",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "When a constant, dynamic equilibrium is maintained despite changes in the environment (for example, our ability to maintain a constant body temperature), this is called _____.",
+    "choices": [
+      "homeostasis",
+      "metabolism",
+      "negative feedback",
+      "adaptation"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-01-104",
+    "subject": "anatomy_physiology",
+    "topic": "anatomical_language",
+    "subtopic": "Homeostasis",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "To maintain homeostasis, a(n) _____ must monitor the internal or external environment to detect changes.",
+    "choices": [
+      "receptor",
+      "control center",
+      "effector",
+      "stimulus"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-01-105",
+    "subject": "anatomy_physiology",
+    "topic": "anatomical_language",
+    "subtopic": "Homeostasis",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "To maintain homeostasis, a(n) _____ must respond to signals indicating that a change has occurred by triggering events which will influence the change.",
+    "choices": [
+      "control center",
+      "receptor",
+      "effector",
+      "stimulus"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-01-106",
+    "subject": "anatomy_physiology",
+    "topic": "anatomical_language",
+    "subtopic": "Homeostasis",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "To maintain homeostasis, a(n) _____ must be capable of altering the condition that is being maintained.",
+    "choices": [
+      "effector",
+      "receptor",
+      "control center",
+      "stimulus"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-01-107",
+    "subject": "anatomy_physiology",
+    "topic": "anatomical_language",
+    "subtopic": "Homeostasis",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The three components of a system which maintains homeostasis are a(n) _____, a(n) _____ and a(n) _____.",
+    "choices": [
+      "receptor; control center; effector",
+      "stimulus; receptor; response",
+      "receptor; stimulus; effector",
+      "control center; stimulus; response"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-01-108",
+    "subject": "anatomy_physiology",
+    "topic": "anatomical_language",
+    "subtopic": "Homeostasis",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "In a(n) _____ feedback system, a change in a condition is sensed and amplified.",
+    "choices": [
+      "positive",
+      "negative",
+      "neutral",
+      "homeostatic"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-01-109",
+    "subject": "anatomy_physiology",
+    "topic": "anatomical_language",
+    "subtopic": "Homeostasis",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "In a(n) _____ feedback system, a change in a condition is sensed and returned toward its previous level.",
+    "choices": [
+      "negative",
+      "positive",
+      "neutral",
+      "feedforward"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-01-110",
+    "subject": "anatomy_physiology",
+    "topic": "anatomical_language",
+    "subtopic": "Homeostasis",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "When equilibrium of a bodily system fails, this is described as ______.",
+    "choices": [
+      "homeostatic imbalance",
+      "negative feedback",
+      "positive feedback",
+      "catabolism"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-01-111",
+    "subject": "anatomy_physiology",
+    "topic": "anatomical_language",
+    "subtopic": "Levels of Organization",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The smallest unit that scientists agree is alive is the _____.",
+    "choices": [
+      "cell",
+      "organelle",
+      "tissue",
+      "molecule"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-01-112",
+    "subject": "anatomy_physiology",
+    "topic": "anatomical_language",
+    "subtopic": "Levels of Organization",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Atoms combine to form _____.",
+    "choices": [
+      "molecules",
+      "cells",
+      "organelles",
+      "tissues"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-01-113",
+    "subject": "anatomy_physiology",
+    "topic": "anatomical_language",
+    "subtopic": "Levels of Organization",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Tissues consist of _____.",
+    "choices": [
+      "similar types of cells",
+      "many different types of cells",
+      "several kinds of organs",
+      "two or more organ systems"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-01-114",
+    "subject": "anatomy_physiology",
+    "topic": "anatomical_language",
+    "subtopic": "Levels of Organization",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "An organ is made of several types of _____.",
+    "choices": [
+      "tissue",
+      "organ systems",
+      "organisms",
+      "organelles"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-01-115",
+    "subject": "anatomy_physiology",
+    "topic": "anatomical_language",
+    "subtopic": "Levels of Organization",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Organs working together on a common task form an _____.",
+    "choices": [
+      "organ system",
+      "organism",
+      "tissue",
+      "cell"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-01-116",
+    "subject": "anatomy_physiology",
+    "topic": "anatomical_language",
+    "subtopic": "Levels of Organization",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The _____ system forms the external body covering.",
+    "choices": [
+      "integumentary",
+      "skeletal",
+      "muscular",
+      "lymphatic"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-01-117",
+    "subject": "anatomy_physiology",
+    "topic": "anatomical_language",
+    "subtopic": "Levels of Organization",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The _____ system protects deeper tissues from injury.",
+    "choices": [
+      "integumentary",
+      "endocrine",
+      "lymphatic",
+      "respiratory"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-01-118",
+    "subject": "anatomy_physiology",
+    "topic": "anatomical_language",
+    "subtopic": "Levels of Organization",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The _____ system synthesizes vitamin D.",
+    "choices": [
+      "integumentary",
+      "endocrine",
+      "skeletal",
+      "lymphatic"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-01-119",
+    "subject": "anatomy_physiology",
+    "topic": "anatomical_language",
+    "subtopic": "Levels of Organization",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The _____ system is the primary site of pressure and pain receptors, as well as sweat and oil glands.",
+    "choices": [
+      "integumentary",
+      "nervous",
+      "endocrine",
+      "muscular"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-01-120",
+    "subject": "anatomy_physiology",
+    "topic": "anatomical_language",
+    "subtopic": "Levels of Organization",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The _____ system protects and supports body organs.",
+    "choices": [
+      "skeletal",
+      "muscular",
+      "cardiovascular",
+      "lymphatic"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-01-121",
+    "subject": "anatomy_physiology",
+    "topic": "anatomical_language",
+    "subtopic": "Levels of Organization",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The _____ system provides a framework and leverage so that muscles can cause movement.",
+    "choices": [
+      "skeletal",
+      "muscular",
+      "nervous",
+      "integumentary"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-01-122",
+    "subject": "anatomy_physiology",
+    "topic": "anatomical_language",
+    "subtopic": "Levels of Organization",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The _____ system houses the blood-forming cells of the body.",
+    "choices": [
+      "skeletal",
+      "cardiovascular",
+      "lymphatic",
+      "muscular"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-01-123",
+    "subject": "anatomy_physiology",
+    "topic": "anatomical_language",
+    "subtopic": "Levels of Organization",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The _____ system stores minerals which may be used as needed.",
+    "choices": [
+      "skeletal",
+      "digestive",
+      "endocrine",
+      "urinary"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-01-124",
+    "subject": "anatomy_physiology",
+    "topic": "anatomical_language",
+    "subtopic": "Levels of Organization",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The _____ system allows us to move objects in the environment, as well as to move our own bodies.",
+    "choices": [
+      "muscular",
+      "skeletal",
+      "nervous",
+      "cardiovascular"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-01-125",
+    "subject": "anatomy_physiology",
+    "topic": "anatomical_language",
+    "subtopic": "Levels of Organization",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The _____ system is a major source of heat (allowing us to maintain body temperature).",
+    "choices": [
+      "muscular",
+      "integumentary",
+      "cardiovascular",
+      "endocrine"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-01-126",
+    "subject": "anatomy_physiology",
+    "topic": "anatomical_language",
+    "subtopic": "Levels of Organization",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The _____ system is the fastest-acting control system of the body, activating muscles and glands as needed.",
+    "choices": [
+      "nervous",
+      "endocrine",
+      "muscular",
+      "cardiovascular"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-01-127",
+    "subject": "anatomy_physiology",
+    "topic": "anatomical_language",
+    "subtopic": "Levels of Organization",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Organs of the _____ system secrete chemicals called hormones into the blood.",
+    "choices": [
+      "endocrine",
+      "nervous",
+      "digestive",
+      "lymphatic"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-01-128",
+    "subject": "anatomy_physiology",
+    "topic": "anatomical_language",
+    "subtopic": "Levels of Organization",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The _____ system regulates processes such as growth, reproduction, and nutrient use.",
+    "choices": [
+      "endocrine",
+      "nervous",
+      "reproductive",
+      "digestive"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-01-129",
+    "subject": "anatomy_physiology",
+    "topic": "anatomical_language",
+    "subtopic": "Levels of Organization",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The _____ system transports oxygen, carbon dioxide, nutrients, and wastes throughout the body, in the blood.",
+    "choices": [
+      "cardiovascular",
+      "respiratory",
+      "lymphatic",
+      "urinary"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-01-130",
+    "subject": "anatomy_physiology",
+    "topic": "anatomical_language",
+    "subtopic": "Levels of Organization",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The _____ system picks up fluid 'leaked' from the blood vessels and returns it to the blood.",
+    "choices": [
+      "lymphatic",
+      "cardiovascular",
+      "urinary",
+      "endocrine"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-01-131",
+    "subject": "anatomy_physiology",
+    "topic": "anatomical_language",
+    "subtopic": "Levels of Organization",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The _____ system keeps blood supplied with oxygen and disposes of unwanted carbon dioxide.",
+    "choices": [
+      "respiratory",
+      "cardiovascular",
+      "lymphatic",
+      "muscular"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-01-132",
+    "subject": "anatomy_physiology",
+    "topic": "anatomical_language",
+    "subtopic": "Levels of Organization",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The _____ system breaks food down into chemicals which can enter the blood for distribution to the body's cells.",
+    "choices": [
+      "digestive",
+      "urinary",
+      "respiratory",
+      "endocrine"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-01-133",
+    "subject": "anatomy_physiology",
+    "topic": "anatomical_language",
+    "subtopic": "Levels of Organization",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The _____ system disposes of items which have been eaten, but which lack nutrient value.",
+    "choices": [
+      "digestive",
+      "urinary",
+      "lymphatic",
+      "integumentary"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-01-134",
+    "subject": "anatomy_physiology",
+    "topic": "anatomical_language",
+    "subtopic": "Levels of Organization",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The _____ system eliminates excess nitrogen from the body.",
+    "choices": [
+      "urinary",
+      "digestive",
+      "respiratory",
+      "integumentary"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-01-135",
+    "subject": "anatomy_physiology",
+    "topic": "anatomical_language",
+    "subtopic": "Levels of Organization",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The _____ system regulates water and electrolyte levels and (to some extent) the pH of the blood.",
+    "choices": [
+      "urinary",
+      "digestive",
+      "respiratory",
+      "cardiovascular"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-01-136",
+    "subject": "anatomy_physiology",
+    "topic": "anatomical_language",
+    "subtopic": "Levels of Organization",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The _____ system produces sperm or eggs and sex hormones.",
+    "choices": [
+      "reproductive",
+      "endocrine",
+      "urinary",
+      "digestive"
+    ],
+    "answer_index": 0
   }
 ]

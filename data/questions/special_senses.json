@@ -3,641 +3,641 @@
     "id": "bio-anat-13-001",
     "subject": "anatomy_physiology",
     "topic": "special_senses",
-    "subtopic": "Olfaction",
+    "subtopic": "Equilibrium and Hearing",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The outer ear is composed of the visible portion of the ear, as well as the _____ and _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "external auditory canal; eardrum",
+      "Eustachian tube; oval window",
+      "semicircular canals; cochlea",
+      "ossicles; round window"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-13-002",
     "subject": "anatomy_physiology",
     "topic": "special_senses",
-    "subtopic": "Olfaction",
+    "subtopic": "Equilibrium and Hearing",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The _____ is the boundary between the outer and the middle ear.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "tympanic membrane",
+      "oval window",
+      "round window",
+      "pharyngotympanic tube"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-13-003",
     "subject": "anatomy_physiology",
     "topic": "special_senses",
-    "subtopic": "Olfaction",
+    "subtopic": "Equilibrium and Hearing",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The small, air-filled, mucosa-lined cavity medial to the eardrum is the _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "middle ear",
+      "inner ear",
+      "external auditory canal",
+      "vestibule"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-13-004",
     "subject": "anatomy_physiology",
     "topic": "special_senses",
-    "subtopic": "Olfaction",
+    "subtopic": "Equilibrium and Hearing",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The pharyngotympanic tube (aka Eustachian tube) connects the _____ to the _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "middle ear; nasal pharynx",
+      "inner ear; oral pharynx",
+      "middle ear; larynx",
+      "outer ear; nasal cavity"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-13-005",
     "subject": "anatomy_physiology",
     "topic": "special_senses",
-    "subtopic": "Olfaction",
+    "subtopic": "Equilibrium and Hearing",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The _____ allows air pressure in the middle ear to equalize with the external environment.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "pharyngotympanic tube",
+      "external auditory canal",
+      "cochlear duct",
+      "oval window"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-13-006",
     "subject": "anatomy_physiology",
     "topic": "special_senses",
-    "subtopic": "Olfaction",
+    "subtopic": "Equilibrium and Hearing",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Sound is vibration of gas or liquid. Our ability detect it begins as vibrating air molecules push and pull on the _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "eardrum",
+      "oval window",
+      "ossicles",
+      "cochlea"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-13-007",
     "subject": "anatomy_physiology",
     "topic": "special_senses",
-    "subtopic": "Olfaction",
+    "subtopic": "Equilibrium and Hearing",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The three small bones of the middle ear transmit vibratory motion from the eardrum to the _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "oval window",
+      "round window",
+      "tympanic membrane",
+      "cochlear duct"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-13-008",
     "subject": "anatomy_physiology",
     "topic": "special_senses",
-    "subtopic": "Olfaction",
+    "subtopic": "Equilibrium and Hearing",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Excessive motion of the three bones of the middle ear is prevented by the _____ muscle and _____ muscle.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "tensor tympani; stapedius",
+      "temporalis; masseter",
+      "stylohyoid; digastric",
+      "tensor veli palatini; levator veli palatini"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-13-009",
     "subject": "anatomy_physiology",
     "topic": "special_senses",
-    "subtopic": "Olfaction",
+    "subtopic": "Equilibrium and Hearing",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The small bones of the middle ear are the _____, _____ and _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "malleus; incus; stapes",
+      "malleus; incus; hyoid",
+      "incus; stapes; vomer",
+      "malleus; stapes; lunate"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-13-010",
     "subject": "anatomy_physiology",
     "topic": "special_senses",
-    "subtopic": "Olfaction",
+    "subtopic": "Equilibrium and Hearing",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The inner ear is also called the _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "labyrinth",
+      "vestibule",
+      "cochlea",
+      "tympanic cavity"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-13-011",
     "subject": "anatomy_physiology",
     "topic": "special_senses",
-    "subtopic": "Gustation",
+    "subtopic": "Equilibrium and Hearing",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The part of the inner ear that is formed from the _____ bone is called the _____ labyrinth.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "temporal; bony",
+      "occipital; bony",
+      "temporal; membranous",
+      "sphenoid; bony"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-13-012",
     "subject": "anatomy_physiology",
     "topic": "special_senses",
-    "subtopic": "Gustation",
+    "subtopic": "Equilibrium and Hearing",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The soft tissue portion of the inner ear (which is filled with fluid) is called the _____ labyrinth.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "membranous",
+      "bony",
+      "cartilaginous",
+      "fibrous"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-13-013",
     "subject": "anatomy_physiology",
     "topic": "special_senses",
-    "subtopic": "Gustation",
+    "subtopic": "Equilibrium and Hearing",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The membranous labyrinth is surrounded by fluid called _____ and filled with _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "perilymph; endolymph",
+      "endolymph; perilymph",
+      "cerebrospinal fluid; aqueous humor",
+      "plasma; interstitial fluid"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-13-014",
     "subject": "anatomy_physiology",
     "topic": "special_senses",
-    "subtopic": "Gustation",
+    "subtopic": "Equilibrium and Hearing",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The vestibule is a compartment of the inner ear which is the major system involved in _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "equilibrium",
+      "hearing",
+      "pressure equalization",
+      "sound amplification"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-13-015",
     "subject": "anatomy_physiology",
     "topic": "special_senses",
-    "subtopic": "Gustation",
+    "subtopic": "Equilibrium and Hearing",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The cochlea is a snail shaped organ in the inner ear which is responsible for _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "hearing",
+      "equilibrium",
+      "rotation sensing",
+      "pressure equalization"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-13-016",
     "subject": "anatomy_physiology",
     "topic": "special_senses",
-    "subtopic": "Gustation",
+    "subtopic": "Equilibrium and Hearing",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The actual organ within the cochlea which is responsible for hearing is the _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "Organ of Corti",
+      "macula",
+      "crista ampullaris",
+      "cupula"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-13-017",
     "subject": "anatomy_physiology",
     "topic": "special_senses",
-    "subtopic": "Gustation",
+    "subtopic": "Equilibrium and Hearing",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "As vibrations in the ear cause the eardrum to vibrate, the eardrum pushes against the _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "ossicles",
+      "oval window",
+      "round window",
+      "cochlear duct"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-13-018",
     "subject": "anatomy_physiology",
     "topic": "special_senses",
-    "subtopic": "Gustation",
+    "subtopic": "Equilibrium and Hearing",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The three bones of the middle ear are collectively called the _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "ossicles",
+      "otoliths",
+      "sesamoids",
+      "conchae"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-13-019",
     "subject": "anatomy_physiology",
     "topic": "special_senses",
-    "subtopic": "Gustation",
+    "subtopic": "Equilibrium and Hearing",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "As the eardrum vibrates, the ossicles move, and their movement is converted to motion of the _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "perilymph",
+      "endolymph",
+      "aqueous humor",
+      "cerebrospinal fluid"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-13-020",
     "subject": "anatomy_physiology",
     "topic": "special_senses",
-    "subtopic": "Gustation",
+    "subtopic": "Equilibrium and Hearing",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The oval window is blocked by the _____, while the round window is closed by a flexible membrane.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "stapes",
+      "malleus",
+      "incus",
+      "cupula"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-13-021",
     "subject": "anatomy_physiology",
     "topic": "special_senses",
-    "subtopic": "Eye Structures",
+    "subtopic": "Equilibrium and Hearing",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Movement of fluid in the inner ear causes movement of the fibers of the _____, which are much like the strings of an instrument.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "basilar membrane",
+      "tectorial membrane",
+      "tympanic membrane",
+      "vestibular membrane"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-13-022",
     "subject": "anatomy_physiology",
     "topic": "special_senses",
-    "subtopic": "Eye Structures",
+    "subtopic": "Equilibrium and Hearing",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Movement of the fibers of the basilar membrane causes movement of the _____ of hair cells, which in turn stimulate the cochlear (vestibulocochlear) nerve.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "stereocilia",
+      "kinocilia",
+      "microvilli",
+      "flagella"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-13-023",
     "subject": "anatomy_physiology",
     "topic": "special_senses",
-    "subtopic": "Eye Structures",
+    "subtopic": "Equilibrium and Hearing",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Electrically encoded impulses representing sound are conducted from the ear to the brain by the _____ nerve.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "vestibulocochlear",
+      "facial",
+      "trigeminal",
+      "glossopharyngeal"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-13-024",
     "subject": "anatomy_physiology",
     "topic": "special_senses",
-    "subtopic": "Eye Structures",
+    "subtopic": "Equilibrium and Hearing",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Motion of the fluid in the inner ear causes the motion of _____ and the opening of _____ in the hair cells of the Organ of Corti.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "cilia; mechanically gated ion channels",
+      "flagella; voltage-gated ion channels",
+      "microvilli; ligand-gated ion channels",
+      "dendrites; leak channels"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-13-025",
     "subject": "anatomy_physiology",
     "topic": "special_senses",
-    "subtopic": "Eye Structures",
+    "subtopic": "Equilibrium and Hearing",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Ultimately, signals from the auditory pathway find their way to the _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "auditory cortex",
+      "visual cortex",
+      "somatosensory cortex",
+      "prefrontal cortex"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-13-026",
     "subject": "anatomy_physiology",
     "topic": "special_senses",
-    "subtopic": "Eye Structures",
+    "subtopic": "Equilibrium and Hearing",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Auditory pathways decussate so that both cortices _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "receive input from both ears",
+      "receive input from only the opposite ear",
+      "receive input from only the same-side ear",
+      "process only low-frequency sounds"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-13-027",
     "subject": "anatomy_physiology",
     "topic": "special_senses",
-    "subtopic": "Eye Structures",
+    "subtopic": "Equilibrium and Hearing",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Action potential frequency of cochlear cells gives information as to the _____ of a sound, while the responses of particular fibers in various regions of the basilar membrane gives information regarding _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "loudness; pitch",
+      "pitch; loudness",
+      "pitch; timbre",
+      "loudness; location"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-13-028",
     "subject": "anatomy_physiology",
     "topic": "special_senses",
-    "subtopic": "Eye Structures",
+    "subtopic": "Equilibrium and Hearing",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "We are able to localize sound by comparing the _____ each ear and the _____ each ear.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "time at which the sound was received by; loudness of the sound in",
+      "pitch detected by; duration of the sound in",
+      "frequency received by; timbre of the sound in",
+      "direction faced by; echo delay in"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-13-029",
     "subject": "anatomy_physiology",
     "topic": "special_senses",
-    "subtopic": "Eye Structures",
+    "subtopic": "Equilibrium and Hearing",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The _____ are receptors in the vestibule which respond to vertical and horizontal acceleration and gravity.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "maculae",
+      "cristae ampullares",
+      "organs of Corti",
+      "cupulae"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-13-030",
     "subject": "anatomy_physiology",
     "topic": "special_senses",
-    "subtopic": "Eye Structures",
+    "subtopic": "Equilibrium and Hearing",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The vestibule contains two chambers: the _____, and slightly inferomedial to that, the _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "utricle; saccule",
+      "saccule; utricle",
+      "ampulla; utricle",
+      "cochlea; saccule"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-13-031",
     "subject": "anatomy_physiology",
     "topic": "special_senses",
-    "subtopic": "Visual System",
+    "subtopic": "Equilibrium and Hearing",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The maculae contain hair cells whose processes are imbedded in _____ called otoliths, which are bound together by a jellylike mass.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "calcium carbonate stones",
+      "calcium phosphate crystals",
+      "sodium chloride crystals",
+      "silica granules"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-13-032",
     "subject": "anatomy_physiology",
     "topic": "special_senses",
-    "subtopic": "Visual System",
+    "subtopic": "Equilibrium and Hearing",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The macula in the utricle is on the _____ surface: its hair cells are sensitive to _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "inferior; horizontal motion",
+      "medial; vertical motion",
+      "superior; rotational motion",
+      "lateral; vertical motion"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-13-033",
     "subject": "anatomy_physiology",
     "topic": "special_senses",
-    "subtopic": "Visual System",
+    "subtopic": "Equilibrium and Hearing",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The macula in the saccule is on the _____ surface: its hair cells are sensitive to _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "medial; vertical motion",
+      "inferior; horizontal motion",
+      "lateral; rotational motion",
+      "superior; horizontal motion"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-13-034",
     "subject": "anatomy_physiology",
     "topic": "special_senses",
-    "subtopic": "Visual System",
+    "subtopic": "Equilibrium and Hearing",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The hair cells of the maculae respond to bending of their processes (which are called stereocilia and kinetocilia) by either opening or closing channel proteins, depending on _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "the direction in which they are bent",
+      "the frequency of the sound",
+      "the volume of endolymph",
+      "the temperature of the perilymph"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-13-035",
     "subject": "anatomy_physiology",
     "topic": "special_senses",
-    "subtopic": "Visual System",
+    "subtopic": "Equilibrium and Hearing",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The swollen regions at the entrance to each semicircular canal are the _____, each of which houses an equilibrium receptor called a(n) _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "ampullae; crista ampullaris",
+      "utricles; macula",
+      "ampullae; cupula",
+      "vestibules; otolithic membrane"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-13-036",
     "subject": "anatomy_physiology",
     "topic": "special_senses",
-    "subtopic": "Visual System",
+    "subtopic": "Equilibrium and Hearing",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Each crista ampullaris has hair cells which extend into a soft ridge called the _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "cupula",
+      "otolithic membrane",
+      "tectorial membrane",
+      "basilar membrane"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-13-037",
     "subject": "anatomy_physiology",
     "topic": "special_senses",
-    "subtopic": "Visual System",
+    "subtopic": "Equilibrium and Hearing",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "As fluid flows through the semicircular canals in response to rotation of the head, the _____ bends. This bends the hair cells, which then _____, depending on the direction in which they are bent.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "cupula; open or close channel proteins",
+      "otolithic membrane; release neurotransmitter continuously",
+      "basilar membrane; fire action potentials",
+      "tectorial membrane; contract"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-13-038",
     "subject": "anatomy_physiology",
     "topic": "special_senses",
-    "subtopic": "Visual System",
+    "subtopic": "Equilibrium and Hearing",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "In response to changes in their membrane potential caused by the opening or closing of channel proteins in their processes, hair cells in the inner ear _____, which activate associated nerve fibers.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "release varying amounts of neurotransmitter",
+      "fire action potentials directly to the cortex",
+      "contract rhythmically",
+      "release hormones into the bloodstream"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-13-039",
     "subject": "anatomy_physiology",
     "topic": "special_senses",
-    "subtopic": "Visual System",
+    "subtopic": "Equilibrium and Hearing",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Signaling from hair cells in the inner ear is moderate when the kinocilia are in the neutral position: signaling increases or decreases as stereocilia or kinetocilia bend, depending on _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "the direction in which they are bent",
+      "the frequency of stimulation",
+      "the length of the kinocilium",
+      "the ion concentration of the perilymph"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-13-040",
     "subject": "anatomy_physiology",
     "topic": "special_senses",
-    "subtopic": "Visual System",
+    "subtopic": "Equilibrium and Hearing",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "_____ is caused by impaired sound conduction to fluids of the inner ear.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "Conduction deafness",
+      "Sensorineural deafness",
+      "Tinnitus",
+      "Presbycusis"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-13-041",
@@ -646,14 +646,14 @@
     "subtopic": "Equilibrium and Hearing",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "_____ is caused by damage to the neural structures of the ear at any point from the cochlear hair cells to the auditory cortical cells.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "Sensorineural deafness",
+      "Conduction deafness",
+      "Tinnitus",
+      "Meniere's disease"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-13-042",
@@ -662,14 +662,14 @@
     "subtopic": "Equilibrium and Hearing",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "_____ is a ringing or clicking sound in the ears in the absence of auditory stimuli. It can have many causes.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "Tinnitus",
+      "Vertigo",
+      "Motion sickness",
+      "Conduction deafness"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-13-043",
@@ -678,14 +678,14 @@
     "subtopic": "Equilibrium and Hearing",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Equilibrium depends on integration of signals from the eyes, ears, and body. _____ results if these signals do not agree with one another.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "Motion sickness",
+      "Vertigo",
+      "Tinnitus",
+      "Conduction deafness"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-13-044",
@@ -694,14 +694,14 @@
     "subtopic": "Equilibrium and Hearing",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Ear development begins in the three week embryo, and diseases such as german measles, if contracted by the mother during _____, can cause deafness in the child.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "the first trimester",
+      "the second trimester",
+      "the third trimester",
+      "the first week after birth"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-13-045",
@@ -710,93 +710,1389 @@
     "subtopic": "Equilibrium and Hearing",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Death of the hair cells in the Organ of Corti is common in old age, leading to _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "sensorineural deafness",
+      "conduction deafness",
+      "otosclerosis",
+      "tinnitus"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-13-046",
     "subject": "anatomy_physiology",
     "topic": "special_senses",
-    "subtopic": "Equilibrium and Hearing",
+    "subtopic": "Eye Structures",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Eyelids are thick, skin covered folds supported internally by the _____, which also anchor the _____ and _____, the muscles which control the motion of the eyelids.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "tarsal plates; orbicularis oculi; levator palpebrae superioris",
+      "conjunctiva; orbicularis oris; levator palpebrae superioris",
+      "tarsal plates; orbicularis oris; masseter",
+      "sclera; orbicularis oculi; superior rectus"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-13-047",
     "subject": "anatomy_physiology",
     "topic": "special_senses",
-    "subtopic": "Equilibrium and Hearing",
+    "subtopic": "Eye Structures",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Eyelids protect the eye when closed, and also _____ and _____ by blinking.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "spread lubricants; remove debris",
+      "produce tears; secrete oil",
+      "focus light; block glare",
+      "warm the cornea; drain tears"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-13-048",
     "subject": "anatomy_physiology",
     "topic": "special_senses",
-    "subtopic": "Equilibrium and Hearing",
+    "subtopic": "Eye Structures",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Eyelashes on each lid serve as extremely sensitive _____, triggering reflex eyelid closure when sensation is unexpected.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "touch receptors",
+      "photoreceptors",
+      "chemoreceptors",
+      "thermoreceptors"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-13-049",
     "subject": "anatomy_physiology",
     "topic": "special_senses",
-    "subtopic": "Equilibrium and Hearing",
+    "subtopic": "Eye Structures",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Glands with ducts at the edges of each lid produce _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "oily secretions that lubricate the lids",
+      "watery tears that wash the cornea",
+      "mucus that coats the conjunctiva",
+      "enzymes that digest bacteria"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-13-050",
     "subject": "anatomy_physiology",
     "topic": "special_senses",
-    "subtopic": "Equilibrium and Hearing",
+    "subtopic": "Eye Structures",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "_____ are transparent mucous membranes that line the eyelids and the anterior surface of the eyeball (except for _____). Their major function is to produce a lubricating mucus that prevents the eye from drying.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "Conjunctiva; the cornea",
+      "Sclera; the cornea",
+      "Conjunctiva; the sclera",
+      "Cornea; the iris"
     ],
-    "answer_index": 1
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-13-051",
+    "subject": "anatomy_physiology",
+    "topic": "special_senses",
+    "subtopic": "Eye Structures",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The lacrimal apparatus includes the _____, which produces tears, and the ducts that drain excess liquid into the _____.",
+    "choices": [
+      "lacrimal gland; nasal passages",
+      "tarsal gland; nasal passages",
+      "lacrimal gland; pharynx",
+      "ceruminous gland; paranasal sinuses"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-13-052",
+    "subject": "anatomy_physiology",
+    "topic": "special_senses",
+    "subtopic": "Eye Structures",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Tears enter the eye _____ and leave via ducts at the medial corner of the eye (the _____).",
+    "choices": [
+      "superiolaterally; medial canthus",
+      "inferomedially; lateral canthus",
+      "superomedially; lateral canthus",
+      "inferolaterally; medial canthus"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-13-053",
+    "subject": "anatomy_physiology",
+    "topic": "special_senses",
+    "subtopic": "Eye Structures",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Tears contain mucus, _____ and _____, an enzyme, both of which protect the eye from bacteria.",
+    "choices": [
+      "antibodies; lysozyme",
+      "antigens; lipase",
+      "hemoglobin; pepsin",
+      "albumin; amylase"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-13-054",
+    "subject": "anatomy_physiology",
+    "topic": "special_senses",
+    "subtopic": "Eye Structures",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The extrinsic eye muscles include four _____ which direct the eye's gaze up, down, left, or right. In addition, there are two _____ (superior and inferior) which keep the eye from spinning or twisting.",
+    "choices": [
+      "rectus muscles; oblique muscles",
+      "oblique muscles; rectus muscles",
+      "ciliary muscles; orbicularis muscles",
+      "sphincter muscles; dilator muscles"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-13-055",
+    "subject": "anatomy_physiology",
+    "topic": "special_senses",
+    "subtopic": "Eye Structures",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The eye itself has an outer wall composed of three layers, or \"_____.\"",
+    "choices": [
+      "tunics",
+      "meninges",
+      "fasciae",
+      "laminae"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-13-056",
+    "subject": "anatomy_physiology",
+    "topic": "special_senses",
+    "subtopic": "Eye Structures",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The _____ is the outermost layer of the eyeball: in the front it is clear, forming the _____. The surrounding areas are white, and form the _____.",
+    "choices": [
+      "fibrous tunic; cornea; sclera",
+      "fibrous tunic; sclera; cornea",
+      "vascular tunic; iris; choroid",
+      "sensory tunic; lens; retina"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-13-057",
+    "subject": "anatomy_physiology",
+    "topic": "special_senses",
+    "subtopic": "Eye Structures",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "In the back of the eye, the fibrous tunic extends to cover the optic nerve, and is continuous with the _____.",
+    "choices": [
+      "dura mater",
+      "arachnoid mater",
+      "pia mater",
+      "periosteum"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-13-058",
+    "subject": "anatomy_physiology",
+    "topic": "special_senses",
+    "subtopic": "Eye Structures",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The _____ (or _____) is the middle layer of the eyeball's wall.",
+    "choices": [
+      "vascular tunic; uvea",
+      "fibrous tunic; sclera",
+      "sensory tunic; retina",
+      "vascular tunic; choroid plexus"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-13-059",
+    "subject": "anatomy_physiology",
+    "topic": "special_senses",
+    "subtopic": "Eye Structures",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "In the front of the eye, the vascular tunic (or uvea) forms the _____.",
+    "choices": [
+      "iris",
+      "cornea",
+      "sclera",
+      "lens"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-13-060",
+    "subject": "anatomy_physiology",
+    "topic": "special_senses",
+    "subtopic": "Eye Structures",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The iris lies between the _____ and the _____ and is continuous with the next region, the ciliary body, which is _____.",
+    "choices": [
+      "cornea; lens; smooth muscular tissue that controls the shape of the lens",
+      "lens; retina; skeletal muscle that rotates the eyeball",
+      "cornea; retina; connective tissue that anchors the sclera",
+      "sclera; lens; glandular tissue that secretes vitreous humor"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-13-061",
+    "subject": "anatomy_physiology",
+    "topic": "special_senses",
+    "subtopic": "Eye Structures",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Posterior to the ciliary body is the _____ a dark brown membrane that contains _____.",
+    "choices": [
+      "choroid; the blood vessels that supply the eye tunics",
+      "sclera; the lymphatic vessels that drain the eye",
+      "retina; the blood vessels that supply the lens",
+      "ciliary body; the nerves that control the pupil"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-13-062",
+    "subject": "anatomy_physiology",
+    "topic": "special_senses",
+    "subtopic": "Eye Structures",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The retina has two sub-layers: the outer layer of the retina (in relation to the center of the eye) is pigmented to _____.",
+    "choices": [
+      "prevent light reflection from the back of the eye",
+      "focus light onto the fovea",
+      "convert light into nerve impulses",
+      "filter ultraviolet light out of incoming rays"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-13-063",
+    "subject": "anatomy_physiology",
+    "topic": "special_senses",
+    "subtopic": "Eye Structures",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The inner layer of the retina (in relation to the center of the eye) is a(n) _____ which contains the _____.",
+    "choices": [
+      "transparent neural layer; photoreceptor cells",
+      "pigmented layer; melanocytes",
+      "vascular layer; capillary networks",
+      "fibrous layer; collagen fibers"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-13-064",
+    "subject": "anatomy_physiology",
+    "topic": "special_senses",
+    "subtopic": "Eye Structures",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The lens is made of special proteins called _____. These in turn are made by special cells called _____, which contain no nuclei and few organelles.",
+    "choices": [
+      "crystallins; lens fibers",
+      "opsins; rod cells",
+      "keratins; epithelial cells",
+      "collagens; fibroblasts"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-13-065",
+    "subject": "anatomy_physiology",
+    "topic": "special_senses",
+    "subtopic": "Eye Structures",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Unlike most proteins, crystallins are never _____.",
+    "choices": [
+      "degraded",
+      "denatured",
+      "synthesized",
+      "folded"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-13-066",
+    "subject": "anatomy_physiology",
+    "topic": "special_senses",
+    "subtopic": "Eye Structures",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The lens of the eye gets less flexible as we age in part because crystallins are _____ by cells throughout life, and because these proteins are apt to become _____ due to poor repair and lack of replacement.",
+    "choices": [
+      "produced; crosslinked",
+      "degraded; replaced",
+      "crosslinked; produced",
+      "phosphorylated; duplicated"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-13-067",
+    "subject": "anatomy_physiology",
+    "topic": "special_senses",
+    "subtopic": "Eye Structures",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The anterior cavity of the eye is filled with _____, a clear fluid similar to blood plasma.",
+    "choices": [
+      "aqueous humor",
+      "vitreous humor",
+      "cerebrospinal fluid",
+      "serous fluid"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-13-068",
+    "subject": "anatomy_physiology",
+    "topic": "special_senses",
+    "subtopic": "Eye Structures",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The anterior and posterior cavities of the eye are separated by the _____.",
+    "choices": [
+      "lens",
+      "iris",
+      "cornea",
+      "retina"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-13-069",
+    "subject": "anatomy_physiology",
+    "topic": "special_senses",
+    "subtopic": "Eye Structures",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The anterior and posterior chambers of the anterior cavity of the eye are separated by the _____.",
+    "choices": [
+      "iris",
+      "lens",
+      "cornea",
+      "ciliary body"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-13-070",
+    "subject": "anatomy_physiology",
+    "topic": "special_senses",
+    "subtopic": "Eye Structures",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The aqueous humor is formed in the _____ of the eye, and is reabsorbed in the _____.",
+    "choices": [
+      "posterior chamber of the anterior cavity; anterior chamber of the anterior cavity",
+      "anterior chamber of the anterior cavity; posterior chamber of the anterior cavity",
+      "posterior cavity; anterior chamber of the anterior cavity",
+      "anterior chamber of the anterior cavity; posterior cavity"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-13-071",
+    "subject": "anatomy_physiology",
+    "topic": "special_senses",
+    "subtopic": "Eye Structures",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The posterior cavity of the eye is filled with _____, a jelly-like substance which is produced _____ and is not _____.",
+    "choices": [
+      "vitreous humor; before birth; replaced",
+      "aqueous humor; after birth; recycled",
+      "vitreous humor; throughout life; degraded",
+      "aqueous humor; before birth; reabsorbed"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-13-072",
+    "subject": "anatomy_physiology",
+    "topic": "special_senses",
+    "subtopic": "Eye Structures",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Vitreous humor functions to _____ the retina and helps to maintain _____ against the pressure of the extrinsic muscles.",
+    "choices": [
+      "support; the shape of the eye",
+      "nourish; the transparency of the lens",
+      "compress; the curvature of the cornea",
+      "lubricate; the position of the iris"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-13-073",
+    "subject": "anatomy_physiology",
+    "topic": "special_senses",
+    "subtopic": "Eye Structures",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The axons of the retinal ganglion cells run along the surface of the retina before leaving the eye as the _____.",
+    "choices": [
+      "optic nerve",
+      "oculomotor nerve",
+      "ophthalmic nerve",
+      "optic tract"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-13-074",
+    "subject": "anatomy_physiology",
+    "topic": "special_senses",
+    "subtopic": "Eye Structures",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The region of the retina where the axons of the retinal ganglion cells leave the eye is called the _____ or _____, and lacks _____.",
+    "choices": [
+      "optic disk; blind spot; photoreceptor cells",
+      "fovea centralis; macula lutea; ganglion cells",
+      "optic chiasm; blind spot; bipolar cells",
+      "macula lutea; optic disk; amacrine cells"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-13-075",
+    "subject": "anatomy_physiology",
+    "topic": "special_senses",
+    "subtopic": "Eye Structures",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The region of the eye which has the most cones (and thus has the highest acuity) and has no rods at all consists of the _____ and _____.",
+    "choices": [
+      "macula lutea; fovea centralis",
+      "optic disk; fovea centralis",
+      "macula lutea; optic disk",
+      "peripheral retina; ora serrata"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-13-076",
+    "subject": "anatomy_physiology",
+    "topic": "special_senses",
+    "subtopic": "Eye Structures",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The only region of the eye capable of high-acuity vision (such as that used to read fine print) consists of the _____ and _____.",
+    "choices": [
+      "macula lutea; fovea centralis",
+      "optic disc; ora serrata",
+      "ciliary body; iris",
+      "choroid; sclera"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-13-077",
+    "subject": "anatomy_physiology",
+    "topic": "special_senses",
+    "subtopic": "Gustation and Olfaction",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "_____, or taste, is the sensation and perception of chemicals dissolved in saliva.",
+    "choices": [
+      "Gustation",
+      "Olfaction",
+      "Audition",
+      "Equilibrium"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-13-078",
+    "subject": "anatomy_physiology",
+    "topic": "special_senses",
+    "subtopic": "Gustation and Olfaction",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "_____, or smell, is the sensation and perception of chemicals dissolved in the fluids of the nasal membranes.",
+    "choices": [
+      "Olfaction",
+      "Gustation",
+      "Audition",
+      "Vision"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-13-079",
+    "subject": "anatomy_physiology",
+    "topic": "special_senses",
+    "subtopic": "Gustation and Olfaction",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The five classes of chemoreceptor for gustation are _____, _____, _____, _____, and _____.",
+    "choices": [
+      "salty; sweet; sour; bitter; umami",
+      "salty; sweet; sour; bitter; spicy",
+      "salty; sweet; sour; bitter; astringent",
+      "salty; sweet; sour; bitter; metallic"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-13-080",
+    "subject": "anatomy_physiology",
+    "topic": "special_senses",
+    "subtopic": "Gustation and Olfaction",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Chemoreceptors in the mouth are located on _____, a specialized structure found on gustatory cells.",
+    "choices": [
+      "gustatory hairs",
+      "olfactory cilia",
+      "stereocilia",
+      "dendritic spines"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-13-081",
+    "subject": "anatomy_physiology",
+    "topic": "special_senses",
+    "subtopic": "Gustation and Olfaction",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Cells which comprise taste buds die after roughly _____, and are replaced by division of _____.",
+    "choices": [
+      "one week; basal cells",
+      "one month; basal cells",
+      "one week; gustatory hairs",
+      "one year; olfactory cells"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-13-082",
+    "subject": "anatomy_physiology",
+    "topic": "special_senses",
+    "subtopic": "Gustation and Olfaction",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Chemoreceptor proteins _____ when they bind to the chemical they are built to recognize.",
+    "choices": [
+      "change shape",
+      "split into subunits",
+      "detach from the membrane",
+      "bind ATP"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-13-083",
+    "subject": "anatomy_physiology",
+    "topic": "special_senses",
+    "subtopic": "Gustation and Olfaction",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The nerves which send axons to meet the chemoreceptor cells involved in gustation are cranial nerves #s _____, _____, or _____.",
+    "choices": [
+      "VII; IX; X",
+      "V; VII; IX",
+      "I; II; VIII",
+      "III; IV; VI"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-13-084",
+    "subject": "anatomy_physiology",
+    "topic": "special_senses",
+    "subtopic": "Gustation and Olfaction",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Once a signal is generated by a taste bud, associated neurons carry the signal to the _____, which relays it to the _____, which in turn sends it to the _____, _____ and _____.",
+    "choices": [
+      "medulla; thalamus; cerebral cortex, hypothalamus, and limbic system",
+      "thalamus; medulla; cerebral cortex, hypothalamus, and limbic system",
+      "medulla; hypothalamus; thalamus, cerebellum, and limbic system",
+      "pons; thalamus; cerebellum, hypothalamus, and basal nuclei"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-13-085",
+    "subject": "anatomy_physiology",
+    "topic": "special_senses",
+    "subtopic": "Gustation and Olfaction",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The olfactory organ is located in the _____.",
+    "choices": [
+      "roof of the nasal cavity",
+      "floor of the nasal cavity",
+      "posterior wall of the pharynx",
+      "maxillary sinus"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-13-086",
+    "subject": "anatomy_physiology",
+    "topic": "special_senses",
+    "subtopic": "Gustation and Olfaction",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "As air is inhaled, chemicals carried by it dissolve in the _____ of the olfactory organ, allowing them to bind to the chemoreceptors of the olfactory cells found there.",
+    "choices": [
+      "mucus coating the mucosa",
+      "saliva",
+      "plasma",
+      "cerebrospinal fluid"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-13-087",
+    "subject": "anatomy_physiology",
+    "topic": "special_senses",
+    "subtopic": "Gustation and Olfaction",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Olfactory cells are _____.",
+    "choices": [
+      "bipolar neurons",
+      "unipolar neurons",
+      "multipolar neurons",
+      "anaxonic neurons"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-13-088",
+    "subject": "anatomy_physiology",
+    "topic": "special_senses",
+    "subtopic": "Gustation and Olfaction",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The axons of olfactory cells form the filaments of _____: they pass through the _____ of the skull to reach the olfactory bulb, where they synapse with neurons of the olfactory tract.",
+    "choices": [
+      "cranial nerve I; cribriform plate",
+      "cranial nerve II; optic canal",
+      "cranial nerve V; foramen ovale",
+      "cranial nerve VII; internal acoustic meatus"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-13-089",
+    "subject": "anatomy_physiology",
+    "topic": "special_senses",
+    "subtopic": "Gustation and Olfaction",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Unlike taste, there are _____ <roughly how many?> of odorant receptors (chemoreceptors for chemicals sensed as an odor).",
+    "choices": [
+      "hundreds of different types",
+      "five different types",
+      "about a dozen different types",
+      "millions of different types"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-13-090",
+    "subject": "anatomy_physiology",
+    "topic": "special_senses",
+    "subtopic": "Gustation and Olfaction",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Each neuron expresses _____ <roughly how many?>, odorant receptors.",
+    "choices": [
+      "one, or at most a few",
+      "hundreds",
+      "every known type of",
+      "exactly five"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-13-091",
+    "subject": "anatomy_physiology",
+    "topic": "special_senses",
+    "subtopic": "Visual System",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "During youth, the lens is flexible, which allows us to _____. This process is called _____.",
+    "choices": [
+      "alter its shape to focus on nearby or distant objects; accommodation",
+      "adjust to changing light levels; adaptation",
+      "fuse the two eyes' images; convergence",
+      "sharpen peripheral vision; refraction"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-13-092",
+    "subject": "anatomy_physiology",
+    "topic": "special_senses",
+    "subtopic": "Visual System",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Visual acuity is measured by comparison with the average. If one has \"20/20 vision,\" it means that one sees as clearly at 20 feet as _____.",
+    "choices": [
+      "an average person sees at 20 feet",
+      "an average person sees at 40 feet",
+      "an average person sees at 10 feet",
+      "a person with perfect vision sees at 40 feet"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-13-093",
+    "subject": "anatomy_physiology",
+    "topic": "special_senses",
+    "subtopic": "Visual System",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "In order to interact with photoreceptors, light must actually pass through the _____; the light-sensitive portion of the photoreceptor cells form the posterior aspect of this layer.",
+    "choices": [
+      "retina",
+      "choroid",
+      "pigmented epithelium",
+      "sclera"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-13-094",
+    "subject": "anatomy_physiology",
+    "topic": "special_senses",
+    "subtopic": "Visual System",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Most of the light-bending which results in an image forming on the retina is due to the _____. Many patients benefit from having it re-shaped surgically to correct myopia, hyperopia, or astigmatism.",
+    "choices": [
+      "cornea",
+      "lens",
+      "aqueous humor",
+      "vitreous humor"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-13-095",
+    "subject": "anatomy_physiology",
+    "topic": "special_senses",
+    "subtopic": "Visual System",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "In a relaxed eye, the lens is _____ by ligaments of the eye.",
+    "choices": [
+      "stretched",
+      "rounded",
+      "compressed",
+      "twisted"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-13-096",
+    "subject": "anatomy_physiology",
+    "topic": "special_senses",
+    "subtopic": "Visual System",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Contracting the ciliary body of an eye results in _____ tension on the lens, so that (if the lens belongs to a young person) it becomes _____.",
+    "choices": [
+      "less; rounder",
+      "more; rounder",
+      "less; flatter",
+      "more; flatter"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-13-097",
+    "subject": "anatomy_physiology",
+    "topic": "special_senses",
+    "subtopic": "Visual System",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The light sensitive portion of the photreceptor cells is _____ to maximize surface area, and contains many _____ which absorb light.",
+    "choices": [
+      "wrinkled; photopigment molecules",
+      "smooth; photopigment molecules",
+      "wrinkled; melanin granules",
+      "flattened; neurotransmitter receptors"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-13-098",
+    "subject": "anatomy_physiology",
+    "topic": "special_senses",
+    "subtopic": "Visual System",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "When a photopigment is hit by an appropriate light, it breaks apart into two parts: a vitamin A derivative, _____, and a glycoprotein, _____.",
+    "choices": [
+      "retinal; opsin",
+      "opsin; retinal",
+      "retinol; rhodopsin",
+      "carotene; melanopsin"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-13-099",
+    "subject": "anatomy_physiology",
+    "topic": "special_senses",
+    "subtopic": "Visual System",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The membrane potential in photoreceptor cells is unusual: _____ is allowed to leak across the membrane. This flow of ions is called the _____.",
+    "choices": [
+      "sodium; dark current",
+      "potassium; light current",
+      "calcium; dark current",
+      "sodium; photocurrent"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-13-100",
+    "subject": "anatomy_physiology",
+    "topic": "special_senses",
+    "subtopic": "Visual System",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Opsin activates a second messenger system which _____ sodium channels in the photoreceptor cells.",
+    "choices": [
+      "closes",
+      "opens",
+      "has no effect on",
+      "permanently destroys"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-13-101",
+    "subject": "anatomy_physiology",
+    "topic": "special_senses",
+    "subtopic": "Visual System",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "When a photoreceptor cell membrane hyperpolarizes, the cell _____. This lets nearby bipolar neurons know that the photoreceptor has been exposed to light.",
+    "choices": [
+      "stops releasing neurotransmitters",
+      "releases more neurotransmitters",
+      "fires a burst of action potentials",
+      "opens its sodium channels"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-13-102",
+    "subject": "anatomy_physiology",
+    "topic": "special_senses",
+    "subtopic": "Visual System",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "There are two types of photoreceptor cell: _____, which respond to as little as a single photon of light, regardless of color, and _____, which are less sensitive but respond color.",
+    "choices": [
+      "rods; cones",
+      "cones; rods",
+      "bipolar cells; ganglion cells",
+      "rods; bipolar cells"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-13-103",
+    "subject": "anatomy_physiology",
+    "topic": "special_senses",
+    "subtopic": "Visual System",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "How many type(s) or retinal exist? How many type(s) of opsin?",
+    "choices": [
+      "one; four",
+      "four; one",
+      "two; three",
+      "one; three"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-13-104",
+    "subject": "anatomy_physiology",
+    "topic": "special_senses",
+    "subtopic": "Visual System",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "There are three sub-types of \"cones,\" each of which has its own type of _____ and responds to a different _____.",
+    "choices": [
+      "opsin; color",
+      "retinal; color",
+      "opsin; light intensity",
+      "retinal; brightness"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-13-105",
+    "subject": "anatomy_physiology",
+    "topic": "special_senses",
+    "subtopic": "Visual System",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "We integrate signals from the three types of cone in order to recognize _____.",
+    "choices": [
+      "many different colors",
+      "fine detail in dim light",
+      "depth and distance",
+      "motion at the edge of vision"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-13-106",
+    "subject": "anatomy_physiology",
+    "topic": "special_senses",
+    "subtopic": "Visual System",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The photopigment in rods is called _____; in bright light, it is present only as _____ and _____.",
+    "choices": [
+      "rhodopsin; retinal; opsin",
+      "photopsin; retinal; opsin",
+      "rhodopsin; retinol; scotopsin",
+      "melanopsin; carotene; opsin"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-13-107",
+    "subject": "anatomy_physiology",
+    "topic": "special_senses",
+    "subtopic": "Visual System",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "(A) Photoreceptor cell releases neurotransmitter. (B) Photoreceptor cell opens sodium channels. (C) Opsin closes sodium channels. (D) Neurotransmitter molecules from bipolar cells binds to ganglion cells. (E) Photoreceptor cell stops releasing neurotransmitter. (F) Light hits a photoreceptor cell and causes retinal and opsin to separate. (G) Bipolar cells start to release neurotransmitter molecules. What is the correct order for the above events?",
+    "choices": [
+      "B-A-F-C-E-G-D",
+      "F-B-A-C-E-G-D",
+      "B-A-F-C-G-E-D",
+      "A-B-F-C-E-D-G"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-13-108",
+    "subject": "anatomy_physiology",
+    "topic": "special_senses",
+    "subtopic": "Visual System",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Cones are about _____ sensitive than rods.",
+    "choices": [
+      "100-fold less",
+      "100-fold more",
+      "2-fold less",
+      "1,000-fold more"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-13-109",
+    "subject": "anatomy_physiology",
+    "topic": "special_senses",
+    "subtopic": "Visual System",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The acuity of vision with rods is lower than of vision with cones because _____.",
+    "choices": [
+      "several rods signal each ganglion cell",
+      "rods are much smaller than cones",
+      "rods contain no photopigment",
+      "rods are found only in the fovea"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-13-110",
+    "subject": "anatomy_physiology",
+    "topic": "special_senses",
+    "subtopic": "Visual System",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "High acuity vision is provided by _____.",
+    "choices": [
+      "cones",
+      "rods",
+      "ganglion cells",
+      "bipolar cells"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-13-111",
+    "subject": "anatomy_physiology",
+    "topic": "special_senses",
+    "subtopic": "Visual System",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "_____ is a problem in which the cornea is unevenly shaped, so that objects appear wavy.",
+    "choices": [
+      "Astigmatism",
+      "Myopia",
+      "Hyperopia",
+      "Presbyopia"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-13-112",
+    "subject": "anatomy_physiology",
+    "topic": "special_senses",
+    "subtopic": "Visual System",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "_____ is nearsightedness: the eye is _____, resulting in a very close field of vision.",
+    "choices": [
+      "Myopia; elongated",
+      "Hyperopia; shortened",
+      "Myopia; shortened",
+      "Hyperopia; elongated"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-13-113",
+    "subject": "anatomy_physiology",
+    "topic": "special_senses",
+    "subtopic": "Visual System",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "_____ is farsightedness: the eye is _____, and the lens cannot be _____ enough to focus on near objects.",
+    "choices": [
+      "Hyperopia; shortened; round",
+      "Myopia; elongated; flat",
+      "Hyperopia; elongated; round",
+      "Myopia; shortened; flat"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-13-114",
+    "subject": "anatomy_physiology",
+    "topic": "special_senses",
+    "subtopic": "Visual System",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "A cataract refers to _____.",
+    "choices": [
+      "clouding of the lens",
+      "increased pressure within the eye",
+      "degeneration of the macula",
+      "clouding of the cornea"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-13-115",
+    "subject": "anatomy_physiology",
+    "topic": "special_senses",
+    "subtopic": "Visual System",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Two common agents that increase the risk of cataract are _____ and _____.",
+    "choices": [
+      "smoking; ultraviolet light",
+      "alcohol; infrared light",
+      "caffeine; fluorescent light",
+      "aspirin; visible light"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-13-116",
+    "subject": "anatomy_physiology",
+    "topic": "special_senses",
+    "subtopic": "Visual System",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "If the flow of the aqueous humor out of the eye is partially blocked, the result is _____ called glaucoma, which will eventually damage the retina and cause _____.",
+    "choices": [
+      "an increase in the internal pressure of the eye; blindness",
+      "a decrease in the internal pressure of the eye; double vision",
+      "clouding of the lens; night blindness",
+      "swelling of the cornea; color blindness"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-13-117",
+    "subject": "anatomy_physiology",
+    "topic": "special_senses",
+    "subtopic": "Visual System",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Color blindness is due to the genetic absence of one type of _____.",
+    "choices": [
+      "cone",
+      "rod",
+      "ganglion cell",
+      "bipolar cell"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-13-118",
+    "subject": "anatomy_physiology",
+    "topic": "special_senses",
+    "subtopic": "Visual System",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Color blindness is due to a defect on the _____ chromosome.",
+    "choices": [
+      "X",
+      "Y",
+      "21",
+      "18"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-13-119",
+    "subject": "anatomy_physiology",
+    "topic": "special_senses",
+    "subtopic": "Visual System",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "When we first enter a dim area, we are unable to see because _____ and _____.",
+    "choices": [
+      "all rhodopsin in rods is photobleached; the cones are not sensitive enough to detect dim light",
+      "the pupil constricts; the rods are overstimulated",
+      "the lens cannot focus in dim light; the rods stop releasing neurotransmitter",
+      "all photopsin in cones is bleached; the rods are too sensitive to function"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-13-120",
+    "subject": "anatomy_physiology",
+    "topic": "special_senses",
+    "subtopic": "Visual System",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "An immediate adaptation that helps us to see in a dim area is that the _____.",
+    "choices": [
+      "pupil dilates",
+      "pupil constricts",
+      "lens becomes rounder",
+      "cornea flattens"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-13-121",
+    "subject": "anatomy_physiology",
+    "topic": "special_senses",
+    "subtopic": "Visual System",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "A slow but complete adaptation to a lack of light is made possible by synthesis of _____ in rods.",
+    "choices": [
+      "rhodopsin",
+      "photopsin",
+      "melanopsin",
+      "melanin"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-13-122",
+    "subject": "anatomy_physiology",
+    "topic": "special_senses",
+    "subtopic": "Visual System",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Since retinal is made from _____, dark adaptation due to rhodopsin synthesis from retinal and opsin is sensitive to a dietary deficiency in this substance.",
+    "choices": [
+      "vitamin A",
+      "vitamin C",
+      "vitamin D",
+      "vitamin K"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-13-123",
+    "subject": "anatomy_physiology",
+    "topic": "special_senses",
+    "subtopic": "Visual System",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "When exposed to light suddenly after the eyes have adjusted to dim light, the light seems bright because all _____ in the rods photobleaches, as does much of the photopigment in cones, resulting in complete closure of the _____ of the rods and a dramatic increase in their closure in cones. This effect is decreased by adaptation.",
+    "choices": [
+      "rhodopsin; sodium channels",
+      "photopsin; potassium channels",
+      "rhodopsin; calcium pumps",
+      "retinal; chloride channels"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-13-124",
+    "subject": "anatomy_physiology",
+    "topic": "special_senses",
+    "subtopic": "Visual System",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "At the optic chiasma, fibers from the _____ of each retinal field cross over to the opposite side.",
+    "choices": [
+      "medial half",
+      "lateral half",
+      "superior half",
+      "inferior half"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-13-125",
+    "subject": "anatomy_physiology",
+    "topic": "special_senses",
+    "subtopic": "Visual System",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The left hemisphere of the brain receives information from the _____..",
+    "choices": [
+      "right half of the visual field",
+      "left half of the visual field",
+      "right eye only",
+      "left eye only"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-13-126",
+    "subject": "anatomy_physiology",
+    "topic": "special_senses",
+    "subtopic": "Visual System",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Axons from retinal neurons meet to form the _____, and then travel to three areas, the _____, _____ and _____.",
+    "choices": [
+      "optic nerve; thalamus; midbrain; hypothalamus",
+      "optic tract; cerebellum; pons; thalamus",
+      "optic nerve; hypothalamus; medulla; pons",
+      "optic tract; thalamus; cerebellum; hypothalamus"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-13-127",
+    "subject": "anatomy_physiology",
+    "topic": "special_senses",
+    "subtopic": "Visual System",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Some fibers from the optic nerve travel to the hypothalamus, which interprets _____ and sets _____.",
+    "choices": [
+      "time of day; circadian rhythm",
+      "brightness; pupil diameter",
+      "color; visual acuity",
+      "motion; eye reflexes"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-13-128",
+    "subject": "anatomy_physiology",
+    "topic": "special_senses",
+    "subtopic": "Visual System",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The combination of inhibitory and excitatory processing in the retina results in signal processing which emphasizes _____.",
+    "choices": [
+      "edges",
+      "overall brightness",
+      "color intensity",
+      "image size"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-13-129",
+    "subject": "anatomy_physiology",
+    "topic": "special_senses",
+    "subtopic": "Visual System",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The _____ contains an exact map of the retina, so that a ganglion cell's action potential in the retina is matched by the excitation of a single neuron in this region.",
+    "choices": [
+      "visual cortex",
+      "thalamus",
+      "superior colliculus",
+      "optic chiasma"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-13-130",
+    "subject": "anatomy_physiology",
+    "topic": "special_senses",
+    "subtopic": "Visual System",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Vision does not reach maturity until the age of, approximately, _____ years.",
+    "choices": [
+      "six",
+      "one",
+      "three",
+      "twelve"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-13-131",
+    "subject": "anatomy_physiology",
+    "topic": "special_senses",
+    "subtopic": "Visual System",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Age related damage to the _____ is called macular degeneration, and is a common cause of late-life blindness. (Only _____ vision remains.)",
+    "choices": [
+      "macula lutea; peripheral",
+      "fovea centralis; central",
+      "optic disc; central",
+      "lens; night"
+    ],
+    "answer_index": 0
   }
 ]

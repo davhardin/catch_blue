@@ -3,1441 +3,1441 @@
     "id": "bio-anat-06-001",
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
-    "subtopic": "Skeletal System Functions",
+    "subtopic": "Aging: Skeletal System",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The most common joint disease is _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "osteoarthritis",
+      "rheumatoid arthritis",
+      "gout",
+      "bursitis"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-06-002",
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
-    "subtopic": "Skeletal System Functions",
+    "subtopic": "Aging: Skeletal System",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The fundamental cause of osteoarthritis is that in aged or over-used cartilage, _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "breakdown is faster than replacement or repair",
+      "uric acid crystals accumulate in the cartilage",
+      "the immune system attacks the cartilage",
+      "bacteria infect the joint cavity"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-06-003",
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
-    "subtopic": "Skeletal System Functions",
+    "subtopic": "Aging: Skeletal System",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "In _____, bone resorption outpaces deposition. It leads to extremely brittle bones and is very common in advanced old age.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "osteoporosis",
+      "osteomalacia",
+      "Paget's disease",
+      "rickets"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-06-004",
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
-    "subtopic": "Skeletal System Functions",
+    "subtopic": "Aging: Skeletal System",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "One detrimental change in old age is that the costal cartilage (and other cartilage) may _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "ossify (or calcify)",
+      "soften",
+      "become more elastic",
+      "lengthen"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-06-005",
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
-    "subtopic": "Skeletal System Functions",
+    "subtopic": "Aging: Skeletal System",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "One detrimental change in old age is that bones lose _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "density",
+      "length",
+      "diameter",
+      "number"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-06-006",
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
-    "subtopic": "Skeletal System Functions",
+    "subtopic": "Appendicular Skeleton",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The bones of the limbs, shoulders, and hips make up the _____ skeleton.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "appendicular",
+      "axial",
+      "peripheral",
+      "distal"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-06-007",
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
-    "subtopic": "Skeletal System Functions",
+    "subtopic": "Appendicular Skeleton",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The upper limbs are attached to the trunk by the _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "pectoral girdle (shoulder girdle)",
+      "pelvic girdle",
+      "thoracic cage",
+      "vertebral column"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-06-008",
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
-    "subtopic": "Skeletal System Functions",
+    "subtopic": "Appendicular Skeleton",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The lower limbs are attached to the trunk by the _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "pelvic girdle",
+      "pectoral girdle",
+      "lumbar vertebrae",
+      "thoracic cage"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-06-009",
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
-    "subtopic": "Skeletal System Functions",
+    "subtopic": "Appendicular Skeleton",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The shoulder girdle consists of the _____ and the _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "scapulae; clavicles",
+      "scapulae; sternum",
+      "clavicles; humeri",
+      "sternum; ribs"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-06-010",
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
-    "subtopic": "Skeletal System Functions",
+    "subtopic": "Appendicular Skeleton",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The lateral end of the clavicle articulates with the _____ of the _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "acromion; scapula",
+      "coracoid process; scapula",
+      "glenoid cavity; scapula",
+      "manubrium; sternum"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-06-011",
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
-    "subtopic": "Bone Classification",
+    "subtopic": "Appendicular Skeleton",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The medial end of the clavicle articulates with the _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "sternum (manubrium)",
+      "scapula",
+      "first rib",
+      "humerus"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-06-012",
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
-    "subtopic": "Bone Classification",
+    "subtopic": "Appendicular Skeleton",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Shoulder blade' is the common term for the _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "scapula",
+      "clavicle",
+      "sternum",
+      "humerus"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-06-013",
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
-    "subtopic": "Bone Classification",
+    "subtopic": "Appendicular Skeleton",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The scapulae articulate with the _____ and the _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "clavicle; humerus",
+      "clavicle; sternum",
+      "sternum; humerus",
+      "ribs; humerus"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-06-014",
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
-    "subtopic": "Bone Classification",
+    "subtopic": "Appendicular Skeleton",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The scapulae articulate only indirectly with the axial skeleton via the _____. Thus, they exhibit a large range of motion.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "clavicle",
+      "sternum",
+      "first rib",
+      "vertebral column"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-06-015",
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
-    "subtopic": "Bone Classification",
+    "subtopic": "Appendicular Skeleton",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The _____ of the scapula articlates with the clavicle.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "acromion",
+      "coracoid process",
+      "glenoid cavity",
+      "scapular spine"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-06-016",
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
-    "subtopic": "Bone Classification",
+    "subtopic": "Appendicular Skeleton",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The _____ of the scapula articulates with the humerus.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "glenoid cavity",
+      "acromion",
+      "coracoid process",
+      "supraspinous fossa"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-06-017",
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
-    "subtopic": "Bone Classification",
+    "subtopic": "Appendicular Skeleton",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The _____ of the scapula serves as an attachment point for the biceps of the arm (the biceps brachii).",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "coracoid process",
+      "acromion",
+      "scapular spine",
+      "inferior angle"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-06-018",
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
-    "subtopic": "Bone Classification",
+    "subtopic": "Appendicular Skeleton",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The suprascapular notch of the scapula is important because it _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "serves as a nerve passageway",
+      "serves as a muscle attachment site",
+      "articulates with the clavicle",
+      "forms the socket for the humerus"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-06-019",
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
-    "subtopic": "Bone Classification",
+    "subtopic": "Appendicular Skeleton",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The upper limb consists of the arm (_____), forearm (_____), and hand (_____).",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "brachium; antebrachium; manus",
+      "antebrachium; brachium; manus",
+      "brachium; manus; antebrachium",
+      "brachium; antebrachium; carpus"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-06-020",
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
-    "subtopic": "Bone Classification",
+    "subtopic": "Appendicular Skeleton",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The _____ is the only bone in the arm (using the word 'arm' in its anatomical sense, not in the common sense).",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "humerus",
+      "radius",
+      "ulna",
+      "femur"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-06-021",
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
-    "subtopic": "Bone Cell Types",
+    "subtopic": "Appendicular Skeleton",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The humerus articulates with the _____, _____, and _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "scapula; radius; ulna",
+      "clavicle; radius; ulna",
+      "scapula; carpals; ulna",
+      "clavicle; scapula; radius"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-06-022",
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
-    "subtopic": "Bone Cell Types",
+    "subtopic": "Appendicular Skeleton",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The proximal end of the humerus includes the _____, which articulates with the scapula, and the greater and lesser _____, which serve as attachment points for muscles.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "head; tubercles",
+      "head; trochanters",
+      "condyle; tubercles",
+      "neck; epicondyles"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-06-023",
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
-    "subtopic": "Bone Cell Types",
+    "subtopic": "Appendicular Skeleton",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The proximal end of the humerus includes a large groove called the _____, which guides a tendon of the biceps to its attachment site.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "intertubercular groove",
+      "radial groove",
+      "olecranon fossa",
+      "deltoid tuberosity"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-06-024",
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
-    "subtopic": "Bone Cell Types",
+    "subtopic": "Appendicular Skeleton",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The large bump in the central region of the humerus is an attachment point for the major muscle of the shoulder, the deltoid, and is called the _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "deltoid tuberosity",
+      "radial tuberosity",
+      "greater tubercle",
+      "tibial tuberosity"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-06-025",
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
-    "subtopic": "Bone Cell Types",
+    "subtopic": "Appendicular Skeleton",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "At the distal end of the humerus are two epicondyles which serve as attachment sites for ligaments and muscles. The _____ epicondyle is the larger of the two.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "medial",
+      "lateral",
+      "anterior",
+      "posterior"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-06-026",
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
-    "subtopic": "Bone Cell Types",
+    "subtopic": "Appendicular Skeleton",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The distal end of the humerus includes two condyles: one is the medial _____, which has an indentation in the center and which articulates with the ulna.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "trochlea",
+      "capitulum",
+      "olecranon",
+      "trochanter"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-06-027",
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
-    "subtopic": "Bone Cell Types",
+    "subtopic": "Appendicular Skeleton",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The distal end of the humerus includes two condyles: one is the lateral _____, which looks like a ball in the anterior view and articulates with the radius.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "capitulum",
+      "trochlea",
+      "capitate",
+      "lateral epicondyle"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-06-028",
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
-    "subtopic": "Bone Cell Types",
+    "subtopic": "Appendicular Skeleton",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The distal end of the humerus includes two shallow indentations called the _____ and _____ fossae, which allow the ulna to move freely though a full range of motion.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "coronoid; olecranon",
+      "radial; olecranon",
+      "coronoid; radial",
+      "trochlear; capitular"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-06-029",
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
-    "subtopic": "Bone Cell Types",
+    "subtopic": "Appendicular Skeleton",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The medial bone of the forearm is the _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "ulna",
+      "radius",
+      "humerus",
+      "tibia"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-06-030",
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
-    "subtopic": "Bone Cell Types",
+    "subtopic": "Appendicular Skeleton",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The lateral bone of the forearm is the _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "radius",
+      "ulna",
+      "humerus",
+      "fibula"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-06-031",
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
-    "subtopic": "Compact Bone",
+    "subtopic": "Appendicular Skeleton",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The largest bone palpable in the posterior elbow is the _____ of the _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "olecranon process; ulna",
+      "coronoid process; ulna",
+      "olecranon process; radius",
+      "styloid process; ulna"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-06-032",
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
-    "subtopic": "Compact Bone",
+    "subtopic": "Appendicular Skeleton",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The _____ at the proximal end of the _____ articulates tightly with the trochlea of the humerus.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "trochlear notch; ulna",
+      "radial notch; ulna",
+      "trochlear notch; radius",
+      "fibular notch; ulna"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-06-033",
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
-    "subtopic": "Compact Bone",
+    "subtopic": "Appendicular Skeleton",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "At the distal end of the ulna is the sharp _____ of the _____, from which ligaments run to the wrist.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "styloid process; ulna",
+      "styloid process; radius",
+      "olecranon process; ulna",
+      "coronoid process; ulna"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-06-034",
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
-    "subtopic": "Compact Bone",
+    "subtopic": "Appendicular Skeleton",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The radius is widest at its _____ end.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "distal",
+      "proximal",
+      "medial",
+      "lateral"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-06-035",
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
-    "subtopic": "Compact Bone",
+    "subtopic": "Appendicular Skeleton",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The superior surface of the _____ of the _____ articulates with the capitulum of the humerus.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "head; radius",
+      "head; ulna",
+      "neck; radius",
+      "styloid process; radius"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-06-036",
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
-    "subtopic": "Compact Bone",
+    "subtopic": "Appendicular Skeleton",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "At the distal end of the radius is the somewhat rounded _____ of the _____ which is an attachment site for ligaments of the wrist.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "styloid process; radius",
+      "styloid process; ulna",
+      "head; radius",
+      "radial tuberosity; radius"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-06-037",
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
-    "subtopic": "Compact Bone",
+    "subtopic": "Appendicular Skeleton",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "At the proximal end of the radius is a bump called the _____ to which the biceps of the arm attaches.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "radial tuberosity",
+      "deltoid tuberosity",
+      "tibial tuberosity",
+      "styloid process"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-06-038",
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
-    "subtopic": "Compact Bone",
+    "subtopic": "Appendicular Skeleton",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The hand contains three types of bone: the _____ of the fingers, the _____ of the palm, and the _____ of the wrist.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "phalanges; metacarpals; carpals",
+      "phalanges; carpals; metacarpals",
+      "phalanges; metatarsals; tarsals",
+      "metacarpals; phalanges; carpals"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-06-039",
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
-    "subtopic": "Compact Bone",
+    "subtopic": "Appendicular Skeleton",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The scaphoid, lunate, triquetral, pisiform, trapezium, trapezoid, capitate, and hamate form the _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "carpus (wrist)",
+      "tarsus",
+      "metacarpus",
+      "manus"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-06-040",
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
-    "subtopic": "Compact Bone",
+    "subtopic": "Appendicular Skeleton",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The five fingers are numbered so that the thumb is number _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "1",
+      "2",
+      "3",
+      "5"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-06-041",
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
-    "subtopic": "Bone Formation & Remodeling",
+    "subtopic": "Appendicular Skeleton",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The heads of the metacarpals articulate with the _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "phalanges",
+      "carpals",
+      "metatarsals",
+      "radius"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-06-042",
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
-    "subtopic": "Bone Formation & Remodeling",
+    "subtopic": "Appendicular Skeleton",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The _____ does not contain a middle phalanx.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "thumb (pollex)",
+      "index finger",
+      "middle finger",
+      "little finger"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-06-043",
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
-    "subtopic": "Bone Formation & Remodeling",
+    "subtopic": "Appendicular Skeleton",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The hip bones are called the _____, and are actually formed by fusion of three bones: the _____, _____ and _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "coxal bones; ischium, ilium, and pubis",
+      "coxal bones; ischium, ilium, and sacrum",
+      "coxal bones; ilium, pubis, and acetabulum",
+      "coxal bones; ischium, pubis, and coccyx"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-06-044",
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
-    "subtopic": "Bone Formation & Remodeling",
+    "subtopic": "Appendicular Skeleton",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The _____ is formed by the two hip bones, the sacrum, and the coccyx.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "pelvis",
+      "pelvic girdle",
+      "pectoral girdle",
+      "true pelvis"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-06-045",
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
-    "subtopic": "Bone Formation & Remodeling",
+    "subtopic": "Appendicular Skeleton",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Three bones fuse to form each coxal bone. The superior portion of the coxal bone is formed by the _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "ilium",
+      "ischium",
+      "pubis",
+      "sacrum"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-06-046",
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
-    "subtopic": "Bone Formation & Remodeling",
+    "subtopic": "Appendicular Skeleton",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The ilium is divided into two regions, the wing-like _____ at the top and the inferior _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "ala; body",
+      "body; ala",
+      "iliac crest; iliac fossa",
+      "ala; ramus"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-06-047",
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
-    "subtopic": "Bone Formation & Remodeling",
+    "subtopic": "Appendicular Skeleton",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The _____ of the ilium articulates with the sacrum.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "auricular surface",
+      "iliac crest",
+      "acetabulum",
+      "arcuate line"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-06-048",
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
-    "subtopic": "Bone Formation & Remodeling",
+    "subtopic": "Appendicular Skeleton",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The _____, formed by all three bones that make up the coxal bone, articulates with the femur.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "acetabulum",
+      "obturator foramen",
+      "glenoid cavity",
+      "iliac fossa"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-06-049",
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
-    "subtopic": "Bone Formation & Remodeling",
+    "subtopic": "Appendicular Skeleton",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The iliac spines serve as _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "attachment points for muscles",
+      "passageways for nerves",
+      "articulation surfaces for the sacrum",
+      "weight-bearing surfaces during sitting"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-06-050",
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
-    "subtopic": "Bone Formation & Remodeling",
+    "subtopic": "Appendicular Skeleton",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The _____ forms part of the 'pelvic brim,' which marks the boundary between the lower 'true pelvis' and the upper 'false pelvis.'",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "arcuate line",
+      "iliac crest",
+      "ischial spine",
+      "iliac fossa"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-06-051",
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
-    "subtopic": "Bone Development",
+    "subtopic": "Appendicular Skeleton",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The _____ forms the posteroinferior portion of the coxal bone.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "ischium",
+      "ilium",
+      "pubis",
+      "sacrum"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-06-052",
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
-    "subtopic": "Bone Development",
+    "subtopic": "Appendicular Skeleton",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The lesser sciatic notch of the _____ serves as a(n) _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "ischium; passageway for nerves and blood vessels",
+      "ilium; passageway for nerves and blood vessels",
+      "ischium; attachment point for ligaments only",
+      "pubis; articulation site for the femur"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-06-053",
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
-    "subtopic": "Bone Development",
+    "subtopic": "Appendicular Skeleton",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The _____ bears one's weight when one is sitting.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "ischial tuberosity",
+      "ischial spine",
+      "iliac crest",
+      "pubic symphysis"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-06-054",
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
-    "subtopic": "Bone Development",
+    "subtopic": "Appendicular Skeleton",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The _____ forms the anteroinferior part of the coxal bone.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "pubis",
+      "ischium",
+      "ilium",
+      "coccyx"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-06-055",
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
-    "subtopic": "Bone Development",
+    "subtopic": "Appendicular Skeleton",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The _____ of the _____ is the articulation point for the two coxal bones.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "pubic symphysis; pubis",
+      "pubic tubercle; pubis",
+      "acetabulum; ischium",
+      "sacroiliac joint; ilium"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-06-056",
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
-    "subtopic": "Bone Development",
+    "subtopic": "Appendicular Skeleton",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The very large openings in each os coxa is called the _____. Its name means, 'closed.'",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "obturator foramen",
+      "acetabulum",
+      "greater sciatic notch",
+      "vertebral foramen"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-06-057",
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
-    "subtopic": "Bone Development",
+    "subtopic": "Appendicular Skeleton",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The cavity of the _____ in women is broad, to allow room for a baby's head during birth.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "true pelvis",
+      "false pelvis",
+      "pelvic girdle",
+      "acetabulum"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-06-058",
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
-    "subtopic": "Bone Development",
+    "subtopic": "Appendicular Skeleton",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The _____ in the female pelvis is often moveable.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "coccyx",
+      "sacrum",
+      "ilium",
+      "ischium"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-06-059",
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
-    "subtopic": "Bone Development",
+    "subtopic": "Appendicular Skeleton",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The largest and strongest bone in the body is the _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "femur",
+      "tibia",
+      "humerus",
+      "fibula"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-06-060",
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
-    "subtopic": "Bone Development",
+    "subtopic": "Appendicular Skeleton",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The femur articulates proximally with the _____ and distally with the _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "acetabulum of the coxal bone; tibia",
+      "acetabulum of the coxal bone; fibula",
+      "ischial tuberosity; tibia",
+      "sacrum; fibula"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-06-061",
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
-    "subtopic": "Bone Physiology: Calcium Homeostasis",
+    "subtopic": "Appendicular Skeleton",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The head of the femur is anchored to the acetabulum by a small ligament which attaches at the _____ of the femur's head.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "fovea capitis",
+      "fovea centralis",
+      "trochanteric fossa",
+      "linea aspera"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-06-062",
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
-    "subtopic": "Bone Physiology: Calcium Homeostasis",
+    "subtopic": "Appendicular Skeleton",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The phrase 'broken hip' usually refers to a fracture of the _____ of the _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "neck; femur",
+      "head; femur",
+      "greater trochanter; femur",
+      "neck; coxal bone"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-06-063",
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
-    "subtopic": "Bone Physiology: Calcium Homeostasis",
+    "subtopic": "Appendicular Skeleton",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Two prominent bumps which serves as attachment sites for muscles of the thigh and buttock are found on the proximal end of the femur, and are called _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "the greater and lesser trochanters",
+      "the greater and lesser tubercles",
+      "the medial and lateral condyles",
+      "the medial and lateral epicondyles"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-06-064",
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
-    "subtopic": "Bone Physiology: Calcium Homeostasis",
+    "subtopic": "Appendicular Skeleton",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The _____ and _____ of the femur articulate with the tibia.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "lateral condyle; medial condyle",
+      "lateral epicondyle; medial epicondyle",
+      "greater trochanter; lesser trochanter",
+      "lateral malleolus; medial malleolus"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-06-065",
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
-    "subtopic": "Bone Physiology: Calcium Homeostasis",
+    "subtopic": "Appendicular Skeleton",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The _____ of the femur articulates with the 'knee cap.'",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "patellar surface",
+      "tibial tuberosity",
+      "intercondylar fossa",
+      "medial epicondyle"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-06-066",
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
-    "subtopic": "Bone Physiology: Calcium Homeostasis",
+    "subtopic": "Appendicular Skeleton",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The _____ (knee cap) _____ and increases the _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "patella; protects the knee; leverage of the quadriceps femoris",
+      "patella; stabilizes the ankle; leverage of the hamstrings",
+      "patella; protects the hip; leverage of the gluteus maximus",
+      "fabella; protects the knee; leverage of the gastrocnemius"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-06-067",
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
-    "subtopic": "Bone Physiology: Calcium Homeostasis",
+    "subtopic": "Appendicular Skeleton",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Which bones are found in the anatomical leg?",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "tibia and fibula",
+      "tibia and femur",
+      "femur and fibula",
+      "tibia, fibula, and patella"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-06-068",
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
-    "subtopic": "Bone Physiology: Calcium Homeostasis",
+    "subtopic": "Appendicular Skeleton",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The tibia articulates with the _____, the _____, and the bones of the _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "fibula; femur; tarsus",
+      "fibula; patella; tarsus",
+      "femur; patella; metatarsus",
+      "fibula; femur; carpus"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-06-069",
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
-    "subtopic": "Bone Physiology: Calcium Homeostasis",
+    "subtopic": "Appendicular Skeleton",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The weight-bearing bone of the leg is the _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "tibia",
+      "fibula",
+      "femur",
+      "talus"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-06-070",
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
-    "subtopic": "Bone Physiology: Calcium Homeostasis",
+    "subtopic": "Appendicular Skeleton",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The _____ side of the _____ condyle of the tibia articulates with the fibula.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "inferolateral; lateral",
+      "superolateral; lateral",
+      "inferomedial; medial",
+      "anterolateral; medial"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-06-071",
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
-    "subtopic": "Bone Fractures",
+    "subtopic": "Appendicular Skeleton",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The _____ of the tibia is the site at which the 'knee cap' is attached.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "tibial tuberosity",
+      "anterior crest",
+      "fibular notch",
+      "medial malleolus"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-06-072",
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
-    "subtopic": "Bone Fractures",
+    "subtopic": "Appendicular Skeleton",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The medial 'ankle bone' is actually the _____ of the _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "medial malleolus; tibia",
+      "lateral malleolus; fibula",
+      "medial malleolus; fibula",
+      "medial condyle; tibia"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-06-073",
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
-    "subtopic": "Bone Fractures",
+    "subtopic": "Appendicular Skeleton",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The notch on the distal end of the tibia is the _____, and is the site of articulation with the fibula.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "fibular notch",
+      "trochlear notch",
+      "radial notch",
+      "sciatic notch"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-06-074",
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
-    "subtopic": "Bone Fractures",
+    "subtopic": "Appendicular Skeleton",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The _____ of the fibula articulates with the proximal end of the tibia.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "head",
+      "lateral malleolus",
+      "neck",
+      "shaft"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-06-075",
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
-    "subtopic": "Bone Fractures",
+    "subtopic": "Appendicular Skeleton",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The lateral 'ankle bone' is actually the _____ of the _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "lateral malleolus; fibula",
+      "medial malleolus; tibia",
+      "lateral malleolus; tibia",
+      "lateral condyle; fibula"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-06-076",
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
-    "subtopic": "Bone Fractures",
+    "subtopic": "Appendicular Skeleton",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The region of the fibula that articulates with the talus of the foot is the _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "lateral malleolus",
+      "head of the fibula",
+      "medial malleolus",
+      "fibular notch"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-06-077",
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
-    "subtopic": "Bone Fractures",
+    "subtopic": "Appendicular Skeleton",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The foot is divided into three regions: the _____, _____, and _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "toes; metatarsus; tarsus",
+      "toes; metacarpus; carpus",
+      "phalanges; tarsus; carpus",
+      "toes; metatarsus; carpus"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-06-078",
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
-    "subtopic": "Bone Fractures",
+    "subtopic": "Appendicular Skeleton",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The bones of the toes, like the bones of the fingers, are called _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "phalanges",
+      "metatarsals",
+      "tarsals",
+      "carpals"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-06-079",
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
-    "subtopic": "Bone Fractures",
+    "subtopic": "Appendicular Skeleton",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The talus, navicular, the three cuneiforms, the cuboid, and the calcaneus form the _____ and are collectively called the _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "tarsus; tarsals",
+      "carpus; carpals",
+      "metatarsus; metatarsals",
+      "tarsus; carpals"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-06-080",
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
-    "subtopic": "Bone Fractures",
+    "subtopic": "Appendicular Skeleton",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The major weight-bearing bones of the foot are the _____ and _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "talus; calcaneus",
+      "talus; navicular",
+      "calcaneus; cuboid",
+      "navicular; cuneiforms"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-06-081",
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
-    "subtopic": "Aging: Skeletal System",
+    "subtopic": "Appendicular Skeleton",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The _____ of the foot articulates superiorly with the tibia and laterally with the fibula.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "talus",
+      "calcaneus",
+      "navicular",
+      "cuboid"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-06-082",
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
-    "subtopic": "Aging: Skeletal System",
+    "subtopic": "Appendicular Skeleton",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The talus articulates inferiorly with the _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "calcaneus",
+      "navicular",
+      "cuboid",
+      "tibia"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-06-083",
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
-    "subtopic": "Aging: Skeletal System",
+    "subtopic": "Appendicular Skeleton",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The digits of the foot, like those of the hand, are numbered from 1 to 5: the great toe is number _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "1",
+      "2",
+      "3",
+      "5"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-06-084",
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
-    "subtopic": "Aging: Skeletal System",
+    "subtopic": "Appendicular Skeleton",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The _____ and two _____ bones form the ball of the foot.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "head of metatarsal 1; sesamoid",
+      "base of metatarsal 1; sesamoid",
+      "head of metatarsal 1; cuneiform",
+      "head of the first proximal phalanx; sesamoid"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-06-085",
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
-    "subtopic": "Aging: Skeletal System",
+    "subtopic": "Appendicular Skeleton",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Each of the toes is composed of three phalanges except the _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "hallux (great toe)",
+      "second toe",
+      "third toe",
+      "fifth (little) toe"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-06-086",
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
-    "subtopic": "Aging: Skeletal System",
+    "subtopic": "Appendicular Skeleton",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The three arches of the foot are the _____, _____, and _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "lateral longitudinal; medial longitudinal; transverse",
+      "anterior longitudinal; posterior longitudinal; transverse",
+      "medial longitudinal; lateral transverse; oblique",
+      "longitudinal; horizontal; vertical"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-06-087",
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
-    "subtopic": "Aging: Skeletal System",
+    "subtopic": "Appendicular Skeleton",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Which bone or bones articulate(s) with the distal end of the humerus?",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "Both the radius and ulna",
+      "The radius only",
+      "The ulna only",
+      "The radius and the carpals"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-06-088",
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
-    "subtopic": "Aging: Skeletal System",
+    "subtopic": "Axial Skeleton",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "_____ cartilage connects the ribs to the sternum.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "Costal",
+      "Articular",
+      "Nasal",
+      "Respiratory"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-06-089",
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
-    "subtopic": "Aging: Skeletal System",
+    "subtopic": "Axial Skeleton",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The bones of the skull, rib cage, and vertebral column make up the _____ skeleton.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "axial",
+      "appendicular",
+      "axillary",
+      "peripheral"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-06-090",
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
-    "subtopic": "Aging: Skeletal System",
+    "subtopic": "Axial Skeleton",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "_____ are formed by the articulation of two cranial bones.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "Sutures",
+      "Fontanels",
+      "Symphyses",
+      "Synchondroses"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-06-091",
@@ -1446,14 +1446,14 @@
     "subtopic": "Axial Skeleton",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Sutures are formed _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "within a year or two of birth",
+      "before birth, during fetal development",
+      "around the time of puberty",
+      "within the first month after birth"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-06-092",
@@ -1462,14 +1462,14 @@
     "subtopic": "Axial Skeleton",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The _____ is formed by the top and sides of the cranium.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "cranial vault",
+      "cranial base",
+      "facial skeleton",
+      "cranial fossa"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-06-093",
@@ -1478,14 +1478,14 @@
     "subtopic": "Axial Skeleton",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "A sinus is a(n) _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "cavity inside a bone",
+      "depression or indentation on a bone",
+      "passage or opening through a bone",
+      "dividing wall or structure"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-06-094",
@@ -1494,14 +1494,14 @@
     "subtopic": "Axial Skeleton",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "A fossa is _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "a depression or indentation",
+      "a cavity inside a bone",
+      "a passage or opening through a bone",
+      "a rounded projection that articulates with another bone"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-06-095",
@@ -1510,14 +1510,14 @@
     "subtopic": "Axial Skeleton",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The cranial fossae are _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "depressions in the floor of the cranium",
+      "air-filled cavities within the cranial bones",
+      "openings in the base of the skull for nerves",
+      "ridges on the internal surface of the cranial vault"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-06-096",
@@ -1526,14 +1526,14 @@
     "subtopic": "Axial Skeleton",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "A foramen (pl. foramina) is _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "a passage or opening through a bone",
+      "a cavity inside a bone",
+      "a depression or indentation",
+      "a dividing wall or structure"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-06-097",
@@ -1542,14 +1542,14 @@
     "subtopic": "Axial Skeleton",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "A septum is _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "a dividing wall or structure",
+      "a cavity inside a bone",
+      "a depression or indentation",
+      "a passage or opening through a bone"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-06-098",
@@ -1558,14 +1558,14 @@
     "subtopic": "Axial Skeleton",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The _____ forms the forehead.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "frontal bone",
+      "parietal bone",
+      "sphenoid bone",
+      "nasal bone"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-06-099",
@@ -1574,14 +1574,14 @@
     "subtopic": "Axial Skeleton",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The _____ forms the superior aspect of each orbit (eye socket).",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "frontal bone",
+      "sphenoid bone",
+      "zygomatic bone",
+      "maxilla"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-06-100",
@@ -1590,14 +1590,14 @@
     "subtopic": "Axial Skeleton",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The _____ articulates posteriorly with the parietal bones via the coronal suture",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "frontal bone",
+      "occipital bone",
+      "temporal bone",
+      "sphenoid bone"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-06-101",
@@ -1606,14 +1606,14 @@
     "subtopic": "Axial Skeleton",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "In the region just deep to the eyebrows, _____ are present which allow nerves and arteries to pass.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "supraorbital foramina",
+      "infraorbital foramina",
+      "optic canals",
+      "superior orbital fissures"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-06-102",
@@ -1622,14 +1622,14 @@
     "subtopic": "Axial Skeleton",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The area of bone _____ is called the glabella.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "just above the bridge of the nose",
+      "just below the bridge of the nose",
+      "at the midline of the posterior skull",
+      "at the junction of the frontal and parietal bones"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-06-103",
@@ -1638,14 +1638,14 @@
     "subtopic": "Axial Skeleton",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The two mirror-image bones which form much of the superior & lateral portions of the skull are the _____ bones.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "parietal",
+      "temporal",
+      "frontal",
+      "occipital"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-06-104",
@@ -1654,14 +1654,14 @@
     "subtopic": "Axial Skeleton",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The coronal suture is formed by articulation of <which bones>?",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "parietal and frontal bones",
+      "the two parietal bones",
+      "occipital and parietal bones",
+      "parietal and temporal bones"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-06-105",
@@ -1670,14 +1670,14 @@
     "subtopic": "Axial Skeleton",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The sagittal suture is formed by articulation of _________?",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "the two parietal bones",
+      "parietal and frontal bones",
+      "occipital and parietal bones",
+      "parietal and temporal bones"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-06-106",
@@ -1686,14 +1686,14 @@
     "subtopic": "Axial Skeleton",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The lambdoid suture is formed by articulation of __________?",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "occipital and parietal bones",
+      "parietal and frontal bones",
+      "the two parietal bones",
+      "parietal and temporal bones"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-06-107",
@@ -1702,14 +1702,14 @@
     "subtopic": "Axial Skeleton",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The squamosal suture is formed by articulation of _________?",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "parietal and temporal bones",
+      "parietal and frontal bones",
+      "the two parietal bones",
+      "occipital and parietal bones"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-06-108",
@@ -1718,14 +1718,14 @@
     "subtopic": "Axial Skeleton",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The _____ suture is formed by articulation of the parietal and frontal bones.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "coronal",
+      "sagittal",
+      "lambdoid",
+      "squamosal"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-06-109",
@@ -1734,14 +1734,14 @@
     "subtopic": "Axial Skeleton",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The _____ suture is formed by articulation of the two parietal bones.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "sagittal",
+      "coronal",
+      "lambdoid",
+      "squamosal"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-06-110",
@@ -1750,14 +1750,14 @@
     "subtopic": "Axial Skeleton",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The _____ suture is formed by articulation of the occipital and parietal bones.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "lambdoid",
+      "coronal",
+      "sagittal",
+      "squamosal"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-06-111",
@@ -1766,14 +1766,14 @@
     "subtopic": "Axial Skeleton",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The _____ suture is formed by articulation of the parietal and temporal bones.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "squamosal",
+      "coronal",
+      "sagittal",
+      "lambdoid"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-06-112",
@@ -1782,14 +1782,14 @@
     "subtopic": "Axial Skeleton",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The posterior and base of the skull is formed by the _____ bone.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "occipital",
+      "parietal",
+      "temporal",
+      "sphenoid"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-06-113",
@@ -1798,14 +1798,14 @@
     "subtopic": "Axial Skeleton",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The foramen magnum is the _____ <physiology, not anatomy>.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "passageway through which the spinal cord leaves the skull",
+      "attachment site for the muscles that extend the neck",
+      "opening through which the hypoglossal nerve exits the skull",
+      "drainage route for cerebrospinal fluid into the nasal cavity"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-06-114",
@@ -1814,14 +1814,14 @@
     "subtopic": "Axial Skeleton",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The foramen magnum is the _________.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "largest opening in the occipital bone",
+      "largest opening in the sphenoid bone",
+      "deepest fossa in the floor of the cranium",
+      "largest sinus in the skull"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-06-115",
@@ -1830,14 +1830,14 @@
     "subtopic": "Axial Skeleton",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Cranial nerve XII leaves the skull via small openings immediately lateral to the foramen magnum which are called the _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "hypoglossal canals",
+      "jugular foramina",
+      "carotid canals",
+      "stylomastoid foramina"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-06-116",
@@ -1846,14 +1846,14 @@
     "subtopic": "Axial Skeleton",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The function of the occipital condyles is to _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "articulate with C1 (the first vertebra) to allow the head to nod",
+      "articulate with C2 (the second vertebra) to allow the head to rotate",
+      "anchor the ligaments that suspend the hyoid bone",
+      "serve as attachment sites for the chewing muscles"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-06-117",
@@ -1862,14 +1862,14 @@
     "subtopic": "Axial Skeleton",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The external occipital protuberance and crest and the nuchal lines are __________.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "sites of muscle and ligament attachment",
+      "passageways for nerves and blood vessels",
+      "articulation points for the first cervical vertebra",
+      "air-filled spaces that lighten the skull"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-06-118",
@@ -1878,14 +1878,14 @@
     "subtopic": "Axial Skeleton",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The two mirror-image bones which form the inferolateral aspect of skull and part of the middle cranial fossa are the _____ bones.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "temporal",
+      "parietal",
+      "sphenoid",
+      "zygomatic"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-06-119",
@@ -1894,14 +1894,14 @@
     "subtopic": "Axial Skeleton",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The _____ of the _____ bone forms the posterior section of the zygomatic arch.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "zygomatic process; temporal",
+      "temporal process; zygomatic",
+      "mastoid process; temporal",
+      "frontal process; maxilla"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-06-120",
@@ -1910,1213 +1910,3452 @@
     "subtopic": "Axial Skeleton",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The mandible articulates with the _____ of the temporal bone.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "mandibular fossa",
+      "styloid process",
+      "mastoid process",
+      "external acoustic meatus"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-06-121",
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
-    "subtopic": "Appendicular Skeleton",
+    "subtopic": "Axial Skeleton",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The external acoustic meatus is the _____ in the _____ bone.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "canal leading to the eardrum; temporal",
+      "canal leading to the eardrum; occipital",
+      "passage for the facial nerve; temporal",
+      "canal for tear drainage; lacrimal"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-06-122",
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
-    "subtopic": "Appendicular Skeleton",
+    "subtopic": "Axial Skeleton",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The hyoid bone is attached by ligaments to the _____ of the _____ bone.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "styloid process; temporal",
+      "mastoid process; temporal",
+      "zygomatic process; temporal",
+      "pterygoid process; sphenoid"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-06-123",
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
-    "subtopic": "Appendicular Skeleton",
+    "subtopic": "Axial Skeleton",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The _____, which are passages for the optic nerve and ophthalmic arteries, are found in the _____ bone.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "optic canals; sphenoid",
+      "superior orbital fissures; sphenoid",
+      "foramina rotunda; sphenoid",
+      "optic canals; ethmoid"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-06-124",
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
-    "subtopic": "Appendicular Skeleton",
+    "subtopic": "Axial Skeleton",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The hypophyseal fossa, a depression in a region of the _____ bone called the _____, is the seat for the pituitary gland.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "sphenoid; sella turcica",
+      "ethmoid; crista galli",
+      "sphenoid; pterygoid process",
+      "temporal; petrous part"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-06-125",
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
-    "subtopic": "Appendicular Skeleton",
+    "subtopic": "Axial Skeleton",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The foramen rotundum of the _____ bone serves as _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "sphenoid; passageway for the nerves innervating the maxillary region of the face",
+      "sphenoid; passageway for the nerves innervating the mandibular region of the face",
+      "sphenoid; passageway for the optic nerve",
+      "temporal; passageway for the facial nerve"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-06-126",
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
-    "subtopic": "Appendicular Skeleton",
+    "subtopic": "Axial Skeleton",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The _____ bone forms part of the anterior cranial fossa, the superior portion of the nasal septum, the lateral walls and roof of nasal cavity, and part of the medial wall of the orbits.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "ethmoid",
+      "sphenoid",
+      "vomer",
+      "lacrimal"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-06-127",
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
-    "subtopic": "Appendicular Skeleton",
+    "subtopic": "Axial Skeleton",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The crista galli is <physiology> _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "an attachment point for the meninges",
+      "a passageway for olfactory nerve filaments",
+      "an air-filled space that lightens the skull",
+      "an articulation point for the vomer"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-06-128",
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
-    "subtopic": "Appendicular Skeleton",
+    "subtopic": "Axial Skeleton",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The crista galli is a small crest on the _____ bone.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "ethmoid",
+      "sphenoid",
+      "frontal",
+      "temporal"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-06-129",
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
-    "subtopic": "Appendicular Skeleton",
+    "subtopic": "Axial Skeleton",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The cribriform plate is a surface filled with small foramina on the _____ bone.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "ethmoid",
+      "sphenoid",
+      "frontal",
+      "vomer"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-06-130",
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
-    "subtopic": "Appendicular Skeleton",
+    "subtopic": "Axial Skeleton",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The cribriform plate contains <physiology> _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "passages for nerve filaments of the olfactory (sense of smell) nerves",
+      "passages for the optic nerves",
+      "attachment points for the meninges",
+      "openings for the drainage of tears"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-06-131",
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
-    "subtopic": "Appendicular Skeleton",
+    "subtopic": "Axial Skeleton",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The superior and middle nasal concha are regions of the _____ bone.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "ethmoid",
+      "vomer",
+      "maxilla",
+      "palatine"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-06-132",
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
-    "subtopic": "Appendicular Skeleton",
+    "subtopic": "Axial Skeleton",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The nasal concha create _____, which increases the ability of the nose to trap dust, preventing it from reaching the lungs.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "turbulence",
+      "laminar airflow",
+      "negative pressure",
+      "mucus secretion"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-06-133",
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
-    "subtopic": "Appendicular Skeleton",
+    "subtopic": "Axial Skeleton",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The temporalis muscle, which helps close the jaw, attaches to the _____ of the mandible.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "coronoid process",
+      "mandibular condyle",
+      "mandibular angle",
+      "alveolar process"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-06-134",
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
-    "subtopic": "Appendicular Skeleton",
+    "subtopic": "Axial Skeleton",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The _____ of the mandible articulate with the temporal bone.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "mandibular condyles",
+      "coronoid processes",
+      "mental protuberances",
+      "alveolar processes"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-06-135",
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
-    "subtopic": "Appendicular Skeleton",
+    "subtopic": "Axial Skeleton",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "During development, the two halves of the mandible fuse to form the _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "mandibular symphysis",
+      "mandibular ramus",
+      "mandibular angle",
+      "mental foramen"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-06-136",
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
-    "subtopic": "Appendicular Skeleton",
+    "subtopic": "Axial Skeleton",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Mandibular alveoli serve as _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "sockets for the teeth",
+      "attachment sites for the chewing muscles",
+      "passageways for nerves and blood vessels",
+      "articulation surfaces for the temporal bone"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-06-137",
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
-    "subtopic": "Appendicular Skeleton",
+    "subtopic": "Axial Skeleton",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The inferior alveolar nerves (which innervate the teeth of the lower jaw) travel through the _____ of the mandible.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "mandibular foramina",
+      "mental foramina",
+      "mandibular fossae",
+      "incisive fossae"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-06-138",
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
-    "subtopic": "Appendicular Skeleton",
+    "subtopic": "Axial Skeleton",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Blood vessels and nerves reach the chin and lower lip through the _____ of the mandible.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "mental foramina",
+      "mandibular foramina",
+      "infraorbital foramina",
+      "supraorbital foramina"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-06-139",
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
-    "subtopic": "Appendicular Skeleton",
+    "subtopic": "Axial Skeleton",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The _____ bones are found deep to the upper lip; they form part of the 'cheekbone' and the lateral aspects of the bridge of the nose.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "maxilla",
+      "zygomatic",
+      "nasal",
+      "palatine"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-06-140",
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
-    "subtopic": "Appendicular Skeleton",
+    "subtopic": "Axial Skeleton",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The maxilla includes a canal for the passage of nerves and blood vessels whose entrance, the _____, is found in the roof of the mouth.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "incisive fossa",
+      "infraorbital foramen",
+      "mandibular foramen",
+      "inferior orbital fissure"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-06-141",
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
-    "subtopic": "Appendicular Skeleton",
+    "subtopic": "Axial Skeleton",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The _____ of each _____bone form the anterior portion of the hard palate (the bony part of the roof of the mouth).",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "palatine processes; maxilla",
+      "horizontal plates; palatine",
+      "alveolar processes; maxilla",
+      "frontal processes; maxilla"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-06-142",
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
-    "subtopic": "Appendicular Skeleton",
+    "subtopic": "Axial Skeleton",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "In each orbit, the _____, whose inferior edge is formed by the maxilla, provides a passageway for nerves and blood vessels.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "inferior orbital fissure",
+      "superior orbital fissure",
+      "optic canal",
+      "supraorbital foramen"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-06-143",
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
-    "subtopic": "Appendicular Skeleton",
+    "subtopic": "Axial Skeleton",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "There is a(n) _____ on each maxilla, inferior to the orbit, to allow passage for nerves and blood vessels to the face.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "infraorbital foramen",
+      "supraorbital foramen",
+      "inferior orbital fissure",
+      "mental foramen"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-06-144",
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
-    "subtopic": "Appendicular Skeleton",
+    "subtopic": "Axial Skeleton",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The _____ bone, together with the temporal bone and maxilla, forms the bony part of each cheek.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "zygomatic",
+      "lacrimal",
+      "nasal",
+      "vomer"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-06-145",
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
-    "subtopic": "Appendicular Skeleton",
+    "subtopic": "Axial Skeleton",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The mirror-image bones that form the anterior aspect of the bridge of the nose are the _____ bones.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "nasal",
+      "lacrimal",
+      "vomer",
+      "ethmoid"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-06-146",
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
-    "subtopic": "Appendicular Skeleton",
+    "subtopic": "Axial Skeleton",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Each orbit is formed, in part, by a small bone called the _____ bone, which contains tunnels leading into the nose called the _____ to allow tear drainage.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "lacrimal; nasolacrimal canals",
+      "nasal; nasolacrimal canals",
+      "lacrimal; incisive fossae",
+      "ethmoid; cribriform foramina"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-06-147",
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
-    "subtopic": "Appendicular Skeleton",
+    "subtopic": "Axial Skeleton",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The L-shaped palatine bones form the _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "posterior of the hard palate",
+      "anterior of the hard palate",
+      "bridge of the nose",
+      "inferior nasal conchae"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-06-148",
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
-    "subtopic": "Appendicular Skeleton",
+    "subtopic": "Axial Skeleton",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The palitine bones have a process which extends all the way to the _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "orbits",
+      "nasal septum",
+      "zygomatic arches",
+      "mandible"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-06-149",
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
-    "subtopic": "Appendicular Skeleton",
+    "subtopic": "Axial Skeleton",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The bones of the skull which contain one or more sinuses are the _____, _____, _____ and _____ bones.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "frontal, ethmoid, sphenoid, maxilla",
+      "frontal, ethmoid, temporal, maxilla",
+      "nasal, ethmoid, sphenoid, maxilla",
+      "frontal, occipital, sphenoid, maxilla"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-06-150",
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
-    "subtopic": "Appendicular Skeleton",
+    "subtopic": "Axial Skeleton",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The hyoid is unusual because it is the only bone in the body that _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "doesn't articulate with another bone",
+      "lacks a periosteum",
+      "forms entirely after birth",
+      "is made of cartilage rather than bone"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-06-151",
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
-    "subtopic": "Joint Categorization",
+    "subtopic": "Axial Skeleton",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The hyoid plays a role in _____ and _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "swallowing; speech",
+      "chewing; breathing",
+      "hearing; balance",
+      "smell; taste"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-06-152",
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
-    "subtopic": "Joint Categorization",
+    "subtopic": "Axial Skeleton",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "There are _____ cervical vertebrae, _____ thoracic vertebrae, and _____ lumbar vertebrae.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "7; 12; 5",
+      "12; 7; 5",
+      "7; 5; 12",
+      "8; 12; 4"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-06-153",
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
-    "subtopic": "Joint Categorization",
+    "subtopic": "Axial Skeleton",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "All of the thoracic vertebrae articulate with _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "ribs",
+      "the sternum",
+      "the clavicles",
+      "the hip bones"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-06-154",
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
-    "subtopic": "Joint Categorization",
+    "subtopic": "Axial Skeleton",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The laminae and pedicles of each vertebra makes up the _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "vertebral arch",
+      "vertebral body",
+      "spinous process",
+      "intervertebral disc"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-06-155",
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
-    "subtopic": "Joint Categorization",
+    "subtopic": "Axial Skeleton",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The spinal cord passes through the _____ of each vertebra.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "vertebral foramen",
+      "intervertebral foramen",
+      "transverse foramen",
+      "vertebral arch"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-06-156",
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
-    "subtopic": "Joint Categorization",
+    "subtopic": "Axial Skeleton",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Vertebrae articulate with one another via projections from their upper and lower surface called _____ and _____, respectively.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "superior articular processes; inferior articular processes",
+      "transverse processes; spinous processes",
+      "superior costal facets; inferior costal facets",
+      "pedicles; laminae"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-06-157",
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
-    "subtopic": "Joint Categorization",
+    "subtopic": "Axial Skeleton",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The _____ are formed by notched areas on two articulated vertebrae, and provide passages through which spinal nerves to leave the spinal cord.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "intervertebral foramina",
+      "vertebral foramina",
+      "transverse foramina",
+      "sacral foramina"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-06-158",
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
-    "subtopic": "Joint Categorization",
+    "subtopic": "Axial Skeleton",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Distinguishing features of the cervical vertebrae include the _____, which provide a bony channel for blood vessels supplying the brain.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "transverse foramen",
+      "intervertebral foramina",
+      "vertebral foramen",
+      "carotid canals"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-06-159",
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
-    "subtopic": "Joint Categorization",
+    "subtopic": "Axial Skeleton",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The first cervical vertebra is called _____; the superior surfaces of the lateral masses articulate with the _____ of the skull.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "the atlas; occipital condyles",
+      "the axis; occipital condyles",
+      "the atlas; mastoid processes",
+      "the axis; styloid processes"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-06-160",
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
-    "subtopic": "Joint Categorization",
+    "subtopic": "Axial Skeleton",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The articulation between C1 and the skull allows <what motion>?",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "nodding of the head",
+      "side-to-side rotation of the head",
+      "circumduction of the head",
+      "elevation and depression of the mandible"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-06-161",
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
-    "subtopic": "Synovial Joints",
+    "subtopic": "Axial Skeleton",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The unusual feature that makes identification of C2 easy is _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "the dens (or odontoid process)",
+      "the transverse foramen",
+      "a bifid spinous process",
+      "the vertebra prominens"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-06-162",
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
-    "subtopic": "Synovial Joints",
+    "subtopic": "Axial Skeleton",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The function of the odontoid process is to _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "serve as a pivot during side to side head-shaking",
+      "act as a hinge for nodding of the head",
+      "provide a passage for the vertebral arteries",
+      "serve as the attachment site for the ligamentum nuchae"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-06-163",
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
-    "subtopic": "Synovial Joints",
+    "subtopic": "Axial Skeleton",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The vertebral foramina of cervical vertebrae are _____ <what shape?>.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "triangular",
+      "round",
+      "oval",
+      "heart-shaped"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-06-164",
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
-    "subtopic": "Synovial Joints",
+    "subtopic": "Axial Skeleton",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The body of a cervical vertebra is _____ <what shape?>.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "oval",
+      "heart-shaped",
+      "triangular",
+      "kidney-shaped"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-06-165",
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
-    "subtopic": "Synovial Joints",
+    "subtopic": "Axial Skeleton",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The spinous processes of most cervical vertebrae are _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "forked",
+      "long and blade-like",
+      "short and flat",
+      "absent"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-06-166",
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
-    "subtopic": "Synovial Joints",
+    "subtopic": "Axial Skeleton",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The vertebral foramina of thoracic vertebrae are _____ <what shape?>.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "round",
+      "triangular",
+      "oval or diamond",
+      "slit-like"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-06-167",
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
-    "subtopic": "Synovial Joints",
+    "subtopic": "Axial Skeleton",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The spinous processes on _____ are long, thin, blade-like structures.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "thoracic vertebrae",
+      "cervical vertebrae",
+      "lumbar vertebrae",
+      "sacral vertebrae"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-06-168",
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
-    "subtopic": "Synovial Joints",
+    "subtopic": "Axial Skeleton",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Superior articular processes on thoracic vertebrae have the facet facing in a(n) _____ direction.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "posterior",
+      "anterior",
+      "medial",
+      "lateral"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-06-169",
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
-    "subtopic": "Synovial Joints",
+    "subtopic": "Axial Skeleton",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Inferior articular processes on thoracic vertebrae (except for those of T12) have the facet facing in a(n) _____ direction.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "anterior",
+      "posterior",
+      "lateral",
+      "medial"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-06-170",
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
-    "subtopic": "Synovial Joints",
+    "subtopic": "Axial Skeleton",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Superior articular processes on lumbar vertebrae have the facet facing in a(n) _____ direction.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "medial",
+      "lateral",
+      "anterior",
+      "posterior"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-06-171",
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
-    "subtopic": "Intervertebral Joints",
+    "subtopic": "Axial Skeleton",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Inferior articular processes on lumbar vertebrae have the facet facing in a(n) _____ direction.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "lateral",
+      "medial",
+      "posterior",
+      "anterior"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-06-172",
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
-    "subtopic": "Intervertebral Joints",
+    "subtopic": "Axial Skeleton",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The spinous processes on _____ are short and flat, like an axe blade.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "lumbar vertebrae",
+      "thoracic vertebrae",
+      "cervical vertebrae",
+      "coccygeal vertebrae"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-06-173",
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
-    "subtopic": "Intervertebral Joints",
+    "subtopic": "Axial Skeleton",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The sacrum consist of _____ vertebrae.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "five fused",
+      "four fused",
+      "three fused",
+      "seven fused"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-06-174",
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
-    "subtopic": "Intervertebral Joints",
+    "subtopic": "Axial Skeleton",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The _____ is inferior to the sacrum and articulates with it.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "coccyx",
+      "ilium",
+      "ischium",
+      "fifth lumbar vertebra"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-06-175",
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
-    "subtopic": "Intervertebral Joints",
+    "subtopic": "Axial Skeleton",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "An abnormal mediolateral curvature of the vertebral column is called _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "scoliosis",
+      "kyphosis",
+      "lordosis",
+      "spina bifida"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-06-176",
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
-    "subtopic": "Intervertebral Joints",
+    "subtopic": "Axial Skeleton",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "An abnormal increase in the thoracic curvature of the vertebral column is called _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "kyphosis",
+      "lordosis",
+      "scoliosis",
+      "spondylosis"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-06-177",
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
-    "subtopic": "Intervertebral Joints",
+    "subtopic": "Axial Skeleton",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "An abnormal increase in the lumbar curvature of the vertebral column is called _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "lordosis",
+      "kyphosis",
+      "scoliosis",
+      "spondylolisthesis"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-06-178",
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
-    "subtopic": "Intervertebral Joints",
+    "subtopic": "Axial Skeleton",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The thoracic cage is formed from the _____, _____, _____ and _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "thoracic vertebrae, ribs, costal cartilages, and sternum",
+      "cervical vertebrae, ribs, costal cartilages, and sternum",
+      "thoracic vertebrae, ribs, clavicles, and sternum",
+      "thoracic vertebrae, ribs, costal cartilages, and scapulae"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-06-179",
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
-    "subtopic": "Intervertebral Joints",
+    "subtopic": "Axial Skeleton",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The sternum is formed by the fusion of three bones: the _____, _____, and _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "manubrium, body, xiphoid process",
+      "manubrium, body, coracoid process",
+      "head, shaft, xiphoid process",
+      "manubrium, angle, styloid process"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-06-180",
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
-    "subtopic": "Intervertebral Joints",
+    "subtopic": "Axial Skeleton",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The 'true ribs' are so-called because _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "they are connected directly to the sternum",
+      "they attach only indirectly to the sternum through shared cartilage",
+      "they have no anterior attachment",
+      "they are fused to the thoracic vertebrae"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-06-181",
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
-    "subtopic": "Joints: Types of Movement",
+    "subtopic": "Axial Skeleton",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The 'false ribs' are so-called because _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "they do not connect directly to the sternum",
+      "they connect directly to the sternum",
+      "they do not articulate with vertebrae",
+      "they are made of cartilage rather than bone"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-06-182",
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
-    "subtopic": "Joints: Types of Movement",
+    "subtopic": "Axial Skeleton",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The two false ribs which do not have an anterior connection at all are the _____ ribs.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "floating",
+      "vertebrosternal",
+      "vertebrochondral",
+      "true"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-06-183",
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
-    "subtopic": "Joints: Types of Movement",
+    "subtopic": "Axial Skeleton",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Ribs _____ to _____ are the true ribs.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "1; 7",
+      "1; 5",
+      "1; 10",
+      "8; 12"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-06-184",
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
-    "subtopic": "Joints: Types of Movement",
+    "subtopic": "Axial Skeleton",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The _____ and _____ of each rib articulates with one or more vertebrae.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "head; tubercle",
+      "head; neck",
+      "tubercle; angle",
+      "neck; shaft"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-06-185",
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
-    "subtopic": "Joints: Types of Movement",
+    "subtopic": "Axial Skeleton",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "At birth, sutures are not present and the bones of the fetal skull are connected by _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "fontanels",
+      "synchondroses",
+      "symphyses",
+      "gomphoses"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-06-186",
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
-    "subtopic": "Joints: Types of Movement",
+    "subtopic": "Axial Skeleton",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The _____ fontanel is formed at the intersection formed by the two parietal bones and the two halves of the fetal frontal bone.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "frontal or anterior",
+      "posterior",
+      "mastoid",
+      "sphenoid"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-06-187",
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
-    "subtopic": "Joints: Types of Movement",
+    "subtopic": "Axial Skeleton",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The _____ fontanel is formed at the intersection formed by the two parietal bones and the occipital bone.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "posterior",
+      "frontal or anterior",
+      "mastoid",
+      "sphenoid"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-06-188",
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
-    "subtopic": "Joints: Types of Movement",
+    "subtopic": "Axial Skeleton",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The _____ fontanel is formed at the intersection of a parietal bone, the occipital bone, and a temporal bone.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "mastoid",
+      "sphenoid",
+      "posterior",
+      "frontal or anterior"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-06-189",
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
-    "subtopic": "Joints: Types of Movement",
+    "subtopic": "Axial Skeleton",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The _____ fontanel is formed at the intersection formed by a parietal bone, the frontal bone, a temporal bone, and the sphenoid bone.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "sphenoid",
+      "mastoid",
+      "frontal or anterior",
+      "posterior"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-06-190",
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
-    "subtopic": "Joints: Types of Movement",
+    "subtopic": "Axial Skeleton",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The _____ and _____ in the fetal face are unfused.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "mandible; maxilla",
+      "zygomatic; nasal",
+      "vomer; lacrimal",
+      "palatine; nasal"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-06-191",
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
-    "subtopic": "Aging: Joints",
+    "subtopic": "Axial Skeleton",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The _____ forms the lower part of the nasal septum and is also visible when the skull is viewed inferiorly.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "vomer",
+      "perpendicular plate of the ethmoid",
+      "palatine bone",
+      "inferior nasal concha"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-06-192",
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
-    "subtopic": "Aging: Joints",
+    "subtopic": "Bone Cell Types",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The periosteum's inner layer is composed of _____ whose job is to remodel the surface of the bone.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "osteoblasts and osteoclasts",
+      "osteocytes and chondrocytes",
+      "fibroblasts and adipocytes",
+      "chondroblasts and chondroclasts"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-06-193",
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
-    "subtopic": "Aging: Joints",
+    "subtopic": "Bone Cell Types",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Bone-building cells are called _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "osteoblasts",
+      "osteoclasts",
+      "osteocytes",
+      "chondroblasts"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-06-194",
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
-    "subtopic": "Aging: Joints",
+    "subtopic": "Bone Cell Types",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Cells that dissolve bone are called _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "osteoclasts",
+      "osteoblasts",
+      "osteocytes",
+      "osteoprogenitor cells"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-06-195",
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
-    "subtopic": "Aging: Joints",
+    "subtopic": "Bone Cell Types",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Young, dividing cells usually have names that end in _____; mature cells usually have names that end in _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "-blast; -cyte",
+      "-cyte; -blast",
+      "-clast; -cyte",
+      "-blast; -clast"
     ],
-    "answer_index": 1
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-06-196",
+    "subject": "anatomy_physiology",
+    "topic": "skeletal_system",
+    "subtopic": "Bone Cell Types",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Bones provide support, protection, and leverage for movement: in addition, they serve two other purposes, _____ and _____.",
+    "choices": [
+      "mineral storage; blood formation",
+      "hormone production; thermoregulation",
+      "vitamin D synthesis; gas exchange",
+      "detoxification; nutrient absorption"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-06-197",
+    "subject": "anatomy_physiology",
+    "topic": "skeletal_system",
+    "subtopic": "Bone Cell Types",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "In infants, red marrow, which makes blood cells, is found in the _____ and _____.",
+    "choices": [
+      "medullary cavity; all areas of spongy bone",
+      "diploë of flat bones; heads of the femur and humerus",
+      "yellow marrow; compact bone",
+      "epiphyseal plates; periosteum"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-06-198",
+    "subject": "anatomy_physiology",
+    "topic": "skeletal_system",
+    "subtopic": "Bone Classification",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The tubular shaft that forms the axis of long bones is called the _____, which is composed of _____ bone surrounding a central _____.",
+    "choices": [
+      "diaphysis; compact; medullary cavity",
+      "epiphysis; spongy; medullary cavity",
+      "diaphysis; spongy; articular cavity",
+      "metaphysis; compact; sinus"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-06-199",
+    "subject": "anatomy_physiology",
+    "topic": "skeletal_system",
+    "subtopic": "Bone Classification",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "_____ is found in the central (medullary) cavity of an adult's long bones, and is composed of fat.",
+    "choices": [
+      "Yellow marrow",
+      "Red marrow",
+      "Osteoid",
+      "Diploë"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-06-200",
+    "subject": "anatomy_physiology",
+    "topic": "skeletal_system",
+    "subtopic": "Bone Classification",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The _____ are the expanded ends of long bones: The exterior is _____ bone, and the interior is _____ bone.",
+    "choices": [
+      "epiphyses; compact; spongy",
+      "diaphyses; spongy; compact",
+      "epiphyses; spongy; compact",
+      "metaphyses; compact; osteoid"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-06-201",
+    "subject": "anatomy_physiology",
+    "topic": "skeletal_system",
+    "subtopic": "Bone Classification",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Cancellous bone is found in the _____ of long bones.",
+    "choices": [
+      "epiphyses",
+      "diaphysis",
+      "medullary cavity",
+      "periosteum"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-06-202",
+    "subject": "anatomy_physiology",
+    "topic": "skeletal_system",
+    "subtopic": "Bone Classification",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The exterior surface of the epiphyses of long bones is covered with _____ cartilage.",
+    "choices": [
+      "articular (hyaline)",
+      "fibrocartilage",
+      "elastic",
+      "dense irregular connective tissue"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-06-203",
+    "subject": "anatomy_physiology",
+    "topic": "skeletal_system",
+    "subtopic": "Bone Classification",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The perimeter of the bone is covered with a two-layered membrane called the _____.",
+    "choices": [
+      "periosteum",
+      "endosteum",
+      "perichondrium",
+      "epimysium"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-06-204",
+    "subject": "anatomy_physiology",
+    "topic": "skeletal_system",
+    "subtopic": "Bone Classification",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The periosteum's outer layer is composed of _____.",
+    "choices": [
+      "dense irregular connective tissue",
+      "dense regular connective tissue",
+      "areolar connective tissue",
+      "hyaline cartilage"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-06-205",
+    "subject": "anatomy_physiology",
+    "topic": "skeletal_system",
+    "subtopic": "Bone Classification",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The periosteum is held to the bone by _____ fibers.",
+    "choices": [
+      "Sharpey's (perforating)",
+      "elastic",
+      "reticular",
+      "Purkinje"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-06-206",
+    "subject": "anatomy_physiology",
+    "topic": "skeletal_system",
+    "subtopic": "Bone Classification",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The inner surface of the bone, where it meets the marrow, is covered by a delicate membrane called the _____.",
+    "choices": [
+      "endosteum",
+      "periosteum",
+      "perichondrium",
+      "peritoneum"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-06-207",
+    "subject": "anatomy_physiology",
+    "topic": "skeletal_system",
+    "subtopic": "Bone Classification",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Flat bones contain bone marrow between the _____ (bony bridges of spongy bone).",
+    "choices": [
+      "trabeculae",
+      "osteons",
+      "lamellae",
+      "canaliculi"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-06-208",
+    "subject": "anatomy_physiology",
+    "topic": "skeletal_system",
+    "subtopic": "Bone Classification",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Flat bones are thin plates of periosteum-covered compact bone on the outside with endosteum-covered _____ called _____ on the inside.",
+    "choices": [
+      "spongy bone; diploë",
+      "compact bone; diploë",
+      "spongy bone; trabeculae",
+      "compact bone; osteons"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-06-209",
+    "subject": "anatomy_physiology",
+    "topic": "skeletal_system",
+    "subtopic": "Bone Classification",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "On a bone, a(n) _____ is a structure which protrudes from a bone. These are often named for what they protrude toward.",
+    "choices": [
+      "process",
+      "fossa",
+      "fissure",
+      "facet"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-06-210",
+    "subject": "anatomy_physiology",
+    "topic": "skeletal_system",
+    "subtopic": "Bone Classification",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "On a bone, a(n) _____ is also similar to a process, but is one which articulates with another bone and allows motion between them.",
+    "choices": [
+      "condyle",
+      "tubercle",
+      "crest",
+      "fossa"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-06-211",
+    "subject": "anatomy_physiology",
+    "topic": "skeletal_system",
+    "subtopic": "Bone Classification",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "On a bone, a(n) _____ is a narrow ridge. A(n) _____ is a smaller version.",
+    "choices": [
+      "crest; line",
+      "line; crest",
+      "spine; ramus",
+      "tuberosity; tubercle"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-06-212",
+    "subject": "anatomy_physiology",
+    "topic": "skeletal_system",
+    "subtopic": "Bone Classification",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "On a bone, a(n) _____ is a large, rounded projection. A small, rounded projection is called a(n) _____.",
+    "choices": [
+      "tuberosity; tubercle",
+      "tubercle; tuberosity",
+      "trochanter; epicondyle",
+      "crest; line"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-06-213",
+    "subject": "anatomy_physiology",
+    "topic": "skeletal_system",
+    "subtopic": "Bone Classification",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "On the femur, a(n) _____ refers to a large, blunt, unevenly shaped process.",
+    "choices": [
+      "trochanter",
+      "tuberosity",
+      "tubercle",
+      "epicondyle"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-06-214",
+    "subject": "anatomy_physiology",
+    "topic": "skeletal_system",
+    "subtopic": "Bone Classification",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "A raised area on a condyle is called a(n) _____.",
+    "choices": [
+      "epicondyle",
+      "condyle",
+      "tubercle",
+      "facet"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-06-215",
+    "subject": "anatomy_physiology",
+    "topic": "skeletal_system",
+    "subtopic": "Bone Classification",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "A sharp, axe-like or needle-like projection on a bone is called a(n) _____.",
+    "choices": [
+      "spine",
+      "crest",
+      "trochanter",
+      "ramus"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-06-216",
+    "subject": "anatomy_physiology",
+    "topic": "skeletal_system",
+    "subtopic": "Bone Classification",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "A bony bulb or structure on a narrow neck is called a(n) _____.",
+    "choices": [
+      "head",
+      "condyle",
+      "tubercle",
+      "neck"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-06-217",
+    "subject": "anatomy_physiology",
+    "topic": "skeletal_system",
+    "subtopic": "Bone Classification",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The flat, smooth face on a bone where it meets another bone is called a(n) _____.",
+    "choices": [
+      "facet",
+      "fossa",
+      "condyle",
+      "trochlea"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-06-218",
+    "subject": "anatomy_physiology",
+    "topic": "skeletal_system",
+    "subtopic": "Bone Classification",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Compact bone consists of long, multi-layered cylinders called _____, surrounding a central, blood-vessel and nerve-containing canal called the _____.",
+    "choices": [
+      "osteons; central (Haversian) canal",
+      "trabeculae; perforating (Volkmann's) canal",
+      "lamellae; canaliculus",
+      "lacunae; medullary cavity"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-06-219",
+    "subject": "anatomy_physiology",
+    "topic": "skeletal_system",
+    "subtopic": "Bone Classification",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Blood vessels and nerves may move from one Haversian canal to another by detouring through a(n) _____.",
+    "choices": [
+      "perforating (Volkmann's) canal",
+      "central (Haversian) canal",
+      "canaliculus",
+      "lacuna"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-06-220",
+    "subject": "anatomy_physiology",
+    "topic": "skeletal_system",
+    "subtopic": "Bone Classification",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Osteocytes in lacunae within an osteon maintain contact with one another by extending processes through _____.",
+    "choices": [
+      "canaliculi",
+      "lamellae",
+      "lacunae",
+      "trabeculae"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-06-221",
+    "subject": "anatomy_physiology",
+    "topic": "skeletal_system",
+    "subtopic": "Bone Classification",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The unmineralized, organic substances which makes up roughly 1/3 of the bone matrix is called _____.",
+    "choices": [
+      "osteoid",
+      "hydroxyapatite",
+      "calcium phosphate salts",
+      "yellow marrow"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-06-222",
+    "subject": "anatomy_physiology",
+    "topic": "skeletal_system",
+    "subtopic": "Bone Classification",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "_____ in bone serves several purposes: it provides flexibility, stretch and twist resistance, and - since neighboring molecules are connected by bonds that can break and re-form - shock resistance.",
+    "choices": [
+      "Collagen",
+      "Elastin",
+      "Keratin",
+      "Hydroxyapatite"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-06-223",
+    "subject": "anatomy_physiology",
+    "topic": "skeletal_system",
+    "subtopic": "Bone Classification",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The fibers in adjacent lamella within an osteon spiral in _____ to provide resistance to twisting forces.",
+    "choices": [
+      "different (alternating) directions",
+      "the same direction",
+      "random, unorganized directions",
+      "a direction parallel to the central canal only"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-06-224",
+    "subject": "anatomy_physiology",
+    "topic": "skeletal_system",
+    "subtopic": "Bone Classification",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "_____ is responsible for bone hardness and its resistance to compression.",
+    "choices": [
+      "Hydroxyapatite",
+      "Collagen",
+      "Osteoid",
+      "Proteoglycans"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-06-225",
+    "subject": "anatomy_physiology",
+    "topic": "skeletal_system",
+    "subtopic": "Bone Development and Growth",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "When, during development, bone forms within a fibrous membrane, the process is called _____.",
+    "choices": [
+      "intramembranous ossification",
+      "endochondral ossification",
+      "appositional growth",
+      "interstitial growth"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-06-226",
+    "subject": "anatomy_physiology",
+    "topic": "skeletal_system",
+    "subtopic": "Bone Development and Growth",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Most bone is formed by calcification of hyaline cartilage, a process called _____.",
+    "choices": [
+      "endochondral ossification",
+      "intramembranous ossification",
+      "appositional growth",
+      "interstitial growth"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-06-227",
+    "subject": "anatomy_physiology",
+    "topic": "skeletal_system",
+    "subtopic": "Bone Development and Growth",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "During long bone formation, calcification of the _____ begins before any other region of the bone.",
+    "choices": [
+      "diaphysis",
+      "epiphyses",
+      "epiphyseal plates",
+      "articular cartilage"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-06-228",
+    "subject": "anatomy_physiology",
+    "topic": "skeletal_system",
+    "subtopic": "Bone Development and Growth",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Long bones get thicker in a process called _____ growth, which is the task of the osteoblasts in the _____.",
+    "choices": [
+      "appositional; periosteum",
+      "interstitial; endosteum",
+      "appositional; endosteum",
+      "interstitial; periosteum"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-06-229",
+    "subject": "anatomy_physiology",
+    "topic": "skeletal_system",
+    "subtopic": "Bone Development and Growth",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The length of long bones is increased by calcification of cartilage within each epiphysis, on the cartilage surface that is __________ the diaphysis.",
+    "choices": [
+      "closest to the diaphysis",
+      "farthest from the diaphysis"
+    ],
+    "answer_index": 0,
+    "shuffle": false
+  },
+  {
+    "id": "bio-anat-06-230",
+    "subject": "anatomy_physiology",
+    "topic": "skeletal_system",
+    "subtopic": "Bone Development and Growth",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "A 'remodeling unit' in a bone consists of an adjacent _____ and _____.",
+    "choices": [
+      "osteoblast; osteoclast",
+      "osteocyte; osteoblast",
+      "osteoclast; chondroblast",
+      "osteocyte; chondrocyte"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-06-231",
+    "subject": "anatomy_physiology",
+    "topic": "skeletal_system",
+    "subtopic": "Bone Development and Growth",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Remodeling units are found at the _____ and _____ surfaces.",
+    "choices": [
+      "periosteal; endosteal",
+      "epiphyseal; diaphyseal",
+      "articular; medullary",
+      "trabecular; lamellar"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-06-232",
+    "subject": "anatomy_physiology",
+    "topic": "skeletal_system",
+    "subtopic": "Bone Development and Growth",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Resorption involves osteoclast secretion of _____ that convert calcium salts into soluble forms and _____ that digest the organic matrix (collagen, etc.).",
+    "choices": [
+      "acids; lysosomal enzymes",
+      "alkaline phosphatase; collagenase",
+      "bicarbonate ions; amylases",
+      "calcitonin; proteases"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-06-233",
+    "subject": "anatomy_physiology",
+    "topic": "skeletal_system",
+    "subtopic": "Bone Development and Growth",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "In children, long bone growth occurs primarily at the _____.",
+    "choices": [
+      "epiphyseal plate",
+      "epiphyseal line",
+      "articular cartilage",
+      "medullary cavity"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-06-234",
+    "subject": "anatomy_physiology",
+    "topic": "skeletal_system",
+    "subtopic": "Bone Development and Growth",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The epiphyseal plate is replaced by bone to form the epiphyseal line under the influence of _____.",
+    "choices": [
+      "sex hormones",
+      "growth hormone",
+      "thyroid hormone",
+      "parathyroid hormone"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-06-235",
+    "subject": "anatomy_physiology",
+    "topic": "skeletal_system",
+    "subtopic": "Bone Development and Growth",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Formation of gender-specific skeletal structures (wide hips in female, etc.) are triggered by _____.",
+    "choices": [
+      "sex hormones",
+      "growth hormone",
+      "calcitonin",
+      "cortisol"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-06-236",
+    "subject": "anatomy_physiology",
+    "topic": "skeletal_system",
+    "subtopic": "Bone Development and Growth",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Two types of signal induce bone remodeling: _____ and _____.",
+    "choices": [
+      "hormonal signals; mechanical stress",
+      "neural impulses; temperature changes",
+      "electrical currents; pH changes",
+      "immune signals; osmotic pressure"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-06-237",
+    "subject": "anatomy_physiology",
+    "topic": "skeletal_system",
+    "subtopic": "Bone Development and Growth",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "_____ results from over-active bone remodeling. The result is too much spongy bone (and too little compact bone) and bone deformities due to the formation of new structures.",
+    "choices": [
+      "Paget's disease",
+      "Osteoporosis",
+      "Osteomalacia",
+      "Osteosarcoma"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-06-238",
+    "subject": "anatomy_physiology",
+    "topic": "skeletal_system",
+    "subtopic": "Bone Development and Growth",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Ossification of the skeleton occurs in such a predictable pattern that it can be used to determine fetal ______.",
+    "choices": [
+      "fetal age",
+      "fetal sex",
+      "fetal blood type",
+      "fetal muscle mass"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-06-239",
+    "subject": "anatomy_physiology",
+    "topic": "skeletal_system",
+    "subtopic": "Bone Development and Growth",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Skeletal cartilage is enclosed by the _____, which is made of _____, so that it can resist outward expansion.",
+    "choices": [
+      "perichondrium; dense irregular connective tissue",
+      "periosteum; dense regular connective tissue",
+      "perichondrium; areolar connective tissue",
+      "endosteum; dense irregular connective tissue"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-06-240",
+    "subject": "anatomy_physiology",
+    "topic": "skeletal_system",
+    "subtopic": "Bone Development and Growth",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "In _____ growth, cells in the perichondrium secrete matrix against the external face of existing cartilage.",
+    "choices": [
+      "appositional",
+      "interstitial",
+      "endochondral",
+      "intramembranous"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-06-241",
+    "subject": "anatomy_physiology",
+    "topic": "skeletal_system",
+    "subtopic": "Bone Development and Growth",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "In _____ growth, lacunae-bound chondrocytes divide and secrete new matrix.",
+    "choices": [
+      "interstitial",
+      "appositional",
+      "endochondral",
+      "intramembranous"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-06-242",
+    "subject": "anatomy_physiology",
+    "topic": "skeletal_system",
+    "subtopic": "Bone Fractures",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "A bone break that shatters the bone into several pieces is a(n) _____ fracture.",
+    "choices": [
+      "comminuted",
+      "compression",
+      "spiral",
+      "greenstick"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-06-243",
+    "subject": "anatomy_physiology",
+    "topic": "skeletal_system",
+    "subtopic": "Bone Fractures",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "A crushing injury to a bone is a(n) _____ fracture.",
+    "choices": [
+      "compression",
+      "comminuted",
+      "impacted",
+      "depression"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-06-244",
+    "subject": "anatomy_physiology",
+    "topic": "skeletal_system",
+    "subtopic": "Bone Fractures",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "A fracture resulting from twisting is a(n) _____ fracture.",
+    "choices": [
+      "spiral",
+      "oblique",
+      "greenstick",
+      "comminuted"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-06-245",
+    "subject": "anatomy_physiology",
+    "topic": "skeletal_system",
+    "subtopic": "Bone Fractures",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Separation of the diaphysis and epiphysis is a(n) _____ fracture (and occurs in children).",
+    "choices": [
+      "epiphyseal",
+      "greenstick",
+      "spiral",
+      "compression"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-06-246",
+    "subject": "anatomy_physiology",
+    "topic": "skeletal_system",
+    "subtopic": "Bone Fractures",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "A blow to the head often results in a(n) _____ fracture.",
+    "choices": [
+      "depression",
+      "compression",
+      "comminuted",
+      "greenstick"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-06-247",
+    "subject": "anatomy_physiology",
+    "topic": "skeletal_system",
+    "subtopic": "Bone Fractures",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "An incomplete break is called a(n) _____ fracture.",
+    "choices": [
+      "greenstick",
+      "comminuted",
+      "compound",
+      "transverse"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-06-248",
+    "subject": "anatomy_physiology",
+    "topic": "skeletal_system",
+    "subtopic": "Bone Fractures",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Put the following events of fracture repair in the correct order: (i) spongy bone formation (ii) bone remodeling (iii) hemotoma formation (iv) fibrocartilage deposition and capillary formation <Note: do not memorize the letter-order in the answer to this question, know the events!>",
+    "choices": [
+      "iii, iv, i, ii",
+      "iii, i, iv, ii",
+      "iv, iii, i, ii",
+      "iii, iv, ii, i"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-06-249",
+    "subject": "anatomy_physiology",
+    "topic": "skeletal_system",
+    "subtopic": "Joints",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Inter-vertebral articulation of thoracic vertebrae allows _____ <what motion(s)>.",
+    "choices": [
+      "rotation",
+      "flexion and extension",
+      "circumduction",
+      "hyperextension"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-06-250",
+    "subject": "anatomy_physiology",
+    "topic": "skeletal_system",
+    "subtopic": "Joints",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Inter-vertebral articulation of lumbar vertebrae allows _____ <what motion(s)>.",
+    "choices": [
+      "flexion and extension",
+      "rotation",
+      "circumduction",
+      "elevation and depression"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-06-251",
+    "subject": "anatomy_physiology",
+    "topic": "skeletal_system",
+    "subtopic": "Joints",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Continuous bands of connective tissue which cover the front and back of the vertebral column are called the _____.",
+    "choices": [
+      "anterior and posterior longitudinal ligaments",
+      "ligamenta flava",
+      "supraspinous and interspinous ligaments",
+      "ligamentum nuchae"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-06-252",
+    "subject": "anatomy_physiology",
+    "topic": "skeletal_system",
+    "subtopic": "Joints",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The _____ is the inner gelatinous core of an intervertebral disc.",
+    "choices": [
+      "nucleus pulposus",
+      "annulus fibrosus",
+      "ligamentum flavum",
+      "vertebral endplate"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-06-253",
+    "subject": "anatomy_physiology",
+    "topic": "skeletal_system",
+    "subtopic": "Joints",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The _____ is the outer, fibrocartilage layer of an intervertebral disc.",
+    "choices": [
+      "annulus fibrosus",
+      "nucleus pulposus",
+      "anterior longitudinal ligament",
+      "periosteum"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-06-254",
+    "subject": "anatomy_physiology",
+    "topic": "skeletal_system",
+    "subtopic": "Joints",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "A(n) _____, or joint, is any site where two bones meet.",
+    "choices": [
+      "articulation",
+      "synostosis",
+      "symphysis",
+      "suture"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-06-255",
+    "subject": "anatomy_physiology",
+    "topic": "skeletal_system",
+    "subtopic": "Joints",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Joints are classified by two criteria: _____ and _____.",
+    "choices": [
+      "structure; function",
+      "location; mobility",
+      "size; shape",
+      "tissue type; age"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-06-256",
+    "subject": "anatomy_physiology",
+    "topic": "skeletal_system",
+    "subtopic": "Joints",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The three structural classifications for joints are _____, _____, and _____.",
+    "choices": [
+      "fibrous; cartilaginous; synovial",
+      "synarthrotic; amphiarthrotic; diarthrotic",
+      "fibrous; bony; synovial",
+      "hyaline; fibrous; elastic"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-06-257",
+    "subject": "anatomy_physiology",
+    "topic": "skeletal_system",
+    "subtopic": "Joints",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The three functional classifications for joints are _____, _____, and _____.",
+    "choices": [
+      "synarthrotic; amphiarthrotic; diarthrotic",
+      "fibrous; cartilaginous; synovial",
+      "synarthrotic; diarthrotic; synovial",
+      "amphiarthrotic; fibrous; cartilaginous"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-06-258",
+    "subject": "anatomy_physiology",
+    "topic": "skeletal_system",
+    "subtopic": "Joints",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "A joint that is immobile is a(n) _____ joint.",
+    "choices": [
+      "synarthrotic",
+      "amphiarthrotic",
+      "diarthrotic",
+      "synovial"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-06-259",
+    "subject": "anatomy_physiology",
+    "topic": "skeletal_system",
+    "subtopic": "Joints",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "A joint that allows only a small amount of movement is a(n) _____ joint.",
+    "choices": [
+      "amphiarthrotic",
+      "synarthrotic",
+      "diarthrotic",
+      "fibrous"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-06-260",
+    "subject": "anatomy_physiology",
+    "topic": "skeletal_system",
+    "subtopic": "Joints",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "A freely movable joint is a(n) _____ joint.",
+    "choices": [
+      "diarthrotic",
+      "amphiarthrotic",
+      "synarthrotic",
+      "cartilaginous"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-06-261",
+    "subject": "anatomy_physiology",
+    "topic": "skeletal_system",
+    "subtopic": "Joints",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "For _____ joints, there is no joint cavity and the joints themselves are synarthrotic or at most amphiarthrotic. The bones are joined by fibrous connective tissue and their function is more to prevent separation than to resist compression.",
+    "choices": [
+      "fibrous",
+      "cartilaginous",
+      "synovial",
+      "bony"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-06-262",
+    "subject": "anatomy_physiology",
+    "topic": "skeletal_system",
+    "subtopic": "Joints",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Sutures are joints that are _____ (function) and _____ (structure).",
+    "choices": [
+      "synarthrotic; fibrous",
+      "amphiarthrotic; fibrous",
+      "synarthrotic; cartilaginous",
+      "diarthrotic; synovial"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-06-263",
+    "subject": "anatomy_physiology",
+    "topic": "skeletal_system",
+    "subtopic": "Joints",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "If the fibrous connective tissue in a suture is lost and the bones completely fuse (as often happens in late adulthood), the joint is called a(n) _____ instead of a suture.",
+    "choices": [
+      "synostosis",
+      "synchondrosis",
+      "syndesmosis",
+      "symphysis"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-06-264",
+    "subject": "anatomy_physiology",
+    "topic": "skeletal_system",
+    "subtopic": "Joints",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "If the connective tissue in any joint is lost and the bones fuse (as when a child stops growing and the ephyseal plate forms the epiphyseal line), the result is a(n) _____.",
+    "choices": [
+      "synostosis",
+      "synchondrosis",
+      "symphysis",
+      "gomphosis"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-06-265",
+    "subject": "anatomy_physiology",
+    "topic": "skeletal_system",
+    "subtopic": "Joints",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "_____ are fibrous joints that are either synarthrotic or amphiarthrotic: the bones are connected by a ligament. Examples include the articulations of the tibia with the fibula.",
+    "choices": [
+      "Syndesmoses",
+      "Sutures",
+      "Gomphoses",
+      "Symphyses"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-06-266",
+    "subject": "anatomy_physiology",
+    "topic": "skeletal_system",
+    "subtopic": "Joints",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Articulations of the alveolar sockets of the mandible or maxilla with the teeth are _____.",
+    "choices": [
+      "gomphoses",
+      "syndesmoses",
+      "sutures",
+      "synchondroses"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-06-267",
+    "subject": "anatomy_physiology",
+    "topic": "skeletal_system",
+    "subtopic": "Joints",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Gomphoses are classified as _____ (function) and _____ (structure).",
+    "choices": [
+      "synarthrotic; fibrous",
+      "amphiarthrotic; fibrous",
+      "synarthrotic; cartilaginous",
+      "diarthrotic; synovial"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-06-268",
+    "subject": "anatomy_physiology",
+    "topic": "skeletal_system",
+    "subtopic": "Joints",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The ligament that connects a tooth to an alveolar socket is called a(n) _____ ligament.",
+    "choices": [
+      "periodontal",
+      "annular",
+      "alveolar",
+      "interosseous"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-06-269",
+    "subject": "anatomy_physiology",
+    "topic": "skeletal_system",
+    "subtopic": "Joints",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "For _____ joints, there is no joint cavity and the bones are united by cartilage which functions to resist compression as well as prevent separation.",
+    "choices": [
+      "cartilaginous",
+      "fibrous",
+      "synovial",
+      "bony"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-06-270",
+    "subject": "anatomy_physiology",
+    "topic": "skeletal_system",
+    "subtopic": "Joints",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "When two bones are joined by hyaline cartilage which does not permit any movement to occur between them, the joint is called a(n) _____. An example would be the joints between the diaphyses and epiphyses of a child's long bones.",
+    "choices": [
+      "synchondrosis",
+      "symphysis",
+      "synostosis",
+      "syndesmosis"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-06-271",
+    "subject": "anatomy_physiology",
+    "topic": "skeletal_system",
+    "subtopic": "Joints",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "In _____, hyaline cartilage covers the articulating surface of the bone and is fused to an intervening pad of fibrocartilage. As a result, the joint resists compression and separation while still allowing limited movement. The best examples are the _____.",
+    "choices": [
+      "symphyses; intervertebral joints",
+      "synchondroses; epiphyseal plates",
+      "syndesmoses; distal tibiofibular joints",
+      "sutures; joints of the skull"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-06-272",
+    "subject": "anatomy_physiology",
+    "topic": "skeletal_system",
+    "subtopic": "Joints",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Most joints in the body are _____.",
+    "choices": [
+      "synovial",
+      "fibrous",
+      "cartilaginous",
+      "synarthrotic"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-06-273",
+    "subject": "anatomy_physiology",
+    "topic": "skeletal_system",
+    "subtopic": "Joints",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "In synovial joints, the articulation of the bones is _____.",
+    "choices": [
+      "enclosed in a fluid-containing cavity",
+      "fused by fibrous connective tissue",
+      "joined directly by hyaline cartilage",
+      "connected by an interosseous ligament"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-06-274",
+    "subject": "anatomy_physiology",
+    "topic": "skeletal_system",
+    "subtopic": "Joints",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Synovial joints all include a layer of _____ covering the articulating bones, as well as a joint cavity filled with _____ and surrounded by a(n) _____. In addition, they are always strengthened by _____.",
+    "choices": [
+      "articular cartilage; synovial fluid; articular capsule; reinforcing ligaments",
+      "fibrocartilage; synovial fluid; synovial membrane; tendons",
+      "articular cartilage; serous fluid; periosteum; reinforcing ligaments",
+      "hyaline membrane; interstitial fluid; articular capsule; muscle tone"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-06-275",
+    "subject": "anatomy_physiology",
+    "topic": "skeletal_system",
+    "subtopic": "Joints",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The stability of synovial joints is provided by _____, _____, and _____.",
+    "choices": [
+      "shape of the articular surface; ligaments; muscle tone",
+      "synovial fluid; bursae; tendon sheaths",
+      "menisci; fat pads; articular cartilage",
+      "joint cavity; synovial membrane; periosteum"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-06-276",
+    "subject": "anatomy_physiology",
+    "topic": "skeletal_system",
+    "subtopic": "Joints",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "_____ are flattened, fibrous sacs lined with synovial membranes and containing synovial fluid.",
+    "choices": [
+      "Bursae",
+      "Tendon sheaths",
+      "Menisci",
+      "Articular capsules"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-06-277",
+    "subject": "anatomy_physiology",
+    "topic": "skeletal_system",
+    "subtopic": "Joints",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "_____ are common where ligaments, muscles, skin, tendons, or bones rub together, and allow for friction-free movement.",
+    "choices": [
+      "Bursae",
+      "Menisci",
+      "Ligaments",
+      "Fat pads"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-06-278",
+    "subject": "anatomy_physiology",
+    "topic": "skeletal_system",
+    "subtopic": "Joints",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "A(n) _____ is an elongated bursa that wraps completely around a tendon, allowing it to slide and roll without friction and protecting it from damage due to contact with adjacent structures.",
+    "choices": [
+      "tendon sheath",
+      "bursa",
+      "meniscus",
+      "retinaculum"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-06-279",
+    "subject": "anatomy_physiology",
+    "topic": "skeletal_system",
+    "subtopic": "Joints",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Movements of synovial joints are classified according to way in which they move around a(n) _____.",
+    "choices": [
+      "axis",
+      "plane",
+      "fulcrum",
+      "lever"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-06-280",
+    "subject": "anatomy_physiology",
+    "topic": "skeletal_system",
+    "subtopic": "Joints",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Bending the knee is _____ of the knee.",
+    "choices": [
+      "flexion",
+      "extension",
+      "abduction",
+      "rotation"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-06-281",
+    "subject": "anatomy_physiology",
+    "topic": "skeletal_system",
+    "subtopic": "Joints",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Straightening the knee is _____ of the knee.",
+    "choices": [
+      "extension",
+      "flexion",
+      "adduction",
+      "circumduction"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-06-282",
+    "subject": "anatomy_physiology",
+    "topic": "skeletal_system",
+    "subtopic": "Joints",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Moving the elbow dorsally is ____ of the shoulder.",
+    "choices": [
+      "extension",
+      "flexion",
+      "abduction",
+      "adduction"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-06-283",
+    "subject": "anatomy_physiology",
+    "topic": "skeletal_system",
+    "subtopic": "Joints",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Moving the elbow ventrally is _____ of the shoulder.",
+    "choices": [
+      "flexion",
+      "extension",
+      "abduction",
+      "adduction"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-06-284",
+    "subject": "anatomy_physiology",
+    "topic": "skeletal_system",
+    "subtopic": "Joints",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Bending forward at the waist is _____ of the trunk.",
+    "choices": [
+      "flexion",
+      "extension",
+      "hyperextension",
+      "lateral flexion"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-06-285",
+    "subject": "anatomy_physiology",
+    "topic": "skeletal_system",
+    "subtopic": "Joints",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Bending backward at the waist is _____ of the trunk.",
+    "choices": [
+      "hyperextension",
+      "flexion",
+      "extension",
+      "rotation"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-06-286",
+    "subject": "anatomy_physiology",
+    "topic": "skeletal_system",
+    "subtopic": "Joints",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Tilting the chin downward is _____ of the neck.",
+    "choices": [
+      "flexion",
+      "extension",
+      "hyperextension",
+      "lateral flexion"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-06-287",
+    "subject": "anatomy_physiology",
+    "topic": "skeletal_system",
+    "subtopic": "Joints",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Tilting the head back to look at the ceiling requires _____ of the neck.",
+    "choices": [
+      "hyperextension",
+      "extension",
+      "flexion",
+      "rotation"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-06-288",
+    "subject": "anatomy_physiology",
+    "topic": "skeletal_system",
+    "subtopic": "Joints",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Lifting the toes toward the back of the foot and the shin is _____ of the foot.",
+    "choices": [
+      "dorsiflexion",
+      "plantar flexion",
+      "inversion",
+      "eversion"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-06-289",
+    "subject": "anatomy_physiology",
+    "topic": "skeletal_system",
+    "subtopic": "Joints",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Extending the toes (e.g., tip-toeing) is _____ of the foot.",
+    "choices": [
+      "plantar flexion",
+      "dorsiflexion",
+      "eversion",
+      "pronation"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-06-290",
+    "subject": "anatomy_physiology",
+    "topic": "skeletal_system",
+    "subtopic": "Joints",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Moving the limbs (or fingers) apart, away from the midline, is _____.",
+    "choices": [
+      "abduction",
+      "adduction",
+      "circumduction",
+      "rotation"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-06-291",
+    "subject": "anatomy_physiology",
+    "topic": "skeletal_system",
+    "subtopic": "Joints",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Moving the limbs (or fingers) together or toward the midline ('adding' them together, as it were) is _____.",
+    "choices": [
+      "adduction",
+      "abduction",
+      "opposition",
+      "retraction"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-06-292",
+    "subject": "anatomy_physiology",
+    "topic": "skeletal_system",
+    "subtopic": "Joints",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Moving the hand or foot in a circular path, so that the outer surface of a cone is followed by the limb itself, is called _____.",
+    "choices": [
+      "circumduction",
+      "rotation",
+      "abduction",
+      "supination"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-06-293",
+    "subject": "anatomy_physiology",
+    "topic": "skeletal_system",
+    "subtopic": "Joints",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "_____ rotation of the arm or leg so that the thumb or great toe moves toward the opposite limb.",
+    "choices": [
+      "Medial",
+      "Lateral",
+      "Dorsal",
+      "Ventral"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-06-294",
+    "subject": "anatomy_physiology",
+    "topic": "skeletal_system",
+    "subtopic": "Joints",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "_____ rotation moves the thumb or great toe to a position pointing away from the opposite limb.",
+    "choices": [
+      "Lateral",
+      "Medial",
+      "Dorsal",
+      "Ventral"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-06-295",
+    "subject": "anatomy_physiology",
+    "topic": "skeletal_system",
+    "subtopic": "Joints",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Shaking the head is an example of _____.",
+    "choices": [
+      "rotation",
+      "circumduction",
+      "lateral flexion",
+      "protraction"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-06-296",
+    "subject": "anatomy_physiology",
+    "topic": "skeletal_system",
+    "subtopic": "Joints",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Turning the palm so that the radius and ulna are parallel (as you must do to hold, for example, a bowl of soup in the palm of your hand) is _____.",
+    "choices": [
+      "supination",
+      "pronation",
+      "opposition",
+      "eversion"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-06-297",
+    "subject": "anatomy_physiology",
+    "topic": "skeletal_system",
+    "subtopic": "Joints",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Turning the palm so that the radius rotates over the ulna is _____.",
+    "choices": [
+      "pronation",
+      "supination",
+      "inversion",
+      "opposition"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-06-298",
+    "subject": "anatomy_physiology",
+    "topic": "skeletal_system",
+    "subtopic": "Joints",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "To stand on the lateral edge of your foot, you would need to _____ your foot.",
+    "choices": [
+      "invert",
+      "evert",
+      "dorsiflex",
+      "plantar flex"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-06-299",
+    "subject": "anatomy_physiology",
+    "topic": "skeletal_system",
+    "subtopic": "Joints",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "To stand on the medial edge of your foot, you would need to _____ your foot.",
+    "choices": [
+      "evert",
+      "invert",
+      "pronate",
+      "dorsiflex"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-06-300",
+    "subject": "anatomy_physiology",
+    "topic": "skeletal_system",
+    "subtopic": "Joints",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Closing your mouth and shrugging your shoulders are both examples of _____.",
+    "choices": [
+      "elevation",
+      "depression",
+      "protraction",
+      "retraction"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-06-301",
+    "subject": "anatomy_physiology",
+    "topic": "skeletal_system",
+    "subtopic": "Joints",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Opening your mouth or lowering your shoulders are both examples of _____.",
+    "choices": [
+      "depression",
+      "elevation",
+      "retraction",
+      "protraction"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-06-302",
+    "subject": "anatomy_physiology",
+    "topic": "skeletal_system",
+    "subtopic": "Joints",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Jutting your jaw forward is an example of _____.",
+    "choices": [
+      "protraction",
+      "retraction",
+      "elevation",
+      "opposition"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-06-303",
+    "subject": "anatomy_physiology",
+    "topic": "skeletal_system",
+    "subtopic": "Joints",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Pulling your jaw backward, toward the ear, is an example of _____.",
+    "choices": [
+      "retraction",
+      "protraction",
+      "depression",
+      "elevation"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-06-304",
+    "subject": "anatomy_physiology",
+    "topic": "skeletal_system",
+    "subtopic": "Joints",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Touching the thumb to a finger of the same hand is called _____.",
+    "choices": [
+      "opposition",
+      "reposition",
+      "adduction",
+      "circumduction"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-06-305",
+    "subject": "anatomy_physiology",
+    "topic": "skeletal_system",
+    "subtopic": "Joints",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "A(n) _____ connects a bone to a muscle, while a(n) _____ connects two bones or connects an organ to an anchoring point.",
+    "choices": [
+      "tendon; ligament",
+      "ligament; tendon",
+      "aponeurosis; retinaculum",
+      "fascia; bursa"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-06-306",
+    "subject": "anatomy_physiology",
+    "topic": "skeletal_system",
+    "subtopic": "Joints",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "_____ prevent side to side movement in the elbow.",
+    "choices": [
+      "Ligaments",
+      "Tendons",
+      "Bursae",
+      "Menisci"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-06-307",
+    "subject": "anatomy_physiology",
+    "topic": "skeletal_system",
+    "subtopic": "Joints",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Much of the support for the elbow is supplied by _____ which cross and support the joint.",
+    "choices": [
+      "the tendons of several muscles",
+      "the annular ligament",
+      "the interosseous membrane",
+      "the joint capsule alone"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-06-308",
+    "subject": "anatomy_physiology",
+    "topic": "skeletal_system",
+    "subtopic": "Joints",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Stability of the elbow is provided by both _____ and _____.",
+    "choices": [
+      "tendons; ligaments",
+      "bursae; menisci",
+      "articular cartilage; synovial fluid",
+      "bone shape; joint capsule"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-06-309",
+    "subject": "anatomy_physiology",
+    "topic": "skeletal_system",
+    "subtopic": "Joints",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Supination and pronation of the forearm are allowed by rotation of the radial head within the _____.",
+    "choices": [
+      "annular ligament",
+      "radial collateral ligament",
+      "ulnar collateral ligament",
+      "interosseous membrane"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-06-310",
+    "subject": "anatomy_physiology",
+    "topic": "skeletal_system",
+    "subtopic": "Joints",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "At full extension, _____ resulting in a 'locked' knee that resists bending in the absence of muscle contraction.",
+    "choices": [
+      "the femur spins medially relative to the tibia",
+      "the femur spins laterally relative to the tibia",
+      "the menisci slide anteriorly out of the joint",
+      "the cruciate ligaments go slack"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-06-311",
+    "subject": "anatomy_physiology",
+    "topic": "skeletal_system",
+    "subtopic": "Joints",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The main movements that present a danger of knee injury are abnormal _____ or _____.",
+    "choices": [
+      "hyperextension; rotation",
+      "flexion; extension",
+      "abduction; circumduction",
+      "dorsiflexion; plantar flexion"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-06-312",
+    "subject": "anatomy_physiology",
+    "topic": "skeletal_system",
+    "subtopic": "Joints",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "_____ are the main stabilizers of the knee.",
+    "choices": [
+      "Muscles",
+      "Ligaments",
+      "Menisci",
+      "Bursae"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-06-313",
+    "subject": "anatomy_physiology",
+    "topic": "skeletal_system",
+    "subtopic": "Joints",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The fibrocartilage pads at the top of the tibia, called _____, are common sites of knee injury.",
+    "choices": [
+      "menisci",
+      "bursae",
+      "fat pads",
+      "labra"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-06-314",
+    "subject": "anatomy_physiology",
+    "topic": "skeletal_system",
+    "subtopic": "Joints",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Two small ligaments which cross one another in the center of the knee are often torn. These are the anterior and posterior _____ ligaments. \"Anterior\" and \"posterior\" refer to the position at which they attach to the _____.",
+    "choices": [
+      "cruciate; tibia",
+      "cruciate; femur",
+      "collateral; tibia",
+      "collateral; femur"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-06-315",
+    "subject": "anatomy_physiology",
+    "topic": "skeletal_system",
+    "subtopic": "Joints",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The glenoid fossa is very shallow. This has two effects: shoulder movement is _____, and the joint itself is _____.",
+    "choices": [
+      "maximized; destabilized",
+      "maximized; stabilized",
+      "minimized; destabilized",
+      "minimized; stabilized"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-06-316",
+    "subject": "anatomy_physiology",
+    "topic": "skeletal_system",
+    "subtopic": "Joints",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "While ligaments help to stabilize the shoulder, most stability is provided by _____.",
+    "choices": [
+      "tendons",
+      "the glenoid labrum",
+      "the shape of the articular surfaces",
+      "the joint capsule"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-06-317",
+    "subject": "anatomy_physiology",
+    "topic": "skeletal_system",
+    "subtopic": "Joints",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The two groups of tendons which provide shoulder stability are the _____ and the four tendons which collectively are called the _____.",
+    "choices": [
+      "tendon of the biceps brachii; rotator cuff",
+      "tendon of the deltoid; rotator cuff",
+      "tendon of the biceps brachii; annular ligament",
+      "tendon of the triceps brachii; glenoid labrum"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-06-318",
+    "subject": "anatomy_physiology",
+    "topic": "skeletal_system",
+    "subtopic": "Joints",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Most of the stability of the hip is due to _____.",
+    "choices": [
+      "the shape of the articular surfaces themselves",
+      "reinforcing ligaments",
+      "the tendons of crossing muscles",
+      "muscle tone"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-06-319",
+    "subject": "anatomy_physiology",
+    "topic": "skeletal_system",
+    "subtopic": "Joints",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The second most important contributor to the stability of the hip is _____.",
+    "choices": [
+      "a group of ligaments which hold the femur into the acetabulum",
+      "the tendons of several crossing muscles",
+      "the menisci of the hip joint",
+      "muscle tone alone"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-06-320",
+    "subject": "anatomy_physiology",
+    "topic": "skeletal_system",
+    "subtopic": "Joints",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The depth of the acetabulum is enhanced by _____.",
+    "choices": [
+      "the acetabular labrum",
+      "the ligamentum teres",
+      "the iliofemoral ligament",
+      "the glenoid labrum"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-06-321",
+    "subject": "anatomy_physiology",
+    "topic": "skeletal_system",
+    "subtopic": "Joints",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "One of the ligaments of the hip is exceptionally important because _____.",
+    "choices": [
+      "it contains an artery which supplies blood to the head of the femur",
+      "it is the strongest ligament in the body",
+      "it completely prevents rotation of the hip",
+      "it deepens the socket of the acetabulum"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-06-322",
+    "subject": "anatomy_physiology",
+    "topic": "skeletal_system",
+    "subtopic": "Joints",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "A sprain is due to _____.",
+    "choices": [
+      "stretching or tearing of the ligaments of a joint",
+      "stretching or tearing of a muscle or its tendon",
+      "forcible separation of articulating bones",
+      "inflammation of the bursae"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-06-323",
+    "subject": "anatomy_physiology",
+    "topic": "skeletal_system",
+    "subtopic": "Joints",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Cartilage damage is a problem because, since it is avascular, _____.",
+    "choices": [
+      "cartilage cannot repair itself",
+      "cartilage ossifies when damaged",
+      "cartilage swells with synovial fluid",
+      "cartilage triggers an autoimmune response"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-06-324",
+    "subject": "anatomy_physiology",
+    "topic": "skeletal_system",
+    "subtopic": "Joints",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Cartilage fragments created by damage can cause _____.",
+    "choices": [
+      "interference with joint mobility",
+      "rapid ossification of the joint",
+      "overproduction of synovial fluid",
+      "rupture of nearby ligaments"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-06-325",
+    "subject": "anatomy_physiology",
+    "topic": "skeletal_system",
+    "subtopic": "Joints",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Most cartilage injuries must be treated with _____.",
+    "choices": [
+      "surgery",
+      "rest and immobilization",
+      "anti-inflammatory drugs",
+      "physical therapy"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-06-326",
+    "subject": "anatomy_physiology",
+    "topic": "skeletal_system",
+    "subtopic": "Joints",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "When two bones that normally articulate are separated forcibly, the injury is called a(n) _____. If the separation is incomplete (the bones resume their normal position in at least some angles of joint flexion), the disorder is called _____.",
+    "choices": [
+      "dislocation; subluxation",
+      "subluxation; dislocation",
+      "sprain; strain",
+      "dislocation; sprain"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-06-327",
+    "subject": "anatomy_physiology",
+    "topic": "skeletal_system",
+    "subtopic": "Joints",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Bursitis is inflammation or irritation of the _____, which leads to mild to severe pain when the joint is flexed.",
+    "choices": [
+      "bursae",
+      "tendons",
+      "ligaments",
+      "menisci"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-06-328",
+    "subject": "anatomy_physiology",
+    "topic": "skeletal_system",
+    "subtopic": "Joints",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Tendinitis refers to inflammation of a(n) _____.",
+    "choices": [
+      "tendon",
+      "tendon sheath",
+      "ligament",
+      "bursa"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-06-329",
+    "subject": "anatomy_physiology",
+    "topic": "skeletal_system",
+    "subtopic": "Joints",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Tenosynovitis refers to inflammation of a(n) _____.",
+    "choices": [
+      "tendon sheath",
+      "tendon",
+      "bursa",
+      "synovial membrane"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-06-330",
+    "subject": "anatomy_physiology",
+    "topic": "skeletal_system",
+    "subtopic": "Joints",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "When the joint itself becomes inflamed for any reason, the condition is called _____.",
+    "choices": [
+      "arthritis",
+      "bursitis",
+      "tendinitis",
+      "synovitis"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-06-331",
+    "subject": "anatomy_physiology",
+    "topic": "skeletal_system",
+    "subtopic": "Joints",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The acute form of arthritis is usually caused by _____.",
+    "choices": [
+      "bacterial infection",
+      "uric acid crystal buildup",
+      "autoimmune attack",
+      "overuse and age"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-06-332",
+    "subject": "anatomy_physiology",
+    "topic": "skeletal_system",
+    "subtopic": "Joints",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The chronic forms of arthritis are _____, which is a disease of overuse and age, _____, which is caused by a build up of uric acid crystals, and _____, which is an autoimmune disorder.",
+    "choices": [
+      "osteoarthritis; gout; rheumatoid arthritis",
+      "rheumatoid arthritis; gout; osteoarthritis",
+      "osteoarthritis; rheumatoid arthritis; gout",
+      "gout; osteoarthritis; rheumatoid arthritis"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-06-333",
+    "subject": "anatomy_physiology",
+    "topic": "skeletal_system",
+    "subtopic": "Joints",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The immune system's destruction of the body's joints is called _____.",
+    "choices": [
+      "rheumatoid arthritis",
+      "osteoarthritis",
+      "gouty arthritis",
+      "septic arthritis"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-06-334",
+    "subject": "anatomy_physiology",
+    "topic": "skeletal_system",
+    "subtopic": "Joints",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The first joint to be affected by gout in most affected individuals is _____.",
+    "choices": [
+      "the metatarsophalangeal joint of the great toe",
+      "the knee",
+      "the distal interphalangeal joints of the fingers",
+      "the first carpometacarpal joint of the thumb"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-06-335",
+    "subject": "anatomy_physiology",
+    "topic": "skeletal_system",
+    "subtopic": "Joints",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "_____ cartilage covers ends of long bones.",
+    "choices": [
+      "Articular",
+      "Costal",
+      "Nasal",
+      "Respiratory"
+    ],
+    "answer_index": 0
   }
 ]

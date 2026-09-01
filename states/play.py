@@ -23,7 +23,11 @@ from states.game_over import GameOverState
 from ui import Button, TextBox
 
 
-def build_question_popup(question: Question, font):
+def build_question_popup(
+    question: Question,
+    font,
+    display_order: list[int],
+):
     popup_left = 720
     popup_top = 80
     popup_width = 520
@@ -45,7 +49,8 @@ def build_question_popup(question: Question, font):
     answer_buttons = []
     next_button_top = prompt_box.y + prompt_box.height + gap
 
-    for choice in question.choices:
+    for canonical_index in display_order:
+        choice = question.choices[canonical_index]
         button = Button(
             pygame.Rect(
                 content_left,
@@ -85,6 +90,7 @@ class PlayState:
         self.game = game
         self.bank = bank
         self.config = config
+        self.rng = rng
         self.font = pygame.font.Font(None, 28)
         self.label_font = pygame.font.Font(None, LABEL_FONT_SIZE)
         self.counter_font = pygame.font.Font(None, 36)
@@ -99,7 +105,7 @@ class PlayState:
         self.cell_topics = assign_cell_topics(
             self.board.cells(),
             topic_subtopics,
-            rng,
+            self.rng,
         )
 
         self.view = BoardView(
@@ -114,6 +120,7 @@ class PlayState:
         self.pending: tuple[Question, Cell, str] | None = None
         self.prompt_box: TextBox | None = None
         self.answer_buttons: list[Button] = []
+        self.answer_order: list[int] = []
         self.popup_rect: pygame.Rect | None = None
 
         self.player = Player.at_start(self.board)
@@ -129,11 +136,12 @@ class PlayState:
                 if event.type == pygame.MOUSEBUTTONDOWN and event.button == 1:
                     question, target, intent = self.pending
 
-                    for choice_index, button in enumerate(self.answer_buttons):
+                    for display_index, button in enumerate(self.answer_buttons):
                         if not button.is_clicked(event.pos):
                             continue
 
-                        is_correct = question.is_correct(choice_index)
+                        canonical_index = self.answer_order[display_index]
+                        is_correct = question.is_correct(canonical_index)
                         caught = is_correct and intent == "catch"
 
                         if is_correct:
@@ -152,6 +160,7 @@ class PlayState:
                         self.popup_rect = None
                         self.prompt_box = None
                         self.answer_buttons = []
+                        self.answer_order = []
 
                         if caught or self.moves_remaining == 0:
                             self.moves = self.player.legal_moves(
@@ -200,12 +209,17 @@ class PlayState:
                         self.pending = (question, target, intent)
                         self.selected = target
                         self.hovering = None
+                        self.answer_order = question.display_order(self.rng)
 
                         (
                             self.popup_rect,
                             self.prompt_box,
                             self.answer_buttons,
-                        ) = build_question_popup(question, self.font)
+                        ) = build_question_popup(
+                            question,
+                            self.font,
+                            self.answer_order,
+                        )
 
                 elif event.type == pygame.MOUSEMOTION:
                     self.hovering = self.view.pixel_to_cell(*event.pos)
