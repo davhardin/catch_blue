@@ -1,6 +1,7 @@
 # Question Bank Tracker
 
-Last updated: 2026-09-01 (first Anson Vol. 1 import).
+Last updated: 2026-09-01 (Anson Vol. 1 import COMPLETE — endocrine vetted and
+imported; the bank contains zero placeholder questions).
 
 What this file tracks: which subtopics exist per topic, which sources have
 been reviewed for which topics, and which sources are still untouched — so
@@ -14,7 +15,7 @@ tracker does.
 
 | Source | License | Status |
 |---|---|---|
-| Anson *3600+ Review Questions*, Vol. 1 (5th ed.) | CC BY-SA 3.0 | **In use.** All 1,870 questions audited (2026-08-31) → David vetted through `special_senses` → 1,508 imported 2026-09-01. Remaining: `endocrine_system` vetting; the 176-question edit pile in `Anson Vol.1 - unreviewed.md`. |
+| Anson *3600+ Review Questions*, Vol. 1 (5th ed.) | CC BY-SA 3.0 | **Import complete.** All 1,870 questions audited (2026-08-31) → David vetted all 14 topics → 1,595 imported 2026-09-01. Remaining: the 177-question edit pile in `Anson Vol.1 - unreviewed.md` (David's rewrites). |
 | Anson *3600+ Review Questions*, Vol. 2 | CC BY-SA 3.0 | On disk (`question_sources/`), **not audited**. Covers the A&P II sequence — relevant when topics expand past `endocrine_system`. |
 | OpenStax *A&P 2e* review questions (ch. 1–4+) | CC BY-NC-SA 4.0 | **Not started.** Maps section-for-section onto existing subtopics. Educator account (free instructor test bank) not yet applied for. |
 | OpenStax *A&P 2e* critical-thinking questions | CC BY-NC-SA 4.0 | **Not started.** Raw material for the difficulty-3 tier; needs MCQ-ification. |
@@ -27,6 +28,8 @@ tracker does.
 Subtopic layout = the post-vetting plan from `Anson Vol.1 Final Questions.md`.
 "Anson vetted" = David's manual pass over the audit recommendations.
 All imported questions are `difficulty: 1` for now — no difficulty grading yet.
+Two questions carry `"shuffle": false` (two-choice items): `bio-anat-06-229`
+and `bio-anat-14-067`.
 
 | Topic | Qs | Subtopics (imported count) | Anson vetted |
 |---|---|---|---|
@@ -43,7 +46,14 @@ All imported questions are `difficulty: 1` for now — no difficulty grading yet
 | sensory_pathways_and_somatic_nervous_system | 39 | Afferent Division (13), Efferent Division (8), Sensory Receptors (18) | ✅ |
 | autonomic_nervous_system | 53 | Aging: ANS (2), Autonomic Nervous System (18), Divisions of the Autonomic Nervous System (33) | ✅ |
 | special_senses | 131 | Equilibrium and Hearing (45), Eye Structures (31), Gustation and Olfaction (14), Visual System (41) | ✅ |
-| endocrine_system | 142 | **still the placeholder scaffold** (14 subtopics × 10 fake questions) + 2 real questions under Cell Signaling (`bio-anat-14-141`/`-142`, moved in from tissues) | ❌ — 88 REC + 8 EDIT entries await vetting in `question_recommendations.md` |
+| endocrine_system | 89 | Adrenal Glands (15), Cell Signaling (11), Disease: Diabetes Mellitus (5), Endocrine Regulation (21), Pancreas (13), Parathyroid Glands (3), Secondary Endocrine Organs (7), Thyroid Gland (14) | ✅ |
+
+**Thin subtopics — come back later** *(accepted as-is 2026-09-01)*: three
+Aging subtopics sit at 2 questions, below the M5 ≥3 baseline, by decision:
+`Aging: Tissues` (6 rewrite candidates waiting in the edit pile),
+`Aging: Integumentary System` (1 candidate in the pile), and `Aging: ANS`
+(Anson is exhausted — needs an original question or a merge). Top them up
+when working the edit pile or importing the next source.
 
 ## Scaffold subtopics removed in the rewrite
 
@@ -58,6 +68,10 @@ Dropped (no home in the new plan — re-add if a future source fills them):
 - brain: Cranial Reflexes
 - sensory_pathways_and_somatic_nervous_system: Sensory vs Motor *(removed by David)*
 - autonomic_nervous_system: Higher-Order Cognitive Processes
+- endocrine_system: 2nd Messenger Systems, Pineal Gland, Hormone Coordination /
+  Physiology, General Adaptation Syndrome (all placeholder-only); Homeostasis:
+  Endocrine Regulation + Hypothalamus + Pituitary Gland merged into
+  "Endocrine Regulation"
 
 Merges/renames all follow `Anson Vol.1 Final Questions.md` (e.g. Gustation +
 Olfaction → "Gustation and Olfaction"; Neuroglial Cells + Neurons → "Neural
@@ -86,10 +100,13 @@ Cells"; the four macromolecule subtopics → "Macromolecules").
    (explicit beats range); say the word to flip them.
 6. **Placements I chose** (moves whose target subtopic wasn't specified):
    BST #4/#18/#19 → skeletal / Bone Development and Growth (cartilage growth);
-   Tissues #42/#43 → endocrine / Cell Signaling; Tissues #44/#45 →
-   integumentary / Sweat Glands; Tissues #83 → integumentary / Epidermis;
-   Prime Movers #1 → muscular / Muscle Functions (absorbed Muscle Fiber Types).
+   Tissues #42/#43 → endocrine / Cell Signaling (`bio-anat-14-025`/`-026`);
+   Tissues #44/#45 → integumentary / Sweat Glands; Tissues #83 →
+   integumentary / Epidermis; Prime Movers #1 → muscular / Muscle Functions
+   (absorbed Muscle Fiber Types).
 7. **Missing concepts** (David's note, Body Regions): organ positions in the
    9 abdominopelvic regions and 4 quadrants — no source questions yet.
-8. **Difficulty tiers:** everything imported at difficulty 1; grading and the
-   difficulty-3 tier (OpenStax critical thinking / VTCSOM) still to come.
+8. **Difficulty tiers:** everything imported at difficulty 1. Decided
+   2026-09-01: grading waits for playtesting (see `implementation_plan.md`
+   §7) — it matters most for Run from Red. The difficulty-3 tier (OpenStax
+   critical thinking / VTCSOM) still to come.

@@ -3,2244 +3,388 @@
     "id": "bio-anat-14-001",
     "subject": "anatomy_physiology",
     "topic": "endocrine_system",
-    "subtopic": "Cell Signaling",
+    "subtopic": "Adrenal Glands",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The outer portion of the adrenal glands, the _____, is _____ tissue derived from embryonic mesoderm.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "adrenal cortex; glandular",
+      "adrenal medulla; glandular",
+      "adrenal cortex; nervous",
+      "adrenal medulla; nervous"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-14-002",
     "subject": "anatomy_physiology",
     "topic": "endocrine_system",
-    "subtopic": "Cell Signaling",
+    "subtopic": "Adrenal Glands",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The inner part of the adrenal glands, the _____, is _____ tissue.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "adrenal medulla; nervous",
+      "adrenal cortex; nervous",
+      "adrenal medulla; glandular",
+      "adrenal cortex; glandular"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-14-003",
     "subject": "anatomy_physiology",
     "topic": "endocrine_system",
-    "subtopic": "Cell Signaling",
+    "subtopic": "Adrenal Glands",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The adrenal cortex synthesizes _____, which take their name from the location of their synthesis.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "corticosteroids",
+      "catecholamines",
+      "eicosanoids",
+      "gonadotropins"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-14-004",
     "subject": "anatomy_physiology",
     "topic": "endocrine_system",
-    "subtopic": "Cell Signaling",
+    "subtopic": "Adrenal Glands",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "There are two major classes of corticosteroid, the _____ and _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "mineralocorticoids; glucocorticoids",
+      "glucocorticoids; androgens",
+      "mineralocorticoids; catecholamines",
+      "glucocorticoids; catecholamines"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-14-005",
     "subject": "anatomy_physiology",
     "topic": "endocrine_system",
-    "subtopic": "Cell Signaling",
+    "subtopic": "Adrenal Glands",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "_____ regulate the concentrations of ions in the blood, particularly sodium. In humans, _____ is the major example.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "Mineralocorticoids; aldosterone",
+      "Glucocorticoids; cortisol",
+      "Mineralocorticoids; cortisol",
+      "Glucocorticoids; aldosterone"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-14-006",
     "subject": "anatomy_physiology",
     "topic": "endocrine_system",
-    "subtopic": "Cell Signaling",
+    "subtopic": "Adrenal Glands",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "One class of corticosteroids, the _____, increases blood volume and pressure in readiness for exertion.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "mineralocorticoids",
+      "glucocorticoids",
+      "androgens",
+      "catecholamines"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-14-007",
     "subject": "anatomy_physiology",
     "topic": "endocrine_system",
-    "subtopic": "Cell Signaling",
+    "subtopic": "Adrenal Glands",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Aldosterone is secreted in response to low blood levels of _____ or high blood levels of _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "sodium; potassium",
+      "potassium; sodium",
+      "calcium; phosphate",
+      "sodium; calcium"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-14-008",
     "subject": "anatomy_physiology",
     "topic": "endocrine_system",
-    "subtopic": "Cell Signaling",
+    "subtopic": "Adrenal Glands",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "If sodium is being excreted by the body, _____ must be lost as well.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "water",
+      "potassium",
+      "glucose",
+      "protein"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-14-009",
     "subject": "anatomy_physiology",
     "topic": "endocrine_system",
-    "subtopic": "Cell Signaling",
+    "subtopic": "Adrenal Glands",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Aldosterone is secreted in response to _____ blood volume caused by _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "low; water loss",
+      "high; water retention",
+      "low; sodium retention",
+      "high; sodium loss"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-14-010",
     "subject": "anatomy_physiology",
     "topic": "endocrine_system",
-    "subtopic": "Cell Signaling",
+    "subtopic": "Adrenal Glands",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "_____ are released by the adrenal cortex in response to stress: they provide energy for 'fight or flight' functions by diverting energy away from immunity and anabolism, and increase blood volume and pressure in readiness for exertion.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "Corticosteroids",
+      "Catecholamines",
+      "Thyroid hormones",
+      "Gonadotropins"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-14-011",
     "subject": "anatomy_physiology",
     "topic": "endocrine_system",
-    "subtopic": "Homeostasis: Endocrine Regulation",
+    "subtopic": "Adrenal Glands",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "One class of corticosteroids, the _____, provides energy for 'fight or flight' functions by diverting energy away from immunity and anabolism.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "glucocorticoids",
+      "mineralocorticoids",
+      "androgens",
+      "catecholamines"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-14-012",
     "subject": "anatomy_physiology",
     "topic": "endocrine_system",
-    "subtopic": "Homeostasis: Endocrine Regulation",
+    "subtopic": "Adrenal Glands",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "In humans, the principle glucocorticoid is _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "cortisol",
+      "aldosterone",
+      "corticosterone",
+      "epinephrine"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-14-013",
     "subject": "anatomy_physiology",
     "topic": "endocrine_system",
-    "subtopic": "Homeostasis: Endocrine Regulation",
+    "subtopic": "Adrenal Glands",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "_____, although defined as 'male' sex hormones, are present in both genders. In addition to the gonads, the _____ also produces them in low amounts.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "Androgens; adrenal cortex",
+      "Androgens; adrenal medulla",
+      "Estrogens; adrenal cortex",
+      "Androgens; pancreas"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-14-014",
     "subject": "anatomy_physiology",
     "topic": "endocrine_system",
-    "subtopic": "Homeostasis: Endocrine Regulation",
+    "subtopic": "Adrenal Glands",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Epinephrine and norepinephrine are also known as _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "catecholamines",
+      "corticosteroids",
+      "eicosanoids",
+      "mineralocorticoids"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-14-015",
     "subject": "anatomy_physiology",
     "topic": "endocrine_system",
-    "subtopic": "Homeostasis: Endocrine Regulation",
+    "subtopic": "Adrenal Glands",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Epinephrine and norepinephrine are released into the blood by the _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "adrenal medulla",
+      "adrenal cortex",
+      "neurohypophysis",
+      "kidneys"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-14-016",
     "subject": "anatomy_physiology",
     "topic": "endocrine_system",
-    "subtopic": "Homeostasis: Endocrine Regulation",
+    "subtopic": "Cell Signaling",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "_____ signals are similar to hormones in many ways, but act only on the very cells that release them.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "Autocrine",
+      "Paracrine",
+      "Endocrine",
+      "Synaptic"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-14-017",
     "subject": "anatomy_physiology",
     "topic": "endocrine_system",
-    "subtopic": "Homeostasis: Endocrine Regulation",
+    "subtopic": "Cell Signaling",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "_____ signals are similar to hormones in many ways, but act only on neighboring cells, not on distant targets.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "Paracrine",
+      "Autocrine",
+      "Endocrine",
+      "Synaptic"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-14-018",
     "subject": "anatomy_physiology",
     "topic": "endocrine_system",
-    "subtopic": "Homeostasis: Endocrine Regulation",
+    "subtopic": "Cell Signaling",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "_____ are biologically active lipids which act in an autocrine or paracrine manner. They are made from essential fatty acids and influence inflammation, ion transport, sleep, and other activities.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "Eicosanoids",
+      "Steroids",
+      "Catecholamines",
+      "Glycoproteins"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-14-019",
     "subject": "anatomy_physiology",
     "topic": "endocrine_system",
-    "subtopic": "Homeostasis: Endocrine Regulation",
+    "subtopic": "Cell Signaling",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "_____ hormones are made from an amino acid by chemical modification, or made by joining amino acids to form a peptide (very small protein).",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "Amino acid based",
+      "Steroid",
+      "Eicosanoid",
+      "Mineralocorticoid"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-14-020",
     "subject": "anatomy_physiology",
     "topic": "endocrine_system",
-    "subtopic": "Homeostasis: Endocrine Regulation",
+    "subtopic": "Cell Signaling",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Steroids, one of the two major hormone classes, are made from _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "cholesterol",
+      "amino acids",
+      "essential fatty acids",
+      "glycerol"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-14-021",
     "subject": "anatomy_physiology",
     "topic": "endocrine_system",
-    "subtopic": "2nd Messenger Systems",
+    "subtopic": "Cell Signaling",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "Amino acid based hormones generally bind _____, but _____ is an important exception.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "at the cell's surface; thyroid hormone",
+      "inside the nucleus; insulin",
+      "at the cell's surface; epinephrine",
+      "inside the cell; growth hormone"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-14-022",
     "subject": "anatomy_physiology",
     "topic": "endocrine_system",
-    "subtopic": "2nd Messenger Systems",
+    "subtopic": "Cell Signaling",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "_____ enter the cell and interact directly with DNA and nuclear factors to bring about changes in gene expression.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "Steroid hormones",
+      "Peptide hormones",
+      "Catecholamines",
+      "Eicosanoids"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-14-023",
     "subject": "anatomy_physiology",
     "topic": "endocrine_system",
-    "subtopic": "2nd Messenger Systems",
+    "subtopic": "Cell Signaling",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "In order for a cell to respond to a hormone, the cell must _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "have an appropriate receptor",
+      "be near the gland that released the hormone",
+      "have an open ion channel for the hormone",
+      "be actively dividing"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-14-024",
     "subject": "anatomy_physiology",
     "topic": "endocrine_system",
-    "subtopic": "2nd Messenger Systems",
+    "subtopic": "Cell Signaling",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Question",
+    "prompt": "The receptors for steroids and thyroid hormone are _____.",
     "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "intracellular",
+      "on the plasma membrane surface",
+      "in the bloodstream on carrier proteins",
+      "embedded in the extracellular matrix"
     ],
-    "answer_index": 1
+    "answer_index": 0
   },
   {
     "id": "bio-anat-14-025",
-    "subject": "anatomy_physiology",
-    "topic": "endocrine_system",
-    "subtopic": "2nd Messenger Systems",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "Question",
-    "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "answer_index": 1
-  },
-  {
-    "id": "bio-anat-14-026",
-    "subject": "anatomy_physiology",
-    "topic": "endocrine_system",
-    "subtopic": "2nd Messenger Systems",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "Question",
-    "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "answer_index": 1
-  },
-  {
-    "id": "bio-anat-14-027",
-    "subject": "anatomy_physiology",
-    "topic": "endocrine_system",
-    "subtopic": "2nd Messenger Systems",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "Question",
-    "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "answer_index": 1
-  },
-  {
-    "id": "bio-anat-14-028",
-    "subject": "anatomy_physiology",
-    "topic": "endocrine_system",
-    "subtopic": "2nd Messenger Systems",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "Question",
-    "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "answer_index": 1
-  },
-  {
-    "id": "bio-anat-14-029",
-    "subject": "anatomy_physiology",
-    "topic": "endocrine_system",
-    "subtopic": "2nd Messenger Systems",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "Question",
-    "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "answer_index": 1
-  },
-  {
-    "id": "bio-anat-14-030",
-    "subject": "anatomy_physiology",
-    "topic": "endocrine_system",
-    "subtopic": "2nd Messenger Systems",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "Question",
-    "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "answer_index": 1
-  },
-  {
-    "id": "bio-anat-14-031",
-    "subject": "anatomy_physiology",
-    "topic": "endocrine_system",
-    "subtopic": "Hypothalamus",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "Question",
-    "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "answer_index": 1
-  },
-  {
-    "id": "bio-anat-14-032",
-    "subject": "anatomy_physiology",
-    "topic": "endocrine_system",
-    "subtopic": "Hypothalamus",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "Question",
-    "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "answer_index": 1
-  },
-  {
-    "id": "bio-anat-14-033",
-    "subject": "anatomy_physiology",
-    "topic": "endocrine_system",
-    "subtopic": "Hypothalamus",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "Question",
-    "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "answer_index": 1
-  },
-  {
-    "id": "bio-anat-14-034",
-    "subject": "anatomy_physiology",
-    "topic": "endocrine_system",
-    "subtopic": "Hypothalamus",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "Question",
-    "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "answer_index": 1
-  },
-  {
-    "id": "bio-anat-14-035",
-    "subject": "anatomy_physiology",
-    "topic": "endocrine_system",
-    "subtopic": "Hypothalamus",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "Question",
-    "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "answer_index": 1
-  },
-  {
-    "id": "bio-anat-14-036",
-    "subject": "anatomy_physiology",
-    "topic": "endocrine_system",
-    "subtopic": "Hypothalamus",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "Question",
-    "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "answer_index": 1
-  },
-  {
-    "id": "bio-anat-14-037",
-    "subject": "anatomy_physiology",
-    "topic": "endocrine_system",
-    "subtopic": "Hypothalamus",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "Question",
-    "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "answer_index": 1
-  },
-  {
-    "id": "bio-anat-14-038",
-    "subject": "anatomy_physiology",
-    "topic": "endocrine_system",
-    "subtopic": "Hypothalamus",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "Question",
-    "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "answer_index": 1
-  },
-  {
-    "id": "bio-anat-14-039",
-    "subject": "anatomy_physiology",
-    "topic": "endocrine_system",
-    "subtopic": "Hypothalamus",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "Question",
-    "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "answer_index": 1
-  },
-  {
-    "id": "bio-anat-14-040",
-    "subject": "anatomy_physiology",
-    "topic": "endocrine_system",
-    "subtopic": "Hypothalamus",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "Question",
-    "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "answer_index": 1
-  },
-  {
-    "id": "bio-anat-14-041",
-    "subject": "anatomy_physiology",
-    "topic": "endocrine_system",
-    "subtopic": "Pituitary Gland",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "Question",
-    "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "answer_index": 1
-  },
-  {
-    "id": "bio-anat-14-042",
-    "subject": "anatomy_physiology",
-    "topic": "endocrine_system",
-    "subtopic": "Pituitary Gland",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "Question",
-    "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "answer_index": 1
-  },
-  {
-    "id": "bio-anat-14-043",
-    "subject": "anatomy_physiology",
-    "topic": "endocrine_system",
-    "subtopic": "Pituitary Gland",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "Question",
-    "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "answer_index": 1
-  },
-  {
-    "id": "bio-anat-14-044",
-    "subject": "anatomy_physiology",
-    "topic": "endocrine_system",
-    "subtopic": "Pituitary Gland",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "Question",
-    "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "answer_index": 1
-  },
-  {
-    "id": "bio-anat-14-045",
-    "subject": "anatomy_physiology",
-    "topic": "endocrine_system",
-    "subtopic": "Pituitary Gland",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "Question",
-    "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "answer_index": 1
-  },
-  {
-    "id": "bio-anat-14-046",
-    "subject": "anatomy_physiology",
-    "topic": "endocrine_system",
-    "subtopic": "Pituitary Gland",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "Question",
-    "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "answer_index": 1
-  },
-  {
-    "id": "bio-anat-14-047",
-    "subject": "anatomy_physiology",
-    "topic": "endocrine_system",
-    "subtopic": "Pituitary Gland",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "Question",
-    "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "answer_index": 1
-  },
-  {
-    "id": "bio-anat-14-048",
-    "subject": "anatomy_physiology",
-    "topic": "endocrine_system",
-    "subtopic": "Pituitary Gland",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "Question",
-    "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "answer_index": 1
-  },
-  {
-    "id": "bio-anat-14-049",
-    "subject": "anatomy_physiology",
-    "topic": "endocrine_system",
-    "subtopic": "Pituitary Gland",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "Question",
-    "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "answer_index": 1
-  },
-  {
-    "id": "bio-anat-14-050",
-    "subject": "anatomy_physiology",
-    "topic": "endocrine_system",
-    "subtopic": "Pituitary Gland",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "Question",
-    "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "answer_index": 1
-  },
-  {
-    "id": "bio-anat-14-051",
-    "subject": "anatomy_physiology",
-    "topic": "endocrine_system",
-    "subtopic": "Thyroid Gland",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "Question",
-    "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "answer_index": 1
-  },
-  {
-    "id": "bio-anat-14-052",
-    "subject": "anatomy_physiology",
-    "topic": "endocrine_system",
-    "subtopic": "Thyroid Gland",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "Question",
-    "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "answer_index": 1
-  },
-  {
-    "id": "bio-anat-14-053",
-    "subject": "anatomy_physiology",
-    "topic": "endocrine_system",
-    "subtopic": "Thyroid Gland",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "Question",
-    "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "answer_index": 1
-  },
-  {
-    "id": "bio-anat-14-054",
-    "subject": "anatomy_physiology",
-    "topic": "endocrine_system",
-    "subtopic": "Thyroid Gland",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "Question",
-    "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "answer_index": 1
-  },
-  {
-    "id": "bio-anat-14-055",
-    "subject": "anatomy_physiology",
-    "topic": "endocrine_system",
-    "subtopic": "Thyroid Gland",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "Question",
-    "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "answer_index": 1
-  },
-  {
-    "id": "bio-anat-14-056",
-    "subject": "anatomy_physiology",
-    "topic": "endocrine_system",
-    "subtopic": "Thyroid Gland",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "Question",
-    "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "answer_index": 1
-  },
-  {
-    "id": "bio-anat-14-057",
-    "subject": "anatomy_physiology",
-    "topic": "endocrine_system",
-    "subtopic": "Thyroid Gland",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "Question",
-    "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "answer_index": 1
-  },
-  {
-    "id": "bio-anat-14-058",
-    "subject": "anatomy_physiology",
-    "topic": "endocrine_system",
-    "subtopic": "Thyroid Gland",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "Question",
-    "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "answer_index": 1
-  },
-  {
-    "id": "bio-anat-14-059",
-    "subject": "anatomy_physiology",
-    "topic": "endocrine_system",
-    "subtopic": "Thyroid Gland",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "Question",
-    "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "answer_index": 1
-  },
-  {
-    "id": "bio-anat-14-060",
-    "subject": "anatomy_physiology",
-    "topic": "endocrine_system",
-    "subtopic": "Thyroid Gland",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "Question",
-    "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "answer_index": 1
-  },
-  {
-    "id": "bio-anat-14-061",
-    "subject": "anatomy_physiology",
-    "topic": "endocrine_system",
-    "subtopic": "Parathyroid Glands",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "Question",
-    "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "answer_index": 1
-  },
-  {
-    "id": "bio-anat-14-062",
-    "subject": "anatomy_physiology",
-    "topic": "endocrine_system",
-    "subtopic": "Parathyroid Glands",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "Question",
-    "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "answer_index": 1
-  },
-  {
-    "id": "bio-anat-14-063",
-    "subject": "anatomy_physiology",
-    "topic": "endocrine_system",
-    "subtopic": "Parathyroid Glands",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "Question",
-    "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "answer_index": 1
-  },
-  {
-    "id": "bio-anat-14-064",
-    "subject": "anatomy_physiology",
-    "topic": "endocrine_system",
-    "subtopic": "Parathyroid Glands",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "Question",
-    "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "answer_index": 1
-  },
-  {
-    "id": "bio-anat-14-065",
-    "subject": "anatomy_physiology",
-    "topic": "endocrine_system",
-    "subtopic": "Parathyroid Glands",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "Question",
-    "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "answer_index": 1
-  },
-  {
-    "id": "bio-anat-14-066",
-    "subject": "anatomy_physiology",
-    "topic": "endocrine_system",
-    "subtopic": "Parathyroid Glands",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "Question",
-    "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "answer_index": 1
-  },
-  {
-    "id": "bio-anat-14-067",
-    "subject": "anatomy_physiology",
-    "topic": "endocrine_system",
-    "subtopic": "Parathyroid Glands",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "Question",
-    "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "answer_index": 1
-  },
-  {
-    "id": "bio-anat-14-068",
-    "subject": "anatomy_physiology",
-    "topic": "endocrine_system",
-    "subtopic": "Parathyroid Glands",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "Question",
-    "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "answer_index": 1
-  },
-  {
-    "id": "bio-anat-14-069",
-    "subject": "anatomy_physiology",
-    "topic": "endocrine_system",
-    "subtopic": "Parathyroid Glands",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "Question",
-    "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "answer_index": 1
-  },
-  {
-    "id": "bio-anat-14-070",
-    "subject": "anatomy_physiology",
-    "topic": "endocrine_system",
-    "subtopic": "Parathyroid Glands",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "Question",
-    "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "answer_index": 1
-  },
-  {
-    "id": "bio-anat-14-071",
-    "subject": "anatomy_physiology",
-    "topic": "endocrine_system",
-    "subtopic": "Adrenal Glands",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "Question",
-    "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "answer_index": 1
-  },
-  {
-    "id": "bio-anat-14-072",
-    "subject": "anatomy_physiology",
-    "topic": "endocrine_system",
-    "subtopic": "Adrenal Glands",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "Question",
-    "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "answer_index": 1
-  },
-  {
-    "id": "bio-anat-14-073",
-    "subject": "anatomy_physiology",
-    "topic": "endocrine_system",
-    "subtopic": "Adrenal Glands",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "Question",
-    "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "answer_index": 1
-  },
-  {
-    "id": "bio-anat-14-074",
-    "subject": "anatomy_physiology",
-    "topic": "endocrine_system",
-    "subtopic": "Adrenal Glands",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "Question",
-    "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "answer_index": 1
-  },
-  {
-    "id": "bio-anat-14-075",
-    "subject": "anatomy_physiology",
-    "topic": "endocrine_system",
-    "subtopic": "Adrenal Glands",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "Question",
-    "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "answer_index": 1
-  },
-  {
-    "id": "bio-anat-14-076",
-    "subject": "anatomy_physiology",
-    "topic": "endocrine_system",
-    "subtopic": "Adrenal Glands",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "Question",
-    "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "answer_index": 1
-  },
-  {
-    "id": "bio-anat-14-077",
-    "subject": "anatomy_physiology",
-    "topic": "endocrine_system",
-    "subtopic": "Adrenal Glands",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "Question",
-    "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "answer_index": 1
-  },
-  {
-    "id": "bio-anat-14-078",
-    "subject": "anatomy_physiology",
-    "topic": "endocrine_system",
-    "subtopic": "Adrenal Glands",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "Question",
-    "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "answer_index": 1
-  },
-  {
-    "id": "bio-anat-14-079",
-    "subject": "anatomy_physiology",
-    "topic": "endocrine_system",
-    "subtopic": "Adrenal Glands",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "Question",
-    "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "answer_index": 1
-  },
-  {
-    "id": "bio-anat-14-080",
-    "subject": "anatomy_physiology",
-    "topic": "endocrine_system",
-    "subtopic": "Adrenal Glands",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "Question",
-    "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "answer_index": 1
-  },
-  {
-    "id": "bio-anat-14-081",
-    "subject": "anatomy_physiology",
-    "topic": "endocrine_system",
-    "subtopic": "Pineal Gland",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "Question",
-    "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "answer_index": 1
-  },
-  {
-    "id": "bio-anat-14-082",
-    "subject": "anatomy_physiology",
-    "topic": "endocrine_system",
-    "subtopic": "Pineal Gland",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "Question",
-    "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "answer_index": 1
-  },
-  {
-    "id": "bio-anat-14-083",
-    "subject": "anatomy_physiology",
-    "topic": "endocrine_system",
-    "subtopic": "Pineal Gland",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "Question",
-    "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "answer_index": 1
-  },
-  {
-    "id": "bio-anat-14-084",
-    "subject": "anatomy_physiology",
-    "topic": "endocrine_system",
-    "subtopic": "Pineal Gland",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "Question",
-    "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "answer_index": 1
-  },
-  {
-    "id": "bio-anat-14-085",
-    "subject": "anatomy_physiology",
-    "topic": "endocrine_system",
-    "subtopic": "Pineal Gland",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "Question",
-    "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "answer_index": 1
-  },
-  {
-    "id": "bio-anat-14-086",
-    "subject": "anatomy_physiology",
-    "topic": "endocrine_system",
-    "subtopic": "Pineal Gland",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "Question",
-    "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "answer_index": 1
-  },
-  {
-    "id": "bio-anat-14-087",
-    "subject": "anatomy_physiology",
-    "topic": "endocrine_system",
-    "subtopic": "Pineal Gland",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "Question",
-    "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "answer_index": 1
-  },
-  {
-    "id": "bio-anat-14-088",
-    "subject": "anatomy_physiology",
-    "topic": "endocrine_system",
-    "subtopic": "Pineal Gland",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "Question",
-    "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "answer_index": 1
-  },
-  {
-    "id": "bio-anat-14-089",
-    "subject": "anatomy_physiology",
-    "topic": "endocrine_system",
-    "subtopic": "Pineal Gland",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "Question",
-    "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "answer_index": 1
-  },
-  {
-    "id": "bio-anat-14-090",
-    "subject": "anatomy_physiology",
-    "topic": "endocrine_system",
-    "subtopic": "Pineal Gland",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "Question",
-    "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "answer_index": 1
-  },
-  {
-    "id": "bio-anat-14-091",
-    "subject": "anatomy_physiology",
-    "topic": "endocrine_system",
-    "subtopic": "Pancreas",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "Question",
-    "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "answer_index": 1
-  },
-  {
-    "id": "bio-anat-14-092",
-    "subject": "anatomy_physiology",
-    "topic": "endocrine_system",
-    "subtopic": "Pancreas",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "Question",
-    "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "answer_index": 1
-  },
-  {
-    "id": "bio-anat-14-093",
-    "subject": "anatomy_physiology",
-    "topic": "endocrine_system",
-    "subtopic": "Pancreas",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "Question",
-    "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "answer_index": 1
-  },
-  {
-    "id": "bio-anat-14-094",
-    "subject": "anatomy_physiology",
-    "topic": "endocrine_system",
-    "subtopic": "Pancreas",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "Question",
-    "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "answer_index": 1
-  },
-  {
-    "id": "bio-anat-14-095",
-    "subject": "anatomy_physiology",
-    "topic": "endocrine_system",
-    "subtopic": "Pancreas",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "Question",
-    "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "answer_index": 1
-  },
-  {
-    "id": "bio-anat-14-096",
-    "subject": "anatomy_physiology",
-    "topic": "endocrine_system",
-    "subtopic": "Pancreas",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "Question",
-    "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "answer_index": 1
-  },
-  {
-    "id": "bio-anat-14-097",
-    "subject": "anatomy_physiology",
-    "topic": "endocrine_system",
-    "subtopic": "Pancreas",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "Question",
-    "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "answer_index": 1
-  },
-  {
-    "id": "bio-anat-14-098",
-    "subject": "anatomy_physiology",
-    "topic": "endocrine_system",
-    "subtopic": "Pancreas",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "Question",
-    "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "answer_index": 1
-  },
-  {
-    "id": "bio-anat-14-099",
-    "subject": "anatomy_physiology",
-    "topic": "endocrine_system",
-    "subtopic": "Pancreas",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "Question",
-    "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "answer_index": 1
-  },
-  {
-    "id": "bio-anat-14-100",
-    "subject": "anatomy_physiology",
-    "topic": "endocrine_system",
-    "subtopic": "Pancreas",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "Question",
-    "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "answer_index": 1
-  },
-  {
-    "id": "bio-anat-14-101",
-    "subject": "anatomy_physiology",
-    "topic": "endocrine_system",
-    "subtopic": "Disease: Diabetes Mellitus",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "Question",
-    "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "answer_index": 1
-  },
-  {
-    "id": "bio-anat-14-102",
-    "subject": "anatomy_physiology",
-    "topic": "endocrine_system",
-    "subtopic": "Disease: Diabetes Mellitus",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "Question",
-    "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "answer_index": 1
-  },
-  {
-    "id": "bio-anat-14-103",
-    "subject": "anatomy_physiology",
-    "topic": "endocrine_system",
-    "subtopic": "Disease: Diabetes Mellitus",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "Question",
-    "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "answer_index": 1
-  },
-  {
-    "id": "bio-anat-14-104",
-    "subject": "anatomy_physiology",
-    "topic": "endocrine_system",
-    "subtopic": "Disease: Diabetes Mellitus",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "Question",
-    "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "answer_index": 1
-  },
-  {
-    "id": "bio-anat-14-105",
-    "subject": "anatomy_physiology",
-    "topic": "endocrine_system",
-    "subtopic": "Disease: Diabetes Mellitus",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "Question",
-    "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "answer_index": 1
-  },
-  {
-    "id": "bio-anat-14-106",
-    "subject": "anatomy_physiology",
-    "topic": "endocrine_system",
-    "subtopic": "Disease: Diabetes Mellitus",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "Question",
-    "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "answer_index": 1
-  },
-  {
-    "id": "bio-anat-14-107",
-    "subject": "anatomy_physiology",
-    "topic": "endocrine_system",
-    "subtopic": "Disease: Diabetes Mellitus",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "Question",
-    "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "answer_index": 1
-  },
-  {
-    "id": "bio-anat-14-108",
-    "subject": "anatomy_physiology",
-    "topic": "endocrine_system",
-    "subtopic": "Disease: Diabetes Mellitus",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "Question",
-    "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "answer_index": 1
-  },
-  {
-    "id": "bio-anat-14-109",
-    "subject": "anatomy_physiology",
-    "topic": "endocrine_system",
-    "subtopic": "Disease: Diabetes Mellitus",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "Question",
-    "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "answer_index": 1
-  },
-  {
-    "id": "bio-anat-14-110",
-    "subject": "anatomy_physiology",
-    "topic": "endocrine_system",
-    "subtopic": "Disease: Diabetes Mellitus",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "Question",
-    "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "answer_index": 1
-  },
-  {
-    "id": "bio-anat-14-111",
-    "subject": "anatomy_physiology",
-    "topic": "endocrine_system",
-    "subtopic": "Secondary Endocrine Organs",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "Question",
-    "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "answer_index": 1
-  },
-  {
-    "id": "bio-anat-14-112",
-    "subject": "anatomy_physiology",
-    "topic": "endocrine_system",
-    "subtopic": "Secondary Endocrine Organs",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "Question",
-    "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "answer_index": 1
-  },
-  {
-    "id": "bio-anat-14-113",
-    "subject": "anatomy_physiology",
-    "topic": "endocrine_system",
-    "subtopic": "Secondary Endocrine Organs",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "Question",
-    "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "answer_index": 1
-  },
-  {
-    "id": "bio-anat-14-114",
-    "subject": "anatomy_physiology",
-    "topic": "endocrine_system",
-    "subtopic": "Secondary Endocrine Organs",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "Question",
-    "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "answer_index": 1
-  },
-  {
-    "id": "bio-anat-14-115",
-    "subject": "anatomy_physiology",
-    "topic": "endocrine_system",
-    "subtopic": "Secondary Endocrine Organs",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "Question",
-    "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "answer_index": 1
-  },
-  {
-    "id": "bio-anat-14-116",
-    "subject": "anatomy_physiology",
-    "topic": "endocrine_system",
-    "subtopic": "Secondary Endocrine Organs",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "Question",
-    "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "answer_index": 1
-  },
-  {
-    "id": "bio-anat-14-117",
-    "subject": "anatomy_physiology",
-    "topic": "endocrine_system",
-    "subtopic": "Secondary Endocrine Organs",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "Question",
-    "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "answer_index": 1
-  },
-  {
-    "id": "bio-anat-14-118",
-    "subject": "anatomy_physiology",
-    "topic": "endocrine_system",
-    "subtopic": "Secondary Endocrine Organs",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "Question",
-    "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "answer_index": 1
-  },
-  {
-    "id": "bio-anat-14-119",
-    "subject": "anatomy_physiology",
-    "topic": "endocrine_system",
-    "subtopic": "Secondary Endocrine Organs",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "Question",
-    "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "answer_index": 1
-  },
-  {
-    "id": "bio-anat-14-120",
-    "subject": "anatomy_physiology",
-    "topic": "endocrine_system",
-    "subtopic": "Secondary Endocrine Organs",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "Question",
-    "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "answer_index": 1
-  },
-  {
-    "id": "bio-anat-14-121",
-    "subject": "anatomy_physiology",
-    "topic": "endocrine_system",
-    "subtopic": "Hormone Coordination / Physiology",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "Question",
-    "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "answer_index": 1
-  },
-  {
-    "id": "bio-anat-14-122",
-    "subject": "anatomy_physiology",
-    "topic": "endocrine_system",
-    "subtopic": "Hormone Coordination / Physiology",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "Question",
-    "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "answer_index": 1
-  },
-  {
-    "id": "bio-anat-14-123",
-    "subject": "anatomy_physiology",
-    "topic": "endocrine_system",
-    "subtopic": "Hormone Coordination / Physiology",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "Question",
-    "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "answer_index": 1
-  },
-  {
-    "id": "bio-anat-14-124",
-    "subject": "anatomy_physiology",
-    "topic": "endocrine_system",
-    "subtopic": "Hormone Coordination / Physiology",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "Question",
-    "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "answer_index": 1
-  },
-  {
-    "id": "bio-anat-14-125",
-    "subject": "anatomy_physiology",
-    "topic": "endocrine_system",
-    "subtopic": "Hormone Coordination / Physiology",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "Question",
-    "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "answer_index": 1
-  },
-  {
-    "id": "bio-anat-14-126",
-    "subject": "anatomy_physiology",
-    "topic": "endocrine_system",
-    "subtopic": "Hormone Coordination / Physiology",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "Question",
-    "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "answer_index": 1
-  },
-  {
-    "id": "bio-anat-14-127",
-    "subject": "anatomy_physiology",
-    "topic": "endocrine_system",
-    "subtopic": "Hormone Coordination / Physiology",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "Question",
-    "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "answer_index": 1
-  },
-  {
-    "id": "bio-anat-14-128",
-    "subject": "anatomy_physiology",
-    "topic": "endocrine_system",
-    "subtopic": "Hormone Coordination / Physiology",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "Question",
-    "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "answer_index": 1
-  },
-  {
-    "id": "bio-anat-14-129",
-    "subject": "anatomy_physiology",
-    "topic": "endocrine_system",
-    "subtopic": "Hormone Coordination / Physiology",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "Question",
-    "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "answer_index": 1
-  },
-  {
-    "id": "bio-anat-14-130",
-    "subject": "anatomy_physiology",
-    "topic": "endocrine_system",
-    "subtopic": "Hormone Coordination / Physiology",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "Question",
-    "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "answer_index": 1
-  },
-  {
-    "id": "bio-anat-14-131",
-    "subject": "anatomy_physiology",
-    "topic": "endocrine_system",
-    "subtopic": "General Adaptation Syndrome",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "Question",
-    "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "answer_index": 1
-  },
-  {
-    "id": "bio-anat-14-132",
-    "subject": "anatomy_physiology",
-    "topic": "endocrine_system",
-    "subtopic": "General Adaptation Syndrome",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "Question",
-    "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "answer_index": 1
-  },
-  {
-    "id": "bio-anat-14-133",
-    "subject": "anatomy_physiology",
-    "topic": "endocrine_system",
-    "subtopic": "General Adaptation Syndrome",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "Question",
-    "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "answer_index": 1
-  },
-  {
-    "id": "bio-anat-14-134",
-    "subject": "anatomy_physiology",
-    "topic": "endocrine_system",
-    "subtopic": "General Adaptation Syndrome",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "Question",
-    "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "answer_index": 1
-  },
-  {
-    "id": "bio-anat-14-135",
-    "subject": "anatomy_physiology",
-    "topic": "endocrine_system",
-    "subtopic": "General Adaptation Syndrome",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "Question",
-    "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "answer_index": 1
-  },
-  {
-    "id": "bio-anat-14-136",
-    "subject": "anatomy_physiology",
-    "topic": "endocrine_system",
-    "subtopic": "General Adaptation Syndrome",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "Question",
-    "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "answer_index": 1
-  },
-  {
-    "id": "bio-anat-14-137",
-    "subject": "anatomy_physiology",
-    "topic": "endocrine_system",
-    "subtopic": "General Adaptation Syndrome",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "Question",
-    "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "answer_index": 1
-  },
-  {
-    "id": "bio-anat-14-138",
-    "subject": "anatomy_physiology",
-    "topic": "endocrine_system",
-    "subtopic": "General Adaptation Syndrome",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "Question",
-    "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "answer_index": 1
-  },
-  {
-    "id": "bio-anat-14-139",
-    "subject": "anatomy_physiology",
-    "topic": "endocrine_system",
-    "subtopic": "General Adaptation Syndrome",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "Question",
-    "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "answer_index": 1
-  },
-  {
-    "id": "bio-anat-14-140",
-    "subject": "anatomy_physiology",
-    "topic": "endocrine_system",
-    "subtopic": "General Adaptation Syndrome",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "Question",
-    "choices": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "answer_index": 1
-  },
-  {
-    "id": "bio-anat-14-141",
     "subject": "anatomy_physiology",
     "topic": "endocrine_system",
     "subtopic": "Cell Signaling",
@@ -2256,7 +400,7 @@
     "answer_index": 0
   },
   {
-    "id": "bio-anat-14-142",
+    "id": "bio-anat-14-026",
     "subject": "anatomy_physiology",
     "topic": "endocrine_system",
     "subtopic": "Cell Signaling",
@@ -2268,6 +412,1013 @@
       "Exocrine",
       "Apocrine",
       "Merocrine"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-14-027",
+    "subject": "anatomy_physiology",
+    "topic": "endocrine_system",
+    "subtopic": "Disease: Diabetes Mellitus",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The major symptom of diabetes is _____, which means, '_____.'",
+    "choices": [
+      "hyperglycemia; 'high blood sugar'",
+      "hypoglycemia; 'low blood sugar'",
+      "glycosuria; 'sugar in the urine'",
+      "polyuria; 'excessive urination'"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-14-028",
+    "subject": "anatomy_physiology",
+    "topic": "endocrine_system",
+    "subtopic": "Disease: Diabetes Mellitus",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Chronic _____ damages many organs and systems and can result in blindness, the need for amputation due to poor circulation, and other maladies.",
+    "choices": [
+      "hyperglycemia",
+      "hypoglycemia",
+      "ketoacidosis",
+      "hyperkalemia"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-14-029",
+    "subject": "anatomy_physiology",
+    "topic": "endocrine_system",
+    "subtopic": "Disease: Diabetes Mellitus",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "There are two types of diabetes: in type I, the pancreas _____; in type II, the body's cells are _____.",
+    "choices": [
+      "does not produce insulin; unable to respond to insulin",
+      "is unable to respond to insulin; not producing insulin",
+      "produces too much insulin; overly sensitive to insulin",
+      "does not produce glucagon; unable to respond to glucagon"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-14-030",
+    "subject": "anatomy_physiology",
+    "topic": "endocrine_system",
+    "subtopic": "Disease: Diabetes Mellitus",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "In type I diabetes in particular, a dangerous complication is _____ due to the uncontrolled over-production of 'ketone bodies' by the liver. It can result in coma or death.",
+    "choices": [
+      "ketoacidosis",
+      "alkalosis",
+      "hypoglycemic shock",
+      "lactic acidosis"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-14-031",
+    "subject": "anatomy_physiology",
+    "topic": "endocrine_system",
+    "subtopic": "Disease: Diabetes Mellitus",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Ketoacidosis is _____ due to high 'ketone body' levels.",
+    "choices": [
+      "acidification of the blood",
+      "alkalinization of the blood",
+      "acidification of the urine only",
+      "a sharp rise in blood sugar"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-14-032",
+    "subject": "anatomy_physiology",
+    "topic": "endocrine_system",
+    "subtopic": "Endocrine Regulation",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "_____ tend to be localized and immediate (microseconds to seconds): _____ tend to be widespread, slow (minutes to hours) to be implemented, and slow (minutes to hours) to deactivate.",
+    "choices": [
+      "Neural controls; hormonal controls",
+      "Hormonal controls; neural controls",
+      "Paracrine signals; autocrine signals",
+      "Endocrine controls; neural controls"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-14-033",
+    "subject": "anatomy_physiology",
+    "topic": "endocrine_system",
+    "subtopic": "Endocrine Regulation",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "If the signal for an organ to release a hormone is _____, the signal is humoral.",
+    "choices": [
+      "the level of a chemical in the blood",
+      "transmitted by the nervous system",
+      "a releasing hormone from another endocrine gland",
+      "mechanical stretch of the organ"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-14-034",
+    "subject": "anatomy_physiology",
+    "topic": "endocrine_system",
+    "subtopic": "Endocrine Regulation",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "If the signal for an organ to release a hormone is _____, the signal is neural.",
+    "choices": [
+      "transmitted by the nervous system",
+      "the level of a chemical in the blood",
+      "a releasing hormone from another endocrine gland",
+      "a change in blood osmolarity"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-14-035",
+    "subject": "anatomy_physiology",
+    "topic": "endocrine_system",
+    "subtopic": "Endocrine Regulation",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "If the signal for an organ to release a hormone is _____, the signal is hormonal.",
+    "choices": [
+      "a releasing hormone",
+      "the level of a chemical in the blood",
+      "transmitted by the nervous system",
+      "a change in ion levels in the blood"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-14-036",
+    "subject": "anatomy_physiology",
+    "topic": "endocrine_system",
+    "subtopic": "Endocrine Regulation",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The pituitary gland is suspended from (and connected to) the _____ by the _____.",
+    "choices": [
+      "hypothalamus; infundibulum",
+      "thalamus; infundibulum",
+      "hypothalamus; fornix",
+      "brain stem; corpus callosum"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-14-037",
+    "subject": "anatomy_physiology",
+    "topic": "endocrine_system",
+    "subtopic": "Endocrine Regulation",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The pituitary is also called the _____: the anterior portion is the _____, and the posterior portion is the _____.",
+    "choices": [
+      "hypophysis; adenohypophysis; neurohypophysis",
+      "hypophysis; neurohypophysis; adenohypophysis",
+      "epiphysis; adenohypophysis; neurohypophysis",
+      "hypophysis; adenohypophysis; hypothalamus"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-14-038",
+    "subject": "anatomy_physiology",
+    "topic": "endocrine_system",
+    "subtopic": "Endocrine Regulation",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Together, the _____ and _____ regulate the secretion of virtually every hormone in the body.",
+    "choices": [
+      "hypothalamus; pituitary",
+      "thalamus; pituitary",
+      "hypothalamus; pineal gland",
+      "cerebrum; pituitary"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-14-039",
+    "subject": "anatomy_physiology",
+    "topic": "endocrine_system",
+    "subtopic": "Endocrine Regulation",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Growth hormone is secreted by the _____.",
+    "choices": [
+      "adenohypophysis",
+      "neurohypophysis",
+      "hypothalamus",
+      "thyroid gland"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-14-040",
+    "subject": "anatomy_physiology",
+    "topic": "endocrine_system",
+    "subtopic": "Endocrine Regulation",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Because growth hormone is the master growth regulator, too little results in dwarfism and too much results in giantism, but in both cases growth remains _____.",
+    "choices": [
+      "proportional",
+      "disproportionate",
+      "limited to the long bones",
+      "asymmetric"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-14-041",
+    "subject": "anatomy_physiology",
+    "topic": "endocrine_system",
+    "subtopic": "Endocrine Regulation",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "In adults, growth hormone serves to maintain _____.",
+    "choices": [
+      "lean mass",
+      "adipose stores",
+      "epiphyseal plate growth",
+      "blood calcium levels"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-14-042",
+    "subject": "anatomy_physiology",
+    "topic": "endocrine_system",
+    "subtopic": "Endocrine Regulation",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Secretion of growth hormone is primarily regulated by _____ and _____, both of which are released by the _____.",
+    "choices": [
+      "GHRH; GHIH; hypothalamus",
+      "GHRH; GHIH; adenohypophysis",
+      "TRH; GHIH; hypothalamus",
+      "GHRH; GHIH; neurohypophysis"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-14-043",
+    "subject": "anatomy_physiology",
+    "topic": "endocrine_system",
+    "subtopic": "Endocrine Regulation",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Release of thyrotropin is caused by _____, a hormone whose own production is limited by _____ feedback and which is produced by the _____.",
+    "choices": [
+      "thyrotropin releasing hormone; negative; hypothalamus",
+      "thyrotropin releasing hormone; positive; hypothalamus",
+      "thyroid stimulating hormone; negative; adenohypophysis",
+      "thyrotropin releasing hormone; negative; thyroid gland"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-14-044",
+    "subject": "anatomy_physiology",
+    "topic": "endocrine_system",
+    "subtopic": "Endocrine Regulation",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Release of corticosteroids is regulated by the hormone _____, which is produced by the _____.",
+    "choices": [
+      "ACTH (adrenocorticotropic hormone); adenohypophysis",
+      "ACTH (adrenocorticotropic hormone); hypothalamus",
+      "CRH (corticotropin releasing hormone); adenohypophysis",
+      "cortisol; adrenal cortex"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-14-045",
+    "subject": "anatomy_physiology",
+    "topic": "endocrine_system",
+    "subtopic": "Endocrine Regulation",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The release of ACTH is controlled by the hormone _____, which is produced by the _____.",
+    "choices": [
+      "CRH (corticotropin releasing hormone); hypothalamus",
+      "CRH (corticotropin releasing hormone); adenohypophysis",
+      "ACTH; hypothalamus",
+      "TRH (thyrotropin releasing hormone); hypothalamus"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-14-046",
+    "subject": "anatomy_physiology",
+    "topic": "endocrine_system",
+    "subtopic": "Endocrine Regulation",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The gonadotropins _____ and _____ are produced during and after puberty: they regulate the function of the ovaries and testes, and control egg and sperm production. They are made by the _____.",
+    "choices": [
+      "LH; FSH; adenohypophysis",
+      "LH; FSH; hypothalamus",
+      "GnRH; FSH; adenohypophysis",
+      "LH; prolactin; adenohypophysis"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-14-047",
+    "subject": "anatomy_physiology",
+    "topic": "endocrine_system",
+    "subtopic": "Endocrine Regulation",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The release of LH and FSH is controlled by _____, which is produced by the _____.",
+    "choices": [
+      "gonadotropin-releasing hormone (GnRH); hypothalamus",
+      "gonadotropin-releasing hormone (GnRH); adenohypophysis",
+      "luteinizing hormone (LH); hypothalamus",
+      "thyrotropin releasing hormone (TRH); hypothalamus"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-14-048",
+    "subject": "anatomy_physiology",
+    "topic": "endocrine_system",
+    "subtopic": "Endocrine Regulation",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "_____ stimulates milk production by the breasts, and is produced by the _____.",
+    "choices": [
+      "PRL (prolactin); adenohypophysis",
+      "oxytocin; neurohypophysis",
+      "PRL (prolactin); hypothalamus",
+      "oxytocin; adenohypophysis"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-14-049",
+    "subject": "anatomy_physiology",
+    "topic": "endocrine_system",
+    "subtopic": "Endocrine Regulation",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The two hormones released by the neurohypophysis are _____ and _____. Both, however, are produced in the _____.",
+    "choices": [
+      "oxytocin; ADH (antidiuretic hormone); hypothalamus",
+      "oxytocin; ADH (antidiuretic hormone); neurohypophysis",
+      "prolactin; ADH (antidiuretic hormone); hypothalamus",
+      "oxytocin; TSH; hypothalamus"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-14-050",
+    "subject": "anatomy_physiology",
+    "topic": "endocrine_system",
+    "subtopic": "Endocrine Regulation",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "_____ is a strong stimulant of uterine contractions and controls the secretion (not the production) of milk in response to a baby's suckling. It is released from the _____ but produced by the _____.",
+    "choices": [
+      "Oxytocin; neurohypophysis; hypothalamus",
+      "Oxytocin; adenohypophysis; hypothalamus",
+      "Prolactin; neurohypophysis; hypothalamus",
+      "ADH; neurohypophysis; hypothalamus"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-14-051",
+    "subject": "anatomy_physiology",
+    "topic": "endocrine_system",
+    "subtopic": "Endocrine Regulation",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Antidiuretic hormone (ADH) promotes _____ by the _____.",
+    "choices": [
+      "water retention; kidneys",
+      "water excretion; kidneys",
+      "sodium excretion; kidneys",
+      "water retention; sweat glands"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-14-052",
+    "subject": "anatomy_physiology",
+    "topic": "endocrine_system",
+    "subtopic": "Endocrine Regulation",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The release of ADH is controlled by _____ in the _____.",
+    "choices": [
+      "osmoreceptors; hypothalamus",
+      "baroreceptors; hypothalamus",
+      "osmoreceptors; kidneys",
+      "chemoreceptors; medulla oblongata"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-14-053",
+    "subject": "anatomy_physiology",
+    "topic": "endocrine_system",
+    "subtopic": "Pancreas",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The pancreas produces both exocrine and endocrine secretions. Acinar cells produce an enzyme-rich juice used for _____.",
+    "choices": [
+      "digestion",
+      "regulating blood sugar",
+      "absorbing nutrients",
+      "producing bile"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-14-054",
+    "subject": "anatomy_physiology",
+    "topic": "endocrine_system",
+    "subtopic": "Pancreas",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Clusters of cells in the pancreas called _____ produce two hormones, _____ and _____, which regulate blood sugar levels.",
+    "choices": [
+      "pancreatic islets (Islets of Langerhans); glucagon; insulin",
+      "acini; glucagon; insulin",
+      "pancreatic islets (Islets of Langerhans); secretin; gastrin",
+      "acini; amylase; lipase"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-14-055",
+    "subject": "anatomy_physiology",
+    "topic": "endocrine_system",
+    "subtopic": "Pancreas",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "In the pancreas, _____ cells produce insulin; _____ cells produce glucagon.",
+    "choices": [
+      "beta; alpha",
+      "alpha; beta",
+      "delta; beta",
+      "alpha; delta"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-14-056",
+    "subject": "anatomy_physiology",
+    "topic": "endocrine_system",
+    "subtopic": "Pancreas",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Glucagon is released in response to _____ or _____ in the blood, and its major target is the _____.",
+    "choices": [
+      "low sugar levels; high amino acid levels; liver",
+      "high sugar levels; low amino acid levels; liver",
+      "low sugar levels; high amino acid levels; skeletal muscle",
+      "high sugar levels; high fatty acid levels; kidneys"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-14-057",
+    "subject": "anatomy_physiology",
+    "topic": "endocrine_system",
+    "subtopic": "Pancreas",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "In response to glucagon, the liver increases _____ and _____, releasing sugar into the blood.",
+    "choices": [
+      "gluconeogenesis; glycogenolysis",
+      "glycogenesis; glycolysis",
+      "glycolysis; glycogenolysis",
+      "glycogenesis; gluconeogenesis"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-14-058",
+    "subject": "anatomy_physiology",
+    "topic": "endocrine_system",
+    "subtopic": "Pancreas",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Glycogenolysis is _____.",
+    "choices": [
+      "the breakdown of glycogen to glucose",
+      "the synthesis of glycogen from glucose",
+      "the synthesis of glucose from amino acids or lipids",
+      "the breakdown of glucose to pyruvate"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-14-059",
+    "subject": "anatomy_physiology",
+    "topic": "endocrine_system",
+    "subtopic": "Pancreas",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Gluconeogenesis is_____.",
+    "choices": [
+      "synthesis of glucose from amino acids or from lactic acid or lipids",
+      "breakdown of glycogen to glucose",
+      "synthesis of glycogen from glucose",
+      "breakdown of glucose to pyruvate"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-14-060",
+    "subject": "anatomy_physiology",
+    "topic": "endocrine_system",
+    "subtopic": "Pancreas",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Because of its role in increasing blood sugar levels, glucagon is also released in response to signals from the _____.",
+    "choices": [
+      "sympathetic nervous system",
+      "parasympathetic nervous system",
+      "somatic nervous system",
+      "neurohypophysis"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-14-061",
+    "subject": "anatomy_physiology",
+    "topic": "endocrine_system",
+    "subtopic": "Pancreas",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Insulin is made as a prohormone: a small piece of the prohormone called the _____ is excised and floats free in the blood. Knowing its level allows estimation of _____ even in diabetics whose insulin is high due to injection.",
+    "choices": [
+      "C-peptide; the amount of insulin produced by the body",
+      "A-chain; the amount of insulin produced by the body",
+      "C-peptide; the blood glucose level",
+      "proinsulin; the amount of injected insulin"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-14-062",
+    "subject": "anatomy_physiology",
+    "topic": "endocrine_system",
+    "subtopic": "Pancreas",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The major targets of insulin are _____, _____ and _____.",
+    "choices": [
+      "muscle; fat; liver",
+      "brain; fat; liver",
+      "muscle; kidney; brain",
+      "muscle; fat; pancreas"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-14-063",
+    "subject": "anatomy_physiology",
+    "topic": "endocrine_system",
+    "subtopic": "Pancreas",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Cells in _____ and _____ cannot remove sugar from the blood unless insulin is present.",
+    "choices": [
+      "muscle; fat",
+      "liver; brain",
+      "brain; muscle",
+      "liver; fat"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-14-064",
+    "subject": "anatomy_physiology",
+    "topic": "endocrine_system",
+    "subtopic": "Pancreas",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Cells in the _____ produce sugar and 'ketone bodies' for the rest of the body to use as fuel unless insulin is present.",
+    "choices": [
+      "liver",
+      "kidneys",
+      "skeletal muscle",
+      "pancreas"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-14-065",
+    "subject": "anatomy_physiology",
+    "topic": "endocrine_system",
+    "subtopic": "Pancreas",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Pancreatic cells produce insulin primarily in response to _____ signals.",
+    "choices": [
+      "humoral",
+      "neural",
+      "hormonal",
+      "paracrine"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-14-066",
+    "subject": "anatomy_physiology",
+    "topic": "endocrine_system",
+    "subtopic": "Parathyroid Glands",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "_____ cells in the _____ glands release _____, which is the hormone that is the primary control of calcium metabolism in the body.",
+    "choices": [
+      "Chief; parathyroid; PTH",
+      "Oxyphil; parathyroid; PTH",
+      "Chief; thyroid; calcitonin",
+      "Parafollicular; thyroid; calcitonin"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-14-067",
+    "subject": "anatomy_physiology",
+    "topic": "endocrine_system",
+    "subtopic": "Parathyroid Glands",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "PTH _____ calcium in the blood.",
+    "choices": [
+      "increases",
+      "decreases"
+    ],
+    "answer_index": 0,
+    "shuffle": false
+  },
+  {
+    "id": "bio-anat-14-068",
+    "subject": "anatomy_physiology",
+    "topic": "endocrine_system",
+    "subtopic": "Parathyroid Glands",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "PTH release is inhibited by _____, an example of _____ regulation.",
+    "choices": [
+      "calcium; humoral",
+      "calcium; neural",
+      "phosphate; humoral",
+      "calcitonin; hormonal"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-14-069",
+    "subject": "anatomy_physiology",
+    "topic": "endocrine_system",
+    "subtopic": "Secondary Endocrine Organs",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The two major products of the ovaries are _____ and _____: however, they also produce small amounts of testosterone and other androgens.",
+    "choices": [
+      "estrogens; progesterone",
+      "estrogens; testosterone",
+      "progesterone; prolactin",
+      "estrogens; FSH"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-14-070",
+    "subject": "anatomy_physiology",
+    "topic": "endocrine_system",
+    "subtopic": "Secondary Endocrine Organs",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "In addition to their role in pregnancy, hormones produced by the _____ are responsible for maturation of the reproductive organs, breast development, and the menstrual cycle.",
+    "choices": [
+      "ovaries",
+      "uterus",
+      "placenta",
+      "adrenal cortex"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-14-071",
+    "subject": "anatomy_physiology",
+    "topic": "endocrine_system",
+    "subtopic": "Secondary Endocrine Organs",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The major hormone produced by the testes is _____, although other androgens and even estrogen are produced in small amounts.",
+    "choices": [
+      "testosterone",
+      "dihydrotestosterone",
+      "androstenedione",
+      "luteinizing hormone (LH)"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-14-072",
+    "subject": "anatomy_physiology",
+    "topic": "endocrine_system",
+    "subtopic": "Secondary Endocrine Organs",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "In the male, _____ initiates maturation of male reproductive organs, causes appearance of secondary sexual characteristics and sex drive, is necessary for sperm production, and maintains sex organs in their functional state.",
+    "choices": [
+      "testosterone",
+      "luteinizing hormone (LH)",
+      "follicle stimulating hormone (FSH)",
+      "estrogen"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-14-073",
+    "subject": "anatomy_physiology",
+    "topic": "endocrine_system",
+    "subtopic": "Secondary Endocrine Organs",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The heart produces _____, which reduces blood pressure, blood volume, and blood sodium concentration.",
+    "choices": [
+      "ANP (atrial natriuretic peptide)",
+      "ADH (antidiuretic hormone)",
+      "aldosterone",
+      "erythropoietin"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-14-074",
+    "subject": "anatomy_physiology",
+    "topic": "endocrine_system",
+    "subtopic": "Secondary Endocrine Organs",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Erythropoietin is produced by the _____, and acts to increase the body's production of red blood cells.",
+    "choices": [
+      "kidney",
+      "liver",
+      "red bone marrow",
+      "spleen"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-14-075",
+    "subject": "anatomy_physiology",
+    "topic": "endocrine_system",
+    "subtopic": "Secondary Endocrine Organs",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "_____ releases several hormones involved in energy intake, macronutrient metabolism, insulin sensitivity.",
+    "choices": [
+      "Adipose tissue",
+      "The thymus",
+      "The spleen",
+      "The pineal gland"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-14-076",
+    "subject": "anatomy_physiology",
+    "topic": "endocrine_system",
+    "subtopic": "Thyroid Gland",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Normal development and activity of the thyroid gland is controlled by _____, a hormone released by the _____.",
+    "choices": [
+      "thyrotropin (TSH); adenohypophysis",
+      "thyrotropin (TSH); hypothalamus",
+      "thyrotropin releasing hormone (TRH); adenohypophysis",
+      "thyroxine; neurohypophysis"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-14-077",
+    "subject": "anatomy_physiology",
+    "topic": "endocrine_system",
+    "subtopic": "Thyroid Gland",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The phrase 'thyroid hormone' refers actually to two hormones, _____ and _____.",
+    "choices": [
+      "T3 (triiodothyronine); T4 (tetraiodothyronine)",
+      "T4 (thyroxine); calcitonin",
+      "T3 (triiodothyronine); thyroglobulin",
+      "calcitonin; thyroglobulin"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-14-078",
+    "subject": "anatomy_physiology",
+    "topic": "endocrine_system",
+    "subtopic": "Thyroid Gland",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "T4 is also known as _____.",
+    "choices": [
+      "thyroxine",
+      "triiodothyronine",
+      "calcitonin",
+      "thyroglobulin"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-14-079",
+    "subject": "anatomy_physiology",
+    "topic": "endocrine_system",
+    "subtopic": "Thyroid Gland",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The numbers in 'T3' and 'T4' refer to the number of _____ atoms bound to each molecule.",
+    "choices": [
+      "iodine",
+      "tyrosine",
+      "iron",
+      "nitrogen"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-14-080",
+    "subject": "anatomy_physiology",
+    "topic": "endocrine_system",
+    "subtopic": "Thyroid Gland",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "_____ is produced in the hypothalamus: it stimulates the release of _____ from the adenohypophysis, which in turn stimulates the release of thyroid hormone from the thyroid gland.",
+    "choices": [
+      "TRH (thyrotropin releasing hormone); TSH (thyrotropin)",
+      "TSH (thyrotropin); TRH (thyrotropin releasing hormone)",
+      "TRH (thyrotropin releasing hormone); T4 (thyroxine)",
+      "GnRH; TSH (thyrotropin)"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-14-081",
+    "subject": "anatomy_physiology",
+    "topic": "endocrine_system",
+    "subtopic": "Thyroid Gland",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "_____ are target cells for thyroid hormone.",
+    "choices": [
+      "Most cells in the body",
+      "Only thyroid follicle cells",
+      "Only neurons and muscle cells",
+      "Only cells of the liver and kidneys"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-14-082",
+    "subject": "anatomy_physiology",
+    "topic": "endocrine_system",
+    "subtopic": "Thyroid Gland",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Although they are not steroids, T3 and T4 bind to _____ and control _____.",
+    "choices": [
+      "intracellular (nuclear) receptors; gene activation",
+      "cell-surface receptors; second messenger production",
+      "intracellular (nuclear) receptors; membrane depolarization",
+      "cell-surface receptors; gene activation"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-14-083",
+    "subject": "anatomy_physiology",
+    "topic": "endocrine_system",
+    "subtopic": "Thyroid Gland",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "In response to T3 and T4, cells increase their _____, building more mitochondria and increasing ion flux across their membranes. As a result, energy is used to produce _____.",
+    "choices": [
+      "metabolic rate; heat",
+      "metabolic rate; glycogen",
+      "division rate; heat",
+      "membrane potential; ATP"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-14-084",
+    "subject": "anatomy_physiology",
+    "topic": "endocrine_system",
+    "subtopic": "Thyroid Gland",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The third hormone produced by the thyroid is unlike the other two: it helps to regulate _____ metabolism, and is called _____.",
+    "choices": [
+      "calcium; calcitonin",
+      "calcium; parathyroid hormone",
+      "glucose; calcitonin",
+      "iodine; thyroglobulin"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-14-085",
+    "subject": "anatomy_physiology",
+    "topic": "endocrine_system",
+    "subtopic": "Thyroid Gland",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "_____ cells in the thyroid gland produce _____, which is a large glycoprotein from which T3 and T4 are made.",
+    "choices": [
+      "Follicle; thyroglobulin",
+      "Parafollicular; thyroglobulin",
+      "Follicle; calcitonin",
+      "Parafollicular; calcitonin"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-14-086",
+    "subject": "anatomy_physiology",
+    "topic": "endocrine_system",
+    "subtopic": "Thyroid Gland",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Follicle cells surround compartments (follicles) in which iodinated thyroglobulin is _____.",
+    "choices": [
+      "stored",
+      "synthesized from amino acids",
+      "broken down into T3 and T4",
+      "released directly into the blood"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-14-087",
+    "subject": "anatomy_physiology",
+    "topic": "endocrine_system",
+    "subtopic": "Thyroid Gland",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "When T3 and T4 are needed, iodinated thyroglobulin _____. The vesicle combines with a lysosome, and iodinated thyroglobin is cut enzymatically to produce the mature hormone.",
+    "choices": [
+      "re-enters the follicle cells via pinocytosis",
+      "is secreted directly into the bloodstream",
+      "diffuses passively into the parafollicular cells",
+      "is broken down by enzymes in the follicle lumen"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-14-088",
+    "subject": "anatomy_physiology",
+    "topic": "endocrine_system",
+    "subtopic": "Thyroid Gland",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "T3 and T4 are present in the blood _____.",
+    "choices": [
+      "bound to carrier proteins",
+      "freely dissolved in the plasma",
+      "bound to thyroglobulin",
+      "carried inside red blood cells"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-14-089",
+    "subject": "anatomy_physiology",
+    "topic": "endocrine_system",
+    "subtopic": "Thyroid Gland",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "T3 and T4 levels are controlled by _____ feedback: they _____ production of TSH and sensitivity to TRH.",
+    "choices": [
+      "negative; inhibit",
+      "negative; stimulate",
+      "positive; stimulate",
+      "positive; inhibit"
     ],
     "answer_index": 0
   }
