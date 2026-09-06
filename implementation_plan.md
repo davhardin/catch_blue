@@ -113,7 +113,7 @@ catch_blue/
 ├── pytest.ini         ✅ pythonpath = .
 ├── .gitignore         ✅
 ├── requirements.txt   ✅ runtime only
-└── requirements-dev.txt  pytest and friends
+└── requirements-dev.txt  ✅ pytest (added 2026-09-06)
 ```
 
 `board_view.py` and `constants.py` weren't in the original layout — they fell out of the M0 decision to keep pixels out of `board.py`.
@@ -132,7 +132,7 @@ Estimates assume you're writing most code yourself, are new-ish to coding, and i
 | ~~M3~~ ✅ | Question system: JSON loading, question popup with clickable multiple-choice answers, correct/incorrect flow — *expanded 2026-08-31:* topic/subtopic hierarchy and subtopic labels drawn on the board; 96 tests total | 8–14 |
 | ~~M4~~ ✅ | Game flow: state machine, three-screen menu wizard (Game Select → Subject → Topics), win condition (catch adjacent Blue through its question — see §4), 20-move loss, end screens with replay — *scope settled 2026-08-31, see `milestones/m4.md`*; 113 tests total | 8–12 |
 | M5 | Content: the real question bank — deep (8+ per subtopic, 200+ questions), curated by David from his study materials and openly licensed banks (CC-attributed — see the curation decision in `milestones/m5.md`), difficulty-tagged 1–3 (tag shipped in the format; grading deferred to playtesting, see §7) — plus data-layer hardening for authoring at scale, the `subject` field (settled, see §7), per-topic file split, runtime answer-choice shuffling before any import (files stay canonical — see §4 and `milestones/m5.md` M5.e), and the Topics screen learning to scroll (list scrolls, Start button stationary). *Scope settled 2026-08-31, shuffle added 2026-09-01; engineering half largely landed as of the 2026-09-01 commit — see `milestones/m5.md`* | 10–16 |
-| M6 | Polish: playtesting, bug fixes, visual cleanup | 4–8 |
+| M6 | Polish: playtesting, bug fixes, visual cleanup — *scope settled 2026-09-06, see `milestones/m6.md`:* the mechanical §7 knobs first (randomized question rotation, randomized flee tie-breaks, the answer reveal, Blue's square possessing a random category), then a playtest-and-tune pass, then a style decision and one timeboxed visual pass. Roughly 11–17 build hours as scoped; each sub-goal ships independently | 4–8 → 11–17 |
 | | **Total** | **~38–63** |
 
 The GDD's gate says "only add Run from Red if Catch Blue lands under 30 hours." That's achievable if you stay multiple-choice-only, keep art to colored rectangles + text, and defer accessibility modes. If you're past 30 hours at M6, ship it — a finished Catch Blue is a better portfolio piece than a half-finished Run from Red.
