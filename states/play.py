@@ -151,6 +151,7 @@ class PlayState:
                             flee_target = self.blue.flee_step(
                                 self.board,
                                 self.player.cell,
+                                self.rng,
                             )
                             self.blue.move_to(flee_target)
 
@@ -204,7 +205,7 @@ class PlayState:
 
                     if target is not None and intent is not None:
                         topic, subtopic = self.cell_topics[target]
-                        question = self.bank.next_question(topic, subtopic)
+                        question = self.bank.next_question(topic, subtopic, self.rng)
 
                         self.pending = (question, target, intent)
                         self.selected = target

@@ -344,16 +344,87 @@ def three_pool():
     return [make_question(id=f"a{n}") for n in (1, 2, 3)]
 
 
-def test_rotation_walks_the_pool_in_load_order(tmp_path):
-    bank = build_bank(tmp_path, three_pool())
-    drawn = [bank.next_question("topic_a", "Section One").id for _ in range(3)]
-    assert drawn == ["a1", "a2", "a3"]
+def draw_ids(bank, rng, count, topic="topic_a", subtopic="Section One"):
+    return [bank.next_question(topic, subtopic, rng).id for _ in range(count)]
 
 
-def test_dry_pool_recycles_from_the_top(tmp_path):
+@pytest.mark.parametrize("seed", range(10))
+def test_rotation_serves_each_question_once(tmp_path, seed):
     bank = build_bank(tmp_path, three_pool())
-    drawn = [bank.next_question("topic_a", "Section One").id for _ in range(7)]
-    assert drawn == ["a1", "a2", "a3", "a1", "a2", "a3", "a1"]
+    assert sorted(draw_ids(bank, Random(seed), 3)) == ["a1", "a2", "a3"]
+
+
+@pytest.mark.parametrize("seed", range(10))
+def test_dry_pool_recycles_every_question(tmp_path, seed):
+    bank = build_bank(tmp_path, three_pool())
+    rng = Random(seed)
+    for _ in range(4):
+        assert sorted(draw_ids(bank, rng, 3)) == ["a1", "a2", "a3"]
+        assert bank.used_ids == {"a1", "a2", "a3"}
+
+
+def test_same_seed_produces_same_rotation_across_recycles(tmp_path):
+    bank = build_bank(tmp_path, three_pool())
+    other = QuestionBank(tmp_path)
+    assert draw_ids(bank, Random(42), 12) == draw_ids(other, Random(42), 12)
+
+
+def test_different_seeds_produce_different_rotations(tmp_path):
+    questions = [make_question(id=f"q{n}") for n in range(10)]
+    build_bank(tmp_path, questions)
+    sequences = [
+        draw_ids(QuestionBank(tmp_path), Random(seed), 20)
+        for seed in range(5)
+    ]
+    assert any(sequence != sequences[0] for sequence in sequences[1:])
+
+
+def test_recycled_orders_vary(tmp_path):
+    bank = build_bank(tmp_path, [make_question(id=f"q{n}") for n in range(10)])
+    rng = Random(7)
+    cycles = [tuple(draw_ids(bank, rng, 10)) for _ in range(5)]
+    assert len(set(cycles)) > 1
+
+
+def test_pool_shuffles_only_on_first_draw_and_recycle(tmp_path):
+    class RecordingRandom(Random):
+        def __init__(self, seed):
+            super().__init__(seed)
+            self.shuffled_ids = []
+
+        def shuffle(self, items):
+            self.shuffled_ids.append({q.id for q in items})
+            super().shuffle(items)
+
+    bank = build_bank(tmp_path, three_pool())
+    rng = RecordingRandom(7)
+    draw_ids(bank, rng, 3)
+    assert rng.shuffled_ids == [{"a1", "a2", "a3"}]
+    draw_ids(bank, rng, 3)
+    assert rng.shuffled_ids == [{"a1", "a2", "a3"}] * 2
+
+
+def test_rotation_continues_across_session_batches(tmp_path):
+    bank = build_bank(tmp_path, three_pool())
+    rng = Random(7)
+    first_session = draw_ids(bank, rng, 1)
+    assert bank.used_ids == set(first_session)
+    # Replay retains the bank and RNG rather than resetting either.
+    next_session = draw_ids(bank, rng, 2)
+    assert sorted(first_session + next_session) == ["a1", "a2", "a3"]
+
+
+def test_rotation_does_not_mutate_canonical_questions(tmp_path):
+    bank = build_bank(tmp_path, [
+        make_question(id=f"q{n}", shuffle=False) for n in range(5)
+    ])
+    originals = [(q.id, list(q.choices), q.answer_index, q.shuffle) for q in bank.questions]
+    rng = Random(7)
+    cycles = [tuple(draw_ids(bank, rng, 5)) for _ in range(4)]
+    assert len(set(cycles)) > 1  # shuffle=False controls answers, not rotation.
+    assert [(q.id, q.choices, q.answer_index, q.shuffle) for q in bank.questions] == originals
+    for q in bank.questions:
+        assert q.display_order(rng) == list(range(len(q.choices)))
 
 
 def test_recycle_resets_only_its_own_pool(tmp_path):
@@ -364,12 +435,14 @@ def test_recycle_resets_only_its_own_pool(tmp_path):
         make_question(id="b1", subtopic="Section Two"),
         make_question(id="b2", subtopic="Section Two"),
     ])
-    assert bank.next_question("topic_a", "Section Two").id == "b1"
+    rng = Random(7)
+    first_b = bank.next_question("topic_a", "Section Two", rng).id
     # Exhaust and recycle Section One...
-    for _ in range(3):
-        bank.next_question("topic_a", "Section One")
+    draw_ids(bank, rng, 3)
+    assert bank.used_ids & {"b1", "b2"} == {first_b}
     # ...and Section Two resumes where it left off.
-    assert bank.next_question("topic_a", "Section Two").id == "b2"
+    second_b = bank.next_question("topic_a", "Section Two", rng).id
+    assert {first_b, second_b} == {"b1", "b2"}
 
 
 def test_pools_of_the_same_topic_stay_isolated(tmp_path):
@@ -377,7 +450,7 @@ def test_pools_of_the_same_topic_stay_isolated(tmp_path):
         make_question(id="a1"),
         make_question(id="b1", subtopic="Section Two"),
     ])
-    drawn = [bank.next_question("topic_a", "Section One").id for _ in range(4)]
+    drawn = draw_ids(bank, Random(7), 4)
     assert drawn == ["a1", "a1", "a1", "a1"]
 
 
@@ -388,19 +461,22 @@ def test_same_subtopic_name_under_two_topics_is_two_pools(tmp_path):
         make_question(id="a1", topic="topic_a", subtopic="Overview"),
         make_question(id="b1", topic="topic_b", subtopic="Overview"),
     ])
-    assert bank.next_question("topic_a", "Overview").id == "a1"
-    assert bank.next_question("topic_b", "Overview").id == "b1"
+    rng = Random(7)
+    assert bank.next_question("topic_a", "Overview", rng).id == "a1"
+    assert bank.next_question("topic_b", "Overview", rng).id == "b1"
     # Recycling one Overview must not reset or leak into the other.
-    assert bank.next_question("topic_a", "Overview").id == "a1"
-    assert bank.next_question("topic_b", "Overview").id == "b1"
+    assert bank.next_question("topic_a", "Overview", rng).id == "a1"
+    assert bank.next_question("topic_b", "Overview", rng).id == "b1"
 
 
 def test_unknown_pair_raises(tmp_path):
     bank = build_bank(tmp_path, [make_question()])
-    with pytest.raises(ValueError):
-        bank.next_question("topic_a", "No Such Section")
-    with pytest.raises(ValueError):
-        bank.next_question("no_such_topic", "Section One")
+    rng = Random(7)
+    with pytest.raises(ValueError, match="No Such Section"):
+        bank.next_question("topic_a", "No Such Section", rng)
+    with pytest.raises(ValueError, match="no_such_topic"):
+        bank.next_question("no_such_topic", "Section One", rng)
+    assert bank.used_ids == set()
 
 
 # --- the shipped data: one smoke test ---------------------------------------

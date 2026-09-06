@@ -8,6 +8,7 @@ design, and the last test makes sure it stays that way.
 import subprocess
 import sys
 from pathlib import Path
+from random import Random
 
 import pytest
 
@@ -116,76 +117,157 @@ def test_blocking_a_distant_cell_changes_nothing():
     assert player.legal_moves(board, {Cell(4, 4)}) == board.neighbors(Cell(2, 2))
 
 
-# --- Blue.flee_step (M2.e) --------------------------------------------------
+# --- Blue.flee_step (M2.e, M6.b) --------------------------------------------
+
 
 def test_flee_strictly_increases_distance_when_escape_exists():
     board = Board(5, 5)
     blue = Blue(Cell(2, 2))
     threat = Cell(2, 3)
-    step = blue.flee_step(board, threat)
+    step = blue.flee_step(board, threat, Random(7))
     assert get_distance(step, threat) > get_distance(blue.cell, threat)
 
 
 def test_flee_step_chooses_without_moving_blue():
-    """flee_step decides; move_to acts. The chooser must not mutate -- that
-    split is what lets these tests call it freely."""
+    """flee_step decides; move_to acts. Only the RNG may advance."""
     blue = Blue(Cell(2, 2))
-    blue.flee_step(Board(5, 5), Cell(2, 3))
-    assert blue.cell == Cell(2, 2)
+    rng = Random(7)
+
+    for _ in range(10):
+        blue.flee_step(Board(5, 5), Cell(2, 3), rng)
+        assert blue.cell == Cell(2, 2)
 
 
-def test_flee_ties_break_deterministically():
-    """Threat directly below Blue mid-board: left, right, and up all improve
-    distance by exactly 1 (Manhattan). Sorted order must crown the same
-    winner every time -- Cell(1, 2), the smallest of the tied three."""
+def test_flee_ties_choose_only_best_cells_and_can_reach_each():
+    """Threat below Blue: left, right, and up all improve by one."""
     board = Board(5, 5)
-    results = {Blue(Cell(2, 2)).flee_step(board, Cell(2, 3)) for _ in range(10)}
-    assert results == {Cell(1, 2)}
+    blue = Blue(Cell(2, 2))
+    threat = Cell(2, 3)
+    expected = {Cell(1, 2), Cell(3, 2), Cell(2, 1)}
+    results = set()
+
+    for seed in range(100):
+        step = blue.flee_step(board, threat, Random(seed))
+        assert step in expected
+        results.add(step)
+
+    assert results == expected
+
+
+def test_same_seed_produces_same_flee_sequence():
+    board = Board(5, 5)
+    blue = Blue(Cell(2, 2))
+    threat = Cell(2, 3)
+    rng_a = Random(42)
+    rng_b = Random(42)
+
+    sequence_a = [
+        blue.flee_step(board, threat, rng_a)
+        for _ in range(20)
+    ]
+    sequence_b = [
+        blue.flee_step(board, threat, rng_b)
+        for _ in range(20)
+    ]
+
+    assert sequence_a == sequence_b
+    assert len(set(sequence_a)) > 1
 
 
 def test_flee_is_not_derailed_by_a_worsening_candidate():
-    """Regression for the early-return bug: threat two cells west, so east,
-    north, and south all improve while west worsens. Meeting the worsening
-    candidate mid-scan must not read as "Blue is stuck"."""
+    """A worsening candidate must not hide the available improving moves."""
     board = Board(5, 5)
     blue = Blue(Cell(2, 2))
     threat = Cell(0, 2)
-    step = blue.flee_step(board, threat)
-    assert step != blue.cell
-    assert get_distance(step, threat) > get_distance(blue.cell, threat)
+    expected = {Cell(3, 2), Cell(2, 1), Cell(2, 3)}
+
+    for seed in range(20):
+        step = blue.flee_step(board, threat, Random(seed))
+        assert step in expected
+        assert get_distance(step, threat) > get_distance(blue.cell, threat)
 
 
-def test_flee_runs_along_an_edge_not_off_it():
-    """Blue against the left wall, threat adjacent below: the wall-hugging
-    step up and the step inward both improve; ties sort to Cell(0, 1), so
-    Blue runs along the edge."""
+def test_flee_at_an_edge_chooses_only_improving_neighbors():
+    """Against the left wall, both up and inward are valid escapes."""
     board = Board(5, 5)
     blue = Blue(Cell(0, 2))
-    assert blue.flee_step(board, Cell(0, 3)) == Cell(0, 1)
+    threat = Cell(0, 3)
+    expected = {Cell(0, 1), Cell(1, 2)}
+    results = set()
+
+    for seed in range(100):
+        step = blue.flee_step(board, threat, Random(seed))
+        assert step in expected
+        results.add(step)
+
+    assert results == expected
 
 
-def test_flee_stays_when_cornered():
-    """Corner with the threat on the diagonal: both exits move Blue closer,
-    so no candidate survives the strict filter. Blue holds still -- and the
-    empty-survivors guard, not a max() over nothing, is what answers."""
+@pytest.mark.parametrize("seed", range(10))
+def test_flee_stays_when_cornered(seed):
+    """Both exits reduce distance when the threat is on the diagonal."""
     board = Board(5, 5)
-    assert Blue(Cell(0, 0)).flee_step(board, Cell(1, 1)) == Cell(0, 0)
+    blue = Blue(Cell(0, 0))
+
+    assert blue.flee_step(board, Cell(1, 1), Random(seed)) == blue.cell
 
 
-def test_flee_from_every_position_stays_on_board_and_off_the_threat():
-    """Sweep all 600 (blue, threat) pairings on the 5x5. Wherever Blue stands
-    and wherever the threat is, the chosen cell is on the board, is never
-    the threat's own square, and is reachable in one step or a stand-still.
-    m2.md's success check ("never off it, never onto you") as a property."""
+@pytest.mark.parametrize("seed", range(10))
+def test_flee_chooses_the_only_improving_candidate(seed):
     board = Board(5, 5)
+    blue = Blue(Cell(0, 0))
+
+    assert blue.flee_step(board, Cell(0, 1), Random(seed)) == Cell(1, 0)
+
+
+@pytest.mark.parametrize(
+    "threat",
+    [Cell(1, 1), Cell(0, 1)],
+    ids=["cornered", "single-escape"],
+)
+def test_flee_without_a_tie_does_not_consume_randomness(threat):
+    blue = Blue(Cell(0, 0))
+    rng = Random(7)
+    before = rng.getstate()
+
+    blue.flee_step(Board(5, 5), threat, rng)
+
+    assert rng.getstate() == before
+
+
+@pytest.mark.parametrize("seed", range(10))
+def test_flee_from_every_position_stays_on_board_and_off_the_threat(seed):
+    """Sweep all 600 distinct pairings, including the full escape contract."""
+    board = Board(5, 5)
+    rng = Random(seed)
+
     for start in board.cells():
         for threat in board.cells():
             if threat == start:
                 continue
-            step = Blue(start).flee_step(board, threat)
+
+            current_distance = get_distance(start, threat)
+            improving = {
+                cell
+                for cell in board.neighbors(start)
+                if cell != threat
+                and get_distance(cell, threat) > current_distance
+            }
+
+            blue = Blue(start)
+            step = blue.flee_step(board, threat, rng)
+
             assert board.in_bounds(step.col, step.row)
             assert step != threat
             assert step == start or is_adjacent(step, start)
+            assert get_distance(step, threat) >= current_distance
+            assert blue.cell == start
+
+            if improving:
+                assert step in improving
+                assert get_distance(step, threat) == current_distance + 1
+            else:
+                assert step == start
 
 
 # --- the architectural line ------------------------------------------------

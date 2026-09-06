@@ -72,6 +72,7 @@ class QuestionBank:
     def __init__(self, data_dir):
         self.questions = []
         self.used_ids = set()
+        self._pool_orders: dict[tuple[str, str], list[Question]] = {}
         self.data_dir = data_dir
 
         path = Path(self.data_dir)
@@ -142,14 +143,19 @@ class QuestionBank:
             set(q.subtopic for q in self.questions if q.topic == topic)
         )
 
-    def next_question(self, topic, subtopic):
-        candidates = [
-            q
-            for q in self.questions
-            if q.topic == topic and q.subtopic == subtopic
-        ]
-        if not candidates:
-            raise ValueError(f"No questions available for topic '{topic}' and subtopic '{subtopic}'")
+    def next_question(self, topic, subtopic, rng: Random) -> Question:
+        key = (topic, subtopic)
+        candidates = self._pool_orders.get(key)
+        if candidates is None:
+            candidates = [
+                q
+                for q in self.questions
+                if q.topic == topic and q.subtopic == subtopic
+            ]
+            if not candidates:
+                raise ValueError(f"No questions available for topic '{topic}' and subtopic '{subtopic}'")
+            rng.shuffle(candidates)
+            self._pool_orders[key] = candidates
 
         for q in candidates:
             if q.id not in self.used_ids:
@@ -159,6 +165,7 @@ class QuestionBank:
         for q in candidates:
             self.used_ids.discard(q.id)
 
+        rng.shuffle(candidates)
         first = candidates[0]
         self.used_ids.add(first.id)
         return first

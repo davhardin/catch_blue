@@ -1,3 +1,5 @@
+from random import Random
+
 from board import Cell, Board, get_distance
 from constants import BLUE_COLOR, DEFAULT_COLOR, PLAYER_COLOR
 
@@ -31,12 +33,21 @@ class Blue(Character):
     def at_start(cls, board: Board):
         return cls(Cell(board.cols // 2, board.rows // 2))
 
-    def flee_step(self, board: Board, threat: Cell) -> Cell:
+    def flee_step(self, board: Board, threat: Cell, rng: Random) -> Cell:
         candidates = self.legal_moves(board, {threat})
+        current_distance = get_distance(self.cell, threat)
         survivors = set()
         for candidate in candidates:
-            if get_distance(candidate, threat) > get_distance(self.cell, threat):
+            if get_distance(candidate, threat) > current_distance:
                 survivors.add(candidate)
+
         if not survivors:
             return self.cell
-        return max(sorted(survivors), key=lambda cell: get_distance(cell, threat))
+
+        # Every improving orthogonal step adds exactly one to Manhattan distance,
+        # so all survivors tie for best. Sort for reproducible seeded choices.
+        best_cells = sorted(survivors)
+        if len(best_cells) == 1:
+            return best_cells[0]
+
+        return rng.choice(best_cells)
