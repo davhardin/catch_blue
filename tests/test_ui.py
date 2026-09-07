@@ -3,31 +3,31 @@
 import pygame
 import pytest
 
-from constants import INACTIVE_BUTTON_COLOR, INACTIVE_TEXT_COLOR
+from render import Renderer
+from theme import FLAT
 from ui import Button
 
 
 @pytest.fixture
-def font():
+def renderer():
     pygame.font.init()
-    yield pygame.font.Font(None, 24)
+    yield Renderer(FLAT)
     pygame.font.quit()
 
 
 @pytest.mark.parametrize("active", [True, False])
-@pytest.mark.parametrize("highlight", [(0, 100, 70), (150, 45, 35)])
-def test_highlight_overrides_only_background_and_resets(font, active, highlight):
+@pytest.mark.parametrize("highlight", ["correct", "incorrect"])
+def test_highlight_overrides_only_background_and_resets(renderer, active, highlight):
     background = (60, 88, 90)
     foreground = (245, 245, 245)
     button = Button(
-        pygame.Rect(10, 10, 180, 60), "Answer", font,
-        foreground, background, active=active,
+        pygame.Rect(10, 10, 180, 60), "Answer", renderer, active=active,
     )
     surface = pygame.Surface((200, 80))
     sample = (button.rect.right - 2, button.rect.bottom - 2)
-    normal_background = background if active else INACTIVE_BUTTON_COLOR
-    text_color = foreground if active else INACTIVE_TEXT_COLOR
-    expected_text = font.render("Answer", True, text_color)
+    normal_background = background if active else FLAT.palette.button_inactive
+    text_color = foreground if active else FLAT.palette.text_inactive
+    expected_text = renderer.font("button").render("Answer", True, text_color)
 
     def assert_rendered(expected_background):
         surface.fill((1, 2, 3))
@@ -41,12 +41,14 @@ def test_highlight_overrides_only_background_and_resets(font, active, highlight)
         assert button.is_clicked(button.rect.center) == active
         assert not button.is_clicked((0, 0))
         assert button.active == active
-        assert button.rect_color == background
-        assert button.color == foreground
+        assert button.renderer is renderer
+        assert button.font_role == "button"
+        assert renderer.color("button") == background
+        assert renderer.color("text") == foreground
 
-    assert button.highlight_color is None
+    assert button.highlight is None
     assert_rendered(normal_background)
-    button.highlight_color = highlight
-    assert_rendered(highlight)
-    button.highlight_color = None
+    button.highlight = highlight
+    assert_rendered(renderer.color(highlight))
+    button.highlight = None
     assert_rendered(normal_background)

@@ -1,5 +1,6 @@
 """Answer reveal timing and input isolation, without a display or real bank."""
 
+from dataclasses import replace
 import json
 from random import Random
 
@@ -7,15 +8,18 @@ import pygame
 import pytest
 
 import constants
+from render import Renderer
+from theme import FLAT, Alignment
 from board import Cell
 from game_setup import GameConfig
 from questions import Question, QuestionBank
 from states.game_over import GameOverState
-from states.play import PlayState
+from states.play import PlayState, build_question_popup
 
 
 class GameStub:
     def __init__(self):
+        self.renderer = Renderer(FLAT)
         self.state = None
         self.transitions = []
 
@@ -94,6 +98,7 @@ def assert_popup_cleared(state):
     assert state.reveal is None
     assert state.selected is None
     assert state.popup_rect is None
+    assert state.popup_banner is None
     assert state.prompt_box is None
     assert state.answer_buttons == []
     assert state.answer_order == []
@@ -106,6 +111,11 @@ def test_shuffled_highlights_use_canonical_indices(make_play, monkeypatch, chose
     open_question(state)
     before = snapshot(state)
     popup = (state.pending, state.popup_rect, state.prompt_box, state.selected)
+    button_rects = [button.rect.copy() for button in state.answer_buttons]
+    text_rects = [
+        state.renderer.text_rects(button.lines, button.rect, 'choice')
+        for button in state.answer_buttons
+    ]
 
     state.handle_events([answer_click(state, chosen)])
 
@@ -114,11 +124,19 @@ def test_shuffled_highlights_use_canonical_indices(make_play, monkeypatch, chose
     assert [button.text for button in state.answer_buttons] == [
         "Wrong one", "Wrong two", "Correct",
     ]
-    assert [button.highlight_color for button in state.answer_buttons] == [
-        constants.INCORRECT_ANSWER_COLOR if chosen == 1 else None,
-        constants.INCORRECT_ANSWER_COLOR if chosen == 2 else None,
-        constants.CORRECT_ANSWER_COLOR,
+    assert [button.highlight for button in state.answer_buttons] == [
+        'incorrect' if chosen == 1 else None,
+        'incorrect' if chosen == 2 else None,
+        'correct',
     ]
+    assert [button.rect for button in state.answer_buttons] == button_rects
+    assert [
+        state.renderer.text_rects(button.lines, button.rect, 'choice')
+        for button in state.answer_buttons
+    ] == text_rects
+    for button, rects in zip(state.answer_buttons, text_rects):
+        assert all(rect.centerx == button.rect.centerx for rect in rects)
+        assert abs((rects[0].top + rects[-1].bottom) / 2 - button.rect.centery) <= 1
     assert state.reveal.canonical_index == chosen
     assert state.reveal.elapsed_ms == 0
     assert snapshot(state) == before
@@ -245,7 +263,7 @@ def test_expiry_discards_one_batch_then_accepts_input(make_play, empty_batch):
     assert state.pending is not None
     assert state.pending[1:] == (next_cell, "move")
     assert state.reveal is None
-    assert all(button.highlight_color is None for button in state.answer_buttons)
+    assert all(button.highlight is None for button in state.answer_buttons)
 
 
 @pytest.mark.parametrize("intent", ["move", "catch"])
@@ -270,6 +288,40 @@ def test_zero_duration_resolves_immediately_once(make_play, intent, correct):
     resolved = snapshot(state)
     state.update(900)
     assert snapshot(state) == resolved
+
+
+@pytest.mark.parametrize('long_choices', [False, True])
+def test_choice_centering_preserves_popup_geometry_and_indices(make_play, long_choices):
+    state = make_play()
+    open_question(state)
+    question = state.pending[0]
+    if long_choices:
+        question = Question(**{
+            **vars(question),
+            'choices': [choice + ' with many extra words' * 12 for choice in question.choices],
+        })
+    top_left = Renderer(replace(FLAT, fonts=replace(
+        FLAT.fonts, choice=replace(FLAT.fonts.choice, alignment=Alignment()),
+    )))
+    order = [2, 0, 1]
+    old_rect, old_prompt, old_buttons, old_banner = build_question_popup(question, top_left, order)
+    rect, prompt, buttons, banner = build_question_popup(question, state.renderer, order)
+    assert old_banner is banner is None
+    assert rect == old_rect
+    assert rect.topleft == (720, 100)
+    assert rect.width == 520
+    assert (prompt.x, prompt.y, prompt.width) == (740, 120, 480)
+    assert (prompt.lines, prompt.height) == (old_prompt.lines, old_prompt.height)
+    assert buttons[0].rect.top == prompt.y + prompt.height + 12
+    for index, (button, old_button) in enumerate(zip(buttons, old_buttons)):
+        assert button.rect == old_button.rect
+        assert button.lines == old_button.lines
+        assert button.text == question.choices[order[index]]
+        assert button.rect.height == max(44, len(button.lines) * state.renderer.line_height('choice'))
+        assert button.is_clicked(old_button.rect.center)
+        if index:
+            assert button.rect.top == buttons[index - 1].rect.bottom + 12
+    assert rect.bottom == buttons[-1].rect.bottom + 20
 
 
 def test_negative_reveal_duration_is_rejected(make_play):

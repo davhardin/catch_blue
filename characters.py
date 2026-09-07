@@ -1,11 +1,10 @@
 from random import Random
 
 from board import Cell, Board, get_distance
-from constants import BLUE_COLOR, DEFAULT_COLOR, PLAYER_COLOR
 
 class Character():
     shape = "circle"
-    color = DEFAULT_COLOR
+    color_role = 'character'
 
     def __init__(self, cell: Cell) -> None:
         self.cell = cell
@@ -18,7 +17,7 @@ class Character():
 
 
 class Player(Character):
-    color = PLAYER_COLOR
+    color_role = 'player'
 
     @classmethod
     def at_start(cls, board: Board):
@@ -27,7 +26,7 @@ class Player(Character):
 
 class Blue(Character):
     shape = "square"
-    color = BLUE_COLOR
+    color_role = 'blue'
 
     @classmethod
     def at_start(cls, board: Board):

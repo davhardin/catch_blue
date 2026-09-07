@@ -1,11 +1,5 @@
 import pygame
 
-from constants import (
-    CELL_COLOR,
-    LINE_COLOR,
-    MENU_TEXT_COLOR,
-    MOVE_COLOR,
-)
 from ui import Button, TextBox
 
 PANEL_LEFT = 720
@@ -28,8 +22,7 @@ class GameOverState:
         self.config = config
         self.result = result
         self.play_state = play_state
-        self.result_font = pygame.font.Font(None, 40)
-        self.button_font = pygame.font.Font(None, 36)
+        self.renderer = game.renderer
 
         self.panel_rect = pygame.Rect(
             PANEL_LEFT,
@@ -49,8 +42,8 @@ class GameOverState:
 
         self.result_box = TextBox(
             message,
-            self.result_font,
-            MENU_TEXT_COLOR,
+            self.renderer,
+            'result',
             content_left,
             PANEL_TOP + 80,
             content_width,
@@ -67,9 +60,7 @@ class GameOverState:
                 BUTTON_HEIGHT,
             ),
             replay_text,
-            self.button_font,
-            MENU_TEXT_COLOR,
-            MOVE_COLOR,
+            self.renderer,
         )
         self.main_menu_button = Button(
             pygame.Rect(
@@ -79,9 +70,7 @@ class GameOverState:
                 BUTTON_HEIGHT,
             ),
             "Main Menu",
-            self.button_font,
-            MENU_TEXT_COLOR,
-            MOVE_COLOR,
+            self.renderer,
         )
 
     def update(self, dt_ms):
@@ -103,8 +92,7 @@ class GameOverState:
     def draw(self, screen):
         self.play_state.draw(screen)
 
-        pygame.draw.rect(screen, CELL_COLOR, self.panel_rect)
-        pygame.draw.rect(screen, LINE_COLOR, self.panel_rect, width=2)
+        self.renderer.panel(screen, self.panel_rect)
 
         self.result_box.draw(screen)
         self.replay_button.draw(screen)

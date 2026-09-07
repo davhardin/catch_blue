@@ -65,7 +65,7 @@ def test_characters_can_be_placed_on_any_cell():
     assert Blue(Cell(1, 1)).cell == Cell(1, 1)
 
 
-# --- shape/color: the contract BoardView draws against ---------------------
+# --- shape/color role: the contract BoardView draws against ---------------------
 
 def test_shapes_are_names_the_view_knows():
     """draw() dispatches on these exact strings; a typo here means an entity
@@ -74,10 +74,13 @@ def test_shapes_are_names_the_view_knows():
     assert Blue.shape == "square"
 
 
-def test_subclasses_override_the_default_color():
-    assert Player.color != Character.color
-    assert Blue.color != Character.color
-    assert Player.color != Blue.color
+def test_subclasses_override_the_default_color_role():
+    assert Character.color_role == 'character'
+    assert Player.color_role == 'player'
+    assert Blue.color_role == 'blue'
+    assert Player.color_role != Character.color_role
+    assert Blue.color_role != Character.color_role
+    assert Player.color_role != Blue.color_role
 
 
 # --- move_to / legal_moves (M2.b) -------------------------------------------

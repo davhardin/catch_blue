@@ -1,82 +1,69 @@
 import pygame
 
-from constants import INACTIVE_BUTTON_COLOR, INACTIVE_TEXT_COLOR
-
-def word_wrap(text: str, width: int, font) -> list[str]:
-    lines = []
-
-    for word in text.split():
-        if not lines:
-            lines.append(word)
-        elif font.size(lines[-1] + ' ' + word)[0] <= width:
-            lines[-1] += ' ' + word
-        else:
-            lines.append(word)
-    return lines
+from theme import Alignment
 
 
 class TextBox:
-    def __init__(self, text, font, color, x, y, width):
+    def __init__(self, text, renderer, font_role, x, y, width, color_role=None):
         self.text = text
-        self.font = font
-        self.color = color
+        self.renderer = renderer
+        self.font_role = font_role
+        self.color_role = color_role
         self.x = x
         self.y = y
         self.width = width
-        self.lines = word_wrap(text, width, font)
-        self.height = self.font.get_linesize() * len(self.lines)
+        self.lines = renderer.wrap(text, width, font_role)
+        self.height = renderer.line_height(font_role) * len(self.lines)
 
     def draw(self, surface):
-        for i, line in enumerate(self.lines):
-            surface.blit(
-                self.font.render(line, True, self.color),
-                (self.x, self.y + i * self.font.get_linesize())
-            )
+        self.renderer.wrapped_text(
+            surface, self.lines, pygame.Rect(self.x, self.y, self.width, self.height),
+            self.font_role, self.color_role,
+        )
+
 
 class Button:
-    def __init__(self, rect, text, font, color, rect_color, active=True):
+    def __init__(self, rect, text, renderer, font_role='button', *, active=True):
         self.rect = rect
         self.text = text
-        self.font = font
-        self.color = color
-        self.rect_color = rect_color
+        self.renderer = renderer
+        self.font_role = font_role
         self.active = active
-        self.highlight_color: tuple[int, int, int] | None = None
-        self.lines = word_wrap(text, rect.width, font)
-        self.height = self.font.get_linesize() * len(self.lines)
-        self.rect.height = max(self.height, rect.height)
+        self.highlight: str | None = None
+        layout = renderer.theme.layout
+        self.padding = layout.choice_padding if font_role == 'choice' else layout.button_padding
+        width = rect.width - 2 * self.padding
+        if width <= 0:
+            raise ValueError('Button padding leaves no text width')
+        self.lines = renderer.wrap(text, width, font_role)
+        self.height = renderer.line_height(font_role) * len(self.lines)
+        self.rect.height = max(self.height + 2 * self.padding, rect.height)
 
     def draw(self, surface):
-        if self.highlight_color is not None:
-            rect_color = self.highlight_color
-        else:
-            rect_color = (
-                self.rect_color if self.active else INACTIVE_BUTTON_COLOR
-            )
-        text_color = self.color if self.active else INACTIVE_TEXT_COLOR
-
-        pygame.draw.rect(surface, rect_color, self.rect)
-        for i, line in enumerate(self.lines):
-            surface.blit(
-                self.font.render(line, True, text_color),
-                (self.rect.x, self.rect.y + i * self.font.get_linesize())
-            )
+        style = self.highlight if self.highlight is not None else (
+            'normal' if self.active else 'inactive'
+        )
+        color_role = None if self.active else 'text_inactive'
+        self.renderer.button(surface, self.rect, style)
+        self.renderer.wrapped_text(
+            surface, self.lines, self.rect.inflate(-2 * self.padding, -2 * self.padding),
+            self.font_role, color_role,
+        )
 
     def is_clicked(self, pos):
         return self.active and self.rect.collidepoint(pos)
 
 
 class Checkbox:
-    def __init__(self, rect, text, font, color, checked=False):
+    def __init__(self, rect, text, renderer, checked=False):
         self.rect = rect
         self.text = text
-        self.font = font
-        self.color = color
+        self.renderer = renderer
         self.checked = checked
-        self.label = self.font.render(self.text, True, self.color)
-        self.label_rect = self.label.get_rect(
-            midleft=(self.rect.right + 12, self.rect.centery)
-        )
+        self.label_rect = renderer.text_rects(
+            [text], pygame.Rect(0, 0, 1, 1), 'checkbox', alignment=Alignment('left', 'top'),
+        )[0]
+        self.label_rect.midleft = (self.rect.right + 12, self.rect.centery)
         self.hit_rect = self.rect.union(self.label_rect)
 
     def toggle(self):
@@ -88,11 +75,5 @@ class Checkbox:
     def draw(self, surface, offset_y=0):
         draw_rect = self.rect.move(0, -offset_y)
         draw_label_rect = self.label_rect.move(0, -offset_y)
-
-        pygame.draw.rect(surface, self.color, draw_rect, width=2)
-
-        if self.checked:
-            inner = draw_rect.inflate(-8, -8)
-            pygame.draw.rect(surface, self.color, inner)
-
-        surface.blit(self.label, draw_label_rect)
+        self.renderer.checkbox(surface, draw_rect, self.checked)
+        self.renderer.text(surface, self.text, draw_label_rect, 'checkbox')

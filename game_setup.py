@@ -11,6 +11,13 @@ SUBJECT_DISPLAY_NAMES = {
     "organic_chemistry": "Organic Chemistry",
 }
 
+SUBTOPIC_DISPLAY_NAMES: dict[TopicPair, str] = {
+    (
+        "muscular_system",
+        "Neuromuscular Junction, EC Coupling, and Cross-Bridge Cycling",
+    ): "Muscle Physiology",
+}
+
 SUBJECT_TOPIC_ORDERS = {
     "anatomy_physiology": (
         "anatomical_language",
@@ -44,6 +51,10 @@ def prettify_topic(topic: str) -> str:
 
 def subject_display_name(subject: str) -> str:
     return SUBJECT_DISPLAY_NAMES.get(subject, prettify_topic(subject))
+
+
+def subtopic_display_name(topic: str, subtopic: str) -> str:
+    return SUBTOPIC_DISPLAY_NAMES.get((topic, subtopic), subtopic)
 
 
 def order_topics_for_subject(

@@ -20,10 +20,13 @@ import pytest
 
 from board import Board
 from game_setup import (
+    SUBTOPIC_DISPLAY_NAMES,
     assign_cell_topics,
     order_topics_for_subject,
     prettify_topic,
+    subtopic_display_name,
 )
+from questions import QuestionBank
 
 # --- prettify_topic ---------------------------------------------------------
 
@@ -35,6 +38,40 @@ from game_setup import (
 ])
 def test_prettify_topic(raw, display):
     assert prettify_topic(raw) == display
+
+
+# --- subtopic_display_name -------------------------------------------------
+
+
+MUSCLE_SUBTOPIC = "Neuromuscular Junction, EC Coupling, and Cross-Bridge Cycling"
+
+
+def test_muscle_physiology_display_alias():
+    assert SUBTOPIC_DISPLAY_NAMES == {
+        ("muscular_system", MUSCLE_SUBTOPIC): "Muscle Physiology",
+    }
+    assert subtopic_display_name("muscular_system", MUSCLE_SUBTOPIC) == (
+        "Muscle Physiology"
+    )
+
+
+@pytest.mark.parametrize("topic, subtopic", [
+    ("cells", "Overview"),
+    ("unknown_topic", "Unmapped Section"),
+    ("muscular_system", "  Unmapped section  "),
+])
+def test_subtopic_display_fallback_is_verbatim(topic, subtopic):
+    assert subtopic_display_name(topic, subtopic) == subtopic
+
+
+def test_subtopic_alias_is_scoped_to_its_topic():
+    assert subtopic_display_name("cells", MUSCLE_SUBTOPIC) == MUSCLE_SUBTOPIC
+
+
+def test_subtopic_alias_keys_exist_in_shipped_bank():
+    bank = QuestionBank(Path(__file__).resolve().parent.parent / "data" / "questions")
+    raw_pairs = {(q.topic, q.subtopic) for q in bank.questions}
+    assert set(SUBTOPIC_DISPLAY_NAMES) <= raw_pairs
 
 
 # --- order_topics_for_subject ----------------------------------------------

@@ -11,8 +11,7 @@ so the same code produces the same PNGs, and two runs can be diffed byte for
 byte. That is the M6.f.2 check — the flat gallery must be identical before
 and after the render-primitive refactor.
 
-`--theme` is exported as CATCH_BLUE_THEME for main-style theme selection once
-`theme.py` exists; until then it only names the output folder.
+`--theme` selects the actual renderer theme; flat remains the default.
 """
 
 from __future__ import annotations
@@ -33,6 +32,7 @@ import pygame  # noqa: E402
 
 from board import Cell, get_distance, is_adjacent  # noqa: E402
 from game import Game  # noqa: E402
+from theme import FLAT, THEMES  # noqa: E402
 from game_setup import GameConfig  # noqa: E402
 from questions import QuestionBank  # noqa: E402
 from states.game_over import GameOverState  # noqa: E402
@@ -69,10 +69,10 @@ def capture(game, out_dir, name):
     return path
 
 
-def render_gallery(out_dir: Path):
+def render_gallery(out_dir: Path, theme=FLAT):
     out_dir.mkdir(parents=True, exist_ok=True)
     bank = QuestionBank(ROOT / "data" / "questions")
-    game = Game(bank, rng=Random(SEED))
+    game = Game(bank, rng=Random(SEED), theme=theme)
     saved = []
 
     # 1. Game Select
@@ -172,7 +172,7 @@ def compare(a: Path, b: Path) -> int:
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    parser.add_argument("--theme", default="flat", help="theme name (exported as CATCH_BLUE_THEME)")
+    parser.add_argument("--theme", default="flat", choices=THEMES, help="renderer theme")
     parser.add_argument("--out", type=Path, help="output folder (default: catch_blue_local_only/gallery/<theme>)")
     parser.add_argument("--compare", nargs=2, type=Path, metavar=("A", "B"), help="diff two gallery folders instead of rendering")
     args = parser.parse_args()
@@ -184,9 +184,9 @@ def main():
         print(f"{n} mismatch(es)")
         sys.exit(1 if n else 0)
 
-    os.environ["CATCH_BLUE_THEME"] = args.theme
+
     out = args.out or (ROOT / "catch_blue_local_only" / "gallery" / args.theme)
-    saved = render_gallery(out)
+    saved = render_gallery(out, THEMES[args.theme])
     print(f"rendered {len(saved)} screens to {out}")
     for path in saved:
         print(f"  {path.name}")

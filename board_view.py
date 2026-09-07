@@ -1,11 +1,8 @@
 import pygame
 from board import Board, Cell
 from characters import Character
-from ui import word_wrap
-from constants import (
-    CELL_COLOR, LINE_COLOR,
-    LINE_WIDTH, SELECTED_LINE_COLOR, MOVE_COLOR,
-    LABEL_COLOR, LABEL_PADDING)
+from game_setup import subtopic_display_name
+from constants import LABEL_PADDING
 
 class BoardView:
     def __init__(self,
@@ -39,53 +36,26 @@ class BoardView:
         selected: Cell | None,
         moves: set[Cell],
         labels: dict[Cell, tuple[str, str]],
-        label_font: pygame.font.Font,
+        renderer,
     ) -> None:
         for cell in self.board.cells():
-            rect = self.cell_to_rect(cell)
-            pygame.draw.rect(screen, CELL_COLOR, rect)
-            pygame.draw.rect(screen, LINE_COLOR, rect, width=LINE_WIDTH)
-
-        for cell in moves:
-            rect = self.cell_to_rect(cell)
-            pygame.draw.rect(screen, MOVE_COLOR, rect)
-            pygame.draw.rect(screen, LINE_COLOR, rect, width=LINE_WIDTH)
+            renderer.cell(screen, self.cell_to_rect(cell), 'move' if cell in moves else 'normal')
 
         occupied_cells = {entity.cell for entity in entities}
-
         for cell in self.board.cells():
             if cell in occupied_cells:
                 continue
-
-            rect = self.cell_to_rect(cell)
-            _, subtopic = labels[cell]
-            label_width = rect.width - 2 * LABEL_PADDING
-            lines = word_wrap(subtopic, label_width, label_font)
-
-            for line_index, line in enumerate(lines):
-                label = label_font.render(line, True, LABEL_COLOR)
-                screen.blit(
-                    label,
-                    (
-                        rect.left + LABEL_PADDING,
-                        rect.top
-                        + LABEL_PADDING
-                        + line_index * label_font.get_linesize(),
-                    ),
-                )
+            rect = self.cell_to_rect(cell).inflate(-2 * LABEL_PADDING, -2 * LABEL_PADDING)
+            topic, subtopic = labels[cell]
+            display_name = subtopic_display_name(topic, subtopic)
+            lines = renderer.wrap(display_name, rect.width, 'label')
+            renderer.wrapped_text(screen, lines, rect, 'label', 'label')
 
         if hovered is not None and hovered in moves:
-            hov_rect = self.cell_to_rect(hovered)
-            pygame.draw.rect(screen, LINE_COLOR, hov_rect, width=LINE_WIDTH*5)
+            renderer.cell(screen, self.cell_to_rect(hovered), 'hover')
 
-        for e in entities:
-            rect = self.cell_to_rect(e.cell)
-            margin = self.cell_size // 6
-            if e.shape == "circle":
-                pygame.draw.circle(screen, e.color, rect.center, margin)
-            elif e.shape == "square":
-                pygame.draw.rect(screen, e.color, rect.inflate(-3 * margin, -3 * margin))
+        for entity in entities:
+            renderer.sprite(screen, self.cell_to_rect(entity.cell), entity.shape, entity.color_role)
 
         if selected is not None:
-            sel_rect = self.cell_to_rect(selected)
-            pygame.draw.rect(screen, SELECTED_LINE_COLOR, sel_rect, width=LINE_WIDTH*4)
+            renderer.cell(screen, self.cell_to_rect(selected), 'selected')

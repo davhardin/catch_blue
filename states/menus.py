@@ -1,11 +1,7 @@
 import pygame
 
-from constants import (
-    BG_COLOR,
-    MENU_TEXT_COLOR,
-    MOVE_COLOR,
-    SCREEN_WIDTH,
-)
+from constants import SCREEN_WIDTH
+from theme import Alignment
 from game_setup import (
     GameConfig,
     order_topics_for_subject,
@@ -30,14 +26,18 @@ SCROLL_REGION = pygame.Rect(300, 200, 680, 390)
 SCROLL_STEP = CHECKBOX_GAP
 START_BUTTON_TOP = 620
 
-
-def _draw_centered_text(screen, text, font, color, y):
-    rendered = font.render(text, True, color)
-    rect = rendered.get_rect(centerx=SCREEN_WIDTH // 2, top=y)
-    screen.blit(rendered, rect)
+CREDITS_TEXT = 'UI assets: Kenney | Fonts: Braille Institute'
+CREDITS_RECT = pygame.Rect(40, 650, SCREEN_WIDTH - 80, 40)
 
 
-def _make_menu_button(text, font, top, active=True):
+def _draw_centered_text(screen, text, renderer, y):
+    renderer.text(
+        screen, text, pygame.Rect(0, y, SCREEN_WIDTH, renderer.measure(text, 'title')[1]),
+        'title', alignment=Alignment('center', 'top'),
+    )
+
+
+def _make_menu_button(text, renderer, top, active=True):
     return Button(
         pygame.Rect(
             BUTTON_LEFT,
@@ -46,9 +46,7 @@ def _make_menu_button(text, font, top, active=True):
             BUTTON_HEIGHT,
         ),
         text,
-        font,
-        MENU_TEXT_COLOR,
-        MOVE_COLOR,
+        renderer,
         active=active,
     )
 
@@ -57,17 +55,16 @@ class GameSelectState:
     def __init__(self, game, bank: QuestionBank):
         self.game = game
         self.bank = bank
-        self.title_font = pygame.font.Font(None, 56)
-        self.button_font = pygame.font.Font(None, 36)
+        self.renderer = game.renderer
 
         self.catch_blue_button = _make_menu_button(
             "Catch Blue",
-            self.button_font,
+            self.renderer,
             FIRST_BUTTON_TOP,
         )
         self.run_from_red_button = _make_menu_button(
             "Run from Red (coming soon)",
-            self.button_font,
+            self.renderer,
             FIRST_BUTTON_TOP + BUTTON_HEIGHT + BUTTON_GAP,
             active=False,
         )
@@ -91,16 +88,16 @@ class GameSelectState:
         pass
 
     def draw(self, screen):
-        screen.fill(BG_COLOR)
+        self.renderer.fill(screen)
         _draw_centered_text(
             screen,
             "Select Game",
-            self.title_font,
-            MENU_TEXT_COLOR,
+            self.renderer,
             140,
         )
         self.catch_blue_button.draw(screen)
         self.run_from_red_button.draw(screen)
+        self.renderer.text(screen, CREDITS_TEXT, CREDITS_RECT, 'credits')
 
 
 class SubjectState:
@@ -108,17 +105,16 @@ class SubjectState:
         self.game = game
         self.bank = bank
         self.mode = mode
-        self.title_font = pygame.font.Font(None, 56)
-        self.button_font = pygame.font.Font(None, 36)
+        self.renderer = game.renderer
 
         self.anatomy_button = _make_menu_button(
             subject_display_name("anatomy_physiology"),
-            self.button_font,
+            self.renderer,
             FIRST_BUTTON_TOP,
         )
         self.organic_chemistry_button = _make_menu_button(
             f"{subject_display_name('organic_chemistry')} (coming soon)",
-            self.button_font,
+            self.renderer,
             FIRST_BUTTON_TOP + BUTTON_HEIGHT + BUTTON_GAP,
             active=False,
         )
@@ -143,12 +139,11 @@ class SubjectState:
         pass
 
     def draw(self, screen):
-        screen.fill(BG_COLOR)
+        self.renderer.fill(screen)
         _draw_centered_text(
             screen,
             "Select Subject",
-            self.title_font,
-            MENU_TEXT_COLOR,
+            self.renderer,
             140,
         )
         self.anatomy_button.draw(screen)
@@ -165,9 +160,7 @@ class TopicsState:
             self.subject,
             self.bank.topics(self.subject),
         )
-        self.title_font = pygame.font.Font(None, 56)
-        self.checkbox_font = pygame.font.Font(None, 30)
-        self.button_font = pygame.font.Font(None, 36)
+        self.renderer = game.renderer
 
         self.all_checkbox = Checkbox(
             pygame.Rect(
@@ -177,8 +170,7 @@ class TopicsState:
                 CHECKBOX_SIZE,
             ),
             "All",
-            self.checkbox_font,
-            MENU_TEXT_COLOR,
+            self.renderer,
             checked=True,
         )
 
@@ -192,8 +184,7 @@ class TopicsState:
                     CHECKBOX_SIZE,
                 ),
                 prettify_topic(topic),
-                self.checkbox_font,
-                MENU_TEXT_COLOR,
+                self.renderer,
                 checked=True,
             )
             self.topic_checkboxes.append((topic, checkbox))
@@ -205,6 +196,9 @@ class TopicsState:
                 for _, checkbox in self.topic_checkboxes
             ],
         ]
+        self.scroll_region = SCROLL_REGION.copy()
+        right = max(SCROLL_REGION.right, max(checkbox.hit_rect.right for checkbox in checkboxes) + 8)
+        self.scroll_region.width = right - self.scroll_region.left
         content_bottom = max(
             checkbox.hit_rect.bottom
             for checkbox in checkboxes
@@ -212,12 +206,12 @@ class TopicsState:
         self.scroll_offset = 0
         self.max_scroll = max(
             0,
-            content_bottom - SCROLL_REGION.bottom,
+            content_bottom - self.scroll_region.bottom,
         )
 
         self.start_button = _make_menu_button(
             "Start",
-            self.button_font,
+            self.renderer,
             START_BUTTON_TOP,
         )
         self._update_start_button()
@@ -259,7 +253,7 @@ class TopicsState:
                 self.game.start_play(self.bank, config)
                 return
 
-            if not SCROLL_REGION.collidepoint(event.pos):
+            if not self.scroll_region.collidepoint(event.pos):
                 continue
 
             content_pos = (
@@ -288,26 +282,22 @@ class TopicsState:
         pass
 
     def draw(self, screen):
-        screen.fill(BG_COLOR)
+        self.renderer.fill(screen)
         _draw_centered_text(
             screen,
             "Select Topics",
-            self.title_font,
-            MENU_TEXT_COLOR,
+            self.renderer,
             120,
         )
-        previous_clip = screen.get_clip()
-        screen.set_clip(SCROLL_REGION)
-
-        self.all_checkbox.draw(
-            screen,
-            offset_y=self.scroll_offset,
-        )
-        for _, checkbox in self.topic_checkboxes:
-            checkbox.draw(
+        with self.renderer.clip(screen, self.scroll_region):
+            self.all_checkbox.draw(
                 screen,
                 offset_y=self.scroll_offset,
             )
+            for _, checkbox in self.topic_checkboxes:
+                checkbox.draw(
+                    screen,
+                    offset_y=self.scroll_offset,
+                )
 
-        screen.set_clip(previous_clip)
         self.start_button.draw(screen)

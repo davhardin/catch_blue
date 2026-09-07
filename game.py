@@ -3,13 +3,16 @@ from random import Random
 import pygame
 
 from constants import SCREEN_HEIGHT, SCREEN_WIDTH
+from render import Renderer
+from theme import FLAT
 from states.menus import GameSelectState
 from states.play import PlayState
 
 
 class Game:
-    def __init__(self, bank, rng=None):
+    def __init__(self, bank, rng=None, *, theme=FLAT):
         pygame.init()
+        self.renderer = Renderer(theme)
 
         self.rng = rng if rng is not None else Random()
 

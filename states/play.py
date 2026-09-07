@@ -7,29 +7,23 @@ from board import Board, Cell, is_adjacent
 from board_view import BoardView
 from characters import Blue, Character, Player
 from constants import (
-    BG_COLOR,
-    BOARD_ORIGIN_X,
-    BOARD_ORIGIN_Y,
-    BOARD_REGION,
-    CELL_COLOR,
-    CORRECT_ANSWER_COLOR,
-    INCORRECT_ANSWER_COLOR,
-    LABEL_FONT_SIZE,
-    LINE_COLOR,
-    MENU_TEXT_COLOR,
-    MOVE_COLOR,
-    MOVE_LIMIT,
-    REVEAL_DURATION,
+    BOARD_ORIGIN_X, BOARD_ORIGIN_Y, BOARD_REGION, MOVE_LIMIT, REVEAL_DURATION,
 )
-from game_setup import GameConfig, assign_cell_topics
+from game_setup import GameConfig, assign_cell_topics, subtopic_display_name
 from questions import Question, QuestionBank
 from states.game_over import GameOverState
 from ui import Button, TextBox
 
 
+@dataclass
+class PopupBanner:
+    rect: pygame.Rect
+    lines: list[str]
+
+
 def build_question_popup(
     question: Question,
-    font,
+    renderer,
     display_order: list[int],
 ):
     popup_left = 720
@@ -41,12 +35,25 @@ def build_question_popup(
     content_left = popup_left + padding
     content_width = popup_width - 2 * padding
 
+    prompt_top = popup_top + padding
+    banner = None
+    layout = renderer.theme.layout
+    if layout.show_category_banner:
+        lines = renderer.wrap(
+            subtopic_display_name(question.topic, question.subtopic),
+            content_width - 2 * layout.banner_side_padding, 'banner',
+        )
+        height = max(layout.banner_height,
+                     len(lines) * renderer.line_height('banner') + 2 * layout.banner_vertical_padding)
+        banner = PopupBanner(pygame.Rect(content_left, prompt_top, content_width, height), lines)
+        prompt_top = banner.rect.bottom + gap
+
     prompt_box = TextBox(
         question.prompt,
-        font,
-        (245, 245, 245),
+        renderer,
+        'prompt',
         content_left,
-        popup_top + padding,
+        prompt_top,
         content_width,
     )
 
@@ -63,9 +70,8 @@ def build_question_popup(
                 44,
             ),
             choice,
-            font,
-            (255, 255, 255),
-            MOVE_COLOR,
+            renderer,
+            'choice',
         )
         answer_buttons.append(button)
 
@@ -80,7 +86,7 @@ def build_question_popup(
         popup_bottom - popup_top,
     )
 
-    return popup_rect, prompt_box, answer_buttons
+    return popup_rect, prompt_box, answer_buttons, banner
 
 
 @dataclass
@@ -107,9 +113,7 @@ class PlayState:
         self.config = config
         self.rng = rng
         self.reveal_duration_ms = reveal_duration_ms
-        self.font = pygame.font.Font(None, 28)
-        self.label_font = pygame.font.Font(None, LABEL_FONT_SIZE)
-        self.counter_font = pygame.font.Font(None, 36)
+        self.renderer = game.renderer
         self.moves_remaining = MOVE_LIMIT
 
         self.board = Board(5, 5)
@@ -140,6 +144,7 @@ class PlayState:
         self.answer_buttons: list[Button] = []
         self.answer_order: list[int] = []
         self.popup_rect: pygame.Rect | None = None
+        self.popup_banner: PopupBanner | None = None
 
         self.player = Player.at_start(self.board)
         self.blue = Blue.at_start(self.board)
@@ -155,12 +160,12 @@ class PlayState:
 
         for display_index, button in enumerate(self.answer_buttons):
             answer_index = self.answer_order[display_index]
-            button.highlight_color = None
+            button.highlight = None
 
             if answer_index == question.answer_index:
-                button.highlight_color = CORRECT_ANSWER_COLOR
+                button.highlight = 'correct'
             elif answer_index == canonical_index:
-                button.highlight_color = INCORRECT_ANSWER_COLOR
+                button.highlight = 'incorrect'
 
         if self.reveal_duration_ms == 0:
             self._resolve_pending_answer()
@@ -203,6 +208,7 @@ class PlayState:
         self.reveal = None
         self.selected = None
         self.popup_rect = None
+        self.popup_banner = None
         self.prompt_box = None
         self.answer_buttons = []
         self.answer_order = []
@@ -276,9 +282,10 @@ class PlayState:
                             self.popup_rect,
                             self.prompt_box,
                             self.answer_buttons,
+                            self.popup_banner,
                         ) = build_question_popup(
                             question,
-                            self.font,
+                            self.renderer,
                             self.answer_order,
                         )
 
@@ -288,7 +295,7 @@ class PlayState:
         self.moves = self.player.legal_moves(self.board, {self.blue.cell})
 
     def draw(self, screen: pygame.Surface):
-        screen.fill(BG_COLOR)
+        self.renderer.fill(screen)
         self.view.draw(
             screen,
             self.hovering,
@@ -296,22 +303,22 @@ class PlayState:
             self.selected,
             self.moves,
             self.cell_topics,
-            self.label_font,
+            self.renderer,
         )
 
-        counter = self.counter_font.render(
-            f"Moves remaining: {self.moves_remaining}",
-            True,
-            MENU_TEXT_COLOR,
+        counter = f"Moves remaining: {self.moves_remaining}"
+        self.renderer.text(
+            screen, counter, pygame.Rect((720, 50), self.renderer.measure(counter, 'counter')),
+            'counter',
         )
-        screen.blit(counter, (720, 50))
 
         if self.pending is not None:
             assert self.popup_rect is not None
             assert self.prompt_box is not None
 
-            pygame.draw.rect(screen, CELL_COLOR, self.popup_rect)
-            pygame.draw.rect(screen, LINE_COLOR, self.popup_rect, width=2)
+            self.renderer.panel(screen, self.popup_rect)
+            if self.popup_banner is not None:
+                self.renderer.banner(screen, self.popup_banner.rect, self.popup_banner.lines)
 
             self.prompt_box.draw(screen)
 
