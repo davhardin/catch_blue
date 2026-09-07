@@ -1,3 +1,4 @@
+from dataclasses import dataclass
 from random import Random
 
 import pygame
@@ -11,11 +12,14 @@ from constants import (
     BOARD_ORIGIN_Y,
     BOARD_REGION,
     CELL_COLOR,
+    CORRECT_ANSWER_COLOR,
+    INCORRECT_ANSWER_COLOR,
     LABEL_FONT_SIZE,
     LINE_COLOR,
     MENU_TEXT_COLOR,
     MOVE_COLOR,
     MOVE_LIMIT,
+    REVEAL_DURATION,
 )
 from game_setup import GameConfig, assign_cell_topics
 from questions import Question, QuestionBank
@@ -29,7 +33,7 @@ def build_question_popup(
     display_order: list[int],
 ):
     popup_left = 720
-    popup_top = 80
+    popup_top = 100
     popup_width = 520
     padding = 20
     gap = 12
@@ -79,6 +83,12 @@ def build_question_popup(
     return popup_rect, prompt_box, answer_buttons
 
 
+@dataclass
+class AnswerReveal:
+    canonical_index: int
+    elapsed_ms: int = 0
+
+
 class PlayState:
     def __init__(
         self,
@@ -86,11 +96,17 @@ class PlayState:
         bank: QuestionBank,
         config: GameConfig,
         rng: Random,
+        *,
+        reveal_duration_ms: int = REVEAL_DURATION,
     ):
+        if reveal_duration_ms < 0:
+            raise ValueError("Reveal duration cannot be negative")
+
         self.game = game
         self.bank = bank
         self.config = config
         self.rng = rng
+        self.reveal_duration_ms = reveal_duration_ms
         self.font = pygame.font.Font(None, 28)
         self.label_font = pygame.font.Font(None, LABEL_FONT_SIZE)
         self.counter_font = pygame.font.Font(None, 36)
@@ -118,6 +134,8 @@ class PlayState:
         self.hovering: Cell | None = None
         self.selected: Cell | None = None
         self.pending: tuple[Question, Cell, str] | None = None
+        self.reveal: AnswerReveal | None = None
+        self._discard_events_after_reveal = False
         self.prompt_box: TextBox | None = None
         self.answer_buttons: list[Button] = []
         self.answer_order: list[int] = []
@@ -128,59 +146,101 @@ class PlayState:
         self.entities: list[Character] = [self.player, self.blue]
         self.moves = self.player.legal_moves(self.board, {self.blue.cell})
 
+    def _begin_reveal(self, canonical_index: int):
+        assert self.pending is not None
+        assert self.reveal is None
+
+        question, _, _ = self.pending
+        self.reveal = AnswerReveal(canonical_index)
+
+        for display_index, button in enumerate(self.answer_buttons):
+            answer_index = self.answer_order[display_index]
+            button.highlight_color = None
+
+            if answer_index == question.answer_index:
+                button.highlight_color = CORRECT_ANSWER_COLOR
+            elif answer_index == canonical_index:
+                button.highlight_color = INCORRECT_ANSWER_COLOR
+
+        if self.reveal_duration_ms == 0:
+            self._resolve_pending_answer()
+
+    def update(self, dt_ms: int):
+        if self.reveal is None:
+            return
+
+        self.reveal.elapsed_ms += dt_ms
+        if self.reveal.elapsed_ms < self.reveal_duration_ms:
+            return
+
+        self._resolve_pending_answer()
+
+        # This frame's events were collected while the reveal was active.
+        # Discard them rather than letting them click the newly exposed board.
+        self._discard_events_after_reveal = True
+
+    def _resolve_pending_answer(self):
+        assert self.pending is not None
+        assert self.reveal is not None
+
+        question, target, intent = self.pending
+        is_correct = question.is_correct(self.reveal.canonical_index)
+        caught = is_correct and intent == "catch"
+
+        if is_correct:
+            if not caught:
+                self.player.move_to(target)
+        else:
+            flee_target = self.blue.flee_step(
+                self.board,
+                self.player.cell,
+                self.rng,
+            )
+            self.blue.move_to(flee_target)
+
+        self.moves_remaining -= 1
+        self.pending = None
+        self.reveal = None
+        self.selected = None
+        self.popup_rect = None
+        self.prompt_box = None
+        self.answer_buttons = []
+        self.answer_order = []
+
+        self.moves = self.player.legal_moves(self.board, {self.blue.cell})
+
+        if caught or self.moves_remaining == 0:
+            result = "win" if caught else "lose"
+            self.game.change_state(
+                GameOverState(
+                    self.game,
+                    self.bank,
+                    self.config,
+                    result,
+                    self,
+                )
+            )
+
     def handle_events(self, events):
+        if self._discard_events_after_reveal:
+            self._discard_events_after_reveal = False
+            return
+
+        if self.reveal is not None:
+            return
+
         self.moves = self.player.legal_moves(self.board, {self.blue.cell})
 
         for event in events:
             if self.pending is not None:
                 if event.type == pygame.MOUSEBUTTONDOWN and event.button == 1:
-                    question, target, intent = self.pending
-
                     for display_index, button in enumerate(self.answer_buttons):
                         if not button.is_clicked(event.pos):
                             continue
 
                         canonical_index = self.answer_order[display_index]
-                        is_correct = question.is_correct(canonical_index)
-                        caught = is_correct and intent == "catch"
-
-                        if is_correct:
-                            if not caught:
-                                self.player.move_to(target)
-                        else:
-                            flee_target = self.blue.flee_step(
-                                self.board,
-                                self.player.cell,
-                                self.rng,
-                            )
-                            self.blue.move_to(flee_target)
-
-                        self.moves_remaining -= 1
-                        self.pending = None
-                        self.selected = None
-                        self.popup_rect = None
-                        self.prompt_box = None
-                        self.answer_buttons = []
-                        self.answer_order = []
-
-                        if caught or self.moves_remaining == 0:
-                            self.moves = self.player.legal_moves(
-                                self.board,
-                                {self.blue.cell},
-                            )
-                            result = "win" if caught else "lose"
-                            self.game.change_state(
-                                GameOverState(
-                                    self.game,
-                                    self.bank,
-                                    self.config,
-                                    result,
-                                    self,
-                                )
-                            )
-                            return
-
-                        break
+                        self._begin_reveal(canonical_index)
+                        return
 
             # Board mode: board clicks and hover are active.
             else:

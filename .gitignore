@@ -37,3 +37,11 @@ question_sources/
 
 # Machine-local memory export and scraps
 catch_blue_local_only/
+
+# Assets: commit fonts, licenses, and packed tilesheets only (see assets/ATTRIBUTION.md).
+# Archives, loose per-tile PNGs, previews, and shortcut files stay local.
+assets/*.zip
+assets/*/Tiles/
+assets/**/Preview.png
+assets/**/Sample.png
+assets/**/*.url

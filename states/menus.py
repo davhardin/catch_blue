@@ -87,6 +87,9 @@ class GameSelectState:
                 )
                 return
 
+    def update(self, dt_ms):
+        pass
+
     def draw(self, screen):
         screen.fill(BG_COLOR)
         _draw_centered_text(
@@ -135,6 +138,9 @@ class SubjectState:
                     )
                 )
                 return
+
+    def update(self, dt_ms):
+        pass
 
     def draw(self, screen):
         screen.fill(BG_COLOR)
@@ -277,6 +283,9 @@ class TopicsState:
                     )
                     self._update_start_button()
                     break
+
+    def update(self, dt_ms):
+        pass
 
     def draw(self, screen):
         screen.fill(BG_COLOR)

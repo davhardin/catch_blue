@@ -41,12 +41,18 @@ class Button:
         self.color = color
         self.rect_color = rect_color
         self.active = active
+        self.highlight_color: tuple[int, int, int] | None = None
         self.lines = word_wrap(text, rect.width, font)
         self.height = self.font.get_linesize() * len(self.lines)
         self.rect.height = max(self.height, rect.height)
 
     def draw(self, surface):
-        rect_color = self.rect_color if self.active else INACTIVE_BUTTON_COLOR
+        if self.highlight_color is not None:
+            rect_color = self.highlight_color
+        else:
+            rect_color = (
+                self.rect_color if self.active else INACTIVE_BUTTON_COLOR
+            )
         text_color = self.color if self.active else INACTIVE_TEXT_COLOR
 
         pygame.draw.rect(surface, rect_color, self.rect)

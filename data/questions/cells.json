@@ -1097,9 +1097,9 @@
     "prompt": "Cell growth and preparation for cell division occur during the _____ and _____ phases, respectively.",
     "choices": [
       "G1; G2",
-      "G2; G1",
+      "G2; P",
       "G0; S",
-      "S; M"
+      "T; M"
     ],
     "answer_index": 0
   },

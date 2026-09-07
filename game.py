@@ -42,6 +42,7 @@ class Game:
 
     def run(self):
         while self.running:
+            dt_ms = self.clock.tick(self.fps)
             state_events = []
 
             for event in pygame.event.get():
@@ -50,10 +51,16 @@ class Game:
                 else:
                     state_events.append(event)
 
-            self.state.handle_events(state_events)
-            self.state.draw(self.screen)
+            if not self.running:
+                break
 
+            state = self.state
+            state.update(dt_ms)
+
+            if self.state is state:
+                state.handle_events(state_events)
+
+            self.state.draw(self.screen)
             pygame.display.flip()
-            self.clock.tick(self.fps)
 
         pygame.quit()

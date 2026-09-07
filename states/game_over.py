@@ -84,6 +84,9 @@ class GameOverState:
             MOVE_COLOR,
         )
 
+    def update(self, dt_ms):
+        pass
+
     def handle_events(self, events):
         for event in events:
             if event.type != pygame.MOUSEBUTTONDOWN or event.button != 1:
