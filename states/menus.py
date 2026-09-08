@@ -1,6 +1,13 @@
 import pygame
 
-from constants import SCREEN_WIDTH
+from constants import (
+    SCREEN_WIDTH, MENU_BUTTON_WIDTH, MENU_BUTTON_HEIGHT, MENU_BUTTON_GAP,
+    MENU_BUTTON_LEFT, MENU_FIRST_BUTTON_TOP, MENU_TITLE_TOP,
+    MENU_CHECKBOX_SIZE, MENU_ROW_HEIGHT, MENU_LIST_SIDE_PADDING,
+    MENU_CHECKBOX_LEFT, MENU_CHECKBOX_TOP, MENU_TOPICS_TITLE_TOP,
+    MENU_SCROLL_LEFT, MENU_SCROLL_TOP, MENU_SCROLL_WIDTH, MENU_SCROLL_HEIGHT,
+    MENU_START_TOP, MENU_CREDITS_SIDE_MARGIN, MENU_CREDITS_TOP, MENU_CREDITS_HEIGHT,
+)
 from theme import Alignment
 from game_setup import (
     GameConfig,
@@ -11,23 +18,15 @@ from game_setup import (
 from questions import QuestionBank
 from ui import Button, Checkbox
 
-BUTTON_WIDTH = 520
-BUTTON_HEIGHT = 64
-BUTTON_LEFT = (SCREEN_WIDTH - BUTTON_WIDTH) // 2
-FIRST_BUTTON_TOP = 260
-BUTTON_GAP = 24
-
-CHECKBOX_LEFT = 380
-CHECKBOX_TOP = 225
-CHECKBOX_SIZE = 30
-CHECKBOX_GAP = 52
-
-SCROLL_REGION = pygame.Rect(300, 200, 680, 390)
-SCROLL_STEP = CHECKBOX_GAP
-START_BUTTON_TOP = 620
+SCROLL_REGION = pygame.Rect(
+    MENU_SCROLL_LEFT, MENU_SCROLL_TOP, MENU_SCROLL_WIDTH, MENU_SCROLL_HEIGHT,
+)
 
 CREDITS_TEXT = 'UI assets: Kenney | Fonts: Braille Institute'
-CREDITS_RECT = pygame.Rect(40, 650, SCREEN_WIDTH - 80, 40)
+CREDITS_RECT = pygame.Rect(
+    MENU_CREDITS_SIDE_MARGIN, MENU_CREDITS_TOP,
+    SCREEN_WIDTH - 2 * MENU_CREDITS_SIDE_MARGIN, MENU_CREDITS_HEIGHT,
+)
 
 
 def _draw_centered_text(screen, text, renderer, y):
@@ -40,15 +39,30 @@ def _draw_centered_text(screen, text, renderer, y):
 def _make_menu_button(text, renderer, top, active=True):
     return Button(
         pygame.Rect(
-            BUTTON_LEFT,
+            MENU_BUTTON_LEFT,
             top,
-            BUTTON_WIDTH,
-            BUTTON_HEIGHT,
+            MENU_BUTTON_WIDTH,
+            MENU_BUTTON_HEIGHT,
         ),
         text,
         renderer,
         active=active,
+        lift=renderer.theme.menu_lift,
     )
+
+
+def _menu_pointer_position(current, event):
+    if event.type == pygame.WINDOWLEAVE:
+        return None
+    if event.type in (pygame.MOUSEMOTION, pygame.MOUSEBUTTONDOWN):
+        return event.pos
+    return current
+
+
+def _update_menu_button_lifts(buttons, dt_ms, pointer_pos):
+    for button in buttons:
+        hovered = pointer_pos is not None and button.is_clicked(pointer_pos)
+        button.update_lift(dt_ms, hovered=hovered)
 
 
 class GameSelectState:
@@ -56,21 +70,23 @@ class GameSelectState:
         self.game = game
         self.bank = bank
         self.renderer = game.renderer
+        self.pointer_pos: tuple[int, int] | None = None
 
         self.catch_blue_button = _make_menu_button(
             "Catch Blue",
             self.renderer,
-            FIRST_BUTTON_TOP,
+            MENU_FIRST_BUTTON_TOP,
         )
         self.run_from_red_button = _make_menu_button(
             "Run from Red (coming soon)",
             self.renderer,
-            FIRST_BUTTON_TOP + BUTTON_HEIGHT + BUTTON_GAP,
+            MENU_FIRST_BUTTON_TOP + MENU_BUTTON_HEIGHT + MENU_BUTTON_GAP,
             active=False,
         )
 
     def handle_events(self, events):
         for event in events:
+            self.pointer_pos = _menu_pointer_position(self.pointer_pos, event)
             if event.type != pygame.MOUSEBUTTONDOWN or event.button != 1:
                 continue
 
@@ -85,7 +101,9 @@ class GameSelectState:
                 return
 
     def update(self, dt_ms):
-        pass
+        _update_menu_button_lifts(
+            (self.catch_blue_button, self.run_from_red_button), dt_ms, self.pointer_pos,
+        )
 
     def draw(self, screen):
         self.renderer.fill(screen)
@@ -93,7 +111,7 @@ class GameSelectState:
             screen,
             "Select Game",
             self.renderer,
-            140,
+            MENU_TITLE_TOP,
         )
         self.catch_blue_button.draw(screen)
         self.run_from_red_button.draw(screen)
@@ -106,21 +124,23 @@ class SubjectState:
         self.bank = bank
         self.mode = mode
         self.renderer = game.renderer
+        self.pointer_pos: tuple[int, int] | None = None
 
         self.anatomy_button = _make_menu_button(
             subject_display_name("anatomy_physiology"),
             self.renderer,
-            FIRST_BUTTON_TOP,
+            MENU_FIRST_BUTTON_TOP,
         )
         self.organic_chemistry_button = _make_menu_button(
             f"{subject_display_name('organic_chemistry')} (coming soon)",
             self.renderer,
-            FIRST_BUTTON_TOP + BUTTON_HEIGHT + BUTTON_GAP,
+            MENU_FIRST_BUTTON_TOP + MENU_BUTTON_HEIGHT + MENU_BUTTON_GAP,
             active=False,
         )
 
     def handle_events(self, events):
         for event in events:
+            self.pointer_pos = _menu_pointer_position(self.pointer_pos, event)
             if event.type != pygame.MOUSEBUTTONDOWN or event.button != 1:
                 continue
 
@@ -136,7 +156,9 @@ class SubjectState:
                 return
 
     def update(self, dt_ms):
-        pass
+        _update_menu_button_lifts(
+            (self.anatomy_button, self.organic_chemistry_button), dt_ms, self.pointer_pos,
+        )
 
     def draw(self, screen):
         self.renderer.fill(screen)
@@ -144,7 +166,7 @@ class SubjectState:
             screen,
             "Select Subject",
             self.renderer,
-            140,
+            MENU_TITLE_TOP,
         )
         self.anatomy_button.draw(screen)
         self.organic_chemistry_button.draw(screen)
@@ -161,13 +183,14 @@ class TopicsState:
             self.bank.topics(self.subject),
         )
         self.renderer = game.renderer
+        self.pointer_pos: tuple[int, int] | None = None
 
         self.all_checkbox = Checkbox(
             pygame.Rect(
-                CHECKBOX_LEFT,
-                CHECKBOX_TOP,
-                CHECKBOX_SIZE,
-                CHECKBOX_SIZE,
+                MENU_CHECKBOX_LEFT,
+                MENU_CHECKBOX_TOP,
+                MENU_CHECKBOX_SIZE,
+                MENU_CHECKBOX_SIZE,
             ),
             "All",
             self.renderer,
@@ -178,10 +201,10 @@ class TopicsState:
         for index, topic in enumerate(self.topics, start=1):
             checkbox = Checkbox(
                 pygame.Rect(
-                    CHECKBOX_LEFT,
-                    CHECKBOX_TOP + index * CHECKBOX_GAP,
-                    CHECKBOX_SIZE,
-                    CHECKBOX_SIZE,
+                    MENU_CHECKBOX_LEFT,
+                    MENU_CHECKBOX_TOP + index * MENU_ROW_HEIGHT,
+                    MENU_CHECKBOX_SIZE,
+                    MENU_CHECKBOX_SIZE,
                 ),
                 prettify_topic(topic),
                 self.renderer,
@@ -197,22 +220,17 @@ class TopicsState:
             ],
         ]
         self.scroll_region = SCROLL_REGION.copy()
-        right = max(SCROLL_REGION.right, max(checkbox.hit_rect.right for checkbox in checkboxes) + 8)
+        right = max(SCROLL_REGION.right, max(checkbox.hit_rect.right for checkbox in checkboxes) + MENU_LIST_SIDE_PADDING)
         self.scroll_region.width = right - self.scroll_region.left
-        content_bottom = max(
-            checkbox.hit_rect.bottom
-            for checkbox in checkboxes
-        )
         self.scroll_offset = 0
         self.max_scroll = max(
-            0,
-            content_bottom - self.scroll_region.bottom,
+            0, len(checkboxes) * MENU_ROW_HEIGHT - self.scroll_region.height,
         )
 
         self.start_button = _make_menu_button(
             "Start",
             self.renderer,
-            START_BUTTON_TOP,
+            MENU_START_TOP,
         )
         self._update_start_button()
 
@@ -221,18 +239,19 @@ class TopicsState:
             checkbox.checked
             for _, checkbox in self.topic_checkboxes
         )
+        if not self.start_button.active:
+            self.start_button.reset_lift()
 
     def _set_scroll_offset(self, offset):
-        self.scroll_offset = max(
-            0,
-            min(offset, self.max_scroll),
-        )
+        clamped = max(0, min(offset, self.max_scroll))
+        self.scroll_offset = (int(clamped) // MENU_ROW_HEIGHT) * MENU_ROW_HEIGHT
 
     def handle_events(self, events):
         for event in events:
+            self.pointer_pos = _menu_pointer_position(self.pointer_pos, event)
             if event.type == pygame.MOUSEWHEEL:
                 self._set_scroll_offset(
-                    self.scroll_offset - event.y * SCROLL_STEP
+                    self.scroll_offset - event.y * MENU_ROW_HEIGHT
                 )
                 continue
 
@@ -279,7 +298,7 @@ class TopicsState:
                     break
 
     def update(self, dt_ms):
-        pass
+        _update_menu_button_lifts((self.start_button,), dt_ms, self.pointer_pos)
 
     def draw(self, screen):
         self.renderer.fill(screen)
@@ -287,7 +306,7 @@ class TopicsState:
             screen,
             "Select Topics",
             self.renderer,
-            120,
+            MENU_TOPICS_TITLE_TOP,
         )
         with self.renderer.clip(screen, self.scroll_region):
             self.all_checkbox.draw(

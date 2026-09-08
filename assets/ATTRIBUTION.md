@@ -16,7 +16,8 @@ package's license with its assets when redistributing the game.
   locally from the variable font using `fonttools varLib.instancer` on
   2026-09-06.
 - The Kenney packed sheet is unmodified. The renderer selects, crops, and
-  scales regions at runtime for panels, buttons, board cells, and banners.
+  scales regions at runtime for panels, buttons, and board cells. Correct-answer
+  buttons receive a green center fill and a pulsing border tint at runtime.
 - The Game Select screen displays the courtesy credit
   “UI assets: Kenney | Fonts: Braille Institute”. This on-screen credit is
   not a license requirement; the font licenses must still accompany the fonts.

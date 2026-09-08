@@ -47,9 +47,8 @@ MUSCLE_SUBTOPIC = "Neuromuscular Junction, EC Coupling, and Cross-Bridge Cycling
 
 
 def test_muscle_physiology_display_alias():
-    assert SUBTOPIC_DISPLAY_NAMES == {
-        ("muscular_system", MUSCLE_SUBTOPIC): "Muscle Physiology",
-    }
+    # Membership, not equality: the map is content and may grow (m5 trap 7).
+    assert SUBTOPIC_DISPLAY_NAMES[("muscular_system", MUSCLE_SUBTOPIC)] == "Muscle Physiology"
     assert subtopic_display_name("muscular_system", MUSCLE_SUBTOPIC) == (
         "Muscle Physiology"
     )

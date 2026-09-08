@@ -39,12 +39,12 @@ class Palette:
     button: Color
     button_inactive: Color
     correct: Color
-    incorrect: Color
+
     player: Color
     blue: Color
     character: Color
     background_text: Color = (245, 245, 245)
-    banner_text: Color = (35, 40, 45)
+    highlight: Color = (245, 245, 245)
 
 
 @dataclass(frozen=True)
@@ -57,7 +57,7 @@ class Fonts:
     counter: FontSpec
     checkbox: FontSpec
     result: FontSpec
-    banner: FontSpec = field(default_factory=lambda: FontSpec(None, 28, Alignment('center', 'center')))
+
     credits: FontSpec = field(default_factory=lambda: FontSpec(
         None, 20, Alignment('center', 'center'), color_role='background_text',
     ))
@@ -86,10 +86,26 @@ class SpriteSpec:
 class Layout:
     button_padding: int = 0
     choice_padding: int = 0
-    show_category_banner: bool = False
-    banner_height: int = 64
-    banner_side_padding: int = 64
-    banner_vertical_padding: int = 8
+    show_cell_hover_ring: bool = True
+    highlight_catchable_cell: bool = False
+
+
+
+@dataclass(frozen=True)
+class RevealStyle:
+    outline_width: int = 4
+    pulse_period_ms: int = 1000
+    minimum_brightness: float = 0.55
+
+    desaturate_alpha: int = 220
+    fade_alpha: int = 100
+
+
+@dataclass(frozen=True)
+class CellLift:
+    rest_px: int = 0
+    hover_px: int = 0
+    pop_ms: int = 0
 
 
 @dataclass(frozen=True)
@@ -100,6 +116,10 @@ class Theme:
     skin: Skin | None = None
     sprites: tuple[tuple[str, SpriteSpec], ...] = ()
     layout: Layout = field(default_factory=Layout)
+    reveal: RevealStyle = field(default_factory=RevealStyle)
+    cell_lift: CellLift = field(default_factory=CellLift)
+    answer_lift: CellLift = field(default_factory=CellLift)
+    menu_lift: CellLift = field(default_factory=CellLift)
 
 
 FLAT = Theme(
@@ -120,7 +140,7 @@ FLAT = Theme(
         button=(60, 88, 90),
         button_inactive=(75, 78, 86),
         correct=(0, 100, 70),
-        incorrect=(150, 45, 35),
+
         player=(230, 159, 0),
         blue=(0, 114, 178),
         character=(180, 180, 180),
@@ -130,8 +150,8 @@ FLAT = Theme(
             ASSET_ROOT / 'Atkinson_Hyperlegible_Next' / 'static'
             / 'AtkinsonHyperlegibleNext-Regular.ttf', 16, Alignment('center', 'center'),
         ),
-        prompt=FontSpec(None, 28),
-        choice=FontSpec(None, 28, Alignment('center', 'center'), 'choice_text'),
+        prompt=FontSpec(None, 32),
+        choice=FontSpec(None, 32, Alignment('center', 'center'), 'choice_text'),
         button=FontSpec(None, 36),
         title=FontSpec(None, 56),
         counter=FontSpec(None, 36),
@@ -149,24 +169,24 @@ PIXEL = Theme(
     name='pixel',
     palette=replace(
         FLAT.palette,
-        background=(69, 82, 91), cell=(148, 175, 198), cell_move=(148, 175, 198),
+        background=(69, 82, 91), cell=(148, 175, 198), cell_move=(196, 213, 226),
         button=(148, 175, 198), cell_line=(0, 0, 0), panel_line=(0, 0, 0),
         selected_line=(255, 241, 210), hover_line=(35, 40, 45),
         label=(35, 40, 45), text=(35, 40, 45), choice_text=(35, 40, 45),
         text_inactive=(35, 40, 45), panel=(255, 241, 210),
-        button_inactive=(100, 118, 133), correct=(114, 184, 78), incorrect=(255, 132, 118),
-        background_text=(255, 241, 210), banner_text=(35, 40, 45),
+        button_inactive=(100, 118, 133), correct=(114, 184, 78),
+        background_text=(255, 241, 210), highlight=(69, 82, 91),
     ),
     fonts=Fonts(
-        label=FontSpec(_NEXT, 16, _CENTER, 'label'),
-        prompt=FontSpec(_NEXT, 20),
-        choice=FontSpec(_NEXT, 20, _CENTER),
+        label=FontSpec(_NEXT, 20, _CENTER, 'label'),
+        prompt=FontSpec(_NEXT, 24),
+        choice=FontSpec(_NEXT, 24, _CENTER),
         button=FontSpec(_MONO, 24, _CENTER),
         title=FontSpec(_MONO_BOLD, 40, color_role='background_text'),
         counter=FontSpec(_MONO, 28, color_role='background_text'),
         checkbox=FontSpec(_MONO, 22, color_role='background_text'),
         result=FontSpec(_MONO_BOLD, 30),
-        banner=FontSpec(_NEXT, 16, _CENTER, 'banner_text'),
+
         credits=FontSpec(_MONO, 16, _CENTER, color_role='background_text'),
     ),
     skin=Skin(
@@ -179,16 +199,23 @@ PIXEL = Theme(
             ('button.normal', NineSlice((64, 0, 32, 32), (5, 5, 5, 5))),
             ('button.inactive', NineSlice((96, 0, 32, 32), (5, 5, 5, 5))),
             ('button.correct', NineSlice((256, 64, 32, 32), (6, 6, 6, 6))),
-            ('button.incorrect', NineSlice((224, 64, 32, 32), (6, 6, 6, 6))),
+
             # Crop outer cell outlines to leave 116px faces at scale two;
             # move insets still preserve diagonal corner details outside the label band.
             ('cell.normal', NineSlice((66, 2, 28, 28), (3, 3, 3, 3))),
             ('cell.move', NineSlice((289, 65, 30, 30), (5, 5, 5, 5))),
-            # Preserve the curved top and lower cream stripe, not just the outline.
-            ('banner', NineSlice((128, 96, 96, 32), (32, 11, 32, 6))),
+
         ),
     ),
-    layout=Layout(button_padding=10, choice_padding=12, show_category_banner=True),
+    layout=Layout(
+        button_padding=10,
+        choice_padding=12,
+        show_cell_hover_ring=False,
+        highlight_catchable_cell=True,
+    ),
+    cell_lift=CellLift(rest_px=2, hover_px=6, pop_ms=120),
+    answer_lift=CellLift(rest_px=2, hover_px=6, pop_ms=120),
+    menu_lift=CellLift(rest_px=2, hover_px=6, pop_ms=120),
 )
 
 THEMES = {'flat': FLAT, 'pixel': PIXEL}

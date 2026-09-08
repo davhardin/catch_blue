@@ -83,5 +83,5 @@ def test_empty_bank_fails_before_game_creation(startup):
     game.assert_not_called()
 
 
-def test_lower_level_game_default_remains_flat():
-    assert Game.__init__.__kwdefaults__['theme'] is FLAT
+def test_lower_level_game_default_matches_launcher_default():
+    assert Game.__init__.__kwdefaults__['theme'] is THEMES[DEFAULT_THEME] is PIXEL

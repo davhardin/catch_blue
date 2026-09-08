@@ -76,7 +76,7 @@ def test_flat_primitives_match_original_pixels(renderer):
     pygame.draw.rect(expected, (120, 130, 148), rect, width=2)
     equal()
     for style, color in [('normal', (60, 88, 90)), ('inactive', (75, 78, 86)),
-                         ('correct', (0, 100, 70)), ('incorrect', (150, 45, 35))]:
+                         ('correct', (0, 100, 70))]:
         reset()
         renderer.button(actual, rect, style)
         pygame.draw.rect(expected, color, rect)
@@ -137,15 +137,16 @@ def test_text_pixels_and_palette_variant(renderer):
 
 @pytest.mark.parametrize('text', ['Answer', 'Answer Answer'])
 @pytest.mark.parametrize('highlight', [None, 'correct', 'incorrect'])
-def test_choice_centers_actual_rendered_surfaces_in_44px_button(renderer, text, highlight):
+def test_choice_centers_actual_rendered_surfaces_in_minimum_44px_button(renderer, text, highlight):
     font = renderer.font('choice')
     answer = font.render('Answer', True, renderer.color('choice_text'))
-    assert renderer.measure('Answer', 'choice') == (73, 19)
-    assert answer.get_size() == (73, 21)
+    assert renderer.measure('Answer', 'choice') == (84, 22)
+    assert answer.get_size() == (84, 24)
     rect = pygame.Rect(10, 20, 100, 44)
     button = Button(rect.copy(), text, renderer, 'choice')
     button.highlight = highlight
     assert button.lines == ['Answer'] * len(text.split())
+    rect.height = max(44, len(button.lines) * font.get_linesize())
     assert button.rect == rect
     assert button.height == len(button.lines) * font.get_linesize()
     assert button.is_clicked(rect.center)
@@ -165,9 +166,13 @@ def test_choice_centers_actual_rendered_surfaces_in_44px_button(renderer, text, 
     expected = pygame.Surface(actual.get_size())
     actual.fill((1, 2, 3))
     expected.fill((1, 2, 3))
-    pygame.draw.rect(expected, renderer.color(highlight or 'button'), rect)
+    pygame.draw.rect(expected, renderer.color('correct' if highlight == 'correct' else 'button'), rect)
+    if highlight == 'correct':
+        renderer.answer_feedback(expected, rect, highlight, 0)
     for line, line_rect in zip(rendered, expected_rects):
         expected.blit(line, line_rect)
+    if highlight == 'incorrect':
+        renderer.answer_feedback(expected, rect, highlight, 0)
     button.draw(actual)
     assert pygame.image.tobytes(actual, 'RGB') == pygame.image.tobytes(expected, 'RGB')
     assert button.rect == rect

@@ -125,14 +125,14 @@ def test_sheet_scaled_once(tmp_path, monkeypatch):
     assert calls.count(((12, 15), (24, 30))) == 1
 
 
-@pytest.mark.parametrize('style, border', [('correct', (114, 184, 78)), ('incorrect', (207, 94, 83))])
-def test_feedback_is_colored_border_with_slate_face(style, border):
+def test_correct_skin_has_green_face_and_preserves_corners():
+    style, border = 'correct', (114, 184, 78)
     renderer = Renderer(PIXEL)
     surface = pygame.Surface((480, 70))
     surface.fill((1, 2, 3))
     renderer.button(surface, surface.get_rect(), style)
     assert surface.get_at((4, 35))[:3] == border
-    assert surface.get_at((240, 35))[:3] == (148, 175, 198)
+    assert surface.get_at((240, 35))[:3] == PIXEL.palette.correct
     assert surface.get_at((0, 0))[:3] == (1, 2, 3)  # colorkey survives scaling
     # Diagonal corner accents must remain local, never stretch across the face.
     assert surface.get_at((240, 10))[:3] == (148, 175, 198)
@@ -144,28 +144,15 @@ def test_feedback_is_colored_border_with_slate_face(style, border):
             expected = (1, 2, 3) if color[:3] == (0, 0, 0) else color[:3]
             assert surface.get_at((x, y))[:3] == expected
     renderer.cell(surface, surface.get_rect(), 'selected')
-    assert surface.get_at((240, 35))[:3] == (148, 175, 198)
+    assert surface.get_at((240, 35))[:3] == PIXEL.palette.correct
 
-
-def test_banner_requires_skin_element():
-    theme = replace(PIXEL, skin=replace(
-        PIXEL.skin,
-        elements=tuple((name, spec) for name, spec in PIXEL.skin.elements if name != 'banner'),
-    ))
-    renderer = Renderer(theme)
-    surface = pygame.Surface((480, 64))
-    surface.fill((1, 2, 3))
-    before = pygame.image.tobytes(surface, 'RGB')
-    with pytest.raises(ValueError, match='^Missing skin element: banner$'):
-        renderer.banner(surface, surface.get_rect(), ['Category'])
-    assert pygame.image.tobytes(surface, 'RGB') == before
 
 
 def test_partial_skin_falls_back_exactly(tmp_path):
     theme, _ = synthetic(tmp_path)
     actual, expected = pygame.Surface((90, 90)), pygame.Surface((90, 90))
     partial, flat = Renderer(theme), Renderer(FLAT)
-    for method, style in [('button', 'incorrect'), ('cell', 'move'), ('cell', 'hover')]:
+    for method, style in [('button', 'correct'), ('cell', 'move'), ('cell', 'hover')]:
         actual.fill((1, 2, 3))
         expected.fill((1, 2, 3))
         getattr(partial, method)(actual, pygame.Rect(10, 10, 60, 60), style)

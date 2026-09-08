@@ -3,22 +3,19 @@ from random import Random
 
 import pygame
 
-from board import Board, Cell, is_adjacent
+from board import Board, Cell, get_distance, is_adjacent
 from board_view import BoardView
 from characters import Blue, Character, Player
 from constants import (
     BOARD_ORIGIN_X, BOARD_ORIGIN_Y, BOARD_REGION, MOVE_LIMIT, REVEAL_DURATION,
+    WRONG_REVEAL_EXTRA_MS, SIDE_PANEL_LEFT, SIDE_PANEL_TOP,
+    SIDE_PANEL_WIDTH, SIDE_PANEL_PADDING,
 )
-from game_setup import GameConfig, assign_cell_topics, subtopic_display_name
+from game_setup import GameConfig, assign_cell_topics
 from questions import Question, QuestionBank
 from states.game_over import GameOverState
 from ui import Button, TextBox
 
-
-@dataclass
-class PopupBanner:
-    rect: pygame.Rect
-    lines: list[str]
 
 
 def build_question_popup(
@@ -26,27 +23,17 @@ def build_question_popup(
     renderer,
     display_order: list[int],
 ):
-    popup_left = 720
-    popup_top = 100
-    popup_width = 520
-    padding = 20
+    popup_left = SIDE_PANEL_LEFT
+    popup_top = SIDE_PANEL_TOP
+    popup_width = SIDE_PANEL_WIDTH
+    padding = SIDE_PANEL_PADDING
     gap = 12
 
     content_left = popup_left + padding
     content_width = popup_width - 2 * padding
 
     prompt_top = popup_top + padding
-    banner = None
-    layout = renderer.theme.layout
-    if layout.show_category_banner:
-        lines = renderer.wrap(
-            subtopic_display_name(question.topic, question.subtopic),
-            content_width - 2 * layout.banner_side_padding, 'banner',
-        )
-        height = max(layout.banner_height,
-                     len(lines) * renderer.line_height('banner') + 2 * layout.banner_vertical_padding)
-        banner = PopupBanner(pygame.Rect(content_left, prompt_top, content_width, height), lines)
-        prompt_top = banner.rect.bottom + gap
+
 
     prompt_box = TextBox(
         question.prompt,
@@ -86,12 +73,13 @@ def build_question_popup(
         popup_bottom - popup_top,
     )
 
-    return popup_rect, prompt_box, answer_buttons, banner
+    return popup_rect, prompt_box, answer_buttons
 
 
 @dataclass
 class AnswerReveal:
     canonical_index: int
+    duration_ms: int
     elapsed_ms: int = 0
 
 
@@ -133,6 +121,7 @@ class PlayState:
             BOARD_ORIGIN_X,
             BOARD_ORIGIN_Y,
             BOARD_REGION,
+            theme=self.renderer.theme,
         )
 
         self.hovering: Cell | None = None
@@ -143,8 +132,9 @@ class PlayState:
         self.prompt_box: TextBox | None = None
         self.answer_buttons: list[Button] = []
         self.answer_order: list[int] = []
+        self.hovered_answer: int | None = None
         self.popup_rect: pygame.Rect | None = None
-        self.popup_banner: PopupBanner | None = None
+
 
         self.player = Player.at_start(self.board)
         self.blue = Blue.at_start(self.board)
@@ -156,10 +146,17 @@ class PlayState:
         assert self.reveal is None
 
         question, _, _ = self.pending
-        self.reveal = AnswerReveal(canonical_index)
+        duration_ms = self.reveal_duration_ms
+        if duration_ms > 0 and not question.is_correct(canonical_index):
+            duration_ms += WRONG_REVEAL_EXTRA_MS
+        self.reveal = AnswerReveal(canonical_index, duration_ms=duration_ms)
+        self.hovered_answer = None
 
         for display_index, button in enumerate(self.answer_buttons):
             answer_index = self.answer_order[display_index]
+            button.settle_for_reveal(
+                selected=answer_index == canonical_index,
+            )
             button.highlight = None
 
             if answer_index == question.answer_index:
@@ -167,15 +164,25 @@ class PlayState:
             elif answer_index == canonical_index:
                 button.highlight = 'incorrect'
 
-        if self.reveal_duration_ms == 0:
+        if self.reveal.duration_ms == 0:
             self._resolve_pending_answer()
 
     def update(self, dt_ms: int):
+        self.view.update(
+            dt_ms,
+            hovered=self.hovering,
+            selected=self.selected,
+            moves=self.moves,
+            occupied={entity.cell for entity in self.entities},
+        )
+
         if self.reveal is None:
+            for index, button in enumerate(self.answer_buttons):
+                button.update_lift(dt_ms, hovered=index == self.hovered_answer)
             return
 
         self.reveal.elapsed_ms += dt_ms
-        if self.reveal.elapsed_ms < self.reveal_duration_ms:
+        if self.reveal.elapsed_ms < self.reveal.duration_ms:
             return
 
         self._resolve_pending_answer()
@@ -208,14 +215,19 @@ class PlayState:
         self.reveal = None
         self.selected = None
         self.popup_rect = None
-        self.popup_banner = None
+
         self.prompt_box = None
         self.answer_buttons = []
         self.answer_order = []
+        self.hovered_answer = None
 
         self.moves = self.player.legal_moves(self.board, {self.blue.cell})
 
-        if caught or self.moves_remaining == 0:
+        distance = get_distance(self.player.cell, self.blue.cell)
+        cannot_reach_blue = self.moves_remaining < distance
+        out_of_moves = self.moves_remaining <= 0
+
+        if caught or out_of_moves or cannot_reach_blue:
             result = "win" if caught else "lose"
             self.game.change_state(
                 GameOverState(
@@ -239,7 +251,13 @@ class PlayState:
 
         for event in events:
             if self.pending is not None:
-                if event.type == pygame.MOUSEBUTTONDOWN and event.button == 1:
+                if event.type == pygame.MOUSEMOTION:
+                    self.hovered_answer = next(
+                        (index for index, button in enumerate(self.answer_buttons)
+                         if button.is_clicked(event.pos)),
+                        None,
+                    )
+                elif event.type == pygame.MOUSEBUTTONDOWN and event.button == 1:
                     for display_index, button in enumerate(self.answer_buttons):
                         if not button.is_clicked(event.pos):
                             continue
@@ -276,13 +294,14 @@ class PlayState:
                         self.pending = (question, target, intent)
                         self.selected = target
                         self.hovering = None
+                        self.hovered_answer = None
                         self.answer_order = question.display_order(self.rng)
 
                         (
                             self.popup_rect,
                             self.prompt_box,
                             self.answer_buttons,
-                            self.popup_banner,
+
                         ) = build_question_popup(
                             question,
                             self.renderer,
@@ -304,11 +323,16 @@ class PlayState:
             self.moves,
             self.cell_topics,
             self.renderer,
+            catchable=(
+                self.blue.cell
+                if is_adjacent(self.player.cell, self.blue.cell)
+                else None
+            ),
         )
 
         counter = f"Moves remaining: {self.moves_remaining}"
         self.renderer.text(
-            screen, counter, pygame.Rect((720, 50), self.renderer.measure(counter, 'counter')),
+            screen, counter, pygame.Rect((SIDE_PANEL_LEFT, 50), self.renderer.measure(counter, 'counter')),
             'counter',
         )
 
@@ -317,10 +341,10 @@ class PlayState:
             assert self.prompt_box is not None
 
             self.renderer.panel(screen, self.popup_rect)
-            if self.popup_banner is not None:
-                self.renderer.banner(screen, self.popup_banner.rect, self.popup_banner.lines)
+
 
             self.prompt_box.draw(screen)
 
+            elapsed_ms = self.reveal.elapsed_ms if self.reveal is not None else 0
             for button in self.answer_buttons:
-                button.draw(screen)
+                button.draw(screen, reveal_elapsed_ms=elapsed_ms)

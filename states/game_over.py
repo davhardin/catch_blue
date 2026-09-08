@@ -1,12 +1,9 @@
 import pygame
 
+from constants import (
+    SIDE_PANEL_LEFT, SIDE_PANEL_TOP, SIDE_PANEL_WIDTH, SIDE_PANEL_PADDING,
+)
 from ui import Button, TextBox
-
-PANEL_LEFT = 720
-PANEL_TOP = 40
-PANEL_WIDTH = 520
-PANEL_HEIGHT = 640
-PANEL_PADDING = 40
 
 BUTTON_HEIGHT = 60
 BUTTON_GAP = 24
@@ -24,14 +21,8 @@ class GameOverState:
         self.play_state = play_state
         self.renderer = game.renderer
 
-        self.panel_rect = pygame.Rect(
-            PANEL_LEFT,
-            PANEL_TOP,
-            PANEL_WIDTH,
-            PANEL_HEIGHT,
-        )
-        content_left = PANEL_LEFT + PANEL_PADDING
-        content_width = PANEL_WIDTH - 2 * PANEL_PADDING
+        content_left = SIDE_PANEL_LEFT + SIDE_PANEL_PADDING
+        content_width = SIDE_PANEL_WIDTH - 2 * SIDE_PANEL_PADDING
 
         if self.result == "win":
             message = "You caught Blue!"
@@ -45,12 +36,11 @@ class GameOverState:
             self.renderer,
             'result',
             content_left,
-            PANEL_TOP + 80,
+            SIDE_PANEL_TOP + SIDE_PANEL_PADDING,
             content_width,
         )
 
-        replay_top = PANEL_TOP + 220
-        main_menu_top = replay_top + BUTTON_HEIGHT + BUTTON_GAP
+        replay_top = self.result_box.y + self.result_box.height + BUTTON_GAP
 
         self.replay_button = Button(
             pygame.Rect(
@@ -65,12 +55,18 @@ class GameOverState:
         self.main_menu_button = Button(
             pygame.Rect(
                 content_left,
-                main_menu_top,
+                self.replay_button.rect.bottom + BUTTON_GAP,
                 content_width,
                 BUTTON_HEIGHT,
             ),
             "Main Menu",
             self.renderer,
+        )
+        self.panel_rect = pygame.Rect(
+            SIDE_PANEL_LEFT,
+            SIDE_PANEL_TOP,
+            SIDE_PANEL_WIDTH,
+            self.main_menu_button.rect.bottom + SIDE_PANEL_PADDING - SIDE_PANEL_TOP,
         )
 
     def update(self, dt_ms):

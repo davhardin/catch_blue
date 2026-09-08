@@ -55,6 +55,12 @@ def frame(game, events=(), dt=16):
     game.state.draw(game.screen)
 
 
+def settle(game, ms=400):
+    """Run idle frames so any lift tween (M6.f.8) reaches its target."""
+    for _ in range(ms // 16):
+        frame(game)
+
+
 def answer_event(state, correct):
     question, _, _ = state.pending
     for display_index, canonical in enumerate(state.answer_order):
@@ -99,6 +105,7 @@ def render_gallery(out_dir: Path, theme=FLAT):
         pygame.MOUSEMOTION, pos=state.view.cell_to_rect(hover_cell).center
     )
     frame(game, [hover])
+    settle(game)  # let the M6.f.8 hover pop finish before capturing
     saved.append(capture(game, out_dir, "05_play_hover"))
 
     # 6. Play — question popup
@@ -106,18 +113,18 @@ def render_gallery(out_dir: Path, theme=FLAT):
     assert state.pending is not None
     saved.append(capture(game, out_dir, "06_play_popup"))
 
-    # 7. Play — reveal after a wrong answer (board frozen, red + green)
+    # 7. Play — reveal after a wrong answer (board frozen, dim + bright)
     frame(game, [answer_event(state, False)])
     assert state.reveal is not None
     saved.append(capture(game, out_dir, "07_play_reveal_wrong"))
-    frame(game, dt=state.reveal_duration_ms)  # resolve: Blue flees
+    frame(game, dt=state.reveal.duration_ms)  # resolve: Blue flees
 
     # 8. Play — reveal after a correct answer
     target = min(state.moves, key=lambda c: get_distance(c, state.blue.cell))
     frame(game, [click(state.view.cell_to_rect(target).center)])
     frame(game, [answer_event(state, True)])
     saved.append(capture(game, out_dir, "08_play_reveal_right"))
-    frame(game, dt=state.reveal_duration_ms)
+    frame(game, dt=state.reveal.duration_ms)
 
     # 9. Game Over — win (walk to Blue answering correctly)
     for _ in range(40):
@@ -130,7 +137,7 @@ def render_gallery(out_dir: Path, theme=FLAT):
             target = min(st.moves, key=lambda c: get_distance(c, st.blue.cell))
         frame(game, [click(st.view.cell_to_rect(target).center)])
         frame(game, [answer_event(st, True)])
-        frame(game, dt=st.reveal_duration_ms)
+        frame(game, dt=st.reveal.duration_ms)
     assert isinstance(game.state, GameOverState) and game.state.result == "win"
     frame(game)
     saved.append(capture(game, out_dir, "09_game_over_win"))
@@ -143,7 +150,7 @@ def render_gallery(out_dir: Path, theme=FLAT):
     target = next(iter(sorted(state.moves)))
     frame(game, [click(state.view.cell_to_rect(target).center)])
     frame(game, [answer_event(state, False)])
-    frame(game, dt=state.reveal_duration_ms)
+    frame(game, dt=state.reveal.duration_ms)
     assert isinstance(game.state, GameOverState) and game.state.result == "lose"
     frame(game)
     saved.append(capture(game, out_dir, "10_game_over_lose"))

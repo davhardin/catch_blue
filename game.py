@@ -4,13 +4,13 @@ import pygame
 
 from constants import SCREEN_HEIGHT, SCREEN_WIDTH
 from render import Renderer
-from theme import FLAT
+from theme import DEFAULT_THEME, THEMES
 from states.menus import GameSelectState
 from states.play import PlayState
 
 
 class Game:
-    def __init__(self, bank, rng=None, *, theme=FLAT):
+    def __init__(self, bank, rng=None, *, theme=THEMES[DEFAULT_THEME]):
         pygame.init()
         self.renderer = Renderer(theme)
 

@@ -1,6 +1,6 @@
 import pygame
 
-from theme import Alignment
+from theme import Alignment, CellLift
 
 
 class TextBox:
@@ -23,7 +23,10 @@ class TextBox:
 
 
 class Button:
-    def __init__(self, rect, text, renderer, font_role='button', *, active=True):
+    def __init__(
+        self, rect, text, renderer, font_role='button', *,
+        active=True, lift: CellLift | None = None,
+    ):
         self.rect = rect
         self.text = text
         self.renderer = renderer
@@ -38,17 +41,70 @@ class Button:
         self.lines = renderer.wrap(text, width, font_role)
         self.height = renderer.line_height(font_role) * len(self.lines)
         self.rect.height = max(self.height + 2 * self.padding, rect.height)
+        self._lift = 0.0
+        if lift is not None:
+            self.lift_settings = lift
+        elif font_role == 'choice':
+            self.lift_settings = renderer.theme.answer_lift
+        else:
+            self.lift_settings = CellLift()
 
-    def draw(self, surface):
-        style = self.highlight if self.highlight is not None else (
-            'normal' if self.active else 'inactive'
-        )
+    def update_lift(self, dt_ms: int, *, hovered: bool):
+        settings = self.lift_settings
+        if not self.active or self.highlight is not None:
+            self.reset_lift()
+            return
+        if settings.rest_px == 0 and settings.hover_px == 0:
+            self.reset_lift()
+            return
+
+        target = settings.hover_px if hovered else settings.rest_px
+        if settings.pop_ms <= 0:
+            self._lift = float(target)
+            return
+
+        travel = max(settings.rest_px, abs(settings.hover_px - settings.rest_px))
+        step = travel * max(0, dt_ms) / settings.pop_ms
+        if self._lift < target:
+            self._lift = min(target, self._lift + step)
+        elif self._lift > target:
+            self._lift = max(target, self._lift - step)
+
+    def reset_lift(self):
+        self._lift = 0.0
+
+    def settle_for_reveal(self, *, selected: bool):
+        settings = self.lift_settings
+        self._lift = 0.0 if selected else float(settings.rest_px)
+
+    @property
+    def draw_lift(self) -> int:
+        if not self.active:
+            return 0
+        skin = self.renderer.theme.skin
+        step = skin.scale if skin is not None else 1
+        return int(self._lift / step + 0.5) * step
+
+    def draw(self, surface, *, reveal_elapsed_ms=0):
+        style = 'normal' if self.active else 'inactive'
+        if self.highlight == 'correct':
+            style = 'correct'
         color_role = None if self.active else 'text_inactive'
-        self.renderer.button(surface, self.rect, style)
+        lift = self.draw_lift
+        draw_rect = self.rect.move(0, -lift)
+        self.renderer.button(surface, self.rect, style, lift=lift)
+        if self.highlight == 'correct':
+            self.renderer.answer_feedback(
+                surface, draw_rect, self.highlight, reveal_elapsed_ms,
+            )
         self.renderer.wrapped_text(
-            surface, self.lines, self.rect.inflate(-2 * self.padding, -2 * self.padding),
+            surface, self.lines, draw_rect.inflate(-2 * self.padding, -2 * self.padding),
             self.font_role, color_role,
         )
+        if self.highlight is not None and self.highlight != 'correct':
+            self.renderer.answer_feedback(
+                surface, draw_rect, self.highlight, reveal_elapsed_ms,
+            )
 
     def is_clicked(self, pos):
         return self.active and self.rect.collidepoint(pos)

@@ -21,7 +21,7 @@ def assert_immutable(value):
         for child in value:
             assert_immutable(child)
     else:
-        assert value is None or isinstance(value, (str, int, Path))
+        assert value is None or isinstance(value, (str, int, float, Path))
 
 
 def test_nested_theme_data_is_immutable():
@@ -52,10 +52,10 @@ def test_flat_preserves_all_palette_values():
         'choice_text': (255, 255, 255), 'text_inactive': (145, 148, 156),
         'panel': (58, 64, 78), 'panel_line': (120, 130, 148),
         'button': (60, 88, 90), 'button_inactive': (75, 78, 86),
-        'correct': (0, 100, 70), 'incorrect': (150, 45, 35),
+        'correct': (0, 100, 70),
         'player': (230, 159, 0), 'blue': (0, 114, 178),
         'character': (180, 180, 180),
-        'background_text': (245, 245, 245), 'banner_text': (35, 40, 45),
+        'background_text': (245, 245, 245), 'highlight': (245, 245, 245),
     }
 
 
@@ -69,7 +69,7 @@ def test_flat_fonts_and_alignment():
         / 'AtkinsonHyperlegibleNext-Regular.ttf'
     )
     assert FLAT.fonts.label.path.is_file()
-    sizes = dict(label=16, prompt=28, choice=28, button=36,
+    sizes = dict(label=16, prompt=32, choice=32, button=36,
                  title=56, counter=36, checkbox=30, result=40)
     for role, size in sizes.items():
         spec = getattr(FLAT.fonts, role)
@@ -79,6 +79,26 @@ def test_flat_fonts_and_alignment():
         assert spec.alignment == (
             Alignment('center', 'center') if role in ('label', 'choice') else Alignment()
         )
+
+
+def test_readability_label_sizes():
+    assert PIXEL.fonts.label.size == 20
+    assert FLAT.fonts.label.size == 16
+
+
+@pytest.mark.parametrize('theme', THEMES.values(), ids=THEMES.keys())
+def test_registered_popup_fonts_and_no_banner(theme):
+    size = {'flat': 32, 'pixel': 24}[theme.name]
+    assert theme.fonts.prompt.size == size
+    assert theme.fonts.choice.size == size
+    assert theme.fonts.choice.alignment == Alignment('center', 'center')
+    assert not hasattr(theme.fonts, 'banner')
+    assert not hasattr(theme.layout, 'show_category_banner')
+    assert not hasattr(theme.palette, 'incorrect')
+    assert not hasattr(theme.reveal, 'wash_min_alpha')
+    assert theme.palette.highlight == ((69, 82, 91) if theme is PIXEL else (245, 245, 245))
+    if theme.skin:
+        assert not {'banner', 'button.incorrect'} & dict(theme.skin.elements).keys()
 
 
 def test_default_theme_and_credits_fonts():

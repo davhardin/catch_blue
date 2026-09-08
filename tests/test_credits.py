@@ -7,7 +7,11 @@ from unittest.mock import Mock, call
 import pygame
 import pytest
 
-from constants import SCREEN_HEIGHT, SCREEN_WIDTH
+from constants import (
+    SCREEN_HEIGHT, SCREEN_WIDTH, MENU_BUTTON_LEFT, MENU_BUTTON_WIDTH,
+    MENU_BUTTON_HEIGHT, MENU_BUTTON_GAP, MENU_FIRST_BUTTON_TOP, MENU_START_TOP,
+    MENU_CREDITS_SIDE_MARGIN, MENU_CREDITS_TOP, MENU_CREDITS_HEIGHT,
+)
 from questions import QuestionBank
 from render import Renderer
 from states.menus import CREDITS_RECT, CREDITS_TEXT, GameSelectState, SubjectState, TopicsState
@@ -40,7 +44,10 @@ class RecordingSurface(pygame.Surface):
 
 def test_credits_exact_call_and_actual_rendered_bounds(renderer, menus, monkeypatch):
     assert CREDITS_TEXT == 'UI assets: Kenney | Fonts: Braille Institute'
-    assert CREDITS_RECT == pygame.Rect(40, 650, SCREEN_WIDTH - 80, 40)
+    assert CREDITS_RECT == pygame.Rect(
+            MENU_CREDITS_SIDE_MARGIN, MENU_CREDITS_TOP,
+            SCREEN_WIDTH - 2 * MENU_CREDITS_SIDE_MARGIN, MENU_CREDITS_HEIGHT,
+        )
     screen = RecordingSurface((SCREEN_WIDTH, SCREEN_HEIGHT))
     text = Mock(wraps=renderer.text)
     monkeypatch.setattr(renderer, 'text', text)
@@ -79,12 +86,14 @@ def test_other_menus_do_not_render_credits(renderer, menus, monkeypatch):
                    for item in text.call_args_list)
 
 
-def test_menu_button_rectangles_are_unchanged(menus):
+def test_menu_buttons_use_shared_geometry(menus):
     select, subject, topics = menus
-    first = pygame.Rect(380, 260, 520, 64)
-    second = pygame.Rect(380, 348, 520, 64)
+    first = pygame.Rect(MENU_BUTTON_LEFT, MENU_FIRST_BUTTON_TOP, MENU_BUTTON_WIDTH, MENU_BUTTON_HEIGHT)
+    second = first.move(0, MENU_BUTTON_HEIGHT + MENU_BUTTON_GAP)
     assert select.catch_blue_button.rect == first
     assert select.run_from_red_button.rect == second
     assert subject.anatomy_button.rect == first
     assert subject.organic_chemistry_button.rect == second
-    assert topics.start_button.rect == pygame.Rect(380, 620, 520, 64)
+    assert topics.start_button.rect == pygame.Rect(
+            MENU_BUTTON_LEFT, MENU_START_TOP, MENU_BUTTON_WIDTH, MENU_BUTTON_HEIGHT,
+        )

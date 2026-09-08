@@ -8,9 +8,12 @@ import pygame
 import pytest
 
 import constants
+from constants import (
+    SIDE_PANEL_LEFT, SIDE_PANEL_PADDING, SIDE_PANEL_TOP, SIDE_PANEL_WIDTH,
+)
 from render import Renderer
 from theme import FLAT, Alignment
-from board import Cell
+from board import Cell, get_distance
 from game_setup import GameConfig
 from questions import Question, QuestionBank
 from states.game_over import GameOverState
@@ -98,10 +101,65 @@ def assert_popup_cleared(state):
     assert state.reveal is None
     assert state.selected is None
     assert state.popup_rect is None
-    assert state.popup_banner is None
     assert state.prompt_box is None
     assert state.answer_buttons == []
     assert state.answer_order == []
+
+
+@pytest.mark.parametrize('duration', [0, 35])
+@pytest.mark.parametrize('player,blue,target,moves,correct,result', [
+    (Cell(0, 4), Cell(2, 2), Cell(1, 4), 4, True, None),
+    (Cell(1, 2), Cell(3, 2), Cell(0, 2), 3, True, 'lose'),
+    (Cell(0, 4), Cell(2, 2), Cell(1, 4), 5, False, 'lose'),
+    (Cell(0, 4), Cell(2, 2), Cell(1, 4), 6, False, None),
+    (Cell(1, 1), Cell(0, 0), Cell(2, 1), 2, False, 'lose'),
+    (Cell(1, 1), Cell(0, 0), Cell(2, 1), 3, False, None),
+    (Cell(1, 2), Cell(2, 2), Cell(2, 2), 1, True, 'win'),
+])
+def test_distance_loss_uses_resolved_positions_and_preserves_win(
+    make_play, duration, player, blue, target, moves, correct, result,
+):
+    state = make_play(reveal_duration_ms=duration)
+    state.player.move_to(player)
+    state.blue.move_to(blue)
+    state.moves_remaining = moves
+    state.handle_events([board_click(state, target)])
+    assert state.pending is not None
+    before = snapshot(state)
+    expected_rng = Random()
+    expected_rng.setstate(state.rng.getstate())
+    expected_blue = blue if correct else state.blue.flee_step(
+        state.board, player, expected_rng,
+    )
+    state.handle_events([answer_click(state, 0 if correct else 1)])
+    if duration:
+        assert state.game.state is state
+        state.update(state.reveal.duration_ms - 1)
+        assert snapshot(state) == before
+        assert state.pending is not None
+        state.update(1)
+    assert_popup_cleared(state)
+    assert state.moves_remaining == moves - 1
+    assert state.blue.cell == expected_blue
+    assert state.player.cell == (target if correct and result != 'win' else player)
+    assert state.rng.getstate() == expected_rng.getstate()
+    distance = get_distance(state.player.cell, state.blue.cell)
+    if result is None:
+        assert state.game.state is state
+        assert state.moves_remaining == distance
+        assert not state.game.transitions
+    else:
+        assert isinstance(state.game.state, GameOverState)
+        assert state.game.state.result == result
+        assert state.game.state.play_state is state
+        if result == 'lose':
+            assert 0 < state.moves_remaining < distance
+        else:
+            assert state.moves_remaining == 0
+        assert len(state.game.transitions) == 1
+    resolved = snapshot(state)
+    state.update(5000)
+    assert snapshot(state) == resolved
 
 
 @pytest.mark.parametrize("chosen", [0, 1, 2])
@@ -141,10 +199,12 @@ def test_shuffled_highlights_use_canonical_indices(make_play, monkeypatch, chose
     assert state.reveal.elapsed_ms == 0
     assert snapshot(state) == before
     assert (state.pending, state.popup_rect, state.prompt_box, state.selected) == popup
-    state.draw(pygame.Surface((1280, 720)))
-    state.update(constants.REVEAL_DURATION - 1)
+    state.draw(pygame.Surface((constants.SCREEN_WIDTH, constants.SCREEN_HEIGHT)))
+    duration = constants.REVEAL_DURATION + (constants.WRONG_REVEAL_EXTRA_MS if chosen else 0)
+    assert state.reveal.duration_ms == duration
+    state.update(duration - 1)
     assert snapshot(state) == before
-    assert state.reveal.elapsed_ms == constants.REVEAL_DURATION - 1
+    assert state.reveal.elapsed_ms == duration - 1
     state.update(1)
     assert_popup_cleared(state)
 
@@ -171,6 +231,10 @@ def test_delayed_consequences_resolve_exactly_once(make_play, intent, correct, o
     assert snapshot(state) == before
     assert state.pending is not None
 
+    if not correct:
+        state.update(constants.WRONG_REVEAL_EXTRA_MS)
+        assert snapshot(state) == before
+        assert state.pending is not None
     state.update(1 + overshoot)
     assert state.player.cell == (target if correct and intent == "move" else before[0])
     assert state.blue.cell == expected_blue
@@ -199,7 +263,8 @@ def test_last_move_result_waits_for_reveal(make_play, intent, correct, result):
     state.moves_remaining = 1
     open_question(state, intent)
     state.handle_events([answer_click(state, 0 if correct else 1)])
-    state.update(49)
+    assert state.reveal.duration_ms == 50 + (0 if correct else constants.WRONG_REVEAL_EXTRA_MS)
+    state.update(state.reveal.duration_ms - 1)
     assert state.game.state is state
     assert state.game.transitions == []
     assert state.moves_remaining == 1
@@ -304,13 +369,15 @@ def test_choice_centering_preserves_popup_geometry_and_indices(make_play, long_c
         FLAT.fonts, choice=replace(FLAT.fonts.choice, alignment=Alignment()),
     )))
     order = [2, 0, 1]
-    old_rect, old_prompt, old_buttons, old_banner = build_question_popup(question, top_left, order)
-    rect, prompt, buttons, banner = build_question_popup(question, state.renderer, order)
-    assert old_banner is banner is None
+    old_rect, old_prompt, old_buttons = build_question_popup(question, top_left, order)
+    rect, prompt, buttons = build_question_popup(question, state.renderer, order)
     assert rect == old_rect
-    assert rect.topleft == (720, 100)
-    assert rect.width == 520
-    assert (prompt.x, prompt.y, prompt.width) == (740, 120, 480)
+    assert rect.topleft == (SIDE_PANEL_LEFT, SIDE_PANEL_TOP)
+    assert rect.width == SIDE_PANEL_WIDTH
+    assert (prompt.x, prompt.y, prompt.width) == (
+        SIDE_PANEL_LEFT + SIDE_PANEL_PADDING, SIDE_PANEL_TOP + SIDE_PANEL_PADDING,
+        SIDE_PANEL_WIDTH - 2 * SIDE_PANEL_PADDING,
+    )
     assert (prompt.lines, prompt.height) == (old_prompt.lines, old_prompt.height)
     assert buttons[0].rect.top == prompt.y + prompt.height + 12
     for index, (button, old_button) in enumerate(zip(buttons, old_buttons)):

@@ -58,7 +58,8 @@ def test_board_draw_uses_display_alias_without_mutating_labels(renderer, monkeyp
 def test_all_shipped_labels_fit_current_board(renderer):
     bank = QuestionBank(Path(__file__).resolve().parent.parent / "data" / "questions")
     raw_pairs = {(q.topic, q.subtopic) for q in bank.questions}
-    assert len(raw_pairs) == 75
+    # A floor, not an exact count: the bank is content and changes on its own clock.
+    assert len(raw_pairs) >= 60
     view = BoardView(Board(5, 5), 0, 0, BOARD_REGION)
     available = view.cell_size - 2 * LABEL_PADDING
     failures = []

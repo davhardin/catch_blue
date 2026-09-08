@@ -5,21 +5,29 @@ from itertools import permutations
 from pathlib import Path
 from random import Random
 from types import SimpleNamespace
+from unittest.mock import Mock
 
 import pygame
 import pytest
 
 from board import Board, Cell, get_distance, is_adjacent
 from board_view import BoardView
+from constants import (
+    BOARD_ORIGIN_X, BOARD_ORIGIN_Y, BOARD_REGION, LABEL_PADDING,
+    SCREEN_HEIGHT, SCREEN_WIDTH, SIDE_PANEL_GAP, SIDE_PANEL_LEFT,
+    SIDE_PANEL_RIGHT_MARGIN, SIDE_PANEL_TOP, SIDE_PANEL_WIDTH,
+    MENU_ROW_HEIGHT, MENU_LIST_SIDE_PADDING,
+)
 from game import Game
-from game_setup import GameConfig, subtopic_display_name
+from game_setup import GameConfig
 from questions import QuestionBank
 from render import Renderer
 from states.game_over import GameOverState
 from states.menus import GameSelectState, SubjectState, TopicsState, SCROLL_REGION
-from states.play import build_question_popup
+from states.play import PlayState, build_question_popup
 from theme import FLAT, PIXEL
-from tools.theme_fit import audit
+from tools import theme_fit
+from tools.theme_fit import audit, capture_popup
 from ui import Button
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -40,7 +48,83 @@ def bank():
 def test_entire_bank_popup_and_category_fit(renderer, bank):
     report = audit(bank, renderer)
     assert not report['failures'], '\n'.join(report['failures'])
-    assert report['worst']['bottom'] <= 700, report['worst']
+    assert report['preferred_bottom'] == SCREEN_HEIGHT - 20
+    assert report['over_preferred_bottom'] == 0, report['worst']
+    assert report['worst']['bottom'] <= SCREEN_HEIGHT - 20, report['worst']
+
+
+def test_actual_play_readability_geometry(renderer, bank, monkeypatch):
+    assert (SCREEN_WIDTH, SCREEN_HEIGHT) == (1600, 900)
+    assert LABEL_PADDING == 6
+    screen = pygame.Surface((SCREEN_WIDTH, SCREEN_HEIGHT))
+    state = PlayState(
+        SimpleNamespace(renderer=renderer), bank,
+        GameConfig('catch_blue', 'anatomy_physiology', ('cells',)), Random(17),
+    )
+    cells = [state.view.cell_to_rect(cell) for cell in state.board.cells()]
+    assert len(cells) == 25
+    assert state.view.cell_size == 160
+    assert all(rect.size == (160, 160) and screen.get_rect().contains(rect) for rect in cells)
+    board_rect = cells[0].unionall(cells[1:])
+    assert board_rect == pygame.Rect(40, 40, 800, 800)
+
+    target = sorted(state.moves)[0]
+    state.handle_events([pygame.event.Event(
+        pygame.MOUSEBUTTONDOWN, button=1, pos=state.view.cell_to_rect(target).center,
+    )])
+    assert state.pending is not None
+    popup = state.popup_rect
+    assert popup.topleft == (SIDE_PANEL_LEFT, SIDE_PANEL_TOP)
+    assert popup.width == SIDE_PANEL_WIDTH
+    assert popup.left - board_rect.right == SIDE_PANEL_GAP
+    assert screen.get_rect().right - popup.right == SIDE_PANEL_RIGHT_MARGIN
+    assert screen.get_rect().contains(popup)
+    assert state.prompt_box.y == popup.top + 20
+    size = {'flat': 32, 'pixel': 24}[renderer.theme.name]
+    assert renderer.theme.fonts.prompt.size == size
+    assert renderer.theme.fonts.choice.size == size
+    for button in state.answer_buttons:
+        bounds = renderer.text_rects(button.lines, button.rect, 'choice')
+        assert all(line.centerx == button.rect.centerx for line in bounds)
+        assert abs((bounds[0].top + bounds[-1].bottom) / 2 - button.rect.centery) <= 1
+
+    counters = []
+    original_text = renderer.text
+    def record_text(surface, text, rect, role, *args, **kwargs):
+        if role == 'counter':
+            counters.append((text, rect.copy()))
+        return original_text(surface, text, rect, role, *args, **kwargs)
+    monkeypatch.setattr(renderer, 'text', record_text)
+    state.draw(screen)
+    assert len(counters) == 1
+    text, rect = counters[0]
+    assert text == f'Moves remaining: {state.moves_remaining}'
+    assert rect.topleft == (popup.left, 50)
+    bounds, = renderer.text_rects([text], rect, 'counter')
+    assert bounds.left == popup.left
+    assert bounds.right <= popup.right
+    assert bounds.bottom < popup.top
+    assert screen.get_rect().contains(bounds)
+
+
+def test_popup_capture_uses_screen_dimensions(renderer, bank, tmp_path):
+    path = tmp_path / 'popup.png'
+    capture_popup(bank.questions[0], renderer, path)
+    assert pygame.image.load(str(path)).get_size() == (SCREEN_WIDTH, SCREEN_HEIGHT)
+
+
+@pytest.mark.parametrize('bottom', [880, 881, 900, 901])
+def test_audit_screen_and_preferred_bottom_boundaries(renderer, bank, monkeypatch, bottom):
+    question = next(q for q in bank.questions if q.topic == 'muscular_system')
+    def popup_at_bottom(*args, **kwargs):
+        rect, prompt, buttons = build_question_popup(*args, **kwargs)
+        rect.height = bottom - rect.top
+        return rect, prompt, buttons
+    monkeypatch.setattr(theme_fit, 'build_question_popup', popup_at_bottom)
+    report = audit(SimpleNamespace(questions=[question]), renderer)
+    assert report['preferred_bottom'] == SCREEN_HEIGHT - 20
+    assert report['over_preferred_bottom'] == int(bottom > SCREEN_HEIGHT - 20)
+    assert bool(report['failures']) == (bottom > SCREEN_HEIGHT)
 
 
 def assert_button_fit(button):
@@ -52,7 +136,7 @@ def test_menus_end_controls_titles_hud_and_scroll(renderer, bank):
     game = SimpleNamespace(renderer=renderer)
     menus = [GameSelectState(game, bank), SubjectState(game, bank, 'catch_blue'),
              TopicsState(game, bank, 'catch_blue', 'anatomy_physiology')]
-    screen = pygame.Rect(0, 0, 1280, 720)
+    screen = pygame.Rect(0, 0, SCREEN_WIDTH, SCREEN_HEIGHT)
     for menu in menus:
         buttons = [value for value in vars(menu).values() if isinstance(value, Button)]
         for button in buttons:
@@ -71,9 +155,7 @@ def test_menus_end_controls_titles_hud_and_scroll(renderer, bank):
     topics._set_scroll_offset(topics.max_scroll)
     assert topics.topic_checkboxes[-1][1].hit_rect.move(0, -topics.scroll_offset).bottom <= topics.scroll_region.bottom
     for text in ['Select Game', 'Select Subject', 'Select Topics']:
-        assert screen.contains(renderer.text_rects([text], pygame.Rect(0, 120, 1280, 80), 'title')[0])
-    hud = renderer.text_rects(['Moves remaining: 20'], pygame.Rect(720, 50, 520, 50), 'counter')[0]
-    assert hud.right <= 1240 and hud.bottom < 100
+        assert screen.contains(renderer.text_rects([text], pygame.Rect(0, 120, SCREEN_WIDTH, 80), 'title')[0])
     for result in ['win', 'lose']:
         state = GameOverState(game, bank, None, result, None)
         for button in [state.replay_button, state.main_menu_button]:
@@ -88,25 +170,20 @@ def test_menus_end_controls_titles_hud_and_scroll(renderer, bank):
 
 def test_scrolled_rightmost_label_click_uses_instance_clip(renderer, bank, monkeypatch):
     topics = TopicsState(SimpleNamespace(renderer=renderer), bank, 'catch_blue', 'anatomy_physiology')
-    assert SCROLL_REGION == pygame.Rect(300, 200, 680, 390)
     assert topics.scroll_region is not SCROLL_REGION
     assert topics.scroll_region.topleft == SCROLL_REGION.topleft
     assert topics.scroll_region.height == SCROLL_REGION.height
     assert topics.scroll_region.bottom == SCROLL_REGION.bottom
     checkboxes = [topics.all_checkbox, *(c for _, c in topics.topic_checkboxes)]
-    expected_right = max(SCROLL_REGION.right, max(c.hit_rect.right for c in checkboxes) + 8)
+    expected_right = max(SCROLL_REGION.right, max(c.hit_rect.right for c in checkboxes) + MENU_LIST_SIDE_PADDING)
     assert topics.scroll_region.right == expected_right
-    assert topics.scroll_region.right <= 1280
-    if renderer.theme is FLAT:
-        assert topics.scroll_region == SCROLL_REGION
-    else:
-        assert topics.scroll_region.right == 1032
-    assert topics.max_scroll == max(0, max(c.hit_rect.bottom for c in checkboxes) - SCROLL_REGION.bottom)
+    assert topics.scroll_region.right <= SCREEN_WIDTH
+    assert topics.max_scroll == max(0, len(checkboxes) * MENU_ROW_HEIGHT - SCROLL_REGION.height)
     topics._set_scroll_offset(topics.max_scroll)
     target = max((c for _, c in topics.topic_checkboxes), key=lambda c: c.label_rect.right)
     point = (target.label_rect.right - 1, target.label_rect.centery - topics.scroll_offset)
     assert topics.scroll_region.collidepoint(point)
-    if renderer.theme is PIXEL:
+    if target.label_rect.right - 1 >= SCROLL_REGION.right:
         assert not SCROLL_REGION.collidepoint(point)
     before = [c.checked for _, c in topics.topic_checkboxes]
     topics.handle_events([pygame.event.Event(pygame.MOUSEBUTTONDOWN, button=1, pos=point)])
@@ -133,7 +210,7 @@ def test_scrolled_rightmost_label_click_uses_instance_clip(renderer, bank, monke
         clips.append(rect.copy())
         return original_clip(surface, rect)
     monkeypatch.setattr(renderer, 'clip', record_clip)
-    topics.draw(pygame.Surface((1280, 720)))
+    topics.draw(pygame.Surface((SCREEN_WIDTH, SCREEN_HEIGHT)))
     assert clips == [topics.scroll_region]
 
 
@@ -142,22 +219,18 @@ def test_labels_clear_actual_skin_face(renderer, bank):
     assert not report['label_border_intrusions'], report['label_border_intrusions']
 
 
-def test_banner_identity_and_permutations(renderer, bank):
+def test_bannerless_popup_preserves_identity_and_permutations(renderer, bank):
     question = copy(next(q for q in bank.questions if q.topic == 'muscular_system'))
     question.subtopic = 'Unaliased Raw Category / Identity'
     original = (question.topic, question.subtopic, list(question.choices), question.answer_index)
     base = None
     for order in permutations(range(len(question.choices))):
-        rect, prompt, buttons, banner = build_question_popup(question, renderer, order)
+        rect, prompt, buttons = build_question_popup(question, renderer, order)
         if base is None:
             base = rect
         assert rect == base
         assert [b.text for b in buttons] == [question.choices[i] for i in order]
-        if renderer.theme.layout.show_category_banner:
-            assert ' '.join(banner.lines) == subtopic_display_name(question.topic, question.subtopic)
-            assert banner.rect.bottom + 12 == prompt.y
-        else:
-            assert banner is None
+        assert prompt.y == rect.top + 20
     assert original == (question.topic, question.subtopic, question.choices, question.answer_index)
 
 
@@ -180,13 +253,13 @@ def test_base_cells_drawn_once_with_moves(renderer, monkeypatch):
     board = Board(5, 5)
     calls = []
     original = renderer.cell
-    def record(surface, rect, style='normal'):
+    def record(surface, rect, style='normal', *, lift=0):
         calls.append((rect.copy(), style))
-        original(surface, rect, style)
+        original(surface, rect, style, lift=lift)
     monkeypatch.setattr(renderer, 'cell', record)
-    view = BoardView(board, 0, 0, 640)
+    view = BoardView(board, BOARD_ORIGIN_X, BOARD_ORIGIN_Y, BOARD_REGION)
     move = Cell(0, 0)
-    view.draw(pygame.Surface((640, 640)), None, [], None, {move},
+    view.draw(pygame.Surface((SCREEN_WIDTH, SCREEN_HEIGHT)), None, [], None, {move},
               {c: ('cells', 'Overview') for c in board.cells()}, renderer)
     assert len(calls) == len(list(board.cells()))
     assert [style for rect, style in calls if rect == view.cell_to_rect(move)] == ['move']
@@ -213,11 +286,11 @@ def test_both_themes_win_replay_loss_and_rng_parity(bank, monkeypatch, duration)
             state.handle_events([click(state.view.cell_to_rect(target).center)])
             question = state.pending[0]
             trace.append((question.id, tuple(state.answer_order)))
-            assert (state.popup_banner is not None) == (theme is PIXEL)
+            assert state.prompt_box.y == state.popup_rect.top + 20
             index = next(i for i in state.answer_order if (i == question.answer_index) == correct)
             state.handle_events([click(state.answer_buttons[state.answer_order.index(index)].rect.center)])
-            state.update(duration)
-            assert state.popup_banner is state.popup_rect is state.prompt_box is None
+            state.update(state.reveal.duration_ms if state.reveal is not None else 0)
+            assert state.popup_rect is state.prompt_box is None
             assert not state.answer_buttons and not state.answer_order
             state.handle_events([])  # drain timed reveal's event-isolation frame
             trace.append((state.player.cell, state.blue.cell, state.moves_remaining, rng.getstate()))
@@ -232,7 +305,7 @@ def test_both_themes_win_replay_loss_and_rng_parity(bank, monkeypatch, duration)
         game.state.handle_events([click(game.state.replay_button.rect.center)])
         replay = game.state
         assert replay.bank is fresh_bank and replay.rng is rng and replay.renderer is renderer
-        assert replay.config is config and replay.popup_banner is None
+        assert replay.config is config
         replay.moves_remaining = 1
         answer(replay, sorted(replay.moves)[0], False)
         assert isinstance(game.state, GameOverState) and game.state.result == 'lose'

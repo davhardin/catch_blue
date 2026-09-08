@@ -14,7 +14,12 @@ sys.path.insert(0, str(ROOT))
 
 import pygame
 
-from constants import LABEL_PADDING
+from board import Board, Cell
+from board_view import BoardView
+from constants import (
+    BOARD_ORIGIN_X, BOARD_ORIGIN_Y, BOARD_REGION, LABEL_PADDING,
+    SCREEN_HEIGHT, SCREEN_WIDTH,
+)
 from game_setup import subtopic_display_name
 from questions import QuestionBank
 from render import Renderer
@@ -25,7 +30,12 @@ from theme import THEMES
 def audit(bank, renderer):
     failures = []
     records = []
-    layout = renderer.theme.layout
+
+    screen_rect = pygame.Rect(0, 0, SCREEN_WIDTH, SCREEN_HEIGHT)
+    preferred_bottom = SCREEN_HEIGHT - 20
+    view = BoardView(Board(5, 5), BOARD_ORIGIN_X, BOARD_ORIGIN_Y, BOARD_REGION)
+    cell_rect = view.cell_to_rect(Cell(0, 0))
+    cell_rect.topleft = (0, 0)
 
     def check_lines(identity, lines, rect, role, vertical=True):
         for text, bounds in zip(lines, renderer.text_rects(lines, rect, role)):
@@ -35,13 +45,13 @@ def audit(bank, renderer):
                 failures.append(f'{identity}: {role} {text!r} bounds={tuple(bounds)} available={tuple(rect)}')
 
     for question in bank.questions:
-        rect, prompt, buttons, banner = build_question_popup(
+        rect, prompt, buttons = build_question_popup(
             question, renderer, list(range(len(question.choices))),
         )
         records.append({'id': question.id, 'bottom': rect.bottom, 'topic': question.topic,
                         'prompt_lines': len(prompt.lines), 'choice_lines': [len(b.lines) for b in buttons]})
-        if rect.bottom > 720:
-            failures.append(f'{question.id}: popup bottom {rect.bottom} > 720')
+        if not screen_rect.contains(rect):
+            failures.append(f'{question.id}: popup bounds={tuple(rect)} outside screen={tuple(screen_rect)}')
         check_lines(question.id, prompt.lines,
                     pygame.Rect(prompt.x, prompt.y, prompt.width, prompt.height), 'prompt')
         previous_bottom = prompt.y + prompt.height
@@ -50,11 +60,7 @@ def audit(bank, renderer):
             previous_bottom = button.rect.bottom
             check_lines(question.id, button.lines,
                         button.rect.inflate(-2 * button.padding, -2 * button.padding), 'choice')
-        if banner is not None:
-            assert banner.rect.bottom + 12 == prompt.y
-            check_lines(question.id, banner.lines,
-                        banner.rect.inflate(-2 * layout.banner_side_padding,
-                                            -2 * layout.banner_vertical_padding), 'banner')
+
         reverse = build_question_popup(question, renderer, list(reversed(range(len(question.choices)))))
         assert reverse[0] == rect, question.id
         assert sorted(b.rect.height for b in reverse[2]) == sorted(b.rect.height for b in buttons)
@@ -65,12 +71,12 @@ def audit(bank, renderer):
     border_intrusions = []
     cells = {}
     for style, role in (('normal', 'cell'), ('move', 'cell_move')):
-        surface = pygame.Surface((128, 128))
+        surface = pygame.Surface(cell_rect.size)
         renderer.fill(surface)
         renderer.cell(surface, surface.get_rect(), style)
         cells[style] = (surface, renderer.color(role))
     for topic, subtopic in labels:
-        rect = pygame.Rect(LABEL_PADDING, LABEL_PADDING, 128 - 2 * LABEL_PADDING, 128 - 2 * LABEL_PADDING)
+        rect = cell_rect.inflate(-2 * LABEL_PADDING, -2 * LABEL_PADDING)
         lines = renderer.wrap(subtopic_display_name(topic, subtopic), rect.width, 'label')
         check_lines(f'{topic}/{subtopic}', lines, rect, 'label')
         bounds = renderer.text_rects(lines, rect, 'label')
@@ -87,7 +93,8 @@ def audit(bank, renderer):
                                           'lines': lines, 'width': max(b.width for b in bounds)})
     return {'theme': renderer.theme.name, 'questions': len(records), 'categories': len(labels),
             'worst': max(records, key=lambda r: r['bottom']),
-            'over_preferred_700': sum(r['bottom'] > 700 for r in records),
+            'preferred_bottom': preferred_bottom,
+            'over_preferred_bottom': sum(r['bottom'] > preferred_bottom for r in records),
             'failures': failures, 'label_max_width': label_max_width,
             'label_max_height': label_max_height, 'label_border_intrusions': border_intrusions,
             'worst_muscular': max((r for r in records if r['topic'] == 'muscular_system'),
@@ -95,12 +102,11 @@ def audit(bank, renderer):
 
 
 def capture_popup(question, renderer, path):
-    surface = pygame.Surface((1280, 720))
+    surface = pygame.Surface((SCREEN_WIDTH, SCREEN_HEIGHT))
     renderer.fill(surface)
-    rect, prompt, buttons, banner = build_question_popup(question, renderer, list(range(len(question.choices))))
+    rect, prompt, buttons = build_question_popup(question, renderer, list(range(len(question.choices))))
     renderer.panel(surface, rect)
-    if banner:
-        renderer.banner(surface, banner.rect, banner.lines)
+
     prompt.draw(surface)
     for button in buttons:
         button.draw(surface)

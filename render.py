@@ -2,11 +2,16 @@
 
 from contextlib import contextmanager
 from dataclasses import fields
+from math import cos, tau
 
 import pygame
 
 from constants import LINE_WIDTH
 from theme import Alignment, Theme
+
+
+def mix_color(start, end, amount):
+    return tuple(round(a + (b - a) * amount) for a, b in zip(start, end))
 
 
 def word_wrap(text: str, width: int, font) -> list[str]:
@@ -138,30 +143,90 @@ class Renderer:
         pygame.draw.rect(surface, self.color('panel'), rect)
         pygame.draw.rect(surface, self.color('panel_line'), rect, width=2)
 
-    def button(self, surface, rect, style='normal'):
-        if self._draw_skin(surface, rect, f'button.{style}'):
+    def button(self, surface, rect, style='normal', *, lift=0):
+        draw_rect = rect.move(0, -lift)
+        if lift:
+            pygame.draw.rect(surface, self.color('panel_line'), rect)
+
+        element = f'button.{style}'
+        if self._draw_skin(surface, draw_rect, element):
+            if style == 'correct':
+                _, (left, top, right, bottom) = self._skin_elements[element]
+                face = pygame.Rect(draw_rect.left + left, draw_rect.top + top,
+                                   draw_rect.width - left - right, draw_rect.height - top - bottom)
+                pygame.draw.rect(surface, self.color('correct'), face)
             return
         role = {'normal': 'button', 'inactive': 'button_inactive',
-                'correct': 'correct', 'incorrect': 'incorrect'}[style]
-        pygame.draw.rect(surface, self.color(role), rect)
+                'correct': 'correct'}[style]
+        pygame.draw.rect(surface, self.color(role), draw_rect)
 
-    def cell(self, surface, rect, style='normal'):
+    def answer_feedback(self, surface, rect, outcome, elapsed_ms):
+        style = self.theme.reveal
+        background = self.color('background')
+        highlight = self.color('highlight')
+
+        if outcome == 'correct':
+            phase = (elapsed_ms % style.pulse_period_ms) / style.pulse_period_ms
+            pulse = (1 + cos(tau * phase)) / 2
+            brightness = style.minimum_brightness + (1 - style.minimum_brightness) * pulse
+            outline_color = mix_color(background, highlight, brightness)
+            if 'button.correct' in self._skin_elements:
+                _, (left, top, right, bottom) = self._skin_elements['button.correct']
+                # Tint the existing bevel, retaining its shading through alpha
+                # blending. The center stays untouched by the border pulse.
+                overlay = pygame.Surface(rect.size, pygame.SRCALPHA)
+                overlay.fill((*highlight, round(255 * brightness)))
+                overlay.fill((0, 0, 0, 0), pygame.Rect(
+                    left, top, rect.width - left - right, rect.height - top - bottom,
+                ))
+                surface.blit(overlay, rect)
+            else:
+                pygame.draw.rect(surface, outline_color, rect, width=style.outline_width)
+            return
+        elif outcome == 'incorrect':
+            # Remove chroma first, then reduce contrast against the panel, not
+            # the dark window background. This recedes without a dark-grey fill.
+            visible = rect.clip(surface.get_rect())
+            if visible.width and visible.height:
+                desaturated = pygame.transform.grayscale(surface.subsurface(visible))
+                desaturated.set_alpha(style.desaturate_alpha)
+                surface.blit(desaturated, visible)
+            panel = self.color('panel')
+            overlay = pygame.Surface(rect.size, pygame.SRCALPHA)
+            overlay.fill((*panel, style.fade_alpha))
+            surface.blit(overlay, rect)
+            outline_color = mix_color(panel, self.color('panel_line'), 0.15)
+        else:
+            raise ValueError(f'Unknown answer feedback: {outcome}')
+
+        # An outer ring preserves the text area and hit target.
+        width = style.outline_width
+        pygame.draw.rect(surface, outline_color, rect.inflate(2 * width, 2 * width), width=width)
+
+    def cell(self, surface, rect, style='normal', *, lift=0):
         if style in ('hover', 'selected'):
             role, width = ('hover_line', 5) if style == 'hover' else ('selected_line', 4)
             pygame.draw.rect(surface, self.color(role), rect, width=LINE_WIDTH * width)
-        else:
-            if self._draw_skin(surface, rect, f'cell.{style}'):
-                return
-            role = {'normal': 'cell', 'move': 'cell_move'}[style]
-            pygame.draw.rect(surface, self.color(role), rect)
-            pygame.draw.rect(surface, self.color('cell_line'), rect, width=LINE_WIDTH)
+            return
 
-    def banner(self, surface, rect, lines):
-        if not self._draw_skin(surface, rect, 'banner'):
-            raise ValueError('Missing skin element: banner')
-        layout = self.theme.layout
-        content = rect.inflate(-2 * layout.banner_side_padding, -2 * layout.banner_vertical_padding)
-        self.wrapped_text(surface, lines, content, 'banner')
+        tile_rect = rect.move(0, -lift)
+        if lift:
+            pygame.draw.rect(surface, self.color('panel_line'), rect)
+
+        if style == 'move' and 'cell.move' in self._skin_elements:
+            tile = pygame.Surface(tile_rect.size, pygame.SRCALPHA)
+            self._draw_skin(tile, tile.get_rect(), 'cell.move')
+            with pygame.PixelArray(tile) as pixels:
+                pixels.replace(self.color('cell'), self.color('cell_move'))
+            surface.blit(tile, tile_rect)
+            return
+
+        if self._draw_skin(surface, tile_rect, f'cell.{style}'):
+            return
+        role = {'normal': 'cell', 'move': 'cell_move'}[style]
+        pygame.draw.rect(surface, self.color(role), tile_rect)
+        pygame.draw.rect(surface, self.color('cell_line'), tile_rect, width=LINE_WIDTH)
+
 
     def text(self, surface, text, rect, font_role, color_role=None, alignment=None):
         self.wrapped_text(surface, [text], rect, font_role, color_role, alignment)

@@ -1,4 +1,4 @@
-"""Button reveal backgrounds must not change text styling or eligibility."""
+"""Button feedback preserves layout, eligibility, and reset behavior."""
 
 import pygame
 import pytest
@@ -17,7 +17,7 @@ def renderer():
 
 @pytest.mark.parametrize("active", [True, False])
 @pytest.mark.parametrize("highlight", ["correct", "incorrect"])
-def test_highlight_overrides_only_background_and_resets(renderer, active, highlight):
+def test_highlight_overlays_normal_button_and_resets(renderer, active, highlight):
     background = (60, 88, 90)
     foreground = (245, 245, 245)
     button = Button(
@@ -32,11 +32,17 @@ def test_highlight_overrides_only_background_and_resets(renderer, active, highli
     def assert_rendered(expected_background):
         surface.fill((1, 2, 3))
         button.draw(surface)
-        assert tuple(surface.get_at(sample))[:3] == expected_background
+        if button.highlight is None:
+            assert tuple(surface.get_at(sample))[:3] == expected_background
         expected = pygame.Surface(surface.get_size())
         expected.fill((1, 2, 3))
-        pygame.draw.rect(expected, expected_background, button.rect)
+        base_color = renderer.color('correct') if button.highlight == 'correct' else expected_background
+        pygame.draw.rect(expected, base_color, button.rect)
+        if button.highlight == 'correct':
+            renderer.answer_feedback(expected, button.rect, button.highlight, 0)
         expected.blit(expected_text, button.rect.topleft)
+        if button.highlight == 'incorrect':
+            renderer.answer_feedback(expected, button.rect, button.highlight, 0)
         assert pygame.image.tobytes(surface, "RGB") == pygame.image.tobytes(expected, "RGB")
         assert button.is_clicked(button.rect.center) == active
         assert not button.is_clicked((0, 0))
@@ -49,6 +55,6 @@ def test_highlight_overrides_only_background_and_resets(renderer, active, highli
     assert button.highlight is None
     assert_rendered(normal_background)
     button.highlight = highlight
-    assert_rendered(renderer.color(highlight))
+    assert_rendered(normal_background)
     button.highlight = None
     assert_rendered(normal_background)
