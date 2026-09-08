@@ -496,22 +496,6 @@
     "answer_index": 0
   },
   {
-    "id": "bio-anat-04-032",
-    "subject": "anatomy_physiology",
-    "topic": "tissues",
-    "subtopic": "Connective Tissue",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "_____ cartilage supports the nose.",
-    "choices": [
-      "Nasal",
-      "Respiratory",
-      "Costal",
-      "Articular"
-    ],
-    "answer_index": 0
-  },
-  {
     "id": "bio-anat-04-033",
     "subject": "anatomy_physiology",
     "topic": "tissues",
@@ -582,12 +566,11 @@
     "subtopic": "Connective Tissue",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "_____ cartilage is strong, moderately flexible, and resilient, but does not stretch or bend very far.",
+    "prompt": "_____ is strong, moderately flexible, and resilient, but does not stretch or bend very far.",
     "choices": [
-      "Hyaline",
-      "Elastic",
-      "Fibrocartilage",
-      "Dense regular connective tissue"
+      "Hyaline cartilage",
+      "Elastic cartilage",
+      "Fibrocartilage"
     ],
     "answer_index": 0
   },
@@ -598,12 +581,11 @@
     "subtopic": "Connective Tissue",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "_____ cartilage is fairly strong, very flexible, and somewhat stretchable.",
+    "prompt": "_____ is fairly strong, very flexible, and somewhat stretchable.",
     "choices": [
-      "Elastic",
-      "Hyaline",
-      "Fibrocartilage",
-      "Dense irregular connective tissue"
+      "Elastic cartilage",
+      "Hyaline cartilage",
+      "Fibrocartilage"
     ],
     "answer_index": 0
   },
@@ -774,7 +756,7 @@
     "subtopic": "Epithelial Tissue",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "_____' means 'at the top.'",
+    "prompt": "_____ means 'at the top.'",
     "choices": [
       "Apical",
       "Basal",
@@ -822,7 +804,7 @@
     "subtopic": "Epithelial Tissue",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "_____' means, 'containing no blood vessels.'",
+    "prompt": "_____ means, 'containing no blood vessels.'",
     "choices": [
       "Avascular",
       "Vascular",
@@ -838,7 +820,7 @@
     "subtopic": "Epithelial Tissue",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "_____' means, 'supplied by nerve fibers.'",
+    "prompt": "_____ means, 'supplied by nerve fibers.'",
     "choices": [
       "Innervated",
       "Enervated",

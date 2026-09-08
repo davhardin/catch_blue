@@ -58,7 +58,7 @@
     "choices": [
       "mineralocorticoids; glucocorticoids",
       "glucocorticoids; androgens",
-      "mineralocorticoids; catecholamines",
+      "androgens; catecholamines",
       "glucocorticoids; catecholamines"
     ],
     "answer_index": 0
@@ -132,7 +132,7 @@
     "subject": "anatomy_physiology",
     "topic": "endocrine_system",
     "subtopic": "Adrenal Glands",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Aldosterone is secreted in response to _____ blood volume caused by _____.",
     "choices": [

@@ -136,7 +136,6 @@
     "type": "multiple_choice",
     "prompt": "The upper fascicles of the _____ allow us to shrug by pulling the scapula toward the cervical vertebrae.",
     "choices": [
-      "trapezius",
       "levator scapulae",
       "rhomboid major",
       "serratus anterior"
@@ -774,7 +773,7 @@
     "subtopic": "Appendicular Muscles",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "The hallux (great toe) is flexed by the _____, whose tendon passes through a fibrous band at the ankle which serves as a pulley before reaching the toes..",
+    "prompt": "The hallux (great toe) is flexed by the _____, whose tendon passes through a fibrous band at the ankle which serves as a pulley before reaching the toes.",
     "choices": [
       "flexor hallucis longus",
       "flexor digitorum longus",
@@ -972,22 +971,6 @@
       "omohyoid",
       "mylohyoid",
       "stylohyoid"
-    ],
-    "answer_index": 0
-  },
-  {
-    "id": "bio-anat-07-062",
-    "subject": "anatomy_physiology",
-    "topic": "muscular_system",
-    "subtopic": "Axial Muscles",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "Contraction of the _____ pulls the mandible down toward the hyoid, if movement of the hyoid is prevented by contraction of the _____.",
-    "choices": [
-      "digastric; infrahyoid muscles",
-      "mylohyoid; suprahyoid muscles",
-      "digastric; suprahyoid muscles",
-      "geniohyoid; infrahyoid muscles"
     ],
     "answer_index": 0
   },
@@ -1194,7 +1177,7 @@
     "choices": [
       "internal obliques; external obliques",
       "rectus abdominis; transversus abdominis",
-      "erector spinae; quadratus lumborum",
+      "diaphragm; quadratus lumborum",
       "internal obliques; rectus abdominis"
     ],
     "answer_index": 0
@@ -1398,7 +1381,7 @@
     "subtopic": "Axial Muscles",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "The _____ draw ribs together during forced exhalation, but for forced expiration, the _____ are used to increase intra-abdominal pressure.",
+    "prompt": "The _____ draw ribs together during normal exhalation; for FORCED expiration, the _____ are also used to increase intra-abdominal pressure.",
     "choices": [
       "internal intercostals; abdominal muscles",
       "external intercostals; abdominal muscles",
@@ -1478,7 +1461,7 @@
     "subtopic": "Axial Muscles",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "In the first stage of swallowing, the _____ widen the pharynx and close the larynx by pulling they hyoid bone forward and upward.",
+    "prompt": "In the first stage of swallowing, the _____ widen the pharynx and close the larynx by pulling the hyoid bone forward and upward.",
     "choices": [
       "suprahyoid muscles",
       "infrahyoid muscles",
@@ -2342,11 +2325,11 @@
     "subtopic": "Muscle Energy & Recovery",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "In direct phosphorylation, phospate from _____ is directly transferred to ATP.",
+    "prompt": "In direct phosphorylation, phosphate from _____ is directly transferred to ADP, forming ATP.",
     "choices": [
       "creatine phosphate",
       "glycogen",
-      "ADP",
+      "pyruvate",
       "glucose"
     ],
     "answer_index": 0
@@ -2458,8 +2441,8 @@
     "choices": [
       "slow",
       "rapid",
-      "immediate",
-      "unnecessary"
+      "incomplete",
+      "delayed for several days"
     ],
     "answer_index": 0
   },
@@ -2730,8 +2713,8 @@
     "choices": [
       "Oxidative fibers (both slow and fast)",
       "Glycolytic fibers",
-      "White fibers",
-      "Anaerobic fast-twitch fibers"
+      "Oxidative fibers (slow only)",
+      "Oxidative fibers (fast only)"
     ],
     "answer_index": 0
   },
@@ -2902,7 +2885,7 @@
     "subtopic": "Muscle Functions",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "_____ refers to a single, constant muscle contraction.",
+    "prompt": "Muscle _____ refers to a single, sustained contraction with no relaxation between stimuli.",
     "choices": [
       "tetanus",
       "treppe",
@@ -3148,38 +3131,6 @@
       "origin",
       "belly",
       "tendon"
-    ],
-    "answer_index": 0
-  },
-  {
-    "id": "bio-anat-07-198",
-    "subject": "anatomy_physiology",
-    "topic": "muscular_system",
-    "subtopic": "Skeletal Muscle Structure",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "A muscle's more mobile attachment is called the _____.",
-    "choices": [
-      "insertion",
-      "origin",
-      "belly",
-      "action"
-    ],
-    "answer_index": 0
-  },
-  {
-    "id": "bio-anat-07-199",
-    "subject": "anatomy_physiology",
-    "topic": "muscular_system",
-    "subtopic": "Skeletal Muscle Structure",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "A muscle's more immobile attachment is called the _____.",
-    "choices": [
-      "origin",
-      "insertion",
-      "belly",
-      "action"
     ],
     "answer_index": 0
   },
@@ -3654,7 +3605,7 @@
     "subtopic": "Skeletal Muscle Structure",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "In relaxed muscle, the Z-disks of the sarcomere are held together by the protein _____. This allows the muscle to resist tearing when stretch, and such resistance is called _____ force.",
+    "prompt": "In relaxed muscle, the Z-disks of the sarcomere are held together by the protein _____. This _____ force allows the muscle to resist tearing when stretched.",
     "choices": [
       "titin; passive",
       "titin; active",

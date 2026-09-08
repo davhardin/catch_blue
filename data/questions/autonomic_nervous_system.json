@@ -208,22 +208,6 @@
     "answer_index": 0
   },
   {
-    "id": "bio-anat-12-014",
-    "subject": "anatomy_physiology",
-    "topic": "autonomic_nervous_system",
-    "subtopic": "Autonomic Nervous System",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "The fact that receptor subtypes exist is very important to the medical field because _____.",
-    "choices": [
-      "it allows drugs to be targeted to specific receptors, cells, tissues, etc.",
-      "it prevents any drug from having side effects",
-      "it means all neurotransmitters have identical effects",
-      "it eliminates the need for second messenger systems"
-    ],
-    "answer_index": 0
-  },
-  {
     "id": "bio-anat-12-015",
     "subject": "anatomy_physiology",
     "topic": "autonomic_nervous_system",
@@ -326,12 +310,10 @@
     "subtopic": "Divisions of the Autonomic Nervous System",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "The _____ division of the autonomic nervous system controls processes that are active when all is peaceful and going well.",
+    "prompt": "The _____ nervous system is the 'rest and digest' division of the autonomic nervous system.",
     "choices": [
       "parasympathetic",
-      "sympathetic",
-      "somatic",
-      "enteric"
+      "sympathetic"
     ],
     "answer_index": 0
   },
@@ -342,12 +324,10 @@
     "subtopic": "Divisions of the Autonomic Nervous System",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "The _____ division of the autonomic nervous system controls processes that are active when events are stressful.",
+    "prompt": "The _____ nervous system is the 'fight or flight' division of the autonomic nervous system.",
     "choices": [
       "sympathetic",
-      "parasympathetic",
-      "somatic",
-      "enteric"
+      "parasympathetic"
     ],
     "answer_index": 0
   },
@@ -428,22 +408,6 @@
       "the sympathetic division only",
       "the parasympathetic division only",
       "the enteric division only"
-    ],
-    "answer_index": 0
-  },
-  {
-    "id": "bio-anat-12-028",
-    "subject": "anatomy_physiology",
-    "topic": "autonomic_nervous_system",
-    "subtopic": "Divisions of the Autonomic Nervous System",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "Activation by the _____ division of the ANS is longer lasting than by the _____ division.",
-    "choices": [
-      "sympathetic; parasympathetic",
-      "parasympathetic; sympathetic",
-      "sympathetic; somatic",
-      "parasympathetic; enteric"
     ],
     "answer_index": 0
   },
@@ -568,9 +532,9 @@
     "type": "multiple_choice",
     "prompt": "The cell bodies of many of the post-ganglionic neurons whose axons innervate sympathetic effectors are located adjacent to the vertebrae and are called _____.",
     "choices": [
-      "chain (paravertebral) ganglia",
+      "chain ganglia",
       "collateral ganglia",
-      "intramural (terminal) ganglia",
+      "intramural ganglia",
       "dorsal root ganglia"
     ],
     "answer_index": 0
@@ -586,7 +550,7 @@
     "choices": [
       "collateral ganglia",
       "chain ganglia",
-      "intramural (terminal) ganglia",
+      "intramural ganglia",
       "dorsal root ganglia"
     ],
     "answer_index": 0
@@ -601,25 +565,9 @@
     "prompt": "The cell bodies of many of the post-ganglionic neurons whose axons innervate sympathetic effectors are located near the abdominal aorta and are called _____.",
     "choices": [
       "collateral ganglia",
-      "chain (paravertebral) ganglia",
-      "intramural (terminal) ganglia",
+      "chain ganglia",
+      "intramural ganglia",
       "dorsal root ganglia"
-    ],
-    "answer_index": 0
-  },
-  {
-    "id": "bio-anat-12-039",
-    "subject": "anatomy_physiology",
-    "topic": "autonomic_nervous_system",
-    "subtopic": "Divisions of the Autonomic Nervous System",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "The _____, which refers to the collateral ganglia as a group, clings to the walls of the abdominal aorta.",
-    "choices": [
-      "abdominal aortic plexus",
-      "cardiac plexus",
-      "pulmonary plexus",
-      "brachial plexus"
     ],
     "answer_index": 0
   },
@@ -628,9 +576,9 @@
     "subject": "anatomy_physiology",
     "topic": "autonomic_nervous_system",
     "subtopic": "Divisions of the Autonomic Nervous System",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
-    "prompt": "Sympathetic axons which leave_____ are myelinated and are called the white rami.",
+    "prompt": "Sympathetic axons which leave _____ are myelinated and are called the white rami.",
     "choices": [
       "the CNS to reach the chain ganglia",
       "the chain ganglia to reach the effector",
@@ -665,9 +613,7 @@
     "prompt": "The adrenal medulla is stimulated to secrete epinephrine and norepinephrine directly into the blood by the _____ division of the ANS, and is not affected by the _____ division.",
     "choices": [
       "sympathetic; parasympathetic",
-      "parasympathetic; sympathetic",
-      "somatic; autonomic",
-      "enteric; sympathetic"
+      "parasympathetic; sympathetic"
     ],
     "answer_index": 0
   },
@@ -676,14 +622,14 @@
     "subject": "anatomy_physiology",
     "topic": "autonomic_nervous_system",
     "subtopic": "Divisions of the Autonomic Nervous System",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
-    "prompt": "Heart rate is increased by the _____ division of the ANS.",
+    "prompt": "Heart rate is increased by the _____ division of the ANS, using the neurotransmitter ______.",
     "choices": [
-      "sympathetic",
-      "parasympathetic",
-      "somatic",
-      "enteric"
+      "sympathetic; norepinephrine",
+      "parasympathetic; norepinephrine",
+      "sympathetic; acetylcholine",
+      "parasympathetic; acetylcholine"
     ],
     "answer_index": 0
   },
@@ -694,12 +640,12 @@
     "subtopic": "Divisions of the Autonomic Nervous System",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Heart rate is decreased by the _____ division of the ANS.",
+    "prompt": "Heart rate is decreased by the _____ division of the ANS, using the neurotransmitter ______.",
     "choices": [
-      "parasympathetic",
-      "sympathetic",
-      "somatic",
-      "enteric"
+      "parasympathetic; acetylcholine",
+      "sympathetic; norepinephrine",
+      "parasympathetic; norepinephrine",
+      "sympathetic; acetylcholine"
     ],
     "answer_index": 0
   },
@@ -710,12 +656,12 @@
     "subtopic": "Divisions of the Autonomic Nervous System",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "The bronchioles in the lungs are constricted by the _____ division of the ANS.",
+    "prompt": "The bronchioles in the lungs are constricted by the _____ division of the ANS via the neurotransmitter ______.",
     "choices": [
-      "parasympathetic",
-      "sympathetic",
-      "somatic",
-      "enteric"
+      "parasympathetic; acetylcholine",
+      "sympathetic; norepinephrine",
+      "parasympathetic; norepinephrine",
+      "sympathetic; acetylcholine"
     ],
     "answer_index": 0
   },
@@ -726,12 +672,12 @@
     "subtopic": "Divisions of the Autonomic Nervous System",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "The bronchioles in the lungs are dilated by the _____ division of the ANS.",
+    "prompt": "The bronchioles in the lungs are dilated by the _____ division of the ANS via the neurotransmitter ______..",
     "choices": [
-      "sympathetic",
-      "parasympathetic",
-      "somatic",
-      "enteric"
+      "sympathetic; norepinephrine",
+      "parasympathetic; acetylcholine",
+      "parasympathetic; norepinephrine",
+      "sympathetic; acetylcholine"
     ],
     "answer_index": 0
   },
@@ -745,9 +691,7 @@
     "prompt": "Digestive tract activity, including motility, secretion of digestive juices, and sphincter relaxation are promoted by the _____ division of the ANS.",
     "choices": [
       "parasympathetic",
-      "sympathetic",
-      "somatic",
-      "enteric"
+      "sympathetic"
     ],
     "answer_index": 0
   },
@@ -761,25 +705,7 @@
     "prompt": "Digestive tract activity, including motility, secretion of digestive juices, and sphincter relaxation are inhibited by the _____ division of the ANS.",
     "choices": [
       "sympathetic",
-      "parasympathetic",
-      "somatic",
-      "enteric"
-    ],
-    "answer_index": 0
-  },
-  {
-    "id": "bio-anat-12-049",
-    "subject": "anatomy_physiology",
-    "topic": "autonomic_nervous_system",
-    "subtopic": "Divisions of the Autonomic Nervous System",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "The role of the parasympathetic division of the ANS in the male sexual response is to cause _____, and that of the sympathetic division to cause _____.",
-    "choices": [
-      "penile erection; ejaculation",
-      "ejaculation; penile erection",
-      "urination; defecation",
-      "sperm production; testosterone secretion"
+      "parasympathetic"
     ],
     "answer_index": 0
   },
@@ -790,11 +716,11 @@
     "subtopic": "Divisions of the Autonomic Nervous System",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Blood vessels are constricted due to _____.",
+    "prompt": "Blood vessels are constricted due to stimulation by the _____.",
     "choices": [
-      "stimulation by the sympathetic division of the ANS",
-      "stimulation by the parasympathetic division of the ANS",
-      "lack of stimulation by the sympathetic division of the ANS",
+      "sympathetic division of the ANS",
+      "parasympathetic division of the ANS",
+      "stimulation by the somatic sensory neurons",
       "stimulation by somatic motor neurons"
     ],
     "answer_index": 0

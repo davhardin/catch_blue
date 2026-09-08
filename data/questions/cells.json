@@ -217,9 +217,7 @@
     "prompt": "During DNA synthesis, new nucleotides can only be added to the _____ end of the DNA.",
     "choices": [
       "3'",
-      "5'",
-      "N-terminal",
-      "C-terminal"
+      "5'"
     ],
     "answer_index": 0
   },
@@ -502,7 +500,7 @@
     "subtopic": "Cell Membrane",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "The molecules that allow cells to join and adhere to one another and or objects are made of _____.",
+    "prompt": "The molecules that allow cells to join and adhere to each other are made of _____.",
     "choices": [
       "protein",
       "carbohydrate",
@@ -1046,7 +1044,7 @@
     "subtopic": "The Cell Cycle",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Interphase can be divided into three groups of events, _____, _____, and _____.",
+    "prompt": "In order, the three stages of interphase are _____, _____, and _____.",
     "choices": [
       "G1; S; G2",
       "G0; G1; G2",

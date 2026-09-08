@@ -608,22 +608,6 @@
     "answer_index": 0
   },
   {
-    "id": "bio-anat-13-039",
-    "subject": "anatomy_physiology",
-    "topic": "special_senses",
-    "subtopic": "Equilibrium and Hearing",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "Signaling from hair cells in the inner ear is moderate when the kinocilia are in the neutral position: signaling increases or decreases as stereocilia or kinetocilia bend, depending on _____.",
-    "choices": [
-      "the direction in which they are bent",
-      "the frequency of stimulation",
-      "the length of the kinocilium",
-      "the ion concentration of the perilymph"
-    ],
-    "answer_index": 0
-  },
-  {
     "id": "bio-anat-13-040",
     "subject": "anatomy_physiology",
     "topic": "special_senses",
@@ -824,7 +808,7 @@
     "type": "multiple_choice",
     "prompt": "Tears enter the eye _____ and leave via ducts at the medial corner of the eye (the _____).",
     "choices": [
-      "superiolaterally; medial canthus",
+      "superolaterally; medial canthus",
       "inferomedially; lateral canthus",
       "superomedially; lateral canthus",
       "inferolaterally; medial canthus"
@@ -1200,22 +1184,6 @@
     "answer_index": 0
   },
   {
-    "id": "bio-anat-13-076",
-    "subject": "anatomy_physiology",
-    "topic": "special_senses",
-    "subtopic": "Eye Structures",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "The only region of the eye capable of high-acuity vision (such as that used to read fine print) consists of the _____ and _____.",
-    "choices": [
-      "macula lutea; fovea centralis",
-      "optic disc; ora serrata",
-      "ciliary body; iris",
-      "choroid; sclera"
-    ],
-    "answer_index": 0
-  },
-  {
     "id": "bio-anat-13-077",
     "subject": "anatomy_physiology",
     "topic": "special_senses",
@@ -1414,7 +1382,7 @@
     "subtopic": "Gustation and Olfaction",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Unlike taste, there are _____ <roughly how many?> of odorant receptors (chemoreceptors for chemicals sensed as an odor).",
+    "prompt": "Unlike taste, there are _____ of odorant receptors (chemoreceptors for chemicals sensed as an odor).",
     "choices": [
       "hundreds of different types",
       "five different types",
@@ -1430,7 +1398,7 @@
     "subtopic": "Gustation and Olfaction",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Each neuron expresses _____ <roughly how many?>, odorant receptors.",
+    "prompt": "Each neuron expresses _____ odorant receptors.",
     "choices": [
       "one, or at most a few",
       "hundreds",

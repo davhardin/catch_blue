@@ -182,7 +182,7 @@
     "subtopic": "Appendicular Skeleton",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Shoulder blade' is the common term for the _____.",
+    "prompt": "'Shoulder blade' is the common term for the _____.",
     "choices": [
       "scapula",
       "clavicle",
@@ -1446,7 +1446,7 @@
     "subtopic": "Axial Skeleton",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Sutures are formed _____.",
+    "prompt": "Fontanelles close into bony sutures _____.",
     "choices": [
       "within a year or two of birth",
       "before birth, during fetal development",
@@ -1654,7 +1654,7 @@
     "subtopic": "Axial Skeleton",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "The coronal suture is formed by articulation of <which bones>?",
+    "prompt": "The coronal suture is formed by articulation of?",
     "choices": [
       "parietal and frontal bones",
       "the two parietal bones",
@@ -1798,7 +1798,7 @@
     "subtopic": "Axial Skeleton",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "The foramen magnum is the _____ <physiology, not anatomy>.",
+    "prompt": "The foramen magnum is the _____.",
     "choices": [
       "passageway through which the spinal cord leaves the skull",
       "attachment site for the muscles that extend the neck",
@@ -2022,7 +2022,7 @@
     "subtopic": "Axial Skeleton",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "The crista galli is <physiology> _____.",
+    "prompt": "The crista galli is _____.",
     "choices": [
       "an attachment point for the meninges",
       "a passageway for olfactory nerve filaments",
@@ -2070,7 +2070,7 @@
     "subtopic": "Axial Skeleton",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "The cribriform plate contains <physiology> _____.",
+    "prompt": "The cribriform plate contains _____.",
     "choices": [
       "passages for nerve filaments of the olfactory (sense of smell) nerves",
       "passages for the optic nerves",
@@ -2550,7 +2550,7 @@
     "subtopic": "Axial Skeleton",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "The articulation between C1 and the skull allows <what motion>?",
+    "prompt": "The articulation between C1 and the skull allows ___________?",
     "choices": [
       "nodding of the head",
       "side-to-side rotation of the head",
@@ -2598,7 +2598,7 @@
     "subtopic": "Axial Skeleton",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "The vertebral foramina of cervical vertebrae are _____ <what shape?>.",
+    "prompt": "The vertebral foramina of cervical vertebrae are ______.",
     "choices": [
       "triangular",
       "round",
@@ -2614,7 +2614,7 @@
     "subtopic": "Axial Skeleton",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "The body of a cervical vertebra is _____ <what shape?>.",
+    "prompt": "The body of a cervical vertebra is _____.",
     "choices": [
       "oval",
       "heart-shaped",
@@ -2646,7 +2646,7 @@
     "subtopic": "Axial Skeleton",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "The vertebral foramina of thoracic vertebrae are _____ <what shape?>.",
+    "prompt": "The vertebral foramina of thoracic vertebrae are _____.",
     "choices": [
       "round",
       "triangular",
@@ -3656,11 +3656,10 @@
     "type": "multiple_choice",
     "prompt": "The length of long bones is increased by calcification of cartilage within each epiphysis, on the cartilage surface that is __________ the diaphysis.",
     "choices": [
-      "closest to the diaphysis",
-      "farthest from the diaphysis"
+      "closest to",
+      "farthest from"
     ],
-    "answer_index": 0,
-    "shuffle": false
+    "answer_index": 0
   },
   {
     "id": "bio-anat-06-230",
@@ -3799,10 +3798,10 @@
     "type": "multiple_choice",
     "prompt": "Ossification of the skeleton occurs in such a predictable pattern that it can be used to determine fetal ______.",
     "choices": [
-      "fetal age",
-      "fetal sex",
-      "fetal blood type",
-      "fetal muscle mass"
+      "age",
+      "sex",
+      "blood type",
+      "muscle mass"
     ],
     "answer_index": 0
   },
@@ -3957,12 +3956,12 @@
     "subtopic": "Bone Fractures",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Put the following events of fracture repair in the correct order: (i) spongy bone formation (ii) bone remodeling (iii) hemotoma formation (iv) fibrocartilage deposition and capillary formation <Note: do not memorize the letter-order in the answer to this question, know the events!>",
+    "prompt": "Put the following events of fracture repair in the correct order: (i) spongy bone formation (ii) bone remodeling (iii) hematoma formation (iv) fibrocartilage deposition and capillary formation.",
     "choices": [
       "iii, iv, i, ii",
-      "iii, i, iv, ii",
+      "ii, i, iv, iii",
       "iv, iii, i, ii",
-      "iii, iv, ii, i"
+      "i, ii, iii, iv"
     ],
     "answer_index": 0
   },
@@ -3973,7 +3972,7 @@
     "subtopic": "Joints",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Inter-vertebral articulation of thoracic vertebrae allows _____ <what motion(s)>.",
+    "prompt": "Inter-vertebral articulation of thoracic vertebrae allows _____.",
     "choices": [
       "rotation",
       "flexion and extension",
@@ -3989,7 +3988,7 @@
     "subtopic": "Joints",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Inter-vertebral articulation of lumbar vertebrae allows _____ <what motion(s)>.",
+    "prompt": "Inter-vertebral articulation of lumbar vertebrae allows _____.",
     "choices": [
       "flexion and extension",
       "rotation",
@@ -4551,9 +4550,8 @@
     "type": "multiple_choice",
     "prompt": "Bending backward at the waist is _____ of the trunk.",
     "choices": [
-      "hyperextension",
+      "extension/hyperextension",
       "flexion",
-      "extension",
       "rotation"
     ],
     "answer_index": 0
@@ -4568,8 +4566,7 @@
     "prompt": "Tilting the chin downward is _____ of the neck.",
     "choices": [
       "flexion",
-      "extension",
-      "hyperextension",
+      "extension/hyperextension",
       "lateral flexion"
     ],
     "answer_index": 0
@@ -4583,8 +4580,7 @@
     "type": "multiple_choice",
     "prompt": "Tilting the head back to look at the ceiling requires _____ of the neck.",
     "choices": [
-      "hyperextension",
-      "extension",
+      "extension/hyperextension",
       "flexion",
       "rotation"
     ],
@@ -4667,38 +4663,6 @@
       "rotation",
       "abduction",
       "supination"
-    ],
-    "answer_index": 0
-  },
-  {
-    "id": "bio-anat-06-293",
-    "subject": "anatomy_physiology",
-    "topic": "skeletal_system",
-    "subtopic": "Joints",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "_____ rotation of the arm or leg so that the thumb or great toe moves toward the opposite limb.",
-    "choices": [
-      "Medial",
-      "Lateral",
-      "Dorsal",
-      "Ventral"
-    ],
-    "answer_index": 0
-  },
-  {
-    "id": "bio-anat-06-294",
-    "subject": "anatomy_physiology",
-    "topic": "skeletal_system",
-    "subtopic": "Joints",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "_____ rotation moves the thumb or great toe to a position pointing away from the opposite limb.",
-    "choices": [
-      "Lateral",
-      "Medial",
-      "Dorsal",
-      "Ventral"
     ],
     "answer_index": 0
   },
@@ -4981,10 +4945,9 @@
     "subtopic": "Joints",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "_____ are the main stabilizers of the knee.",
+    "prompt": "_____ and ligaments are the main stabilizers of the knee.",
     "choices": [
       "Muscles",
-      "Ligaments",
       "Menisci",
       "Bursae"
     ],
@@ -5339,22 +5302,6 @@
       "the knee",
       "the distal interphalangeal joints of the fingers",
       "the first carpometacarpal joint of the thumb"
-    ],
-    "answer_index": 0
-  },
-  {
-    "id": "bio-anat-06-335",
-    "subject": "anatomy_physiology",
-    "topic": "skeletal_system",
-    "subtopic": "Joints",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "_____ cartilage covers ends of long bones.",
-    "choices": [
-      "Articular",
-      "Costal",
-      "Nasal",
-      "Respiratory"
     ],
     "answer_index": 0
   }

@@ -1014,7 +1014,7 @@
     "subtopic": "Spinal Reflexes",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "_____ reflexes cause contraction of a stretched muscle and relaxation of the antagonist muscle. The most famous example is the patellar reflex, in which the muscles of the quadriceps are stretched by tapping the patellar tendon.",
+    "prompt": "_____ reflexes cause contraction of a stretched muscle and relaxation of the antagonist muscle. The most famous example is the patellar reflex.",
     "choices": [
       "Stretch",
       "Flexor",
@@ -1067,7 +1067,7 @@
       "Golgi tendon",
       "stretch",
       "flexor (withdrawal)",
-      "crossed-extensor"
+      "cross-extensor"
     ],
     "answer_index": 0
   }

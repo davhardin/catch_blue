@@ -24,8 +24,8 @@
     "type": "multiple_choice",
     "prompt": "In advanced age, the amount of dermal _____ decreases, and the fibers become thicker and disorganized.",
     "choices": [
-      "elastin (or elastic fibers)",
-      "collagen",
+      "elastin",
+      "ground substance",
       "keratin",
       "reticular fibers"
     ],
@@ -326,7 +326,7 @@
     "subtopic": "Epidermis",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Keratinocytes in the _____ of the epidermis produce lamellated granules filled with a water-proofing glycolipid. <Note: if you can't figure out the meaning of the word - or any other word in these review questions - you should look them up!>",
+    "prompt": "Keratinocytes in the _____ of the epidermis produce lamellated granules filled with a water-proofing glycolipid.",
     "choices": [
       "stratum granulosum",
       "stratum basale",
@@ -396,22 +396,6 @@
       "stratum granulosum",
       "stratum lucidum",
       "stratum basale"
-    ],
-    "answer_index": 0
-  },
-  {
-    "id": "bio-anat-05-026",
-    "subject": "anatomy_physiology",
-    "topic": "integumentary_system",
-    "subtopic": "Epidermis",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "Three pigments contribute to skin color: two types of _____ and, to a lesser degree, _____.",
-    "choices": [
-      "melanin; carotene",
-      "melanin; hemoglobin",
-      "carotene; hemoglobin",
-      "keratin; carotene"
     ],
     "answer_index": 0
   },

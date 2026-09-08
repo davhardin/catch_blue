@@ -1456,29 +1456,13 @@
     "answer_index": 0
   },
   {
-    "id": "bio-anat-10-092",
-    "subject": "anatomy_physiology",
-    "topic": "brain",
-    "subtopic": "Cerebrospinal Fluid",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "_____ is the fluid which surrounds, and fills the hollow areas in, the CNS.",
-    "choices": [
-      "Cerebrospinal fluid",
-      "Blood plasma",
-      "Interstitial fluid",
-      "Lymph"
-    ],
-    "answer_index": 0
-  },
-  {
     "id": "bio-anat-10-093",
     "subject": "anatomy_physiology",
     "topic": "brain",
     "subtopic": "Cerebrospinal Fluid",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "There are _____ (how many?) ventricles in the brain.",
+    "prompt": "There are _____ ventricles in the brain.",
     "choices": [
       "4",
       "2",

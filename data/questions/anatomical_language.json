@@ -512,22 +512,6 @@
     "answer_index": 0
   },
   {
-    "id": "bio-anat-01-033",
-    "subject": "anatomy_physiology",
-    "topic": "anatomical_language",
-    "subtopic": "Anatomy vs Physiology",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "Physiology is the study of the body's function, often at the _____ or _____ level.",
-    "choices": [
-      "cellular; molecular",
-      "organ; organismal",
-      "tissue; regional",
-      "gross; microscopic"
-    ],
-    "answer_index": 0
-  },
-  {
     "id": "bio-anat-01-034",
     "subject": "anatomy_physiology",
     "topic": "anatomical_language",
@@ -1814,7 +1798,7 @@
     "subtopic": "Levels of Organization",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Organs working together on a common task form an _____.",
+    "prompt": "Organs working together on a common task form a(n) _____.",
     "choices": [
       "organ system",
       "organism",

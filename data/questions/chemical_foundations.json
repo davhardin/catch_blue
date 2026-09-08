@@ -159,29 +159,13 @@
     "answer_index": 0
   },
   {
-    "id": "bio-anat-02-011",
-    "subject": "anatomy_physiology",
-    "topic": "chemical_foundations",
-    "subtopic": "Atoms, Elements, and Compounds",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "In a _________, no chemical bonding occurs.",
-    "choices": [
-      "mixture",
-      "compound",
-      "molecule",
-      "macromolecule"
-    ],
-    "answer_index": 0
-  },
-  {
     "id": "bio-anat-02-012",
     "subject": "anatomy_physiology",
     "topic": "chemical_foundations",
     "subtopic": "Atoms, Elements, and Compounds",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "A __________ can be separated by physical (not chemical) methods: heating, spinning, filtering, etc.",
+    "prompt": "A __________ has no chemical bonding between its components, and can be separated by physical methods such as heating, spinning, filtering, etc.",
     "choices": [
       "mixture",
       "compound",
@@ -277,7 +261,7 @@
     "subtopic": "Chemical Bonds",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "(Pick the correct choice within each set of brackets.) If one atom of two covalently bonded atoms is more electronegative than the other, which means that it pulls electrons toward itself, the bond is [polar/non-polar].",
+    "prompt": "If one atom of two covalently bonded atoms is more electronegative than the other, the bond is _______.",
     "choices": [
       "polar",
       "non-polar",
@@ -371,9 +355,9 @@
     "subject": "anatomy_physiology",
     "topic": "chemical_foundations",
     "subtopic": "Chemical Reactions",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
-    "prompt": "A catalyst [is/is not] a type of reactant, and so [is/is not] changed during a chemical reaction.",
+    "prompt": "A catalyst ________ a reactant, and it _______ changed during a chemical reaction.",
     "choices": [
       "is not; is not",
       "is; is",
@@ -885,12 +869,12 @@
     "subtopic": "Macromolecules",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Most enzymes are _____ <two words>.",
+    "prompt": "Most enzymes are _____ proteins.",
     "choices": [
-      "globular proteins",
-      "fibrous proteins",
-      "structural proteins",
-      "conjugated lipids"
+      "globular",
+      "fibrous",
+      "structural",
+      "peripheral"
     ],
     "answer_index": 0
   },
@@ -965,7 +949,7 @@
     "subtopic": "pH and Body Fluids",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "(Pick the correct choice within each set of brackets.) The more hydrogen ions there are in solution, the more ______ the solution is.",
+    "prompt": "The more hydrogen ions there are in solution, the more ______ the solution is.",
     "choices": [
       "acidic",
       "basic",

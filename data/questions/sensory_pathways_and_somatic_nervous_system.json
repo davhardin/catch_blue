@@ -246,7 +246,7 @@
     "subtopic": "Efferent Division",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Cranial nerve # _____, the _____ nerve, innervates the muscles of the eye which abduct the eyeballs.",
+    "prompt": "Cranial nerve # _____, the _____ nerve, innervates the lateral rectus muscle (eye).",
     "choices": [
       "6; abducens",
       "4; trochlear",
@@ -262,7 +262,7 @@
     "subtopic": "Efferent Division",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Sensations of taste and the ability to control facial expression are provided by cranial nerve # _____, the _____ nerve. It also helps with swallowing and controls the tear glands and two sets of salivary glands.",
+    "prompt": "Sensations of taste and the ability to control expressions are provided by cranial nerve # _____, the _____ nerve. It also helps with swallowing and controls the tear glands and two sets of salivary glands.",
     "choices": [
       "7; facial",
       "5; trigeminal",
@@ -454,12 +454,13 @@
     "subtopic": "Sensory Receptors",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Free nerve endings are responsible for detecting _____, _____, _____, _____ and _____.",
+    "prompt": "Free nerve endings are NOT responsible for detecting _____.",
     "choices": [
-      "pain, temperature, itch, joint movement, proprioception",
-      "deep pressure and vibration",
-      "light pressure and texture",
-      "muscle and tendon stretch"
+      "vibration",
+      "pain",
+      "temperature",
+      "itch",
+      "proprioception"
     ],
     "answer_index": 0
   },
@@ -570,8 +571,8 @@
     "choices": [
       "tendon stretch",
       "muscle stretch",
-      "skin stretch",
-      "joint pressure"
+      "deep pressure",
+      "vibration"
     ],
     "answer_index": 0
   },

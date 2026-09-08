@@ -362,8 +362,7 @@
     "choices": [
       "slower",
       "faster",
-      "more variable",
-      "unchanged"
+      "more variable"
     ],
     "answer_index": 0
   },
@@ -489,7 +488,7 @@
     "prompt": "The PNS has two major divisions: the _____ division and the _____ division.",
     "choices": [
       "sensory; motor",
-      "somatic; autonomic",
+      "cranial; spinal",
       "central; peripheral",
       "sympathetic; parasympathetic"
     ],
@@ -678,12 +677,12 @@
     "subtopic": "Membrane Potential",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "There is _____ potassium inside of, than outside of, the cell.",
+    "prompt": "Compared with the extracellular fluid, the cytosol has a _____ concentration of potassium.",
     "choices": [
-      "more",
-      "less",
-      "the same amount of",
-      "almost no"
+      "higher",
+      "lower",
+      "equal",
+      "negligible"
     ],
     "answer_index": 0
   },
@@ -694,12 +693,12 @@
     "subtopic": "Membrane Potential",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "There is _____ sodium inside of, than outside of, the cell.",
+    "prompt": "Compared with the extracellular fluid, the cytosol has a _____ concentration of sodium.",
     "choices": [
-      "less",
-      "more",
-      "the same amount of",
-      "almost no"
+      "lower",
+      "higher",
+      "equal",
+      "negligible"
     ],
     "answer_index": 0
   },
@@ -1174,7 +1173,7 @@
     "subtopic": "Neural Cells",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "A single Schwann cell is capable of interacting with the axons of how many neurons?",
+    "prompt": "A single Schwann cell generally interacts with the axons of how many neurons?",
     "choices": [
       "one",
       "several",
@@ -1260,22 +1259,6 @@
       "speeds axonal regeneration",
       "has no effect on axonal regeneration",
       "triggers immediate remyelination"
-    ],
-    "answer_index": 0
-  },
-  {
-    "id": "bio-anat-08-080",
-    "subject": "anatomy_physiology",
-    "topic": "nervous_system",
-    "subtopic": "Neural Cells",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "A(n) _____ is a bundle of fibers which carry electrochemical signals.",
-    "choices": [
-      "nerve",
-      "tract",
-      "ganglion",
-      "fascicle"
     ],
     "answer_index": 0
   },

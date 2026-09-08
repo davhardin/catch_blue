@@ -34,6 +34,8 @@ generate_scaffold.py
 # Working notes (final attributions go in data/questions/ATTRIBUTION.md)
 question_sources.md
 question_sources/
+data/questions/flagged_questions.md
+data/questions/removed_questions.md
 
 # Machine-local memory export and scraps
 catch_blue_local_only/
