@@ -14,3 +14,20 @@
     ],
     "answer_index": 0
   },
+
+  {
+    "id": "bio-anat-14-084",
+    "subject": "anatomy_physiology",
+    "topic": "endocrine_system",
+    "subtopic": "Thyroid Gland",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The third hormone produced by the thyroid is unlike the other two: it helps to regulate _____ metabolism, and is called _____.",
+    "choices": [
+      "calcium; calcitonin",
+      "calcium; parathyroid hormone",
+      "glucose; calcitonin",
+      "iodine; thyroglobulin"
+    ],
+    "answer_index": 0
+  },

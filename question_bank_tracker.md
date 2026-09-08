@@ -1,7 +1,8 @@
 # Question Bank Tracker
 
-Last updated: 2026-09-01 (Anson Vol. 1 import COMPLETE — endocrine vetted and
-imported; the bank contains zero placeholder questions).
+Last updated: 2026-09-07 (Anson Vol. 1 import COMPLETE — endocrine vetted and
+imported; the bank contains zero placeholder questions; playtest removals
+began, see below).
 
 What this file tracks: which subtopics exist per topic, which sources have
 been reviewed for which topics, and which sources are still untouched — so
@@ -46,7 +47,15 @@ and `bio-anat-14-067`.
 | sensory_pathways_and_somatic_nervous_system | 39 | Afferent Division (13), Efferent Division (8), Sensory Receptors (18) | ✅ |
 | autonomic_nervous_system | 53 | Aging: ANS (2), Autonomic Nervous System (18), Divisions of the Autonomic Nervous System (33) | ✅ |
 | special_senses | 131 | Equilibrium and Hearing (45), Eye Structures (31), Gustation and Olfaction (14), Visual System (41) | ✅ |
-| endocrine_system | 89 | Adrenal Glands (15), Cell Signaling (11), Disease: Diabetes Mellitus (5), Endocrine Regulation (21), Pancreas (13), Parathyroid Glands (3), Secondary Endocrine Organs (7), Thyroid Gland (14) | ✅ |
+| endocrine_system | 88 | Adrenal Glands (15), Cell Signaling (11), Disease: Diabetes Mellitus (5), Endocrine Regulation (21), Pancreas (13), Parathyroid Glands (3), Secondary Endocrine Organs (7), Thyroid Gland (13) | ✅ |
+
+**Removed during playtesting:** questions pulled from the bank after they
+bit in play live in `data/questions/removed_questions.md`, verbatim, with
+their ids — so a rewrite can restore one under the same id. That file is
+committed and is the single list; the M6.e playtest log in
+`milestones/m6.md` records *why* each was pulled. As of 2026-09-07 it holds
+`bio-anat-14-084` (Thyroid Gland — the "unlike the other two, calcitonin"
+prompt), which is why endocrine_system reads 88 above.
 
 **Thin subtopics — come back later** *(accepted as-is 2026-09-01)*: three
 Aging subtopics sit at 2 questions, below the M5 ≥3 baseline, by decision:
