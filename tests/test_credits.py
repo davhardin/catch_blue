@@ -7,9 +7,12 @@ from unittest.mock import Mock, call
 import pygame
 import pytest
 
+from game_setup import DEFAULT_PRESET, PRESETS
+
 from constants import (
     SCREEN_HEIGHT, SCREEN_WIDTH, MENU_BUTTON_LEFT, MENU_BUTTON_WIDTH,
     MENU_BUTTON_HEIGHT, MENU_BUTTON_GAP, MENU_FIRST_BUTTON_TOP, MENU_START_TOP,
+    MENU_THREE_FIRST_BUTTON_TOP,
     MENU_CREDITS_SIDE_MARGIN, MENU_CREDITS_TOP, MENU_CREDITS_HEIGHT,
 )
 from questions import QuestionBank
@@ -28,7 +31,7 @@ def renderer(request):
 @pytest.fixture
 def menus(renderer):
     bank = QuestionBank(Path(__file__).resolve().parents[1] / 'data' / 'questions')
-    game = SimpleNamespace(renderer=renderer)
+    game = SimpleNamespace(settings=PRESETS[DEFAULT_PRESET], topic_selections={}, renderer=renderer)
     return (
         GameSelectState(game, bank),
         SubjectState(game, bank, 'catch_blue'),
@@ -90,8 +93,14 @@ def test_menu_buttons_use_shared_geometry(menus):
     select, subject, topics = menus
     first = pygame.Rect(MENU_BUTTON_LEFT, MENU_FIRST_BUTTON_TOP, MENU_BUTTON_WIDTH, MENU_BUTTON_HEIGHT)
     second = first.move(0, MENU_BUTTON_HEIGHT + MENU_BUTTON_GAP)
-    assert select.catch_blue_button.rect == first
-    assert select.run_from_red_button.rect == second
+    step = MENU_BUTTON_HEIGHT + MENU_BUTTON_GAP
+    # Game Select is a three-button stack (Settings, M7.b) with its own top.
+    select_first = pygame.Rect(
+        MENU_BUTTON_LEFT, MENU_THREE_FIRST_BUTTON_TOP, MENU_BUTTON_WIDTH, MENU_BUTTON_HEIGHT,
+    )
+    assert select.catch_blue_button.rect == select_first
+    assert select.run_from_red_button.rect == select_first.move(0, step)
+    assert select.settings_button.rect == select_first.move(0, 2 * step)
     assert subject.anatomy_button.rect == first
     assert subject.organic_chemistry_button.rect == second
     assert topics.start_button.rect == pygame.Rect(

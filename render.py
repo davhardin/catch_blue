@@ -1,7 +1,7 @@
 """Theme-aware pygame drawing and text layout."""
 
 from contextlib import contextmanager
-from dataclasses import fields
+from dataclasses import fields, replace
 from math import cos, tau
 
 import pygame
@@ -36,16 +36,29 @@ class Renderer:
         self._skin_sheet = None
         if theme.skin is not None:
             self._load_skin(theme.skin)
+        self._font_specs = {
+            role.name: getattr(theme.fonts, role.name)
+            for role in fields(theme.fonts)
+        }
+        self._board_label_roles = {}
+        for board_size, font_size in theme.board_label_sizes:
+            role = f'label.{board_size}'
+            self._font_specs[role] = replace(
+                theme.fonts.label,
+                size=font_size,
+            )
+            self._board_label_roles[board_size] = role
+
         self.fonts = {}
         loaded = {}
-        for role in fields(theme.fonts):
-            spec = getattr(theme.fonts, role.name)
+        for role, spec in self._font_specs.items():
             key = (spec.path, spec.size)
             if key not in loaded:
                 loaded[key] = pygame.font.Font(
-                    str(spec.path) if spec.path is not None else None, spec.size,
+                    str(spec.path) if spec.path is not None else None,
+                    spec.size,
                 )
-            self.fonts[role.name] = loaded[key]
+            self.fonts[role] = loaded[key]
 
     def _load_skin(self, skin):
         if type(skin.scale) is not int or skin.scale <= 0:
@@ -103,6 +116,9 @@ class Renderer:
     def font(self, role):
         return self.fonts[role]
 
+    def label_role(self, board_size: int) -> str:
+        return self._board_label_roles.get(board_size, 'label')
+
     def measure(self, text, font_role):
         return self.font(font_role).size(text)
 
@@ -122,7 +138,7 @@ class Renderer:
         if not sizes:
             return []
         if alignment is None:
-            alignment = getattr(self.theme.fonts, font_role).alignment
+            alignment = self._font_specs[font_role].alignment
         stride = self.line_height(font_role)
         block_height = (len(sizes) - 1) * stride + sizes[-1][1]
         top = rect.centery - block_height // 2 if alignment.vertical == 'center' else rect.top
@@ -233,7 +249,7 @@ class Renderer:
 
     def wrapped_text(self, surface, lines, rect, font_role, color_role=None, alignment=None):
         if color_role is None:
-            color_role = getattr(self.theme.fonts, font_role).color_role
+            color_role = self._font_specs[font_role].color_role
         font = self.font(font_role)
         rendered = [font.render(line, True, self.color(color_role)) for line in lines]
         rects = self._text_rects(
@@ -243,7 +259,7 @@ class Renderer:
             surface.blit(line, line_rect)
 
     def checkbox(self, surface, rect, checked=False):
-        color = self.color(self.theme.fonts.checkbox.color_role)
+        color = self.color(self._font_specs['checkbox'].color_role)
         pygame.draw.rect(surface, color, rect, width=2)
         if checked:
             pygame.draw.rect(surface, color, rect.inflate(-8, -8))

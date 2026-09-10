@@ -16,7 +16,7 @@ import pytest
 from board import Board, Cell
 from board_view import BoardView
 from constants import BOARD_ORIGIN_X, BOARD_ORIGIN_Y, BOARD_REGION, SCREEN_HEIGHT, SCREEN_WIDTH
-from game_setup import GameConfig
+from game_setup import DEFAULT_PRESET, GameConfig, PRESETS
 from questions import QuestionBank
 from render import Renderer
 from states.menus import GameSelectState, TopicsState
@@ -40,7 +40,7 @@ def bank():
 
 
 def make_play(renderer, bank, seed=17):
-    game = SimpleNamespace(renderer=renderer, change_state=lambda s: None)
+    game = SimpleNamespace(settings=PRESETS[DEFAULT_PRESET], topic_selections={}, renderer=renderer, change_state=lambda s: None)
     return PlayState(game, bank, GameConfig('catch_blue', 'anatomy_physiology', ('cells',)),
                      Random(seed), reveal_duration_ms=0)
 
@@ -233,7 +233,7 @@ def test_reveal_presses_the_pick_and_freezes_the_rest(bank):
     pygame.font.init()
     try:
         renderer = Renderer(PIXEL)
-        state = PlayState(SimpleNamespace(renderer=renderer, change_state=lambda s: None), bank,
+        state = PlayState(SimpleNamespace(settings=PRESETS[DEFAULT_PRESET], topic_selections={}, renderer=renderer, change_state=lambda s: None), bank,
                           GameConfig('catch_blue', 'anatomy_physiology', ('cells',)),
                           Random(17), reveal_duration_ms=1300)
         lift = PIXEL.answer_lift
@@ -257,7 +257,7 @@ def test_reveal_presses_the_pick_and_freezes_the_rest(bank):
 
 
 def test_menu_buttons_pop_on_hover_and_inactive_never_lift(renderer, bank):
-    game = SimpleNamespace(renderer=renderer, change_state=lambda s: None)
+    game = SimpleNamespace(settings=PRESETS[DEFAULT_PRESET], topic_selections={}, renderer=renderer, change_state=lambda s: None)
     state = GameSelectState(game, bank)
     lift = renderer.theme.menu_lift
     active, inactive = state.catch_blue_button, state.run_from_red_button
@@ -276,7 +276,7 @@ def test_menu_buttons_pop_on_hover_and_inactive_never_lift(renderer, bank):
 
 
 def test_start_button_drops_when_disabled(renderer, bank):
-    game = SimpleNamespace(renderer=renderer, change_state=lambda s: None, start_play=lambda *a: None)
+    game = SimpleNamespace(settings=PRESETS[DEFAULT_PRESET], topic_selections={}, renderer=renderer, change_state=lambda s: None, start_play=lambda *a: None)
     state = TopicsState(game, bank, 'catch_blue', 'anatomy_physiology')
     state.update(1000)
     assert state.start_button.draw_lift == renderer.theme.menu_lift.rest_px

@@ -9,6 +9,7 @@ import pytest
 
 import constants
 from constants import (
+    BUTTON_PRESS_DOWN_MS, BUTTON_PRESS_HOLD_MS,
     SIDE_PANEL_LEFT, SIDE_PANEL_PADDING, SIDE_PANEL_TOP, SIDE_PANEL_WIDTH,
 )
 from render import Renderer
@@ -89,6 +90,17 @@ def answer_click(state, canonical_index):
     return click(state.answer_buttons[state.answer_order.index(canonical_index)].rect.center)
 
 
+def press_continue(state):
+    """Click Continue on a held (wrong-answer) reveal; it resolves once the
+    press animation (down, then hold) has run."""
+    assert state.reveal is not None and state.reveal.waits_for_click
+    assert state.continue_button is not None
+    state.handle_events([click(state.continue_button.rect.center)])
+    state.update(BUTTON_PRESS_DOWN_MS)
+    state.update(BUTTON_PRESS_HOLD_MS)
+    assert state.reveal is None
+
+
 def snapshot(state):
     return (
         state.player.cell, state.blue.cell, state.moves_remaining,
@@ -132,12 +144,19 @@ def test_distance_loss_uses_resolved_positions_and_preserves_win(
         state.board, player, expected_rng,
     )
     state.handle_events([answer_click(state, 0 if correct else 1)])
-    if duration:
+    if duration and correct:
         assert state.game.state is state
         state.update(state.reveal.duration_ms - 1)
         assert snapshot(state) == before
         assert state.pending is not None
         state.update(1)
+    elif duration:
+        assert state.game.state is state
+        assert state.reveal.waits_for_click
+        state.update(60_000)
+        assert snapshot(state) == before
+        assert state.pending is not None
+        press_continue(state)
     assert_popup_cleared(state)
     assert state.moves_remaining == moves - 1
     assert state.blue.cell == expected_blue
@@ -200,12 +219,18 @@ def test_shuffled_highlights_use_canonical_indices(make_play, monkeypatch, chose
     assert snapshot(state) == before
     assert (state.pending, state.popup_rect, state.prompt_box, state.selected) == popup
     state.draw(pygame.Surface((constants.SCREEN_WIDTH, constants.SCREEN_HEIGHT)))
-    duration = constants.REVEAL_DURATION + (constants.WRONG_REVEAL_EXTRA_MS if chosen else 0)
-    assert state.reveal.duration_ms == duration
-    state.update(duration - 1)
-    assert snapshot(state) == before
-    assert state.reveal.elapsed_ms == duration - 1
-    state.update(1)
+    if chosen == 0:
+        duration = constants.REVEAL_DURATION
+        assert state.reveal.duration_ms == duration
+        state.update(duration - 1)
+        assert snapshot(state) == before
+        assert state.reveal.elapsed_ms == duration - 1
+        state.update(1)
+    else:
+        assert state.reveal.duration_ms is None and state.reveal.waits_for_click
+        state.update(10 * constants.REVEAL_DURATION)
+        assert snapshot(state) == before
+        press_continue(state)
     assert_popup_cleared(state)
 
 
@@ -231,11 +256,14 @@ def test_delayed_consequences_resolve_exactly_once(make_play, intent, correct, o
     assert snapshot(state) == before
     assert state.pending is not None
 
-    if not correct:
-        state.update(constants.WRONG_REVEAL_EXTRA_MS)
+    if correct:
+        state.update(1 + overshoot)
+    else:
+        assert state.reveal.waits_for_click
+        state.update(60_000 + overshoot)
         assert snapshot(state) == before
         assert state.pending is not None
-    state.update(1 + overshoot)
+        press_continue(state)
     assert state.player.cell == (target if correct and intent == "move" else before[0])
     assert state.blue.cell == expected_blue
     assert state.rng.getstate() == expected_rng.getstate()
@@ -263,12 +291,15 @@ def test_last_move_result_waits_for_reveal(make_play, intent, correct, result):
     state.moves_remaining = 1
     open_question(state, intent)
     state.handle_events([answer_click(state, 0 if correct else 1)])
-    assert state.reveal.duration_ms == 50 + (0 if correct else constants.WRONG_REVEAL_EXTRA_MS)
-    state.update(state.reveal.duration_ms - 1)
+    assert state.reveal.duration_ms == (50 if correct else None)
+    state.update(49 if correct else 60_000)
     assert state.game.state is state
     assert state.game.transitions == []
     assert state.moves_remaining == 1
-    state.update(1)
+    if correct:
+        state.update(1)
+    else:
+        press_continue(state)
     assert isinstance(state.game.state, GameOverState)
     assert state.game.state.result == result
     assert state.game.state.play_state is state

@@ -1,3 +1,4 @@
+from collections import Counter
 from dataclasses import dataclass
 from random import Random
 
@@ -7,14 +8,23 @@ from board import Board, Cell, get_distance, is_adjacent
 from board_view import BoardView
 from characters import Blue, Character, Player
 from constants import (
-    BOARD_ORIGIN_X, BOARD_ORIGIN_Y, BOARD_REGION, MOVE_LIMIT, REVEAL_DURATION,
-    WRONG_REVEAL_EXTRA_MS, SIDE_PANEL_LEFT, SIDE_PANEL_TOP,
-    SIDE_PANEL_WIDTH, SIDE_PANEL_PADDING,
+    BOARD_ORIGIN_X, BOARD_ORIGIN_Y, BOARD_REGION, REVEAL_DURATION,
+    SIDE_PANEL_LEFT, SIDE_PANEL_TOP, SIDE_PANEL_WIDTH, SIDE_PANEL_PADDING,
+    HUD_BUTTON_WIDTH, HUD_BUTTON_HEIGHT, HUD_PANEL_GAP,
+    CONTINUE_HORIZONTAL_PADDING,
 )
 from game_setup import GameConfig, assign_cell_topics
 from questions import Question, QuestionBank
+
 from states.game_over import GameOverState
-from ui import Button, TextBox
+from states.pause import PauseState
+from ui import (
+    Button,
+    ButtonAction,
+    TextBox,
+    pointer_position,
+    update_button_lifts,
+)
 
 
 
@@ -76,11 +86,44 @@ def build_question_popup(
     return popup_rect, prompt_box, answer_buttons
 
 
+def build_reveal_continue(popup_rect, renderer):
+    text = "Continue"
+    text_bounds = renderer.text_rects(
+        [text],
+        pygame.Rect(0, 0, 1, 1),
+        "button",
+    )[0]
+    horizontal_padding = max(
+        renderer.theme.layout.button_padding,
+        CONTINUE_HORIZONTAL_PADDING,
+    )
+    width = max(
+        HUD_BUTTON_WIDTH,
+        text_bounds.width + 2 * horizontal_padding,
+    )
+
+    return Button(
+        pygame.Rect(
+            popup_rect.right - width,
+            popup_rect.bottom + HUD_PANEL_GAP,
+            width,
+            HUD_BUTTON_HEIGHT,
+        ),
+        text,
+        renderer,
+        lift=renderer.theme.menu_lift,
+    )
+
+
 @dataclass
 class AnswerReveal:
     canonical_index: int
-    duration_ms: int
+    duration_ms: int | None
     elapsed_ms: int = 0
+
+    @property
+    def waits_for_click(self) -> bool:
+        return self.duration_ms is None
 
 
 class PlayState:
@@ -101,20 +144,22 @@ class PlayState:
         self.config = config
         self.rng = rng
         self.reveal_duration_ms = reveal_duration_ms
+        settings = config.settings
         self.renderer = game.renderer
-        self.moves_remaining = MOVE_LIMIT
 
-        self.board = Board(5, 5)
-        topic_subtopics = [
+        self.moves_remaining = settings.move_limit
+        self.board = Board(settings.board_size, settings.board_size)
+        self.topic_subtopics = tuple(
             (topic, subtopic)
             for topic in self.config.selected_topics
             for subtopic in self.bank.subtopics(topic)
-        ]
+        )
         self.cell_topics = assign_cell_topics(
             self.board.cells(),
-            topic_subtopics,
+            self.topic_subtopics,
             self.rng,
         )
+        self._refresh_exhausted_cell_topics()
 
         self.view = BoardView(
             self.board,
@@ -134,12 +179,70 @@ class PlayState:
         self.answer_order: list[int] = []
         self.hovered_answer: int | None = None
         self.popup_rect: pygame.Rect | None = None
+        self.pointer_pos: tuple[int, int] | None = None
+        self.continue_button: Button | None = None
+        self.button_action = ButtonAction()
+
+        self.pause_button = Button(
+            pygame.Rect(
+                SIDE_PANEL_LEFT + SIDE_PANEL_WIDTH - HUD_BUTTON_WIDTH,
+                0,
+                HUD_BUTTON_WIDTH,
+                HUD_BUTTON_HEIGHT,
+            ),
+            "Pause",
+            self.renderer,
+            lift=self.renderer.theme.menu_lift,
+        )
+        self.pause_button.rect.bottom = SIDE_PANEL_TOP - HUD_PANEL_GAP
 
 
         self.player = Player.at_start(self.board)
         self.blue = Blue.at_start(self.board)
         self.entities: list[Character] = [self.player, self.blue]
         self.moves = self.player.legal_moves(self.board, {self.blue.cell})
+
+    def _refresh_exhausted_cell_topics(self):
+        available = self.bank.available_pools(self.topic_subtopics)
+        available_set = set(available)
+
+        exhausted_cells = [
+            cell
+            for cell, pair in sorted(self.cell_topics.items())
+            if pair not in available_set
+        ]
+        if not exhausted_cells:
+            return
+
+        if not available:
+            self.bank.restart_pools(self.topic_subtopics)
+            if not self.bank.available_pools(self.topic_subtopics):
+                raise ValueError(
+                    "Selected topics contain no question pools"
+                )
+
+            # Every current assignment is fresh again; preserve the board.
+            return
+
+        counts = Counter(self.cell_topics.values())
+
+        for cell in exhausted_cells:
+            minimum_count = min(counts[pair] for pair in available)
+            replacements = [
+                pair
+                for pair in available
+                if counts[pair] == minimum_count
+            ]
+            replacement = (
+                replacements[0]
+                if len(replacements) == 1
+                else self.rng.choice(replacements)
+            )
+
+            current = self.cell_topics[cell]
+            counts[current] -= 1
+            self.cell_topics[cell] = replacement
+            counts[replacement] += 1
 
     def _begin_reveal(self, canonical_index: int):
         assert self.pending is not None
@@ -148,9 +251,16 @@ class PlayState:
         question, _, _ = self.pending
         duration_ms = self.reveal_duration_ms
         if duration_ms > 0 and not question.is_correct(canonical_index):
-            duration_ms += WRONG_REVEAL_EXTRA_MS
+            duration_ms = None
         self.reveal = AnswerReveal(canonical_index, duration_ms=duration_ms)
         self.hovered_answer = None
+
+        if self.reveal.waits_for_click:
+            assert self.popup_rect is not None
+            self.continue_button = build_reveal_continue(
+                self.popup_rect,
+                self.renderer,
+            )
 
         for display_index, button in enumerate(self.answer_buttons):
             answer_index = self.answer_order[display_index]
@@ -168,6 +278,11 @@ class PlayState:
             self._resolve_pending_answer()
 
     def update(self, dt_ms: int):
+        controls = [self.pause_button]
+        if self.continue_button is not None:
+            controls.append(self.continue_button)
+        update_button_lifts(controls, dt_ms, self.pointer_pos)
+
         self.view.update(
             dt_ms,
             hovered=self.hovering,
@@ -181,8 +296,14 @@ class PlayState:
                 button.update_lift(dt_ms, hovered=index == self.hovered_answer)
             return
 
-        self.reveal.elapsed_ms += dt_ms
-        if self.reveal.elapsed_ms < self.reveal.duration_ms:
+        self.reveal.elapsed_ms += max(0, dt_ms)
+        if self.reveal.waits_for_click:
+            self.button_action.update(dt_ms)
+            return
+
+        duration_ms = self.reveal.duration_ms
+        assert duration_ms is not None
+        if self.reveal.elapsed_ms < duration_ms:
             return
 
         self._resolve_pending_answer()
@@ -215,6 +336,7 @@ class PlayState:
         self.reveal = None
         self.selected = None
         self.popup_rect = None
+        self.continue_button = None
 
         self.prompt_box = None
         self.answer_buttons = []
@@ -238,26 +360,74 @@ class PlayState:
                     self,
                 )
             )
+            return
+
+        self._refresh_exhausted_cell_topics()
 
     def handle_events(self, events):
         if self._discard_events_after_reveal:
             self._discard_events_after_reveal = False
             return
 
-        if self.reveal is not None:
+        if self.button_action.blocks_events():
+            for event in events:
+                self.pointer_pos = pointer_position(self.pointer_pos, event)
             return
 
-        self.moves = self.player.legal_moves(self.board, {self.blue.cell})
+        self.moves = self.player.legal_moves(
+            self.board, {self.blue.cell}
+        )
 
         for event in events:
+            self.pointer_pos = pointer_position(
+                self.pointer_pos, event
+            )
+
+            if event.type == pygame.WINDOWLEAVE:
+                self.hovering = None
+                self.hovered_answer = None
+                continue
+
+            left_click = (
+                event.type == pygame.MOUSEBUTTONDOWN
+                and event.button == 1
+            )
+            pause_requested = (
+                event.type == pygame.KEYDOWN
+                and event.key == pygame.K_ESCAPE
+            ) or (
+                left_click
+                and self.pause_button.is_clicked(event.pos)
+            )
+            if pause_requested:
+                self.game.change_state(PauseState(self))
+                return
+
+            if self.reveal is not None:
+                if (
+                    self.reveal.waits_for_click
+                    and left_click
+                    and self.continue_button is not None
+                    and self.continue_button.is_clicked(event.pos)
+                ):
+                    self.button_action.begin(
+                        self.continue_button,
+                        self._resolve_pending_answer,
+                    )
+                    return
+                continue
+
             if self.pending is not None:
                 if event.type == pygame.MOUSEMOTION:
                     self.hovered_answer = next(
-                        (index for index, button in enumerate(self.answer_buttons)
-                         if button.is_clicked(event.pos)),
+                        (
+                            index
+                            for index, button in enumerate(self.answer_buttons)
+                            if button.is_clicked(event.pos)
+                        ),
                         None,
                     )
-                elif event.type == pygame.MOUSEBUTTONDOWN and event.button == 1:
+                elif left_click:
                     for display_index, button in enumerate(self.answer_buttons):
                         if not button.is_clicked(event.pos):
                             continue
@@ -265,55 +435,64 @@ class PlayState:
                         canonical_index = self.answer_order[display_index]
                         self._begin_reveal(canonical_index)
                         return
+                continue
 
-            # Board mode: board clicks and hover are active.
-            else:
-                if event.type == pygame.MOUSEBUTTONDOWN and event.button == 1:
-                    cell = self.view.pixel_to_cell(*event.pos)
+            if event.type == pygame.MOUSEMOTION:
+                self.hovering = self.view.pixel_to_cell(*event.pos)
+                continue
 
-                    target = None
-                    intent = None
+            if not left_click:
+                continue
 
-                    # Check catch before legal movement because Blue's occupied
-                    # square is intentionally excluded from moves.
-                    if (
-                        cell == self.blue.cell
-                        and is_adjacent(self.player.cell, self.blue.cell)
-                    ):
-                        target = cell
-                        intent = "catch"
+            cell = self.view.pixel_to_cell(*event.pos)
+            target = None
+            intent = None
 
-                    elif cell in self.moves:
-                        target = cell
-                        intent = "move"
+            # Blue's occupied square is excluded from ordinary legal moves.
+            if (
+                cell == self.blue.cell
+                and is_adjacent(self.player.cell, self.blue.cell)
+            ):
+                target = cell
+                intent = "catch"
+            elif cell in self.moves:
+                target = cell
+                intent = "move"
 
-                    if target is not None and intent is not None:
-                        topic, subtopic = self.cell_topics[target]
-                        question = self.bank.next_question(topic, subtopic, self.rng)
+            if target is None or intent is None:
+                continue
 
-                        self.pending = (question, target, intent)
-                        self.selected = target
-                        self.hovering = None
-                        self.hovered_answer = None
-                        self.answer_order = question.display_order(self.rng)
+            self._refresh_exhausted_cell_topics()
+            topic, subtopic = self.cell_topics[target]
+            question = self.bank.next_unused_question(
+                topic, subtopic, self.rng
+            )
+            if question is None:
+                raise RuntimeError(
+                    f"No unused question after refreshing cell {target}: "
+                    f"{topic}/{subtopic}"
+                )
 
-                        (
-                            self.popup_rect,
-                            self.prompt_box,
-                            self.answer_buttons,
+            self.pending = (question, target, intent)
+            self.selected = target
+            self.hovering = None
+            self.hovered_answer = None
+            self.answer_order = question.display_order(self.rng)
 
-                        ) = build_question_popup(
-                            question,
-                            self.renderer,
-                            self.answer_order,
-                        )
+            (
+                self.popup_rect,
+                self.prompt_box,
+                self.answer_buttons,
+            ) = build_question_popup(
+                question,
+                self.renderer,
+                self.answer_order,
+            )
 
-                elif event.type == pygame.MOUSEMOTION:
-                    self.hovering = self.view.pixel_to_cell(*event.pos)
+            # Later events in this batch must not answer a newly opened question.
+            return
 
-        self.moves = self.player.legal_moves(self.board, {self.blue.cell})
-
-    def draw(self, screen: pygame.Surface):
+    def draw(self, screen: pygame.Surface, *, show_pause=True):
         self.renderer.fill(screen)
         self.view.draw(
             screen,
@@ -336,6 +515,9 @@ class PlayState:
             'counter',
         )
 
+        if show_pause:
+            self.pause_button.draw(screen)
+
         if self.pending is not None:
             assert self.popup_rect is not None
             assert self.prompt_box is not None
@@ -348,3 +530,6 @@ class PlayState:
             elapsed_ms = self.reveal.elapsed_ms if self.reveal is not None else 0
             for button in self.answer_buttons:
                 button.draw(screen, reveal_elapsed_ms=elapsed_ms)
+
+            if self.continue_button is not None:
+                self.continue_button.draw(screen)

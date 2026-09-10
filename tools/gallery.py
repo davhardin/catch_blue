@@ -31,6 +31,7 @@ sys.path.insert(0, str(ROOT))
 import pygame  # noqa: E402
 
 from board import Cell, get_distance, is_adjacent  # noqa: E402
+from constants import BUTTON_PRESS_DOWN_MS, BUTTON_PRESS_HOLD_MS  # noqa: E402
 from game import Game  # noqa: E402
 from theme import FLAT, THEMES  # noqa: E402
 from game_setup import GameConfig  # noqa: E402
@@ -53,6 +54,22 @@ def frame(game, events=(), dt=16):
     if game.state is state:
         state.handle_events(list(events))
     game.state.draw(game.screen)
+
+
+def press(game, pos):
+    """Click a button; its action lands after the press animation (down, then hold)."""
+    frame(game, [click(pos)])
+    frame(game, dt=BUTTON_PRESS_DOWN_MS)
+    frame(game, dt=BUTTON_PRESS_HOLD_MS)
+    frame(game)  # the batch after a press is discarded; draw the settled screen
+
+
+def finish_reveal(game, state):
+    """Resolve the current reveal: tick a timed one, press Continue on a held one."""
+    if state.reveal is not None and state.reveal.waits_for_click:
+        press(game, state.continue_button.rect.center)
+    elif state.reveal is not None:
+        frame(game, dt=state.reveal.duration_ms)
 
 
 def settle(game, ms=400):
@@ -86,11 +103,11 @@ def render_gallery(out_dir: Path, theme=FLAT):
     saved.append(capture(game, out_dir, "01_game_select"))
 
     # 2. Subject
-    frame(game, [click(game.state.catch_blue_button.rect.center)])
+    press(game, game.state.catch_blue_button.rect.center)
     saved.append(capture(game, out_dir, "02_subject"))
 
     # 3. Topics (as it opens, all checked)
-    frame(game, [click(game.state.anatomy_button.rect.center)])
+    press(game, game.state.anatomy_button.rect.center)
     saved.append(capture(game, out_dir, "03_topics"))
 
     # 4. Play — board, straight into a fixed config for determinism
@@ -117,7 +134,7 @@ def render_gallery(out_dir: Path, theme=FLAT):
     frame(game, [answer_event(state, False)])
     assert state.reveal is not None
     saved.append(capture(game, out_dir, "07_play_reveal_wrong"))
-    frame(game, dt=state.reveal.duration_ms)  # resolve: Blue flees
+    finish_reveal(game, state)  # M7.d: a wrong answer waits for Continue; Blue flees after
 
     # 8. Play — reveal after a correct answer
     target = min(state.moves, key=lambda c: get_distance(c, state.blue.cell))
@@ -137,9 +154,9 @@ def render_gallery(out_dir: Path, theme=FLAT):
             target = min(st.moves, key=lambda c: get_distance(c, st.blue.cell))
         frame(game, [click(st.view.cell_to_rect(target).center)])
         frame(game, [answer_event(st, True)])
-        frame(game, dt=st.reveal.duration_ms)
+        finish_reveal(game, st)
     assert isinstance(game.state, GameOverState) and game.state.result == "win"
-    frame(game)
+    settle(game)  # end-screen buttons rest at their M6.f.8 lift
     saved.append(capture(game, out_dir, "09_game_over_win"))
 
     # 10. Game Over — lose (fresh game, burn the counter on wrong answers)
@@ -150,10 +167,27 @@ def render_gallery(out_dir: Path, theme=FLAT):
     target = next(iter(sorted(state.moves)))
     frame(game, [click(state.view.cell_to_rect(target).center)])
     frame(game, [answer_event(state, False)])
-    frame(game, dt=state.reveal.duration_ms)
+    finish_reveal(game, state)
     assert isinstance(game.state, GameOverState) and game.state.result == "lose"
-    frame(game)
+    settle(game)  # end-screen buttons rest at their M6.f.8 lift
     saved.append(capture(game, out_dir, "10_game_over_lose"))
+
+    # 11. Settings (M7.b) — from Game Select
+    game.show_main_menu(bank)
+    frame(game)
+    press(game, game.state.settings_button.rect.center)
+    settle(game)
+    saved.append(capture(game, out_dir, "11_settings"))
+
+    # 12. Pause (M7.c) — over a fresh board with the popup open
+    game.start_play(bank, GameConfig("catch_blue", "anatomy_physiology", TOPICS))
+    state = game.state
+    frame(game)
+    target = next(iter(sorted(state.moves)))
+    frame(game, [click(state.view.cell_to_rect(target).center)])
+    press(game, state.pause_button.rect.center)
+    settle(game)
+    saved.append(capture(game, out_dir, "12_pause"))
 
     pygame.quit()
     return saved

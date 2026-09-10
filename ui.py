@@ -1,5 +1,8 @@
+from collections.abc import Callable
+
 import pygame
 
+from constants import BUTTON_PRESS_DOWN_MS, BUTTON_PRESS_HOLD_MS
 from theme import Alignment, CellLift
 
 
@@ -25,13 +28,14 @@ class TextBox:
 class Button:
     def __init__(
         self, rect, text, renderer, font_role='button', *,
-        active=True, lift: CellLift | None = None,
+        active=True, selected=False, lift: CellLift | None = None,
     ):
         self.rect = rect
         self.text = text
         self.renderer = renderer
         self.font_role = font_role
         self.active = active
+        self.selected = selected
         self.highlight: str | None = None
         layout = renderer.theme.layout
         self.padding = layout.choice_padding if font_role == 'choice' else layout.button_padding
@@ -42,6 +46,9 @@ class Button:
         self.height = renderer.line_height(font_role) * len(self.lines)
         self.rect.height = max(self.height + 2 * self.padding, rect.height)
         self._lift = 0.0
+        self._press_start: float | None = None
+        self._press_elapsed_ms = 0
+        self._press_hold_elapsed_ms = 0
         if lift is not None:
             self.lift_settings = lift
         elif font_role == 'choice':
@@ -50,8 +57,10 @@ class Button:
             self.lift_settings = CellLift()
 
     def update_lift(self, dt_ms: int, *, hovered: bool):
+        if self._press_start is not None:
+            return
         settings = self.lift_settings
-        if not self.active or self.highlight is not None:
+        if not self.active or self.highlight is not None or self.selected:
             self.reset_lift()
             return
         if settings.rest_px == 0 and settings.hover_px == 0:
@@ -70,6 +79,26 @@ class Button:
         elif self._lift > target:
             self._lift = max(target, self._lift - step)
 
+    def start_press(self):
+        self._press_start = self._lift
+        self._press_elapsed_ms = 0
+        self._press_hold_elapsed_ms = 0
+
+    def update_press(self, dt_ms: int) -> bool:
+        if self._press_start is None:
+            return False
+        dt_ms = max(0, dt_ms)
+        if self._press_elapsed_ms < BUTTON_PRESS_DOWN_MS:
+            self._press_elapsed_ms = min(BUTTON_PRESS_DOWN_MS, self._press_elapsed_ms + dt_ms)
+            progress = self._press_elapsed_ms / BUTTON_PRESS_DOWN_MS
+            self._lift = self._press_start * (1 - progress)
+            return False
+        self._press_hold_elapsed_ms += dt_ms
+        if self._press_hold_elapsed_ms < BUTTON_PRESS_HOLD_MS:
+            return False
+        self._press_start = None
+        return True
+
     def reset_lift(self):
         self._lift = 0.0
 
@@ -87,7 +116,7 @@ class Button:
 
     def draw(self, surface, *, reveal_elapsed_ms=0):
         style = 'normal' if self.active else 'inactive'
-        if self.highlight == 'correct':
+        if self.highlight == 'correct' or (self.active and self.selected):
             style = 'correct'
         color_role = None if self.active else 'text_inactive'
         lift = self.draw_lift
@@ -108,6 +137,107 @@ class Button:
 
     def is_clicked(self, pos):
         return self.active and self.rect.collidepoint(pos)
+
+
+class ButtonAction:
+    def __init__(self):
+        self.button: Button | None = None
+        self.callback: Callable[[], None] | None = None
+        self._discard_events = False
+
+    def begin(self, button: Button, callback: Callable[[], None]):
+        if self.button is not None or not button.active:
+            return
+        self.button = button
+        self.callback = callback
+        button.start_press()
+
+    def update(self, dt_ms: int):
+        if self.button is None:
+            return
+        if not self.button.update_press(dt_ms):
+            return
+        callback = self.callback
+        assert callback is not None
+        self.button = None
+        self.callback = None
+        self._discard_events = True
+        callback()
+
+    def blocks_events(self) -> bool:
+        if self._discard_events:
+            self._discard_events = False
+            return True
+        return self.button is not None
+
+
+def pointer_position(current, event):
+    if event.type == pygame.WINDOWLEAVE:
+        return None
+    if event.type in (pygame.MOUSEMOTION, pygame.MOUSEBUTTONDOWN):
+        return event.pos
+    return current
+
+
+def update_button_lifts(buttons, dt_ms, pointer_pos):
+    for button in buttons:
+        hovered = pointer_pos is not None and button.is_clicked(pointer_pos)
+        button.update_lift(dt_ms, hovered=hovered)
+
+
+class OptionRow:
+    def __init__(self, rect, options, renderer, *, selected, gap=16, read_only=()):
+        self.options = tuple(options)
+        if not self.options:
+            raise ValueError('OptionRow requires at least one option')
+        values = [value for value, _ in self.options]
+        if len(set(values)) != len(values):
+            raise ValueError('OptionRow option values must be unique')
+        count = len(self.options)
+        available = rect.width - gap * (count - 1)
+        if gap < 0 or available < count:
+            raise ValueError('OptionRow requires a nonnegative gap and positive option widths')
+
+        self.rect = rect.copy()
+        self.read_only = frozenset(read_only)
+        self.buttons = {}
+        for index, (value, label) in enumerate(self.options):
+            button_rect = self.rect.copy()
+            button_rect.left = rect.left + available * index // count + gap * index
+            button_rect.width = available * (index + 1) // count - available * index // count
+            self.buttons[value] = Button(
+                button_rect, label, renderer, lift=renderer.theme.menu_lift,
+            )
+        self.rect.height = max(button.rect.height for button in self.buttons.values())
+        for button in self.buttons.values():
+            button.rect.height = self.rect.height
+        self.set_selected(selected)
+
+    def set_selected(self, value):
+        if value not in self.buttons:
+            raise ValueError(f'Unknown OptionRow value: {value!r}')
+        self.selected = value
+        for option, button in self.buttons.items():
+            button.selected = option == value
+            if button.selected:
+                button.reset_lift()
+
+    def choice_at(self, pos):
+        for value, button in self.buttons.items():
+            if value not in self.read_only and button.is_clicked(pos):
+                return value
+        return None
+
+    def update(self, dt_ms, pointer_pos):
+        for value, button in self.buttons.items():
+            if value in self.read_only:
+                button.reset_lift()
+            else:
+                update_button_lifts((button,), dt_ms, pointer_pos)
+
+    def draw(self, surface):
+        for button in self.buttons.values():
+            button.draw(surface)
 
 
 class Checkbox:

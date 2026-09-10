@@ -120,6 +120,8 @@ class Theme:
     cell_lift: CellLift = field(default_factory=CellLift)
     answer_lift: CellLift = field(default_factory=CellLift)
     menu_lift: CellLift = field(default_factory=CellLift)
+    board_label_sizes: tuple[tuple[int, int], ...] = ()
+
 
 
 FLAT = Theme(
@@ -158,6 +160,7 @@ FLAT = Theme(
         checkbox=FontSpec(None, 30),
         result=FontSpec(None, 40),
     ),
+    board_label_sizes=((7, 14), (9, 12)),
 )
 
 _NEXT = ASSET_ROOT / 'Atkinson_Hyperlegible_Next' / 'static' / 'AtkinsonHyperlegibleNext-Regular.ttf'
@@ -216,6 +219,7 @@ PIXEL = Theme(
     cell_lift=CellLift(rest_px=2, hover_px=6, pop_ms=120),
     answer_lift=CellLift(rest_px=2, hover_px=6, pop_ms=120),
     menu_lift=CellLift(rest_px=2, hover_px=6, pop_ms=120),
+    board_label_sizes=((7, 14), (9, 12)),
 )
 
 THEMES = {'flat': FLAT, 'pixel': PIXEL}

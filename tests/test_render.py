@@ -1,7 +1,7 @@
 """Flat primitives, role-based layout, and the renderer boundary."""
 
 import ast
-from dataclasses import replace
+from dataclasses import fields, replace
 from pathlib import Path
 
 import pygame
@@ -48,7 +48,11 @@ def test_font_reuse_and_wrapping(renderer):
     assert renderer.font('choice') is renderer.font('prompt')
     assert renderer.font('button') is renderer.font('counter')
     assert renderer.font('result') is not renderer.font('title')
-    assert len({id(font) for font in renderer.fonts.values()}) == 7
+    theme = renderer.theme
+    specs = {(getattr(theme.fonts, f.name).path, getattr(theme.fonts, f.name).size)
+             for f in fields(theme.fonts)}
+    specs |= {(theme.fonts.label.path, size) for _, size in theme.board_label_sizes}
+    assert len({id(font) for font in renderer.fonts.values()}) == len(specs) == 9
     for role in renderer.fonts:
         assert renderer.measure('Text', role) == renderer.font(role).size('Text')
         assert renderer.line_height(role) == renderer.font(role).get_linesize()

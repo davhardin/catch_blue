@@ -7,8 +7,8 @@ from types import SimpleNamespace
 import pygame
 import pytest
 
-from constants import SCREEN_HEIGHT, SCREEN_WIDTH
-from game_setup import GameConfig
+from constants import BUTTON_PRESS_DOWN_MS, BUTTON_PRESS_HOLD_MS, SCREEN_HEIGHT, SCREEN_WIDTH
+from game_setup import DEFAULT_PRESET, GameConfig, PRESETS
 from questions import QuestionBank
 from render import Renderer
 from states.play import PlayState, build_question_popup
@@ -135,7 +135,7 @@ def test_all_question_feedback_outlines_fit(renderer):
 def test_outcome_timing_input_guard_and_draw_clock(renderer, correct, duration, monkeypatch):
     bank = QuestionBank(Path(__file__).resolve().parents[1] / 'data' / 'questions')
     state = PlayState(
-        SimpleNamespace(renderer=renderer), bank,
+        SimpleNamespace(settings=PRESETS[DEFAULT_PRESET], topic_selections={}, renderer=renderer), bank,
         GameConfig('catch_blue', 'anatomy_physiology', ('cells',)), Random(17),
         reveal_duration_ms=duration,
     )
@@ -162,7 +162,8 @@ def test_outcome_timing_input_guard_and_draw_clock(renderer, correct, duration, 
         assert state.moves_remaining == before[2] - 1
         return
 
-    assert state.reveal.duration_ms == (1300 if correct else 2300)
+    assert state.reveal.duration_ms == (1300 if correct else None)
+    assert state.reveal.waits_for_click == (not correct)
     calls = []
     original = renderer.answer_feedback
     def record(surface, rect, outcome, elapsed):
@@ -176,13 +177,27 @@ def test_outcome_timing_input_guard_and_draw_clock(renderer, correct, duration, 
     assert all(elapsed == 500 for _, elapsed in calls)
     assert all(pixels(screen.subsurface(rect)) == value for rect, value in distractors)
     state.handle_events([click(chosen_button.rect.center)])
-    state.update(state.reveal.duration_ms - 501)
-    assert (state.player.cell, state.blue.cell, state.moves_remaining, state.rng.getstate()) == before
-    state.update(1)
+    if correct:
+        state.update(state.reveal.duration_ms - 501)
+        assert (state.player.cell, state.blue.cell, state.moves_remaining, state.rng.getstate()) == before
+        state.update(1)
+    else:
+        state.update(60_000)  # a held reveal never expires on its own
+        assert (state.player.cell, state.blue.cell, state.moves_remaining, state.rng.getstate()) == before
+        assert state.pending is not None
+        state.handle_events([click(state.continue_button.rect.center)])
+        state.update(BUTTON_PRESS_DOWN_MS)
+        state.update(BUTTON_PRESS_HOLD_MS)
     assert state.reveal is None and state.pending is None
     assert state.moves_remaining == before[2] - 1
     next_click = click(state.view.cell_to_rect(sorted(state.moves)[0]).center)
-    state.handle_events([next_click])
-    assert state.pending is None
+    if correct:
+        # Timed expiry discards exactly one batch (M6.c rule).
+        state.handle_events([next_click])
+        assert state.pending is None
+    else:
+        # Click-to-continue: the rest of the Continue batch is dropped, and
+        # so is the batch after the press lands.
+        state.handle_events([])
     state.handle_events([next_click])
     assert state.pending is not None

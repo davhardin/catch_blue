@@ -1,23 +1,25 @@
 # Question Bank Tracker
 
-Last updated: 2026-09-07 (Anson Vol. 1 import COMPLETE — endocrine vetted and
-imported; the bank contains zero placeholder questions; playtest removals
-began, see below).
+Last updated: 2026-09-09 (Anson Vol. 2 import IN PROGRESS — blood, heart,
+blood_vessels, and lymphatic_and_immune_system vetted and imported, 656
+questions; respiratory_system onward still awaiting David's vetting pass.
+Vol. 1 import complete since 2026-09-01; zero placeholder questions).
 
 What this file tracks: which subtopics exist per topic, which sources have
 been reviewed for which topics, and which sources are still untouched — so
 nothing falls through the cracks between machines. This file lives at the
 repo root **on purpose**: `question_sources/` is gitignored, so the audit and
 vetting files there (`question_recommendations.md`, `Anson Vol.1 Final
-Questions.md`, `Anson Vol.1 - unreviewed.md`) do **not** sync via git — this
-tracker does.
+Questions.md`, `Anson Vol.1 - unreviewed.md`, and the Vol. 2 set:
+`question_recommendations_part2.md`, `Anson Vol.2 Final Questions.md`,
+`anson_import2.py`) do **not** sync via git — this tracker does.
 
 ## Sources
 
 | Source | License | Status |
 |---|---|---|
 | Anson *3600+ Review Questions*, Vol. 1 (5th ed.) | CC BY-SA 3.0 | **Import complete.** All 1,870 questions audited (2026-08-31) → David vetted all 14 topics → 1,595 imported 2026-09-01. Remaining: the 177-question edit pile in `Anson Vol.1 - unreviewed.md` (David's rewrites). |
-| Anson *3600+ Review Questions*, Vol. 2 | CC BY-SA 3.0 | On disk (`question_sources/`), **not audited**. Covers the A&P II sequence — relevant when topics expand past `endocrine_system`. |
+| Anson *3600+ Review Questions*, Vol. 2 (3rd ed.) | CC BY-SA 3.0 | **Import in progress.** All 1,884 questions audited (2026-09-08) → `question_recommendations_part2.md` (1,594 REC / 273 EDIT / 17 NO). David has vetted 4 of 11 topics (blood → lymphatic_and_immune_system) in `Anson Vol.2 Final Questions.md` → 656 imported 2026-09-09 via `anson_import2.py`. **Still to vet:** respiratory_system, digestive_system, metabolism, urinary_system, fluids_and_acid-bases, reproductive_system, development_and_inheritance (the audit is done for all of them). Edit pile for the 4 imported topics: 89 entries (see loose ends). |
 | OpenStax *A&P 2e* review questions (ch. 1–4+) | CC BY-NC-SA 4.0 | **Not started.** Maps section-for-section onto existing subtopics. Educator account (free instructor test bank) not yet applied for. |
 | OpenStax *A&P 2e* critical-thinking questions | CC BY-NC-SA 4.0 | **Not started.** Raw material for the difficulty-3 tier; needs MCQ-ification. |
 | OER Commons question banks (OpenStax-aligned) | varies per item | **Not started.** Needs a free account; check each item's license. |
@@ -26,11 +28,19 @@ tracker does.
 
 ## Topic status
 
-Subtopic layout = the post-vetting plan from `Anson Vol.1 Final Questions.md`.
+Subtopic layout = the post-vetting plan from `Anson Vol.1 Final Questions.md`
+(topics 01–14) and `Anson Vol.2 Final Questions.md` (topics 15+).
 "Anson vetted" = David's manual pass over the audit recommendations.
 All imported questions are `difficulty: 1` for now — no difficulty grading yet.
-Two questions carry `"shuffle": false` (two-choice items): `bio-anat-06-229`
-and `bio-anat-14-067`.
+Seven questions carry `"shuffle": false` (two-choice items): `bio-anat-06-229`,
+`bio-anat-14-067`, and from Vol. 2 `bio-anat-16-003`, `-004`, `-005`, `-010`,
+`-068` (heart — systole/diastole pairs and one "overlap is greater/less").
+
+Id prefixes continue the Vol. 1 numbering in topic-plan order: 15 blood,
+16 heart, 17 blood_vessels, 18 lymphatic_and_immune_system. The next Vol. 2
+topics should take 19 respiratory_system, 20 digestive_system, 21 metabolism,
+22 urinary_system, 23 fluids_and_acid-bases, 24 reproductive_system,
+25 development_and_inheritance.
 
 | Topic | Qs | Subtopics (imported count) | Anson vetted |
 |---|---|---|---|
@@ -48,6 +58,20 @@ and `bio-anat-14-067`.
 | autonomic_nervous_system | 53 | Aging: ANS (2), Autonomic Nervous System (18), Divisions of the Autonomic Nervous System (33) | ✅ |
 | special_senses | 131 | Equilibrium and Hearing (45), Eye Structures (31), Gustation and Olfaction (14), Visual System (41) | ✅ |
 | endocrine_system | 88 | Adrenal Glands (15), Cell Signaling (11), Disease: Diabetes Mellitus (5), Endocrine Regulation (21), Pancreas (13), Parathyroid Glands (3), Secondary Endocrine Organs (7), Thyroid Gland (13) | ✅ |
+| blood | 106 | Blood Composition (23), Blood Types (4), Hemostasis (32), Red Blood Cells (24), White Blood Cells (23) | ✅ Vol. 2 |
+| heart | 172 | Cardiac Cycle (20), Cardiac Electrophysiology (37), Cardiac Output (42), Heart Anatomy (73) | ✅ Vol. 2 |
+| blood_vessels | 208 | Aging: Cardiovascular System (1), Arteries and Veins (53), Blood Pressure & Resistance (42), Fetal Cardiovascular System (6), Pulmonary & Systemic Circuits (67), Regulating Blood Flow (39) | ✅ Vol. 2 |
+| lymphatic_and_immune_system | 170 | Adaptive Immunity (75), Aging: Immune System (2), Immune Disorders (8), Innate Immunity (21), Innate vs Adaptive Immunity (2), Lymphatic System Anatomy (62) | ✅ Vol. 2 |
+| respiratory_system | 0 | *(plan: 8 subtopics)* | ⏳ audited, not vetted |
+| digestive_system | 0 | *(plan: 9 subtopics)* | ⏳ audited, not vetted |
+| metabolism | 0 | *(plan: 7 subtopics)* | ⏳ audited, not vetted |
+| urinary_system | 0 | *(plan: 5 subtopics)* | ⏳ audited, not vetted |
+| fluids_and_acid-bases | 0 | *(plan: 6 subtopics)* | ⏳ audited, not vetted |
+| reproductive_system | 0 | *(plan: 6 subtopics)* | ⏳ audited, not vetted |
+| development_and_inheritance | 0 | *(plan: 6 subtopics)* | ⏳ audited, not vetted |
+
+**Bank total as of 2026-09-09: 2,231 questions** (1,575 Vol. 1 after
+removals + 656 Vol. 2).
 
 **Removed during playtesting:** questions pulled from the bank after they
 bit in play live in `data/questions/removed_questions.md`, verbatim, with
@@ -62,7 +86,11 @@ Aging subtopics sit at 2 questions, below the M5 ≥3 baseline, by decision:
 `Aging: Tissues` (6 rewrite candidates waiting in the edit pile),
 `Aging: Integumentary System` (1 candidate in the pile), and `Aging: ANS`
 (Anson is exhausted — needs an original question or a merge). Top them up
-when working the edit pile or importing the next source.
+when working the edit pile or importing the next source. Vol. 2 adds three
+more thin ones *(accepted 2026-09-09, same reasoning)*: `Aging:
+Cardiovascular System` (1 — Blood Vessels #160 is the only item the audit
+filed there), `Aging: Immune System` (2), and `Innate vs Adaptive Immunity`
+(2).
 
 ## Scaffold subtopics removed in the rewrite
 
@@ -81,6 +109,12 @@ Dropped (no home in the new plan — re-add if a future source fills them):
   Physiology, General Adaptation Syndrome (all placeholder-only); Homeostasis:
   Endocrine Regulation + Hypothalamus + Pituitary Gland merged into
   "Endocrine Regulation"
+- **Vol. 2 (2026-09-09):** blood: Platelets *(dissolved by David — #77/#78 →
+  Hemostasis, #79–81 → Blood Composition)*; blood_vessels: Congenital Heart
+  Problems *(merged into Fetal Cardiovascular System)*, Cardiovascular
+  Response to Exercise *(no directive, no questions)*;
+  lymphatic_and_immune_system: Regulation of Immunity *(no directive, no
+  questions — the plan notes it as endocrine/nervous crossover)*
 
 Merges/renames all follow `Anson Vol.1 Final Questions.md` (e.g. Gustation +
 Olfaction → "Gustation and Olfaction"; Neuroglial Cells + Neurons → "Neural
@@ -119,3 +153,50 @@ Cells"; the four macromolecule subtopics → "Macromolecules").
    2026-09-01: grading waits for playtesting (see `implementation_plan.md`
    §7) — it matters most for Run from Red. The difficulty-3 tier (OpenStax
    critical thinking / VTCSOM) still to come.
+
+## Loose ends — Vol. 2 (need David's decision)
+
+Everything below came out of the 2026-09-09 import of the four vetted topics.
+`anson_import2.py` reproduces the run (`--write` regenerates the four JSON
+files from the audit + vetting file, so fix things at the source and rerun).
+
+1. **Display label needed (game code):** `Cardiac Electrophysiology` is too
+   wide for a pixel-theme tile — `tests/test_pixel_layout.py` fails on the
+   word "Electrophysiology" alone (156 px in a 148 px label box). Verified
+   fix: add `("heart", "Cardiac Electrophysiology"): "Cardiac Conduction"` to
+   `SUBTOPIC_DISPLAY_NAMES` in `game_setup.py` (the all-sizes dict, not the
+   compact one — the 5×5 board uses the full name). Suite is 454 green with
+   it. Left for David since it's game code.
+2. **Topic menu order (game code):** `SUBJECT_TOPIC_ORDERS` in
+   `game_setup.py` doesn't list the new topics, so they follow the configured
+   ones alphabetically: blood, blood_vessels, heart, lymphatic… Append
+   `"blood", "heart", "blood_vessels", "lymphatic_and_immune_system"` (and
+   the matching list in `tests/test_game_setup.py`) to get curriculum order.
+3. **3 Keep-range collisions:** inside Keep ranges but audit-filed under
+   Recommended-with-Edits, so NOT imported: Blood #30 and #33 (Red Blood
+   Cells, range 20–42) and Blood #108 (Hemostasis, range 82–111). Rewrite
+   from the edit pile, or say "import as audited".
+4. **Heart #119 — Keep vs Skip:** inside Cardiac Output's Keep range 118–121
+   *and* on its Skip line; the explicit Skip won, so it's out (the
+   cardioinhibitory-center question — #118 covers the accelerator side).
+5. **Heart #92 placed under Cardiac Output:** it sits inside Cardiac
+   Electrophysiology's Keep range 85–100 but David lists it explicitly under
+   Cardiac Output (where the audit filed it too) — explicit beats range, as
+   with SS #140/#141 in Vol. 1. Correctness check requested: "motor nerve
+   fibers innervating the heart … modify heart rate" — fine as written.
+   Heart #137 ("second heart sound … semilunar valves shut") also checks out.
+6. **Blood #66 grammar fix applied:** prompt now reads "Lymphocytes can be
+   recognized by their nuclei, which are _____, and by their cytoplasm, of
+   which there is _____." (`bio-anat-15-096`).
+7. **Subtopic label `Arteries and Veins`:** the vetting file says "and"; the
+   topic plan and the audit say "Arteries & Veins". Imported with the vetting
+   file's spelling (it's the canonical layout, per Vol. 1) — flip it in
+   `anson_import2.py` PLAN and rerun if "&" was intended.
+8. **Edit pile, 89 entries** for the four topics: 2 David moved (Heart #149,
+   #111) + 87 audit Recommended-with-Edits (blood 11, heart 27, blood_vessels
+   23, lymphatic_and_immune_system 26). No `Anson Vol.2 - unreviewed.md` has
+   been generated yet — they still live in `question_recommendations_part2.md`
+   under "Recommended with Edits". Generate the file once the remaining seven
+   topics are vetted so it's built once.
+9. **Coverage was complete:** every Recommended entry the audit filed under
+   the four topics had a Keep/Skip/Move directive — nothing fell through.

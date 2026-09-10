@@ -27,13 +27,13 @@ from states.play import build_question_popup
 from theme import THEMES
 
 
-def audit(bank, renderer):
+def audit(bank, renderer, board_size=5):
     failures = []
     records = []
 
     screen_rect = pygame.Rect(0, 0, SCREEN_WIDTH, SCREEN_HEIGHT)
     preferred_bottom = SCREEN_HEIGHT - 20
-    view = BoardView(Board(5, 5), BOARD_ORIGIN_X, BOARD_ORIGIN_Y, BOARD_REGION)
+    view = BoardView(Board(board_size, board_size), BOARD_ORIGIN_X, BOARD_ORIGIN_Y, BOARD_REGION)
     cell_rect = view.cell_to_rect(Cell(0, 0))
     cell_rect.topleft = (0, 0)
 
@@ -75,11 +75,12 @@ def audit(bank, renderer):
         renderer.fill(surface)
         renderer.cell(surface, surface.get_rect(), style)
         cells[style] = (surface, renderer.color(role))
+    label_role = renderer.label_role(board_size)  # the per-size label font (M7.a)
     for topic, subtopic in labels:
         rect = cell_rect.inflate(-2 * LABEL_PADDING, -2 * LABEL_PADDING)
-        lines = renderer.wrap(subtopic_display_name(topic, subtopic), rect.width, 'label')
-        check_lines(f'{topic}/{subtopic}', lines, rect, 'label')
-        bounds = renderer.text_rects(lines, rect, 'label')
+        lines = renderer.wrap(subtopic_display_name(topic, subtopic, board_size=board_size), rect.width, label_role)
+        check_lines(f'{topic}/{subtopic}', lines, rect, label_role)
+        bounds = renderer.text_rects(lines, rect, label_role)
         label_max_width = max(label_max_width, *(b.width for b in bounds))
         label_max_height = max(label_max_height, bounds[-1].bottom - bounds[0].top)
         # Corner-preserving cuts can exceed the straight border thickness.
@@ -116,13 +117,14 @@ def capture_popup(question, renderer, path):
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--theme', choices=THEMES, required=True)
+    parser.add_argument('--board-size', type=int, choices=(5, 7, 9), default=5)
     parser.add_argument('--out', type=Path, required=True)
     args = parser.parse_args()
     args.out.mkdir(parents=True, exist_ok=False)
     pygame.font.init()
     bank = QuestionBank(ROOT / 'data' / 'questions')
     renderer = Renderer(THEMES[args.theme])
-    report = audit(bank, renderer)
+    report = audit(bank, renderer, board_size=args.board_size)
     for name in ('worst', 'worst_muscular'):
         question = next(q for q in bank.questions if q.id == report[name]['id'])
         capture_popup(question, renderer, args.out / f'{name}.png')

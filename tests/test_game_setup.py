@@ -20,6 +20,7 @@ import pytest
 
 from board import Board
 from game_setup import (
+    SUBJECT_TOPIC_ORDERS,
     SUBTOPIC_DISPLAY_NAMES,
     assign_cell_topics,
     order_topics_for_subject,
@@ -73,6 +74,19 @@ def test_subtopic_alias_keys_exist_in_shipped_bank():
     assert set(SUBTOPIC_DISPLAY_NAMES) <= raw_pairs
 
 
+HEART_SUBTOPIC = "Cardiac Electrophysiology"
+
+
+@pytest.mark.parametrize("board_size", [5, 7, 9])
+def test_cardiac_conduction_alias_applies_at_every_board_size(board_size):
+    """'Electrophysiology' alone overflows a 5x5 pixel tile, so the alias
+    lives in the all-sizes map, not the compact one (Anson Vol. 2 import,
+    2026-09-09)."""
+    assert subtopic_display_name(
+        "heart", HEART_SUBTOPIC, board_size=board_size
+    ) == "Cardiac Conduction"
+
+
 # --- order_topics_for_subject ----------------------------------------------
 
 
@@ -91,7 +105,25 @@ ANATOMY_PHYSIOLOGY_TOPICS = [
     "autonomic_nervous_system",
     "special_senses",
     "endocrine_system",
+    "blood",
+    "heart",
+    "blood_vessels",
+    "lymphatic_and_immune_system",
 ]
+
+
+def test_configured_order_matches_this_file():
+    assert list(SUBJECT_TOPIC_ORDERS["anatomy_physiology"]) == (
+        ANATOMY_PHYSIOLOGY_TOPICS
+    )
+
+
+def test_every_shipped_topic_has_a_configured_position():
+    """An unlisted topic still loads but falls to the alphabetical tail of
+    the menu; this guard turns that silent demotion into a failure."""
+    bank = QuestionBank(Path(__file__).resolve().parent.parent / "data" / "questions")
+    shipped = set(bank.topics("anatomy_physiology"))
+    assert shipped <= set(SUBJECT_TOPIC_ORDERS["anatomy_physiology"])
 
 
 def test_anatomy_physiology_topics_follow_curriculum_order():

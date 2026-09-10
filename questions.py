@@ -1,4 +1,5 @@
 import json
+from collections.abc import Iterable
 from pathlib import Path
 from random import Random
 
@@ -143,9 +144,43 @@ class QuestionBank:
             set(q.subtopic for q in self.questions if q.topic == topic)
         )
 
-    def next_question(self, topic, subtopic, rng: Random) -> Question:
+    def available_pools(
+        self,
+        pools: Iterable[tuple[str, str]],
+    ) -> list[tuple[str, str]]:
+        allowed = set(pools)
+        return sorted({
+            (question.topic, question.subtopic)
+            for question in self.questions
+            if (question.topic, question.subtopic) in allowed
+            and question.id not in self.used_ids
+        })
+
+    def restart_pools(
+        self,
+        pools: Iterable[tuple[str, str]],
+    ) -> None:
+        pools = set(pools)
+        self.used_ids.difference_update(
+            question.id
+            for question in self.questions
+            if (question.topic, question.subtopic) in pools
+        )
+
+        # Rebuild and shuffle each pool only when it is next requested.
+        for pair in pools:
+            self._pool_orders.pop(pair, None)
+
+    def next_unused_question(
+        self,
+        topic,
+        subtopic,
+        rng: Random,
+    ) -> Question | None:
+        """Return an unused question, or None if the pool is exhausted."""
         key = (topic, subtopic)
         candidates = self._pool_orders.get(key)
+
         if candidates is None:
             candidates = [
                 q
@@ -153,7 +188,11 @@ class QuestionBank:
                 if q.topic == topic and q.subtopic == subtopic
             ]
             if not candidates:
-                raise ValueError(f"No questions available for topic '{topic}' and subtopic '{subtopic}'")
+                raise ValueError(
+                    f"No questions available for topic '{topic}' "
+                    f"and subtopic '{subtopic}'"
+                )
+
             rng.shuffle(candidates)
             self._pool_orders[key] = candidates
 
@@ -162,6 +201,14 @@ class QuestionBank:
                 self.used_ids.add(q.id)
                 return q
 
+        return None
+
+    def next_question(self, topic, subtopic, rng: Random) -> Question:
+        question = self.next_unused_question(topic, subtopic, rng)
+        if question is not None:
+            return question
+
+        candidates = self._pool_orders[(topic, subtopic)]
         for q in candidates:
             self.used_ids.discard(q.id)
 

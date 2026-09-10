@@ -3,6 +3,7 @@ from random import Random
 import pygame
 
 from constants import SCREEN_HEIGHT, SCREEN_WIDTH
+from game_setup import DEFAULT_PRESET, PRESETS
 from render import Renderer
 from theme import DEFAULT_THEME, THEMES
 from states.menus import GameSelectState
@@ -25,6 +26,10 @@ class Game:
         self.clock = pygame.time.Clock()
         self.fps = 60
         self.running = True
+        self.settings = PRESETS[DEFAULT_PRESET]
+        self.topic_selections: dict[
+            tuple[str, str], tuple[str, ...]
+        ] = {}
         self.state = GameSelectState(self, bank)
 
     def change_state(self, state):

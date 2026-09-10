@@ -105,6 +105,8 @@ class BoardView:
         *,
         catchable: Cell | None = None,
     ) -> None:
+        board_size = max(self.board.cols, self.board.rows)
+        label_role = renderer.label_role(board_size)
         occupied = {entity.cell for entity in entities}
         lifts = {
             cell: self.lift_for(cell, selected=selected, occupied=occupied)
@@ -124,9 +126,23 @@ class BoardView:
                 continue
             label_rect = grid_rect.move(0, -lift).inflate(-2 * LABEL_PADDING, -2 * LABEL_PADDING)
             topic, subtopic = labels[cell]
-            display_name = subtopic_display_name(topic, subtopic)
-            lines = renderer.wrap(display_name, label_rect.width, 'label')
-            renderer.wrapped_text(screen, lines, label_rect, 'label', 'label')
+            display_name = subtopic_display_name(
+                topic,
+                subtopic,
+                board_size=board_size,
+            )
+            lines = renderer.wrap(
+                display_name,
+                label_rect.width,
+                label_role,
+            )
+            renderer.wrapped_text(
+                screen,
+                lines,
+                label_rect,
+                label_role,
+                'label',
+            )
 
         if (renderer.theme.layout.show_cell_hover_ring
                 and hovered is not None and hovered in moves):

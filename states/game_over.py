@@ -3,7 +3,7 @@ import pygame
 from constants import (
     SIDE_PANEL_LEFT, SIDE_PANEL_TOP, SIDE_PANEL_WIDTH, SIDE_PANEL_PADDING,
 )
-from ui import Button, TextBox
+from ui import Button, ButtonAction, TextBox, pointer_position, update_button_lifts
 
 BUTTON_HEIGHT = 60
 BUTTON_GAP = 24
@@ -20,6 +20,8 @@ class GameOverState:
         self.result = result
         self.play_state = play_state
         self.renderer = game.renderer
+        self.pointer_pos = None
+        self.button_action = ButtonAction()
 
         content_left = SIDE_PANEL_LEFT + SIDE_PANEL_PADDING
         content_width = SIDE_PANEL_WIDTH - 2 * SIDE_PANEL_PADDING
@@ -51,6 +53,7 @@ class GameOverState:
             ),
             replay_text,
             self.renderer,
+            lift=self.renderer.theme.menu_lift,
         )
         self.main_menu_button = Button(
             pygame.Rect(
@@ -61,6 +64,7 @@ class GameOverState:
             ),
             "Main Menu",
             self.renderer,
+            lift=self.renderer.theme.menu_lift,
         )
         self.panel_rect = pygame.Rect(
             SIDE_PANEL_LEFT,
@@ -70,23 +74,38 @@ class GameOverState:
         )
 
     def update(self, dt_ms):
-        pass
+        update_button_lifts(
+            (self.replay_button, self.main_menu_button), dt_ms, self.pointer_pos,
+        )
+        self.button_action.update(dt_ms)
 
     def handle_events(self, events):
+        if self.button_action.blocks_events():
+            for event in events:
+                self.pointer_pos = pointer_position(self.pointer_pos, event)
+            return
+
         for event in events:
+            self.pointer_pos = pointer_position(self.pointer_pos, event)
             if event.type != pygame.MOUSEBUTTONDOWN or event.button != 1:
                 continue
 
             if self.replay_button.is_clicked(event.pos):
-                self.game.start_play(self.bank, self.config)
+                self.button_action.begin(
+                    self.replay_button,
+                    lambda: self.game.start_play(self.bank, self.config),
+                )
                 return
 
             if self.main_menu_button.is_clicked(event.pos):
-                self.game.show_main_menu(self.bank)
+                self.button_action.begin(
+                    self.main_menu_button,
+                    lambda: self.game.show_main_menu(self.bank),
+                )
                 return
 
     def draw(self, screen):
-        self.play_state.draw(screen)
+        self.play_state.draw(screen, show_pause=False)
 
         self.renderer.panel(screen, self.panel_rect)
 

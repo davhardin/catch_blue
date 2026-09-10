@@ -10,10 +10,11 @@ import pytest
 
 from board import Cell
 from constants import (
+    BUTTON_PRESS_DOWN_MS, BUTTON_PRESS_HOLD_MS,
     SCREEN_WIDTH, SCREEN_HEIGHT, SIDE_PANEL_GAP, SIDE_PANEL_LEFT, SIDE_PANEL_PADDING,
     SIDE_PANEL_TOP, SIDE_PANEL_WIDTH,
 )
-from game_setup import GameConfig
+from game_setup import DEFAULT_PRESET, GameConfig, PRESETS
 from questions import QuestionBank
 from render import Renderer
 from states.game_over import GameOverState
@@ -24,7 +25,7 @@ from theme import FLAT, PIXEL
 @pytest.fixture(params=[FLAT, PIXEL], ids=['flat', 'pixel'])
 def game(request):
     pygame.font.init()
-    yield SimpleNamespace(renderer=Renderer(request.param), start_play=Mock(), show_main_menu=Mock())
+    yield SimpleNamespace(settings=PRESETS[DEFAULT_PRESET], topic_selections={}, renderer=Renderer(request.param), start_play=Mock(), show_main_menu=Mock())
     pygame.font.quit()
 
 
@@ -58,7 +59,7 @@ def test_ending_panel_matches_question_and_navigation(game, result):
     assert state.panel_rect.left - board.right == SIDE_PANEL_GAP
     screen = pygame.Surface((SCREEN_WIDTH, SCREEN_HEIGHT))
     assert screen.get_rect().contains(state.panel_rect)
-    play.draw(screen)
+    play.draw(screen, show_pause=False)
     hud = pygame.Rect(SIDE_PANEL_LEFT, 50, SIDE_PANEL_WIDTH, SIDE_PANEL_TOP - 50)
     before_hud = pygame.image.tobytes(screen.subsurface(hud), 'RGB')
     before_board = pygame.image.tobytes(screen.subsurface(board), 'RGB')
@@ -69,7 +70,11 @@ def test_ending_panel_matches_question_and_navigation(game, result):
         (state.replay_button, game.start_play, (bank, config)),
         (state.main_menu_button, game.show_main_menu, (bank,)),
     ):
+        state.handle_events([])  # drain the batch a previous press discards
         state.handle_events([pygame.event.Event(
             pygame.MOUSEBUTTONDOWN, button=1, pos=button.rect.center,
         )])
+        callback.assert_not_called()  # the press lands after its animation
+        state.update(BUTTON_PRESS_DOWN_MS)
+        state.update(BUTTON_PRESS_HOLD_MS)
         callback.assert_called_once_with(*args)

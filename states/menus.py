@@ -7,6 +7,8 @@ from constants import (
     MENU_CHECKBOX_LEFT, MENU_CHECKBOX_TOP, MENU_TOPICS_TITLE_TOP,
     MENU_SCROLL_LEFT, MENU_SCROLL_TOP, MENU_SCROLL_WIDTH, MENU_SCROLL_HEIGHT,
     MENU_START_TOP, MENU_CREDITS_SIDE_MARGIN, MENU_CREDITS_TOP, MENU_CREDITS_HEIGHT,
+    MENU_BACK_LEFT, MENU_BACK_WIDTH,
+    MENU_THREE_FIRST_BUTTON_TOP, MENU_THREE_TITLE_TOP,
 )
 from theme import Alignment
 from game_setup import (
@@ -16,7 +18,12 @@ from game_setup import (
     subject_display_name,
 )
 from questions import QuestionBank
-from ui import Button, Checkbox
+from states.settings import SettingsState
+from ui import (
+    Button, ButtonAction, Checkbox,
+    pointer_position as _menu_pointer_position,
+    update_button_lifts as _update_menu_button_lifts,
+)
 
 SCROLL_REGION = pygame.Rect(
     MENU_SCROLL_LEFT, MENU_SCROLL_TOP, MENU_SCROLL_WIDTH, MENU_SCROLL_HEIGHT,
@@ -51,18 +58,11 @@ def _make_menu_button(text, renderer, top, active=True):
     )
 
 
-def _menu_pointer_position(current, event):
-    if event.type == pygame.WINDOWLEAVE:
-        return None
-    if event.type in (pygame.MOUSEMOTION, pygame.MOUSEBUTTONDOWN):
-        return event.pos
-    return current
-
-
-def _update_menu_button_lifts(buttons, dt_ms, pointer_pos):
-    for button in buttons:
-        hovered = pointer_pos is not None and button.is_clicked(pointer_pos)
-        button.update_lift(dt_ms, hovered=hovered)
+def _make_back_button(renderer):
+    return Button(
+        pygame.Rect(MENU_BACK_LEFT, MENU_START_TOP, MENU_BACK_WIDTH, MENU_BUTTON_HEIGHT),
+        'Back', renderer, lift=renderer.theme.menu_lift,
+    )
 
 
 class GameSelectState:
@@ -71,39 +71,58 @@ class GameSelectState:
         self.bank = bank
         self.renderer = game.renderer
         self.pointer_pos: tuple[int, int] | None = None
+        self.button_action = ButtonAction()
 
         self.catch_blue_button = _make_menu_button(
             "Catch Blue",
             self.renderer,
-            MENU_FIRST_BUTTON_TOP,
+            MENU_THREE_FIRST_BUTTON_TOP,
         )
         self.run_from_red_button = _make_menu_button(
             "Run from Red (coming soon)",
             self.renderer,
-            MENU_FIRST_BUTTON_TOP + MENU_BUTTON_HEIGHT + MENU_BUTTON_GAP,
+            MENU_THREE_FIRST_BUTTON_TOP + MENU_BUTTON_HEIGHT + MENU_BUTTON_GAP,
             active=False,
+        )
+        self.settings_button = _make_menu_button(
+            'Settings', self.renderer,
+            self.run_from_red_button.rect.bottom + MENU_BUTTON_GAP,
         )
 
     def handle_events(self, events):
+        if self.button_action.blocks_events():
+            for event in events:
+                self.pointer_pos = _menu_pointer_position(self.pointer_pos, event)
+            return
         for event in events:
             self.pointer_pos = _menu_pointer_position(self.pointer_pos, event)
             if event.type != pygame.MOUSEBUTTONDOWN or event.button != 1:
                 continue
 
             if self.catch_blue_button.is_clicked(event.pos):
-                self.game.change_state(
-                    SubjectState(
+                self.button_action.begin(
+                    self.catch_blue_button,
+                    lambda: self.game.change_state(SubjectState(
                         self.game,
                         self.bank,
                         mode="catch_blue",
-                    )
+                    )),
+                )
+                return
+
+            if self.settings_button.is_clicked(event.pos):
+                self.button_action.begin(
+                    self.settings_button,
+                    lambda: self.game.change_state(SettingsState(self.game, self.bank)),
                 )
                 return
 
     def update(self, dt_ms):
         _update_menu_button_lifts(
-            (self.catch_blue_button, self.run_from_red_button), dt_ms, self.pointer_pos,
+            (self.catch_blue_button, self.run_from_red_button, self.settings_button),
+            dt_ms, self.pointer_pos,
         )
+        self.button_action.update(dt_ms)
 
     def draw(self, screen):
         self.renderer.fill(screen)
@@ -111,10 +130,11 @@ class GameSelectState:
             screen,
             "Select Game",
             self.renderer,
-            MENU_TITLE_TOP,
+            MENU_THREE_TITLE_TOP,
         )
         self.catch_blue_button.draw(screen)
         self.run_from_red_button.draw(screen)
+        self.settings_button.draw(screen)
         self.renderer.text(screen, CREDITS_TEXT, CREDITS_RECT, 'credits')
 
 
@@ -125,6 +145,7 @@ class SubjectState:
         self.mode = mode
         self.renderer = game.renderer
         self.pointer_pos: tuple[int, int] | None = None
+        self.button_action = ButtonAction()
 
         self.anatomy_button = _make_menu_button(
             subject_display_name("anatomy_physiology"),
@@ -137,28 +158,43 @@ class SubjectState:
             MENU_FIRST_BUTTON_TOP + MENU_BUTTON_HEIGHT + MENU_BUTTON_GAP,
             active=False,
         )
+        self.back_button = _make_back_button(self.renderer)
 
     def handle_events(self, events):
+        if self.button_action.blocks_events():
+            for event in events:
+                self.pointer_pos = _menu_pointer_position(self.pointer_pos, event)
+            return
         for event in events:
             self.pointer_pos = _menu_pointer_position(self.pointer_pos, event)
             if event.type != pygame.MOUSEBUTTONDOWN or event.button != 1:
                 continue
 
+            if self.back_button.is_clicked(event.pos):
+                self.button_action.begin(
+                    self.back_button,
+                    lambda: self.game.show_main_menu(self.bank),
+                )
+                return
+
             if self.anatomy_button.is_clicked(event.pos):
-                self.game.change_state(
-                    TopicsState(
+                self.button_action.begin(
+                    self.anatomy_button,
+                    lambda: self.game.change_state(TopicsState(
                         self.game,
                         self.bank,
                         mode=self.mode,
                         subject="anatomy_physiology",
-                    )
+                    )),
                 )
                 return
 
     def update(self, dt_ms):
         _update_menu_button_lifts(
-            (self.anatomy_button, self.organic_chemistry_button), dt_ms, self.pointer_pos,
+            (self.anatomy_button, self.organic_chemistry_button, self.back_button),
+            dt_ms, self.pointer_pos,
         )
+        self.button_action.update(dt_ms)
 
     def draw(self, screen):
         self.renderer.fill(screen)
@@ -170,6 +206,7 @@ class SubjectState:
         )
         self.anatomy_button.draw(screen)
         self.organic_chemistry_button.draw(screen)
+        self.back_button.draw(screen)
 
 
 class TopicsState:
@@ -182,8 +219,11 @@ class TopicsState:
             self.subject,
             self.bank.topics(self.subject),
         )
+        saved = game.topic_selections.get((mode, subject))
+        selected = set(self.topics if saved is None else saved)
         self.renderer = game.renderer
         self.pointer_pos: tuple[int, int] | None = None
+        self.button_action = ButtonAction()
 
         self.all_checkbox = Checkbox(
             pygame.Rect(
@@ -208,7 +248,7 @@ class TopicsState:
                 ),
                 prettify_topic(topic),
                 self.renderer,
-                checked=True,
+                checked=topic in selected,
             )
             self.topic_checkboxes.append((topic, checkbox))
 
@@ -232,13 +272,20 @@ class TopicsState:
             self.renderer,
             MENU_START_TOP,
         )
-        self._update_start_button()
+        self.back_button = _make_back_button(self.renderer)
+        self._sync_selection()
 
-    def _update_start_button(self):
-        self.start_button.active = any(
-            checkbox.checked
-            for _, checkbox in self.topic_checkboxes
+    def _sync_selection(self):
+        selected = tuple(
+            topic
+            for topic, checkbox in self.topic_checkboxes
+            if checkbox.checked
         )
+        self.game.topic_selections[(self.mode, self.subject)] = selected
+        self.all_checkbox.checked = bool(self.topic_checkboxes) and all(
+            checkbox.checked for _, checkbox in self.topic_checkboxes
+        )
+        self.start_button.active = bool(selected)
         if not self.start_button.active:
             self.start_button.reset_lift()
 
@@ -247,6 +294,10 @@ class TopicsState:
         self.scroll_offset = (int(clamped) // MENU_ROW_HEIGHT) * MENU_ROW_HEIGHT
 
     def handle_events(self, events):
+        if self.button_action.blocks_events():
+            for event in events:
+                self.pointer_pos = _menu_pointer_position(self.pointer_pos, event)
+            return
         for event in events:
             self.pointer_pos = _menu_pointer_position(self.pointer_pos, event)
             if event.type == pygame.MOUSEWHEEL:
@@ -258,6 +309,15 @@ class TopicsState:
             if event.type != pygame.MOUSEBUTTONDOWN or event.button != 1:
                 continue
 
+            if self.back_button.is_clicked(event.pos):
+                self.button_action.begin(
+                    self.back_button,
+                    lambda: self.game.change_state(
+                        SubjectState(self.game, self.bank, mode=self.mode),
+                    ),
+                )
+                return
+
             if self.start_button.is_clicked(event.pos):
                 selected_topics = tuple(
                     topic
@@ -268,8 +328,12 @@ class TopicsState:
                     mode=self.mode,
                     subject=self.subject,
                     selected_topics=selected_topics,
+                    settings=self.game.settings,
                 )
-                self.game.start_play(self.bank, config)
+                self.button_action.begin(
+                    self.start_button,
+                    lambda: self.game.start_play(self.bank, config),
+                )
                 return
 
             if not self.scroll_region.collidepoint(event.pos):
@@ -284,21 +348,20 @@ class TopicsState:
                 self.all_checkbox.toggle()
                 for _, checkbox in self.topic_checkboxes:
                     checkbox.checked = self.all_checkbox.checked
-                self._update_start_button()
+                self._sync_selection()
                 continue
 
             for _, checkbox in self.topic_checkboxes:
                 if checkbox.is_clicked(content_pos):
                     checkbox.toggle()
-                    self.all_checkbox.checked = all(
-                        topic_checkbox.checked
-                        for _, topic_checkbox in self.topic_checkboxes
-                    )
-                    self._update_start_button()
+                    self._sync_selection()
                     break
 
     def update(self, dt_ms):
-        _update_menu_button_lifts((self.start_button,), dt_ms, self.pointer_pos)
+        _update_menu_button_lifts(
+            (self.start_button, self.back_button), dt_ms, self.pointer_pos,
+        )
+        self.button_action.update(dt_ms)
 
     def draw(self, screen):
         self.renderer.fill(screen)
@@ -320,3 +383,4 @@ class TopicsState:
                 )
 
         self.start_button.draw(screen)
+        self.back_button.draw(screen)

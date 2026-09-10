@@ -13,9 +13,11 @@ from types import SimpleNamespace
 import pygame
 import pytest
 
+from game_setup import DEFAULT_PRESET, PRESETS
+
 from constants import (
     SCREEN_HEIGHT, SCREEN_WIDTH, MENU_ROW_HEIGHT, MENU_BOTTOM_MARGIN,
-    MENU_CREDITS_BOTTOM_MARGIN, MENU_VISIBLE_ROWS, MENU_TITLE_TOP, MENU_TOPICS_TITLE_TOP,
+    MENU_CREDITS_BOTTOM_MARGIN, MENU_VISIBLE_ROWS, MENU_TITLE_OFFSET, MENU_TOPICS_TITLE_TOP,
 )
 from questions import QuestionBank
 from render import Renderer
@@ -33,7 +35,7 @@ SCREEN = pygame.Rect(0, 0, SCREEN_WIDTH, SCREEN_HEIGHT)
 @pytest.fixture(params=[FLAT, PIXEL], ids=['flat', 'pixel'])
 def game(request):
     pygame.font.init()
-    yield SimpleNamespace(renderer=Renderer(request.param))
+    yield SimpleNamespace(settings=PRESETS[DEFAULT_PRESET], topic_selections={}, renderer=Renderer(request.param))
     pygame.font.quit()
 
 
@@ -54,15 +56,24 @@ def buttons_of(state):
 def test_two_button_menus_stack_inside_the_screen(game, bank, make, monkeypatch):
     state = make(game, bank)
     buttons = buttons_of(state)
-    assert len(buttons) == 2
     assert all(SCREEN.contains(button.rect) for button in buttons)
-    first, second = sorted(buttons, key=lambda b: b.rect.top)
-    assert first.rect.bottom < second.rect.top
-    assert first.rect.left == second.rect.left
-    assert first.rect.width == second.rect.width
+    # The centered stack; a Back button (M7.c) sits outside it, bottom-left.
+    stack = sorted((b for b in buttons if b.text != 'Back'), key=lambda b: b.rect.top)
+    assert len(stack) >= 2
+    for upper, lower in zip(stack, stack[1:]):
+        assert upper.rect.bottom < lower.rect.top
+        assert upper.rect.left == lower.rect.left
+        assert upper.rect.width == lower.rect.width
+    first, second = stack[0], stack[1]
     # Centered horizontally on the canvas, whatever its width.
     assert abs(first.rect.centerx - SCREEN.centerx) <= 1
-    assert abs(first.rect.union(second.rect).centery - SCREEN.centery) <= 1
+    whole = first.rect.unionall([b.rect for b in stack[1:]])
+    assert SCREEN_HEIGHT // 8 < whole.top and whole.bottom < SCREEN_HEIGHT - SCREEN_HEIGHT // 8
+    # Vertically centered as a block, however many buttons the screen stacks
+    # (Game Select grew a third in M7.b).
+    assert abs(whole.centery - SCREEN.centery) <= 1
+    for back in (b for b in buttons if b.text == 'Back'):
+        assert not back.rect.colliderect(whole)
     titles = []
     original = game.renderer.text
     def record(surface, text, rect, role, *args, **kwargs):
@@ -72,7 +83,7 @@ def test_two_button_menus_stack_inside_the_screen(game, bank, make, monkeypatch)
     monkeypatch.setattr(game.renderer, 'text', record)
     state.draw(pygame.Surface(SCREEN.size))
     assert len(titles) == 1
-    assert titles[0].top == MENU_TITLE_TOP
+    assert titles[0].top == first.rect.top - MENU_TITLE_OFFSET
     assert SCREEN.contains(titles[0])
     assert titles[0].bottom < first.rect.top
     assert titles[0].centerx == SCREEN.centerx
