@@ -1,0 +1,1698 @@
+[
+  {
+    "id": "bio-anat-15-001",
+    "subject": "anatomy_physiology",
+    "topic": "blood",
+    "subtopic": "Blood Composition",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Blood is a specialized _____ tissue consisting of living cells, called _____, suspended in a nonliving fluid matrix called _____.",
+    "choices": [
+      "connective; formed elements; blood plasma",
+      "epithelial; formed elements; blood plasma",
+      "connective; leukocytes; serum",
+      "connective; formed elements; lymph"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-15-002",
+    "subject": "anatomy_physiology",
+    "topic": "blood",
+    "subtopic": "Blood Composition",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The normal pH of blood is between _____, and even a slight change away from this value causes severe health problems.",
+    "choices": [
+      "7.35–7.45",
+      "7.25–7.35",
+      "7.45–7.55",
+      "7.15–7.25"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-15-003",
+    "subject": "anatomy_physiology",
+    "topic": "blood",
+    "subtopic": "Blood Composition",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "A major function of blood is the delivery of _____ and _____, which are needed for other tissues to live and grow.",
+    "choices": [
+      "oxygen; nutrients",
+      "carbon dioxide; wastes",
+      "oxygen; antibodies",
+      "carbon dioxide; nutrients"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-15-004",
+    "subject": "anatomy_physiology",
+    "topic": "blood",
+    "subtopic": "Blood Composition",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "A major function of blood is the removal of _____ produced by other tissues.",
+    "choices": [
+      "metabolic waste",
+      "oxygen",
+      "nutrients",
+      "hormones"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-15-005",
+    "subject": "anatomy_physiology",
+    "topic": "blood",
+    "subtopic": "Blood Composition",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "A major function of blood is the distribution of _____, which control and coordinate the activity of the body.",
+    "choices": [
+      "hormones",
+      "enzymes",
+      "nutrients",
+      "antibodies"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-15-006",
+    "subject": "anatomy_physiology",
+    "topic": "blood",
+    "subtopic": "Blood Composition",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "By carrying _____ from the body's core to its surface, blood has a major role in the control of body temperature.",
+    "choices": [
+      "heat",
+      "oxygen",
+      "water",
+      "hormones"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-15-007",
+    "subject": "anatomy_physiology",
+    "topic": "blood",
+    "subtopic": "Blood Composition",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "By exchanging acids, bases, and hydrogen ions with other fluid compartments within the body and CO2 with the air, blood plays a major role in the control of _____ throughout the body.",
+    "choices": [
+      "pH",
+      "temperature",
+      "blood volume",
+      "osmotic pressure"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-15-008",
+    "subject": "anatomy_physiology",
+    "topic": "blood",
+    "subtopic": "Blood Composition",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Even though most wounds introduce hostile bacteria into the body, they are not fatal because of the _____ system.",
+    "choices": [
+      "immune",
+      "endocrine",
+      "nervous",
+      "integumentary"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-15-009",
+    "subject": "anatomy_physiology",
+    "topic": "blood",
+    "subtopic": "Blood Composition",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Blood plasma is 90% _____.",
+    "choices": [
+      "water",
+      "albumin",
+      "electrolytes",
+      "glucose"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-15-010",
+    "subject": "anatomy_physiology",
+    "topic": "blood",
+    "subtopic": "Blood Composition",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "60% of the protein found in blood plasma is of one class: _____. It, and many of the other proteins, carry molecules which are _____.",
+    "choices": [
+      "albumin; hydrophilic",
+      "globulin; hydrophilic",
+      "albumin; hydrophobic",
+      "globulin; hydrophobic"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-15-011",
+    "subject": "anatomy_physiology",
+    "topic": "blood",
+    "subtopic": "Blood Composition",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "There is so much _____ in the blood plasma that it is the major contributor to blood's osmotic pressure. In addition, the side chains of its amino acids can bind or release hydrogen ions, making it an important _____.",
+    "choices": [
+      "albumin; buffer",
+      "globulin; buffer",
+      "albumin; enzyme",
+      "fibrinogen; hormone"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-15-012",
+    "subject": "anatomy_physiology",
+    "topic": "blood",
+    "subtopic": "Blood Composition",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "In addition to transport proteins, blood plasma also contains proteins such as _____, which are needed to protect the body from invaders, and proteins needed for blood _____ in case of injury.",
+    "choices": [
+      "antibodies; clotting",
+      "albumins; clotting",
+      "antibodies; transport",
+      "enzymes; clotting"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-15-013",
+    "subject": "anatomy_physiology",
+    "topic": "blood",
+    "subtopic": "Blood Composition",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The 'formed elements' in blood are not simply called 'cells' because two of the three types don't even have a(n) _____.",
+    "choices": [
+      "nucleus",
+      "plasma membrane",
+      "cytoplasm",
+      "mitochondrion"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-15-014",
+    "subject": "anatomy_physiology",
+    "topic": "blood",
+    "subtopic": "Blood Composition",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Transfusion of _____ is more common when anemia is being treated, but blood volume in the patient is normal.",
+    "choices": [
+      "packed erythrocytes",
+      "whole blood",
+      "plasma",
+      "platelets"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-15-015",
+    "subject": "anatomy_physiology",
+    "topic": "blood",
+    "subtopic": "Blood Composition",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "A fairly comprehensive picture of general health can be gained by two types of blood tests: _____ and _____.",
+    "choices": [
+      "blood chemistry profile; complete blood count",
+      "hematocrit; blood typing",
+      "urinalysis; complete blood count",
+      "blood chemistry profile; clotting time"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-15-016",
+    "subject": "anatomy_physiology",
+    "topic": "blood",
+    "subtopic": "Blood Composition",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The _____ includes counts of the various formed elements, including platelets.",
+    "choices": [
+      "complete blood count",
+      "hematocrit",
+      "blood chemistry profile",
+      "differential count"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-15-017",
+    "subject": "anatomy_physiology",
+    "topic": "blood",
+    "subtopic": "Blood Composition",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The percentage of erythrocytes (by volume) is called the _____.",
+    "choices": [
+      "hematocrit",
+      "hemoglobin",
+      "buffy coat",
+      "plasma volume"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-15-018",
+    "subject": "anatomy_physiology",
+    "topic": "blood",
+    "subtopic": "Blood Composition",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Blood that has been centrifuged separates into three layers: _____, _____ and _____.",
+    "choices": [
+      "erythrocytes; buffy coat; plasma",
+      "erythrocytes; plasma; serum",
+      "leukocytes; buffy coat; plasma",
+      "platelets; erythrocytes; serum"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-15-019",
+    "subject": "anatomy_physiology",
+    "topic": "blood",
+    "subtopic": "Blood Composition",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The 'buffy coat' seen in centrifuged blood is composed of _____ and _____.",
+    "choices": [
+      "white blood cells; platelets",
+      "red blood cells; platelets",
+      "white blood cells; plasma proteins",
+      "red blood cells; white blood cells"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-15-020",
+    "subject": "anatomy_physiology",
+    "topic": "blood",
+    "subtopic": "Blood Composition",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Leukocytes and platelets account for less than _____ of the blood's volume: the remainder is _____ (~ 55%) and _____ (~ 45%).",
+    "choices": [
+      "1%; plasma; erythrocytes",
+      "10%; plasma; erythrocytes",
+      "1%; erythrocytes; plasma",
+      "5%; serum; leukocytes"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-15-021",
+    "subject": "anatomy_physiology",
+    "topic": "blood",
+    "subtopic": "Blood Composition",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Platelets are not complete cells, but fragments pinched off from large cells called _____.",
+    "choices": [
+      "megakaryocytes",
+      "hemocytoblasts",
+      "myeloblasts",
+      "monocytes"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-15-022",
+    "subject": "anatomy_physiology",
+    "topic": "blood",
+    "subtopic": "Blood Composition",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Formation of the megakarycytes involves repeated mitoses of megakaryoblasts without _____.",
+    "choices": [
+      "cytokinesis",
+      "DNA replication",
+      "spindle formation",
+      "chromosome condensation"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-15-023",
+    "subject": "anatomy_physiology",
+    "topic": "blood",
+    "subtopic": "Blood Composition",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Platelets are formed when a(n) _____ presses up against a specialized type of capillary in bone marrow, presses cytoplasmic extensions through the walls, and pinches them off.",
+    "choices": [
+      "megakaryocyte",
+      "hemocytoblast",
+      "macrophage",
+      "reticulocyte"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-15-024",
+    "subject": "anatomy_physiology",
+    "topic": "blood",
+    "subtopic": "Blood Types",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Humans have different blood types based on specific ________ on erythrocyte membranes. For several ______, a severe immunoreaction occurs if a donor and a patient do not share the same one.",
+    "choices": [
+      "antigens",
+      "antibodies",
+      "plasma proteins",
+      "clotting factors"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-15-025",
+    "subject": "anatomy_physiology",
+    "topic": "blood",
+    "subtopic": "Blood Types",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The _____ blood groups are based on the presence or absence of two types of antigens on the erythrocyte's surface.",
+    "choices": [
+      "ABO",
+      "Rh",
+      "MN",
+      "Lewis"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-15-026",
+    "subject": "anatomy_physiology",
+    "topic": "blood",
+    "subtopic": "Blood Types",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "_____' means 'glued together.'",
+    "choices": [
+      "agglutinated",
+      "hemolyzed",
+      "coagulated",
+      "precipitated"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-15-027",
+    "subject": "anatomy_physiology",
+    "topic": "blood",
+    "subtopic": "Blood Types",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Clumping of erythrocytes due to an immune reaction (e.g. after an improper transfusion) causes _____ of small vessels and release of dangerous levels of _____ into the bloodstream.",
+    "choices": [
+      "blockage; hemoglobin",
+      "dilation; hemoglobin",
+      "blockage; bilirubin",
+      "rupture; albumin"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-15-028",
+    "subject": "anatomy_physiology",
+    "topic": "blood",
+    "subtopic": "Hemostasis",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "A cut (usually) does not lead to a fatal loss of blood because blood is able to _____.",
+    "choices": [
+      "clot",
+      "vasodilate",
+      "hemolyze",
+      "agglutinate"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-15-029",
+    "subject": "anatomy_physiology",
+    "topic": "blood",
+    "subtopic": "Hemostasis",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "_____ literally means 'blood stopping,' and is the formal name for the process which prevents blood loss after injury.",
+    "choices": [
+      "hemostasis",
+      "hematopoiesis",
+      "homeostasis",
+      "hemolysis"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-15-030",
+    "subject": "anatomy_physiology",
+    "topic": "blood",
+    "subtopic": "Hemostasis",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "_____ are the body's immediate response to blood vessel injury: this limits blood flow.",
+    "choices": [
+      "vascular spasms",
+      "platelet plugs",
+      "coagulation",
+      "fibrinolysis"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-15-031",
+    "subject": "anatomy_physiology",
+    "topic": "blood",
+    "subtopic": "Hemostasis",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The second response of the body to a break in a blood vessel requires platelets, which _____.",
+    "choices": [
+      "form a plug",
+      "release histamine",
+      "dissolve the clot",
+      "engulf bacteria"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-15-032",
+    "subject": "anatomy_physiology",
+    "topic": "blood",
+    "subtopic": "Hemostasis",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Platelets bind tightly to any _____ they happen to encounter. This molecule is normally not accessible, since it is in _____ but not epithelial tissue, not even endothelium.",
+    "choices": [
+      "collagen; connective",
+      "elastin; connective",
+      "collagen; epithelial",
+      "fibrin; muscle"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-15-033",
+    "subject": "anatomy_physiology",
+    "topic": "blood",
+    "subtopic": "Hemostasis",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Platelets which have encountered collagen release _____ to attract other platelets, _____ to stimulate vasoconstriction, and _____ to help with both.",
+    "choices": [
+      "ADP; serotonin; thromboxane A2",
+      "ATP; histamine; prostacyclin",
+      "ADP; heparin; thromboxane A2",
+      "calcium; serotonin; plasmin"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-15-034",
+    "subject": "anatomy_physiology",
+    "topic": "blood",
+    "subtopic": "Hemostasis",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Platelets which have encountered _____ form _____ which allow them to reach out to, and adhere to, neighboring platelets.",
+    "choices": [
+      "collagen; cytoplasmic extensions",
+      "elastin; cytoplasmic extensions",
+      "collagen; microvilli",
+      "fibrin; cilia"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-15-035",
+    "subject": "anatomy_physiology",
+    "topic": "blood",
+    "subtopic": "Hemostasis",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Platelet plugs at the site of an injury grow because of _____ feedback. To limit this to the site of the injury, undamaged epithelial cells release _____, which inhibits plug formation.",
+    "choices": [
+      "positive; prostacyclin",
+      "negative; prostacyclin",
+      "positive; thromboxane A2",
+      "negative; histamine"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-15-036",
+    "subject": "anatomy_physiology",
+    "topic": "blood",
+    "subtopic": "Hemostasis",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "After the platelet plug forms, the next step in the body's reaction to vascular injury is blood _____.",
+    "choices": [
+      "coagulation",
+      "fibrinolysis",
+      "clot retraction",
+      "vascular spasm"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-15-037",
+    "subject": "anatomy_physiology",
+    "topic": "blood",
+    "subtopic": "Hemostasis",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Factors that promote clotting are called _____. Factors which inhibit clot formation are called _____.",
+    "choices": [
+      "procoagulants; anticoagulants",
+      "anticoagulants; procoagulants",
+      "agglutinins; agglutinogens",
+      "cytokines; interleukins"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-15-038",
+    "subject": "anatomy_physiology",
+    "topic": "blood",
+    "subtopic": "Hemostasis",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Normal blood clotting requires thirteen major _____, which except for factor III (tissue factor) and factor IV (calcium ion) are commonly referred to by Roman numerals.",
+    "choices": [
+      "clotting factors",
+      "anticoagulants",
+      "plasma expanders",
+      "agglutinins"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-15-039",
+    "subject": "anatomy_physiology",
+    "topic": "blood",
+    "subtopic": "Hemostasis",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Blood should only clot in response to injury: to prevent it from clotting inappropriately, _____ are also present in the blood plasma.",
+    "choices": [
+      "anticoagulants",
+      "procoagulants",
+      "agglutinins",
+      "plasma expanders"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-15-040",
+    "subject": "anatomy_physiology",
+    "topic": "blood",
+    "subtopic": "Hemostasis",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Vitamin _____, which is made by bacteria in the gut, is needed for the formation of several _____ and so is essential if blood is to clot normally.",
+    "choices": [
+      "K; clotting factors",
+      "D; clotting factors",
+      "K; erythrocytes",
+      "B12; platelets"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-15-041",
+    "subject": "anatomy_physiology",
+    "topic": "blood",
+    "subtopic": "Hemostasis",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Most procoagulants are present in the blood in a(n) _____ form.",
+    "choices": [
+      "inactive",
+      "active",
+      "crystalline",
+      "insoluble"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-15-042",
+    "subject": "anatomy_physiology",
+    "topic": "blood",
+    "subtopic": "Hemostasis",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The final, major steps in blood clotting are formation of _____, conversion of prothrombin to _____, and the formation of a(n) _____ mesh from fibrinogen in the plasma.",
+    "choices": [
+      "prothrombin activator; thrombin; fibrin",
+      "thrombin; prothrombin activator; fibrin",
+      "prothrombin activator; fibrinogen; thrombin",
+      "plasminogen; plasmin; fibrin"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-15-043",
+    "subject": "anatomy_physiology",
+    "topic": "blood",
+    "subtopic": "Hemostasis",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Prothrombin activator converts _____, which is an inactive enzyme, to _____, an active enzyme.",
+    "choices": [
+      "prothrombin; thrombin",
+      "thrombin; prothrombin",
+      "fibrinogen; fibrin",
+      "plasminogen; plasmin"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-15-044",
+    "subject": "anatomy_physiology",
+    "topic": "blood",
+    "subtopic": "Hemostasis",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The relatively small molecules of fibrinogen which are present in blood plasma are joined into long strands of _____ by _____, which together with calcium, also catalyzes the _____ of the strands.",
+    "choices": [
+      "fibrin; thrombin; crosslinking",
+      "fibrin; plasmin; dissolution",
+      "thrombin; fibrin; crosslinking",
+      "collagen; thrombin; retraction"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-15-045",
+    "subject": "anatomy_physiology",
+    "topic": "blood",
+    "subtopic": "Hemostasis",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Blood clotting may be initiated by either of two pathways: the _____ pathway is triggered by interactions between procoagulants and platelets, both of which are present in blood.",
+    "choices": [
+      "intrinsic",
+      "extrinsic",
+      "common",
+      "fibrinolytic"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-15-046",
+    "subject": "anatomy_physiology",
+    "topic": "blood",
+    "subtopic": "Hemostasis",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Blood clotting may be initiated by either of two pathways: the _____ pathway is triggered by _____ which is released by cells at the site of injury.",
+    "choices": [
+      "extrinsic; tissue factor",
+      "intrinsic; tissue factor",
+      "extrinsic; thrombin",
+      "common; collagen"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-15-047",
+    "subject": "anatomy_physiology",
+    "topic": "blood",
+    "subtopic": "Hemostasis",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The _____ pathway initiates blood clotting quickly because it has fewer steps than the _____ pathway.",
+    "choices": [
+      "extrinsic; intrinsic",
+      "intrinsic; extrinsic",
+      "common; intrinsic",
+      "extrinsic; common"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-15-048",
+    "subject": "anatomy_physiology",
+    "topic": "blood",
+    "subtopic": "Hemostasis",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The components of plasma that remain after a clot forms are called _____. Clotting factors are for the most part absent, and _____ (released by platelets during clotting to stimulate cell division in injured tissue) are present.",
+    "choices": [
+      "serum; growth factors",
+      "plasma; growth factors",
+      "serum; clotting factors",
+      "lymph; antibodies"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-15-049",
+    "subject": "anatomy_physiology",
+    "topic": "blood",
+    "subtopic": "Hemostasis",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Soon after the fibrin mesh forms, platelets begin pulling on it, squeezing the serum out of the clot. This process is called _____.",
+    "choices": [
+      "clot retraction",
+      "fibrinolysis",
+      "coagulation",
+      "agglutination"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-15-050",
+    "subject": "anatomy_physiology",
+    "topic": "blood",
+    "subtopic": "Hemostasis",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Blood clots contain a chemical called _____, which when activated by _____ which is released from surrounding, healthy cells, gradually dissolves the clot.",
+    "choices": [
+      "plasminogen; tissue plasminogen activator",
+      "plasmin; thrombin",
+      "fibrinogen; tissue plasminogen activator",
+      "plasminogen; prothrombin activator"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-15-051",
+    "subject": "anatomy_physiology",
+    "topic": "blood",
+    "subtopic": "Hemostasis",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "_____, when activated, forms plasmin: this enzyme dissolves unneeded clots in a process called _____.",
+    "choices": [
+      "plasminogen; fibrinolysis",
+      "fibrinogen; fibrinolysis",
+      "plasminogen; clot retraction",
+      "prothrombin; coagulation"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-15-052",
+    "subject": "anatomy_physiology",
+    "topic": "blood",
+    "subtopic": "Hemostasis",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Three general mechanisms prevent unwanted clot formation and the spreading of a clot to areas where it is not needed: _____ of clotting factors by blood flow, _____ of clotting factors by anticoagulants, and entrapment of _____ by the fibrin mesh.",
+    "choices": [
+      "dilution; inhibition; thrombin",
+      "concentration; activation; fibrinogen",
+      "dilution; inhibition; platelets",
+      "filtration; activation; thrombin"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-15-053",
+    "subject": "anatomy_physiology",
+    "topic": "blood",
+    "subtopic": "Hemostasis",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "A blood clot that develops in an unbroken blood vessel is called a(n) _____. It may or may not become large enough to block the vessel, causing tissue hypoxia and possibly tissue death.",
+    "choices": [
+      "thrombus",
+      "embolus",
+      "hematoma",
+      "aneurysm"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-15-054",
+    "subject": "anatomy_physiology",
+    "topic": "blood",
+    "subtopic": "Hemostasis",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "A clot that breaks free of its original site and travels through the bloodstream is called a(n) _____: if it wedges itself into a vessel too small for it to traverse, clogging it, it is called a(n) _____.",
+    "choices": [
+      "embolus; embolism",
+      "thrombus; thrombosis",
+      "embolus; thrombosis",
+      "thrombus; embolism"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-15-055",
+    "subject": "anatomy_physiology",
+    "topic": "blood",
+    "subtopic": "Hemostasis",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "_____ is a common, over-the-counter drug which inhibits thromboxane A2 formation and so interferes with blood clot formation (including those associated with thromboembolytic disorders).",
+    "choices": [
+      "aspirin",
+      "acetaminophen",
+      "heparin",
+      "warfarin"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-15-056",
+    "subject": "anatomy_physiology",
+    "topic": "blood",
+    "subtopic": "Hemostasis",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "_____ refer to the inability to form clots. _____ requiring clot formation occurs thousands of times each day during normal activity, and so such disorders are disabling or fatal.",
+    "choices": [
+      "bleeding disorders; microtrauma",
+      "thromboembolic disorders; microtrauma",
+      "bleeding disorders; hemolysis",
+      "anemias; inflammation"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-15-057",
+    "subject": "anatomy_physiology",
+    "topic": "blood",
+    "subtopic": "Hemostasis",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "A deficiency in circulating platelets ('_____'), failure of the liver to synthesize clotting factors, or a genetic defect in one or more of the clotting factors ('_____') all lead to bleeding disorders.",
+    "choices": [
+      "thrombocytopenia; hemophilia",
+      "thrombocytosis; hemophilia",
+      "thrombocytopenia; leukemia",
+      "hemophilia; thrombocytopenia"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-15-058",
+    "subject": "anatomy_physiology",
+    "topic": "blood",
+    "subtopic": "Hemostasis",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "There are roughly 275,000 _____ (which type of formed element?) in a microliter of blood.",
+    "choices": [
+      "platelets",
+      "erythrocytes",
+      "leukocytes",
+      "reticulocytes"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-15-059",
+    "subject": "anatomy_physiology",
+    "topic": "blood",
+    "subtopic": "Hemostasis",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Platelets are critical to the _____ process, forming the temporary seal when a blood vessel breaks.",
+    "choices": [
+      "clotting",
+      "phagocytic",
+      "inflammatory",
+      "immune"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-15-060",
+    "subject": "anatomy_physiology",
+    "topic": "blood",
+    "subtopic": "Red Blood Cells",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "_____, or red blood cells, are small cells that are biconcave in shape. They lack nuclei and most organelles. Their major function is to carry the oxygen-binding protein _____.",
+    "choices": [
+      "erythrocytes; hemoglobin",
+      "leukocytes; hemoglobin",
+      "erythrocytes; myoglobin",
+      "platelets; albumin"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-15-061",
+    "subject": "anatomy_physiology",
+    "topic": "blood",
+    "subtopic": "Red Blood Cells",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Hemoglobin derives its color from one of its parts: the molecule _____, which contains an atom of iron, is red. The rest of hemoglobin (the protein _____) is colorless.",
+    "choices": [
+      "heme; globin",
+      "globin; heme",
+      "iron; heme",
+      "bilirubin; globin"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-15-062",
+    "subject": "anatomy_physiology",
+    "topic": "blood",
+    "subtopic": "Red Blood Cells",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Hemoglobin is well-known for its ability to carry oxygen from the lungs to the tissues of the body, but on the return trip, it also carries about 20% of the _____ from the tissues of the body to the lungs.",
+    "choices": [
+      "carbon dioxide",
+      "nitrogen",
+      "glucose",
+      "urea"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-15-063",
+    "subject": "anatomy_physiology",
+    "topic": "blood",
+    "subtopic": "Red Blood Cells",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "If erythrocytes had mitochondria, they would use _____ and would have less to deliver to tissues of the body. Instead, they rely on _____ for energy.",
+    "choices": [
+      "oxygen; glycolysis",
+      "glucose; glycolysis",
+      "oxygen; the citric acid cycle",
+      "ATP; oxidative phosphorylation"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-15-064",
+    "subject": "anatomy_physiology",
+    "topic": "blood",
+    "subtopic": "Red Blood Cells",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Blood cell formation (_____) occurs in the _____.",
+    "choices": [
+      "hematopoiesis; red bone marrow",
+      "hemostasis; red bone marrow",
+      "hematopoiesis; spleen",
+      "erythropoiesis; liver"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-15-065",
+    "subject": "anatomy_physiology",
+    "topic": "blood",
+    "subtopic": "Red Blood Cells",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "All blood cells are descended from a single type of stem cell called a(n) _____, or _____. These stem cells divide, and some of their daughter cells become committed to forming specific types of blood cells.",
+    "choices": [
+      "hematopoietic stem cell; hemocytoblast",
+      "myeloid stem cell; myeloblast",
+      "lymphoid stem cell; lymphoblast",
+      "megakaryocyte; megakaryoblast"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-15-066",
+    "subject": "anatomy_physiology",
+    "topic": "blood",
+    "subtopic": "Red Blood Cells",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "_____ is the formation of erythrocytes.",
+    "choices": [
+      "erythropoiesis",
+      "leukopoiesis",
+      "hematopoiesis",
+      "thrombopoiesis"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-15-067",
+    "subject": "anatomy_physiology",
+    "topic": "blood",
+    "subtopic": "Red Blood Cells",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The formation of erythrocytes is controlled by the hormone _____, most of which is produced by the _____ in response to a low supply of oxygen.",
+    "choices": [
+      "erythropoietin; kidneys",
+      "erythropoietin; liver",
+      "thrombopoietin; kidneys",
+      "aldosterone; adrenal glands"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-15-068",
+    "subject": "anatomy_physiology",
+    "topic": "blood",
+    "subtopic": "Red Blood Cells",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "After a hematopoietic stem cell's descendent becomes committed to forming red blood cells, it begins to divide rapidly and fills with _____, which will be needed to synthesize hemoglobin.",
+    "choices": [
+      "ribosomes",
+      "mitochondria",
+      "lysosomes",
+      "Golgi apparatus"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-15-069",
+    "subject": "anatomy_physiology",
+    "topic": "blood",
+    "subtopic": "Red Blood Cells",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "After a cell which is destined to become an erythrocyte has accumulated enough hemoglobin to function, it shuts down and ejects the _____. At this stage, it is a functional but immature erythrocyte and is called a(n) _____.",
+    "choices": [
+      "nucleus; reticulocyte",
+      "nucleus; proerythroblast",
+      "mitochondria; reticulocyte",
+      "ribosomes; normoblast"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-15-070",
+    "subject": "anatomy_physiology",
+    "topic": "blood",
+    "subtopic": "Red Blood Cells",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Immature (but functional) erythrocytes normally make up _____% of the erythrocytes in the blood. Higher or lower numbers indicate a problem with the rate of erythrocyte formation.",
+    "choices": [
+      "1-2",
+      "10-15",
+      "25-30",
+      "45-50"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-15-071",
+    "subject": "anatomy_physiology",
+    "topic": "blood",
+    "subtopic": "Red Blood Cells",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "There are roughly 5 million _____ (which type of formed element?) in a microliter of blood.",
+    "choices": [
+      "erythrocytes",
+      "leukocytes",
+      "platelets",
+      "lymphocytes"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-15-072",
+    "subject": "anatomy_physiology",
+    "topic": "blood",
+    "subtopic": "Red Blood Cells",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "An insufficient number of functional erythrocytes in the blood is a(n) _____.",
+    "choices": [
+      "anemia",
+      "polycythemia",
+      "leukopenia",
+      "thrombocytopenia"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-15-073",
+    "subject": "anatomy_physiology",
+    "topic": "blood",
+    "subtopic": "Red Blood Cells",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "If there are too many erythrocytes in one's blood, then the blood will be _____. Consequences include clotting, stroke, or heart failure.",
+    "choices": [
+      "too thick (viscous)",
+      "too thin (watery)",
+      "too acidic",
+      "unable to clot"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-15-074",
+    "subject": "anatomy_physiology",
+    "topic": "blood",
+    "subtopic": "Red Blood Cells",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "An excess number of erythrocytes in the blood is a(n) _____.",
+    "choices": [
+      "polycythemia",
+      "anemia",
+      "leukemia",
+      "leukocytosis"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-15-075",
+    "subject": "anatomy_physiology",
+    "topic": "blood",
+    "subtopic": "Red Blood Cells",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Iron is required in the diet because it is needed to make _____ during erythropoiesis: however, too much iron is toxic.",
+    "choices": [
+      "heme",
+      "globin",
+      "bilirubin",
+      "erythropoietin"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-15-076",
+    "subject": "anatomy_physiology",
+    "topic": "blood",
+    "subtopic": "Red Blood Cells",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Deficiencies in vitamin B12, folic acid, or major deficiencies in protein or energy, will all lead to problems with _____ formation.",
+    "choices": [
+      "erythrocyte",
+      "platelet",
+      "leukocyte",
+      "plasma protein"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-15-077",
+    "subject": "anatomy_physiology",
+    "topic": "blood",
+    "subtopic": "Red Blood Cells",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Without nuclei or organelles, erythrocytes have no way to _____ damage.",
+    "choices": [
+      "repair",
+      "prevent",
+      "detect",
+      "tolerate"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-15-078",
+    "subject": "anatomy_physiology",
+    "topic": "blood",
+    "subtopic": "Red Blood Cells",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "As erythrocytes become old and damaged, they tend to become trapped in the smallest capillaries of the _____, where they are destroyed by _____. (This also occurs to a lesser extent in the liver and in bone marrow.)",
+    "choices": [
+      "spleen; macrophages",
+      "liver; macrophages",
+      "spleen; neutrophils",
+      "kidneys; lymphocytes"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-15-079",
+    "subject": "anatomy_physiology",
+    "topic": "blood",
+    "subtopic": "Red Blood Cells",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "When heme from old erythrocytes is broken down, the _____ is recycled by the body, while most of the remainder of the molecule is converted to a chemical called _____.",
+    "choices": [
+      "iron; bilirubin",
+      "iron; urobilinogen",
+      "globin; bilirubin",
+      "copper; bilirubin"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-15-080",
+    "subject": "anatomy_physiology",
+    "topic": "blood",
+    "subtopic": "Red Blood Cells",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Bilirubin is released into the blood, binds to _____, and then is transported to the liver where it is secreted into the intestine by the gallbladder, in _____.",
+    "choices": [
+      "albumin; bile",
+      "globulin; bile",
+      "albumin; urine",
+      "hemoglobin; lymph"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-15-081",
+    "subject": "anatomy_physiology",
+    "topic": "blood",
+    "subtopic": "Red Blood Cells",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Bilirubin is yellow, and if heme breakdown is excessive or if its excretion is impaired, the result is _____, a visible yellowing of the skin, whites of the eyes, etc.",
+    "choices": [
+      "jaundice",
+      "cyanosis",
+      "anemia",
+      "hematuria"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-15-082",
+    "subject": "anatomy_physiology",
+    "topic": "blood",
+    "subtopic": "Red Blood Cells",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The _____ convert reabsorbed urobilinogen into urobilin, a yellow pigment which gives urine its color.",
+    "choices": [
+      "kidneys",
+      "liver",
+      "spleen",
+      "intestines"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-15-083",
+    "subject": "anatomy_physiology",
+    "topic": "blood",
+    "subtopic": "Red Blood Cells",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Fetal blood cells form hemoglobin-F, which has a higher affinity for oxygen than adult hemoglobin, hemoglobin-A, allowing _____.",
+    "choices": [
+      "fetal blood to take up oxygen from maternal blood",
+      "maternal blood to take up oxygen from fetal blood",
+      "fetal blood to carry more carbon dioxide",
+      "fetal erythrocytes to live longer"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-15-084",
+    "subject": "anatomy_physiology",
+    "topic": "blood",
+    "subtopic": "White Blood Cells",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "_____ (white blood cells) are the only formed elements that have a nucleus and organelles - that is, that are true cells.",
+    "choices": [
+      "leukocytes",
+      "erythrocytes",
+      "platelets",
+      "reticulocytes"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-15-085",
+    "subject": "anatomy_physiology",
+    "topic": "blood",
+    "subtopic": "White Blood Cells",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Leukocytes are blood cells, but are also a part of the _____ system.",
+    "choices": [
+      "immune",
+      "endocrine",
+      "nervous",
+      "integumentary"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-15-086",
+    "subject": "anatomy_physiology",
+    "topic": "blood",
+    "subtopic": "White Blood Cells",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "There are two major classes of white blood cell: _____ and _____. They are named for the presence (or absence) of visible _____ (small grains) when the cells are stained with Wright's stain.",
+    "choices": [
+      "granulocytes; agranulocytes; granules",
+      "lymphocytes; monocytes; lobules",
+      "granulocytes; agranulocytes; nuclei",
+      "phagocytes; lymphocytes; vesicles"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-15-087",
+    "subject": "anatomy_physiology",
+    "topic": "blood",
+    "subtopic": "White Blood Cells",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "There are three types of granulocyte: _____, _____, and _____.",
+    "choices": [
+      "neutrophils; basophils; eosinophils",
+      "neutrophils; lymphocytes; monocytes",
+      "lymphocytes; monocytes; macrophages",
+      "eosinophils; monocytes; platelets"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-15-088",
+    "subject": "anatomy_physiology",
+    "topic": "blood",
+    "subtopic": "White Blood Cells",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Roughly one quarter of all leukocytes are _____. While some of these are phagocytic, others are not.",
+    "choices": [
+      "agranulocytes",
+      "granulocytes",
+      "erythrocytes",
+      "platelets"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-15-089",
+    "subject": "anatomy_physiology",
+    "topic": "blood",
+    "subtopic": "White Blood Cells",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "There are two types of agranulocyte: _____ and _____.",
+    "choices": [
+      "lymphocytes; monocytes",
+      "neutrophils; eosinophils",
+      "lymphocytes; basophils",
+      "monocytes; neutrophils"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-15-090",
+    "subject": "anatomy_physiology",
+    "topic": "blood",
+    "subtopic": "White Blood Cells",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "90% of all leukocytes are _____ or _____: the remaining three types account for 10% or less of total number of leukocytes.",
+    "choices": [
+      "neutrophils; lymphocytes",
+      "neutrophils; monocytes",
+      "lymphocytes; eosinophils",
+      "monocytes; basophils"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-15-091",
+    "subject": "anatomy_physiology",
+    "topic": "blood",
+    "subtopic": "White Blood Cells",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Neutrophils can be recognized by their nuclei, which generally have _____. These cells also take up both acidic and basic dyes, which results in a(n) _____ color.",
+    "choices": [
+      "three or more lobes; light purple",
+      "two lobes; deep red",
+      "a round shape; blue-gray",
+      "a U shape; silver"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-15-092",
+    "subject": "anatomy_physiology",
+    "topic": "blood",
+    "subtopic": "White Blood Cells",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The main function of neutrophils is to _____.",
+    "choices": [
+      "phagocytize bacteria",
+      "produce antibodies",
+      "release histamine",
+      "attack parasitic worms"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-15-093",
+    "subject": "anatomy_physiology",
+    "topic": "blood",
+    "subtopic": "White Blood Cells",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Neutrophils use reactive oxygen as weapons in a process called the _____.",
+    "choices": [
+      "respiratory burst",
+      "chemotaxis",
+      "diapedesis",
+      "degranulation"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-15-094",
+    "subject": "anatomy_physiology",
+    "topic": "blood",
+    "subtopic": "White Blood Cells",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Eosinophils can be recognized by their nuclei, which is generally _____. They also contain granules and nuclei which bind eosin, a(n) _____ dye. (Eosin binding is not unique to eosinophils, though: red blood cells and muscle fibers, to name two of many others, are also stained by eosin.)",
+    "choices": [
+      "bi-lobed; red",
+      "multi-lobed; purple",
+      "round; blue",
+      "kidney-shaped; silver"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-15-095",
+    "subject": "anatomy_physiology",
+    "topic": "blood",
+    "subtopic": "White Blood Cells",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Basophils release _____, which dilates blood vessels (and attracts other leukocytes) so that the immune system can reach and attack an invading organism.",
+    "choices": [
+      "histamine",
+      "heparin",
+      "serotonin",
+      "erythropoietin"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-15-096",
+    "subject": "anatomy_physiology",
+    "topic": "blood",
+    "subtopic": "White Blood Cells",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Lymphocytes can be recognized by their nuclei, which are _____, and by their cytoplasm, of which there is _____.",
+    "choices": [
+      "round; very little",
+      "lobed; abundant",
+      "U-shaped; abundant",
+      "bi-lobed; very little"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-15-097",
+    "subject": "anatomy_physiology",
+    "topic": "blood",
+    "subtopic": "White Blood Cells",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "_____ are agranulocytes which directly attack viral-infected and tumor cells.",
+    "choices": [
+      "T lymphocytes",
+      "B lymphocytes",
+      "monocytes",
+      "neutrophils"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-15-098",
+    "subject": "anatomy_physiology",
+    "topic": "blood",
+    "subtopic": "White Blood Cells",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "_____ are agranulocytes which differentiate into cells which produce antibodies.",
+    "choices": [
+      "B lymphocytes",
+      "T lymphocytes",
+      "monocytes",
+      "basophils"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-15-099",
+    "subject": "anatomy_physiology",
+    "topic": "blood",
+    "subtopic": "White Blood Cells",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Monocytes can be recognized by their size, by the _____ shape of their nucleus, and by the _____ in their cytoplasm.",
+    "choices": [
+      "U-shaped; absence of granules",
+      "round; abundant granules",
+      "multi-lobed; abundant granules",
+      "bi-lobed; absence of granules"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-15-100",
+    "subject": "anatomy_physiology",
+    "topic": "blood",
+    "subtopic": "White Blood Cells",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Monocytes are agranulocytes which become _____ ('large eaters'), cells with two important functions: eating invaders and activating lymphocytes so that they too can defend the body.",
+    "choices": [
+      "macrophages",
+      "plasma cells",
+      "neutrophils",
+      "mast cells"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-15-101",
+    "subject": "anatomy_physiology",
+    "topic": "blood",
+    "subtopic": "White Blood Cells",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "_____ is the formation of white blood cells.",
+    "choices": [
+      "leukopoiesis",
+      "erythropoiesis",
+      "hematopoiesis",
+      "thrombopoiesis"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-15-102",
+    "subject": "anatomy_physiology",
+    "topic": "blood",
+    "subtopic": "White Blood Cells",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The formation of white blood cells is primarily controlled by hormones released by _____ and _____.",
+    "choices": [
+      "macrophages; T lymphocytes",
+      "kidneys; liver",
+      "erythrocytes; platelets",
+      "neutrophils; B lymphocytes"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-15-103",
+    "subject": "anatomy_physiology",
+    "topic": "blood",
+    "subtopic": "White Blood Cells",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The hormones which stimulate the formation of white blood cells fall into two families: _____ and _____. (Chemical signals that cause cells to divide are called _____.)",
+    "choices": [
+      "interleukins; colony-stimulating factors; cytokines",
+      "erythropoietins; thrombopoietins; hormones",
+      "interferons; histamines; cytokines",
+      "interleukins; immunoglobulins; enzymes"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-15-104",
+    "subject": "anatomy_physiology",
+    "topic": "blood",
+    "subtopic": "White Blood Cells",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Most blood cells live for less than days or weeks, but monocytes may live for _____ and some lymphocytes live for _____.",
+    "choices": [
+      "months; years",
+      "days; weeks",
+      "hours; days",
+      "weeks; months"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-15-105",
+    "subject": "anatomy_physiology",
+    "topic": "blood",
+    "subtopic": "White Blood Cells",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "_____ is an abnormally low white blood cell count.",
+    "choices": [
+      "leukopenia",
+      "leukocytosis",
+      "leukemia",
+      "anemia"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-15-106",
+    "subject": "anatomy_physiology",
+    "topic": "blood",
+    "subtopic": "White Blood Cells",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "_____ refers to cancer in which an abnormal white blood cell fails to fully differentiate and begins to divide uncontrollably. Untreated, these cancers are always fatal.",
+    "choices": [
+      "leukemia",
+      "leukopenia",
+      "lymphoma",
+      "leukocytosis"
+    ],
+    "answer_index": 0
+  }
+]

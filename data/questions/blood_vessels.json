@@ -1,0 +1,3328 @@
+[
+  {
+    "id": "bio-anat-17-001",
+    "subject": "anatomy_physiology",
+    "topic": "blood_vessels",
+    "subtopic": "Aging: Cardiovascular System",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "For women, the risk of heart attack rises dramatically after _____.",
+    "choices": [
+      "menopause",
+      "puberty",
+      "a first pregnancy",
+      "age 30"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-17-002",
+    "subject": "anatomy_physiology",
+    "topic": "blood_vessels",
+    "subtopic": "Arteries and Veins",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "_____ carry blood away from the heart.",
+    "choices": [
+      "arteries",
+      "veins",
+      "capillaries",
+      "venules"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-17-003",
+    "subject": "anatomy_physiology",
+    "topic": "blood_vessels",
+    "subtopic": "Arteries and Veins",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "_____ carry blood toward the heart.",
+    "choices": [
+      "veins",
+      "arteries",
+      "capillaries",
+      "arterioles"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-17-004",
+    "subject": "anatomy_physiology",
+    "topic": "blood_vessels",
+    "subtopic": "Arteries and Veins",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "_____ are the smallest blood vessels, through the walls of which gases and nutrients are exchanged with tissues.",
+    "choices": [
+      "capillaries",
+      "arterioles",
+      "venules",
+      "metarterioles"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-17-005",
+    "subject": "anatomy_physiology",
+    "topic": "blood_vessels",
+    "subtopic": "Arteries and Veins",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "_____ are the walls of blood vessels, while _____ is the central space through which blood flows.",
+    "choices": [
+      "tunics; the lumen",
+      "the lumen; tunics",
+      "fasciae; the lumen",
+      "tunics; the adventitia"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-17-006",
+    "subject": "anatomy_physiology",
+    "topic": "blood_vessels",
+    "subtopic": "Arteries and Veins",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The innermost wall of the blood vessels is called the _____ or _____.",
+    "choices": [
+      "tunica interna; tunica intima",
+      "tunica externa; tunica adventitia",
+      "tunica media; tunica muscularis",
+      "tunica interna; tunica adventitia"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-17-007",
+    "subject": "anatomy_physiology",
+    "topic": "blood_vessels",
+    "subtopic": "Arteries and Veins",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The tunica intima consists of <which tissue type> _____, which is surrounded, in larger vessels, by a thin layer of connective tissue.",
+    "choices": [
+      "simple squamous epithelium",
+      "simple cuboidal epithelium",
+      "stratified squamous epithelium",
+      "transitional epithelium"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-17-008",
+    "subject": "anatomy_physiology",
+    "topic": "blood_vessels",
+    "subtopic": "Arteries and Veins",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "_____ is the middle tunic of blood vessels, and primarily consists of a mixture of _____ and _____.",
+    "choices": [
+      "tunica media; smooth muscle; elastin",
+      "tunica externa; collagen; elastin",
+      "tunica intima; endothelium; collagen",
+      "tunica media; skeletal muscle; collagen"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-17-009",
+    "subject": "anatomy_physiology",
+    "topic": "blood_vessels",
+    "subtopic": "Arteries and Veins",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The _____ (also called _____) refers to the outermost layer of the blood vessel wall.",
+    "choices": [
+      "tunica externa; tunica adventitia",
+      "tunica interna; tunica intima",
+      "tunica media; tunica muscularis",
+      "tunica externa; tunica intima"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-17-010",
+    "subject": "anatomy_physiology",
+    "topic": "blood_vessels",
+    "subtopic": "Arteries and Veins",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The outermost layer of blood vessels is composed mostly of _____, which anchor it to surrounding tissues.",
+    "choices": [
+      "loosely woven collagen fibers",
+      "elastic fibers",
+      "smooth muscle fibers",
+      "reticular fibers"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-17-011",
+    "subject": "anatomy_physiology",
+    "topic": "blood_vessels",
+    "subtopic": "Arteries and Veins",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "In larger vessels, the outermost layer is too far from the blood it carries to exchange gases or chemicals, and so they have their own blood supply: the _____.",
+    "choices": [
+      "vasa vasorum",
+      "nervi vasorum",
+      "vasa recta",
+      "venae cavae"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-17-012",
+    "subject": "anatomy_physiology",
+    "topic": "blood_vessels",
+    "subtopic": "Arteries and Veins",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Nerve fibers, lymphatic vessels, and in large veins, elastin fibers are found in the _____ of the blood vessels.",
+    "choices": [
+      "tunica externa OR tunica adventitia",
+      "tunica media",
+      "tunica intima",
+      "endothelium"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-17-013",
+    "subject": "anatomy_physiology",
+    "topic": "blood_vessels",
+    "subtopic": "Arteries and Veins",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Arteries are classified into three types: _____, _____ and _____.",
+    "choices": [
+      "elastic artery; muscular artery; arteriole",
+      "elastic artery; muscular artery; venule",
+      "conducting artery; capillary; arteriole",
+      "large artery; medium artery; capillary"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-17-014",
+    "subject": "anatomy_physiology",
+    "topic": "blood_vessels",
+    "subtopic": "Arteries and Veins",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "_____ lie between arterioles to venules.",
+    "choices": [
+      "capillaries",
+      "elastic arteries",
+      "muscular arteries",
+      "venous sinuses"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-17-015",
+    "subject": "anatomy_physiology",
+    "topic": "blood_vessels",
+    "subtopic": "Arteries and Veins",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "_____ arteries are the thick-walled arteries nearest the heart, and function as shock-absorbers to minimize the difference between _____ and _____ blood pressure.",
+    "choices": [
+      "elastic; systolic; diastolic",
+      "muscular; systolic; diastolic",
+      "elastic; pulse; mean arterial",
+      "muscular; venous; arterial"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-17-016",
+    "subject": "anatomy_physiology",
+    "topic": "blood_vessels",
+    "subtopic": "Arteries and Veins",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Elastic arteries are sometimes referred to as _____.",
+    "choices": [
+      "conducting arteries",
+      "distributing arteries",
+      "resistance vessels",
+      "capacitance vessels"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-17-017",
+    "subject": "anatomy_physiology",
+    "topic": "blood_vessels",
+    "subtopic": "Arteries and Veins",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Muscular arteries have more _____ and less _____ than elastic arteries.",
+    "choices": [
+      "smooth muscle; elastic tissue",
+      "elastic tissue; smooth muscle",
+      "collagen; smooth muscle",
+      "endothelium; collagen"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-17-018",
+    "subject": "anatomy_physiology",
+    "topic": "blood_vessels",
+    "subtopic": "Arteries and Veins",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The purpose of muscular arteries is to _____.",
+    "choices": [
+      "distribute blood",
+      "absorb pressure surges",
+      "exchange nutrients with tissues",
+      "return blood to the heart"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-17-019",
+    "subject": "anatomy_physiology",
+    "topic": "blood_vessels",
+    "subtopic": "Arteries and Veins",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Another name for muscular arteries is _____.",
+    "choices": [
+      "distributing arteries",
+      "conducting arteries",
+      "resistance vessels",
+      "exchange vessels"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-17-020",
+    "subject": "anatomy_physiology",
+    "topic": "blood_vessels",
+    "subtopic": "Arteries and Veins",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "_____, also called _____, are the smallest arteries.",
+    "choices": [
+      "arterioles; resistance vessels",
+      "venules; capacitance vessels",
+      "capillaries; exchange vessels",
+      "arterioles; conducting vessels"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-17-021",
+    "subject": "anatomy_physiology",
+    "topic": "blood_vessels",
+    "subtopic": "Arteries and Veins",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "_____ refers to the narrowing of the lumen of blood vessels due to contraction of smooth muscles in the blood vessel walls, while _____ refers to the widening of the lumen due to their relaxation.",
+    "choices": [
+      "vasoconstriction; vasodilation",
+      "vasodilation; vasoconstriction",
+      "vasomotion; vasodilation",
+      "vasoconstriction; vasomotion"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-17-022",
+    "subject": "anatomy_physiology",
+    "topic": "blood_vessels",
+    "subtopic": "Arteries and Veins",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Capillaries are so small that in some cases a(n) _____ spans the entire circumference of the capillary wall, and RBCs must _____ to travel through.",
+    "choices": [
+      "single cell; deform slightly",
+      "single cell; travel in pairs",
+      "few cells; deform slightly",
+      "single cell; pass through fenestrations"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-17-023",
+    "subject": "anatomy_physiology",
+    "topic": "blood_vessels",
+    "subtopic": "Arteries and Veins",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "In general, nutrient and waste exchange and gas exchange occurs by _____, but there are exceptions.",
+    "choices": [
+      "diffusion across capillary walls",
+      "active transport across capillary walls",
+      "filtration through fenestrations",
+      "vesicular transport (transcytosis)"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-17-024",
+    "subject": "anatomy_physiology",
+    "topic": "blood_vessels",
+    "subtopic": "Arteries and Veins",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The avascular cornea and lens of the eye receive nutrients and exchange gases with the _____.",
+    "choices": [
+      "aqueous humor",
+      "vitreous humor",
+      "lacrimal fluid",
+      "perilymph"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-17-025",
+    "subject": "anatomy_physiology",
+    "topic": "blood_vessels",
+    "subtopic": "Arteries and Veins",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "_____ capillaries are the most common.",
+    "choices": [
+      "continuous",
+      "fenestrated",
+      "sinusoidal",
+      "lymphatic"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-17-026",
+    "subject": "anatomy_physiology",
+    "topic": "blood_vessels",
+    "subtopic": "Arteries and Veins",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Endothelial cells in continuous capillaries are joined together by ___________ , and are separated only by rare gaps called intercellular clefts which allow fluid and very small solutes to pass.",
+    "choices": [
+      "tight junctions",
+      "gap junctions",
+      "desmosomes"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-17-027",
+    "subject": "anatomy_physiology",
+    "topic": "blood_vessels",
+    "subtopic": "Arteries and Veins",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Continuous capillaries in the brain are unique in that they lack _____. As a result, even fluids and very small solutes _____.",
+    "choices": [
+      "intercellular clefts; cannot cross the capillary wall",
+      "fenestrations; cannot cross the capillary wall",
+      "intercellular clefts; cross the capillary wall freely",
+      "tight junctions; cross the capillary wall freely"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-17-028",
+    "subject": "anatomy_physiology",
+    "topic": "blood_vessels",
+    "subtopic": "Arteries and Veins",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "_____ capillaries are found in the small intestine and are needed to absorb _____.",
+    "choices": [
+      "fenestrated; nutrients from digested foods",
+      "continuous; nutrients from digested foods",
+      "sinusoidal; nutrients from digested foods",
+      "fenestrated; plasma proteins"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-17-029",
+    "subject": "anatomy_physiology",
+    "topic": "blood_vessels",
+    "subtopic": "Arteries and Veins",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "_____ capillaries are present in the kidneys to allow filtration of blood plasma.",
+    "choices": [
+      "fenestrated",
+      "continuous",
+      "sinusoidal",
+      "lymphatic"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-17-030",
+    "subject": "anatomy_physiology",
+    "topic": "blood_vessels",
+    "subtopic": "Arteries and Veins",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "_____ are extremely leaky capillaries through which even blood cells may sometimes pass. (They are often simply referred to as _____.)",
+    "choices": [
+      "sinusoidal capillaries; sinusoids",
+      "fenestrated capillaries; fenestrae",
+      "continuous capillaries; clefts",
+      "sinusoidal capillaries; fenestrae"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-17-031",
+    "subject": "anatomy_physiology",
+    "topic": "blood_vessels",
+    "subtopic": "Arteries and Veins",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "In the liver, some capillaries have walls which are partially formed by large macrophages called _____. These capillaries are a type of _____.",
+    "choices": [
+      "Kupffer cells; sinusoid",
+      "Kupffer cells; fenestrated capillary",
+      "microglia; sinusoid",
+      "hepatocytes; continuous capillary"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-17-032",
+    "subject": "anatomy_physiology",
+    "topic": "blood_vessels",
+    "subtopic": "Arteries and Veins",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The blood vessel that is structurally intermediate to an arteriole and a capillary is called a(n) _____.",
+    "choices": [
+      "metarteriole",
+      "thoroughfare channel",
+      "venule",
+      "precapillary sphincter"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-17-033",
+    "subject": "anatomy_physiology",
+    "topic": "blood_vessels",
+    "subtopic": "Arteries and Veins",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "From the point at which a capillary branches off from a metarteriole until it reaches the venule, the blood vessel conducting blood from the arteriole to the venule even when the capillary bed is not in use is called a(n) _____.",
+    "choices": [
+      "thoroughfare channel",
+      "metarteriole",
+      "arteriovenous anastomosis",
+      "collateral artery"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-17-034",
+    "subject": "anatomy_physiology",
+    "topic": "blood_vessels",
+    "subtopic": "Arteries and Veins",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Whether or not blood can leave a thoroughfare channel and enter the capillaries which make up the _____ depends on whether or not the _____ are open.",
+    "choices": [
+      "capillary bed; precapillary sphincters",
+      "capillary bed; venous valves",
+      "sinusoid; precapillary sphincters",
+      "vasa vasorum; precapillary sphincters"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-17-035",
+    "subject": "anatomy_physiology",
+    "topic": "blood_vessels",
+    "subtopic": "Arteries and Veins",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Precapillary sphincters are made of _____.",
+    "choices": [
+      "smooth muscle",
+      "skeletal muscle",
+      "elastic fibers",
+      "endothelium"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-17-036",
+    "subject": "anatomy_physiology",
+    "topic": "blood_vessels",
+    "subtopic": "Arteries and Veins",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The smallest venules are the _____ venules.",
+    "choices": [
+      "post-capillary",
+      "muscular",
+      "collecting",
+      "sinusoidal"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-17-037",
+    "subject": "anatomy_physiology",
+    "topic": "blood_vessels",
+    "subtopic": "Arteries and Veins",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Veins, especially those of the limbs, include _____ to prevent blood from flowing backwards.",
+    "choices": [
+      "valves",
+      "sphincters",
+      "anastomoses",
+      "vasa vasorum"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-17-038",
+    "subject": "anatomy_physiology",
+    "topic": "blood_vessels",
+    "subtopic": "Arteries and Veins",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Varicose veins are veins which distend due to damage to their _____.",
+    "choices": [
+      "valves",
+      "precapillary sphincters",
+      "vasa vasorum",
+      "tunica intima"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-17-039",
+    "subject": "anatomy_physiology",
+    "topic": "blood_vessels",
+    "subtopic": "Arteries and Veins",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Much of the structural integrity of veins is maintained by _____, which is why the valves of surface veins are more often damaged than those of deep veins.",
+    "choices": [
+      "surrounding tissue",
+      "the tunica media",
+      "elastic fibers",
+      "the vasa vasorum"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-17-040",
+    "subject": "anatomy_physiology",
+    "topic": "blood_vessels",
+    "subtopic": "Arteries and Veins",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "_____ are low pressure channels which are not, structurally, typical veins, into which venous blood drains prior to entering true veins.",
+    "choices": [
+      "venous sinuses",
+      "venous anastomoses",
+      "collecting venules",
+      "sinusoids"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-17-041",
+    "subject": "anatomy_physiology",
+    "topic": "blood_vessels",
+    "subtopic": "Arteries and Veins",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "_____ are interconnections between blood vessels which allow blood to have multiple paths of flow.",
+    "choices": [
+      "anastomoses",
+      "venous sinuses",
+      "thoroughfare channels",
+      "vasa vasorum"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-17-042",
+    "subject": "anatomy_physiology",
+    "topic": "blood_vessels",
+    "subtopic": "Arteries and Veins",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The pulse can be felt above the shoulders at the _____, _____ and _____.",
+    "choices": [
+      "common carotid artery; facial artery; temporal artery",
+      "common carotid artery; facial artery; brachial artery",
+      "vertebral artery; facial artery; temporal artery",
+      "subclavian artery; radial artery; temporal artery"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-17-043",
+    "subject": "anatomy_physiology",
+    "topic": "blood_vessels",
+    "subtopic": "Arteries and Veins",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The pulse in the temporal artery can be felt _____.",
+    "choices": [
+      "just above the zygomatic arch",
+      "just below the mandible",
+      "anterior to the sternocleidomastoid",
+      "at the mastoid process"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-17-044",
+    "subject": "anatomy_physiology",
+    "topic": "blood_vessels",
+    "subtopic": "Arteries and Veins",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The pulse due to the common carotid artery can be felt _____ muscle, at the vertical midline of the _____.",
+    "choices": [
+      "just anterior to the sternocleidomastoid; neck",
+      "just posterior to the sternocleidomastoid; neck",
+      "just anterior to the trapezius; neck",
+      "just anterior to the masseter; face"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-17-045",
+    "subject": "anatomy_physiology",
+    "topic": "blood_vessels",
+    "subtopic": "Arteries and Veins",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The pulse in the facial artery can sometimes be felt _____.",
+    "choices": [
+      "centrally on the lateral aspect of the mandible",
+      "just above the zygomatic arch",
+      "at the temple",
+      "at the vertical midline of the neck"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-17-046",
+    "subject": "anatomy_physiology",
+    "topic": "blood_vessels",
+    "subtopic": "Arteries and Veins",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The pulse can sometimes be felt _____ due to the axillary artery.",
+    "choices": [
+      "under the arm",
+      "in the antecubital region",
+      "on the anterior of the wrist",
+      "at the back of the elbow"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-17-047",
+    "subject": "anatomy_physiology",
+    "topic": "blood_vessels",
+    "subtopic": "Arteries and Veins",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "In the arm, the pulse can sometimes be felt _____ due to the brachial artery.",
+    "choices": [
+      "in the antecubital region",
+      "under the arm",
+      "on the anterior of the wrist",
+      "at the back of the knee"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-17-048",
+    "subject": "anatomy_physiology",
+    "topic": "blood_vessels",
+    "subtopic": "Arteries and Veins",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "In the arm, the pulse can be felt _____ due to the radial artery.",
+    "choices": [
+      "on the anterior of the wrist",
+      "in the antecubital region",
+      "under the arm",
+      "on the posterior of the wrist"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-17-049",
+    "subject": "anatomy_physiology",
+    "topic": "blood_vessels",
+    "subtopic": "Arteries and Veins",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Below the waist, the pulse can sometimes be felt _____ due to the femoral artery.",
+    "choices": [
+      "in the groin",
+      "at the back of the bent knee",
+      "in the ankle, posterior to the medial malleolus",
+      "on the front of the ankle"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-17-050",
+    "subject": "anatomy_physiology",
+    "topic": "blood_vessels",
+    "subtopic": "Arteries and Veins",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Below the waist, the pulse sometimes can be felt _____ due to the popliteal artery.",
+    "choices": [
+      "at the back of the bent knee",
+      "in the groin",
+      "posterior to the medial malleolus",
+      "on the front of the ankle"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-17-051",
+    "subject": "anatomy_physiology",
+    "topic": "blood_vessels",
+    "subtopic": "Arteries and Veins",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Below the waist, the pulse can sometimes be felt _____, due to the posterior tibial artery.",
+    "choices": [
+      "in the ankle, posterior to the medial malleolus",
+      "on the front of the ankle",
+      "at the back of the bent knee",
+      "in the groin"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-17-052",
+    "subject": "anatomy_physiology",
+    "topic": "blood_vessels",
+    "subtopic": "Arteries and Veins",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Below the waist, the pulse can be felt at the _____ due to the dorsalis pedis artery.",
+    "choices": [
+      "front of the ankle",
+      "back of the ankle",
+      "groin",
+      "back of the knee"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-17-053",
+    "subject": "anatomy_physiology",
+    "topic": "blood_vessels",
+    "subtopic": "Arteries and Veins",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "In addition to their utility in determining heart rate, pulse points are also _____ which allow blood flow to the region they serve to be stopped in the event of injury.",
+    "choices": [
+      "pressure points",
+      "trigger points",
+      "anastomoses",
+      "baroreceptor sites"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-17-054",
+    "subject": "anatomy_physiology",
+    "topic": "blood_vessels",
+    "subtopic": "Arteries and Veins",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Nutrients and gases move across the capillary walls by _____.",
+    "choices": [
+      "diffusion",
+      "active transport",
+      "filtration",
+      "endocytosis"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-17-055",
+    "subject": "anatomy_physiology",
+    "topic": "blood_vessels",
+    "subtopic": "Blood Pressure & Resistance",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "_____ is the volume of blood flowing through a region in any given minute.",
+    "choices": [
+      "blood flow (F)",
+      "blood pressure (P)",
+      "cardiac output (CO)",
+      "peripheral resistance (R)"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-17-056",
+    "subject": "anatomy_physiology",
+    "topic": "blood_vessels",
+    "subtopic": "Blood Pressure & Resistance",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Since the heart supplies the entire body, blood flow to the entire body is simply another phrase to describe _____, and resistance refers to _____ or _____ resistance.",
+    "choices": [
+      "cardiac output; systemic; peripheral",
+      "stroke volume; systemic; peripheral",
+      "cardiac output; pulmonary; vascular",
+      "venous return; total; peripheral"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-17-057",
+    "subject": "anatomy_physiology",
+    "topic": "blood_vessels",
+    "subtopic": "Blood Pressure & Resistance",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "_____ is measured by determining the amount of pressure that must be applied in order to prevent blood flow.",
+    "choices": [
+      "blood pressure (P)",
+      "blood flow (F)",
+      "resistance (R)",
+      "cardiac output (CO)"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-17-058",
+    "subject": "anatomy_physiology",
+    "topic": "blood_vessels",
+    "subtopic": "Blood Pressure & Resistance",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Unless otherwise noted, the term 'blood pressure' refers to the blood pressure in the _____.",
+    "choices": [
+      "largest arteries near the heart",
+      "capillaries",
+      "largest veins near the heart",
+      "pulmonary arteries"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-17-059",
+    "subject": "anatomy_physiology",
+    "topic": "blood_vessels",
+    "subtopic": "Blood Pressure & Resistance",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "_____ is the amount of friction blood encounters as it moves through the body.",
+    "choices": [
+      "resistance (R)",
+      "blood pressure (P)",
+      "blood flow (F)",
+      "viscosity"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-17-060",
+    "subject": "anatomy_physiology",
+    "topic": "blood_vessels",
+    "subtopic": "Blood Pressure & Resistance",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The three sources of resistance are _____, _____ and _____.",
+    "choices": [
+      "blood viscosity; vessel length; vessel diameter",
+      "blood viscosity; vessel length; heart rate",
+      "blood volume; vessel length; vessel diameter",
+      "hematocrit; stroke volume; vessel diameter"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-17-061",
+    "subject": "anatomy_physiology",
+    "topic": "blood_vessels",
+    "subtopic": "Blood Pressure & Resistance",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Since the resistance to blood flow is a function of _____, gaining weight increases resistance.",
+    "choices": [
+      "the distance that the blood must travel",
+      "blood viscosity",
+      "vessel diameter",
+      "heart rate"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-17-062",
+    "subject": "anatomy_physiology",
+    "topic": "blood_vessels",
+    "subtopic": "Blood Pressure & Resistance",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Changes in blood pressure due to environmental shifts are controlled by altering the _____.",
+    "choices": [
+      "blood vessel diameter",
+      "blood viscosity",
+      "blood vessel length",
+      "blood volume"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-17-063",
+    "subject": "anatomy_physiology",
+    "topic": "blood_vessels",
+    "subtopic": "Blood Pressure & Resistance",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The change in pressure between two points in the circulatory system is determined simply by subtracting _____ from _____.",
+    "choices": [
+      "pressure at the second point; pressure at the first point",
+      "pressure at the first point; pressure at the second point",
+      "resistance; pressure at the first point",
+      "blood flow; pressure at the second point"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-17-064",
+    "subject": "anatomy_physiology",
+    "topic": "blood_vessels",
+    "subtopic": "Blood Pressure & Resistance",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Blood leaving the heart causes the nearby arteries to _____. As the heart enters diastole, the nearby arteries _____ due to their _____.",
+    "choices": [
+      "stretch; recoil; elasticity",
+      "recoil; stretch; elasticity",
+      "stretch; constrict; smooth muscle",
+      "dilate; recoil; contractility"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-17-065",
+    "subject": "anatomy_physiology",
+    "topic": "blood_vessels",
+    "subtopic": "Blood Pressure & Resistance",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The reason blood keeps flowing even during ventricular diastole is that _____.",
+    "choices": [
+      "the distended arteries recoil, forcing blood forward",
+      "the atria contract during ventricular diastole",
+      "venous valves push blood forward",
+      "the capillaries actively pump blood"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-17-066",
+    "subject": "anatomy_physiology",
+    "topic": "blood_vessels",
+    "subtopic": "Blood Pressure & Resistance",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The blood pressure during the contraction of the ventricles is the _____ pressure, and is normally _____ in a healthy adult.",
+    "choices": [
+      "systolic; 120 mm Hg",
+      "diastolic; 80 mm Hg",
+      "systolic; 80 mm Hg",
+      "diastolic; 120 mm Hg"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-17-067",
+    "subject": "anatomy_physiology",
+    "topic": "blood_vessels",
+    "subtopic": "Blood Pressure & Resistance",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The blood pressure during the relaxation of the ventricles is the _____ pressure, and is normally _____ in a healthy adult.",
+    "choices": [
+      "diastolic; 70 - 80 mm Hg",
+      "systolic; 70 - 80 mm Hg",
+      "diastolic; 120 mm Hg",
+      "systolic; 120 mm Hg"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-17-068",
+    "subject": "anatomy_physiology",
+    "topic": "blood_vessels",
+    "subtopic": "Blood Pressure & Resistance",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "_____ is chronically increased by arteriosclerosis because the arteries do not distend during ventricular systole, and thus store no energy to propel the blood during _____.",
+    "choices": [
+      "pulse pressure; ventricular diastole",
+      "mean arterial pressure; ventricular diastole",
+      "pulse pressure; ventricular systole",
+      "diastolic pressure; atrial systole"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-17-069",
+    "subject": "anatomy_physiology",
+    "topic": "blood_vessels",
+    "subtopic": "Blood Pressure & Resistance",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The _____ is the average pressure that propels the blood through the tissue.",
+    "choices": [
+      "mean arterial pressure; MAP",
+      "pulse pressure; PP",
+      "systolic pressure; SP",
+      "diastolic pressure; DP"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-17-070",
+    "subject": "anatomy_physiology",
+    "topic": "blood_vessels",
+    "subtopic": "Blood Pressure & Resistance",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Blood pressure in capillaries is _____, because although each capillary is small, the cross sectional area through all capillaries as a group is _____.",
+    "choices": [
+      "low; large",
+      "high; small",
+      "low; small",
+      "high; large"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-17-071",
+    "subject": "anatomy_physiology",
+    "topic": "blood_vessels",
+    "subtopic": "Blood Pressure & Resistance",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Two factors besides the blood pressure generated by the heart promote return of the blood to the heart: _____ and _____. Both of these _____, pushing blood through the one-way valves and moving it toward the heart.",
+    "choices": [
+      "respiration; muscular contraction; squeeze the veins",
+      "respiration; muscular contraction; dilate the arteries",
+      "gravity; muscular contraction; squeeze the veins",
+      "respiration; venous valves; squeeze the arteries"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-17-072",
+    "subject": "anatomy_physiology",
+    "topic": "blood_vessels",
+    "subtopic": "Blood Pressure & Resistance",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The effects of respiration and muscular contraction on the heart are referred to as the _____ and _____, respectively.",
+    "choices": [
+      "respiratory pump; muscular pump",
+      "muscular pump; respiratory pump",
+      "thoracic pump; cardiac pump",
+      "respiratory pump; venous pump"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-17-073",
+    "subject": "anatomy_physiology",
+    "topic": "blood_vessels",
+    "subtopic": "Blood Pressure & Resistance",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "If the blood volume were 0, the blood pressure would be _____. As blood volume increases, _____.",
+    "choices": [
+      "zero; so does blood pressure",
+      "zero; blood pressure falls",
+      "maximal; so does blood pressure",
+      "unchanged; blood pressure falls"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-17-074",
+    "subject": "anatomy_physiology",
+    "topic": "blood_vessels",
+    "subtopic": "Blood Pressure & Resistance",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Blood pressure is measured by using a(n) _____.",
+    "choices": [
+      "sphygmomanometer",
+      "stethoscope",
+      "spirometer",
+      "electrocardiograph"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-17-075",
+    "subject": "anatomy_physiology",
+    "topic": "blood_vessels",
+    "subtopic": "Blood Pressure & Resistance",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "_____ means 'listening to the bodily sounds.'",
+    "choices": [
+      "auscultation",
+      "palpation",
+      "percussion",
+      "inspection"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-17-076",
+    "subject": "anatomy_physiology",
+    "topic": "blood_vessels",
+    "subtopic": "Blood Pressure & Resistance",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Sounds heard through the stethoscope after a period of silence during a blood pressure determination are due to the _____. This is the _____ pressure.",
+    "choices": [
+      "blood spurting into the constricted artery; systolic",
+      "blood spurting into the constricted artery; diastolic",
+      "closing of the semilunar valves; systolic",
+      "closing of the atrioventricular valves; diastolic"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-17-077",
+    "subject": "anatomy_physiology",
+    "topic": "blood_vessels",
+    "subtopic": "Blood Pressure & Resistance",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "As the heartbeat forces blood past the blood pressure cuff and into the constricted arteries, the sounds that are heard using a stethoscope are called the _____.",
+    "choices": [
+      "sounds of Korotkoff",
+      "heart murmurs",
+      "bruits",
+      "lub-dub heart sounds"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-17-078",
+    "subject": "anatomy_physiology",
+    "topic": "blood_vessels",
+    "subtopic": "Blood Pressure & Resistance",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "During a blood pressure determination, the point at which sounds of blood flow can no longer be heard during the release of pressure from the cuff corresponds to the _____.",
+    "choices": [
+      "diastolic pressure",
+      "systolic pressure",
+      "pulse pressure",
+      "mean arterial pressure"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-17-079",
+    "subject": "anatomy_physiology",
+    "topic": "blood_vessels",
+    "subtopic": "Blood Pressure & Resistance",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "_____ is a sudden drop in blood pressure due to a change in posture to an erect position.",
+    "choices": [
+      "orthostatic hypotension",
+      "chronic hypotension",
+      "essential hypertension",
+      "secondary hypertension"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-17-080",
+    "subject": "anatomy_physiology",
+    "topic": "blood_vessels",
+    "subtopic": "Blood Pressure & Resistance",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Nutritional deficits or diseases which cause a decrease in blood viscosity cause _____.",
+    "choices": [
+      "chronic hypotension",
+      "orthostatic hypotension",
+      "essential hypertension",
+      "secondary hypertension"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-17-081",
+    "subject": "anatomy_physiology",
+    "topic": "blood_vessels",
+    "subtopic": "Blood Pressure & Resistance",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Blood loss causes blood pressure to _____.",
+    "choices": [
+      "decrease",
+      "increase",
+      "remain unchanged",
+      "oscillate"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-17-082",
+    "subject": "anatomy_physiology",
+    "topic": "blood_vessels",
+    "subtopic": "Blood Pressure & Resistance",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "_____, the most common type, is a chronic elevation in blood pressure with no apparent cause.",
+    "choices": [
+      "essential (primary) hypertension",
+      "secondary hypertension",
+      "orthostatic hypotension",
+      "malignant hypertension"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-17-083",
+    "subject": "anatomy_physiology",
+    "topic": "blood_vessels",
+    "subtopic": "Blood Pressure & Resistance",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "_____ forces fluid out of blood vessels and into the surrounding tissue.",
+    "choices": [
+      "hydrostatic pressure",
+      "osmotic pressure",
+      "oncotic pressure",
+      "net filtration pressure"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-17-084",
+    "subject": "anatomy_physiology",
+    "topic": "blood_vessels",
+    "subtopic": "Blood Pressure & Resistance",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "_____ is the main force causing fluid to move into blood vessels from the surrounding tissue, and opposing the tendency of fluid to leave the blood vessels.",
+    "choices": [
+      "osmotic pressure",
+      "hydrostatic pressure",
+      "blood pressure",
+      "venous pressure"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-17-085",
+    "subject": "anatomy_physiology",
+    "topic": "blood_vessels",
+    "subtopic": "Blood Pressure & Resistance",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Osmotic pressure across capillary walls is due to _____ that are colloidally dispersed.",
+    "choices": [
+      "large molecules",
+      "small ions",
+      "glucose molecules",
+      "dissolved gases"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-17-086",
+    "subject": "anatomy_physiology",
+    "topic": "blood_vessels",
+    "subtopic": "Blood Pressure & Resistance",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Because the hydrostatic pressure is due to blood pressure, it _____ as the distance from the heart increases.",
+    "choices": [
+      "decreases",
+      "increases",
+      "remains constant",
+      "oscillates"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-17-087",
+    "subject": "anatomy_physiology",
+    "topic": "blood_vessels",
+    "subtopic": "Blood Pressure & Resistance",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Whether fluid will leave or enter the capillary is determined by the _____ pressure.",
+    "choices": [
+      "net filtration",
+      "hydrostatic",
+      "osmotic",
+      "mean arterial"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-17-088",
+    "subject": "anatomy_physiology",
+    "topic": "blood_vessels",
+    "subtopic": "Blood Pressure & Resistance",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Fluid that exits the bloodstream to enter the interstitial space is eventually returned to it by the _____ system.",
+    "choices": [
+      "lymphatic",
+      "venous",
+      "arterial",
+      "urinary"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-17-089",
+    "subject": "anatomy_physiology",
+    "topic": "blood_vessels",
+    "subtopic": "Blood Pressure & Resistance",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "_____ refers a condition in which blood vessels are inadequately filled (pressure is too low) and blood cannot circulate.",
+    "choices": [
+      "shock",
+      "hypertension",
+      "ischemia",
+      "edema"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-17-090",
+    "subject": "anatomy_physiology",
+    "topic": "blood_vessels",
+    "subtopic": "Blood Pressure & Resistance",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "If blood pressure falls too low, it reaches the _____, at which point there is not enough pressure to keep the vessels open and they collapse, stopping blood flow.",
+    "choices": [
+      "critical closing pressure",
+      "diastolic pressure",
+      "mean arterial pressure",
+      "venous pressure"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-17-091",
+    "subject": "anatomy_physiology",
+    "topic": "blood_vessels",
+    "subtopic": "Blood Pressure & Resistance",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Shock due to blood loss is _____ shock.",
+    "choices": [
+      "hypovolemic",
+      "vascular",
+      "cardiogenic",
+      "neurogenic"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-17-092",
+    "subject": "anatomy_physiology",
+    "topic": "blood_vessels",
+    "subtopic": "Blood Pressure & Resistance",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Shock caused by excessive dilation of the blood vessels is _____ shock.",
+    "choices": [
+      "vascular",
+      "hypovolemic",
+      "cardiogenic",
+      "obstructive"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-17-093",
+    "subject": "anatomy_physiology",
+    "topic": "blood_vessels",
+    "subtopic": "Blood Pressure & Resistance",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "_____ shock is a subtype of vascular shock which is due to a severe allergic reaction in which histamine is the agent causing the vasodilation.",
+    "choices": [
+      "anaphylactic",
+      "septic",
+      "neurogenic",
+      "cardiogenic"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-17-094",
+    "subject": "anatomy_physiology",
+    "topic": "blood_vessels",
+    "subtopic": "Blood Pressure & Resistance",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "_____ shock is a subtype of vascular shock due to toxins released by bacteria during a severe systemic infection.",
+    "choices": [
+      "septic",
+      "anaphylactic",
+      "neurogenic",
+      "hypovolemic"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-17-095",
+    "subject": "anatomy_physiology",
+    "topic": "blood_vessels",
+    "subtopic": "Blood Pressure & Resistance",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "_____ shock is a subtype of vascular shock due to failure of neural control.",
+    "choices": [
+      "neurogenic",
+      "septic",
+      "anaphylactic",
+      "cardiogenic"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-17-096",
+    "subject": "anatomy_physiology",
+    "topic": "blood_vessels",
+    "subtopic": "Blood Pressure & Resistance",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "_____ shock is due to the inability of the heart to sustain output.",
+    "choices": [
+      "cardiogenic",
+      "hypovolemic",
+      "vascular",
+      "neurogenic"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-17-097",
+    "subject": "anatomy_physiology",
+    "topic": "blood_vessels",
+    "subtopic": "Fetal Cardiovascular System",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "With few exceptions, most of the heart's development is complete within the first _____ months post-conception.",
+    "choices": [
+      "two",
+      "four",
+      "six",
+      "nine"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-17-098",
+    "subject": "anatomy_physiology",
+    "topic": "blood_vessels",
+    "subtopic": "Fetal Cardiovascular System",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "During fetal development, the two atria are connected by the _____ in order to allow blood to bypass the incomplete pulmonary circuit.",
+    "choices": [
+      "foramen ovale",
+      "ductus arteriosus",
+      "ductus venosus",
+      "fossa ovalis"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-17-099",
+    "subject": "anatomy_physiology",
+    "topic": "blood_vessels",
+    "subtopic": "Fetal Cardiovascular System",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "During fetal development, there is a connection called the _____ between the pulmonary trunk (the base of the pulmonary artery) and the aorta. In the adult, all that remains of this is the _____.",
+    "choices": [
+      "ductus arteriosus; ligamentum arteriosum",
+      "foramen ovale; fossa ovalis",
+      "ductus venosus; ligamentum venosum",
+      "ductus arteriosus; fossa ovalis"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-17-100",
+    "subject": "anatomy_physiology",
+    "topic": "blood_vessels",
+    "subtopic": "Fetal Cardiovascular System",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Developmental defects of the heart, taken as a group, are the _____.",
+    "choices": [
+      "most common birth defects",
+      "rarest birth defects",
+      "least serious birth defects",
+      "only birth defects that are always fatal"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-17-101",
+    "subject": "anatomy_physiology",
+    "topic": "blood_vessels",
+    "subtopic": "Fetal Cardiovascular System",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The _____ channels blood from the umbilical cord past the fetal liver, directly to the vena cava.",
+    "choices": [
+      "ductus venosus",
+      "ductus arteriosus",
+      "foramen ovale",
+      "umbilical vein"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-17-102",
+    "subject": "anatomy_physiology",
+    "topic": "blood_vessels",
+    "subtopic": "Fetal Cardiovascular System",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Together, the foramen ovale, ductus arteriosus, and ductus venosus are known as the _____.",
+    "choices": [
+      "vascular shunts",
+      "fetal anastomoses",
+      "portal systems",
+      "collateral channels"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-17-103",
+    "subject": "anatomy_physiology",
+    "topic": "blood_vessels",
+    "subtopic": "Pulmonary & Systemic Circuits",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Unlike arteries in other areas of the body, arteries and arterioles in the pulmonary circuit have _____ walls and _____ lumens.",
+    "choices": [
+      "thin; large",
+      "thick; small",
+      "thin; small",
+      "thick; large"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-17-104",
+    "subject": "anatomy_physiology",
+    "topic": "blood_vessels",
+    "subtopic": "Pulmonary & Systemic Circuits",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "In order to maximize blood flow to regions of the lungs that have the most oxygen, blood vessels in regions of the lung with low oxygen _____.",
+    "choices": [
+      "vasoconstrict",
+      "vasodilate",
+      "remain unchanged",
+      "increase their permeability"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-17-105",
+    "subject": "anatomy_physiology",
+    "topic": "blood_vessels",
+    "subtopic": "Pulmonary & Systemic Circuits",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Fill in the missing terms in the following series: Left ventricle → ascending aorta → _____ → myocardium",
+    "choices": [
+      "coronary arteries",
+      "brachiocephalic trunk",
+      "pulmonary arteries",
+      "internal thoracic arteries"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-17-106",
+    "subject": "anatomy_physiology",
+    "topic": "blood_vessels",
+    "subtopic": "Pulmonary & Systemic Circuits",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Fill in the missing terms in the following series: Left ventricle → _____ → _____ → _____ → right subclavian artery → right upper limb",
+    "choices": [
+      "ascending aorta; aortic arch; brachiocephalic trunk",
+      "aortic arch; ascending aorta; brachiocephalic trunk",
+      "ascending aorta; aortic arch; right common carotid artery",
+      "ascending aorta; descending aorta; brachiocephalic trunk"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-17-107",
+    "subject": "anatomy_physiology",
+    "topic": "blood_vessels",
+    "subtopic": "Pulmonary & Systemic Circuits",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Fill in the missing terms in the following series: Left ventricle → _____ → _____ → left subclavian artery → left upper limb",
+    "choices": [
+      "ascending aorta; aortic arch",
+      "aortic arch; brachiocephalic trunk",
+      "ascending aorta; brachiocephalic trunk",
+      "aortic arch; descending aorta"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-17-108",
+    "subject": "anatomy_physiology",
+    "topic": "blood_vessels",
+    "subtopic": "Pulmonary & Systemic Circuits",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Fill in the missing terms in the following series: _____ → _____ → _____ → RIGHT side of head, face, and neck",
+    "choices": [
+      "brachiocephalic trunk; common carotid; external carotid",
+      "aortic arch; common carotid; external carotid",
+      "brachiocephalic trunk; common carotid; internal carotid",
+      "brachiocephalic trunk; subclavian; external carotid"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-17-109",
+    "subject": "anatomy_physiology",
+    "topic": "blood_vessels",
+    "subtopic": "Pulmonary & Systemic Circuits",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Fill in the missing terms in the following series: _____ → _____ → _____ → LEFT side of head, face, and neck",
+    "choices": [
+      "aortic arch; common carotid; external carotid",
+      "brachiocephalic trunk; common carotid; external carotid",
+      "aortic arch; common carotid; internal carotid",
+      "aortic arch; subclavian; external carotid"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-17-110",
+    "subject": "anatomy_physiology",
+    "topic": "blood_vessels",
+    "subtopic": "Pulmonary & Systemic Circuits",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Fill in the missing terms in the following series: aortic arch → left _____ → left _____ → Circle of Willis (Cerebral Arterial Circle)",
+    "choices": [
+      "common carotid; internal carotid",
+      "common carotid; external carotid",
+      "subclavian; basilar",
+      "internal carotid; common carotid"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-17-111",
+    "subject": "anatomy_physiology",
+    "topic": "blood_vessels",
+    "subtopic": "Pulmonary & Systemic Circuits",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Fill in the missing terms in the following series: aortic arch → _____ → right _____ → right _____ → Circle of Willis (Cerebral Arterial Circle)",
+    "choices": [
+      "brachiocephalic trunk; common carotid; internal carotid",
+      "brachiocephalic trunk; common carotid; external carotid",
+      "brachiocephalic trunk; subclavian; basilar",
+      "subclavian; common carotid; internal carotid"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-17-112",
+    "subject": "anatomy_physiology",
+    "topic": "blood_vessels",
+    "subtopic": "Pulmonary & Systemic Circuits",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The _____ receives blood from three major arteries, and has branches which supply the left and right sides of the brain.",
+    "choices": [
+      "cerebral arterial circle (circle of Willis)",
+      "basilar artery",
+      "internal carotid artery",
+      "vertebral artery"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-17-113",
+    "subject": "anatomy_physiology",
+    "topic": "blood_vessels",
+    "subtopic": "Pulmonary & Systemic Circuits",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Fill in the missing terms in the following series: (left or right) subclavian artery → (left or right) _____ → anterior thorax and trunk",
+    "choices": [
+      "internal thoracic artery",
+      "axillary artery",
+      "vertebral artery",
+      "thyrocervical trunk"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-17-114",
+    "subject": "anatomy_physiology",
+    "topic": "blood_vessels",
+    "subtopic": "Pulmonary & Systemic Circuits",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Fill in the missing terms in the following series: (left or right) _____ → chest, back, & proximal shoulder",
+    "choices": [
+      "subclavian artery",
+      "axillary artery",
+      "brachial artery",
+      "common carotid artery"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-17-115",
+    "subject": "anatomy_physiology",
+    "topic": "blood_vessels",
+    "subtopic": "Pulmonary & Systemic Circuits",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Fill in the missing terms in the following series: (left or right) _____ → (left or right) _____ → chest, back, & distal shoulder",
+    "choices": [
+      "subclavian artery; axillary artery",
+      "axillary artery; subclavian artery",
+      "subclavian artery; brachial artery",
+      "axillary artery; brachial artery"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-17-116",
+    "subject": "anatomy_physiology",
+    "topic": "blood_vessels",
+    "subtopic": "Pulmonary & Systemic Circuits",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Fill in the missing terms in the following series: (left or right) subclavian artery → (left or right) _____ → (left or right) _____ → arm",
+    "choices": [
+      "axillary artery; brachial artery",
+      "brachial artery; axillary artery",
+      "axillary artery; radial artery",
+      "brachial artery; ulnar artery"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-17-117",
+    "subject": "anatomy_physiology",
+    "topic": "blood_vessels",
+    "subtopic": "Pulmonary & Systemic Circuits",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Fill in the missing terms in the following series: (left or right) axillary artery → (left or right) _____ → (left or right) _____ → lateral forearm",
+    "choices": [
+      "brachial artery; radial artery",
+      "brachial artery; ulnar artery",
+      "radial artery; brachial artery",
+      "subclavian artery; radial artery"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-17-118",
+    "subject": "anatomy_physiology",
+    "topic": "blood_vessels",
+    "subtopic": "Pulmonary & Systemic Circuits",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Fill in the missing terms in the following series: (left or right) axillary artery → (left or right) _____ → (left or right) _____ → medial forearm",
+    "choices": [
+      "brachial artery; ulnar artery",
+      "brachial artery; radial artery",
+      "ulnar artery; brachial artery",
+      "subclavian artery; ulnar artery"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-17-119",
+    "subject": "anatomy_physiology",
+    "topic": "blood_vessels",
+    "subtopic": "Pulmonary & Systemic Circuits",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The _____ and _____ arteries both supply the palm of the hand via the _____, which in turn give rise to the _____ which supply the fingers.",
+    "choices": [
+      "radial; ulnar; palmar arches; digital arteries",
+      "brachial; radial; palmar arches; digital arteries",
+      "radial; ulnar; digital arteries; palmar arches",
+      "radial; ulnar; plantar arches; digital arteries"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-17-120",
+    "subject": "anatomy_physiology",
+    "topic": "blood_vessels",
+    "subtopic": "Pulmonary & Systemic Circuits",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Fill in the missing terms in the following series: abdominal aorta → _____ → _____ → spleen, stomach and pancreas",
+    "choices": [
+      "celiac trunk; splenic artery",
+      "celiac trunk; left gastric artery",
+      "celiac trunk; common hepatic artery",
+      "superior mesenteric artery; splenic artery"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-17-121",
+    "subject": "anatomy_physiology",
+    "topic": "blood_vessels",
+    "subtopic": "Pulmonary & Systemic Circuits",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Fill in the missing terms in the following series: abdominal aorta → _____ → _____ → stomach",
+    "choices": [
+      "celiac trunk; left gastric artery",
+      "celiac trunk; splenic artery",
+      "celiac trunk; common hepatic artery",
+      "superior mesenteric artery; left gastric artery"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-17-122",
+    "subject": "anatomy_physiology",
+    "topic": "blood_vessels",
+    "subtopic": "Pulmonary & Systemic Circuits",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Fill in the missing terms in the following series: abdominal aorta → _____ → _____ → liver, gallbladder, stomach, parts of small intestine",
+    "choices": [
+      "celiac trunk; common hepatic artery",
+      "celiac trunk; splenic artery",
+      "celiac trunk; left gastric artery",
+      "superior mesenteric artery; common hepatic artery"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-17-123",
+    "subject": "anatomy_physiology",
+    "topic": "blood_vessels",
+    "subtopic": "Pulmonary & Systemic Circuits",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Fill in the missing terms in the following series: abdominal aorta → _____ → cecum, ascending colon, transverse colon",
+    "choices": [
+      "superior mesenteric artery",
+      "inferior mesenteric artery",
+      "celiac trunk",
+      "common hepatic artery"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-17-124",
+    "subject": "anatomy_physiology",
+    "topic": "blood_vessels",
+    "subtopic": "Pulmonary & Systemic Circuits",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Fill in the missing terms in the following series: abdominal aorta → _____ → diaphragm",
+    "choices": [
+      "inferior phrenic artery",
+      "superior phrenic artery",
+      "suprarenal artery",
+      "celiac trunk"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-17-125",
+    "subject": "anatomy_physiology",
+    "topic": "blood_vessels",
+    "subtopic": "Pulmonary & Systemic Circuits",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Fill in the missing terms in the following series: abdominal aorta → (left or right) _____ → (left or right) adrenal gland",
+    "choices": [
+      "suprarenal arteries",
+      "renal arteries",
+      "gonadal arteries",
+      "lumbar arteries"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-17-126",
+    "subject": "anatomy_physiology",
+    "topic": "blood_vessels",
+    "subtopic": "Pulmonary & Systemic Circuits",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Fill in the missing terms in the following series: abdominal aorta → (left or right) _____ → (left or right) kidney",
+    "choices": [
+      "renal artery",
+      "suprarenal artery",
+      "gonadal artery",
+      "lumbar artery"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-17-127",
+    "subject": "anatomy_physiology",
+    "topic": "blood_vessels",
+    "subtopic": "Pulmonary & Systemic Circuits",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Fill in the missing terms in the following series: abdominal aorta → (left or right) _____ → (left or right) ovary or testis",
+    "choices": [
+      "gonadal artery",
+      "renal artery",
+      "suprarenal artery",
+      "internal iliac artery"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-17-128",
+    "subject": "anatomy_physiology",
+    "topic": "blood_vessels",
+    "subtopic": "Pulmonary & Systemic Circuits",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Fill in the missing terms in the following series: abdominal aorta → (left or right) _____ → lower back and abdominal wall",
+    "choices": [
+      "lumbar arteries",
+      "median sacral artery",
+      "inferior phrenic arteries",
+      "common iliac arteries"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-17-129",
+    "subject": "anatomy_physiology",
+    "topic": "blood_vessels",
+    "subtopic": "Pulmonary & Systemic Circuits",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Fill in the missing terms in the following series: abdominal aorta → _____ → descending colon, sigmoid colon, and part of rectum",
+    "choices": [
+      "inferior mesenteric artery",
+      "superior mesenteric artery",
+      "celiac trunk",
+      "internal iliac artery"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-17-130",
+    "subject": "anatomy_physiology",
+    "topic": "blood_vessels",
+    "subtopic": "Pulmonary & Systemic Circuits",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Fill in the missing terms in the following series: abdominal aorta → (left or right) _____ → (left or right) _____ → pelvis, pelvic organs, genitals, hip",
+    "choices": [
+      "common iliac artery; internal iliac artery",
+      "common iliac artery; external iliac artery",
+      "external iliac artery; internal iliac artery",
+      "internal iliac artery; common iliac artery"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-17-131",
+    "subject": "anatomy_physiology",
+    "topic": "blood_vessels",
+    "subtopic": "Pulmonary & Systemic Circuits",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Fill in the missing terms in the following series: abdominal aorta → _____ → lower vertebrae",
+    "choices": [
+      "median sacral artery",
+      "lumbar arteries",
+      "internal iliac artery",
+      "common iliac artery"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-17-132",
+    "subject": "anatomy_physiology",
+    "topic": "blood_vessels",
+    "subtopic": "Pulmonary & Systemic Circuits",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Fill in the missing terms in the following series: abdominal aorta → (left or right) _____ → (left or right) _____ → (left or right) _____ → thigh",
+    "choices": [
+      "common iliac artery; external iliac artery; femoral artery",
+      "common iliac artery; internal iliac artery; femoral artery",
+      "external iliac artery; common iliac artery; femoral artery",
+      "common iliac artery; external iliac artery; popliteal artery"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-17-133",
+    "subject": "anatomy_physiology",
+    "topic": "blood_vessels",
+    "subtopic": "Pulmonary & Systemic Circuits",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Fill in the missing terms in the following series: (left or right) external iliac artery → (left or right) _____ → (left or right) _____ → knee",
+    "choices": [
+      "femoral artery; popliteal artery",
+      "popliteal artery; femoral artery",
+      "femoral artery; anterior tibial artery",
+      "internal iliac artery; popliteal artery"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-17-134",
+    "subject": "anatomy_physiology",
+    "topic": "blood_vessels",
+    "subtopic": "Pulmonary & Systemic Circuits",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Fill in the missing terms in the following series: (left or right) femoral artery → (left or right) _____ → (left or right) _____ → anterior leg",
+    "choices": [
+      "popliteal artery; anterior tibial artery",
+      "popliteal artery; posterior tibial artery",
+      "anterior tibial artery; popliteal artery",
+      "popliteal artery; fibular artery"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-17-135",
+    "subject": "anatomy_physiology",
+    "topic": "blood_vessels",
+    "subtopic": "Pulmonary & Systemic Circuits",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Fill in the missing terms in the following series: anterior tibial artery → _____ → foot",
+    "choices": [
+      "dorsalis pedis artery",
+      "posterior tibial artery",
+      "fibular artery",
+      "plantar artery"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-17-136",
+    "subject": "anatomy_physiology",
+    "topic": "blood_vessels",
+    "subtopic": "Pulmonary & Systemic Circuits",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Fill in the missing terms in the following series: (left or right) femoral artery → (left or right) _____ → (left or right) _____ → posterior leg",
+    "choices": [
+      "popliteal artery; posterior tibial artery",
+      "popliteal artery; anterior tibial artery",
+      "posterior tibial artery; popliteal artery",
+      "popliteal artery; dorsalis pedis artery"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-17-137",
+    "subject": "anatomy_physiology",
+    "topic": "blood_vessels",
+    "subtopic": "Pulmonary & Systemic Circuits",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Fill in the missing terms in the following series: (left or right) femoral artery → (left or right) _____ → (left or right) _____ → (left or right) _____ → lateral leg and foot",
+    "choices": [
+      "popliteal artery; posterior tibial artery; fibular artery",
+      "popliteal artery; anterior tibial artery; fibular artery",
+      "popliteal artery; fibular artery; posterior tibial artery",
+      "popliteal artery; posterior tibial artery; dorsalis pedis artery"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-17-138",
+    "subject": "anatomy_physiology",
+    "topic": "blood_vessels",
+    "subtopic": "Pulmonary & Systemic Circuits",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Fill in the missing terms in the following series: (left or right) posterior tibial artery → (left or right) _____ → foot",
+    "choices": [
+      "plantar arteries",
+      "dorsalis pedis artery",
+      "digital arteries",
+      "fibular artery"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-17-139",
+    "subject": "anatomy_physiology",
+    "topic": "blood_vessels",
+    "subtopic": "Pulmonary & Systemic Circuits",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The _____ and _____ arteries branch to form the _____ arteries, which supply the toes.",
+    "choices": [
+      "dorsalis pedis; plantar; digital",
+      "anterior tibial; posterior tibial; digital",
+      "dorsalis pedis; plantar; fibular",
+      "digital; plantar; dorsalis pedis"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-17-140",
+    "subject": "anatomy_physiology",
+    "topic": "blood_vessels",
+    "subtopic": "Pulmonary & Systemic Circuits",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Fill in the missing terms in the following series: blood from the brain → _____ → (left and right) _____ → (left and right) _____ → superior vena cava → heart",
+    "choices": [
+      "venous sinuses; internal jugular veins; brachiocephalic veins",
+      "venous sinuses; external jugular veins; brachiocephalic veins",
+      "venous sinuses; internal jugular veins; subclavian veins",
+      "internal jugular veins; venous sinuses; brachiocephalic veins"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-17-141",
+    "subject": "anatomy_physiology",
+    "topic": "blood_vessels",
+    "subtopic": "Pulmonary & Systemic Circuits",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Fill in the missing terms in the following series: blood from the (left or right) face and neck → (left or right) _____ → (left or right) subclavian veins → (left or right) _____ → superior vena cava",
+    "choices": [
+      "external jugular veins; brachiocephalic veins",
+      "internal jugular veins; brachiocephalic veins",
+      "external jugular veins; axillary veins",
+      "vertebral veins; azygos vein"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-17-142",
+    "subject": "anatomy_physiology",
+    "topic": "blood_vessels",
+    "subtopic": "Pulmonary & Systemic Circuits",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Fill in the missing terms in the following series: blood from the (left or right) face and neck → (left or right) _____ → (left or right) _____ → superior vena cava",
+    "choices": [
+      "internal jugular veins; brachiocephalic veins",
+      "external jugular veins; brachiocephalic veins",
+      "internal jugular veins; subclavian veins",
+      "brachiocephalic veins; internal jugular veins"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-17-143",
+    "subject": "anatomy_physiology",
+    "topic": "blood_vessels",
+    "subtopic": "Pulmonary & Systemic Circuits",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Blood from the anterior thorax and abdominal walls eventually enters the _____ veins before reaching the vena cava.",
+    "choices": [
+      "brachiocephalic",
+      "azygos",
+      "internal jugular",
+      "hepatic"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-17-144",
+    "subject": "anatomy_physiology",
+    "topic": "blood_vessels",
+    "subtopic": "Pulmonary & Systemic Circuits",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Blood from the RIGHT posterior thoracic wall and thoracic organs passes into the _____ and from there flows to the superior vena cava.",
+    "choices": [
+      "azygos vein",
+      "hemiazygos vein",
+      "right brachiocephalic vein",
+      "right internal thoracic vein"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-17-145",
+    "subject": "anatomy_physiology",
+    "topic": "blood_vessels",
+    "subtopic": "Pulmonary & Systemic Circuits",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Blood from the LEFT posterior thoracic wall and thoracic organs passes into the _____ or _____ before entering the _____ and then flowing from there to the superior vena cava.",
+    "choices": [
+      "hemiazygos vein; accessory hemiazygos vein; azygos vein",
+      "azygos vein; accessory hemiazygos vein; hemiazygos vein",
+      "hemiazygos vein; accessory hemiazygos vein; left brachiocephalic vein",
+      "intercostal veins; hemiazygos vein; left subclavian vein"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-17-146",
+    "subject": "anatomy_physiology",
+    "topic": "blood_vessels",
+    "subtopic": "Pulmonary & Systemic Circuits",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Blood from the shoulder, chest, and back drains into two veins, the _____ and _____, and from there is transported to the brachiocephalic vein and on to the superior vena cava.",
+    "choices": [
+      "subclavian vein; axillary vein",
+      "brachial vein; cephalic vein",
+      "internal jugular vein; external jugular vein",
+      "azygos vein; hemiazygos vein"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-17-147",
+    "subject": "anatomy_physiology",
+    "topic": "blood_vessels",
+    "subtopic": "Pulmonary & Systemic Circuits",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Fill in the missing terms in the following series: blood from the superficial medial forearm → _____ → _____ → subclavian vein",
+    "choices": [
+      "basilic vein; axillary vein",
+      "cephalic vein; axillary vein",
+      "basilic vein; brachial vein",
+      "median cubital vein; basilic vein"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-17-148",
+    "subject": "anatomy_physiology",
+    "topic": "blood_vessels",
+    "subtopic": "Pulmonary & Systemic Circuits",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Fill in the missing terms in the following series: blood from the superfical lateral forearm → _____ (→ _____ → _____) → axillary vein (The parentheses indicate that there are two alternate routes.)",
+    "choices": [
+      "cephalic vein; median cubital vein; basilic vein",
+      "basilic vein; median cubital vein; cephalic vein",
+      "cephalic vein; brachial vein; basilic vein",
+      "radial vein; median cubital vein; ulnar vein"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-17-149",
+    "subject": "anatomy_physiology",
+    "topic": "blood_vessels",
+    "subtopic": "Pulmonary & Systemic Circuits",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Blood returns from the capillary beds of the stomach, spleen, pancreas and intestines only after passing through the capillary beds of the _____ for _____.",
+    "choices": [
+      "liver; removal of nutrients and impurities",
+      "spleen; removal of aged red blood cells",
+      "kidneys; filtration of wastes",
+      "lungs; reoxygenation"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-17-150",
+    "subject": "anatomy_physiology",
+    "topic": "blood_vessels",
+    "subtopic": "Pulmonary & Systemic Circuits",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "_____ circulation is circulation in which blood moves from one capillary bed to another without first being reoxygenated in the lungs.",
+    "choices": [
+      "portal",
+      "pulmonary",
+      "systemic",
+      "coronary"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-17-151",
+    "subject": "anatomy_physiology",
+    "topic": "blood_vessels",
+    "subtopic": "Pulmonary & Systemic Circuits",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Fill in the missing terms in the following series: the small intestine, cecum, ascending colon, and transverse colon → _____ → _____ → _____ → _____→ inferior vena cava",
+    "choices": [
+      "superior mesenteric vein; portal vein; liver; hepatic veins",
+      "inferior mesenteric vein; portal vein; liver; hepatic veins",
+      "superior mesenteric vein; splenic vein; liver; hepatic veins",
+      "superior mesenteric vein; hepatic veins; liver; portal vein"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-17-152",
+    "subject": "anatomy_physiology",
+    "topic": "blood_vessels",
+    "subtopic": "Pulmonary & Systemic Circuits",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Fill in the missing terms in the following series: the descending colon, sigmoid colon, and rectum → _____ → _____ → _____ → _____→ hepatic veins",
+    "choices": [
+      "inferior mesenteric vein; splenic vein; portal vein; liver",
+      "superior mesenteric vein; splenic vein; portal vein; liver",
+      "inferior mesenteric vein; portal vein; splenic vein; liver",
+      "inferior mesenteric vein; gastric vein; portal vein; liver"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-17-153",
+    "subject": "anatomy_physiology",
+    "topic": "blood_vessels",
+    "subtopic": "Pulmonary & Systemic Circuits",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Fill in the missing terms in the following series: the spleen and pancreas → _____ → _____ → _____ → hepatic veins",
+    "choices": [
+      "splenic vein; portal vein; liver",
+      "superior mesenteric vein; portal vein; liver",
+      "portal vein; splenic vein; liver",
+      "splenic vein; inferior vena cava; liver"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-17-154",
+    "subject": "anatomy_physiology",
+    "topic": "blood_vessels",
+    "subtopic": "Pulmonary & Systemic Circuits",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Fill in the missing terms in the following series: stomach → _____ OR _____ → _____ → liver → hepatic veins",
+    "choices": [
+      "gastric vein; gastroepiploic (gastroomental) vein; portal vein",
+      "gastric vein; gastroepiploic (gastroomental) vein; hepatic vein",
+      "gastric vein; superior mesenteric vein; portal vein",
+      "gastroduodenal vein; gastric vein; inferior vena cava"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-17-155",
+    "subject": "anatomy_physiology",
+    "topic": "blood_vessels",
+    "subtopic": "Pulmonary & Systemic Circuits",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Fill in the missing terms in the following series: RIGHT adrenal gland → _____ → inferior vena cava",
+    "choices": [
+      "right suprarenal vein",
+      "right renal vein",
+      "right gonadal vein",
+      "azygos vein"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-17-156",
+    "subject": "anatomy_physiology",
+    "topic": "blood_vessels",
+    "subtopic": "Pulmonary & Systemic Circuits",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Fill in the missing terms in the following series: LEFT adrenal gland → _____ → _____ → inferior vena cava",
+    "choices": [
+      "left suprarenal vein; left renal vein",
+      "left suprarenal vein; left gonadal vein",
+      "left renal vein; left suprarenal vein",
+      "left suprarenal vein; splenic vein"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-17-157",
+    "subject": "anatomy_physiology",
+    "topic": "blood_vessels",
+    "subtopic": "Pulmonary & Systemic Circuits",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Fill in the missing terms in the following series: (left or right) kidney → (left or right) _____ → inferior vena cava",
+    "choices": [
+      "renal vein",
+      "suprarenal vein",
+      "gonadal vein",
+      "lumbar vein"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-17-158",
+    "subject": "anatomy_physiology",
+    "topic": "blood_vessels",
+    "subtopic": "Pulmonary & Systemic Circuits",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Fill in the missing terms in the following series: RIGHT ovary or testis → right _____ → inferior vena cava",
+    "choices": [
+      "gonadal vein",
+      "renal vein",
+      "suprarenal vein",
+      "common iliac vein"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-17-159",
+    "subject": "anatomy_physiology",
+    "topic": "blood_vessels",
+    "subtopic": "Pulmonary & Systemic Circuits",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Fill in the missing terms in the following series: LEFT ovary or testis → left _____ → left _____ → inferior vena cava",
+    "choices": [
+      "gonadal vein; renal vein",
+      "gonadal vein; suprarenal vein",
+      "renal vein; gonadal vein",
+      "gonadal vein; common iliac vein"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-17-160",
+    "subject": "anatomy_physiology",
+    "topic": "blood_vessels",
+    "subtopic": "Pulmonary & Systemic Circuits",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Fill in the missing terms in the following series: lower back and abdominal wall → (left or right) _____ → inferior vena cava",
+    "choices": [
+      "lumbar veins",
+      "azygos vein",
+      "common iliac veins",
+      "median sacral vein"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-17-161",
+    "subject": "anatomy_physiology",
+    "topic": "blood_vessels",
+    "subtopic": "Pulmonary & Systemic Circuits",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Fill in the missing terms in the following series: pelvis, pelvic organs, genitals, and hip → (left or right) _____ → _____ → inferior vena cava",
+    "choices": [
+      "internal iliac vein; common iliac vein",
+      "external iliac vein; common iliac vein",
+      "common iliac vein; internal iliac vein",
+      "internal iliac vein; external iliac vein"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-17-162",
+    "subject": "anatomy_physiology",
+    "topic": "blood_vessels",
+    "subtopic": "Pulmonary & Systemic Circuits",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Fill in the missing terms in the following series: thigh → _____ → _____ → _____ → inferior vena cava",
+    "choices": [
+      "femoral vein; external iliac vein; common iliac vein",
+      "femoral vein; internal iliac vein; common iliac vein",
+      "popliteal vein; femoral vein; external iliac vein",
+      "femoral vein; common iliac vein; external iliac vein"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-17-163",
+    "subject": "anatomy_physiology",
+    "topic": "blood_vessels",
+    "subtopic": "Pulmonary & Systemic Circuits",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Fill in the missing terms in the following series: knee → _____ → _____ → _____ → inferior vena cava",
+    "choices": [
+      "popliteal vein; femoral vein; external iliac vein",
+      "femoral vein; popliteal vein; external iliac vein",
+      "popliteal vein; femoral vein; internal iliac vein",
+      "popliteal vein; great saphenous vein; common iliac vein"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-17-164",
+    "subject": "anatomy_physiology",
+    "topic": "blood_vessels",
+    "subtopic": "Pulmonary & Systemic Circuits",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Fill in the missing terms in the following series: deep anterior leg → _____ → _____ → _____ → external iliac vein",
+    "choices": [
+      "anterior tibial veins; popliteal vein; femoral vein",
+      "posterior tibial veins; popliteal vein; femoral vein",
+      "anterior tibial veins; femoral vein; popliteal vein",
+      "fibular veins; popliteal vein; femoral vein"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-17-165",
+    "subject": "anatomy_physiology",
+    "topic": "blood_vessels",
+    "subtopic": "Pulmonary & Systemic Circuits",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Fill in the missing terms in the following series: deep posterior leg → _____ → _____ → _____ → external iliac vein",
+    "choices": [
+      "posterior tibial veins; popliteal vein; femoral vein",
+      "anterior tibial veins; popliteal vein; femoral vein",
+      "posterior tibial veins; femoral vein; popliteal vein",
+      "small saphenous vein; popliteal vein; femoral vein"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-17-166",
+    "subject": "anatomy_physiology",
+    "topic": "blood_vessels",
+    "subtopic": "Pulmonary & Systemic Circuits",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Fill in the missing terms in the following series: deep lateral leg → _____ → _____ → popliteal vein",
+    "choices": [
+      "fibular veins; posterior tibial veins",
+      "fibular veins; anterior tibial veins",
+      "posterior tibial veins; fibular veins",
+      "small saphenous vein; posterior tibial veins"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-17-167",
+    "subject": "anatomy_physiology",
+    "topic": "blood_vessels",
+    "subtopic": "Pulmonary & Systemic Circuits",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Fill in the missing terms in the following series: superficial posterior leg → _____ → _____ → _____ → external iliac vein",
+    "choices": [
+      "small saphenous vein; popliteal vein; femoral vein",
+      "great saphenous vein; popliteal vein; femoral vein",
+      "small saphenous vein; femoral vein; popliteal vein",
+      "posterior tibial veins; popliteal vein; femoral vein"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-17-168",
+    "subject": "anatomy_physiology",
+    "topic": "blood_vessels",
+    "subtopic": "Pulmonary & Systemic Circuits",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Fill in the missing terms in the following series: superficial medial leg and thigh → _____ → _____ → external iliac vein",
+    "choices": [
+      "great saphenous vein; femoral vein",
+      "small saphenous vein; femoral vein",
+      "great saphenous vein; popliteal vein",
+      "femoral vein; great saphenous vein"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-17-169",
+    "subject": "anatomy_physiology",
+    "topic": "blood_vessels",
+    "subtopic": "Pulmonary & Systemic Circuits",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Fill in the missing terms in the following series: toes → _____ → _____ and _____ → several veins",
+    "choices": [
+      "digital veins; dorsal veins of the foot; plantar veins",
+      "plantar veins; digital veins; dorsal veins of the foot",
+      "digital veins; fibular veins; tibial veins",
+      "metatarsal veins; great saphenous vein; small saphenous vein"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-17-170",
+    "subject": "anatomy_physiology",
+    "topic": "blood_vessels",
+    "subtopic": "Regulating Blood Flow",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Short-term, rapid compensation is mediated _____.",
+    "choices": [
+      "neurally",
+      "renally",
+      "hormonally",
+      "locally"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-17-171",
+    "subject": "anatomy_physiology",
+    "topic": "blood_vessels",
+    "subtopic": "Regulating Blood Flow",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Neural controls of peripheral blood flow have two major effects: by altering _____, they control (1) the ultimate _____ of the blood, and (2) the _____ at which it is delivered.",
+    "choices": [
+      "vessel diameter; destination; rate and pressure",
+      "vessel length; destination; viscosity",
+      "blood viscosity; volume; rate and pressure",
+      "vessel diameter; hematocrit; temperature"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-17-172",
+    "subject": "anatomy_physiology",
+    "topic": "blood_vessels",
+    "subtopic": "Regulating Blood Flow",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The central control of blood pressure and flow is the _____ in the _____.",
+    "choices": [
+      "cardiovascular center; medulla oblongata",
+      "cardiovascular center; pons",
+      "respiratory center; medulla oblongata",
+      "vasomotor center; hypothalamus"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-17-173",
+    "subject": "anatomy_physiology",
+    "topic": "blood_vessels",
+    "subtopic": "Regulating Blood Flow",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The cardiovascular center has three centers: the _____, which controls blood vessel diameter, the _____, which accelerates the heart and increases contractility, and the _____, which decelerates the heart.",
+    "choices": [
+      "vasomotor center; cardioacceleratory center; cardioinhibitory center",
+      "cardioacceleratory center; vasomotor center; cardioinhibitory center",
+      "vasomotor center; cardioinhibitory center; cardioacceleratory center",
+      "baroreceptor center; cardioacceleratory center; vasomotor center"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-17-174",
+    "subject": "anatomy_physiology",
+    "topic": "blood_vessels",
+    "subtopic": "Regulating Blood Flow",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Stimulation by the vasomotor center causes vasoconstriction of both _____ and _____.",
+    "choices": [
+      "arteries; veins",
+      "arteries; capillaries",
+      "capillaries; veins",
+      "capillaries; lymphatics"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-17-175",
+    "subject": "anatomy_physiology",
+    "topic": "blood_vessels",
+    "subtopic": "Regulating Blood Flow",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Arterioles are almost always somewhat constricted. This condition is called _____.",
+    "choices": [
+      "vasomotor tone",
+      "vasoconstriction",
+      "autoregulation",
+      "hyperemia"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-17-176",
+    "subject": "anatomy_physiology",
+    "topic": "blood_vessels",
+    "subtopic": "Regulating Blood Flow",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Control of artery and arteriole diameter is transmitted from the vasomotor center to the arteries and arterioles by _____ fibers which exit the CNS in the _____ and _____ regions.",
+    "choices": [
+      "vasomotor; thoracic; upper lumbar",
+      "vasomotor; cervical; sacral",
+      "vagal; thoracic; upper lumbar",
+      "vasomotor; cranial; sacral"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-17-177",
+    "subject": "anatomy_physiology",
+    "topic": "blood_vessels",
+    "subtopic": "Regulating Blood Flow",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The vasomotor system is part of the _____ nervous system, and thus its neurotransmitter is primarily _____ and the response is _____.",
+    "choices": [
+      "sympathetic; norepinephrine; vasoconstriction",
+      "parasympathetic; acetylcholine; vasodilation",
+      "sympathetic; acetylcholine; vasodilation",
+      "parasympathetic; norepinephrine; vasoconstriction"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-17-178",
+    "subject": "anatomy_physiology",
+    "topic": "blood_vessels",
+    "subtopic": "Regulating Blood Flow",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The cardiovascular center receives input from three sources: _____, which sense blood pressure; _____, which sense oxygen, carbon dioxide, and pH; and _____, which conveys information regarding stress, temperature, and other indirect factors.",
+    "choices": [
+      "baroreceptors; chemoreceptors; higher brain regions",
+      "chemoreceptors; baroreceptors; higher brain regions",
+      "baroreceptors; osmoreceptors; spinal cord",
+      "proprioceptors; chemoreceptors; higher brain regions"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-17-179",
+    "subject": "anatomy_physiology",
+    "topic": "blood_vessels",
+    "subtopic": "Regulating Blood Flow",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "One group of _____, which sense blood pressure, are located in the _____, which are slightly wider regions of the internal carotid arteries.",
+    "choices": [
+      "baroreceptors; carotid sinuses",
+      "chemoreceptors; carotid bodies",
+      "baroreceptors; carotid bodies",
+      "chemoreceptors; carotid sinuses"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-17-180",
+    "subject": "anatomy_physiology",
+    "topic": "blood_vessels",
+    "subtopic": "Regulating Blood Flow",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The cluster of baroreceptors near the heart is located in the _____.",
+    "choices": [
+      "aortic arch",
+      "carotid sinus",
+      "right atrium",
+      "aortic bodies"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-17-181",
+    "subject": "anatomy_physiology",
+    "topic": "blood_vessels",
+    "subtopic": "Regulating Blood Flow",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Signals from the baroreceptors indicating that blood pressure is high result in three events: the _____ and _____ centers become less active, and the _____ center becomes more active.",
+    "choices": [
+      "vasomotor; cardioacceleratory; cardioinhibitory",
+      "cardioacceleratory; cardioinhibitory; vasomotor",
+      "vasomotor; cardioinhibitory; cardioacceleratory",
+      "cardioinhibitory; vasomotor; cardioacceleratory"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-17-182",
+    "subject": "anatomy_physiology",
+    "topic": "blood_vessels",
+    "subtopic": "Regulating Blood Flow",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Signals from the baroreceptors indicating that blood pressure is low result in three events: the _____ and _____ centers become more active, and the _____ center becomes less active.",
+    "choices": [
+      "vasomotor; cardioacceleratory; cardioinhibitory",
+      "cardioacceleratory; cardioinhibitory; vasomotor",
+      "vasomotor; cardioinhibitory; cardioacceleratory",
+      "cardioinhibitory; vasomotor; cardioacceleratory"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-17-183",
+    "subject": "anatomy_physiology",
+    "topic": "blood_vessels",
+    "subtopic": "Regulating Blood Flow",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The baroreceptors in the carotid sinus participate in the _____ reflex, and function to protect the _____.",
+    "choices": [
+      "carotid sinus; blood supply to the brain",
+      "aortic; blood supply to the brain",
+      "carotid sinus; blood pressure in the systemic circuit",
+      "atrial; blood supply to the heart"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-17-184",
+    "subject": "anatomy_physiology",
+    "topic": "blood_vessels",
+    "subtopic": "Regulating Blood Flow",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The baroreceptors in the aortic arch participate in the _____ reflex, and function to maintain _____.",
+    "choices": [
+      "aortic arch; blood pressure in the systemic circuit",
+      "carotid sinus; blood pressure in the systemic circuit",
+      "aortic arch; blood supply to the brain",
+      "atrial; blood pressure in the pulmonary circuit"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-17-185",
+    "subject": "anatomy_physiology",
+    "topic": "blood_vessels",
+    "subtopic": "Regulating Blood Flow",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "When blood pH decreases, carbon dioxide exhalation must be _____ to help return the pH to its normal value. This requires that heart rate, blood pressure and breathing rate _____.",
+    "choices": [
+      "increased; increase",
+      "decreased; decrease",
+      "increased; decrease",
+      "decreased; increase"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-17-186",
+    "subject": "anatomy_physiology",
+    "topic": "blood_vessels",
+    "subtopic": "Regulating Blood Flow",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "When blood pH increases, carbon dioxide exhalation must be _____ to help return the pH to its normal value. This requires that heart rate, blood pressure and breathing rate _____.",
+    "choices": [
+      "decreased; decrease",
+      "increased; increase",
+      "decreased; increase",
+      "increased; decrease"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-17-187",
+    "subject": "anatomy_physiology",
+    "topic": "blood_vessels",
+    "subtopic": "Regulating Blood Flow",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "When blood carbon dioxide increases beyond acceptable levels, carbon dioxide exhalation must be _____. This requires that heart rate, blood pressure and breathing rate _____.",
+    "choices": [
+      "increased; increase",
+      "decreased; decrease",
+      "increased; decrease",
+      "decreased; increase"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-17-188",
+    "subject": "anatomy_physiology",
+    "topic": "blood_vessels",
+    "subtopic": "Regulating Blood Flow",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Blood pressure and heart rate are modified due to information from _________ in response to dramatic changes in blood chemistry, and so are generally unused except in emergencies.",
+    "choices": [
+      "chemoreceptors",
+      "baroreceptors",
+      "mechanoreceptors"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-17-189",
+    "subject": "anatomy_physiology",
+    "topic": "blood_vessels",
+    "subtopic": "Regulating Blood Flow",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "_____ is released by the medulla of the adrenal glands in response to exercise or stress. This hormone mimics the effects of _____, and _____ blood pressure and heart rate.",
+    "choices": [
+      "epinephrine (or adrenaline); norepinephrine; increases",
+      "norepinephrine; acetylcholine; decreases",
+      "epinephrine; acetylcholine; decreases",
+      "aldosterone; ADH; increases"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-17-190",
+    "subject": "anatomy_physiology",
+    "topic": "blood_vessels",
+    "subtopic": "Regulating Blood Flow",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Arterioles and veins have two types of _____ receptors which bind epinephrine. This allows one chemical to have two effects depending on its concentration and location.",
+    "choices": [
+      "adrenergic",
+      "cholinergic",
+      "muscarinic",
+      "nicotinic"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-17-191",
+    "subject": "anatomy_physiology",
+    "topic": "blood_vessels",
+    "subtopic": "Regulating Blood Flow",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Long-lasting, slow compensation to adjust blood pressure is primarily controlled by the _____.",
+    "choices": [
+      "kidneys",
+      "lungs",
+      "liver",
+      "adrenal glands"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-17-192",
+    "subject": "anatomy_physiology",
+    "topic": "blood_vessels",
+    "subtopic": "Regulating Blood Flow",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The direct renal mechanism alters _____.",
+    "choices": [
+      "blood volume",
+      "vessel diameter",
+      "heart rate",
+      "blood viscosity"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-17-193",
+    "subject": "anatomy_physiology",
+    "topic": "blood_vessels",
+    "subtopic": "Regulating Blood Flow",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The indirect renal mechanism, also known as the _____ mechanism, triggers a series of reactions that produce the potent vasoconstrictor _____.",
+    "choices": [
+      "renin-angiotensin-aldosterone; angiotensin II",
+      "renin-angiotensin-aldosterone; angiotensin I",
+      "renin-angiotensin-aldosterone; angiotensinogen",
+      "sympathoadrenal; epinephrine"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-17-194",
+    "subject": "anatomy_physiology",
+    "topic": "blood_vessels",
+    "subtopic": "Regulating Blood Flow",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "ADH (_____; it is also known as _____) is released by the _____ in response to decreased blood pressure and increased blood osmolality.",
+    "choices": [
+      "antidiuretic hormone; vasopressin; pituitary",
+      "antidiuretic hormone; vasopressin; adrenal medulla",
+      "atrial natriuretic peptide; ANP; heart",
+      "aldosterone; mineralocorticoid; adrenal cortex"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-17-195",
+    "subject": "anatomy_physiology",
+    "topic": "blood_vessels",
+    "subtopic": "Regulating Blood Flow",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "ADH has two effects on blood pressure. At low levels, it has a direct effect by increasing _____. At higher levels, it has an indirect effect by causing _____.",
+    "choices": [
+      "blood volume (or water retention); vasoconstriction",
+      "vasoconstriction; blood volume",
+      "heart rate; vasodilation",
+      "blood viscosity; vasodilation"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-17-196",
+    "subject": "anatomy_physiology",
+    "topic": "blood_vessels",
+    "subtopic": "Regulating Blood Flow",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "ANP (_____) is released by the _____ in response to increased pressure.",
+    "choices": [
+      "atrial natriuretic peptide; atria of the heart",
+      "atrial natriuretic peptide; adrenal cortex",
+      "antidiuretic hormone; posterior pituitary",
+      "aldosterone; adrenal cortex"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-17-197",
+    "subject": "anatomy_physiology",
+    "topic": "blood_vessels",
+    "subtopic": "Regulating Blood Flow",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "ANP decreases blood pressure by promoting _____; this also causes _____.",
+    "choices": [
+      "sodium excretion; water excretion",
+      "sodium retention; water retention",
+      "water excretion; sodium retention",
+      "potassium excretion; water retention"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-17-198",
+    "subject": "anatomy_physiology",
+    "topic": "blood_vessels",
+    "subtopic": "Regulating Blood Flow",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Nitric oxide acts to _____.",
+    "choices": [
+      "dilate blood vessels",
+      "constrict blood vessels",
+      "increase blood viscosity",
+      "stimulate renin release"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-17-199",
+    "subject": "anatomy_physiology",
+    "topic": "blood_vessels",
+    "subtopic": "Regulating Blood Flow",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Inflammatory chemicals act as _____.",
+    "choices": [
+      "vasodilators",
+      "vasoconstrictors",
+      "diuretics",
+      "anticoagulants"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-17-200",
+    "subject": "anatomy_physiology",
+    "topic": "blood_vessels",
+    "subtopic": "Regulating Blood Flow",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Alcohol inhibits _____, thereby indirectly decreasing _____.",
+    "choices": [
+      "ADH; blood volume",
+      "ADH; blood viscosity",
+      "aldosterone; blood volume",
+      "ANP; heart rate"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-17-201",
+    "subject": "anatomy_physiology",
+    "topic": "blood_vessels",
+    "subtopic": "Regulating Blood Flow",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "_____ refers to the ability of many organs to change blood pressure within the organ itself via modification of arterial diameter.",
+    "choices": [
+      "autoregulation",
+      "neural control",
+      "endocrine control",
+      "the baroreceptor reflex"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-17-202",
+    "subject": "anatomy_physiology",
+    "topic": "blood_vessels",
+    "subtopic": "Regulating Blood Flow",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Changes in blood flow to an organ induced by the need for additional oxygen or nutrients (or to remove wastes) are known as _____.",
+    "choices": [
+      "metabolic controls",
+      "myogenic controls",
+      "neural controls",
+      "hormonal controls"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-17-203",
+    "subject": "anatomy_physiology",
+    "topic": "blood_vessels",
+    "subtopic": "Regulating Blood Flow",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Changes in blood flow to an organ induced by stretching or constriction of the blood vessels supplying the tissue are known as _____.",
+    "choices": [
+      "myogenic controls",
+      "metabolic controls",
+      "neural controls",
+      "hormonal controls"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-17-204",
+    "subject": "anatomy_physiology",
+    "topic": "blood_vessels",
+    "subtopic": "Regulating Blood Flow",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "When the blood supply to a tissue is restored after a period of ischemia, it is _____. This effect is termed _____.",
+    "choices": [
+      "higher than normal; reactive hyperemia",
+      "lower than normal; reactive hyperemia",
+      "higher than normal; active hyperemia",
+      "unchanged; autoregulation"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-17-205",
+    "subject": "anatomy_physiology",
+    "topic": "blood_vessels",
+    "subtopic": "Regulating Blood Flow",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "If the oxygen or nutrient requirements of a tissue are higher than the supply, the long-term response of the body is _____ (that is, _____.)",
+    "choices": [
+      "angiogenesis; creation of new blood vessels",
+      "vasodilation; widening of existing vessels",
+      "hyperemia; increased blood flow",
+      "anastomosis; joining of existing vessels"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-17-206",
+    "subject": "anatomy_physiology",
+    "topic": "blood_vessels",
+    "subtopic": "Regulating Blood Flow",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "_____ within the brain is so finely tuned that individual neurons, when active, receive more blood than those that are inactive.",
+    "choices": [
+      "autoregulation",
+      "neural control",
+      "hormonal control",
+      "the baroreceptor reflex"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-17-207",
+    "subject": "anatomy_physiology",
+    "topic": "blood_vessels",
+    "subtopic": "Regulating Blood Flow",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Of all the organs in the body, autoregulation of the blood supply to the _____ is most stringent and controlled.",
+    "choices": [
+      "brain",
+      "heart",
+      "kidneys",
+      "skeletal muscles"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-17-208",
+    "subject": "anatomy_physiology",
+    "topic": "blood_vessels",
+    "subtopic": "Regulating Blood Flow",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "A major function of the blood vessels within the skin is to allow control of _____.",
+    "choices": [
+      "body temperature",
+      "blood pH",
+      "blood volume",
+      "blood glucose"
+    ],
+    "answer_index": 0
+  }
+]

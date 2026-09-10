@@ -1,0 +1,2722 @@
+[
+  {
+    "id": "bio-anat-18-001",
+    "subject": "anatomy_physiology",
+    "topic": "lymphatic_and_immune_system",
+    "subtopic": "Adaptive Immunity",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "One major class of white blood cells, the _____, take their name from their presence in the lymphatic system.",
+    "choices": [
+      "lymphocytes",
+      "monocytes",
+      "neutrophils",
+      "eosinophils"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-18-002",
+    "subject": "anatomy_physiology",
+    "topic": "lymphatic_and_immune_system",
+    "subtopic": "Adaptive Immunity",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "One major class of lymphocytes, the _____, are formed in the bone marrow, but mature in the thymus gland.",
+    "choices": [
+      "T cells or T lymphocytes",
+      "B cells or B lymphocytes",
+      "NK cells",
+      "plasma cells"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-18-003",
+    "subject": "anatomy_physiology",
+    "topic": "lymphatic_and_immune_system",
+    "subtopic": "Adaptive Immunity",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "_____ attack cells in the body that are not recognized as normal members of the body's cellular community.",
+    "choices": [
+      "T cells or T lymphocytes",
+      "B cells or B lymphocytes",
+      "Plasma cells",
+      "Erythrocytes"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-18-004",
+    "subject": "anatomy_physiology",
+    "topic": "lymphatic_and_immune_system",
+    "subtopic": "Adaptive Immunity",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "_____ are a type of blood cell that develops and matures in the bone marrow before moving to the lymphatic system.",
+    "choices": [
+      "B cells or B lymphocytes",
+      "T cells or T lymphocytes",
+      "Plasma cells",
+      "Megakaryocytes"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-18-005",
+    "subject": "anatomy_physiology",
+    "topic": "lymphatic_and_immune_system",
+    "subtopic": "Adaptive Immunity",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "A(n) _____ is any large molecule with a unique shape which can be recognized by the immune system.",
+    "choices": [
+      "antigen",
+      "antibody",
+      "cytokine",
+      "complement protein"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-18-006",
+    "subject": "anatomy_physiology",
+    "topic": "lymphatic_and_immune_system",
+    "subtopic": "Adaptive Immunity",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "When _____ encounter an antigen, they divide to form plasma cells and memory cells.",
+    "choices": [
+      "B cells or B lymphocytes",
+      "T cells or T lymphocytes",
+      "macrophages",
+      "neutrophils"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-18-007",
+    "subject": "anatomy_physiology",
+    "topic": "lymphatic_and_immune_system",
+    "subtopic": "Adaptive Immunity",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "_____ release antibodies which bind to antigens.",
+    "choices": [
+      "Plasma cells",
+      "Memory cells",
+      "Cytotoxic T cells",
+      "Macrophages"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-18-008",
+    "subject": "anatomy_physiology",
+    "topic": "lymphatic_and_immune_system",
+    "subtopic": "Adaptive Immunity",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "_____ circulate in the lymph and blood for many years, and respond rapidly if an antigen encountered in the past is again encountered.",
+    "choices": [
+      "Memory cells",
+      "Plasma cells",
+      "Neutrophils",
+      "Monocytes"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-18-009",
+    "subject": "anatomy_physiology",
+    "topic": "lymphatic_and_immune_system",
+    "subtopic": "Adaptive Immunity",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "One task of the immune system is recognition of alien (_____) cells. To assist in this task, self cells include proteins in their plasma membrane called _____ proteins which serve as a highly recognizable uniform.",
+    "choices": [
+      "non-self; major histocompatibility complex (MHC)",
+      "self; major histocompatibility complex (MHC)",
+      "non-self; immunoglobulin",
+      "non-self; complement"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-18-010",
+    "subject": "anatomy_physiology",
+    "topic": "lymphatic_and_immune_system",
+    "subtopic": "Adaptive Immunity",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The MHC proteins are also called the _____.",
+    "choices": [
+      "human leukocyte antigens (HLA)",
+      "immunoglobulins (Ig)",
+      "interleukins (IL)",
+      "C-reactive proteins (CRP)"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-18-011",
+    "subject": "anatomy_physiology",
+    "topic": "lymphatic_and_immune_system",
+    "subtopic": "Adaptive Immunity",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Proteins for the MHC originate from 20 _____ with over 50 _____ each, so that no two individuals will have the same MHC.",
+    "choices": [
+      "genes; alleles",
+      "alleles; genes",
+      "chromosomes; genes",
+      "codons; genes"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-18-012",
+    "subject": "anatomy_physiology",
+    "topic": "lymphatic_and_immune_system",
+    "subtopic": "Adaptive Immunity",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "During the construction of the MHC _____ are incorporated. Abnormal proteins in the MHC are recognized by T-lymphocytes as \"non-self.\"",
+    "choices": [
+      "small pieces of proteins from within the cell",
+      "fragments of the cell's DNA",
+      "antibodies bound to the cell surface",
+      "lipids from the plasma membrane"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-18-013",
+    "subject": "anatomy_physiology",
+    "topic": "lymphatic_and_immune_system",
+    "subtopic": "Adaptive Immunity",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "There are two types of MHC: MHCI is displayed by _____, but MHCII is presented by _____. The latter carries the news of the infection throughout the body or serves to signal that help is needed in an infected region.",
+    "choices": [
+      "all nucleated body cells; immune system cells only",
+      "immune system cells only; all nucleated body cells",
+      "red blood cells; white blood cells",
+      "B cells only; T cells only"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-18-014",
+    "subject": "anatomy_physiology",
+    "topic": "lymphatic_and_immune_system",
+    "subtopic": "Adaptive Immunity",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Antigen presenting cells are phagocytes that have _____ . They break down antigens and _____.",
+    "choices": [
+      "ingested an invader; incorporate pieces into MHC II",
+      "secreted antibodies; release them into the lymph",
+      "been infected by a virus; display pieces on MHC I",
+      "bound complement; lyse the pathogen"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-18-015",
+    "subject": "anatomy_physiology",
+    "topic": "lymphatic_and_immune_system",
+    "subtopic": "Adaptive Immunity",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Cells that present the MHCII are called _____.",
+    "choices": [
+      "antigen presenting cells (APCs)",
+      "natural killer cells",
+      "plasma cells",
+      "cytotoxic T cells"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-18-016",
+    "subject": "anatomy_physiology",
+    "topic": "lymphatic_and_immune_system",
+    "subtopic": "Adaptive Immunity",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "_____ can be recognized by antibodies or lymphocyte receptors without modification.",
+    "choices": [
+      "Complete antigens",
+      "Haptens",
+      "Interleukins",
+      "Complement proteins"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-18-017",
+    "subject": "anatomy_physiology",
+    "topic": "lymphatic_and_immune_system",
+    "subtopic": "Adaptive Immunity",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Antigens are often large, and may have many sites (called _____ or _____) to which antibodies or lymphocyte receptors may bind.",
+    "choices": [
+      "antigenic determinants; epitopes",
+      "haptens; opsonins",
+      "receptors; ligands",
+      "variable regions; constant regions"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-18-018",
+    "subject": "anatomy_physiology",
+    "topic": "lymphatic_and_immune_system",
+    "subtopic": "Adaptive Immunity",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Haptens are _____ that are too small to _____, but which may interact with proteins of the body and then may be recognized as potentially harmful.",
+    "choices": [
+      "incomplete antigens; stimulate an immune response",
+      "complete antigens; bind antibodies",
+      "antibodies; bind antigens",
+      "cytokines; cross the capillary wall"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-18-019",
+    "subject": "anatomy_physiology",
+    "topic": "lymphatic_and_immune_system",
+    "subtopic": "Adaptive Immunity",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The cells responsible for distinguishing self from non-self cells are the _____.",
+    "choices": [
+      "lymphocytes",
+      "erythrocytes",
+      "platelets",
+      "neutrophils"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-18-020",
+    "subject": "anatomy_physiology",
+    "topic": "lymphatic_and_immune_system",
+    "subtopic": "Adaptive Immunity",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Each lymphocyte can recognize _____ <how many antigens?>: the body's ability to recognize many different antigens thus depends on having _____.",
+    "choices": [
+      "one single antigen; many different lymphocytes",
+      "many antigens; a few lymphocytes",
+      "one single antigen; many antibodies per cell",
+      "many antigens; many different lymphocytes"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-18-021",
+    "subject": "anatomy_physiology",
+    "topic": "lymphatic_and_immune_system",
+    "subtopic": "Adaptive Immunity",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Lymphocytes remain inactive and do not proliferate until _____ and (usually) a co-stimulator sensed.",
+    "choices": [
+      "an antigen is recognized",
+      "an antibody is secreted",
+      "complement is activated",
+      "histamine is released"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-18-022",
+    "subject": "anatomy_physiology",
+    "topic": "lymphatic_and_immune_system",
+    "subtopic": "Adaptive Immunity",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Activation of a lymphocyte refers to the cell's commitment to proliferate. Since each daughter cell recognizes the same antigen, the process is called _____.",
+    "choices": [
+      "clonal selection",
+      "negative selection",
+      "positive selection",
+      "lymphocyte differentiation"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-18-023",
+    "subject": "anatomy_physiology",
+    "topic": "lymphatic_and_immune_system",
+    "subtopic": "Adaptive Immunity",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Since each antigen may have several sites to which antibodies may bind, more than one B-cell clone may produce antibodies to each antigen. A collection of such antibodies is said to be _____.",
+    "choices": [
+      "polyclonal",
+      "monoclonal",
+      "polymorphic",
+      "polyvalent"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-18-024",
+    "subject": "anatomy_physiology",
+    "topic": "lymphatic_and_immune_system",
+    "subtopic": "Adaptive Immunity",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "If one single B-cell is cloned in the laboratory by selection against one single antigenic determinant on an antigen, only one type of antibody is produced. Such antibodies are said to be _____.",
+    "choices": [
+      "monoclonal",
+      "polyclonal",
+      "polymorphic",
+      "polyvalent"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-18-025",
+    "subject": "anatomy_physiology",
+    "topic": "lymphatic_and_immune_system",
+    "subtopic": "Adaptive Immunity",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Most lymphocytes, in order to become activated after an antigen binds, must also bind to a(n) _____. This serves as a \"double-check\" to prevent _____.",
+    "choices": [
+      "co-stimulator; accidental activation",
+      "antibody; clonal expansion",
+      "complement protein; opsonization",
+      "MHC I protein; apoptosis"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-18-026",
+    "subject": "anatomy_physiology",
+    "topic": "lymphatic_and_immune_system",
+    "subtopic": "Adaptive Immunity",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Killer T-cells, as part of the adaptive immune response, _____ and _____ the pathogen directly.",
+    "choices": [
+      "recognize; attack",
+      "opsonize; agglutinate",
+      "neutralize; precipitate",
+      "phagocytize; digest"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-18-027",
+    "subject": "anatomy_physiology",
+    "topic": "lymphatic_and_immune_system",
+    "subtopic": "Adaptive Immunity",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Antibodies bound to a pathogen trigger attacks by _____.",
+    "choices": [
+      "the innate immune system",
+      "cytotoxic T cells",
+      "plasma cells",
+      "memory B cells"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-18-028",
+    "subject": "anatomy_physiology",
+    "topic": "lymphatic_and_immune_system",
+    "subtopic": "Adaptive Immunity",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "When activated lymphocytes proliferate, some of the daughter cells are always _____: they must _____ if they are to become activated.",
+    "choices": [
+      "inactive; bind antigens",
+      "active; secrete antibodies",
+      "inactive; secrete cytokines",
+      "active; bind complement"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-18-029",
+    "subject": "anatomy_physiology",
+    "topic": "lymphatic_and_immune_system",
+    "subtopic": "Adaptive Immunity",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "_____ are immunocompetent lymphocytes created during an infection and remain alive long after the infection, allowing the body to \"remember\" the antigen and react quickly if it returns.",
+    "choices": [
+      "Memory cells",
+      "Plasma cells",
+      "Natural killer cells",
+      "Macrophages"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-18-030",
+    "subject": "anatomy_physiology",
+    "topic": "lymphatic_and_immune_system",
+    "subtopic": "Adaptive Immunity",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Memory cells express _____ that was expressed by the parent lymphocyte.",
+    "choices": [
+      "the same antigen receptor",
+      "a different antigen receptor",
+      "a randomly reshuffled antigen receptor",
+      "the same secreted antibody"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-18-031",
+    "subject": "anatomy_physiology",
+    "topic": "lymphatic_and_immune_system",
+    "subtopic": "Adaptive Immunity",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "For the body to mount a specific defense against a newly encountered invader takes _____ <how long?>. (There may be only a single lymphocyte in the body that happens to bind to it!)",
+    "choices": [
+      "days or weeks",
+      "seconds",
+      "minutes",
+      "hours"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-18-032",
+    "subject": "anatomy_physiology",
+    "topic": "lymphatic_and_immune_system",
+    "subtopic": "Adaptive Immunity",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The response to a newly encountered invader is called the _____.",
+    "choices": [
+      "primary immune response",
+      "secondary immune response",
+      "innate immune response",
+      "inflammatory response"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-18-033",
+    "subject": "anatomy_physiology",
+    "topic": "lymphatic_and_immune_system",
+    "subtopic": "Adaptive Immunity",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Re-exposure, even years later, to an antigen that has been responded to before results in a specific defense that takes _____ to mount. This is due to the presence of _____. (There are thus many lymphocytes in the body that are able to bind to the antigen.)",
+    "choices": [
+      "only hours; memory cells",
+      "days or weeks; memory cells",
+      "only hours; plasma cells",
+      "days or weeks; naive lymphocytes"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-18-034",
+    "subject": "anatomy_physiology",
+    "topic": "lymphatic_and_immune_system",
+    "subtopic": "Adaptive Immunity",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The response to an invader that has been attacked in the past is called the _____.",
+    "choices": [
+      "secondary immune response",
+      "primary immune response",
+      "innate immune response",
+      "inflammatory response"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-18-035",
+    "subject": "anatomy_physiology",
+    "topic": "lymphatic_and_immune_system",
+    "subtopic": "Adaptive Immunity",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Once a lymphocyte is mature and capable of binding to a specific antigen, it is said to be _____.",
+    "choices": [
+      "immunocompetent",
+      "immunodeficient",
+      "tolerant",
+      "sensitized"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-18-036",
+    "subject": "anatomy_physiology",
+    "topic": "lymphatic_and_immune_system",
+    "subtopic": "Adaptive Immunity",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Immunocompetent lymphocytes have a set of _____ on their surface which can bind to a specific antigen.",
+    "choices": [
+      "receptors",
+      "epitopes",
+      "haptens",
+      "interleukins"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-18-037",
+    "subject": "anatomy_physiology",
+    "topic": "lymphatic_and_immune_system",
+    "subtopic": "Adaptive Immunity",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The antigen binding receptors of lymphocytes are produced by the _____ that produce them, so that the number that can be made by a single person is very large.",
+    "choices": [
+      "shuffling of portions of the genes",
+      "duplication of the chromosomes",
+      "random mutation of the receptor proteins",
+      "copying of the antigen's shape"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-18-038",
+    "subject": "anatomy_physiology",
+    "topic": "lymphatic_and_immune_system",
+    "subtopic": "Adaptive Immunity",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Immature lymphocytes are formed from hematopoeitic stem cells in the _____.",
+    "choices": [
+      "bone marrow",
+      "thymus",
+      "spleen",
+      "lymph nodes"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-18-039",
+    "subject": "anatomy_physiology",
+    "topic": "lymphatic_and_immune_system",
+    "subtopic": "Adaptive Immunity",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Each immature lymphocyte displays _____, but most such cells are unwanted.",
+    "choices": [
+      "a single type of antigen-binding receptor",
+      "many different antigen-binding receptors",
+      "no antigen-binding receptors",
+      "a single MHC II protein"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-18-040",
+    "subject": "anatomy_physiology",
+    "topic": "lymphatic_and_immune_system",
+    "subtopic": "Adaptive Immunity",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Lymphocytes whose antigen receptors do NOT react with 'self' cells are said to be _____, but many immature lymphocytes do not meet this standard.",
+    "choices": [
+      "tolerant",
+      "autoreactive",
+      "sensitized",
+      "immunodeficient"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-18-041",
+    "subject": "anatomy_physiology",
+    "topic": "lymphatic_and_immune_system",
+    "subtopic": "Adaptive Immunity",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Most B-cells whose receptors bind to \"self\" proteins are destroyed in _____.",
+    "choices": [
+      "the bone marrow",
+      "the thymus",
+      "the spleen",
+      "the lymph nodes"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-18-042",
+    "subject": "anatomy_physiology",
+    "topic": "lymphatic_and_immune_system",
+    "subtopic": "Adaptive Immunity",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The acquired immune response can be divided into two branches: the _____ response recognizes antigens or pathogens that are not associated with any \"self\" cells.",
+    "choices": [
+      "humoral",
+      "cell-mediated",
+      "innate",
+      "inflammatory"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-18-043",
+    "subject": "anatomy_physiology",
+    "topic": "lymphatic_and_immune_system",
+    "subtopic": "Adaptive Immunity",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The acquired immune response can be divided into two branches: the _____ response recognizes antigens that are associated with \"self\" cells (such as virally infected cells, or special phagocytes that have eaten an invader and are displaying pieces of it as markers).",
+    "choices": [
+      "cell-mediated",
+      "humoral",
+      "innate",
+      "inflammatory"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-18-044",
+    "subject": "anatomy_physiology",
+    "topic": "lymphatic_and_immune_system",
+    "subtopic": "Adaptive Immunity",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Humoral immunity is mediated by _____ produced by plasma cells present in the body's \"humors\" or fluids.",
+    "choices": [
+      "antibodies",
+      "cytokines",
+      "complement proteins",
+      "interferons"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-18-045",
+    "subject": "anatomy_physiology",
+    "topic": "lymphatic_and_immune_system",
+    "subtopic": "Adaptive Immunity",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "B-cells recognize antigens that are _____: that is, that are not displayed as part of a MHC.",
+    "choices": [
+      "free in body fluids",
+      "displayed on MHC I",
+      "displayed on MHC II",
+      "inside infected cells"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-18-046",
+    "subject": "anatomy_physiology",
+    "topic": "lymphatic_and_immune_system",
+    "subtopic": "Adaptive Immunity",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The first response in the humoral branch of the immune response is _____.",
+    "choices": [
+      "the binding of a B cell to an antigen",
+      "the secretion of antibodies by plasma cells",
+      "the release of interferons",
+      "the activation of complement"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-18-047",
+    "subject": "anatomy_physiology",
+    "topic": "lymphatic_and_immune_system",
+    "subtopic": "Adaptive Immunity",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "When a B-cell encounters an antigen, it proliferates into two types of cells: _____ and _____.",
+    "choices": [
+      "plasma cells; memory B cells",
+      "helper T cells; cytotoxic T cells",
+      "plasma cells; natural killer cells",
+      "macrophages; memory B cells"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-18-048",
+    "subject": "anatomy_physiology",
+    "topic": "lymphatic_and_immune_system",
+    "subtopic": "Adaptive Immunity",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Plasma cells produce antibodies that can bind to _____.",
+    "choices": [
+      "the same antigen recognized by the parent B cell",
+      "any antigen encountered",
+      "a different antigen than the parent B cell",
+      "self MHC proteins only"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-18-049",
+    "subject": "anatomy_physiology",
+    "topic": "lymphatic_and_immune_system",
+    "subtopic": "Adaptive Immunity",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Antibodies are produced by _____ in the lymph.",
+    "choices": [
+      "plasma cells",
+      "helper T cells",
+      "macrophages",
+      "natural killer cells"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-18-050",
+    "subject": "anatomy_physiology",
+    "topic": "lymphatic_and_immune_system",
+    "subtopic": "Adaptive Immunity",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Antibodies are _____, each of which can bind to _____ identical antigens.",
+    "choices": [
+      "proteins; two or more",
+      "lipids; one",
+      "carbohydrates; two or more",
+      "proteins; one"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-18-051",
+    "subject": "anatomy_physiology",
+    "topic": "lymphatic_and_immune_system",
+    "subtopic": "Adaptive Immunity",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Most antibodies are essentially Y-shaped: the stem of the Y is _____ and the branches of the Y are _____ and are called the _____.",
+    "choices": [
+      "constant; variable; variable region",
+      "variable; constant; constant region",
+      "constant; constant; hinge region",
+      "variable; variable; antigen binding site"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-18-052",
+    "subject": "anatomy_physiology",
+    "topic": "lymphatic_and_immune_system",
+    "subtopic": "Adaptive Immunity",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "It is the differences in the _____ that enables different antibodies to bind to different antigens.",
+    "choices": [
+      "variable region",
+      "constant region",
+      "hinge region",
+      "disulfide bonds"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-18-053",
+    "subject": "anatomy_physiology",
+    "topic": "lymphatic_and_immune_system",
+    "subtopic": "Adaptive Immunity",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "_____ refers to the fact that antibodies \"get in the way,\" so to speak, interfering with the function of the proteins or cells to which they bind.",
+    "choices": [
+      "Neutralization",
+      "Agglutination",
+      "Opsonization",
+      "Precipitation"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-18-054",
+    "subject": "anatomy_physiology",
+    "topic": "lymphatic_and_immune_system",
+    "subtopic": "Adaptive Immunity",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "_____ refers to the fact that, since each antibody can bind to two antigen molecules, they can cause the antigen (or cells which display it) to clump. This makes them vulnerable to _____.",
+    "choices": [
+      "Agglutination; the non-specific immune system",
+      "Neutralization; cytotoxic T cells",
+      "Opsonization; helper T cells",
+      "Precipitation; plasma cells"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-18-055",
+    "subject": "anatomy_physiology",
+    "topic": "lymphatic_and_immune_system",
+    "subtopic": "Adaptive Immunity",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Elements of the non-specific immune system, including macrophages and complement proteins, recognize antibodies in the body which _____. This results in the destruction of the antigen.",
+    "choices": [
+      "have bound to an antigen",
+      "are circulating freely",
+      "have been secreted by memory cells",
+      "are displayed on MHC II"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-18-056",
+    "subject": "anatomy_physiology",
+    "topic": "lymphatic_and_immune_system",
+    "subtopic": "Adaptive Immunity",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Although Y shaped, compared to fibrous proteins antibodies are round or globe shaped. Thus, antibodies are called the _____.",
+    "choices": [
+      "immunoglobulins (Ig)",
+      "interleukins (IL)",
+      "interferons (IFN)",
+      "human leukocyte antigens (HLA)"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-18-057",
+    "subject": "anatomy_physiology",
+    "topic": "lymphatic_and_immune_system",
+    "subtopic": "Adaptive Immunity",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Most _____ is found as a dimer (two stuck together) in body secretions, and helps to _____.",
+    "choices": [
+      "IgA; prevent pathogens from attaching to body surfaces",
+      "IgM; activate complement",
+      "IgE; trigger histamine release",
+      "IgG; cross the placenta"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-18-058",
+    "subject": "anatomy_physiology",
+    "topic": "lymphatic_and_immune_system",
+    "subtopic": "Adaptive Immunity",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "_____ serves as an antigen receptor for B cells: it is physically attached to their surface.",
+    "choices": [
+      "IgD",
+      "IgA",
+      "IgE",
+      "IgG"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-18-059",
+    "subject": "anatomy_physiology",
+    "topic": "lymphatic_and_immune_system",
+    "subtopic": "Adaptive Immunity",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "_____ is found in barrier regions, bound to mast cells and basophils: antigen binding causes the cells to _____.",
+    "choices": [
+      "IgE; release histamine and other inflammatory chemicals",
+      "IgA; secrete mucus",
+      "IgG; phagocytize the antigen",
+      "IgM; divide rapidly"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-18-060",
+    "subject": "anatomy_physiology",
+    "topic": "lymphatic_and_immune_system",
+    "subtopic": "Adaptive Immunity",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Most antibodies are _____. When bound to an antigen, these are recognized by other components of the immune system, which then _____.",
+    "choices": [
+      "IgG; destroy the object to which it is bound",
+      "IgA; wash the antigen from the body surface",
+      "IgE; release histamine",
+      "IgD; activate the B cell"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-18-061",
+    "subject": "anatomy_physiology",
+    "topic": "lymphatic_and_immune_system",
+    "subtopic": "Adaptive Immunity",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The monomer form of _____, like IgD, serves as an antigen receptor for B cells.",
+    "choices": [
+      "IgM",
+      "IgA",
+      "IgE",
+      "IgG"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-18-062",
+    "subject": "anatomy_physiology",
+    "topic": "lymphatic_and_immune_system",
+    "subtopic": "Adaptive Immunity",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "As a pentamer (five units bound together), _____ is the first antibody released by new plasma cells and so can serve as a marker for an active infection.",
+    "choices": [
+      "IgM",
+      "IgG",
+      "IgA",
+      "IgE"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-18-063",
+    "subject": "anatomy_physiology",
+    "topic": "lymphatic_and_immune_system",
+    "subtopic": "Adaptive Immunity",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "_____ is mediated by T lymphocytes which respond only to living cells which display both _____ and _____.",
+    "choices": [
+      "Cell-mediated immunity; foreign antigens; self MHC proteins",
+      "Humoral immunity; antibodies; complement",
+      "Innate immunity; foreign antigens; antibodies",
+      "Cell-mediated immunity; self antigens; foreign MHC proteins"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-18-064",
+    "subject": "anatomy_physiology",
+    "topic": "lymphatic_and_immune_system",
+    "subtopic": "Adaptive Immunity",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Killer T-cells are also called _____.",
+    "choices": [
+      "cytotoxic T cells",
+      "helper T cells",
+      "suppressor T cells",
+      "natural killer cells"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-18-065",
+    "subject": "anatomy_physiology",
+    "topic": "lymphatic_and_immune_system",
+    "subtopic": "Adaptive Immunity",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Killer T-cells recognize MHCI proteins mixed with antigens, and respond by _____.",
+    "choices": [
+      "producing toxins which cause the infected cells to die",
+      "secreting antibodies against the antigen",
+      "phagocytizing the infected cells",
+      "releasing histamine"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-18-066",
+    "subject": "anatomy_physiology",
+    "topic": "lymphatic_and_immune_system",
+    "subtopic": "Adaptive Immunity",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The function of helper T-cells is to stimulate B-cells to _____, and to stimulate both B-cells and T-cells to _____. (That is, they produce co-stimulators.)",
+    "choices": [
+      "produce antibodies; divide",
+      "divide; produce antibodies",
+      "phagocytize; secrete antibodies",
+      "produce antibodies; undergo apoptosis"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-18-067",
+    "subject": "anatomy_physiology",
+    "topic": "lymphatic_and_immune_system",
+    "subtopic": "Adaptive Immunity",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Without _____ there can be no adaptive immune response.",
+    "choices": [
+      "helper T cells",
+      "natural killer cells",
+      "neutrophils",
+      "mast cells"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-18-068",
+    "subject": "anatomy_physiology",
+    "topic": "lymphatic_and_immune_system",
+    "subtopic": "Adaptive Immunity",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "An interleukin is a type of cytokine which is released by _____ and allows communication between leukocytes (inter-leukocyte communication). Interleukin is a co-stimulator and activates _____.",
+    "choices": [
+      "helper T cells and APCs; antigen-bound lymphocytes",
+      "plasma cells and mast cells; complement proteins",
+      "neutrophils and basophils; erythrocytes",
+      "virus-infected cells; neighboring cells"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-18-069",
+    "subject": "anatomy_physiology",
+    "topic": "lymphatic_and_immune_system",
+    "subtopic": "Adaptive Immunity",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "_____ are needed at the end of an infection to shut down the immune response.",
+    "choices": [
+      "Suppressor T cells",
+      "Helper T cells",
+      "Cytotoxic T cells",
+      "Memory T cells"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-18-070",
+    "subject": "anatomy_physiology",
+    "topic": "lymphatic_and_immune_system",
+    "subtopic": "Adaptive Immunity",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "_____ are the most similar to the parent T-cell: they remain in circulation long after the infection is over, ready to recognize the pathogen if it returns.",
+    "choices": [
+      "Memory T cells",
+      "Cytotoxic T cells",
+      "Helper T cells",
+      "Suppressor T cells"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-18-071",
+    "subject": "anatomy_physiology",
+    "topic": "lymphatic_and_immune_system",
+    "subtopic": "Adaptive Immunity",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "One way that we medically supplement the immune response is to directly kill the pathogen (if it is bacterial or eukaryotic) by the use of _____.",
+    "choices": [
+      "antibiotics",
+      "vaccines",
+      "antibodies",
+      "antihistamines"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-18-072",
+    "subject": "anatomy_physiology",
+    "topic": "lymphatic_and_immune_system",
+    "subtopic": "Adaptive Immunity",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "One way that we medically supplement the immune response is to inject _____ that are _____ the pathogen, so that the body will recognize it in the future. (This is called vaccination.)",
+    "choices": [
+      "harmless antigens; derived from",
+      "antibodies; produced against",
+      "antibiotics; toxic to",
+      "memory cells; specific for"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-18-073",
+    "subject": "anatomy_physiology",
+    "topic": "lymphatic_and_immune_system",
+    "subtopic": "Adaptive Immunity",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "One way that we medically supplement the immune response is to directly transfer antibodies from one individual to another: this confers _____.",
+    "choices": [
+      "passive immunity",
+      "active immunity",
+      "innate immunity",
+      "cell-mediated immunity"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-18-074",
+    "subject": "anatomy_physiology",
+    "topic": "lymphatic_and_immune_system",
+    "subtopic": "Adaptive Immunity",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The immunity created by our own immune system is called _____.",
+    "choices": [
+      "active immunity",
+      "passive immunity",
+      "naturally acquired passive immunity",
+      "artificially acquired passive immunity"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-18-075",
+    "subject": "anatomy_physiology",
+    "topic": "lymphatic_and_immune_system",
+    "subtopic": "Adaptive Immunity",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Newborn infants have passive immunity to many pathogens due to _____.",
+    "choices": [
+      "transfer of maternal antibodies across the placenta",
+      "their own plasma cells",
+      "vaccination at birth",
+      "transfer of maternal T cells"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-18-076",
+    "subject": "anatomy_physiology",
+    "topic": "lymphatic_and_immune_system",
+    "subtopic": "Aging: Immune System",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The thymus is largest during _____.",
+    "choices": [
+      "early childhood",
+      "middle age",
+      "late adulthood",
+      "fetal development"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-18-077",
+    "subject": "anatomy_physiology",
+    "topic": "lymphatic_and_immune_system",
+    "subtopic": "Aging: Immune System",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "An individual whose thymus was so small that it could not be found at autopsy was most likely _____.",
+    "choices": [
+      "old",
+      "an infant",
+      "a teenager",
+      "a young adult"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-18-078",
+    "subject": "anatomy_physiology",
+    "topic": "lymphatic_and_immune_system",
+    "subtopic": "Immune Disorders",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Transplant success depends on the similarity of the tissues because cytotoxic T cells, NK cells, and antibodies work to _____.",
+    "choices": [
+      "destroy non-self tissues",
+      "repair damaged tissues",
+      "suppress the immune response",
+      "promote graft vascularization"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-18-079",
+    "subject": "anatomy_physiology",
+    "topic": "lymphatic_and_immune_system",
+    "subtopic": "Immune Disorders",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Autografts are tissue grafts transplanted from _____.",
+    "choices": [
+      "one body site to another in the same person",
+      "an identical twin",
+      "another person of the same species",
+      "another species"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-18-080",
+    "subject": "anatomy_physiology",
+    "topic": "lymphatic_and_immune_system",
+    "subtopic": "Immune Disorders",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Allografts are grafts transplanted from _____. Currently, to be successful, the immune system must be suppressed.",
+    "choices": [
+      "genetically different individuals of the same species",
+      "one site to another in the same person",
+      "an identical twin",
+      "a different species"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-18-081",
+    "subject": "anatomy_physiology",
+    "topic": "lymphatic_and_immune_system",
+    "subtopic": "Immune Disorders",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Xenografts are grafts _____. Currently, to be successful, the immune system must be suppressed.",
+    "choices": [
+      "taken from another animal species",
+      "taken from the same person",
+      "taken from an identical twin",
+      "taken from an unrelated person"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-18-082",
+    "subject": "anatomy_physiology",
+    "topic": "lymphatic_and_immune_system",
+    "subtopic": "Immune Disorders",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Severe combined immunodeficiency (SCID) is a congenital condition that produces a deficit of _____.",
+    "choices": [
+      "lymphocytes",
+      "erythrocytes",
+      "platelets",
+      "complement proteins"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-18-083",
+    "subject": "anatomy_physiology",
+    "topic": "lymphatic_and_immune_system",
+    "subtopic": "Immune Disorders",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Acquired immune deficiency syndrome (AIDS) cripples the immune system by interfering with _____.",
+    "choices": [
+      "helper T cells",
+      "cytotoxic T cells",
+      "B cells",
+      "neutrophils"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-18-084",
+    "subject": "anatomy_physiology",
+    "topic": "lymphatic_and_immune_system",
+    "subtopic": "Immune Disorders",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "_____ occur when the immune system loses its ability to differentiate between self and non-self. As a result, the body _____.",
+    "choices": [
+      "Autoimmune diseases; attacks its own cells",
+      "Immunodeficiencies; fails to attack pathogens",
+      "Allergies; attacks harmless substances",
+      "Autoimmune diseases; tolerates foreign cells"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-18-085",
+    "subject": "anatomy_physiology",
+    "topic": "lymphatic_and_immune_system",
+    "subtopic": "Immune Disorders",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Hypersensitivities, or allergies, are the result of the immune system causing tissue damage as it attacks _____.",
+    "choices": [
+      "a harmless substance",
+      "the body's own cells",
+      "a virus-infected cell",
+      "a bacterial pathogen"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-18-086",
+    "subject": "anatomy_physiology",
+    "topic": "lymphatic_and_immune_system",
+    "subtopic": "Innate Immunity",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Many _____, cells that are descended from monocytes and which engulf microbes and debris, are found in the lymph fluid.",
+    "choices": [
+      "macrophages",
+      "lymphocytes",
+      "plasma cells",
+      "basophils"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-18-087",
+    "subject": "anatomy_physiology",
+    "topic": "lymphatic_and_immune_system",
+    "subtopic": "Innate Immunity",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The skin is an example of a(n) _____. Physically, the outer layer is highly-cross-linked keratin and is waterproof, blocking many invaders and their toxins.",
+    "choices": [
+      "non-specific barrier",
+      "specific defense",
+      "adaptive response",
+      "humoral defense"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-18-088",
+    "subject": "anatomy_physiology",
+    "topic": "lymphatic_and_immune_system",
+    "subtopic": "Innate Immunity",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "In addition to it's physical structure, the ability of the skin to repel invaders is enhanced by _____.",
+    "choices": [
+      "acidic secretions",
+      "alkaline secretions",
+      "mucus secretions",
+      "complement proteins"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-18-089",
+    "subject": "anatomy_physiology",
+    "topic": "lymphatic_and_immune_system",
+    "subtopic": "Innate Immunity",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Tears, saliva, and other secretions include lysozyme which _____.",
+    "choices": [
+      "breaks down bacterial walls",
+      "neutralizes viral capsids",
+      "activates complement",
+      "attracts phagocytes"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-18-090",
+    "subject": "anatomy_physiology",
+    "topic": "lymphatic_and_immune_system",
+    "subtopic": "Innate Immunity",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Mucous membranes and the cells that line them serve as a(n) _____: invaders become trapped in the mucous and are swept out by _____.",
+    "choices": [
+      "non-specific barrier; ciliated cells",
+      "specific defense; ciliated cells",
+      "non-specific barrier; macrophages",
+      "specific defense; goblet cells"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-18-091",
+    "subject": "anatomy_physiology",
+    "topic": "lymphatic_and_immune_system",
+    "subtopic": "Innate Immunity",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Most microbes living in the food (or drink) which we ingest are destroyed by _____ before they can cross into the body: this is a(n) _____.",
+    "choices": [
+      "gastric juices; non-specific barrier",
+      "gastric juices; specific defense",
+      "pancreatic enzymes; non-specific barrier",
+      "bile salts; specific defense"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-18-092",
+    "subject": "anatomy_physiology",
+    "topic": "lymphatic_and_immune_system",
+    "subtopic": "Innate Immunity",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "_____ are found on many bodily surfaces; they remove nutrients and other materials that would otherwise be available to pathogenic species.",
+    "choices": [
+      "Symbiotic bacteria",
+      "Pathogenic bacteria",
+      "Natural killer cells",
+      "Macrophages"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-18-093",
+    "subject": "anatomy_physiology",
+    "topic": "lymphatic_and_immune_system",
+    "subtopic": "Innate Immunity",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "_____ recognize cells whose surface markers are drastically \"non-self\" - missing major markers or containing non-human glycoproteins - and kill them. (They are not phagocytic.)",
+    "choices": [
+      "NK cells",
+      "Macrophages",
+      "Neutrophils",
+      "Plasma cells"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-18-094",
+    "subject": "anatomy_physiology",
+    "topic": "lymphatic_and_immune_system",
+    "subtopic": "Innate Immunity",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Neutrophils and macrophages ingest _____, and so play a role in non-specific defenses.",
+    "choices": [
+      "foreign material and debris",
+      "antibodies and complement",
+      "interferons and cytokines",
+      "histamine and heparin"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-18-095",
+    "subject": "anatomy_physiology",
+    "topic": "lymphatic_and_immune_system",
+    "subtopic": "Innate Immunity",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Macrophages sometimes kill their prey with chemicals including peroxide and bleach in a process called _____.",
+    "choices": [
+      "the respiratory burst",
+      "diapedesis",
+      "chemotaxis",
+      "opsonization"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-18-096",
+    "subject": "anatomy_physiology",
+    "topic": "lymphatic_and_immune_system",
+    "subtopic": "Innate Immunity",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "A set of about 20 proteins present in the blood that, when activated, bind to pathogens and both _____ and _____ are called \"complement.\"",
+    "choices": [
+      "attract phagocytes; disrupt the pathogen's membranes",
+      "produce antibodies; release histamine",
+      "block antigen receptors; suppress inflammation",
+      "transport oxygen; carry lipids"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-18-097",
+    "subject": "anatomy_physiology",
+    "topic": "lymphatic_and_immune_system",
+    "subtopic": "Innate Immunity",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "\"Viral infections\" are infections in which viral _____ enter the cell, and the cell is forced to make _____ instead of, or in addition to, its own.",
+    "choices": [
+      "nucleic acids; viral proteins",
+      "proteins; viral nucleic acids",
+      "capsids; host proteins",
+      "lipids; viral enzymes"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-18-098",
+    "subject": "anatomy_physiology",
+    "topic": "lymphatic_and_immune_system",
+    "subtopic": "Innate Immunity",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Many cells, after being infected by a virus, manage to secrete _____ which stimulate neighboring cells to resist viral infection and ultimately signal the immune system.",
+    "choices": [
+      "interferons (IFNs)",
+      "interleukins",
+      "histamines",
+      "complement proteins"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-18-099",
+    "subject": "anatomy_physiology",
+    "topic": "lymphatic_and_immune_system",
+    "subtopic": "Innate Immunity",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "_____ is a systemic response in which cellular metabolism is accelerated and which creates a hostile environment to the invader: the danger is that, if excessive, it may also damage host tissue.",
+    "choices": [
+      "Fever",
+      "Inflammation",
+      "Chemotaxis",
+      "Anaphylaxis"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-18-100",
+    "subject": "anatomy_physiology",
+    "topic": "lymphatic_and_immune_system",
+    "subtopic": "Innate Immunity",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The four signs of acute inflammation are _____, _____, _____, and _____.",
+    "choices": [
+      "redness; heat; swelling; pain",
+      "redness; heat; fever; itching",
+      "pallor; coldness; swelling; numbness",
+      "redness; fever; swelling; nausea"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-18-101",
+    "subject": "anatomy_physiology",
+    "topic": "lymphatic_and_immune_system",
+    "subtopic": "Innate Immunity",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Vasodilation increases _____ and causes redness and heat.",
+    "choices": [
+      "blood flow",
+      "capillary permeability",
+      "blood viscosity",
+      "peripheral resistance"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-18-102",
+    "subject": "anatomy_physiology",
+    "topic": "lymphatic_and_immune_system",
+    "subtopic": "Innate Immunity",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Increased _____ causes local edema; this in turn causes swelling and pain.",
+    "choices": [
+      "capillary permeability",
+      "blood viscosity",
+      "lymphatic drainage",
+      "plasma osmotic pressure"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-18-103",
+    "subject": "anatomy_physiology",
+    "topic": "lymphatic_and_immune_system",
+    "subtopic": "Innate Immunity",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Increased capillary permeability allows clotting factors to leak into the interstitial fluid: as a result _____.",
+    "choices": [
+      "pathogens become trapped in the resulting fibrin mesh",
+      "phagocytes are blocked from entering the area",
+      "swelling is immediately reduced",
+      "the pathogen's membranes are lysed"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-18-104",
+    "subject": "anatomy_physiology",
+    "topic": "lymphatic_and_immune_system",
+    "subtopic": "Innate Immunity",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Phagocytes and lymphocytes are attracted to the signals released by damaged tissue in a process called _____.",
+    "choices": [
+      "chemotaxis",
+      "diapedesis",
+      "margination",
+      "opsonization"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-18-105",
+    "subject": "anatomy_physiology",
+    "topic": "lymphatic_and_immune_system",
+    "subtopic": "Innate Immunity",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "As leukocytes approach the injury, they begin to _____, rather than floating freely in the blood. This process is called _____.",
+    "choices": [
+      "cling to the capillary walls; margination",
+      "squeeze through the capillary walls; diapedesis",
+      "follow chemical gradients; chemotaxis",
+      "engulf debris; phagocytosis"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-18-106",
+    "subject": "anatomy_physiology",
+    "topic": "lymphatic_and_immune_system",
+    "subtopic": "Innate Immunity",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "When leukocytes find the damaged region, they _____ into the interstitial area in a process called _____.",
+    "choices": [
+      "squeeze through the capillary walls; diapedesis",
+      "cling to the capillary walls; margination",
+      "follow chemical gradients; chemotaxis",
+      "are pushed by blood pressure; filtration"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-18-107",
+    "subject": "anatomy_physiology",
+    "topic": "lymphatic_and_immune_system",
+    "subtopic": "Innate vs Adaptive Immunity",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The inflammatory response is a(n) _____.",
+    "choices": [
+      "non-specific defense",
+      "specific defense",
+      "non-specific barrier",
+      "acquired immune response"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-18-108",
+    "subject": "anatomy_physiology",
+    "topic": "lymphatic_and_immune_system",
+    "subtopic": "Innate vs Adaptive Immunity",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "If the body is able to recognize an invader, a third line of defense is available: the _____ of the immune system.",
+    "choices": [
+      "specific (adaptive) branch",
+      "non-specific (innate) branch",
+      "inflammatory branch",
+      "complement branch"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-18-109",
+    "subject": "anatomy_physiology",
+    "topic": "lymphatic_and_immune_system",
+    "subtopic": "Lymphatic System Anatomy",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The lymphatic system collects _____ and _____ from interstitial regions and returns them to the blood.",
+    "choices": [
+      "fluid; proteins",
+      "fluid; red blood cells",
+      "bile; lipids",
+      "plasma; platelets"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-18-110",
+    "subject": "anatomy_physiology",
+    "topic": "lymphatic_and_immune_system",
+    "subtopic": "Lymphatic System Anatomy",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Lymphatic capillaries are extremely _____ and they can therefore collect not only fluid but also proteins and even cells.",
+    "choices": [
+      "porous",
+      "muscular",
+      "elastic",
+      "narrow"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-18-111",
+    "subject": "anatomy_physiology",
+    "topic": "lymphatic_and_immune_system",
+    "subtopic": "Lymphatic System Anatomy",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Specialized lymphatic capillaries participate in digestion by absorbing _____.",
+    "choices": [
+      "lipids and lipid-soluble substances",
+      "amino acids and small peptides",
+      "monosaccharides",
+      "water-soluble vitamins"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-18-112",
+    "subject": "anatomy_physiology",
+    "topic": "lymphatic_and_immune_system",
+    "subtopic": "Lymphatic System Anatomy",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "One of the lymphatic system's tasks is to destroy cells which are not normally found in the body, but sometimes it is unsuccessful in destroying _____; it is not uncommon for these cells to invade lymphatic tissue and begin to grow.",
+    "choices": [
+      "cancer cells",
+      "erythrocytes",
+      "fibroblasts",
+      "chondrocytes"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-18-113",
+    "subject": "anatomy_physiology",
+    "topic": "lymphatic_and_immune_system",
+    "subtopic": "Lymphatic System Anatomy",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The fluid in the lymphatic system is called _____.",
+    "choices": [
+      "lymph",
+      "plasma",
+      "serum",
+      "cerebrospinal fluid"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-18-114",
+    "subject": "anatomy_physiology",
+    "topic": "lymphatic_and_immune_system",
+    "subtopic": "Lymphatic System Anatomy",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "About 3 liters per _____ travels through the lymphatic system, compared with 5 liters per _____ through the circulatory system.",
+    "choices": [
+      "day; minute",
+      "minute; day",
+      "hour; minute",
+      "day; hour"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-18-115",
+    "subject": "anatomy_physiology",
+    "topic": "lymphatic_and_immune_system",
+    "subtopic": "Lymphatic System Anatomy",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Lymph can flow in only one direction because of _____ in the lymphatic vessels.",
+    "choices": [
+      "one-way valves",
+      "precapillary sphincters",
+      "elastic membranes",
+      "cardiac muscle"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-18-116",
+    "subject": "anatomy_physiology",
+    "topic": "lymphatic_and_immune_system",
+    "subtopic": "Lymphatic System Anatomy",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Lymph is primarily propelled toward the site where it is returned to the blood by _____, although _____ in the vessel walls also participates.",
+    "choices": [
+      "the motions of the body; smooth muscle",
+      "smooth muscle; the motions of the body",
+      "the heartbeat; cardiac muscle",
+      "gravity; elastic fibers"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-18-117",
+    "subject": "anatomy_physiology",
+    "topic": "lymphatic_and_immune_system",
+    "subtopic": "Lymphatic System Anatomy",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The smallest lymphatic vessels are called _____ and are essentially microscopic, dead-end tubes.",
+    "choices": [
+      "lymphatic capillaries",
+      "lymphatic trunks",
+      "lymphatic ducts",
+      "lymphatic collecting vessels"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-18-118",
+    "subject": "anatomy_physiology",
+    "topic": "lymphatic_and_immune_system",
+    "subtopic": "Lymphatic System Anatomy",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Endothelial cells that make up the lymph capillaries overlap loosely to form _____.",
+    "choices": [
+      "one-way valves",
+      "tight junctions",
+      "fenestrations",
+      "gap junctions"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-18-119",
+    "subject": "anatomy_physiology",
+    "topic": "lymphatic_and_immune_system",
+    "subtopic": "Lymphatic System Anatomy",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Increased fluid pressure in regions surrounding lymph capillaries causes the overlapping regions of the cells of the capillaries to _____.",
+    "choices": [
+      "separate",
+      "press together",
+      "contract",
+      "thicken"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-18-120",
+    "subject": "anatomy_physiology",
+    "topic": "lymphatic_and_immune_system",
+    "subtopic": "Lymphatic System Anatomy",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "High pressures in the lymph fluid within the lymphatic capillaries cause the overlapping regions of the cells of which the capillaries are made to _____.",
+    "choices": [
+      "press together",
+      "separate",
+      "relax",
+      "thin out"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-18-121",
+    "subject": "anatomy_physiology",
+    "topic": "lymphatic_and_immune_system",
+    "subtopic": "Lymphatic System Anatomy",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Lymphatic capillaries are prevented from collapsing as tissue fluid increases by anchoring _____ attached to the endothelial cells of the vessel.",
+    "choices": [
+      "collagen filaments",
+      "elastic fibers",
+      "smooth muscle fibers",
+      "actin filaments"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-18-122",
+    "subject": "anatomy_physiology",
+    "topic": "lymphatic_and_immune_system",
+    "subtopic": "Lymphatic System Anatomy",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "_____ are specialized lymph capillaries in the _____ of the small intestine.",
+    "choices": [
+      "Lacteals; villi",
+      "Lacteals; plicae circulares",
+      "Sinusoids; villi",
+      "Peyer's patches; crypts"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-18-123",
+    "subject": "anatomy_physiology",
+    "topic": "lymphatic_and_immune_system",
+    "subtopic": "Lymphatic System Anatomy",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Most lymph in the body appears _____, but that in lacteals (called _____) is creamy white due to the high concentration of lipids.",
+    "choices": [
+      "clear; chyle",
+      "clear; serum",
+      "yellow; chyle",
+      "red; plasma"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-18-124",
+    "subject": "anatomy_physiology",
+    "topic": "lymphatic_and_immune_system",
+    "subtopic": "Lymphatic System Anatomy",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "When several lymph capillaries merge, they form a(n) _____.",
+    "choices": [
+      "lymphatic collecting vessel",
+      "lymphatic trunk",
+      "lymphatic duct",
+      "lymph node"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-18-125",
+    "subject": "anatomy_physiology",
+    "topic": "lymphatic_and_immune_system",
+    "subtopic": "Lymphatic System Anatomy",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The walls of lymphatic collecting vessels, like those of blood vessels, have _____ <how many> tunics.",
+    "choices": [
+      "three",
+      "two",
+      "four",
+      "one"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-18-126",
+    "subject": "anatomy_physiology",
+    "topic": "lymphatic_and_immune_system",
+    "subtopic": "Lymphatic System Anatomy",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "When lymphatic collecting vessels merge, they form _____.",
+    "choices": [
+      "lymphatic trunks",
+      "lymphatic ducts",
+      "lymphatic capillaries",
+      "lymphatic sinuses"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-18-127",
+    "subject": "anatomy_physiology",
+    "topic": "lymphatic_and_immune_system",
+    "subtopic": "Lymphatic System Anatomy",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The left and right lymphatic ducts drain into the left and right _____ veins, at their intersection with the _____.",
+    "choices": [
+      "subclavian; jugular veins",
+      "jugular; subclavian veins",
+      "brachiocephalic; jugular veins",
+      "subclavian; axillary veins"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-18-128",
+    "subject": "anatomy_physiology",
+    "topic": "lymphatic_and_immune_system",
+    "subtopic": "Lymphatic System Anatomy",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Blood is prevented from entering the lymphatic ducts by the presence of _____.",
+    "choices": [
+      "one-way valves",
+      "precapillary sphincters",
+      "tight junctions",
+      "a basement membrane"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-18-129",
+    "subject": "anatomy_physiology",
+    "topic": "lymphatic_and_immune_system",
+    "subtopic": "Lymphatic System Anatomy",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The _____ collects lymph only from a small portion of one side of the body.",
+    "choices": [
+      "right lymphatic duct",
+      "thoracic duct",
+      "cisterna chyli",
+      "right jugular trunk"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-18-130",
+    "subject": "anatomy_physiology",
+    "topic": "lymphatic_and_immune_system",
+    "subtopic": "Lymphatic System Anatomy",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The lymphatic system's supporting structure is provided largely by _____ cells and the fibers they produce.",
+    "choices": [
+      "reticular",
+      "endothelial",
+      "epithelial",
+      "adipose"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-18-131",
+    "subject": "anatomy_physiology",
+    "topic": "lymphatic_and_immune_system",
+    "subtopic": "Lymphatic System Anatomy",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Lymphatic tissues in the _____ (a vascular layer of connective tissue under the basement membrane of epithelium, particularly mucosal epithelium), in general, are referred to as _____.",
+    "choices": [
+      "lamina propria; mucosa-associated lymphoid tissue (MALT)",
+      "submucosa; gut-associated lymphoid tissue (GALT)",
+      "lamina propria; lymph nodes",
+      "serosa; mucosa-associated lymphoid tissue (MALT)"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-18-132",
+    "subject": "anatomy_physiology",
+    "topic": "lymphatic_and_immune_system",
+    "subtopic": "Lymphatic System Anatomy",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "When MALT is found in the gastrointestinal tract, it is referred to as _____.",
+    "choices": [
+      "gut associated lymphoid tissue (GALT)",
+      "bronchus-associated lymphoid tissue (BALT)",
+      "lymph nodes",
+      "the spleen"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-18-133",
+    "subject": "anatomy_physiology",
+    "topic": "lymphatic_and_immune_system",
+    "subtopic": "Lymphatic System Anatomy",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "_____ is lymphatic tissue in which lymphocytes and macrophages are only loosely associated with the reticular fiber network, and which is not clearly separated from surrounding tissues.",
+    "choices": [
+      "Diffuse lymphatic tissue",
+      "A lymphatic nodule",
+      "A lymph node",
+      "Red pulp"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-18-134",
+    "subject": "anatomy_physiology",
+    "topic": "lymphatic_and_immune_system",
+    "subtopic": "Lymphatic System Anatomy",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Diffuse lymphatic tissue is found in the mucous membranes of the _____ and _____ systems.",
+    "choices": [
+      "respiratory; digestive",
+      "nervous; endocrine",
+      "skeletal; muscular",
+      "cardiovascular; nervous"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-18-135",
+    "subject": "anatomy_physiology",
+    "topic": "lymphatic_and_immune_system",
+    "subtopic": "Lymphatic System Anatomy",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "_____ are groups of lymphatic cells which have clear boundaries but which are not protected by a capsule. When these are located in lymph nodes or the spleen, they are more commonly called _____.",
+    "choices": [
+      "Lymphatic nodules; lymphatic follicles",
+      "Lymphatic follicles; lymphatic nodules",
+      "Lymph nodes; lymphatic nodules",
+      "Germinal centers; lymph nodes"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-18-136",
+    "subject": "anatomy_physiology",
+    "topic": "lymphatic_and_immune_system",
+    "subtopic": "Lymphatic System Anatomy",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "_____ are clusters of lymphatic nodules that line the ileum.",
+    "choices": [
+      "Peyer's patches",
+      "Tonsils",
+      "Lymph nodes",
+      "Splenic cords"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-18-137",
+    "subject": "anatomy_physiology",
+    "topic": "lymphatic_and_immune_system",
+    "subtopic": "Lymphatic System Anatomy",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The _____ is the tonsil found in the rear wall of the nasopharynx.",
+    "choices": [
+      "adenoid or pharyngeal tonsil",
+      "palatine tonsil",
+      "lingual tonsil",
+      "tubal tonsil"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-18-138",
+    "subject": "anatomy_physiology",
+    "topic": "lymphatic_and_immune_system",
+    "subtopic": "Lymphatic System Anatomy",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The _____ are the tonsils found on each side of the pharynx.",
+    "choices": [
+      "palatine",
+      "pharyngeal",
+      "lingual",
+      "tubal"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-18-139",
+    "subject": "anatomy_physiology",
+    "topic": "lymphatic_and_immune_system",
+    "subtopic": "Lymphatic System Anatomy",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The pair of tonsils at the base of the tongue are the _____ tonsils.",
+    "choices": [
+      "lingual",
+      "palatine",
+      "pharyngeal",
+      "tubal"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-18-140",
+    "subject": "anatomy_physiology",
+    "topic": "lymphatic_and_immune_system",
+    "subtopic": "Lymphatic System Anatomy",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The two tonsils in the pharynx that guard the entrance to the pharyngotympanic tube (also called the auditory tube) are the _____ tonsils.",
+    "choices": [
+      "tubal",
+      "palatine",
+      "lingual",
+      "pharyngeal"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-18-141",
+    "subject": "anatomy_physiology",
+    "topic": "lymphatic_and_immune_system",
+    "subtopic": "Lymphatic System Anatomy",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Encapsulated organs which contain both lymphatic nodules and diffuse lymphatic tissue are the _____, _____ and _____.",
+    "choices": [
+      "lymph nodes; thymus; spleen",
+      "tonsils; Peyer's patches; appendix",
+      "lymph nodes; tonsils; bone marrow",
+      "thymus; spleen; liver"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-18-142",
+    "subject": "anatomy_physiology",
+    "topic": "lymphatic_and_immune_system",
+    "subtopic": "Lymphatic System Anatomy",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Connective tissue projecting into encapsulated lymphatic organs forms _____, which act as supporting structures.",
+    "choices": [
+      "trabeculae",
+      "sinuses",
+      "medullary cords",
+      "lacteals"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-18-143",
+    "subject": "anatomy_physiology",
+    "topic": "lymphatic_and_immune_system",
+    "subtopic": "Lymphatic System Anatomy",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "_____ are the small, roughly oval structures that occur along lymphatic vessels.",
+    "choices": [
+      "Lymph nodes",
+      "Lymphatic nodules",
+      "Tonsils",
+      "Peyer's patches"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-18-144",
+    "subject": "anatomy_physiology",
+    "topic": "lymphatic_and_immune_system",
+    "subtopic": "Lymphatic System Anatomy",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Lymph nodes are most abundant where _____ merge.",
+    "choices": [
+      "lymphatic vessels",
+      "veins",
+      "arteries",
+      "nerves"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-18-145",
+    "subject": "anatomy_physiology",
+    "topic": "lymphatic_and_immune_system",
+    "subtopic": "Lymphatic System Anatomy",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Lymph enters a lymph node through _____ which enter the _____ side of the node.",
+    "choices": [
+      "afferent lymphatic vessels; convex",
+      "efferent lymphatic vessels; concave",
+      "afferent lymphatic vessels; concave",
+      "efferent lymphatic vessels; convex"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-18-146",
+    "subject": "anatomy_physiology",
+    "topic": "lymphatic_and_immune_system",
+    "subtopic": "Lymphatic System Anatomy",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Lymph leaves a lymph node through _____ which exit within an indentation called the _____, on the _____ side of the node.",
+    "choices": [
+      "efferent lymphatic vessels; hilum or hilus; concave",
+      "afferent lymphatic vessels; hilum or hilus; convex",
+      "efferent lymphatic vessels; trabecula; convex",
+      "afferent lymphatic vessels; sinus; concave"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-18-147",
+    "subject": "anatomy_physiology",
+    "topic": "lymphatic_and_immune_system",
+    "subtopic": "Lymphatic System Anatomy",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "In lymph nodes, _____ are strands of reticular fibers around which lymphocytes and macrophages cluster and which extend from the cortex toward the hilus (hilum).",
+    "choices": [
+      "medullary cords",
+      "trabeculae",
+      "splenic cords",
+      "lymphatic sinuses"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-18-148",
+    "subject": "anatomy_physiology",
+    "topic": "lymphatic_and_immune_system",
+    "subtopic": "Lymphatic System Anatomy",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "_____ are open spaces within lymph nodes through which lymph flows.",
+    "choices": [
+      "Lymphatic sinuses",
+      "Medullary cords",
+      "Trabeculae",
+      "Germinal centers"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-18-149",
+    "subject": "anatomy_physiology",
+    "topic": "lymphatic_and_immune_system",
+    "subtopic": "Lymphatic System Anatomy",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "_____ within the lymph nodes screen the lymph as it enters, and differentiate to produce _____ if an antigen is detected.",
+    "choices": [
+      "B cells; antibodies",
+      "T cells; antibodies",
+      "B cells; complement",
+      "Macrophages; antigens"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-18-150",
+    "subject": "anatomy_physiology",
+    "topic": "lymphatic_and_immune_system",
+    "subtopic": "Lymphatic System Anatomy",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "B cells and macrophages proliferate in the _____ of lymph nodes.",
+    "choices": [
+      "cortex or outer layer",
+      "medulla",
+      "hilum",
+      "capsule"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-18-151",
+    "subject": "anatomy_physiology",
+    "topic": "lymphatic_and_immune_system",
+    "subtopic": "Lymphatic System Anatomy",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The _____ is a lymphatic organ located between the lungs, immediately anterior to the heart.",
+    "choices": [
+      "thymus",
+      "spleen",
+      "pancreas",
+      "thyroid gland"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-18-152",
+    "subject": "anatomy_physiology",
+    "topic": "lymphatic_and_immune_system",
+    "subtopic": "Lymphatic System Anatomy",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The thymus has _____ lobes.",
+    "choices": [
+      "two",
+      "one",
+      "three",
+      "four"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-18-153",
+    "subject": "anatomy_physiology",
+    "topic": "lymphatic_and_immune_system",
+    "subtopic": "Lymphatic System Anatomy",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Each lobe of the thymus is surrounded by a(n) _____.",
+    "choices": [
+      "capsule",
+      "serous membrane",
+      "mucous membrane",
+      "basement membrane"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-18-154",
+    "subject": "anatomy_physiology",
+    "topic": "lymphatic_and_immune_system",
+    "subtopic": "Lymphatic System Anatomy",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "_____ are the divisions within the thymic lobe produced by inward extensions of the capsule.",
+    "choices": [
+      "Lobules",
+      "Follicles",
+      "Sinuses",
+      "Cords"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-18-155",
+    "subject": "anatomy_physiology",
+    "topic": "lymphatic_and_immune_system",
+    "subtopic": "Lymphatic System Anatomy",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Each thymic lobule has two distinct regions: the _____ and the _____.",
+    "choices": [
+      "cortex; medulla",
+      "red pulp; white pulp",
+      "capsule; hilum",
+      "germinal center; mantle"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-18-156",
+    "subject": "anatomy_physiology",
+    "topic": "lymphatic_and_immune_system",
+    "subtopic": "Lymphatic System Anatomy",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The lymphocytes which are found in the thymus are almost exclusively _____.",
+    "choices": [
+      "T cells or T lymphocytes",
+      "B cells or B lymphocytes",
+      "plasma cells",
+      "NK cells"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-18-157",
+    "subject": "anatomy_physiology",
+    "topic": "lymphatic_and_immune_system",
+    "subtopic": "Lymphatic System Anatomy",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "_____ are rounded clusters of cells composed of epithelium; their function is unknown.",
+    "choices": [
+      "Thymic corpuscles (or Hassall's corpuscles)",
+      "Peyer's patches",
+      "Germinal centers",
+      "Splenic nodules"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-18-158",
+    "subject": "anatomy_physiology",
+    "topic": "lymphatic_and_immune_system",
+    "subtopic": "Lymphatic System Anatomy",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The major function of the thymus is to produce _____.",
+    "choices": [
+      "mature T lymphocytes",
+      "mature B lymphocytes",
+      "antibodies",
+      "erythrocytes"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-18-159",
+    "subject": "anatomy_physiology",
+    "topic": "lymphatic_and_immune_system",
+    "subtopic": "Lymphatic System Anatomy",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The blood vessels that supply the thymus are surrounded by _____ which limit the access of immature T cells to antigens.",
+    "choices": [
+      "epithelioreticular cells",
+      "endothelial cells",
+      "mesothelial cells",
+      "Kupffer cells"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-18-160",
+    "subject": "anatomy_physiology",
+    "topic": "lymphatic_and_immune_system",
+    "subtopic": "Lymphatic System Anatomy",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The largest lymphatic organ is the _____.",
+    "choices": [
+      "spleen",
+      "thymus",
+      "liver",
+      "pharyngeal tonsil"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-18-161",
+    "subject": "anatomy_physiology",
+    "topic": "lymphatic_and_immune_system",
+    "subtopic": "Lymphatic System Anatomy",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Blood vessels, nerves, and lymphatic vessels enter the spleen through the _____, which is on the upper surface.",
+    "choices": [
+      "hilus or hilum",
+      "trabecula",
+      "capsule",
+      "diaphragmatic surface"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-18-162",
+    "subject": "anatomy_physiology",
+    "topic": "lymphatic_and_immune_system",
+    "subtopic": "Lymphatic System Anatomy",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Reticular fibers and lymphocytes in the spleen form nodules which resemble those of lymph nodes and which are called _____.",
+    "choices": [
+      "white pulp",
+      "red pulp",
+      "splenic cords",
+      "venous sinuses"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-18-163",
+    "subject": "anatomy_physiology",
+    "topic": "lymphatic_and_immune_system",
+    "subtopic": "Lymphatic System Anatomy",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Most of the blood delivered to the spleen does not pass directly from arteries to veins via capillaries, but instead passes through a region of _____ circulation which has no direct connection between the arterial and venous vessels.",
+    "choices": [
+      "open",
+      "closed",
+      "portal",
+      "collateral"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-18-164",
+    "subject": "anatomy_physiology",
+    "topic": "lymphatic_and_immune_system",
+    "subtopic": "Lymphatic System Anatomy",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Blood passing the regions in the spleen in which circulation is open enters the venous system by first entering _____.",
+    "choices": [
+      "venous sinuses",
+      "trabecular arteries",
+      "the hilum",
+      "white pulp"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-18-165",
+    "subject": "anatomy_physiology",
+    "topic": "lymphatic_and_immune_system",
+    "subtopic": "Lymphatic System Anatomy",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The venous sinuses within the spleen, together with the associated fibrous network known as the _____, are called _____.",
+    "choices": [
+      "splenic cords; red pulp",
+      "splenic cords; white pulp",
+      "medullary cords; red pulp",
+      "trabeculae; white pulp"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-18-166",
+    "subject": "anatomy_physiology",
+    "topic": "lymphatic_and_immune_system",
+    "subtopic": "Lymphatic System Anatomy",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The spleen has five major functions, one of which is to filter the _____.",
+    "choices": [
+      "blood",
+      "lymph",
+      "bile",
+      "interstitial fluid"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-18-167",
+    "subject": "anatomy_physiology",
+    "topic": "lymphatic_and_immune_system",
+    "subtopic": "Lymphatic System Anatomy",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The spleen has five major functions, one of which is to destroy _____ and capture iron and amino acids for recycling.",
+    "choices": [
+      "old RBCs",
+      "old platelets",
+      "old neutrophils",
+      "old plasma cells"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-18-168",
+    "subject": "anatomy_physiology",
+    "topic": "lymphatic_and_immune_system",
+    "subtopic": "Lymphatic System Anatomy",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The spleen has five major functions, one of which is to provide a reservoir for _____.",
+    "choices": [
+      "blood",
+      "lymph",
+      "bile",
+      "iron"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-18-169",
+    "subject": "anatomy_physiology",
+    "topic": "lymphatic_and_immune_system",
+    "subtopic": "Lymphatic System Anatomy",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The spleen has five major functions, one of which is to provide a location for _____ and _____ to proliferate.",
+    "choices": [
+      "B cells; T cells",
+      "erythrocytes; platelets",
+      "neutrophils; basophils",
+      "mast cells; monocytes"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-18-170",
+    "subject": "anatomy_physiology",
+    "topic": "lymphatic_and_immune_system",
+    "subtopic": "Lymphatic System Anatomy",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The spleen has five major functions, one of which is to help with the production of _____ during fetal development.",
+    "choices": [
+      "blood cells",
+      "antibodies",
+      "bile",
+      "lymph"
+    ],
+    "answer_index": 0
+  }
+]
