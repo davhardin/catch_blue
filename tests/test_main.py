@@ -85,3 +85,28 @@ def test_empty_bank_fails_before_game_creation(startup):
 
 def test_lower_level_game_default_matches_launcher_default():
     assert Game.__init__.__kwdefaults__['theme'] is THEMES[DEFAULT_THEME] is PIXEL
+
+
+def test_web_loop_yields_every_frame_and_quits_once(startup, monkeypatch):
+    import asyncio
+
+    _, load, game = startup
+    frames = iter([True, True, False])
+    game.return_value.step.side_effect = lambda: next(frames)
+    sleeps = []
+
+    async def sleep(seconds):
+        sleeps.append(seconds)
+
+    quit_calls = []
+    monkeypatch.setattr(main.asyncio, 'sleep', sleep)
+    monkeypatch.setattr(main.pygame, 'quit', lambda: quit_calls.append(True))
+
+    asyncio.run(main.main_web())
+
+    load.assert_called_once()
+    game.assert_called_once_with(load.return_value, theme=THEMES[DEFAULT_THEME])
+    assert game.return_value.step.call_count == 3
+    game.return_value.run.assert_not_called()
+    assert sleeps == [0, 0]
+    assert quit_calls == [True]

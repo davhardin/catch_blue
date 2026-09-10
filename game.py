@@ -1,3 +1,4 @@
+import sys
 from random import Random
 
 import pygame
@@ -17,9 +18,12 @@ class Game:
 
         self.rng = rng if rng is not None else Random()
 
+        # In the browser (pygbag) the page scales the canvas itself, and SCALED
+        # would scale mouse coordinates a second time, so leave it off there.
+        flags = 0 if sys.platform == "emscripten" else pygame.SCALED
         self.screen = pygame.display.set_mode(
             (SCREEN_WIDTH, SCREEN_HEIGHT),
-            pygame.SCALED,
+            flags,
         )
         pygame.display.set_caption("Catch Blue: The Science Learning Game")
 
@@ -48,27 +52,32 @@ class Game:
     def show_main_menu(self, bank):
         self.change_state(GameSelectState(self, bank))
 
+    def step(self):
+        """Advance one frame. Return False once the player has quit."""
+        dt_ms = self.clock.tick(self.fps)
+        state_events = []
+
+        for event in pygame.event.get():
+            if event.type == pygame.QUIT:
+                self.running = False
+            else:
+                state_events.append(event)
+
+        if not self.running:
+            return False
+
+        state = self.state
+        state.update(dt_ms)
+
+        if self.state is state:
+            state.handle_events(state_events)
+
+        self.state.draw(self.screen)
+        pygame.display.flip()
+        return True
+
     def run(self):
-        while self.running:
-            dt_ms = self.clock.tick(self.fps)
-            state_events = []
-
-            for event in pygame.event.get():
-                if event.type == pygame.QUIT:
-                    self.running = False
-                else:
-                    state_events.append(event)
-
-            if not self.running:
-                break
-
-            state = self.state
-            state.update(dt_ms)
-
-            if self.state is state:
-                state.handle_events(state_events)
-
-            self.state.draw(self.screen)
-            pygame.display.flip()
+        while self.step():
+            pass
 
         pygame.quit()
