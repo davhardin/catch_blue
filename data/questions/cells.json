@@ -628,7 +628,7 @@
     "subtopic": "Organelles",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Mitochondria have _____ (how many?) membranes, each of which is a bilayer.",
+    "prompt": "Mitochondria have _____ membranes, each of which is a bilayer.",
     "choices": [
       "two",
       "one",

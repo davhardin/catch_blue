@@ -1,0 +1,2480 @@
+[
+  {
+    "id": "bio-anat-19-001",
+    "subject": "anatomy_physiology",
+    "topic": "respiratory_system",
+    "subtopic": "Aging: Respiratory System",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "As we age, the thoracic wall becomes _____ , the lungs lose _____ , and the amount of oxygen we can use during aerobic respiration decreases. These changes are accelerated markedly in _____ individuals.",
+    "choices": [
+      "more rigid; elasticity; inactive",
+      "more flexible; surfactant; active",
+      "more rigid; surface area; young",
+      "thinner; elasticity; athletic"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-19-002",
+    "subject": "anatomy_physiology",
+    "topic": "respiratory_system",
+    "subtopic": "Aging: Respiratory System",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The protection provided by mucus declines with age due to alterations in _____ , and a decline in the _____ of epithelial cells in the respiratory tract.",
+    "choices": [
+      "mucous glands; ciliary action",
+      "alveolar macrophages; phagocytic activity",
+      "type II cells; surfactant production",
+      "lymph nodes; mitotic rate"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-19-003",
+    "subject": "anatomy_physiology",
+    "topic": "respiratory_system",
+    "subtopic": "Gas Exchange",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Gas exchange occurs across the respiratory membrane, which consists of _____ and _____.",
+    "choices": [
+      "alveoli; capillary walls",
+      "bronchioles; arteriole walls",
+      "alveoli; visceral pleura",
+      "alveolar ducts; venule walls"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-19-004",
+    "subject": "anatomy_physiology",
+    "topic": "respiratory_system",
+    "subtopic": "Gas Exchange",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "_____ is the process of gas exchange between the blood and the lungs.",
+    "choices": [
+      "external respiration",
+      "internal respiration",
+      "cellular respiration",
+      "pulmonary ventilation"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-19-005",
+    "subject": "anatomy_physiology",
+    "topic": "respiratory_system",
+    "subtopic": "Gas Exchange",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "_____ is the process of gas exchange between the fluids of the body and the cells.",
+    "choices": [
+      "internal respiration",
+      "external respiration",
+      "cellular respiration",
+      "pulmonary ventilation"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-19-006",
+    "subject": "anatomy_physiology",
+    "topic": "respiratory_system",
+    "subtopic": "Gas Exchange",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "_____ is the process by which cells produce ATP, producing water and carbon dioxide as wastes and using oxygen as an electron acceptor.",
+    "choices": [
+      "cellular respiration",
+      "internal respiration",
+      "external respiration",
+      "pulmonary ventilation"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-19-007",
+    "subject": "anatomy_physiology",
+    "topic": "respiratory_system",
+    "subtopic": "Gas Exchange",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Gas molecules are very far apart, and gas pressure is simply due to the _____ and _____ of gas molecules hitting a surface at a given instant.",
+    "choices": [
+      "number; velocity",
+      "size; mass",
+      "density; charge",
+      "solubility; temperature"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-19-008",
+    "subject": "anatomy_physiology",
+    "topic": "respiratory_system",
+    "subtopic": "Gas Exchange",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The gas pressure due to a single component of a mixture is the _____ of that component; the total pressure in the system is the sum for all components.",
+    "choices": [
+      "partial pressure",
+      "total pressure",
+      "vapor pressure",
+      "osmotic pressure"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-19-009",
+    "subject": "anatomy_physiology",
+    "topic": "respiratory_system",
+    "subtopic": "Gas Exchange",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The fact that the total pressure in a system composed of several gases is the sum of the pressures due to each individual gas is called _____.",
+    "choices": [
+      "Dalton's Law",
+      "Boyle's Law",
+      "Henry's Law",
+      "Charles's Law"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-19-010",
+    "subject": "anatomy_physiology",
+    "topic": "respiratory_system",
+    "subtopic": "Gas Exchange",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The higher the number of gas particles there are hitting the surface of a liquid, the greater the _____. This is known as _____.",
+    "choices": [
+      "diffusion of the gas into the liquid; Henry's Law",
+      "evaporation of the liquid; Boyle's Law",
+      "diffusion of the gas into the liquid; Dalton's Law",
+      "volume of the liquid; Charles's Law"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-19-011",
+    "subject": "anatomy_physiology",
+    "topic": "respiratory_system",
+    "subtopic": "Gas Exchange",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Three factors influence the amount of gas which will dissolve in a liquid: _____, _____ and _____.",
+    "choices": [
+      "partial pressure; solubility; temperature",
+      "partial pressure; viscosity; volume",
+      "total pressure; density; pH",
+      "solubility; humidity; altitude"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-19-012",
+    "subject": "anatomy_physiology",
+    "topic": "respiratory_system",
+    "subtopic": "Gas Exchange",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The greater the difference in partial pressures for a gas across a permeable boundary, the faster the _____ across it.",
+    "choices": [
+      "diffusion",
+      "osmosis",
+      "filtration",
+      "active transport"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-19-013",
+    "subject": "anatomy_physiology",
+    "topic": "respiratory_system",
+    "subtopic": "Gas Exchange",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The greater the surface area of a permeable boundary, the faster the _____ across it.",
+    "choices": [
+      "diffusion",
+      "osmosis",
+      "filtration",
+      "active transport"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-19-014",
+    "subject": "anatomy_physiology",
+    "topic": "respiratory_system",
+    "subtopic": "Gas Exchange",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "In a healthy individual, as pulmonary ventilation increases, so does _____; this is called _____.",
+    "choices": [
+      "pulmonary blood flow; ventilation-perfusion coupling",
+      "systemic blood flow; ventilation-perfusion coupling",
+      "pulmonary blood flow; Hering-Breuer reflex",
+      "heart rate; Bohr effect"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-19-015",
+    "subject": "anatomy_physiology",
+    "topic": "respiratory_system",
+    "subtopic": "Gas Exchange",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Air is _____ % oxygen and _____ % carbon dioxide. The partial pressure of oxygen is thus much higher than that of carbon dioxide.",
+    "choices": [
+      "21; 0.04",
+      "78; 0.04",
+      "10; 0.4"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-19-016",
+    "subject": "anatomy_physiology",
+    "topic": "respiratory_system",
+    "subtopic": "Gas Exchange",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Since the blood is circulating rapidly, and its exposure to the air in the lungs is brief, the capillary walls and alveolar walls must be _____ in order to decrease the distance the gases must diffuse.",
+    "choices": [
+      "thin",
+      "thick",
+      "multilayered",
+      "ciliated"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-19-017",
+    "subject": "anatomy_physiology",
+    "topic": "respiratory_system",
+    "subtopic": "Gas Exchange",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The total surface area for all of the lung's alveoli is extremely large, which is essential for _____.",
+    "choices": [
+      "efficient gas exchange",
+      "producing surfactant",
+      "warming inspired air",
+      "trapping airborne particles"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-19-018",
+    "subject": "anatomy_physiology",
+    "topic": "respiratory_system",
+    "subtopic": "Gas Exchange",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The partial pressure of carbon dioxide in the alveoli is _____ than in the blood.",
+    "choices": [
+      "slightly lower",
+      "much lower",
+      "slightly higher",
+      "much higher"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-19-019",
+    "subject": "anatomy_physiology",
+    "topic": "respiratory_system",
+    "subtopic": "Gas Transport",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Because oxygen _____ very soluble in plasma, _____ % of it must be bound to _____ in order to be carried.",
+    "choices": [
+      "is not; 98; hemoglobin",
+      "is; 14; plasma proteins",
+      "is not; 70; bicarbonate ions",
+      "is; 32; albumin"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-19-020",
+    "subject": "anatomy_physiology",
+    "topic": "respiratory_system",
+    "subtopic": "Gas Transport",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Each molecule of hemoglobin can carry _____ molecules of oxygen.",
+    "choices": [
+      "four",
+      "two",
+      "one",
+      "eight"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-19-021",
+    "subject": "anatomy_physiology",
+    "topic": "respiratory_system",
+    "subtopic": "Gas Transport",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Hemoglobin that is fully saturated with oxygen is called _____ ; when no oxygen is bound, it is called _____.",
+    "choices": [
+      "oxyhemoglobin; deoxyhemoglobin",
+      "deoxyhemoglobin; oxyhemoglobin",
+      "carbaminohemoglobin; deoxyhemoglobin",
+      "oxyhemoglobin; methemoglobin"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-19-022",
+    "subject": "anatomy_physiology",
+    "topic": "respiratory_system",
+    "subtopic": "Gas Transport",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "As the temperature in the blood increases, the binding of oxygen to hemoglobin _____ , and thus the delivery of oxygen to tissue _____.",
+    "choices": [
+      "decreases; increases",
+      "increases; decreases",
+      "increases; increases",
+      "decreases; decreases"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-19-023",
+    "subject": "anatomy_physiology",
+    "topic": "respiratory_system",
+    "subtopic": "Gas Transport",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "As the partial pressure of carbon dioxide in the blood increases, the binding of oxygen to hemoglobin _____ , and thus the delivery of oxygen to tissue _____.",
+    "choices": [
+      "decreases; increases",
+      "increases; decreases",
+      "increases; increases",
+      "decreases; decreases"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-19-024",
+    "subject": "anatomy_physiology",
+    "topic": "respiratory_system",
+    "subtopic": "Gas Transport",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "As blood pH decreases, _____ bind to hemoglobin. This causes the binding of oxygen to hemoglobin to _____, and thus the delivery of oxygen to tissue to _____. (This is called the Bohr effect.)",
+    "choices": [
+      "hydrogen ions; decrease; increase",
+      "hydrogen ions; increase; decrease",
+      "bicarbonate ions; decrease; increase",
+      "carbon dioxide; increase; increase"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-19-025",
+    "subject": "anatomy_physiology",
+    "topic": "respiratory_system",
+    "subtopic": "Gas Transport",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Red blood cells produce _____ to control the binding of oxygen to hemoglobin.",
+    "choices": [
+      "2,3-bisphosphoglycerate (2,3-BPG)",
+      "carbonic anhydrase",
+      "erythropoietin",
+      "bicarbonate ions"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-19-026",
+    "subject": "anatomy_physiology",
+    "topic": "respiratory_system",
+    "subtopic": "Gas Transport",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Levels of _____ in erythrocytes are increased at high altitudes to enhance oxygen delivery to tissues.",
+    "choices": [
+      "2,3-bisphosphoglycerate (2,3-BPG)",
+      "carbonic anhydrase",
+      "myoglobin",
+      "bicarbonate ions"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-19-027",
+    "subject": "anatomy_physiology",
+    "topic": "respiratory_system",
+    "subtopic": "Gas Transport",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "As levels of 2,3-bisphosphoglycerate in erythrocytes increase, the binding of oxygen to hemoglobin _____, and thus the delivery of oxygen to tissue _____.",
+    "choices": [
+      "decreases; increases",
+      "increases; decreases",
+      "increases; increases",
+      "decreases; decreases"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-19-028",
+    "subject": "anatomy_physiology",
+    "topic": "respiratory_system",
+    "subtopic": "Gas Transport",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "With each oxygen molecule that hemoglobin binds, its shape changes to allow it to _____. This allows it to bind oxygen quickly in the lungs, and to release it quickly in oxygen-poor tissues.",
+    "choices": [
+      "bind the next one with higher affinity",
+      "bind the next one with lower affinity",
+      "release carbon dioxide",
+      "bind hydrogen ions"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-19-029",
+    "subject": "anatomy_physiology",
+    "topic": "respiratory_system",
+    "subtopic": "Gas Transport",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Most tissues don't need nearly as much oxygen as hemoglobin can carry; however, in _____, including the _____, the partial pressure of oxygen is very low and most of hemoglobin's oxygen is released.",
+    "choices": [
+      "active muscle tissue; heart",
+      "resting muscle tissue; diaphragm",
+      "adipose tissue; liver",
+      "epithelial tissue; skin"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-19-030",
+    "subject": "anatomy_physiology",
+    "topic": "respiratory_system",
+    "subtopic": "Gas Transport",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "70% of the carbon dioxide in the blood is transported as _____; conversion of carbon dioxide to this chemical dramatically increases the rate at which carbon dioxide can be removed from tissue and transported to the lungs.",
+    "choices": [
+      "bicarbonate ions",
+      "carbaminohemoglobin",
+      "dissolved carbon dioxide"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-19-031",
+    "subject": "anatomy_physiology",
+    "topic": "respiratory_system",
+    "subtopic": "Gas Transport",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "20% of the carbon dioxide in the blood is transported by _____ ; 10% or so is found _____.",
+    "choices": [
+      "hemoglobin; in the blood plasma",
+      "plasma proteins; in erythrocytes",
+      "bicarbonate ions; in the blood plasma",
+      "carbonic anhydrase; in erythrocytes"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-19-032",
+    "subject": "anatomy_physiology",
+    "topic": "respiratory_system",
+    "subtopic": "Gas Transport",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "_____ refers to an elevation in carbon dioxide levels in the blood.",
+    "choices": [
+      "hypercapnia",
+      "hypocapnia",
+      "hypoxia",
+      "hyperpnea"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-19-033",
+    "subject": "anatomy_physiology",
+    "topic": "respiratory_system",
+    "subtopic": "Gas Transport",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "As the oxygen saturation of hemoglobin _____ , its ability to carry carbon dioxide _____ . This is known as the _____.",
+    "choices": [
+      "decreases; increases; Haldane effect",
+      "decreases; increases; Bohr effect",
+      "increases; increases; Haldane effect",
+      "decreases; decreases; Bohr effect"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-19-034",
+    "subject": "anatomy_physiology",
+    "topic": "respiratory_system",
+    "subtopic": "Gas Transport",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The reaction that forms carbonic acid is: _____.",
+    "choices": [
+      "CO2 + H2O --> H2CO3",
+      "H2CO3 --> H+ + HCO3-",
+      "CO2 + 2H2O --> H2CO3 + H2",
+      "CO + H2O --> H2CO3"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-19-035",
+    "subject": "anatomy_physiology",
+    "topic": "respiratory_system",
+    "subtopic": "Gas Transport",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Carbonic acid dissociates to form _____ and _____. This reaction is _____.",
+    "choices": [
+      "hydrogen ions; bicarbonate ions; reversible",
+      "hydrogen ions; carbonate ions; irreversible",
+      "hydroxide ions; carbon dioxide; reversible",
+      "water; carbon dioxide; irreversible"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-19-036",
+    "subject": "anatomy_physiology",
+    "topic": "respiratory_system",
+    "subtopic": "Gas Transport",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Much of the bicarbonate in the body is produced by _____.",
+    "choices": [
+      "erythrocytes",
+      "leukocytes",
+      "platelets",
+      "type II alveolar cells"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-19-037",
+    "subject": "anatomy_physiology",
+    "topic": "respiratory_system",
+    "subtopic": "Gas Transport",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Formation of carbonic acid in an aqueous solution is spontaneous but slow. In erythrocytes, where it must occur quickly, it is _____.",
+    "choices": [
+      "catalyzed by an enzyme",
+      "driven by ATP hydrolysis",
+      "coupled to active transport",
+      "accelerated by high temperature"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-19-038",
+    "subject": "anatomy_physiology",
+    "topic": "respiratory_system",
+    "subtopic": "Gas Transport",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The carbonic acid/bicarbonate interconversion is _____ , and this allows bicarbonate to act as a(n) _____ in the bloodstream. Indeed, it is the most important one!",
+    "choices": [
+      "reversible; buffer",
+      "irreversible; mineral",
+      "reversible; catalyst",
+      "irreversible; electrolyte"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-19-039",
+    "subject": "anatomy_physiology",
+    "topic": "respiratory_system",
+    "subtopic": "Gas Transport",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "As negative bicarbonate ions leave erythrocytes, negative _____ ions enter to maintain the electrical neutrality of the cell. This is called the _____.",
+    "choices": [
+      "chloride; chloride shift",
+      "phosphate; phosphate shift",
+      "sulfate; sulfate shift",
+      "hydroxide; hydroxide shift"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-19-040",
+    "subject": "anatomy_physiology",
+    "topic": "respiratory_system",
+    "subtopic": "Lower Respiratory System",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The casual phrase 'voice box' refers to the _____.",
+    "choices": [
+      "larynx",
+      "pharynx",
+      "trachea",
+      "epiglottis"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-19-041",
+    "subject": "anatomy_physiology",
+    "topic": "respiratory_system",
+    "subtopic": "Lower Respiratory System",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The larynx attaches superiorly to the _____ , opening into the laryngopharynx, and leads inferiorly to the _____.",
+    "choices": [
+      "hyoid bone; trachea",
+      "thyroid cartilage; esophagus",
+      "epiglottis; primary bronchi",
+      "mandible; pharynx"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-19-042",
+    "subject": "anatomy_physiology",
+    "topic": "respiratory_system",
+    "subtopic": "Lower Respiratory System",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "At the top of the larynx, the _____ acts as a flexible flap that prevents food from entering the larynx.",
+    "choices": [
+      "epiglottis",
+      "glottis",
+      "uvula",
+      "thyroid cartilage"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-19-043",
+    "subject": "anatomy_physiology",
+    "topic": "respiratory_system",
+    "subtopic": "Lower Respiratory System",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The structure on the neck commonly called the Adam's apple is the _____.",
+    "choices": [
+      "thyroid cartilage",
+      "cricoid cartilage",
+      "arytenoid cartilage",
+      "epiglottis"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-19-044",
+    "subject": "anatomy_physiology",
+    "topic": "respiratory_system",
+    "subtopic": "Lower Respiratory System",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Folded mucous membranes cross from the thyroid cartilage in the front to the _____ cartilages in the back.",
+    "choices": [
+      "arytenoid",
+      "cricoid",
+      "corniculate",
+      "cuneiform"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-19-045",
+    "subject": "anatomy_physiology",
+    "topic": "respiratory_system",
+    "subtopic": "Lower Respiratory System",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The upper pair of mucous membranes which connect the thyroid cartilage to the arytenoid cartilages are the _____ (also called _____).",
+    "choices": [
+      "false vocal cords; vestibular folds",
+      "true vocal cords; vocal folds",
+      "false vocal cords; vocal folds",
+      "true vocal cords; vestibular folds"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-19-046",
+    "subject": "anatomy_physiology",
+    "topic": "respiratory_system",
+    "subtopic": "Lower Respiratory System",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The lower pair of mucous membranes which connect the thyroid cartilage to the arytenoid cartilages are the _____.",
+    "choices": [
+      "true vocal cords",
+      "vestibular folds",
+      "aryepiglottic folds",
+      "vocal ligaments"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-19-047",
+    "subject": "anatomy_physiology",
+    "topic": "respiratory_system",
+    "subtopic": "Lower Respiratory System",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "_____ form the core of the true vocal cords, and vibrate as air passes over them to produce sound.",
+    "choices": [
+      "vocal ligaments",
+      "vestibular ligaments",
+      "cricothyroid ligaments",
+      "thyrohyoid ligaments"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-19-048",
+    "subject": "anatomy_physiology",
+    "topic": "respiratory_system",
+    "subtopic": "Lower Respiratory System",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "When someone increases intra-abdominal pressure during periods of effort, they close the _____. (This is called _____.)",
+    "choices": [
+      "glottis; Valsalva's maneuver",
+      "epiglottis; Heimlich maneuver",
+      "glottis; Hering-Breuer reflex",
+      "nares; Valsalva's maneuver"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-19-049",
+    "subject": "anatomy_physiology",
+    "topic": "respiratory_system",
+    "subtopic": "Lower Respiratory System",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The cricoid cartilage and pairs of corniculate and cuneiform cartilages are supporting structures of the _____.",
+    "choices": [
+      "larynx",
+      "trachea",
+      "pharynx",
+      "hyoid bone"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-19-050",
+    "subject": "anatomy_physiology",
+    "topic": "respiratory_system",
+    "subtopic": "Lower Respiratory System",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The trachea, or windpipe, descends from the larynx into the _____, where it ends by dividing to give rise to the _____.",
+    "choices": [
+      "mediastinum; primary bronchi",
+      "pleural cavity; secondary bronchi",
+      "mediastinum; bronchioles",
+      "abdominal cavity; alveolar ducts"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-19-051",
+    "subject": "anatomy_physiology",
+    "topic": "respiratory_system",
+    "subtopic": "Lower Respiratory System",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The posterior wall of the trachea adjoins the anterior wall of the _____.",
+    "choices": [
+      "esophagus",
+      "aorta",
+      "vertebral column",
+      "thymus"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-19-052",
+    "subject": "anatomy_physiology",
+    "topic": "respiratory_system",
+    "subtopic": "Lower Respiratory System",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The trachea is lined with mucus-producing goblet cells and pseudo-stratified ciliated epithelial cells, which together function to _____.",
+    "choices": [
+      "sweep debris away from the lungs",
+      "warm and humidify incoming air",
+      "exchange gases with the blood",
+      "produce surfactant"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-19-053",
+    "subject": "anatomy_physiology",
+    "topic": "respiratory_system",
+    "subtopic": "Lower Respiratory System",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The sub-mucosa in the trachea is _____ tissue.",
+    "choices": [
+      "areolar connective",
+      "dense regular connective",
+      "adipose",
+      "reticular connective"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-19-054",
+    "subject": "anatomy_physiology",
+    "topic": "respiratory_system",
+    "subtopic": "Lower Respiratory System",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "16-20 rings made of hyaline cartilage prevent the trachea from _____.",
+    "choices": [
+      "collapsing during inspiration",
+      "expanding during expiration",
+      "twisting during swallowing",
+      "narrowing during coughing"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-19-055",
+    "subject": "anatomy_physiology",
+    "topic": "respiratory_system",
+    "subtopic": "Lower Respiratory System",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The cartilaginous layer of the trachea is covered by _____ and is called the _____.",
+    "choices": [
+      "areolar connective tissue; adventitia",
+      "dense connective tissue; submucosa",
+      "simple squamous epithelium; serosa",
+      "smooth muscle; muscularis"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-19-056",
+    "subject": "anatomy_physiology",
+    "topic": "respiratory_system",
+    "subtopic": "Lower Respiratory System",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The trachea ends inferiorly by dividing to give rise to the _____ (singular: _____).",
+    "choices": [
+      "primary bronchi; primary bronchus",
+      "secondary bronchi; secondary bronchus",
+      "bronchioles; bronchiole",
+      "alveoli; alveolus"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-19-057",
+    "subject": "anatomy_physiology",
+    "topic": "respiratory_system",
+    "subtopic": "Lower Respiratory System",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The primary bronchi divide to form the _____, and these in turn divide to form the _____.",
+    "choices": [
+      "secondary bronchi; tertiary bronchi",
+      "tertiary bronchi; secondary bronchi",
+      "bronchioles; alveolar ducts",
+      "lobar bronchi; primary bronchi"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-19-058",
+    "subject": "anatomy_physiology",
+    "topic": "respiratory_system",
+    "subtopic": "Lower Respiratory System",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The secondary bronchi are sometimes called the _____ bronchi because there is one for each _____ of the lungs.",
+    "choices": [
+      "lobar; lobe",
+      "segmental; segment",
+      "lobular; lobule",
+      "terminal; alveolus"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-19-059",
+    "subject": "anatomy_physiology",
+    "topic": "respiratory_system",
+    "subtopic": "Lower Respiratory System",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The tertiary bronchi are sometimes called the _____ bronchi because there is one for each _____ of the lungs.",
+    "choices": [
+      "segmental; segment",
+      "lobar; lobe",
+      "lobular; lobule",
+      "respiratory; alveolus"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-19-060",
+    "subject": "anatomy_physiology",
+    "topic": "respiratory_system",
+    "subtopic": "Lower Respiratory System",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Bronchi continue to branch until they form _____, tubes which are less than 1mm in diameter.",
+    "choices": [
+      "bronchioles",
+      "tertiary bronchi",
+      "alveolar ducts",
+      "alveoli"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-19-061",
+    "subject": "anatomy_physiology",
+    "topic": "respiratory_system",
+    "subtopic": "Lower Respiratory System",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The supporting cartilage that is required in the trachea and bronchi gradually changes in character as the tubes become smaller, and by the time _____ are reached, the cartilage is absent.",
+    "choices": [
+      "bronchioles",
+      "secondary bronchi",
+      "tertiary bronchi",
+      "primary bronchi"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-19-062",
+    "subject": "anatomy_physiology",
+    "topic": "respiratory_system",
+    "subtopic": "Lower Respiratory System",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The walls of the bronchioles are made of _____.",
+    "choices": [
+      "smooth muscle",
+      "hyaline cartilage",
+      "skeletal muscle",
+      "elastic cartilage"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-19-063",
+    "subject": "anatomy_physiology",
+    "topic": "respiratory_system",
+    "subtopic": "Lower Respiratory System",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "_____ are the last bronchioles through which air passes before reaching the respiratory regions of the lungs.",
+    "choices": [
+      "terminal bronchioles",
+      "respiratory bronchioles",
+      "alveolar ducts",
+      "tertiary bronchi"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-19-064",
+    "subject": "anatomy_physiology",
+    "topic": "respiratory_system",
+    "subtopic": "Lower Respiratory System",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Chronic bronchitis is a COPD which results in _____, as well as inflammation and fibrosis of the _____.",
+    "choices": [
+      "excessive mucus production; lower respiratory mucosa",
+      "permanently enlarged alveoli; alveolar walls",
+      "loss of surfactant; alveolar epithelium",
+      "pleural effusion; pleural membranes"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-19-065",
+    "subject": "anatomy_physiology",
+    "topic": "respiratory_system",
+    "subtopic": "Lower Respiratory System",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Asthma is characterized by acute (not chronic) attacks of coughing, dyspnea, wheezing, and chest tightness, brought on by acute _____.",
+    "choices": [
+      "inflammation of the airways",
+      "destruction of alveolar walls",
+      "fluid accumulation in the pleural cavity",
+      "bacterial infection of the alveoli"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-19-066",
+    "subject": "anatomy_physiology",
+    "topic": "respiratory_system",
+    "subtopic": "Regulation of Breathing",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The lungs are innervated by _____ motor fibers that constrict or dilate the airways, as well as sensory fibers.",
+    "choices": [
+      "autonomic",
+      "somatic",
+      "sensory",
+      "enteric"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-19-067",
+    "subject": "anatomy_physiology",
+    "topic": "respiratory_system",
+    "subtopic": "Regulation of Breathing",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "_____ means, quite simply, breathing. _____ means to breathe in, while _____ refers to breathing out.",
+    "choices": [
+      "pulmonary ventilation; inspiration; expiration",
+      "pulmonary ventilation; expiration; inspiration",
+      "external respiration; inspiration; expiration",
+      "cellular respiration; inhalation; exhalation"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-19-068",
+    "subject": "anatomy_physiology",
+    "topic": "respiratory_system",
+    "subtopic": "Regulation of Breathing",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "For a gas, changing the pressure results in a change in volume such that the product of the pressure and volume is unchanged: P_initial * V_initial = P_final * V_final. (Thus, if you increase pressure, volume will _____.) This is known as _____.",
+    "choices": [
+      "decrease; Boyle's Law",
+      "increase; Boyle's Law",
+      "decrease; Dalton's Law",
+      "increase; Henry's Law"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-19-069",
+    "subject": "anatomy_physiology",
+    "topic": "respiratory_system",
+    "subtopic": "Regulation of Breathing",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "After increasing the volume of the lungs, the _____ inside the lungs will decrease until 'pressure times volume' returns to its original value. (This is an application of _____.)",
+    "choices": [
+      "pressure; Boyle's Law",
+      "volume; Boyle's Law",
+      "pressure; Dalton's Law",
+      "temperature; Henry's Law"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-19-070",
+    "subject": "anatomy_physiology",
+    "topic": "respiratory_system",
+    "subtopic": "Regulation of Breathing",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Air (or any gas) will flow from a region of _____ to a region of _____.",
+    "choices": [
+      "high pressure; low pressure",
+      "low pressure; high pressure",
+      "low temperature; high temperature",
+      "high humidity; low humidity"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-19-071",
+    "subject": "anatomy_physiology",
+    "topic": "respiratory_system",
+    "subtopic": "Regulation of Breathing",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The muscles of inspiration are the _____ and _____.",
+    "choices": [
+      "diaphragm; external intercostals",
+      "diaphragm; internal intercostals",
+      "external intercostals; abdominal muscles",
+      "internal intercostals; abdominal muscles"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-19-072",
+    "subject": "anatomy_physiology",
+    "topic": "respiratory_system",
+    "subtopic": "Regulation of Breathing",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Contraction of the diaphragm causes it to move _____, resulting in a(n) _____ in the size of the thoracic cavity and a(n) _____ in pressure within the lungs.",
+    "choices": [
+      "inferiorly; increase; decrease",
+      "superiorly; decrease; increase",
+      "inferiorly; decrease; increase",
+      "superiorly; increase; decrease"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-19-073",
+    "subject": "anatomy_physiology",
+    "topic": "respiratory_system",
+    "subtopic": "Regulation of Breathing",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Contraction of the _____ elevates the ribs and sternum, resulting in an increase in the size of the thoracic cavity and a(n) _____ in pressure within the lungs.",
+    "choices": [
+      "external intercostals; decrease",
+      "internal intercostals; increase",
+      "external intercostals; increase",
+      "diaphragm; decrease"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-19-074",
+    "subject": "anatomy_physiology",
+    "topic": "respiratory_system",
+    "subtopic": "Regulation of Breathing",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Unless forced, expiration is caused by the _____ of the lung tissue and relaxation of the _____ and _____.",
+    "choices": [
+      "elasticity; diaphragm; intercostal muscles",
+      "compliance; abdominal muscles; diaphragm",
+      "surface tension; internal intercostals; scalenes",
+      "elasticity; scalenes; abdominal muscles"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-19-075",
+    "subject": "anatomy_physiology",
+    "topic": "respiratory_system",
+    "subtopic": "Regulation of Breathing",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Forced expiration relies on contraction of _____ and muscles of the _____ region.",
+    "choices": [
+      "internal intercostals; abdominal",
+      "external intercostals; thoracic",
+      "diaphragm; cervical",
+      "internal intercostals; pelvic"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-19-076",
+    "subject": "anatomy_physiology",
+    "topic": "respiratory_system",
+    "subtopic": "Regulation of Breathing",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "When describing air pressure relationships in terms of the lungs, a simplification is used to allow comparison of individuals living at two different altitudes: barometric air pressure (P_B) is _____.",
+    "choices": [
+      "assigned a value of 0",
+      "assigned a value of 760 mm Hg",
+      "ignored entirely",
+      "assigned a value of 1 atm"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-19-077",
+    "subject": "anatomy_physiology",
+    "topic": "respiratory_system",
+    "subtopic": "Regulation of Breathing",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Intrapulmonary pressure is the pressure in the _____, which rises or falls as inspiration or expiration begins, but which eventually equalizes with atmospheric pressure.",
+    "choices": [
+      "alveoli",
+      "pleural cavity",
+      "bronchi",
+      "mediastinum"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-19-078",
+    "subject": "anatomy_physiology",
+    "topic": "respiratory_system",
+    "subtopic": "Regulation of Breathing",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Intrapleural pressure is the pressure in the _____, which rises and falls during respiration, but is always slightly less than intrapulmonary pressure.",
+    "choices": [
+      "pleural cavity",
+      "alveoli",
+      "mediastinum",
+      "bronchioles"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-19-079",
+    "subject": "anatomy_physiology",
+    "topic": "respiratory_system",
+    "subtopic": "Regulation of Breathing",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Normal, quiet breathing, at a typical ventilation rate, is called _____.",
+    "choices": [
+      "eupnea",
+      "dyspnea",
+      "apnea",
+      "hyperpnea"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-19-080",
+    "subject": "anatomy_physiology",
+    "topic": "respiratory_system",
+    "subtopic": "Regulation of Breathing",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Difficult or labored respiration is called _____.",
+    "choices": [
+      "dyspnea",
+      "eupnea",
+      "apnea",
+      "tachypnea"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-19-081",
+    "subject": "anatomy_physiology",
+    "topic": "respiratory_system",
+    "subtopic": "Regulation of Breathing",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Absence of breathing is called _____.",
+    "choices": [
+      "apnea",
+      "dyspnea",
+      "eupnea",
+      "hypopnea"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-19-082",
+    "subject": "anatomy_physiology",
+    "topic": "respiratory_system",
+    "subtopic": "Regulation of Breathing",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Deep, vigorous respiration, common during exercise, is called _____.",
+    "choices": [
+      "hyperpnea",
+      "hypopnea",
+      "dyspnea",
+      "eupnea"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-19-083",
+    "subject": "anatomy_physiology",
+    "topic": "respiratory_system",
+    "subtopic": "Regulation of Breathing",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The _____ center, located in the medulla, contains two groups of neurons which control respiration: the _____ and the _____ groups.",
+    "choices": [
+      "medullary respiratory; dorsal respiratory; ventral respiratory",
+      "pontine respiratory; apneustic; pneumotaxic",
+      "cardiovascular; cardioacceleratory; cardioinhibitory",
+      "medullary respiratory; apneustic; pneumotaxic"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-19-084",
+    "subject": "anatomy_physiology",
+    "topic": "respiratory_system",
+    "subtopic": "Regulation of Breathing",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The dorsal respiratory group, located in the _____, generates _____ which stimulate contraction of the _____.",
+    "choices": [
+      "medulla; rhythmic nerve impulses; diaphragm",
+      "pons; continuous nerve impulses; diaphragm",
+      "medulla; hormones; abdominal muscles",
+      "hypothalamus; rhythmic nerve impulses; larynx"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-19-085",
+    "subject": "anatomy_physiology",
+    "topic": "respiratory_system",
+    "subtopic": "Regulation of Breathing",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The ventral respiratory group, located in the _____, is required during forceful breathing to recruit the _____.",
+    "choices": [
+      "medulla; intercostal and abdominal muscles",
+      "pons; diaphragm",
+      "medulla; diaphragm",
+      "pons; intercostal and abdominal muscles"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-19-086",
+    "subject": "anatomy_physiology",
+    "topic": "respiratory_system",
+    "subtopic": "Regulation of Breathing",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "When the chemoreceptors in the _____, _____ and _____ sense an **increase** in levels of carbon dioxide in the blood, they signal the respiratory control center to _____ the breathing rate.",
+    "choices": [
+      "medulla oblongata; carotid arteries; aorta; increase",
+      "pons; carotid arteries; aorta; decrease",
+      "medulla oblongata; pulmonary arteries; vena cava; increase",
+      "hypothalamus; carotid arteries; aorta; decrease"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-19-087",
+    "subject": "anatomy_physiology",
+    "topic": "respiratory_system",
+    "subtopic": "Regulation of Breathing",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "When the chemoreceptors in the _____, _____ and _____ sense a **decrease** in the pH of the blood, they signal the respiratory control center to _____ the breathing rate.",
+    "choices": [
+      "medulla oblongata; carotid arteries; aorta; increase",
+      "pons; carotid arteries; aorta; decrease",
+      "medulla oblongata; pulmonary arteries; vena cava; increase",
+      "hypothalamus; carotid arteries; aorta; decrease"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-19-088",
+    "subject": "anatomy_physiology",
+    "topic": "respiratory_system",
+    "subtopic": "Regulation of Breathing",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Of the three major chemoreceptor clusters, detection of _____ by the _____ exerts the most control on breathing rate.",
+    "choices": [
+      "carbon dioxide; medulla oblongata",
+      "oxygen; carotid bodies",
+      "oxygen; pons",
+      "hydrogen ions; aortic bodies"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-19-089",
+    "subject": "anatomy_physiology",
+    "topic": "respiratory_system",
+    "subtopic": "Regulation of Breathing",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "When the chemoreceptors in the _____ and _____ sense a decrease in levels of oxygen in the blood, they signal the respiratory control center to _____ the breathing rate.",
+    "choices": [
+      "carotid arteries; aorta; increase",
+      "medulla oblongata; pons; increase",
+      "carotid arteries; aorta; decrease",
+      "pulmonary arteries; vena cava; decrease"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-19-090",
+    "subject": "anatomy_physiology",
+    "topic": "respiratory_system",
+    "subtopic": "Regulation of Breathing",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "When stretch receptors in the walls of the bronchi and bronchioles are fully stretched, inspiration is discontinued in a reflex called the _____ or _____.",
+    "choices": [
+      "Hering-Breuer reflex; inflation reflex",
+      "Hering-Breuer reflex; deflation reflex",
+      "Bainbridge reflex; baroreceptor reflex",
+      "protective reflex; cough reflex"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-19-091",
+    "subject": "anatomy_physiology",
+    "topic": "respiratory_system",
+    "subtopic": "Regulation of Breathing",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The cerebral cortex can exert voluntary control over respiration by bypassing the medullary centers and _____.",
+    "choices": [
+      "directly stimulating the respiratory muscles",
+      "inhibiting the peripheral chemoreceptors",
+      "stimulating the pontine respiratory group",
+      "releasing epinephrine from the adrenal medulla"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-19-092",
+    "subject": "anatomy_physiology",
+    "topic": "respiratory_system",
+    "subtopic": "Regulation of Breathing",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Sympathetic centers in the _____ modify the ventilation rate and depth in response to strong emotions, abrupt temperature changes, and pain.",
+    "choices": [
+      "hypothalamus",
+      "thalamus",
+      "cerebellum",
+      "medulla oblongata"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-19-093",
+    "subject": "anatomy_physiology",
+    "topic": "respiratory_system",
+    "subtopic": "Regulation of Breathing",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Anaerobic exercises causes a dramatic increase in ventilation rate due to the production of _____ , which lowers _____ . Indeed, respiration is so rapid that carbon dioxide levels may be _____ , and oxygen levels _____, than their resting levels.",
+    "choices": [
+      "lactic acid; blood pH; lower; higher",
+      "lactic acid; blood pH; higher; lower",
+      "carbon dioxide; blood pH; higher; lower",
+      "ketone bodies; blood oxygen; lower; higher"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-19-094",
+    "subject": "anatomy_physiology",
+    "topic": "respiratory_system",
+    "subtopic": "Regulation of Breathing",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Aerobic exercise alters breathing rate within seconds, in part due to direct communication between _____ and the _____.",
+    "choices": [
+      "motor pathways; medullary respiratory center",
+      "chemoreceptors; hypothalamus",
+      "baroreceptors; pontine respiratory group",
+      "proprioceptors; cerebellum"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-19-095",
+    "subject": "anatomy_physiology",
+    "topic": "respiratory_system",
+    "subtopic": "Regulation of Breathing",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Aerobic exercise alters breathing rate within seconds, in part due to signals sent from _____ to the _____, informing it of the body's exertion.",
+    "choices": [
+      "proprioceptors in the body; medullary respiratory center",
+      "chemoreceptors in the aorta; pontine respiratory group",
+      "baroreceptors in the carotid sinus; hypothalamus",
+      "stretch receptors in the lungs; cerebral cortex"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-19-096",
+    "subject": "anatomy_physiology",
+    "topic": "respiratory_system",
+    "subtopic": "Regulation of Breathing",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Adaptations to high altitudes include an increase in _____ , elevated 2,3-BPG, and increased production of erythropoietin (and thus of _____).",
+    "choices": [
+      "ventilation rate; RBCs",
+      "ventilation rate; leukocytes",
+      "residual volume; platelets",
+      "tidal volume; B cells"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-19-097",
+    "subject": "anatomy_physiology",
+    "topic": "respiratory_system",
+    "subtopic": "The Lungs",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Bubble-like structures called _____ (singular: _____) are the structures in which gas exchange occurs.",
+    "choices": [
+      "alveoli; alveolus",
+      "bronchioles; bronchiole",
+      "bronchi; bronchus",
+      "lobules; lobule"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-19-098",
+    "subject": "anatomy_physiology",
+    "topic": "respiratory_system",
+    "subtopic": "The Lungs",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Only air in the _____ participates in gas exchange: air in other parts of the lungs cannot.",
+    "choices": [
+      "alveoli",
+      "bronchioles",
+      "alveolar ducts",
+      "terminal bronchioles"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-19-099",
+    "subject": "anatomy_physiology",
+    "topic": "respiratory_system",
+    "subtopic": "The Lungs",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Respiratory bronchioles themselves have several _____ on their surface, but they are still large enough to divide once again to form _____.",
+    "choices": [
+      "alveoli; alveolar ducts",
+      "alveolar ducts; alveoli",
+      "alveolar sacs; terminal bronchioles",
+      "cilia; alveolar sacs"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-19-100",
+    "subject": "anatomy_physiology",
+    "topic": "respiratory_system",
+    "subtopic": "The Lungs",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "_____, which are found at the end of each alveolar duct, are chambers connected to several alveoli.",
+    "choices": [
+      "alveolar sacs",
+      "alveolar ducts",
+      "respiratory bronchioles",
+      "terminal bronchioles"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-19-101",
+    "subject": "anatomy_physiology",
+    "topic": "respiratory_system",
+    "subtopic": "The Lungs",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Pores connect adjacent alveoli to allow air pressure to be _____ , and to provide alternate routes for airflow in case one or more alveoli _____.",
+    "choices": [
+      "equalized; collapse",
+      "increased; expand",
+      "decreased; rupture",
+      "equalized; inflate"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-19-102",
+    "subject": "anatomy_physiology",
+    "topic": "respiratory_system",
+    "subtopic": "The Lungs",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The walls of alveoli contain Type I and Type II _________.",
+    "choices": [
+      "pneumocytes",
+      "alveolar macrophages",
+      "goblet cells",
+      "Clara cells"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-19-103",
+    "subject": "anatomy_physiology",
+    "topic": "respiratory_system",
+    "subtopic": "The Lungs",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Type I pneumocytes are _____ cells.",
+    "choices": [
+      "simple squamous epithelial",
+      "simple cuboidal epithelial",
+      "pseudostratified ciliated columnar epithelial",
+      "stratified squamous epithelial"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-19-104",
+    "subject": "anatomy_physiology",
+    "topic": "respiratory_system",
+    "subtopic": "The Lungs",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The shape of type I pneumocytes allows _____.",
+    "choices": [
+      "gas to diffuse easily across them",
+      "surfactant to be secreted",
+      "debris to be phagocytized",
+      "mucus to be swept upward"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-19-105",
+    "subject": "anatomy_physiology",
+    "topic": "respiratory_system",
+    "subtopic": "The Lungs",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Type II pneumocytes are cuboidal cells which produce a chemical that is needed to _____.",
+    "choices": [
+      "prevent the alveoli from collapsing",
+      "trap airborne pathogens",
+      "warm and humidify air",
+      "speed the diffusion of oxygen"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-19-106",
+    "subject": "anatomy_physiology",
+    "topic": "respiratory_system",
+    "subtopic": "The Lungs",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "In order to prevent airborne bacteria which reach the alveoli from becoming a problem, _____ patrol the alveolar surfaces.",
+    "choices": [
+      "macrophages",
+      "neutrophils",
+      "lymphocytes",
+      "mast cells"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-19-107",
+    "subject": "anatomy_physiology",
+    "topic": "respiratory_system",
+    "subtopic": "The Lungs",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The lobes of the lungs are further divided to form _____ segments; to each of these, air is delivered by a single _____.",
+    "choices": [
+      "bronchopulmonary; tertiary bronchus",
+      "bronchopulmonary; secondary bronchus",
+      "lobular; terminal bronchiole",
+      "alveolar; respiratory bronchiole"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-19-108",
+    "subject": "anatomy_physiology",
+    "topic": "respiratory_system",
+    "subtopic": "The Lungs",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Bronchopulmonary segments are subdivided to form _____ ; to each of these, air is delivered by a(n) _____.",
+    "choices": [
+      "lobules; terminal bronchiole",
+      "lobules; tertiary bronchus",
+      "alveolar sacs; alveolar duct",
+      "lobes; secondary bronchus"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-19-109",
+    "subject": "anatomy_physiology",
+    "topic": "respiratory_system",
+    "subtopic": "The Lungs",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The top of the lung is the _____ ; the bottom, the _____.",
+    "choices": [
+      "apex; base",
+      "base; apex",
+      "hilus; apex",
+      "costal surface; base"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-19-110",
+    "subject": "anatomy_physiology",
+    "topic": "respiratory_system",
+    "subtopic": "The Lungs",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The _____ surface is the surface at which a lung meets the ribs.",
+    "choices": [
+      "costal",
+      "mediastinal",
+      "diaphragmatic",
+      "apical"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-19-111",
+    "subject": "anatomy_physiology",
+    "topic": "respiratory_system",
+    "subtopic": "The Lungs",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Each bronchopulmonary segment is served by its own _____ , _____ and _____.",
+    "choices": [
+      "artery; vein; tertiary bronchus",
+      "artery; vein; secondary bronchus",
+      "arteriole; venule; terminal bronchiole",
+      "lymphatic; nerve; primary bronchus"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-19-112",
+    "subject": "anatomy_physiology",
+    "topic": "respiratory_system",
+    "subtopic": "The Lungs",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Serous membranes which surround the lungs are called the _____.",
+    "choices": [
+      "pleura",
+      "pericardium",
+      "peritoneum",
+      "mediastinum"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-19-113",
+    "subject": "anatomy_physiology",
+    "topic": "respiratory_system",
+    "subtopic": "The Lungs",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Each lung is surrounded by its own _____ and connected to the mediastinum by vascular and bronchial attachments called the _____.",
+    "choices": [
+      "pleural cavity; lung root",
+      "pericardial cavity; hilus",
+      "pleural cavity; pulmonary ligament",
+      "mediastinum; lung root"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-19-114",
+    "subject": "anatomy_physiology",
+    "topic": "respiratory_system",
+    "subtopic": "The Lungs",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The parietal pleura covers the thoracic wall, superior face of the diaphragm, and continues _____, forming the boundary of the _____.",
+    "choices": [
+      "around the heart between the lungs; mediastinum",
+      "over the lung surface; pleural cavity",
+      "along the inner rib cage; thoracic wall",
+      "down the esophagus; hilus"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-19-115",
+    "subject": "anatomy_physiology",
+    "topic": "respiratory_system",
+    "subtopic": "The Lungs",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The bronchial arteries provide _____.",
+    "choices": [
+      "oxygenated blood to the trachea and bronchi",
+      "deoxygenated blood to the alveoli",
+      "lymph to the pleura",
+      "oxygenated blood to the diaphragm"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-19-116",
+    "subject": "anatomy_physiology",
+    "topic": "respiratory_system",
+    "subtopic": "The Lungs",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The lungs have two lymphatic supplies: the superficial lymphatic vessels drain lymph from _____.",
+    "choices": [
+      "the outer lung and the pleura",
+      "the bronchi and connective tissues",
+      "the alveoli",
+      "the mediastinum and heart"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-19-117",
+    "subject": "anatomy_physiology",
+    "topic": "respiratory_system",
+    "subtopic": "The Lungs",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The lungs have two lymphatic supplies: the deep lymphatic vessels drain lymph from the _____.",
+    "choices": [
+      "bronchi and the lungs' connective tissues",
+      "outer lung and the pleura",
+      "alveoli",
+      "diaphragm and ribs"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-19-118",
+    "subject": "anatomy_physiology",
+    "topic": "respiratory_system",
+    "subtopic": "The Lungs",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "In the alveoli, lymphatic vessels are _____.",
+    "choices": [
+      "absent",
+      "abundant",
+      "valveless",
+      "fused with capillaries"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-19-119",
+    "subject": "anatomy_physiology",
+    "topic": "respiratory_system",
+    "subtopic": "The Lungs",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "A droplet of water has far fewer molecules of water in contact with _____ than either a bubble of water or a flat sheet of water.",
+    "choices": [
+      "air",
+      "one another",
+      "the container",
+      "dissolved solutes"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-19-120",
+    "subject": "anatomy_physiology",
+    "topic": "respiratory_system",
+    "subtopic": "The Lungs",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Water tends to form droplets instead of to flatten out. This is true because the attraction of water molecules to _____ is stronger than their attraction to _____ . (The strength of this attraction is due to the ability of water to form _____.)",
+    "choices": [
+      "one another; air; hydrogen bonds",
+      "air; one another; hydrogen bonds",
+      "one another; air; covalent bonds",
+      "air; one another; ionic bonds"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-19-121",
+    "subject": "anatomy_physiology",
+    "topic": "respiratory_system",
+    "subtopic": "The Lungs",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The tendency of a liquid to form droplets which minimize the number of molecules at the surface is called _____.",
+    "choices": [
+      "surface tension",
+      "lung compliance",
+      "elastic recoil",
+      "viscosity"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-19-122",
+    "subject": "anatomy_physiology",
+    "topic": "respiratory_system",
+    "subtopic": "The Lungs",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The chemical produced by type II pneumocytes is a surfactant, which is a(n) _____ .",
+    "choices": [
+      "chemical that decreases the surface tension of a liquid",
+      "chemical that increases the surface tension of a liquid",
+      "enzyme that digests mucus",
+      "lipid that thickens the alveolar wall"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-19-123",
+    "subject": "anatomy_physiology",
+    "topic": "respiratory_system",
+    "subtopic": "The Lungs",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The lungs of premature babies or other individuals whose type II pneumocytes are unable to produce surfactant _____.",
+    "choices": [
+      "collapse",
+      "overexpand",
+      "rupture",
+      "fill with mucus"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-19-124",
+    "subject": "anatomy_physiology",
+    "topic": "respiratory_system",
+    "subtopic": "The Lungs",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "_____ is a measure of the stretchability or expandibility of the lungs.",
+    "choices": [
+      "lung compliance",
+      "lung recoil",
+      "surface tension",
+      "vital capacity"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-19-125",
+    "subject": "anatomy_physiology",
+    "topic": "respiratory_system",
+    "subtopic": "The Lungs",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "_____ is the decrease in the size of an expanded lung due to the elastic fibers of the lung and the surface tension of the liquid which moistens the alveoli.",
+    "choices": [
+      "lung recoil",
+      "lung compliance",
+      "surface tension",
+      "pulmonary ventilation"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-19-126",
+    "subject": "anatomy_physiology",
+    "topic": "respiratory_system",
+    "subtopic": "The Lungs",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Lung recoil is increased by _____ which surround the alveoli.",
+    "choices": [
+      "elastic fibers",
+      "collagen fibers",
+      "smooth muscle",
+      "reticular fibers"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-19-127",
+    "subject": "anatomy_physiology",
+    "topic": "respiratory_system",
+    "subtopic": "The Lungs",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Pulmonary function tests evaluate respiratory function using a(n) _____ to measure respiratory volumes and capacities.",
+    "choices": [
+      "spirometer",
+      "sphygmomanometer",
+      "pulse oximeter",
+      "stethoscope"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-19-128",
+    "subject": "anatomy_physiology",
+    "topic": "respiratory_system",
+    "subtopic": "The Lungs",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The _____ is the amount of air inhaled during a normal, relaxed breath. In an average adult, it is about _____ ml.",
+    "choices": [
+      "tidal volume; 500",
+      "inspiratory reserve volume; 3000",
+      "expiratory reserve volume; 1200",
+      "residual volume; 1200"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-19-129",
+    "subject": "anatomy_physiology",
+    "topic": "respiratory_system",
+    "subtopic": "The Lungs",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The _____ is the amount of additional air that can be inhaled if, after inhaling, one breathes in as deeply as possible. In an average adult this is ~ _____ times the tidal volume.",
+    "choices": [
+      "inspiratory reserve volume; 6",
+      "expiratory reserve volume; 2",
+      "residual volume; 2",
+      "vital capacity; 10"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-19-130",
+    "subject": "anatomy_physiology",
+    "topic": "respiratory_system",
+    "subtopic": "The Lungs",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The _____ is the amount of air that can be forced out of the lungs after one has finished exhaling, and in an average adult is ~ _____ ml.",
+    "choices": [
+      "expiratory reserve volume; 1200",
+      "inspiratory reserve volume; 3000",
+      "tidal volume; 500",
+      "vital capacity; 4800"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-19-131",
+    "subject": "anatomy_physiology",
+    "topic": "respiratory_system",
+    "subtopic": "The Lungs",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The alveoli never _____, and air there, plus air in the anatomical dead space, remains in the lungs even after maximal, forcible exhalation. This is the _____, and in an average adult is ~ _____ ml.",
+    "choices": [
+      "collapse; residual volume; 1200",
+      "expand; tidal volume; 500",
+      "collapse; expiratory reserve volume; 1000",
+      "empty; functional residual capacity; 2400"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-19-132",
+    "subject": "anatomy_physiology",
+    "topic": "respiratory_system",
+    "subtopic": "The Lungs",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "_____ is the amount of air in the conducting system that is not available for use even after full forced inhalation, and is usually ~ _____ ml in an adult male.",
+    "choices": [
+      "anatomical dead space; 150",
+      "residual volume; 1200",
+      "tidal volume; 500",
+      "expiratory reserve volume; 1000"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-19-133",
+    "subject": "anatomy_physiology",
+    "topic": "respiratory_system",
+    "subtopic": "The Lungs",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The _____ is the maximum amount of air that can fill the lungs.",
+    "choices": [
+      "total lung capacity",
+      "vital capacity",
+      "inspiratory capacity",
+      "functional residual capacity"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-19-134",
+    "subject": "anatomy_physiology",
+    "topic": "respiratory_system",
+    "subtopic": "The Lungs",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The _____ is the maximum amount of air that can be expelled after fully inhaling.",
+    "choices": [
+      "vital capacity",
+      "total lung capacity",
+      "inspiratory capacity",
+      "functional residual capacity"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-19-135",
+    "subject": "anatomy_physiology",
+    "topic": "respiratory_system",
+    "subtopic": "The Lungs",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The _____ is the maximum amount of air that can be inhaled.",
+    "choices": [
+      "inspiratory capacity",
+      "inspiratory reserve volume",
+      "vital capacity",
+      "total lung capacity"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-19-136",
+    "subject": "anatomy_physiology",
+    "topic": "respiratory_system",
+    "subtopic": "The Lungs",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The amount of air remaining in the lungs after a normal expiration is called the _____.",
+    "choices": [
+      "functional residual capacity",
+      "residual volume",
+      "expiratory reserve volume",
+      "vital capacity"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-19-137",
+    "subject": "anatomy_physiology",
+    "topic": "respiratory_system",
+    "subtopic": "The Lungs",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The total \"_____\" refers to the volume of air, in liters, that is inhaled in one minute. It is found by multiplying _____ by the _____.",
+    "choices": [
+      "minute ventilation; tidal volume; respiratory rate",
+      "alveolar ventilation; vital capacity; respiratory rate",
+      "vital capacity; tidal volume; inspiratory reserve volume",
+      "minute ventilation; residual volume; respiratory rate"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-19-138",
+    "subject": "anatomy_physiology",
+    "topic": "respiratory_system",
+    "subtopic": "The Lungs",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Since each breath exchanges not only the air in the lungs but also the air in the dead space, the volume of air, in liters, that reaches the alveoli is found by subtracting _____ from _____. This is called _____.",
+    "choices": [
+      "ventilation rate x dead space; total minute ventilation; alveolar ventilation",
+      "dead space; tidal volume; minute ventilation",
+      "residual volume; vital capacity; alveolar ventilation",
+      "tidal volume; total lung capacity; minute ventilation"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-19-139",
+    "subject": "anatomy_physiology",
+    "topic": "respiratory_system",
+    "subtopic": "The Lungs",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "\"COPD\" refers to a group of diseases that result in progressive dyspnea, coughing and frequent pulmonary infections, and respiratory failure. The acronym means, '_____.'",
+    "choices": [
+      "chronic obstructive pulmonary diseases",
+      "chronic obstructive pneumonic disorders",
+      "congenital obstructive pulmonary defects",
+      "chronic occlusive pleural diseases"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-19-140",
+    "subject": "anatomy_physiology",
+    "topic": "respiratory_system",
+    "subtopic": "The Lungs",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Obstructive emphysema is a COPD which is characterized by _____ and _____.",
+    "choices": [
+      "permanently enlarged alveoli; deterioration of alveolar walls",
+      "excessive mucus production; inflammation of the bronchi",
+      "collapsed alveoli; thickened alveolar walls",
+      "bronchial spasm; airway inflammation"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-19-141",
+    "subject": "anatomy_physiology",
+    "topic": "respiratory_system",
+    "subtopic": "The Lungs",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Until the 1930s, one third of the deaths in the 20-45 year old age group were due to _____. Antibiotics changed that, but failure of some patients to continue antibiotics until the last bacterium has died has led to the evolution of _____.",
+    "choices": [
+      "tuberculosis; antibiotic resistant strains",
+      "pneumonia; viral resistance",
+      "influenza; antibiotic resistant strains",
+      "diphtheria; vaccine-resistant strains"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-19-142",
+    "subject": "anatomy_physiology",
+    "topic": "respiratory_system",
+    "subtopic": "The Lungs",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The portions of the respiratory system which deliver air to the regions of the lungs in which gas exchange can occur are the _____ regions.",
+    "choices": [
+      "conducting",
+      "respiratory",
+      "alveolar",
+      "bronchial"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-19-143",
+    "subject": "anatomy_physiology",
+    "topic": "respiratory_system",
+    "subtopic": "The Lungs",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Regions of the lungs which are capable of exchanging gases between blood and air are the _____ regions.",
+    "choices": [
+      "respiratory",
+      "conducting",
+      "alveolar",
+      "bronchial"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-19-144",
+    "subject": "anatomy_physiology",
+    "topic": "respiratory_system",
+    "subtopic": "Upper Respiratory System",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The nose is divided into the _____, which is formed by hyaline cartilage and bones of the skull, and the _____, which is entirely within the skull.",
+    "choices": [
+      "external nose; nasal cavity",
+      "nasal vestibule; nasopharynx",
+      "nasal septum; paranasal sinus",
+      "nasal conchae; nasal meatus"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-19-145",
+    "subject": "anatomy_physiology",
+    "topic": "respiratory_system",
+    "subtopic": "Upper Respiratory System",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The nasal cavity is lined by two types of epithelium: _____ and _____.",
+    "choices": [
+      "olfactory mucosa; respiratory mucosa",
+      "respiratory mucosa; pleural membrane",
+      "olfactory epithelium; keratinized epithelium",
+      "transitional epithelium; respiratory mucosa"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-19-146",
+    "subject": "anatomy_physiology",
+    "topic": "respiratory_system",
+    "subtopic": "Upper Respiratory System",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The _____ divides the nasal cavity into right and left sides.",
+    "choices": [
+      "septum",
+      "nasal conchae",
+      "nasal vestibule",
+      "hard palate"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-19-147",
+    "subject": "anatomy_physiology",
+    "topic": "respiratory_system",
+    "subtopic": "Upper Respiratory System",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The nostrils are also known as the _____ (singular, _____).",
+    "choices": [
+      "nares; naris",
+      "choanae; choana",
+      "conchae; concha",
+      "meatuses; meatus"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-19-148",
+    "subject": "anatomy_physiology",
+    "topic": "respiratory_system",
+    "subtopic": "Upper Respiratory System",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Air entering the nose encounters the _____, which create turbulence and increase the chances that airborne contaminants will contact the nasal mucosa rather than passing into the lungs.",
+    "choices": [
+      "nasal conchae",
+      "paranasal sinuses",
+      "nasal septum",
+      "choanae"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-19-149",
+    "subject": "anatomy_physiology",
+    "topic": "respiratory_system",
+    "subtopic": "Upper Respiratory System",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The nasal cavity is surrounded by _____ within the frontal, maxillary, sphenoid, and ethmoid bones that serve to lighten the skull, warm and moisten air, and produce mucus.",
+    "choices": [
+      "paranasal sinuses",
+      "nasal conchae",
+      "nasal meatuses",
+      "mastoid air cells"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-19-150",
+    "subject": "anatomy_physiology",
+    "topic": "respiratory_system",
+    "subtopic": "Upper Respiratory System",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Hair, mucus, and cilia which line the nasal cavity prevent _____.",
+    "choices": [
+      "dust and debris from entering the lungs",
+      "air from being warmed",
+      "gas exchange in the nasal cavity",
+      "odor molecules from reaching the olfactory mucosa"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-19-151",
+    "subject": "anatomy_physiology",
+    "topic": "respiratory_system",
+    "subtopic": "Upper Respiratory System",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The _____ is the region of the pharynx which serves only as an air passageway.",
+    "choices": [
+      "nasopharynx",
+      "oropharynx",
+      "laryngopharynx",
+      "larynx"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-19-152",
+    "subject": "anatomy_physiology",
+    "topic": "respiratory_system",
+    "subtopic": "Upper Respiratory System",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The _____ contains the lymphatic pharyngeal tonsil (adenoid), which traps and destroys airborne pathogens, and the pharyngeal opening of the auditory tube.",
+    "choices": [
+      "nasopharynx",
+      "oropharynx",
+      "laryngopharynx",
+      "nasal vestibule"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-19-153",
+    "subject": "anatomy_physiology",
+    "topic": "respiratory_system",
+    "subtopic": "Upper Respiratory System",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The _____ is an air and food passageway that extends inferiorly from the level of the soft palate to the epiglottis.",
+    "choices": [
+      "oropharynx",
+      "nasopharynx",
+      "laryngopharynx",
+      "larynx"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-19-154",
+    "subject": "anatomy_physiology",
+    "topic": "respiratory_system",
+    "subtopic": "Upper Respiratory System",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The _____ is a food and drink passageway that lies directly behind the epiglottis, extends to the larynx, and is continuous inferiorly with the esophagus.",
+    "choices": [
+      "laryngopharynx",
+      "oropharynx",
+      "nasopharynx",
+      "trachea"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-19-155",
+    "subject": "anatomy_physiology",
+    "topic": "respiratory_system",
+    "subtopic": "Upper Respiratory System",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Food and air are sorted into the stomach or lungs, respectively, in the _____ region of the pharnyx.",
+    "choices": [
+      "laryngopharynx",
+      "oropharynx",
+      "nasopharynx",
+      "glottis"
+    ],
+    "answer_index": 0
+  }
+]

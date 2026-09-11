@@ -1,8 +1,9 @@
 # Question Bank Tracker
 
-Last updated: 2026-09-09 (Anson Vol. 2 import IN PROGRESS — blood, heart,
-blood_vessels, and lymphatic_and_immune_system vetted and imported, 656
-questions; respiratory_system onward still awaiting David's vetting pass.
+Last updated: 2026-09-11 (Anson Vol. 2 import IN PROGRESS — blood, heart,
+blood_vessels, lymphatic_and_immune_system, and respiratory_system vetted and
+imported, 811 questions; digestive_system onward still awaiting David's
+vetting pass.
 Vol. 1 import complete since 2026-09-01; zero placeholder questions).
 
 What this file tracks: which subtopics exist per topic, which sources have
@@ -19,7 +20,7 @@ Questions.md`, `Anson Vol.1 - unreviewed.md`, and the Vol. 2 set:
 | Source | License | Status |
 |---|---|---|
 | Anson *3600+ Review Questions*, Vol. 1 (5th ed.) | CC BY-SA 3.0 | **Import complete.** All 1,870 questions audited (2026-08-31) → David vetted all 14 topics → 1,595 imported 2026-09-01. Remaining: the 177-question edit pile in `Anson Vol.1 - unreviewed.md` (David's rewrites). |
-| Anson *3600+ Review Questions*, Vol. 2 (3rd ed.) | CC BY-SA 3.0 | **Import in progress.** All 1,884 questions audited (2026-09-08) → `question_recommendations_part2.md` (1,594 REC / 273 EDIT / 17 NO). David has vetted 4 of 11 topics (blood → lymphatic_and_immune_system) in `Anson Vol.2 Final Questions.md` → 656 imported 2026-09-09 via `anson_import2.py`. **Still to vet:** respiratory_system, digestive_system, metabolism, urinary_system, fluids_and_acid-bases, reproductive_system, development_and_inheritance (the audit is done for all of them). Edit pile for the 4 imported topics: 89 entries (see loose ends). |
+| Anson *3600+ Review Questions*, Vol. 2 (3rd ed.) | CC BY-SA 3.0 | **Import in progress.** All 1,884 questions audited (2026-09-08) → `question_recommendations_part2.md` (1,594 REC / 273 EDIT / 17 NO). David has vetted 5 of 11 topics (blood → respiratory_system) in `Anson Vol.2 Final Questions.md` → 811 imported (656 on 2026-09-09, +155 respiratory_system on 2026-09-11) via `anson_import2.py`. **Still to vet:** digestive_system, metabolism, urinary_system, fluids_and_acid-bases, reproductive_system, development_and_inheritance (the audit is done for all of them). Edit pile for the 5 imported topics: 110 entries (see loose ends). |
 | OpenStax *A&P 2e* review questions (ch. 1–4+) | CC BY-NC-SA 4.0 | **Not started.** Maps section-for-section onto existing subtopics. Educator account (free instructor test bank) not yet applied for. |
 | OpenStax *A&P 2e* critical-thinking questions | CC BY-NC-SA 4.0 | **Not started.** Raw material for the difficulty-3 tier; needs MCQ-ification. |
 | OER Commons question banks (OpenStax-aligned) | varies per item | **Not started.** Needs a free account; check each item's license. |
@@ -37,8 +38,8 @@ Seven questions carry `"shuffle": false` (two-choice items): `bio-anat-06-229`,
 `-068` (heart — systole/diastole pairs and one "overlap is greater/less").
 
 Id prefixes continue the Vol. 1 numbering in topic-plan order: 15 blood,
-16 heart, 17 blood_vessels, 18 lymphatic_and_immune_system. The next Vol. 2
-topics should take 19 respiratory_system, 20 digestive_system, 21 metabolism,
+16 heart, 17 blood_vessels, 18 lymphatic_and_immune_system, 19
+respiratory_system. The next Vol. 2 topics should take 20 digestive_system, 21 metabolism,
 22 urinary_system, 23 fluids_and_acid-bases, 24 reproductive_system,
 25 development_and_inheritance.
 
@@ -62,7 +63,7 @@ topics should take 19 respiratory_system, 20 digestive_system, 21 metabolism,
 | heart | 172 | Cardiac Cycle (20), Cardiac Electrophysiology (37), Cardiac Output (42), Heart Anatomy (73) | ✅ Vol. 2 |
 | blood_vessels | 208 | Aging: Cardiovascular System (1), Arteries and Veins (53), Blood Pressure & Resistance (42), Fetal Cardiovascular System (6), Pulmonary & Systemic Circuits (67), Regulating Blood Flow (39) | ✅ Vol. 2 |
 | lymphatic_and_immune_system | 170 | Adaptive Immunity (75), Aging: Immune System (2), Immune Disorders (8), Innate Immunity (21), Innate vs Adaptive Immunity (2), Lymphatic System Anatomy (62) | ✅ Vol. 2 |
-| respiratory_system | 0 | *(plan: 8 subtopics)* | ⏳ audited, not vetted |
+| respiratory_system | 155 | Aging: Respiratory System (2), Gas Exchange (16), Gas Transport (21), Lower Respiratory System (26), Regulation of Breathing (31), The Lungs (47), Upper Respiratory System (12) | ✅ Vol. 2 |
 | digestive_system | 0 | *(plan: 9 subtopics)* | ⏳ audited, not vetted |
 | metabolism | 0 | *(plan: 7 subtopics)* | ⏳ audited, not vetted |
 | urinary_system | 0 | *(plan: 5 subtopics)* | ⏳ audited, not vetted |
@@ -156,22 +157,16 @@ Cells"; the four macromolecule subtopics → "Macromolecules").
 
 ## Loose ends — Vol. 2 (need David's decision)
 
-Everything below came out of the 2026-09-09 import of the four vetted topics.
-`anson_import2.py` reproduces the run (`--write` regenerates the four JSON
-files from the audit + vetting file, so fix things at the source and rerun).
+Items 1–9 came out of the 2026-09-09 import of the first four topics; items
+10–13 from the 2026-09-11 respiratory_system import. `anson_import2.py`
+reproduces the run (`--write` regenerates all five JSON files from the audit +
+vetting file, so fix things at the source and rerun).
 
-1. **Display label needed (game code):** `Cardiac Electrophysiology` is too
-   wide for a pixel-theme tile — `tests/test_pixel_layout.py` fails on the
-   word "Electrophysiology" alone (156 px in a 148 px label box). Verified
-   fix: add `("heart", "Cardiac Electrophysiology"): "Cardiac Conduction"` to
-   `SUBTOPIC_DISPLAY_NAMES` in `game_setup.py` (the all-sizes dict, not the
-   compact one — the 5×5 board uses the full name). Suite is 454 green with
-   it. Left for David since it's game code.
-2. **Topic menu order (game code):** `SUBJECT_TOPIC_ORDERS` in
-   `game_setup.py` doesn't list the new topics, so they follow the configured
-   ones alphabetically: blood, blood_vessels, heart, lymphatic… Append
-   `"blood", "heart", "blood_vessels", "lymphatic_and_immune_system"` (and
-   the matching list in `tests/test_game_setup.py`) to get curriculum order.
+1. ~~**Display label needed (game code):** `Cardiac Electrophysiology`~~ —
+   DONE by David: aliased to "Cardiac Conduction" in `SUBTOPIC_DISPLAY_NAMES`.
+2. ~~**Topic menu order (game code)**~~ — DONE by David for the first four
+   topics, with a guard test (`test_every_shipped_topic_has_a_configured_position`).
+   See item 10 for respiratory_system.
 3. **3 Keep-range collisions:** inside Keep ranges but audit-filed under
    Recommended-with-Edits, so NOT imported: Blood #30 and #33 (Red Blood
    Cells, range 20–42) and Blood #108 (Hemostasis, range 82–111). Rewrite
@@ -200,3 +195,21 @@ files from the audit + vetting file, so fix things at the source and rerun).
    topics are vetted so it's built once.
 9. **Coverage was complete:** every Recommended entry the audit filed under
    the four topics had a Keep/Skip/Move directive — nothing fell through.
+10. **Topic menu order (game code), respiratory_system:** the guard test in
+    `tests/test_game_setup.py` now fails (1 failed / 478 passed) because
+    `SUBJECT_TOPIC_ORDERS` in `game_setup.py` doesn't list
+    `respiratory_system` yet. Append it after `lymphatic_and_immune_system`.
+    No display alias needed — all seven subtopic labels pass the pixel-layout
+    width checks as-is.
+11. **Respiratory #134 audit typo fixed at the source:** the audit's Options
+    line had lost a `|`, making "carbaminohemoglobin dissolved carbon dioxide"
+    one wrong choice of a two-choice item. Split into two choices in
+    `question_recommendations_part2.md` → imported as a normal 3-choice
+    shuffled question (`bio-anat-19-030`). Two-choice count for Vol. 2 stays at 5 (all heart).
+12. **`Respiratory Anatomy` subtopic is empty:** its only two Recommended
+    items (#38, #40) were moved to The Lungs per the vetting file, so the
+    topic ships 7 subtopics, not the planned 8. Fine unless David wants the
+    heading kept for future sources.
+13. **Edit pile now 110 entries:** +21 audit Recommended-with-Edits for
+    respiratory_system (no David-moved items this time). No Keep-range
+    collisions with the edit pile, no Keep/Skip clashes, coverage complete.

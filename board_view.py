@@ -46,6 +46,7 @@ class BoardView:
         selected: Cell | None,
         moves: set[Cell],
         occupied: set[Cell],
+        catchable: Cell | None = None,
     ) -> None:
         settings = self.cell_lift
         if settings.rest_px == 0 and settings.hover_px == 0:
@@ -59,12 +60,18 @@ class BoardView:
         )
 
         for cell in self.board.cells():
-            if cell == selected or cell in occupied:
+            if cell == selected or (
+                cell in occupied and cell != catchable
+            ):
                 self._lifts.pop(cell, None)
                 continue
 
-            if cell in moves:
-                target = settings.hover_px if cell == hovered else settings.rest_px
+            if cell in moves or cell == catchable:
+                target = (
+                    settings.hover_px
+                    if cell == hovered
+                    else settings.rest_px
+                )
             else:
                 target = 0
             current = self._lifts.get(cell, 0.0)
@@ -86,9 +93,12 @@ class BoardView:
         *,
         selected: Cell | None,
         occupied: set[Cell],
+        catchable: Cell | None = None,
     ) -> int:
         # Input and answer resolution can change these after this frame's update.
-        if cell == selected or cell in occupied:
+        if cell == selected or (
+            cell in occupied and cell != catchable
+        ):
             return 0
         value = self._lifts.get(cell, 0.0)
         return int(value / self.lift_step + 0.5) * self.lift_step
@@ -109,7 +119,12 @@ class BoardView:
         label_role = renderer.label_role(board_size)
         occupied = {entity.cell for entity in entities}
         lifts = {
-            cell: self.lift_for(cell, selected=selected, occupied=occupied)
+            cell: self.lift_for(
+                cell,
+                selected=selected,
+                occupied=occupied,
+                catchable=catchable,
+            )
             for cell in self.board.cells()
         }
         cells = sorted(lifts, key=lambda cell: (lifts[cell], cell.row, cell.col))
@@ -149,7 +164,16 @@ class BoardView:
             renderer.cell(screen, self.cell_to_rect(hovered), 'hover')
 
         for entity in entities:
-            renderer.sprite(screen, self.cell_to_rect(entity.cell), entity.shape, entity.color_role)
+            entity_rect = self.cell_to_rect(entity.cell).move(
+                0,
+                -lifts[entity.cell],
+            )
+            renderer.sprite(
+                screen,
+                entity_rect,
+                entity.shape,
+                entity.color_role,
+            )
 
         if selected is not None:
             renderer.cell(screen, self.cell_to_rect(selected), 'selected')

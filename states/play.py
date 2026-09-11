@@ -202,6 +202,11 @@ class PlayState:
         self.entities: list[Character] = [self.player, self.blue]
         self.moves = self.player.legal_moves(self.board, {self.blue.cell})
 
+    def _catchable_cell(self) -> Cell | None:
+        if is_adjacent(self.player.cell, self.blue.cell):
+            return self.blue.cell
+        return None
+
     def _refresh_exhausted_cell_topics(self):
         available = self.bank.available_pools(self.topic_subtopics)
         available_set = set(available)
@@ -289,6 +294,7 @@ class PlayState:
             selected=self.selected,
             moves=self.moves,
             occupied={entity.cell for entity in self.entities},
+            catchable=self._catchable_cell(),
         )
 
         if self.reveal is None:
@@ -502,11 +508,7 @@ class PlayState:
             self.moves,
             self.cell_topics,
             self.renderer,
-            catchable=(
-                self.blue.cell
-                if is_adjacent(self.player.cell, self.blue.cell)
-                else None
-            ),
+            catchable=self._catchable_cell(),
         )
 
         counter = f"Moves remaining: {self.moves_remaining}"
