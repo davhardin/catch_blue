@@ -4,7 +4,7 @@
     "subject": "anatomy_physiology",
     "topic": "autonomic_nervous_system",
     "subtopic": "Aging: ANS",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "_____ is a form of low blood pressure common in old age, and occurs when sympathetic vasoconstrictive centers are slow to respond to positional changes.",
     "choices": [
@@ -20,7 +20,7 @@
     "subject": "anatomy_physiology",
     "topic": "autonomic_nervous_system",
     "subtopic": "Aging: ANS",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Orthostatic hypotension, dry eyes, and constipation are all linked to a common cause in old age: _____.",
     "choices": [
@@ -84,7 +84,7 @@
     "subject": "anatomy_physiology",
     "topic": "autonomic_nervous_system",
     "subtopic": "Autonomic Nervous System",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "In the _____ nervous system, efferent neurons in the _____ (pre-ganglionic neurons) extend axons to ganglia located throughout the body, where they _____. _____ carry the message to the effector.",
     "choices": [
@@ -100,7 +100,7 @@
     "subject": "anatomy_physiology",
     "topic": "autonomic_nervous_system",
     "subtopic": "Autonomic Nervous System",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "In the autonomic nervous system, the neurotransmitters are _____ and _____, which can be _____ or _____ depending on the effector involved.",
     "choices": [
@@ -148,7 +148,7 @@
     "subject": "anatomy_physiology",
     "topic": "autonomic_nervous_system",
     "subtopic": "Autonomic Nervous System",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "There are two types of cholinergic receptors, _____ and _____, which are sufficiently different that drugs can be found which affect one but not the other.",
     "choices": [
@@ -180,7 +180,7 @@
     "subject": "anatomy_physiology",
     "topic": "autonomic_nervous_system",
     "subtopic": "Autonomic Nervous System",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "There are two major classes of adrenergic receptors, _____ and _____, each of which has several sub-classes and each of which may be targeted by specific drugs.",
     "choices": [
@@ -196,7 +196,7 @@
     "subject": "anatomy_physiology",
     "topic": "autonomic_nervous_system",
     "subtopic": "Autonomic Nervous System",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The effect of a neurotransmitter depends on two factors: the _____ to which they bind and the _____.",
     "choices": [
@@ -212,7 +212,7 @@
     "subject": "anatomy_physiology",
     "topic": "autonomic_nervous_system",
     "subtopic": "Autonomic Nervous System",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Diverse signals from the limbic system, the reticular formation, the cerebral cortex, and the spinal cord are integrated to influence the activity of the ANS by _____.",
     "choices": [
@@ -244,7 +244,7 @@
     "subject": "anatomy_physiology",
     "topic": "autonomic_nervous_system",
     "subtopic": "Autonomic Nervous System",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The _____ mediates many activities requiring autonomic activity, including defecation, urination, erection (penile or clitoral), and ejaculation.",
     "choices": [
@@ -260,7 +260,7 @@
     "subject": "anatomy_physiology",
     "topic": "autonomic_nervous_system",
     "subtopic": "Autonomic Nervous System",
-    "difficulty": 1,
+    "difficulty": 3,
     "type": "multiple_choice",
     "prompt": "Re-activation of autonomic fibers in the spinal cord following non-permanent injury result in potentially fatal _____ and in _____ as part of the mass reflex reaction.",
     "choices": [
@@ -276,7 +276,7 @@
     "subject": "anatomy_physiology",
     "topic": "autonomic_nervous_system",
     "subtopic": "Autonomic Nervous System",
-    "difficulty": 1,
+    "difficulty": 3,
     "type": "multiple_choice",
     "prompt": "During development, pre-ganglionic neurons of the ANS are derived from the _____.",
     "choices": [
@@ -292,7 +292,7 @@
     "subject": "anatomy_physiology",
     "topic": "autonomic_nervous_system",
     "subtopic": "Autonomic Nervous System",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "During development, autonomic nervous system structures in the PNS such as ganglionic neurons and the adrenal medulla are derived from the _____.",
     "choices": [
@@ -352,7 +352,7 @@
     "subject": "anatomy_physiology",
     "topic": "autonomic_nervous_system",
     "subtopic": "Divisions of the Autonomic Nervous System",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Thermoregulation is controlled by the _____ of the ANS.",
     "choices": [
@@ -368,7 +368,7 @@
     "subject": "anatomy_physiology",
     "topic": "autonomic_nervous_system",
     "subtopic": "Divisions of the Autonomic Nervous System",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Metabolic rate is controlled by the _____ of the ANS.",
     "choices": [
@@ -384,7 +384,7 @@
     "subject": "anatomy_physiology",
     "topic": "autonomic_nervous_system",
     "subtopic": "Divisions of the Autonomic Nervous System",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Blood pressure is controlled by the _____ of the ANS.",
     "choices": [
@@ -416,7 +416,7 @@
     "subject": "anatomy_physiology",
     "topic": "autonomic_nervous_system",
     "subtopic": "Divisions of the Autonomic Nervous System",
-    "difficulty": 1,
+    "difficulty": 3,
     "type": "multiple_choice",
     "prompt": "Two reasons that activation by the sympathetic division of the ANS has a long duration are that the neurotransmitter _____ is inactivated more slowly than _____, and also acts through _____ systems in the cell rather than directly operating ion channels.",
     "choices": [
@@ -448,7 +448,7 @@
     "subject": "anatomy_physiology",
     "topic": "autonomic_nervous_system",
     "subtopic": "Divisions of the Autonomic Nervous System",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The blood-borne neurotransmitters of the sympathetic division remain active until _____.",
     "choices": [
@@ -464,7 +464,7 @@
     "subject": "anatomy_physiology",
     "topic": "autonomic_nervous_system",
     "subtopic": "Divisions of the Autonomic Nervous System",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Ganglia for the parasympathetic division of the ANS are located _____.",
     "choices": [
@@ -480,7 +480,7 @@
     "subject": "anatomy_physiology",
     "topic": "autonomic_nervous_system",
     "subtopic": "Divisions of the Autonomic Nervous System",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Sympathetic nerve fibers leave the CNS in the _____ region(s) of the vertebral column.",
     "choices": [
@@ -496,7 +496,7 @@
     "subject": "anatomy_physiology",
     "topic": "autonomic_nervous_system",
     "subtopic": "Divisions of the Autonomic Nervous System",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The cell bodies of the pre-ganglionic sympathetic neurons of the ANS form the _____ of the spinal cord.",
     "choices": [
@@ -512,7 +512,7 @@
     "subject": "anatomy_physiology",
     "topic": "autonomic_nervous_system",
     "subtopic": "Divisions of the Autonomic Nervous System",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The axons of many of the pre-ganglionic sympathetic neurons synapse adjacent to the spinal cord in the _____.",
     "choices": [
@@ -528,7 +528,7 @@
     "subject": "anatomy_physiology",
     "topic": "autonomic_nervous_system",
     "subtopic": "Divisions of the Autonomic Nervous System",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The cell bodies of many of the post-ganglionic neurons whose axons innervate sympathetic effectors are located adjacent to the vertebrae and are called _____.",
     "choices": [
@@ -544,7 +544,7 @@
     "subject": "anatomy_physiology",
     "topic": "autonomic_nervous_system",
     "subtopic": "Divisions of the Autonomic Nervous System",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The axons of many of the pre-ganglionic sympathetic neurons pass through the chain ganglia and synapse in the _____.",
     "choices": [
@@ -560,7 +560,7 @@
     "subject": "anatomy_physiology",
     "topic": "autonomic_nervous_system",
     "subtopic": "Divisions of the Autonomic Nervous System",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The cell bodies of many of the post-ganglionic neurons whose axons innervate sympathetic effectors are located near the abdominal aorta and are called _____.",
     "choices": [
@@ -576,7 +576,7 @@
     "subject": "anatomy_physiology",
     "topic": "autonomic_nervous_system",
     "subtopic": "Divisions of the Autonomic Nervous System",
-    "difficulty": 2,
+    "difficulty": 3,
     "type": "multiple_choice",
     "prompt": "Sympathetic axons which leave _____ are myelinated and are called the white rami.",
     "choices": [
@@ -592,7 +592,7 @@
     "subject": "anatomy_physiology",
     "topic": "autonomic_nervous_system",
     "subtopic": "Divisions of the Autonomic Nervous System",
-    "difficulty": 1,
+    "difficulty": 3,
     "type": "multiple_choice",
     "prompt": "The axons which leave _____ are not myelinated and are called the gray rami.",
     "choices": [
@@ -638,7 +638,7 @@
     "subject": "anatomy_physiology",
     "topic": "autonomic_nervous_system",
     "subtopic": "Divisions of the Autonomic Nervous System",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Heart rate is decreased by the _____ division of the ANS, using the neurotransmitter ______.",
     "choices": [
@@ -654,7 +654,7 @@
     "subject": "anatomy_physiology",
     "topic": "autonomic_nervous_system",
     "subtopic": "Divisions of the Autonomic Nervous System",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The bronchioles in the lungs are constricted by the _____ division of the ANS via the neurotransmitter ______.",
     "choices": [
@@ -670,7 +670,7 @@
     "subject": "anatomy_physiology",
     "topic": "autonomic_nervous_system",
     "subtopic": "Divisions of the Autonomic Nervous System",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The bronchioles in the lungs are dilated by the _____ division of the ANS via the neurotransmitter ______..",
     "choices": [
@@ -730,7 +730,7 @@
     "subject": "anatomy_physiology",
     "topic": "autonomic_nervous_system",
     "subtopic": "Divisions of the Autonomic Nervous System",
-    "difficulty": 1,
+    "difficulty": 3,
     "type": "multiple_choice",
     "prompt": "Blood vessels are dilated due to _____.",
     "choices": [
@@ -746,7 +746,7 @@
     "subject": "anatomy_physiology",
     "topic": "autonomic_nervous_system",
     "subtopic": "Divisions of the Autonomic Nervous System",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Hypertension (high blood pressure) results if the _____ response is overactive.",
     "choices": [
@@ -762,7 +762,7 @@
     "subject": "anatomy_physiology",
     "topic": "autonomic_nervous_system",
     "subtopic": "Divisions of the Autonomic Nervous System",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Raynaud's disease is a disease in which _____.",
     "choices": [

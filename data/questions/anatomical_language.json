@@ -4,7 +4,7 @@
     "subject": "anatomy_physiology",
     "topic": "anatomical_language",
     "subtopic": "Anatomical Directions",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "In anatomical terms, the relative position of the head and the heels during a somersault is _____, because such descriptions assume that the body is in the _____.",
     "choices": [
@@ -356,7 +356,7 @@
     "subject": "anatomy_physiology",
     "topic": "anatomical_language",
     "subtopic": "Anatomical Directions",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "In humans, \"_____\" is a synonym for \"superior,\" but in four-legged animals, it means, \"anterior,\" because it literally means, \"toward the mouth.\"",
     "choices": [
@@ -372,7 +372,7 @@
     "subject": "anatomy_physiology",
     "topic": "anatomical_language",
     "subtopic": "Anatomical Directions",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "In humans, \"_____\" is a synonym for \"inferior,\" but in four-legged animals, it means, \"posterior,\" because it literally means, \"toward the tail.\"",
     "choices": [
@@ -596,7 +596,7 @@
     "subject": "anatomy_physiology",
     "topic": "anatomical_language",
     "subtopic": "Body Cavities",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The lungs and heart are both found in the _____ cavity. (Be specific)",
     "choices": [
@@ -612,7 +612,7 @@
     "subject": "anatomy_physiology",
     "topic": "anatomical_language",
     "subtopic": "Body Cavities",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The heart is found in the _____ cavity. (Be specific)",
     "choices": [
@@ -644,7 +644,7 @@
     "subject": "anatomy_physiology",
     "topic": "anatomical_language",
     "subtopic": "Body Cavities",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The heart, trachea and esophagus are found in the _____. (Be specific)",
     "choices": [
@@ -660,7 +660,7 @@
     "subject": "anatomy_physiology",
     "topic": "anatomical_language",
     "subtopic": "Body Cavities",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The mediastinum is within the _____ cavity, which is in turn within the _____ cavity.",
     "choices": [
@@ -676,7 +676,7 @@
     "subject": "anatomy_physiology",
     "topic": "anatomical_language",
     "subtopic": "Body Cavities",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The pelvic cavity is within the _____ cavity, which is within the _____ cavity.",
     "choices": [
@@ -692,7 +692,7 @@
     "subject": "anatomy_physiology",
     "topic": "anatomical_language",
     "subtopic": "Body Cavities",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The lungs are found in the _____ cavity. (Be specific)",
     "choices": [
@@ -708,7 +708,7 @@
     "subject": "anatomy_physiology",
     "topic": "anatomical_language",
     "subtopic": "Body Cavities",
-    "difficulty": 1,
+    "difficulty": 3,
     "type": "multiple_choice",
     "prompt": "The pericardial cavity is within the _____, which is within the _____ cavity, which is within the _____ cavity.",
     "choices": [
@@ -804,7 +804,7 @@
     "subject": "anatomy_physiology",
     "topic": "anatomical_language",
     "subtopic": "Body Regions",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "''Acromial'' refers to the _____.",
     "choices": [
@@ -852,7 +852,7 @@
     "subject": "anatomy_physiology",
     "topic": "anatomical_language",
     "subtopic": "Body Regions",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "''Antecubital'' refers to the _____.",
     "choices": [
@@ -868,7 +868,7 @@
     "subject": "anatomy_physiology",
     "topic": "anatomical_language",
     "subtopic": "Body Regions",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "''Antebrachial'' refers to the _____.",
     "choices": [
@@ -900,7 +900,7 @@
     "subject": "anatomy_physiology",
     "topic": "anatomical_language",
     "subtopic": "Body Regions",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "''Pollex'' refers to the _____.",
     "choices": [
@@ -964,7 +964,7 @@
     "subject": "anatomy_physiology",
     "topic": "anatomical_language",
     "subtopic": "Body Regions",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "''Crural'' refers to the _____.",
     "choices": [
@@ -1044,7 +1044,7 @@
     "subject": "anatomy_physiology",
     "topic": "anatomical_language",
     "subtopic": "Body Regions",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "''Buccal'' refers to the _____.",
     "choices": [
@@ -1060,7 +1060,7 @@
     "subject": "anatomy_physiology",
     "topic": "anatomical_language",
     "subtopic": "Body Regions",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "''Mental'' refers to the _____.",
     "choices": [
@@ -1108,7 +1108,7 @@
     "subject": "anatomy_physiology",
     "topic": "anatomical_language",
     "subtopic": "Body Regions",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "''Coxal'' refers to the _____.",
     "choices": [
@@ -1124,7 +1124,7 @@
     "subject": "anatomy_physiology",
     "topic": "anatomical_language",
     "subtopic": "Body Regions",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "''Inguinal'' refers to the _____.",
     "choices": [
@@ -1156,7 +1156,7 @@
     "subject": "anatomy_physiology",
     "topic": "anatomical_language",
     "subtopic": "Body Regions",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "''Hallux'' refers to the _____.",
     "choices": [
@@ -1188,7 +1188,7 @@
     "subject": "anatomy_physiology",
     "topic": "anatomical_language",
     "subtopic": "Body Regions",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "''Otic'' refers to the _____.",
     "choices": [
@@ -1220,7 +1220,7 @@
     "subject": "anatomy_physiology",
     "topic": "anatomical_language",
     "subtopic": "Body Regions",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "''Manus'' refers to the _____.",
     "choices": [
@@ -1284,7 +1284,7 @@
     "subject": "anatomy_physiology",
     "topic": "anatomical_language",
     "subtopic": "Body Regions",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "''Olecranal'' refers to the _____.",
     "choices": [
@@ -1332,7 +1332,7 @@
     "subject": "anatomy_physiology",
     "topic": "anatomical_language",
     "subtopic": "Body Regions",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "''Popliteal'' refers to the _____.",
     "choices": [
@@ -1348,7 +1348,7 @@
     "subject": "anatomy_physiology",
     "topic": "anatomical_language",
     "subtopic": "Body Regions",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "''Sural'' refers to the _____.",
     "choices": [
@@ -1364,7 +1364,7 @@
     "subject": "anatomy_physiology",
     "topic": "anatomical_language",
     "subtopic": "Body Regions",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "''Calcaneal'' refers to the _____.",
     "choices": [
@@ -1412,7 +1412,7 @@
     "subject": "anatomy_physiology",
     "topic": "anatomical_language",
     "subtopic": "Body Regions",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The _____ region of the abdomen is superior and left lateral to the umbilical region of the abdomen.",
     "choices": [
@@ -1428,7 +1428,7 @@
     "subject": "anatomy_physiology",
     "topic": "anatomical_language",
     "subtopic": "Body Regions",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The _____ region of the abdomen is superior and right lateral to the umbilical region of the abdomen.",
     "choices": [
@@ -1444,7 +1444,7 @@
     "subject": "anatomy_physiology",
     "topic": "anatomical_language",
     "subtopic": "Body Regions",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The _____ region of the abdomen is right lateral to the umbilical region of the abdomen.",
     "choices": [
@@ -1460,7 +1460,7 @@
     "subject": "anatomy_physiology",
     "topic": "anatomical_language",
     "subtopic": "Body Regions",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The _____ region of the abdomen is left lateral to the umbilical region of the abdomen.",
     "choices": [
@@ -1492,7 +1492,7 @@
     "subject": "anatomy_physiology",
     "topic": "anatomical_language",
     "subtopic": "Body Regions",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The _____ region of the abdomen is inferior and left lateral to the umbilical region of the abdomen.",
     "choices": [
@@ -1508,7 +1508,7 @@
     "subject": "anatomy_physiology",
     "topic": "anatomical_language",
     "subtopic": "Body Regions",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The _____ region of the abdomen is inferior and right lateral to the umbilical region of the abdomen.",
     "choices": [
@@ -1844,7 +1844,7 @@
     "subject": "anatomy_physiology",
     "topic": "anatomical_language",
     "subtopic": "Levels of Organization",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The _____ system synthesizes vitamin D.",
     "choices": [
@@ -1908,7 +1908,7 @@
     "subject": "anatomy_physiology",
     "topic": "anatomical_language",
     "subtopic": "Levels of Organization",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The _____ system houses the blood-forming cells of the body.",
     "choices": [
@@ -1956,7 +1956,7 @@
     "subject": "anatomy_physiology",
     "topic": "anatomical_language",
     "subtopic": "Levels of Organization",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The _____ system is a major source of heat (allowing us to maintain body temperature).",
     "choices": [

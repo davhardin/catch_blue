@@ -109,6 +109,8 @@ ANATOMY_PHYSIOLOGY_TOPICS = [
     "heart",
     "blood_vessels",
     "lymphatic_and_immune_system",
+    "respiratory_system",
+    "digestive_system",
 ]
 
 

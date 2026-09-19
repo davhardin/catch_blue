@@ -20,7 +20,7 @@
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
     "subtopic": "Aging: Skeletal System",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The fundamental cause of osteoarthritis is that in aged or over-used cartilage, _____.",
     "choices": [
@@ -36,7 +36,7 @@
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
     "subtopic": "Aging: Skeletal System",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "In _____, bone resorption outpaces deposition. It leads to extremely brittle bones and is very common in advanced old age.",
     "choices": [
@@ -148,7 +148,7 @@
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
     "subtopic": "Appendicular Skeleton",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The lateral end of the clavicle articulates with the _____ of the _____.",
     "choices": [
@@ -212,7 +212,7 @@
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
     "subtopic": "Appendicular Skeleton",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The scapulae articulate only indirectly with the axial skeleton via the _____. Thus, they exhibit a large range of motion.",
     "choices": [
@@ -228,7 +228,7 @@
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
     "subtopic": "Appendicular Skeleton",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The _____ of the scapula articlates with the clavicle.",
     "choices": [
@@ -260,7 +260,7 @@
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
     "subtopic": "Appendicular Skeleton",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The _____ of the scapula serves as an attachment point for the biceps of the arm (the biceps brachii).",
     "choices": [
@@ -276,7 +276,7 @@
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
     "subtopic": "Appendicular Skeleton",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The suprascapular notch of the scapula is important because it _____.",
     "choices": [
@@ -292,7 +292,7 @@
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
     "subtopic": "Appendicular Skeleton",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The upper limb consists of the arm (_____), forearm (_____), and hand (_____).",
     "choices": [
@@ -340,7 +340,7 @@
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
     "subtopic": "Appendicular Skeleton",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The proximal end of the humerus includes the _____, which articulates with the scapula, and the greater and lesser _____, which serve as attachment points for muscles.",
     "choices": [
@@ -356,7 +356,7 @@
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
     "subtopic": "Appendicular Skeleton",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The proximal end of the humerus includes a large groove called the _____, which guides a tendon of the biceps to its attachment site.",
     "choices": [
@@ -388,7 +388,7 @@
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
     "subtopic": "Appendicular Skeleton",
-    "difficulty": 1,
+    "difficulty": 3,
     "type": "multiple_choice",
     "prompt": "At the distal end of the humerus are two epicondyles which serve as attachment sites for ligaments and muscles. The _____ epicondyle is the larger of the two.",
     "choices": [
@@ -404,7 +404,7 @@
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
     "subtopic": "Appendicular Skeleton",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The distal end of the humerus includes two condyles: one is the medial _____, which has an indentation in the center and which articulates with the ulna.",
     "choices": [
@@ -420,7 +420,7 @@
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
     "subtopic": "Appendicular Skeleton",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The distal end of the humerus includes two condyles: one is the lateral _____, which looks like a ball in the anterior view and articulates with the radius.",
     "choices": [
@@ -436,7 +436,7 @@
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
     "subtopic": "Appendicular Skeleton",
-    "difficulty": 1,
+    "difficulty": 3,
     "type": "multiple_choice",
     "prompt": "The distal end of the humerus includes two shallow indentations called the _____ and _____ fossae, which allow the ulna to move freely though a full range of motion.",
     "choices": [
@@ -500,7 +500,7 @@
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
     "subtopic": "Appendicular Skeleton",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The _____ at the proximal end of the _____ articulates tightly with the trochlea of the humerus.",
     "choices": [
@@ -516,7 +516,7 @@
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
     "subtopic": "Appendicular Skeleton",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "At the distal end of the ulna is the sharp _____ of the _____, from which ligaments run to the wrist.",
     "choices": [
@@ -532,7 +532,7 @@
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
     "subtopic": "Appendicular Skeleton",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The radius is widest at its _____ end.",
     "choices": [
@@ -548,7 +548,7 @@
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
     "subtopic": "Appendicular Skeleton",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The superior surface of the _____ of the _____ articulates with the capitulum of the humerus.",
     "choices": [
@@ -564,7 +564,7 @@
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
     "subtopic": "Appendicular Skeleton",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "At the distal end of the radius is the somewhat rounded _____ of the _____ which is an attachment site for ligaments of the wrist.",
     "choices": [
@@ -580,7 +580,7 @@
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
     "subtopic": "Appendicular Skeleton",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "At the proximal end of the radius is a bump called the _____ to which the biceps of the arm attaches.",
     "choices": [
@@ -692,7 +692,7 @@
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
     "subtopic": "Appendicular Skeleton",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The _____ is formed by the two hip bones, the sacrum, and the coccyx.",
     "choices": [
@@ -724,7 +724,7 @@
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
     "subtopic": "Appendicular Skeleton",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The ilium is divided into two regions, the wing-like _____ at the top and the inferior _____.",
     "choices": [
@@ -740,7 +740,7 @@
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
     "subtopic": "Appendicular Skeleton",
-    "difficulty": 1,
+    "difficulty": 3,
     "type": "multiple_choice",
     "prompt": "The _____ of the ilium articulates with the sacrum.",
     "choices": [
@@ -772,7 +772,7 @@
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
     "subtopic": "Appendicular Skeleton",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The iliac spines serve as _____.",
     "choices": [
@@ -788,7 +788,7 @@
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
     "subtopic": "Appendicular Skeleton",
-    "difficulty": 1,
+    "difficulty": 3,
     "type": "multiple_choice",
     "prompt": "The _____ forms part of the 'pelvic brim,' which marks the boundary between the lower 'true pelvis' and the upper 'false pelvis.'",
     "choices": [
@@ -820,7 +820,7 @@
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
     "subtopic": "Appendicular Skeleton",
-    "difficulty": 1,
+    "difficulty": 3,
     "type": "multiple_choice",
     "prompt": "The lesser sciatic notch of the _____ serves as a(n) _____.",
     "choices": [
@@ -836,7 +836,7 @@
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
     "subtopic": "Appendicular Skeleton",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The _____ bears one's weight when one is sitting.",
     "choices": [
@@ -884,7 +884,7 @@
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
     "subtopic": "Appendicular Skeleton",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The very large openings in each os coxa is called the _____. Its name means, 'closed.'",
     "choices": [
@@ -900,7 +900,7 @@
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
     "subtopic": "Appendicular Skeleton",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The cavity of the _____ in women is broad, to allow room for a baby's head during birth.",
     "choices": [
@@ -916,7 +916,7 @@
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
     "subtopic": "Appendicular Skeleton",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The _____ in the female pelvis is often moveable.",
     "choices": [
@@ -964,7 +964,7 @@
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
     "subtopic": "Appendicular Skeleton",
-    "difficulty": 1,
+    "difficulty": 3,
     "type": "multiple_choice",
     "prompt": "The head of the femur is anchored to the acetabulum by a small ligament which attaches at the _____ of the femur's head.",
     "choices": [
@@ -980,7 +980,7 @@
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
     "subtopic": "Appendicular Skeleton",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The phrase 'broken hip' usually refers to a fracture of the _____ of the _____.",
     "choices": [
@@ -1012,7 +1012,7 @@
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
     "subtopic": "Appendicular Skeleton",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The _____ and _____ of the femur articulate with the tibia.",
     "choices": [
@@ -1028,7 +1028,7 @@
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
     "subtopic": "Appendicular Skeleton",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The _____ of the femur articulates with the 'knee cap.'",
     "choices": [
@@ -1076,7 +1076,7 @@
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
     "subtopic": "Appendicular Skeleton",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The tibia articulates with the _____, the _____, and the bones of the _____.",
     "choices": [
@@ -1108,7 +1108,7 @@
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
     "subtopic": "Appendicular Skeleton",
-    "difficulty": 1,
+    "difficulty": 3,
     "type": "multiple_choice",
     "prompt": "The _____ side of the _____ condyle of the tibia articulates with the fibula.",
     "choices": [
@@ -1124,7 +1124,7 @@
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
     "subtopic": "Appendicular Skeleton",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The _____ of the tibia is the site at which the 'knee cap' is attached.",
     "choices": [
@@ -1140,7 +1140,7 @@
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
     "subtopic": "Appendicular Skeleton",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The medial 'ankle bone' is actually the _____ of the _____.",
     "choices": [
@@ -1156,7 +1156,7 @@
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
     "subtopic": "Appendicular Skeleton",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The notch on the distal end of the tibia is the _____, and is the site of articulation with the fibula.",
     "choices": [
@@ -1172,7 +1172,7 @@
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
     "subtopic": "Appendicular Skeleton",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The _____ of the fibula articulates with the proximal end of the tibia.",
     "choices": [
@@ -1188,7 +1188,7 @@
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
     "subtopic": "Appendicular Skeleton",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The lateral 'ankle bone' is actually the _____ of the _____.",
     "choices": [
@@ -1204,7 +1204,7 @@
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
     "subtopic": "Appendicular Skeleton",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The region of the fibula that articulates with the talus of the foot is the _____.",
     "choices": [
@@ -1268,7 +1268,7 @@
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
     "subtopic": "Appendicular Skeleton",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The major weight-bearing bones of the foot are the _____ and _____.",
     "choices": [
@@ -1284,7 +1284,7 @@
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
     "subtopic": "Appendicular Skeleton",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The _____ of the foot articulates superiorly with the tibia and laterally with the fibula.",
     "choices": [
@@ -1300,7 +1300,7 @@
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
     "subtopic": "Appendicular Skeleton",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The talus articulates inferiorly with the _____.",
     "choices": [
@@ -1332,7 +1332,7 @@
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
     "subtopic": "Appendicular Skeleton",
-    "difficulty": 1,
+    "difficulty": 3,
     "type": "multiple_choice",
     "prompt": "The _____ and two _____ bones form the ball of the foot.",
     "choices": [
@@ -1364,7 +1364,7 @@
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
     "subtopic": "Appendicular Skeleton",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The three arches of the foot are the _____, _____, and _____.",
     "choices": [
@@ -1444,7 +1444,7 @@
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
     "subtopic": "Axial Skeleton",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Fontanelles close into bony sutures _____.",
     "choices": [
@@ -1508,7 +1508,7 @@
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
     "subtopic": "Axial Skeleton",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The cranial fossae are _____.",
     "choices": [
@@ -1572,7 +1572,7 @@
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
     "subtopic": "Axial Skeleton",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The _____ forms the superior aspect of each orbit (eye socket).",
     "choices": [
@@ -1588,7 +1588,7 @@
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
     "subtopic": "Axial Skeleton",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The _____ articulates posteriorly with the parietal bones via the coronal suture",
     "choices": [
@@ -1604,7 +1604,7 @@
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
     "subtopic": "Axial Skeleton",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "In the region just deep to the eyebrows, _____ are present which allow nerves and arteries to pass.",
     "choices": [
@@ -1620,7 +1620,7 @@
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
     "subtopic": "Axial Skeleton",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The area of bone _____ is called the glabella.",
     "choices": [
@@ -1684,7 +1684,7 @@
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
     "subtopic": "Axial Skeleton",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The lambdoid suture is formed by articulation of __________?",
     "choices": [
@@ -1700,7 +1700,7 @@
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
     "subtopic": "Axial Skeleton",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The squamosal suture is formed by articulation of _________?",
     "choices": [
@@ -1748,7 +1748,7 @@
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
     "subtopic": "Axial Skeleton",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The _____ suture is formed by articulation of the occipital and parietal bones.",
     "choices": [
@@ -1764,7 +1764,7 @@
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
     "subtopic": "Axial Skeleton",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The _____ suture is formed by articulation of the parietal and temporal bones.",
     "choices": [
@@ -1828,7 +1828,7 @@
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
     "subtopic": "Axial Skeleton",
-    "difficulty": 1,
+    "difficulty": 3,
     "type": "multiple_choice",
     "prompt": "Cranial nerve XII leaves the skull via small openings immediately lateral to the foramen magnum which are called the _____.",
     "choices": [
@@ -1844,7 +1844,7 @@
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
     "subtopic": "Axial Skeleton",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The function of the occipital condyles is to _____.",
     "choices": [
@@ -1860,7 +1860,7 @@
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
     "subtopic": "Axial Skeleton",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The external occipital protuberance and crest and the nuchal lines are __________.",
     "choices": [
@@ -1876,7 +1876,7 @@
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
     "subtopic": "Axial Skeleton",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The two mirror-image bones which form the inferolateral aspect of skull and part of the middle cranial fossa are the _____ bones.",
     "choices": [
@@ -1892,7 +1892,7 @@
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
     "subtopic": "Axial Skeleton",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The _____ of the _____ bone forms the posterior section of the zygomatic arch.",
     "choices": [
@@ -1908,7 +1908,7 @@
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
     "subtopic": "Axial Skeleton",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The mandible articulates with the _____ of the temporal bone.",
     "choices": [
@@ -1940,7 +1940,7 @@
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
     "subtopic": "Axial Skeleton",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The hyoid bone is attached by ligaments to the _____ of the _____ bone.",
     "choices": [
@@ -1956,7 +1956,7 @@
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
     "subtopic": "Axial Skeleton",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The _____, which are passages for the optic nerve and ophthalmic arteries, are found in the _____ bone.",
     "choices": [
@@ -1972,7 +1972,7 @@
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
     "subtopic": "Axial Skeleton",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The hypophyseal fossa, a depression in a region of the _____ bone called the _____, is the seat for the pituitary gland.",
     "choices": [
@@ -1988,7 +1988,7 @@
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
     "subtopic": "Axial Skeleton",
-    "difficulty": 1,
+    "difficulty": 3,
     "type": "multiple_choice",
     "prompt": "The foramen rotundum of the _____ bone serves as _____.",
     "choices": [
@@ -2004,7 +2004,7 @@
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
     "subtopic": "Axial Skeleton",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The _____ bone forms part of the anterior cranial fossa, the superior portion of the nasal septum, the lateral walls and roof of nasal cavity, and part of the medial wall of the orbits.",
     "choices": [
@@ -2020,7 +2020,7 @@
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
     "subtopic": "Axial Skeleton",
-    "difficulty": 1,
+    "difficulty": 3,
     "type": "multiple_choice",
     "prompt": "The crista galli is _____.",
     "choices": [
@@ -2036,7 +2036,7 @@
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
     "subtopic": "Axial Skeleton",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The crista galli is a small crest on the _____ bone.",
     "choices": [
@@ -2052,7 +2052,7 @@
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
     "subtopic": "Axial Skeleton",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The cribriform plate is a surface filled with small foramina on the _____ bone.",
     "choices": [
@@ -2068,7 +2068,7 @@
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
     "subtopic": "Axial Skeleton",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The cribriform plate contains _____.",
     "choices": [
@@ -2084,7 +2084,7 @@
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
     "subtopic": "Axial Skeleton",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The superior and middle nasal concha are regions of the _____ bone.",
     "choices": [
@@ -2100,7 +2100,7 @@
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
     "subtopic": "Axial Skeleton",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The nasal concha create _____, which increases the ability of the nose to trap dust, preventing it from reaching the lungs.",
     "choices": [
@@ -2116,7 +2116,7 @@
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
     "subtopic": "Axial Skeleton",
-    "difficulty": 1,
+    "difficulty": 3,
     "type": "multiple_choice",
     "prompt": "The temporalis muscle, which helps close the jaw, attaches to the _____ of the mandible.",
     "choices": [
@@ -2132,7 +2132,7 @@
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
     "subtopic": "Axial Skeleton",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The _____ of the mandible articulate with the temporal bone.",
     "choices": [
@@ -2148,7 +2148,7 @@
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
     "subtopic": "Axial Skeleton",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "During development, the two halves of the mandible fuse to form the _____.",
     "choices": [
@@ -2180,7 +2180,7 @@
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
     "subtopic": "Axial Skeleton",
-    "difficulty": 1,
+    "difficulty": 3,
     "type": "multiple_choice",
     "prompt": "The inferior alveolar nerves (which innervate the teeth of the lower jaw) travel through the _____ of the mandible.",
     "choices": [
@@ -2196,7 +2196,7 @@
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
     "subtopic": "Axial Skeleton",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Blood vessels and nerves reach the chin and lower lip through the _____ of the mandible.",
     "choices": [
@@ -2212,7 +2212,7 @@
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
     "subtopic": "Axial Skeleton",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The _____ bones are found deep to the upper lip; they form part of the 'cheekbone' and the lateral aspects of the bridge of the nose.",
     "choices": [
@@ -2228,7 +2228,7 @@
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
     "subtopic": "Axial Skeleton",
-    "difficulty": 1,
+    "difficulty": 3,
     "type": "multiple_choice",
     "prompt": "The maxilla includes a canal for the passage of nerves and blood vessels whose entrance, the _____, is found in the roof of the mouth.",
     "choices": [
@@ -2244,7 +2244,7 @@
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
     "subtopic": "Axial Skeleton",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The _____ of each _____bone form the anterior portion of the hard palate (the bony part of the roof of the mouth).",
     "choices": [
@@ -2260,7 +2260,7 @@
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
     "subtopic": "Axial Skeleton",
-    "difficulty": 1,
+    "difficulty": 3,
     "type": "multiple_choice",
     "prompt": "In each orbit, the _____, whose inferior edge is formed by the maxilla, provides a passageway for nerves and blood vessels.",
     "choices": [
@@ -2276,7 +2276,7 @@
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
     "subtopic": "Axial Skeleton",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "There is a(n) _____ on each maxilla, inferior to the orbit, to allow passage for nerves and blood vessels to the face.",
     "choices": [
@@ -2324,7 +2324,7 @@
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
     "subtopic": "Axial Skeleton",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Each orbit is formed, in part, by a small bone called the _____ bone, which contains tunnels leading into the nose called the _____ to allow tear drainage.",
     "choices": [
@@ -2340,7 +2340,7 @@
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
     "subtopic": "Axial Skeleton",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The L-shaped palatine bones form the _____.",
     "choices": [
@@ -2356,7 +2356,7 @@
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
     "subtopic": "Axial Skeleton",
-    "difficulty": 1,
+    "difficulty": 3,
     "type": "multiple_choice",
     "prompt": "The palitine bones have a process which extends all the way to the _____.",
     "choices": [
@@ -2372,7 +2372,7 @@
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
     "subtopic": "Axial Skeleton",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The bones of the skull which contain one or more sinuses are the _____, _____, _____ and _____ bones.",
     "choices": [
@@ -2452,7 +2452,7 @@
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
     "subtopic": "Axial Skeleton",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The laminae and pedicles of each vertebra makes up the _____.",
     "choices": [
@@ -2484,7 +2484,7 @@
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
     "subtopic": "Axial Skeleton",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Vertebrae articulate with one another via projections from their upper and lower surface called _____ and _____, respectively.",
     "choices": [
@@ -2500,7 +2500,7 @@
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
     "subtopic": "Axial Skeleton",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The _____ are formed by notched areas on two articulated vertebrae, and provide passages through which spinal nerves to leave the spinal cord.",
     "choices": [
@@ -2516,7 +2516,7 @@
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
     "subtopic": "Axial Skeleton",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Distinguishing features of the cervical vertebrae include the _____, which provide a bony channel for blood vessels supplying the brain.",
     "choices": [
@@ -2532,7 +2532,7 @@
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
     "subtopic": "Axial Skeleton",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The first cervical vertebra is called _____; the superior surfaces of the lateral masses articulate with the _____ of the skull.",
     "choices": [
@@ -2548,7 +2548,7 @@
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
     "subtopic": "Axial Skeleton",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The articulation between C1 and the skull allows ___________?",
     "choices": [
@@ -2564,7 +2564,7 @@
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
     "subtopic": "Axial Skeleton",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The unusual feature that makes identification of C2 easy is _____.",
     "choices": [
@@ -2580,7 +2580,7 @@
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
     "subtopic": "Axial Skeleton",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The function of the odontoid process is to _____.",
     "choices": [
@@ -2596,7 +2596,7 @@
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
     "subtopic": "Axial Skeleton",
-    "difficulty": 1,
+    "difficulty": 3,
     "type": "multiple_choice",
     "prompt": "The vertebral foramina of cervical vertebrae are ______.",
     "choices": [
@@ -2612,7 +2612,7 @@
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
     "subtopic": "Axial Skeleton",
-    "difficulty": 1,
+    "difficulty": 3,
     "type": "multiple_choice",
     "prompt": "The body of a cervical vertebra is _____.",
     "choices": [
@@ -2628,7 +2628,7 @@
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
     "subtopic": "Axial Skeleton",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The spinous processes of most cervical vertebrae are _____.",
     "choices": [
@@ -2644,7 +2644,7 @@
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
     "subtopic": "Axial Skeleton",
-    "difficulty": 1,
+    "difficulty": 3,
     "type": "multiple_choice",
     "prompt": "The vertebral foramina of thoracic vertebrae are _____.",
     "choices": [
@@ -2660,7 +2660,7 @@
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
     "subtopic": "Axial Skeleton",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The spinous processes on _____ are long, thin, blade-like structures.",
     "choices": [
@@ -2676,7 +2676,7 @@
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
     "subtopic": "Axial Skeleton",
-    "difficulty": 1,
+    "difficulty": 3,
     "type": "multiple_choice",
     "prompt": "Superior articular processes on thoracic vertebrae have the facet facing in a(n) _____ direction.",
     "choices": [
@@ -2692,7 +2692,7 @@
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
     "subtopic": "Axial Skeleton",
-    "difficulty": 1,
+    "difficulty": 3,
     "type": "multiple_choice",
     "prompt": "Inferior articular processes on thoracic vertebrae (except for those of T12) have the facet facing in a(n) _____ direction.",
     "choices": [
@@ -2708,7 +2708,7 @@
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
     "subtopic": "Axial Skeleton",
-    "difficulty": 1,
+    "difficulty": 3,
     "type": "multiple_choice",
     "prompt": "Superior articular processes on lumbar vertebrae have the facet facing in a(n) _____ direction.",
     "choices": [
@@ -2724,7 +2724,7 @@
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
     "subtopic": "Axial Skeleton",
-    "difficulty": 1,
+    "difficulty": 3,
     "type": "multiple_choice",
     "prompt": "Inferior articular processes on lumbar vertebrae have the facet facing in a(n) _____ direction.",
     "choices": [
@@ -2740,7 +2740,7 @@
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
     "subtopic": "Axial Skeleton",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The spinous processes on _____ are short and flat, like an axe blade.",
     "choices": [
@@ -2804,7 +2804,7 @@
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
     "subtopic": "Axial Skeleton",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "An abnormal increase in the thoracic curvature of the vertebral column is called _____.",
     "choices": [
@@ -2820,7 +2820,7 @@
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
     "subtopic": "Axial Skeleton",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "An abnormal increase in the lumbar curvature of the vertebral column is called _____.",
     "choices": [
@@ -2916,7 +2916,7 @@
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
     "subtopic": "Axial Skeleton",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Ribs _____ to _____ are the true ribs.",
     "choices": [
@@ -2932,7 +2932,7 @@
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
     "subtopic": "Axial Skeleton",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The _____ and _____ of each rib articulates with one or more vertebrae.",
     "choices": [
@@ -2964,7 +2964,7 @@
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
     "subtopic": "Axial Skeleton",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The _____ fontanel is formed at the intersection formed by the two parietal bones and the two halves of the fetal frontal bone.",
     "choices": [
@@ -2980,7 +2980,7 @@
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
     "subtopic": "Axial Skeleton",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The _____ fontanel is formed at the intersection formed by the two parietal bones and the occipital bone.",
     "choices": [
@@ -2996,7 +2996,7 @@
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
     "subtopic": "Axial Skeleton",
-    "difficulty": 1,
+    "difficulty": 3,
     "type": "multiple_choice",
     "prompt": "The _____ fontanel is formed at the intersection of a parietal bone, the occipital bone, and a temporal bone.",
     "choices": [
@@ -3012,7 +3012,7 @@
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
     "subtopic": "Axial Skeleton",
-    "difficulty": 1,
+    "difficulty": 3,
     "type": "multiple_choice",
     "prompt": "The _____ fontanel is formed at the intersection formed by a parietal bone, the frontal bone, a temporal bone, and the sphenoid bone.",
     "choices": [
@@ -3028,7 +3028,7 @@
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
     "subtopic": "Axial Skeleton",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The _____ and _____ in the fetal face are unfused.",
     "choices": [
@@ -3044,7 +3044,7 @@
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
     "subtopic": "Axial Skeleton",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The _____ forms the lower part of the nasal septum and is also visible when the skull is viewed inferiorly.",
     "choices": [
@@ -3060,7 +3060,7 @@
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
     "subtopic": "Bone Cell Types",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The periosteum's inner layer is composed of _____ whose job is to remodel the surface of the bone.",
     "choices": [
@@ -3140,7 +3140,7 @@
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
     "subtopic": "Bone Cell Types",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "In infants, red marrow, which makes blood cells, is found in the _____ and _____.",
     "choices": [
@@ -3204,7 +3204,7 @@
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
     "subtopic": "Bone Classification",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Cancellous bone is found in the _____ of long bones.",
     "choices": [
@@ -3252,7 +3252,7 @@
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
     "subtopic": "Bone Classification",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The periosteum's outer layer is composed of _____.",
     "choices": [
@@ -3268,7 +3268,7 @@
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
     "subtopic": "Bone Classification",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The periosteum is held to the bone by _____ fibers.",
     "choices": [
@@ -3300,7 +3300,7 @@
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
     "subtopic": "Bone Classification",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Flat bones contain bone marrow between the _____ (bony bridges of spongy bone).",
     "choices": [
@@ -3316,7 +3316,7 @@
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
     "subtopic": "Bone Classification",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Flat bones are thin plates of periosteum-covered compact bone on the outside with endosteum-covered _____ called _____ on the inside.",
     "choices": [
@@ -3348,7 +3348,7 @@
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
     "subtopic": "Bone Classification",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "On a bone, a(n) _____ is also similar to a process, but is one which articulates with another bone and allows motion between them.",
     "choices": [
@@ -3364,7 +3364,7 @@
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
     "subtopic": "Bone Classification",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "On a bone, a(n) _____ is a narrow ridge. A(n) _____ is a smaller version.",
     "choices": [
@@ -3380,7 +3380,7 @@
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
     "subtopic": "Bone Classification",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "On a bone, a(n) _____ is a large, rounded projection. A small, rounded projection is called a(n) _____.",
     "choices": [
@@ -3412,7 +3412,7 @@
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
     "subtopic": "Bone Classification",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "A raised area on a condyle is called a(n) _____.",
     "choices": [
@@ -3428,7 +3428,7 @@
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
     "subtopic": "Bone Classification",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "A sharp, axe-like or needle-like projection on a bone is called a(n) _____.",
     "choices": [
@@ -3460,7 +3460,7 @@
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
     "subtopic": "Bone Classification",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The flat, smooth face on a bone where it meets another bone is called a(n) _____.",
     "choices": [
@@ -3492,7 +3492,7 @@
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
     "subtopic": "Bone Classification",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Blood vessels and nerves may move from one Haversian canal to another by detouring through a(n) _____.",
     "choices": [
@@ -3508,7 +3508,7 @@
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
     "subtopic": "Bone Classification",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Osteocytes in lacunae within an osteon maintain contact with one another by extending processes through _____.",
     "choices": [
@@ -3524,7 +3524,7 @@
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
     "subtopic": "Bone Classification",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The unmineralized, organic substances which makes up roughly 1/3 of the bone matrix is called _____.",
     "choices": [
@@ -3540,7 +3540,7 @@
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
     "subtopic": "Bone Classification",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "_____ in bone serves several purposes: it provides flexibility, stretch and twist resistance, and - since neighboring molecules are connected by bonds that can break and re-form - shock resistance.",
     "choices": [
@@ -3556,7 +3556,7 @@
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
     "subtopic": "Bone Classification",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The fibers in adjacent lamella within an osteon spiral in _____ to provide resistance to twisting forces.",
     "choices": [
@@ -3572,7 +3572,7 @@
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
     "subtopic": "Bone Classification",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "_____ is responsible for bone hardness and its resistance to compression.",
     "choices": [
@@ -3620,7 +3620,7 @@
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
     "subtopic": "Bone Development and Growth",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "During long bone formation, calcification of the _____ begins before any other region of the bone.",
     "choices": [
@@ -3636,7 +3636,7 @@
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
     "subtopic": "Bone Development and Growth",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Long bones get thicker in a process called _____ growth, which is the task of the osteoblasts in the _____.",
     "choices": [
@@ -3652,7 +3652,7 @@
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
     "subtopic": "Bone Development and Growth",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The length of long bones is increased by calcification of cartilage within each epiphysis, on the cartilage surface that is __________ the diaphysis.",
     "choices": [
@@ -3666,7 +3666,7 @@
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
     "subtopic": "Bone Development and Growth",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "A 'remodeling unit' in a bone consists of an adjacent _____ and _____.",
     "choices": [
@@ -3682,7 +3682,7 @@
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
     "subtopic": "Bone Development and Growth",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Remodeling units are found at the _____ and _____ surfaces.",
     "choices": [
@@ -3698,7 +3698,7 @@
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
     "subtopic": "Bone Development and Growth",
-    "difficulty": 1,
+    "difficulty": 3,
     "type": "multiple_choice",
     "prompt": "Resorption involves osteoclast secretion of _____ that convert calcium salts into soluble forms and _____ that digest the organic matrix (collagen, etc.).",
     "choices": [
@@ -3730,7 +3730,7 @@
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
     "subtopic": "Bone Development and Growth",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The epiphyseal plate is replaced by bone to form the epiphyseal line under the influence of _____.",
     "choices": [
@@ -3762,7 +3762,7 @@
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
     "subtopic": "Bone Development and Growth",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Two types of signal induce bone remodeling: _____ and _____.",
     "choices": [
@@ -3778,7 +3778,7 @@
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
     "subtopic": "Bone Development and Growth",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "_____ results from over-active bone remodeling. The result is too much spongy bone (and too little compact bone) and bone deformities due to the formation of new structures.",
     "choices": [
@@ -3810,7 +3810,7 @@
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
     "subtopic": "Bone Development and Growth",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Skeletal cartilage is enclosed by the _____, which is made of _____, so that it can resist outward expansion.",
     "choices": [
@@ -3826,7 +3826,7 @@
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
     "subtopic": "Bone Development and Growth",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "In _____ growth, cells in the perichondrium secrete matrix against the external face of existing cartilage.",
     "choices": [
@@ -3842,7 +3842,7 @@
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
     "subtopic": "Bone Development and Growth",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "In _____ growth, lacunae-bound chondrocytes divide and secrete new matrix.",
     "choices": [
@@ -3874,7 +3874,7 @@
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
     "subtopic": "Bone Fractures",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "A crushing injury to a bone is a(n) _____ fracture.",
     "choices": [
@@ -3922,7 +3922,7 @@
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
     "subtopic": "Bone Fractures",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "A blow to the head often results in a(n) _____ fracture.",
     "choices": [
@@ -3954,7 +3954,7 @@
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
     "subtopic": "Bone Fractures",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Put the following events of fracture repair in the correct order: (i) spongy bone formation (ii) bone remodeling (iii) hematoma formation (iv) fibrocartilage deposition and capillary formation.",
     "choices": [
@@ -3970,7 +3970,7 @@
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
     "subtopic": "Joints",
-    "difficulty": 1,
+    "difficulty": 3,
     "type": "multiple_choice",
     "prompt": "Inter-vertebral articulation of thoracic vertebrae allows _____.",
     "choices": [
@@ -3986,7 +3986,7 @@
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
     "subtopic": "Joints",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Inter-vertebral articulation of lumbar vertebrae allows _____.",
     "choices": [
@@ -4002,7 +4002,7 @@
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
     "subtopic": "Joints",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Continuous bands of connective tissue which cover the front and back of the vertebral column are called the _____.",
     "choices": [
@@ -4098,7 +4098,7 @@
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
     "subtopic": "Joints",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The three functional classifications for joints are _____, _____, and _____.",
     "choices": [
@@ -4130,7 +4130,7 @@
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
     "subtopic": "Joints",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "A joint that allows only a small amount of movement is a(n) _____ joint.",
     "choices": [
@@ -4162,7 +4162,7 @@
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
     "subtopic": "Joints",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "For _____ joints, there is no joint cavity and the joints themselves are synarthrotic or at most amphiarthrotic. The bones are joined by fibrous connective tissue and their function is more to prevent separation than to resist compression.",
     "choices": [
@@ -4178,7 +4178,7 @@
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
     "subtopic": "Joints",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Sutures are joints that are _____ (function) and _____ (structure).",
     "choices": [
@@ -4194,7 +4194,7 @@
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
     "subtopic": "Joints",
-    "difficulty": 1,
+    "difficulty": 3,
     "type": "multiple_choice",
     "prompt": "If the fibrous connective tissue in a suture is lost and the bones completely fuse (as often happens in late adulthood), the joint is called a(n) _____ instead of a suture.",
     "choices": [
@@ -4210,7 +4210,7 @@
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
     "subtopic": "Joints",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "If the connective tissue in any joint is lost and the bones fuse (as when a child stops growing and the ephyseal plate forms the epiphyseal line), the result is a(n) _____.",
     "choices": [
@@ -4226,7 +4226,7 @@
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
     "subtopic": "Joints",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "_____ are fibrous joints that are either synarthrotic or amphiarthrotic: the bones are connected by a ligament. Examples include the articulations of the tibia with the fibula.",
     "choices": [
@@ -4242,7 +4242,7 @@
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
     "subtopic": "Joints",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Articulations of the alveolar sockets of the mandible or maxilla with the teeth are _____.",
     "choices": [
@@ -4258,7 +4258,7 @@
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
     "subtopic": "Joints",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Gomphoses are classified as _____ (function) and _____ (structure).",
     "choices": [
@@ -4274,7 +4274,7 @@
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
     "subtopic": "Joints",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The ligament that connects a tooth to an alveolar socket is called a(n) _____ ligament.",
     "choices": [
@@ -4290,7 +4290,7 @@
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
     "subtopic": "Joints",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "For _____ joints, there is no joint cavity and the bones are united by cartilage which functions to resist compression as well as prevent separation.",
     "choices": [
@@ -4306,7 +4306,7 @@
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
     "subtopic": "Joints",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "When two bones are joined by hyaline cartilage which does not permit any movement to occur between them, the joint is called a(n) _____. An example would be the joints between the diaphyses and epiphyses of a child's long bones.",
     "choices": [
@@ -4322,7 +4322,7 @@
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
     "subtopic": "Joints",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "In _____, hyaline cartilage covers the articulating surface of the bone and is fused to an intervening pad of fibrocartilage. As a result, the joint resists compression and separation while still allowing limited movement. The best examples are the _____.",
     "choices": [
@@ -4370,7 +4370,7 @@
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
     "subtopic": "Joints",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Synovial joints all include a layer of _____ covering the articulating bones, as well as a joint cavity filled with _____ and surrounded by a(n) _____. In addition, they are always strengthened by _____.",
     "choices": [
@@ -4386,7 +4386,7 @@
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
     "subtopic": "Joints",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The stability of synovial joints is provided by _____, _____, and _____.",
     "choices": [
@@ -4498,7 +4498,7 @@
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
     "subtopic": "Joints",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Moving the elbow dorsally is ____ of the shoulder.",
     "choices": [
@@ -4514,7 +4514,7 @@
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
     "subtopic": "Joints",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Moving the elbow ventrally is _____ of the shoulder.",
     "choices": [
@@ -4687,7 +4687,7 @@
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
     "subtopic": "Joints",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Turning the palm so that the radius and ulna are parallel (as you must do to hold, for example, a bowl of soup in the palm of your hand) is _____.",
     "choices": [
@@ -4703,7 +4703,7 @@
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
     "subtopic": "Joints",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Turning the palm so that the radius rotates over the ulna is _____.",
     "choices": [
@@ -4719,7 +4719,7 @@
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
     "subtopic": "Joints",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "To stand on the lateral edge of your foot, you would need to _____ your foot.",
     "choices": [
@@ -4735,7 +4735,7 @@
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
     "subtopic": "Joints",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "To stand on the medial edge of your foot, you would need to _____ your foot.",
     "choices": [
@@ -4847,7 +4847,7 @@
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
     "subtopic": "Joints",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "_____ prevent side to side movement in the elbow.",
     "choices": [
@@ -4863,7 +4863,7 @@
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
     "subtopic": "Joints",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Much of the support for the elbow is supplied by _____ which cross and support the joint.",
     "choices": [
@@ -4879,7 +4879,7 @@
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
     "subtopic": "Joints",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Stability of the elbow is provided by both _____ and _____.",
     "choices": [
@@ -4895,7 +4895,7 @@
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
     "subtopic": "Joints",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Supination and pronation of the forearm are allowed by rotation of the radial head within the _____.",
     "choices": [
@@ -4911,7 +4911,7 @@
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
     "subtopic": "Joints",
-    "difficulty": 1,
+    "difficulty": 3,
     "type": "multiple_choice",
     "prompt": "At full extension, _____ resulting in a 'locked' knee that resists bending in the absence of muscle contraction.",
     "choices": [
@@ -4927,7 +4927,7 @@
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
     "subtopic": "Joints",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The main movements that present a danger of knee injury are abnormal _____ or _____.",
     "choices": [
@@ -4943,7 +4943,7 @@
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
     "subtopic": "Joints",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "_____ and ligaments are the main stabilizers of the knee.",
     "choices": [
@@ -4974,7 +4974,7 @@
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
     "subtopic": "Joints",
-    "difficulty": 1,
+    "difficulty": 3,
     "type": "multiple_choice",
     "prompt": "Two small ligaments which cross one another in the center of the knee are often torn. These are the anterior and posterior _____ ligaments. \"Anterior\" and \"posterior\" refer to the position at which they attach to the _____.",
     "choices": [
@@ -4990,7 +4990,7 @@
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
     "subtopic": "Joints",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The glenoid fossa is very shallow. This has two effects: shoulder movement is _____, and the joint itself is _____.",
     "choices": [
@@ -5006,7 +5006,7 @@
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
     "subtopic": "Joints",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "While ligaments help to stabilize the shoulder, most stability is provided by _____.",
     "choices": [
@@ -5022,7 +5022,7 @@
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
     "subtopic": "Joints",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The two groups of tendons which provide shoulder stability are the _____ and the four tendons which collectively are called the _____.",
     "choices": [
@@ -5038,7 +5038,7 @@
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
     "subtopic": "Joints",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Most of the stability of the hip is due to _____.",
     "choices": [
@@ -5054,7 +5054,7 @@
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
     "subtopic": "Joints",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The second most important contributor to the stability of the hip is _____.",
     "choices": [
@@ -5070,7 +5070,7 @@
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
     "subtopic": "Joints",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The depth of the acetabulum is enhanced by _____.",
     "choices": [
@@ -5086,7 +5086,7 @@
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
     "subtopic": "Joints",
-    "difficulty": 1,
+    "difficulty": 3,
     "type": "multiple_choice",
     "prompt": "One of the ligaments of the hip is exceptionally important because _____.",
     "choices": [
@@ -5118,7 +5118,7 @@
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
     "subtopic": "Joints",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Cartilage damage is a problem because, since it is avascular, _____.",
     "choices": [
@@ -5134,7 +5134,7 @@
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
     "subtopic": "Joints",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Cartilage fragments created by damage can cause _____.",
     "choices": [
@@ -5150,7 +5150,7 @@
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
     "subtopic": "Joints",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Most cartilage injuries must be treated with _____.",
     "choices": [
@@ -5166,7 +5166,7 @@
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
     "subtopic": "Joints",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "When two bones that normally articulate are separated forcibly, the injury is called a(n) _____. If the separation is incomplete (the bones resume their normal position in at least some angles of joint flexion), the disorder is called _____.",
     "choices": [
@@ -5214,7 +5214,7 @@
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
     "subtopic": "Joints",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Tenosynovitis refers to inflammation of a(n) _____.",
     "choices": [
@@ -5246,7 +5246,7 @@
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
     "subtopic": "Joints",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The acute form of arthritis is usually caused by _____.",
     "choices": [
@@ -5262,7 +5262,7 @@
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
     "subtopic": "Joints",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The chronic forms of arthritis are _____, which is a disease of overuse and age, _____, which is caused by a build up of uric acid crystals, and _____, which is an autoimmune disorder.",
     "choices": [
@@ -5294,7 +5294,7 @@
     "subject": "anatomy_physiology",
     "topic": "skeletal_system",
     "subtopic": "Joints",
-    "difficulty": 1,
+    "difficulty": 3,
     "type": "multiple_choice",
     "prompt": "The first joint to be affected by gout in most affected individuals is _____.",
     "choices": [

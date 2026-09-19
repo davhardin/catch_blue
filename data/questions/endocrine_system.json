@@ -4,7 +4,7 @@
     "subject": "anatomy_physiology",
     "topic": "endocrine_system",
     "subtopic": "Adrenal Glands",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The outer portion of the adrenal glands, the _____, is _____ tissue derived from embryonic mesoderm.",
     "choices": [
@@ -20,7 +20,7 @@
     "subject": "anatomy_physiology",
     "topic": "endocrine_system",
     "subtopic": "Adrenal Glands",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The inner part of the adrenal glands, the _____, is _____ tissue.",
     "choices": [
@@ -68,7 +68,7 @@
     "subject": "anatomy_physiology",
     "topic": "endocrine_system",
     "subtopic": "Adrenal Glands",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "_____ regulate the concentrations of ions in the blood, particularly sodium. In humans, _____ is the major example.",
     "choices": [
@@ -84,7 +84,7 @@
     "subject": "anatomy_physiology",
     "topic": "endocrine_system",
     "subtopic": "Adrenal Glands",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "One class of corticosteroids, the _____, increases blood volume and pressure in readiness for exertion.",
     "choices": [
@@ -100,7 +100,7 @@
     "subject": "anatomy_physiology",
     "topic": "endocrine_system",
     "subtopic": "Adrenal Glands",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Aldosterone is secreted in response to low blood levels of _____ or high blood levels of _____.",
     "choices": [
@@ -116,7 +116,7 @@
     "subject": "anatomy_physiology",
     "topic": "endocrine_system",
     "subtopic": "Adrenal Glands",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "If sodium is being excreted by the body, _____ must be lost as well.",
     "choices": [
@@ -164,7 +164,7 @@
     "subject": "anatomy_physiology",
     "topic": "endocrine_system",
     "subtopic": "Adrenal Glands",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "One class of corticosteroids, the _____, provides energy for 'fight or flight' functions by diverting energy away from immunity and anabolism.",
     "choices": [
@@ -196,7 +196,7 @@
     "subject": "anatomy_physiology",
     "topic": "endocrine_system",
     "subtopic": "Adrenal Glands",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "_____, although defined as 'male' sex hormones, are present in both genders. In addition to the gonads, the _____ also produces them in low amounts.",
     "choices": [
@@ -276,7 +276,7 @@
     "subject": "anatomy_physiology",
     "topic": "endocrine_system",
     "subtopic": "Cell Signaling",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "_____ are biologically active lipids which act in an autocrine or paracrine manner. They are made from essential fatty acids and influence inflammation, ion transport, sleep, and other activities.",
     "choices": [
@@ -324,7 +324,7 @@
     "subject": "anatomy_physiology",
     "topic": "endocrine_system",
     "subtopic": "Cell Signaling",
-    "difficulty": 1,
+    "difficulty": 3,
     "type": "multiple_choice",
     "prompt": "Amino acid based hormones generally bind _____, but _____ is an important exception.",
     "choices": [
@@ -340,7 +340,7 @@
     "subject": "anatomy_physiology",
     "topic": "endocrine_system",
     "subtopic": "Cell Signaling",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "_____ enter the cell and interact directly with DNA and nuclear factors to bring about changes in gene expression.",
     "choices": [
@@ -372,7 +372,7 @@
     "subject": "anatomy_physiology",
     "topic": "endocrine_system",
     "subtopic": "Cell Signaling",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The receptors for steroids and thyroid hormone are _____.",
     "choices": [
@@ -436,7 +436,7 @@
     "subject": "anatomy_physiology",
     "topic": "endocrine_system",
     "subtopic": "Disease: Diabetes Mellitus",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Chronic _____ damages many organs and systems and can result in blindness, the need for amputation due to poor circulation, and other maladies.",
     "choices": [
@@ -452,7 +452,7 @@
     "subject": "anatomy_physiology",
     "topic": "endocrine_system",
     "subtopic": "Disease: Diabetes Mellitus",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "There are two types of diabetes: in type I, the pancreas _____; in type II, the body's cells are _____.",
     "choices": [
@@ -468,7 +468,7 @@
     "subject": "anatomy_physiology",
     "topic": "endocrine_system",
     "subtopic": "Disease: Diabetes Mellitus",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "In type I diabetes in particular, a dangerous complication is _____ due to the uncontrolled over-production of 'ketone bodies' by the liver. It can result in coma or death.",
     "choices": [
@@ -500,7 +500,7 @@
     "subject": "anatomy_physiology",
     "topic": "endocrine_system",
     "subtopic": "Endocrine Regulation",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "_____ tend to be localized and immediate (microseconds to seconds): _____ tend to be widespread, slow (minutes to hours) to be implemented, and slow (minutes to hours) to deactivate.",
     "choices": [
@@ -564,7 +564,7 @@
     "subject": "anatomy_physiology",
     "topic": "endocrine_system",
     "subtopic": "Endocrine Regulation",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The pituitary gland is suspended from (and connected to) the _____ by the _____.",
     "choices": [
@@ -580,7 +580,7 @@
     "subject": "anatomy_physiology",
     "topic": "endocrine_system",
     "subtopic": "Endocrine Regulation",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The pituitary is also called the _____: the anterior portion is the _____, and the posterior portion is the _____.",
     "choices": [
@@ -628,7 +628,7 @@
     "subject": "anatomy_physiology",
     "topic": "endocrine_system",
     "subtopic": "Endocrine Regulation",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Because growth hormone is the master growth regulator, too little results in dwarfism and too much results in giantism, but in both cases growth remains _____.",
     "choices": [
@@ -644,7 +644,7 @@
     "subject": "anatomy_physiology",
     "topic": "endocrine_system",
     "subtopic": "Endocrine Regulation",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "In adults, growth hormone serves to maintain _____.",
     "choices": [
@@ -660,7 +660,7 @@
     "subject": "anatomy_physiology",
     "topic": "endocrine_system",
     "subtopic": "Endocrine Regulation",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Secretion of growth hormone is primarily regulated by _____ and _____, both of which are released by the _____.",
     "choices": [
@@ -676,7 +676,7 @@
     "subject": "anatomy_physiology",
     "topic": "endocrine_system",
     "subtopic": "Endocrine Regulation",
-    "difficulty": 1,
+    "difficulty": 3,
     "type": "multiple_choice",
     "prompt": "Release of thyrotropin is caused by _____, a hormone whose own production is limited by _____ feedback and which is produced by the _____.",
     "choices": [
@@ -692,7 +692,7 @@
     "subject": "anatomy_physiology",
     "topic": "endocrine_system",
     "subtopic": "Endocrine Regulation",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Release of corticosteroids is regulated by the hormone _____, which is produced by the _____.",
     "choices": [
@@ -708,7 +708,7 @@
     "subject": "anatomy_physiology",
     "topic": "endocrine_system",
     "subtopic": "Endocrine Regulation",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The release of ACTH is controlled by the hormone _____, which is produced by the _____.",
     "choices": [
@@ -724,7 +724,7 @@
     "subject": "anatomy_physiology",
     "topic": "endocrine_system",
     "subtopic": "Endocrine Regulation",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The gonadotropins _____ and _____ are produced during and after puberty: they regulate the function of the ovaries and testes, and control egg and sperm production. They are made by the _____.",
     "choices": [
@@ -740,7 +740,7 @@
     "subject": "anatomy_physiology",
     "topic": "endocrine_system",
     "subtopic": "Endocrine Regulation",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The release of LH and FSH is controlled by _____, which is produced by the _____.",
     "choices": [
@@ -756,7 +756,7 @@
     "subject": "anatomy_physiology",
     "topic": "endocrine_system",
     "subtopic": "Endocrine Regulation",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "_____ stimulates milk production by the breasts, and is produced by the _____.",
     "choices": [
@@ -772,7 +772,7 @@
     "subject": "anatomy_physiology",
     "topic": "endocrine_system",
     "subtopic": "Endocrine Regulation",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The two hormones released by the neurohypophysis are _____ and _____. Both, however, are produced in the _____.",
     "choices": [
@@ -788,7 +788,7 @@
     "subject": "anatomy_physiology",
     "topic": "endocrine_system",
     "subtopic": "Endocrine Regulation",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "_____ is a strong stimulant of uterine contractions and controls the secretion (not the production) of milk in response to a baby's suckling. It is released from the _____ but produced by the _____.",
     "choices": [
@@ -820,7 +820,7 @@
     "subject": "anatomy_physiology",
     "topic": "endocrine_system",
     "subtopic": "Endocrine Regulation",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The release of ADH is controlled by _____ in the _____.",
     "choices": [
@@ -868,7 +868,7 @@
     "subject": "anatomy_physiology",
     "topic": "endocrine_system",
     "subtopic": "Pancreas",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "In the pancreas, _____ cells produce insulin; _____ cells produce glucagon.",
     "choices": [
@@ -884,7 +884,7 @@
     "subject": "anatomy_physiology",
     "topic": "endocrine_system",
     "subtopic": "Pancreas",
-    "difficulty": 1,
+    "difficulty": 3,
     "type": "multiple_choice",
     "prompt": "Glucagon is released in response to _____ or _____ in the blood, and its major target is the _____.",
     "choices": [
@@ -900,7 +900,7 @@
     "subject": "anatomy_physiology",
     "topic": "endocrine_system",
     "subtopic": "Pancreas",
-    "difficulty": 1,
+    "difficulty": 3,
     "type": "multiple_choice",
     "prompt": "In response to glucagon, the liver increases _____ and _____, releasing sugar into the blood.",
     "choices": [
@@ -916,7 +916,7 @@
     "subject": "anatomy_physiology",
     "topic": "endocrine_system",
     "subtopic": "Pancreas",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Glycogenolysis is _____.",
     "choices": [
@@ -932,7 +932,7 @@
     "subject": "anatomy_physiology",
     "topic": "endocrine_system",
     "subtopic": "Pancreas",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Gluconeogenesis is_____.",
     "choices": [
@@ -948,7 +948,7 @@
     "subject": "anatomy_physiology",
     "topic": "endocrine_system",
     "subtopic": "Pancreas",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Because of its role in increasing blood sugar levels, glucagon is also released in response to signals from the _____.",
     "choices": [
@@ -964,7 +964,7 @@
     "subject": "anatomy_physiology",
     "topic": "endocrine_system",
     "subtopic": "Pancreas",
-    "difficulty": 1,
+    "difficulty": 3,
     "type": "multiple_choice",
     "prompt": "Insulin is made as a prohormone: a small piece of the prohormone called the _____ is excised and floats free in the blood. Knowing its level allows estimation of _____ even in diabetics whose insulin is high due to injection.",
     "choices": [
@@ -980,7 +980,7 @@
     "subject": "anatomy_physiology",
     "topic": "endocrine_system",
     "subtopic": "Pancreas",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The major targets of insulin are _____, _____ and _____.",
     "choices": [
@@ -996,7 +996,7 @@
     "subject": "anatomy_physiology",
     "topic": "endocrine_system",
     "subtopic": "Pancreas",
-    "difficulty": 1,
+    "difficulty": 3,
     "type": "multiple_choice",
     "prompt": "Cells in _____ and _____ cannot remove sugar from the blood unless insulin is present.",
     "choices": [
@@ -1012,7 +1012,7 @@
     "subject": "anatomy_physiology",
     "topic": "endocrine_system",
     "subtopic": "Pancreas",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Cells in the _____ produce sugar and 'ketone bodies' for the rest of the body to use as fuel unless insulin is present.",
     "choices": [
@@ -1028,7 +1028,7 @@
     "subject": "anatomy_physiology",
     "topic": "endocrine_system",
     "subtopic": "Pancreas",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Pancreatic cells produce insulin primarily in response to _____ signals.",
     "choices": [
@@ -1044,7 +1044,7 @@
     "subject": "anatomy_physiology",
     "topic": "endocrine_system",
     "subtopic": "Parathyroid Glands",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "_____ cells in the _____ glands release _____, which is the hormone that is the primary control of calcium metabolism in the body.",
     "choices": [
@@ -1075,7 +1075,7 @@
     "subject": "anatomy_physiology",
     "topic": "endocrine_system",
     "subtopic": "Parathyroid Glands",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "PTH release is inhibited by _____, an example of _____ regulation.",
     "choices": [
@@ -1155,7 +1155,7 @@
     "subject": "anatomy_physiology",
     "topic": "endocrine_system",
     "subtopic": "Secondary Endocrine Organs",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The heart produces _____, which reduces blood pressure, blood volume, and blood sodium concentration.",
     "choices": [
@@ -1187,7 +1187,7 @@
     "subject": "anatomy_physiology",
     "topic": "endocrine_system",
     "subtopic": "Secondary Endocrine Organs",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "_____ releases several hormones involved in energy intake, macronutrient metabolism, insulin sensitivity.",
     "choices": [
@@ -1203,7 +1203,7 @@
     "subject": "anatomy_physiology",
     "topic": "endocrine_system",
     "subtopic": "Thyroid Gland",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Normal development and activity of the thyroid gland is controlled by _____, a hormone released by the _____.",
     "choices": [
@@ -1267,7 +1267,7 @@
     "subject": "anatomy_physiology",
     "topic": "endocrine_system",
     "subtopic": "Thyroid Gland",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "_____ is produced in the hypothalamus: it stimulates the release of _____ from the adenohypophysis, which in turn stimulates the release of thyroid hormone from the thyroid gland.",
     "choices": [
@@ -1299,7 +1299,7 @@
     "subject": "anatomy_physiology",
     "topic": "endocrine_system",
     "subtopic": "Thyroid Gland",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Although they are not steroids, T3 and T4 bind to _____ and control _____.",
     "choices": [
@@ -1315,7 +1315,7 @@
     "subject": "anatomy_physiology",
     "topic": "endocrine_system",
     "subtopic": "Thyroid Gland",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "In response to T3 and T4, cells increase their _____, building more mitochondria and increasing ion flux across their membranes. As a result, energy is used to produce _____.",
     "choices": [
@@ -1331,7 +1331,7 @@
     "subject": "anatomy_physiology",
     "topic": "endocrine_system",
     "subtopic": "Thyroid Gland",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "_____ cells in the thyroid gland produce _____, which is a large glycoprotein from which T3 and T4 are made.",
     "choices": [
@@ -1347,7 +1347,7 @@
     "subject": "anatomy_physiology",
     "topic": "endocrine_system",
     "subtopic": "Thyroid Gland",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Follicle cells surround compartments (follicles) in which iodinated thyroglobulin is _____.",
     "choices": [
@@ -1363,7 +1363,7 @@
     "subject": "anatomy_physiology",
     "topic": "endocrine_system",
     "subtopic": "Thyroid Gland",
-    "difficulty": 1,
+    "difficulty": 3,
     "type": "multiple_choice",
     "prompt": "When T3 and T4 are needed, iodinated thyroglobulin _____. The vesicle combines with a lysosome, and iodinated thyroglobin is cut enzymatically to produce the mature hormone.",
     "choices": [
@@ -1379,7 +1379,7 @@
     "subject": "anatomy_physiology",
     "topic": "endocrine_system",
     "subtopic": "Thyroid Gland",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "T3 and T4 are present in the blood _____.",
     "choices": [
@@ -1395,7 +1395,7 @@
     "subject": "anatomy_physiology",
     "topic": "endocrine_system",
     "subtopic": "Thyroid Gland",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "T3 and T4 levels are controlled by _____ feedback: they _____ production of TSH and sensitivity to TRH.",
     "choices": [

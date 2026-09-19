@@ -77,6 +77,8 @@ SUBJECT_TOPIC_ORDERS = {
         "heart",
         "blood_vessels",
         "lymphatic_and_immune_system",
+        "respiratory_system",
+        "digestive_system",
     ),
 }
 

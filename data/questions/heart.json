@@ -4,7 +4,7 @@
     "subject": "anatomy_physiology",
     "topic": "heart",
     "subtopic": "Cardiac Cycle",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The first of the two heart sounds is due to the sudden rise in _____ when the _____ valves close.",
     "choices": [
@@ -81,7 +81,7 @@
     "subject": "anatomy_physiology",
     "topic": "heart",
     "subtopic": "Cardiac Cycle",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "About _____% of ventricular filling occurs passively: only the remainder is due to _____.",
     "choices": [
@@ -97,7 +97,7 @@
     "subject": "anatomy_physiology",
     "topic": "heart",
     "subtopic": "Cardiac Cycle",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The volume of blood contained by the ventricles at the end of an atrial contraction is known as the _____. This term is based on the contents of the _____.",
     "choices": [
@@ -113,7 +113,7 @@
     "subject": "anatomy_physiology",
     "topic": "heart",
     "subtopic": "Cardiac Cycle",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "At the beginning of a ventricular contraction, all of the valves are closed. The valves don't open until _____.",
     "choices": [
@@ -129,7 +129,7 @@
     "subject": "anatomy_physiology",
     "topic": "heart",
     "subtopic": "Cardiac Cycle",
-    "difficulty": 1,
+    "difficulty": 3,
     "type": "multiple_choice",
     "prompt": "The peak pressure in the ventricles occurs after _____, and reaches 120 mm Hg. This phase is called the _____.",
     "choices": [
@@ -160,7 +160,7 @@
     "subject": "anatomy_physiology",
     "topic": "heart",
     "subtopic": "Cardiac Cycle",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The _____ is the period during which both the atria and ventricles relax.",
     "choices": [
@@ -176,7 +176,7 @@
     "subject": "anatomy_physiology",
     "topic": "heart",
     "subtopic": "Cardiac Cycle",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Ventricular pressure is at its lowest just after the _____ valves open.",
     "choices": [
@@ -192,7 +192,7 @@
     "subject": "anatomy_physiology",
     "topic": "heart",
     "subtopic": "Cardiac Cycle",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Ventricular pressure begins to rise when the _____ valves close.",
     "choices": [
@@ -208,7 +208,7 @@
     "subject": "anatomy_physiology",
     "topic": "heart",
     "subtopic": "Cardiac Cycle",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Ventricular pressure peaks and begins to fall while the _____ valves are open.",
     "choices": [
@@ -224,7 +224,7 @@
     "subject": "anatomy_physiology",
     "topic": "heart",
     "subtopic": "Cardiac Cycle",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Ventricular pressure falls dramatically when the _____ valves shut and the ventricular contraction ends.",
     "choices": [
@@ -288,14 +288,13 @@
     "subject": "anatomy_physiology",
     "topic": "heart",
     "subtopic": "Cardiac Cycle",
-    "difficulty": 1,
+    "difficulty": 3,
     "type": "multiple_choice",
     "prompt": "_____ pressure is relatively constant: it increases briefly during _____, and then again just after the _____ valves close.",
     "choices": [
       "atrial; atrial systole; AV",
       "ventricular; ventricular systole; SL",
-      "aortic; ventricular ejection; AV",
-      "atrial; ventricular systole; SL"
+      "aortic; ventricular ejection; AV"
     ],
     "answer_index": 0
   },
@@ -304,7 +303,7 @@
     "subject": "anatomy_physiology",
     "topic": "heart",
     "subtopic": "Cardiac Cycle",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The change in the rate at which the ventricles are filling which occurs just before EDV is reached is due to _____.",
     "choices": [
@@ -320,7 +319,7 @@
     "subject": "anatomy_physiology",
     "topic": "heart",
     "subtopic": "Cardiac Electrophysiology",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Autorhythmicity or automaticity refers to the ability of some cardiac muscle fibers to _____. Because _____ allow ions to pass into other cardiac muscle fibers, this triggers a heartbeat.",
     "choices": [
@@ -336,7 +335,7 @@
     "subject": "anatomy_physiology",
     "topic": "heart",
     "subtopic": "Cardiac Electrophysiology",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "As the frequency of stimulation to a skeletal muscle increases, the muscle reaches _____, a point of constant contraction. This does not happen in the heart because the _____ of each cell is quite long.",
     "choices": [
@@ -352,7 +351,7 @@
     "subject": "anatomy_physiology",
     "topic": "heart",
     "subtopic": "Cardiac Electrophysiology",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "As for skeletal muscle, the three main processes leading to contraction of a cardiac muscle fiber are _____, _____ transmission around the cell and down the T tubules, and _____.",
     "choices": [
@@ -368,7 +367,7 @@
     "subject": "anatomy_physiology",
     "topic": "heart",
     "subtopic": "Cardiac Electrophysiology",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Calcium enters the cytosol of cardiac muscle fibers from the _____ and the _____.",
     "choices": [
@@ -384,7 +383,7 @@
     "subject": "anatomy_physiology",
     "topic": "heart",
     "subtopic": "Cardiac Electrophysiology",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Cardiac muscle fibers have voltage sensitive ion channels in their sarcolemma that skeletal fibers do not: they are called _____ and admit _____ during an action potential.",
     "choices": [
@@ -400,7 +399,7 @@
     "subject": "anatomy_physiology",
     "topic": "heart",
     "subtopic": "Cardiac Electrophysiology",
-    "difficulty": 1,
+    "difficulty": 3,
     "type": "multiple_choice",
     "prompt": "Calcium, like sodium, is positive, and the special channels in cardiac muscle fibers open and close _____: thus, calcium enters the cardiac muscle fiber _____, and the depolarization is _____.",
     "choices": [
@@ -416,7 +415,7 @@
     "subject": "anatomy_physiology",
     "topic": "heart",
     "subtopic": "Cardiac Electrophysiology",
-    "difficulty": 1,
+    "difficulty": 3,
     "type": "multiple_choice",
     "prompt": "The voltage sensitive potassium channels in cardiac muscle fibers are _____ than those in skeletal muscle fibers. This helps to _____ the action potential.",
     "choices": [
@@ -464,7 +463,7 @@
     "subject": "anatomy_physiology",
     "topic": "heart",
     "subtopic": "Cardiac Electrophysiology",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The spontaneous depolarization of autorhythmic cells occurs because of a gradual increase in _____ caused by intentional ion leakage.",
     "choices": [
@@ -480,7 +479,7 @@
     "subject": "anatomy_physiology",
     "topic": "heart",
     "subtopic": "Cardiac Electrophysiology",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "When the membrane potential of autorhythmic cells reaches threshold, _____ open, allowing entry of _____ from the extracellular space.",
     "choices": [
@@ -496,7 +495,7 @@
     "subject": "anatomy_physiology",
     "topic": "heart",
     "subtopic": "Cardiac Electrophysiology",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The rate at which autorhythmic cells spontaneously depolarize is controlled by the rate of _____.",
     "choices": [
@@ -576,7 +575,7 @@
     "subject": "anatomy_physiology",
     "topic": "heart",
     "subtopic": "Cardiac Electrophysiology",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "In the absence of innervation or hormonal stimulation, the heart's rate is controlled by the _____. This rhythm is known as the _____ .",
     "choices": [
@@ -608,7 +607,7 @@
     "subject": "anatomy_physiology",
     "topic": "heart",
     "subtopic": "Cardiac Electrophysiology",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The only electrical connection between the atria and the ventricles is provided by the _____, a collection of _____ cells. These are also called the _____.",
     "choices": [
@@ -626,7 +625,7 @@
     "subtopic": "Cardiac Electrophysiology",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "The bundle branches are the authorhythmic cells which provide a pathway from the AV bundle through the _____ and to the Purkinkje fibers.",
+    "prompt": "The bundle branches are the autorhythmic cells which provide a pathway from the AV bundle through the _____ and to the Purkinje fibers.",
     "choices": [
       "interventricular septum",
       "interatrial septum",
@@ -704,7 +703,7 @@
     "subject": "anatomy_physiology",
     "topic": "heart",
     "subtopic": "Cardiac Electrophysiology",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Autorhythmic cells other than those in the SA node or AV node sometimes adapt a depolarization frequency more rapid than that of the SA node, producing a premature heartbeat. Cells acting in this way are referred to as a(n) _____.",
     "choices": [
@@ -720,7 +719,7 @@
     "subject": "anatomy_physiology",
     "topic": "heart",
     "subtopic": "Cardiac Electrophysiology",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Caffeine and nicotine are two chemicals which can cause the temporary formation of _____, leading to irregular heartbeats.",
     "choices": [
@@ -736,7 +735,7 @@
     "subject": "anatomy_physiology",
     "topic": "heart",
     "subtopic": "Cardiac Electrophysiology",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Premature contraction, especially of the ventricles, is technically described as a(n) _____, although it is more commonly referred to simply as a(n) _____.",
     "choices": [
@@ -784,7 +783,7 @@
     "subject": "anatomy_physiology",
     "topic": "heart",
     "subtopic": "Cardiac Electrophysiology",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The exact size and shape of the various peaks on a normal ECG are determined by _____.",
     "choices": [
@@ -800,7 +799,7 @@
     "subject": "anatomy_physiology",
     "topic": "heart",
     "subtopic": "Cardiac Electrophysiology",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Whether an ECG signal is recorded as an inflection or deflection depends on the direction in which most action potentials are traveling relative to _____.",
     "choices": [
@@ -832,7 +831,7 @@
     "subject": "anatomy_physiology",
     "topic": "heart",
     "subtopic": "Cardiac Electrophysiology",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The QRS complex is caused by spread of action potentials from the _____ of the heart all the way through the _____.",
     "choices": [
@@ -880,7 +879,7 @@
     "subject": "anatomy_physiology",
     "topic": "heart",
     "subtopic": "Cardiac Electrophysiology",
-    "difficulty": 1,
+    "difficulty": 3,
     "type": "multiple_choice",
     "prompt": "A(n) _____ on an ECG is occasionally not followed by a(n) _____; this indicates a heart block.",
     "choices": [
@@ -896,7 +895,7 @@
     "subject": "anatomy_physiology",
     "topic": "heart",
     "subtopic": "Cardiac Electrophysiology",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "If an excitable cell is hyperpolarized, it is unable to reach _____ and so action potentials do not occur.",
     "choices": [
@@ -912,7 +911,7 @@
     "subject": "anatomy_physiology",
     "topic": "heart",
     "subtopic": "Cardiac Output",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The major function of motor nerve fibers innervating the heart is to _____.",
     "choices": [
@@ -928,7 +927,7 @@
     "subject": "anatomy_physiology",
     "topic": "heart",
     "subtopic": "Cardiac Output",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The cardioacceleratory center is a cluster of neurons in the _____ whose function is to accelerate heart rate.",
     "choices": [
@@ -949,9 +948,7 @@
     "prompt": "The cardioacceleratory center is part of the _____ nervous system.",
     "choices": [
       "sympathetic",
-      "parasympathetic",
-      "somatic",
-      "enteric"
+      "parasympathetic"
     ],
     "answer_index": 0
   },
@@ -965,9 +962,7 @@
     "prompt": "The cardioinhibitory center is part of the _____ nervous system.",
     "choices": [
       "parasympathetic",
-      "sympathetic",
-      "somatic",
-      "enteric"
+      "sympathetic"
     ],
     "answer_index": 0
   },
@@ -976,7 +971,7 @@
     "subject": "anatomy_physiology",
     "topic": "heart",
     "subtopic": "Cardiac Output",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Neurons transmit signals from the cardioinhibitory center to the _____ and _____.",
     "choices": [
@@ -1024,7 +1019,7 @@
     "subject": "anatomy_physiology",
     "topic": "heart",
     "subtopic": "Cardiac Output",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "_____ is the difference between resting and maximal cardiac output.",
     "choices": [
@@ -1056,7 +1051,7 @@
     "subject": "anatomy_physiology",
     "topic": "heart",
     "subtopic": "Cardiac Output",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The Frank-Starling law of the heart states that the critical factor influencing stroke volume is the _____.",
     "choices": [
@@ -1072,12 +1067,12 @@
     "subject": "anatomy_physiology",
     "topic": "heart",
     "subtopic": "Cardiac Output",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
-    "prompt": "The overlap of myofilaments in resting skeletal muscle is optimized to maximize tension, but in cardiac muscle the _____.",
+    "prompt": "The overlap of myofilaments in resting skeletal muscle is optimized to maximize tension, but in cardiac muscle at rest there is _____ overlap.",
     "choices": [
-      "overlap is greater",
-      "overlap is less"
+      "more",
+      "less"
     ],
     "answer_index": 0,
     "shuffle": false
@@ -1087,7 +1082,7 @@
     "subject": "anatomy_physiology",
     "topic": "heart",
     "subtopic": "Cardiac Output",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "A slow heart rate _____ preload because _____.",
     "choices": [
@@ -1103,7 +1098,7 @@
     "subject": "anatomy_physiology",
     "topic": "heart",
     "subtopic": "Cardiac Output",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Because muscle contractions squeeze veins and accelerate the blood's return to the heart, they _____ preload.",
     "choices": [
@@ -1119,7 +1114,7 @@
     "subject": "anatomy_physiology",
     "topic": "heart",
     "subtopic": "Cardiac Output",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The strength of a heartbeat due to factors other than preload (which is known as the heart's _____) is in part controlled by the amount of _____ entering the cytoplasm with each contraction.",
     "choices": [
@@ -1135,7 +1130,7 @@
     "subject": "anatomy_physiology",
     "topic": "heart",
     "subtopic": "Cardiac Output",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Sympathetic stimulation to the heart increases _____ by increasing _____ entry with each action potential.",
     "choices": [
@@ -1151,7 +1146,7 @@
     "subject": "anatomy_physiology",
     "topic": "heart",
     "subtopic": "Cardiac Output",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "_____ are factors, including many drugs, which increase the contractility of the heart.",
     "choices": [
@@ -1167,7 +1162,7 @@
     "subject": "anatomy_physiology",
     "topic": "heart",
     "subtopic": "Cardiac Output",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "_____ are factors, including many drugs, which decrease the contractility of the heart.",
     "choices": [
@@ -1183,7 +1178,7 @@
     "subject": "anatomy_physiology",
     "topic": "heart",
     "subtopic": "Cardiac Output",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Agents which inhibit calcium's entry into cardiac myofibers will _____ contractility.",
     "choices": [
@@ -1199,7 +1194,7 @@
     "subject": "anatomy_physiology",
     "topic": "heart",
     "subtopic": "Cardiac Output",
-    "difficulty": 1,
+    "difficulty": 3,
     "type": "multiple_choice",
     "prompt": "If membrane potential moves toward 0 because of changes in ionic concentration on one side, contractility will _____.",
     "choices": [
@@ -1263,7 +1258,7 @@
     "subject": "anatomy_physiology",
     "topic": "heart",
     "subtopic": "Cardiac Output",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "_____ is a heart rate of less than 60 beats per minute. In athletic individuals, this is normal due to the greater _____ in an athlete's heart.",
     "choices": [
@@ -1279,7 +1274,7 @@
     "subject": "anatomy_physiology",
     "topic": "heart",
     "subtopic": "Cardiac Output",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The sympathetic nervous system controls the heart by releasing _____ at cardiac synapses; this binds to _____ in the sarcolemma.",
     "choices": [
@@ -1295,7 +1290,7 @@
     "subject": "anatomy_physiology",
     "topic": "heart",
     "subtopic": "Cardiac Output",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Norepinephrine has several effects in the heart, including the _____ of slow calcium channels.",
     "choices": [
@@ -1311,7 +1306,7 @@
     "subject": "anatomy_physiology",
     "topic": "heart",
     "subtopic": "Cardiac Output",
-    "difficulty": 1,
+    "difficulty": 3,
     "type": "multiple_choice",
     "prompt": "Norepinephrine has several effects in the heart, including the _____ of SR proteins that promote calcium reuptake, _____ the length of the refractory period.",
     "choices": [
@@ -1327,7 +1322,7 @@
     "subject": "anatomy_physiology",
     "topic": "heart",
     "subtopic": "Cardiac Output",
-    "difficulty": 1,
+    "difficulty": 3,
     "type": "multiple_choice",
     "prompt": "Beta-1 adrenergic receptors in the heart, which are activated by the binding of _____, act through _____. These in turn activate _____ which phosphorylate many cellular proteins.",
     "choices": [
@@ -1343,7 +1338,7 @@
     "subject": "anatomy_physiology",
     "topic": "heart",
     "subtopic": "Cardiac Output",
-    "difficulty": 1,
+    "difficulty": 3,
     "type": "multiple_choice",
     "prompt": "The _____ is a sympathetic reflex which accelerates heart rate in response to an increased venous return to the atria.",
     "choices": [
@@ -1375,7 +1370,7 @@
     "subject": "anatomy_physiology",
     "topic": "heart",
     "subtopic": "Cardiac Output",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The parasympathetic system, which controls heart rate through the _____ nerve, interacts only with the _____ and so cannot alter contractility.",
     "choices": [
@@ -1391,7 +1386,7 @@
     "subject": "anatomy_physiology",
     "topic": "heart",
     "subtopic": "Cardiac Output",
-    "difficulty": 1,
+    "difficulty": 3,
     "type": "multiple_choice",
     "prompt": "The parasympathetic nervous system influences heart rate by releasing the neurotransmitter _____ which causes _____ to open. This leads to _____ of the cells in the SA and AV nodes.",
     "choices": [
@@ -1407,7 +1402,7 @@
     "subject": "anatomy_physiology",
     "topic": "heart",
     "subtopic": "Cardiac Output",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "_____ refers to the fact that the heart generally beats slower than 75 beats per minute due to stimulation by the _____.",
     "choices": [
@@ -1423,7 +1418,7 @@
     "subject": "anatomy_physiology",
     "topic": "heart",
     "subtopic": "Cardiac Output",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Epinephrine, which is released by the _____, mimics the effects of _____ and _____ the heart rate.",
     "choices": [
@@ -1439,7 +1434,7 @@
     "subject": "anatomy_physiology",
     "topic": "heart",
     "subtopic": "Cardiac Output",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Thyroxine (from the thyroid gland) causes the heart rate to _____.",
     "choices": [
@@ -1471,7 +1466,7 @@
     "subject": "anatomy_physiology",
     "topic": "heart",
     "subtopic": "Cardiac Output",
-    "difficulty": 1,
+    "difficulty": 3,
     "type": "multiple_choice",
     "prompt": "High blood pressure (_____) reduces the ability of the ventricles to _____ and _____ volume is increased.",
     "choices": [
@@ -1487,7 +1482,7 @@
     "subject": "anatomy_physiology",
     "topic": "heart",
     "subtopic": "Cardiac Output",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "_____ results in an increased back-pressure as the heart tries to pump blood through the body, and ultimately leads to _____ due to cardiac overwork.",
     "choices": [
@@ -1503,7 +1498,7 @@
     "subject": "anatomy_physiology",
     "topic": "heart",
     "subtopic": "Cardiac Output",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "A series of small myocardial infarctions (heart attacks) cause _____ because too much of the heart's mass is replaced by _____.",
     "choices": [
@@ -1535,7 +1530,7 @@
     "subject": "anatomy_physiology",
     "topic": "heart",
     "subtopic": "Cardiac Output",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "If the left side of the heart fails but the right side continues to pump normally, the blood pools in the _____, a condition known as _____.",
     "choices": [
@@ -1551,13 +1546,13 @@
     "subject": "anatomy_physiology",
     "topic": "heart",
     "subtopic": "Cardiac Output",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "If the right side of the heart fails but the left side continues to pump normally, the blood pools in the _____, a condition known as _____.",
     "choices": [
-      "extremeties; peripheral congestion",
+      "extremities; peripheral congestion",
       "lungs; pulmonary congestion",
-      "extremeties; pulmonary congestion",
+      "extremities; pulmonary congestion",
       "lungs; peripheral congestion"
     ],
     "answer_index": 0
@@ -1567,7 +1562,7 @@
     "subject": "anatomy_physiology",
     "topic": "heart",
     "subtopic": "Cardiac Output",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Although in the short term, one side of the heart can fail, the strain on the unaffected side ultimately causes _____.",
     "choices": [
@@ -1601,7 +1596,7 @@
     "subtopic": "Heart Anatomy",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "The heart is found in _____ <which body cavity?> and two-thirds of it lies to the left of the midsternal line.",
+    "prompt": "The heart is found in _____ and two-thirds of it lies to the left of the midsternal line.",
     "choices": [
       "the mediastinum",
       "the pleural cavity",
@@ -1663,7 +1658,7 @@
     "subject": "anatomy_physiology",
     "topic": "heart",
     "subtopic": "Heart Anatomy",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The outermost layer of the heart wall, the _____, is actually the _____.",
     "choices": [
@@ -1679,7 +1674,7 @@
     "subject": "anatomy_physiology",
     "topic": "heart",
     "subtopic": "Heart Anatomy",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The muscle fibers of the heart's wall are joined into ropelike structures arranged in circular bundles held together by the _____ of the heart.",
     "choices": [
@@ -1695,7 +1690,7 @@
     "subject": "anatomy_physiology",
     "topic": "heart",
     "subtopic": "Heart Anatomy",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "In addition to reinforcing the mechanical structure of the heart, the fibrous skeleton of the heart also acts as _____ to control the direction of action potential propagation.",
     "choices": [
@@ -1711,7 +1706,7 @@
     "subject": "anatomy_physiology",
     "topic": "heart",
     "subtopic": "Heart Anatomy",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The inner lining of the heart and of blood vessels is a layer of squamous epithelium referred to as the _____.",
     "choices": [
@@ -1791,7 +1786,7 @@
     "subject": "anatomy_physiology",
     "topic": "heart",
     "subtopic": "Heart Anatomy",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The shallow groove separating the atria from the ventricles is called the _____ or _____.",
     "choices": [
@@ -1807,7 +1802,7 @@
     "subject": "anatomy_physiology",
     "topic": "heart",
     "subtopic": "Heart Anatomy",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The shallow grooves which mark the separation between the ventricles are the _____ (in the front) and the _____ (in the back).",
     "choices": [
@@ -1839,7 +1834,7 @@
     "subject": "anatomy_physiology",
     "topic": "heart",
     "subtopic": "Heart Anatomy",
-    "difficulty": 1,
+    "difficulty": 3,
     "type": "multiple_choice",
     "prompt": "Inside, the _____ walls of the atria are smooth, while the _____ walls are ridged due to the presence of the comb-like strands of a muscle called the _____ muscle.",
     "choices": [
@@ -1855,14 +1850,14 @@
     "subject": "anatomy_physiology",
     "topic": "heart",
     "subtopic": "Heart Anatomy",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
-    "prompt": "In the fetal heart, there is an opening between the two atria called the foramen ovale. The shallow indentation in the interatrial septum which marks this location in the adult is the _____.",
+    "prompt": "The shallow depression in the interatrial septum that marks the site of the fetal interatrial opening is the _____.",
     "choices": [
       "fossa ovalis",
       "foramen ovale",
       "ligamentum arteriosum",
-      "coronary sinus"
+      "ductus arteriosus"
     ],
     "answer_index": 0
   },
@@ -1887,7 +1882,7 @@
     "subject": "anatomy_physiology",
     "topic": "heart",
     "subtopic": "Heart Anatomy",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The right atrium receives blood from three veins: the superior and inferior _____ and the _____.",
     "choices": [
@@ -1935,7 +1930,7 @@
     "subject": "anatomy_physiology",
     "topic": "heart",
     "subtopic": "Heart Anatomy",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The _____ collects blood which has supplied oxygen to the muscles of the heart itself, and delivers it into the _____, near the fossa ovalis.",
     "choices": [
@@ -1972,7 +1967,7 @@
     "prompt": "The word _____ refers to lungs, and so the veins entering the heart from the lungs are called the _____.",
     "choices": [
       "pulmonary; pulmonary veins",
-      "pulmonic; pulmonic veins",
+      "pleural; pleural veins",
       "bronchial; bronchial veins",
       "cardiac; cardiac veins"
     ],
@@ -1985,7 +1980,7 @@
     "subtopic": "Heart Anatomy",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Most of the heart's volume is due to _____ <which two chambers>.",
+    "prompt": "Most of the heart's volume is due to _____.",
     "choices": [
       "the ventricles",
       "the atria",
@@ -1999,7 +1994,7 @@
     "subject": "anatomy_physiology",
     "topic": "heart",
     "subtopic": "Heart Anatomy",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The word _____ means 'crossbar,' and has been seen before if one has studied bone.",
     "choices": [
@@ -2063,7 +2058,7 @@
     "subject": "anatomy_physiology",
     "topic": "heart",
     "subtopic": "Heart Anatomy",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Blood has to travel further in the _____ circuit than in the _____ circuit: and therefore there is more friction and more strength is required to keep it moving.",
     "choices": [
@@ -2079,7 +2074,7 @@
     "subject": "anatomy_physiology",
     "topic": "heart",
     "subtopic": "Heart Anatomy",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The arteries which supply the heart muscle itself with oxygen arise _____.",
     "choices": [
@@ -2111,7 +2106,7 @@
     "subject": "anatomy_physiology",
     "topic": "heart",
     "subtopic": "Heart Anatomy",
-    "difficulty": 1,
+    "difficulty": 3,
     "type": "multiple_choice",
     "prompt": "The _____, which arises from the _____, supplies oxygen to the interventricular septum and anterior walls of both ventricles.",
     "choices": [
@@ -2127,7 +2122,7 @@
     "subject": "anatomy_physiology",
     "topic": "heart",
     "subtopic": "Heart Anatomy",
-    "difficulty": 1,
+    "difficulty": 3,
     "type": "multiple_choice",
     "prompt": "The _____, which arises from the _____, supplies oxygen to the left atrium and the posterior walls of the left ventricle.",
     "choices": [
@@ -2143,7 +2138,7 @@
     "subject": "anatomy_physiology",
     "topic": "heart",
     "subtopic": "Heart Anatomy",
-    "difficulty": 1,
+    "difficulty": 3,
     "type": "multiple_choice",
     "prompt": "The left coronary arteries gives rise to which arteries?",
     "choices": [
@@ -2159,7 +2154,7 @@
     "subject": "anatomy_physiology",
     "topic": "heart",
     "subtopic": "Heart Anatomy",
-    "difficulty": 1,
+    "difficulty": 3,
     "type": "multiple_choice",
     "prompt": "The myocardium of the right lateral side of the heart is served by the _____ which arises from the _____.",
     "choices": [
@@ -2175,7 +2170,7 @@
     "subject": "anatomy_physiology",
     "topic": "heart",
     "subtopic": "Heart Anatomy",
-    "difficulty": 1,
+    "difficulty": 3,
     "type": "multiple_choice",
     "prompt": "The apex of the heart and the posterior ventricular walls are supplied by the _____ which arises from the _____.",
     "choices": [
@@ -2191,7 +2186,7 @@
     "subject": "anatomy_physiology",
     "topic": "heart",
     "subtopic": "Heart Anatomy",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The right atrium and nearly all of the right ventricle are supplied by the _____.",
     "choices": [
@@ -2223,7 +2218,7 @@
     "subject": "anatomy_physiology",
     "topic": "heart",
     "subtopic": "Heart Anatomy",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Veins of the heart join together to form a large vessel called the _____, which is most visible on the _____ aspect of the heart.",
     "choices": [
@@ -2239,7 +2234,7 @@
     "subject": "anatomy_physiology",
     "topic": "heart",
     "subtopic": "Heart Anatomy",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The great, middle, and small cardiac veins all feed into the _____.",
     "choices": [
@@ -2255,7 +2250,7 @@
     "subject": "anatomy_physiology",
     "topic": "heart",
     "subtopic": "Heart Anatomy",
-    "difficulty": 1,
+    "difficulty": 3,
     "type": "multiple_choice",
     "prompt": "Not all blood returns to the heart via the coronary sinus: several of the anterior cardiac veins return blood to the _____.",
     "choices": [
@@ -2335,7 +2330,7 @@
     "subject": "anatomy_physiology",
     "topic": "heart",
     "subtopic": "Heart Anatomy",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "AV valves are one-way valves which allow blood to flow from the _____ to the _____. They are closed as the _____ contract.",
     "choices": [
@@ -2383,7 +2378,7 @@
     "subject": "anatomy_physiology",
     "topic": "heart",
     "subtopic": "Heart Anatomy",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The AV valves are closed by the _____.",
     "choices": [
@@ -2433,12 +2428,10 @@
     "subtopic": "Heart Anatomy",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "The pulmonary semilunar valve separates the _____ ventricle from the _____ artery.",
+    "prompt": "The pulmonary semilunar valve separates the _____ ventricle from the pulmonary artery.",
     "choices": [
-      "right; pulmonary",
-      "left; pulmonary",
-      "right; coronary",
-      "left; coronary"
+      "right",
+      "left"
     ],
     "answer_index": 0
   },
@@ -2449,12 +2442,10 @@
     "subtopic": "Heart Anatomy",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "The aortic semilunar valve separates the _____ ventricle from the _____.",
+    "prompt": "The aortic semilunar valve separates the _____ ventricle from the aorta.",
     "choices": [
-      "left; aorta",
-      "right; aorta",
-      "left; pulmonary trunk",
-      "right; pulmonary trunk"
+      "left",
+      "right"
     ],
     "answer_index": 0
   },
@@ -2463,7 +2454,7 @@
     "subject": "anatomy_physiology",
     "topic": "heart",
     "subtopic": "Heart Anatomy",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The semilunar (SL) valves close due to _____.",
     "choices": [
@@ -2479,7 +2470,7 @@
     "subject": "anatomy_physiology",
     "topic": "heart",
     "subtopic": "Heart Anatomy",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The SL valves are _____ during contraction of the ventricles.",
     "choices": [
@@ -2495,7 +2486,7 @@
     "subject": "anatomy_physiology",
     "topic": "heart",
     "subtopic": "Heart Anatomy",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "If a valve in the heart malfunctions, and allows blood to flow in both directions, it is called a(n) _____.",
     "choices": [
@@ -2527,7 +2518,7 @@
     "subject": "anatomy_physiology",
     "topic": "heart",
     "subtopic": "Heart Anatomy",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Malfunctioning heart valves cause the heart to work harder, and the result is often _____.",
     "choices": [
@@ -2543,7 +2534,7 @@
     "subject": "anatomy_physiology",
     "topic": "heart",
     "subtopic": "Heart Anatomy",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "A cardiac muscle cell contains _____ nuclei.",
     "choices": [
@@ -2559,7 +2550,7 @@
     "subject": "anatomy_physiology",
     "topic": "heart",
     "subtopic": "Heart Anatomy",
-    "difficulty": 1,
+    "difficulty": 3,
     "type": "multiple_choice",
     "prompt": "The space between groups of cardiac muscle cells is filled with _____, a(n) _____.",
     "choices": [
@@ -2591,7 +2582,7 @@
     "subject": "anatomy_physiology",
     "topic": "heart",
     "subtopic": "Heart Anatomy",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Cardiac muscle fibers are arranged end to end to pull against each other, but the chains formed by these fibers ultimately pull against the _____ of the heart.",
     "choices": [
@@ -2607,7 +2598,7 @@
     "subject": "anatomy_physiology",
     "topic": "heart",
     "subtopic": "Heart Anatomy",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Cardiac muscle fibers are joined end to end at a region called the _____, which contains two types of cell junction, _____ and _____.",
     "choices": [
@@ -2623,7 +2614,7 @@
     "subject": "anatomy_physiology",
     "topic": "heart",
     "subtopic": "Heart Anatomy",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Desmosomes are present between adjoining cardiac muscle fibers to _____.",
     "choices": [
@@ -2639,7 +2630,7 @@
     "subject": "anatomy_physiology",
     "topic": "heart",
     "subtopic": "Heart Anatomy",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Gap junctions are present between adjoining cardiac muscle fibers to _____.",
     "choices": [
@@ -2671,7 +2662,7 @@
     "subject": "anatomy_physiology",
     "topic": "heart",
     "subtopic": "Heart Anatomy",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Skeletal muscle, but not cardiac muscle, can depend on _____ for ATP generation.",
     "choices": [
@@ -2687,7 +2678,7 @@
     "subject": "anatomy_physiology",
     "topic": "heart",
     "subtopic": "Heart Anatomy",
-    "difficulty": 1,
+    "difficulty": 3,
     "type": "multiple_choice",
     "prompt": "The _____ valve can be heard by placing a stethoscope approximately midway between the right nipple and the right sternoclavicular joint.",
     "choices": [
@@ -2703,7 +2694,7 @@
     "subject": "anatomy_physiology",
     "topic": "heart",
     "subtopic": "Heart Anatomy",
-    "difficulty": 1,
+    "difficulty": 3,
     "type": "multiple_choice",
     "prompt": "The _____ valve can be heard by placing a stethoscope approximately midway between the left nipple and the left sternoclavicular joint.",
     "choices": [
@@ -2719,7 +2710,7 @@
     "subject": "anatomy_physiology",
     "topic": "heart",
     "subtopic": "Heart Anatomy",
-    "difficulty": 1,
+    "difficulty": 3,
     "type": "multiple_choice",
     "prompt": "The sound of the _____ valve can be heard by placing a stethoscope over the heart's apex, which is at the fifth intercostal space, directly inferior to the center of the left clavicle.",
     "choices": [
@@ -2735,7 +2726,7 @@
     "subject": "anatomy_physiology",
     "topic": "heart",
     "subtopic": "Heart Anatomy",
-    "difficulty": 1,
+    "difficulty": 3,
     "type": "multiple_choice",
     "prompt": "Sounds of the _____ valve can be heard by placing a stethoscope directly below the right sternoclavicular joint at the sternal margin of the fifth intercostal space.",
     "choices": [

@@ -4,7 +4,7 @@
     "subject": "anatomy_physiology",
     "topic": "respiratory_system",
     "subtopic": "Aging: Respiratory System",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "As we age, the thoracic wall becomes _____ , the lungs lose _____ , and the amount of oxygen we can use during aerobic respiration decreases. These changes are accelerated markedly in _____ individuals.",
     "choices": [
@@ -20,7 +20,7 @@
     "subject": "anatomy_physiology",
     "topic": "respiratory_system",
     "subtopic": "Aging: Respiratory System",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The protection provided by mucus declines with age due to alterations in _____ , and a decline in the _____ of epithelial cells in the respiratory tract.",
     "choices": [
@@ -100,7 +100,7 @@
     "subject": "anatomy_physiology",
     "topic": "respiratory_system",
     "subtopic": "Gas Exchange",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Gas molecules are very far apart, and gas pressure is simply due to the _____ and _____ of gas molecules hitting a surface at a given instant.",
     "choices": [
@@ -148,7 +148,7 @@
     "subject": "anatomy_physiology",
     "topic": "respiratory_system",
     "subtopic": "Gas Exchange",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The higher the number of gas particles there are hitting the surface of a liquid, the greater the _____. This is known as _____.",
     "choices": [
@@ -164,7 +164,7 @@
     "subject": "anatomy_physiology",
     "topic": "respiratory_system",
     "subtopic": "Gas Exchange",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Three factors influence the amount of gas which will dissolve in a liquid: _____, _____ and _____.",
     "choices": [
@@ -182,28 +182,12 @@
     "subtopic": "Gas Exchange",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "The greater the difference in partial pressures for a gas across a permeable boundary, the faster the _____ across it.",
+    "prompt": "Gas diffusion across a permeable boundary increases with all of the following except _____.",
     "choices": [
-      "diffusion",
-      "osmosis",
-      "filtration",
-      "active transport"
-    ],
-    "answer_index": 0
-  },
-  {
-    "id": "bio-anat-19-013",
-    "subject": "anatomy_physiology",
-    "topic": "respiratory_system",
-    "subtopic": "Gas Exchange",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "The greater the surface area of a permeable boundary, the faster the _____ across it.",
-    "choices": [
-      "diffusion",
-      "osmosis",
-      "filtration",
-      "active transport"
+      "active transport",
+      "partial pressure",
+      "solubility",
+      "surface area"
     ],
     "answer_index": 0
   },
@@ -212,7 +196,7 @@
     "subject": "anatomy_physiology",
     "topic": "respiratory_system",
     "subtopic": "Gas Exchange",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "In a healthy individual, as pulmonary ventilation increases, so does _____; this is called _____.",
     "choices": [
@@ -228,7 +212,7 @@
     "subject": "anatomy_physiology",
     "topic": "respiratory_system",
     "subtopic": "Gas Exchange",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Air is _____ % oxygen and _____ % carbon dioxide. The partial pressure of oxygen is thus much higher than that of carbon dioxide.",
     "choices": [
@@ -245,12 +229,12 @@
     "subtopic": "Gas Exchange",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Since the blood is circulating rapidly, and its exposure to the air in the lungs is brief, the capillary walls and alveolar walls must be _____ in order to decrease the distance the gases must diffuse.",
+    "prompt": "Since the blood is circulating rapidly, and its exposure to the air in the lungs is brief, rapid diffusion is facilitated by the presence of _________.",
     "choices": [
-      "thin",
-      "thick",
-      "multilayered",
-      "ciliated"
+      "simple squamous epithelium",
+      "simple cuboidal epithelial",
+      "pseudostratified columnar epithelial",
+      "stratified squamous epithelium"
     ],
     "answer_index": 0
   },
@@ -275,7 +259,7 @@
     "subject": "anatomy_physiology",
     "topic": "respiratory_system",
     "subtopic": "Gas Exchange",
-    "difficulty": 1,
+    "difficulty": 3,
     "type": "multiple_choice",
     "prompt": "The partial pressure of carbon dioxide in the alveoli is _____ than in the blood.",
     "choices": [
@@ -291,7 +275,7 @@
     "subject": "anatomy_physiology",
     "topic": "respiratory_system",
     "subtopic": "Gas Transport",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Because oxygen _____ very soluble in plasma, _____ % of it must be bound to _____ in order to be carried.",
     "choices": [
@@ -339,7 +323,7 @@
     "subject": "anatomy_physiology",
     "topic": "respiratory_system",
     "subtopic": "Gas Transport",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "As the temperature in the blood increases, the binding of oxygen to hemoglobin _____ , and thus the delivery of oxygen to tissue _____.",
     "choices": [
@@ -355,7 +339,7 @@
     "subject": "anatomy_physiology",
     "topic": "respiratory_system",
     "subtopic": "Gas Transport",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "As the partial pressure of carbon dioxide in the blood increases, the binding of oxygen to hemoglobin _____ , and thus the delivery of oxygen to tissue _____.",
     "choices": [
@@ -371,7 +355,7 @@
     "subject": "anatomy_physiology",
     "topic": "respiratory_system",
     "subtopic": "Gas Transport",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "As blood pH decreases, _____ bind to hemoglobin. This causes the binding of oxygen to hemoglobin to _____, and thus the delivery of oxygen to tissue to _____. (This is called the Bohr effect.)",
     "choices": [
@@ -387,7 +371,7 @@
     "subject": "anatomy_physiology",
     "topic": "respiratory_system",
     "subtopic": "Gas Transport",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Red blood cells produce _____ to control the binding of oxygen to hemoglobin.",
     "choices": [
@@ -403,7 +387,7 @@
     "subject": "anatomy_physiology",
     "topic": "respiratory_system",
     "subtopic": "Gas Transport",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Levels of _____ in erythrocytes are increased at high altitudes to enhance oxygen delivery to tissues.",
     "choices": [
@@ -419,7 +403,7 @@
     "subject": "anatomy_physiology",
     "topic": "respiratory_system",
     "subtopic": "Gas Transport",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "As levels of 2,3-bisphosphoglycerate in erythrocytes increase, the binding of oxygen to hemoglobin _____, and thus the delivery of oxygen to tissue _____.",
     "choices": [
@@ -435,7 +419,7 @@
     "subject": "anatomy_physiology",
     "topic": "respiratory_system",
     "subtopic": "Gas Transport",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "With each oxygen molecule that hemoglobin binds, its shape changes to allow it to _____. This allows it to bind oxygen quickly in the lungs, and to release it quickly in oxygen-poor tissues.",
     "choices": [
@@ -451,7 +435,7 @@
     "subject": "anatomy_physiology",
     "topic": "respiratory_system",
     "subtopic": "Gas Transport",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Most tissues don't need nearly as much oxygen as hemoglobin can carry; however, in _____, including the _____, the partial pressure of oxygen is very low and most of hemoglobin's oxygen is released.",
     "choices": [
@@ -482,7 +466,7 @@
     "subject": "anatomy_physiology",
     "topic": "respiratory_system",
     "subtopic": "Gas Transport",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "20% of the carbon dioxide in the blood is transported by _____ ; 10% or so is found _____.",
     "choices": [
@@ -514,7 +498,7 @@
     "subject": "anatomy_physiology",
     "topic": "respiratory_system",
     "subtopic": "Gas Transport",
-    "difficulty": 1,
+    "difficulty": 3,
     "type": "multiple_choice",
     "prompt": "As the oxygen saturation of hemoglobin _____ , its ability to carry carbon dioxide _____ . This is known as the _____.",
     "choices": [
@@ -562,7 +546,7 @@
     "subject": "anatomy_physiology",
     "topic": "respiratory_system",
     "subtopic": "Gas Transport",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Much of the bicarbonate in the body is produced by _____.",
     "choices": [
@@ -594,7 +578,7 @@
     "subject": "anatomy_physiology",
     "topic": "respiratory_system",
     "subtopic": "Gas Transport",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The carbonic acid/bicarbonate interconversion is _____ , and this allows bicarbonate to act as a(n) _____ in the bloodstream. Indeed, it is the most important one!",
     "choices": [
@@ -610,7 +594,7 @@
     "subject": "anatomy_physiology",
     "topic": "respiratory_system",
     "subtopic": "Gas Transport",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "As negative bicarbonate ions leave erythrocytes, negative _____ ions enter to maintain the electrical neutrality of the cell. This is called the _____.",
     "choices": [
@@ -642,7 +626,7 @@
     "subject": "anatomy_physiology",
     "topic": "respiratory_system",
     "subtopic": "Lower Respiratory System",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The larynx attaches superiorly to the _____ , opening into the laryngopharynx, and leads inferiorly to the _____.",
     "choices": [
@@ -690,7 +674,7 @@
     "subject": "anatomy_physiology",
     "topic": "respiratory_system",
     "subtopic": "Lower Respiratory System",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Folded mucous membranes cross from the thyroid cartilage in the front to the _____ cartilages in the back.",
     "choices": [
@@ -706,7 +690,7 @@
     "subject": "anatomy_physiology",
     "topic": "respiratory_system",
     "subtopic": "Lower Respiratory System",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The upper pair of mucous membranes which connect the thyroid cartilage to the arytenoid cartilages are the _____ (also called _____).",
     "choices": [
@@ -738,7 +722,7 @@
     "subject": "anatomy_physiology",
     "topic": "respiratory_system",
     "subtopic": "Lower Respiratory System",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "_____ form the core of the true vocal cords, and vibrate as air passes over them to produce sound.",
     "choices": [
@@ -754,7 +738,7 @@
     "subject": "anatomy_physiology",
     "topic": "respiratory_system",
     "subtopic": "Lower Respiratory System",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "When someone increases intra-abdominal pressure during periods of effort, they close the _____. (This is called _____.)",
     "choices": [
@@ -834,7 +818,7 @@
     "subject": "anatomy_physiology",
     "topic": "respiratory_system",
     "subtopic": "Lower Respiratory System",
-    "difficulty": 1,
+    "difficulty": 3,
     "type": "multiple_choice",
     "prompt": "The sub-mucosa in the trachea is _____ tissue.",
     "choices": [
@@ -866,7 +850,7 @@
     "subject": "anatomy_physiology",
     "topic": "respiratory_system",
     "subtopic": "Lower Respiratory System",
-    "difficulty": 1,
+    "difficulty": 3,
     "type": "multiple_choice",
     "prompt": "The cartilaginous layer of the trachea is covered by _____ and is called the _____.",
     "choices": [
@@ -962,7 +946,7 @@
     "subject": "anatomy_physiology",
     "topic": "respiratory_system",
     "subtopic": "Lower Respiratory System",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The supporting cartilage that is required in the trachea and bronchi gradually changes in character as the tubes become smaller, and by the time _____ are reached, the cartilage is absent.",
     "choices": [
@@ -994,7 +978,7 @@
     "subject": "anatomy_physiology",
     "topic": "respiratory_system",
     "subtopic": "Lower Respiratory System",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "_____ are the last bronchioles through which air passes before reaching the respiratory regions of the lungs.",
     "choices": [
@@ -1010,7 +994,7 @@
     "subject": "anatomy_physiology",
     "topic": "respiratory_system",
     "subtopic": "Lower Respiratory System",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Chronic bronchitis is a COPD which results in _____, as well as inflammation and fibrosis of the _____.",
     "choices": [
@@ -1048,7 +1032,6 @@
     "choices": [
       "autonomic",
       "somatic",
-      "sensory",
       "enteric"
     ],
     "answer_index": 0
@@ -1090,7 +1073,7 @@
     "subject": "anatomy_physiology",
     "topic": "respiratory_system",
     "subtopic": "Regulation of Breathing",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "After increasing the volume of the lungs, the _____ inside the lungs will decrease until 'pressure times volume' returns to its original value. (This is an application of _____.)",
     "choices": [
@@ -1138,7 +1121,7 @@
     "subject": "anatomy_physiology",
     "topic": "respiratory_system",
     "subtopic": "Regulation of Breathing",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Contraction of the diaphragm causes it to move _____, resulting in a(n) _____ in the size of the thoracic cavity and a(n) _____ in pressure within the lungs.",
     "choices": [
@@ -1154,7 +1137,7 @@
     "subject": "anatomy_physiology",
     "topic": "respiratory_system",
     "subtopic": "Regulation of Breathing",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Contraction of the _____ elevates the ribs and sternum, resulting in an increase in the size of the thoracic cavity and a(n) _____ in pressure within the lungs.",
     "choices": [
@@ -1170,7 +1153,7 @@
     "subject": "anatomy_physiology",
     "topic": "respiratory_system",
     "subtopic": "Regulation of Breathing",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Unless forced, expiration is caused by the _____ of the lung tissue and relaxation of the _____ and _____.",
     "choices": [
@@ -1186,7 +1169,7 @@
     "subject": "anatomy_physiology",
     "topic": "respiratory_system",
     "subtopic": "Regulation of Breathing",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Forced expiration relies on contraction of _____ and muscles of the _____ region.",
     "choices": [
@@ -1202,7 +1185,7 @@
     "subject": "anatomy_physiology",
     "topic": "respiratory_system",
     "subtopic": "Regulation of Breathing",
-    "difficulty": 1,
+    "difficulty": 3,
     "type": "multiple_choice",
     "prompt": "When describing air pressure relationships in terms of the lungs, a simplification is used to allow comparison of individuals living at two different altitudes: barometric air pressure (P_B) is _____.",
     "choices": [
@@ -1314,7 +1297,7 @@
     "subject": "anatomy_physiology",
     "topic": "respiratory_system",
     "subtopic": "Regulation of Breathing",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The _____ center, located in the medulla, contains two groups of neurons which control respiration: the _____ and the _____ groups.",
     "choices": [
@@ -1330,7 +1313,7 @@
     "subject": "anatomy_physiology",
     "topic": "respiratory_system",
     "subtopic": "Regulation of Breathing",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The dorsal respiratory group, located in the _____, generates _____ which stimulate contraction of the _____.",
     "choices": [
@@ -1346,7 +1329,7 @@
     "subject": "anatomy_physiology",
     "topic": "respiratory_system",
     "subtopic": "Regulation of Breathing",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The ventral respiratory group, located in the _____, is required during forceful breathing to recruit the _____.",
     "choices": [
@@ -1358,43 +1341,11 @@
     "answer_index": 0
   },
   {
-    "id": "bio-anat-19-086",
-    "subject": "anatomy_physiology",
-    "topic": "respiratory_system",
-    "subtopic": "Regulation of Breathing",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "When the chemoreceptors in the _____, _____ and _____ sense an **increase** in levels of carbon dioxide in the blood, they signal the respiratory control center to _____ the breathing rate.",
-    "choices": [
-      "medulla oblongata; carotid arteries; aorta; increase",
-      "pons; carotid arteries; aorta; decrease",
-      "medulla oblongata; pulmonary arteries; vena cava; increase",
-      "hypothalamus; carotid arteries; aorta; decrease"
-    ],
-    "answer_index": 0
-  },
-  {
-    "id": "bio-anat-19-087",
-    "subject": "anatomy_physiology",
-    "topic": "respiratory_system",
-    "subtopic": "Regulation of Breathing",
-    "difficulty": 1,
-    "type": "multiple_choice",
-    "prompt": "When the chemoreceptors in the _____, _____ and _____ sense a **decrease** in the pH of the blood, they signal the respiratory control center to _____ the breathing rate.",
-    "choices": [
-      "medulla oblongata; carotid arteries; aorta; increase",
-      "pons; carotid arteries; aorta; decrease",
-      "medulla oblongata; pulmonary arteries; vena cava; increase",
-      "hypothalamus; carotid arteries; aorta; decrease"
-    ],
-    "answer_index": 0
-  },
-  {
     "id": "bio-anat-19-088",
     "subject": "anatomy_physiology",
     "topic": "respiratory_system",
     "subtopic": "Regulation of Breathing",
-    "difficulty": 1,
+    "difficulty": 3,
     "type": "multiple_choice",
     "prompt": "Of the three major chemoreceptor clusters, detection of _____ by the _____ exerts the most control on breathing rate.",
     "choices": [
@@ -1410,7 +1361,7 @@
     "subject": "anatomy_physiology",
     "topic": "respiratory_system",
     "subtopic": "Regulation of Breathing",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "When the chemoreceptors in the _____ and _____ sense a decrease in levels of oxygen in the blood, they signal the respiratory control center to _____ the breathing rate.",
     "choices": [
@@ -1426,7 +1377,7 @@
     "subject": "anatomy_physiology",
     "topic": "respiratory_system",
     "subtopic": "Regulation of Breathing",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "When stretch receptors in the walls of the bronchi and bronchioles are fully stretched, inspiration is discontinued in a reflex called the _____ or _____.",
     "choices": [
@@ -1442,7 +1393,7 @@
     "subject": "anatomy_physiology",
     "topic": "respiratory_system",
     "subtopic": "Regulation of Breathing",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The cerebral cortex can exert voluntary control over respiration by bypassing the medullary centers and _____.",
     "choices": [
@@ -1458,7 +1409,7 @@
     "subject": "anatomy_physiology",
     "topic": "respiratory_system",
     "subtopic": "Regulation of Breathing",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Sympathetic centers in the _____ modify the ventilation rate and depth in response to strong emotions, abrupt temperature changes, and pain.",
     "choices": [
@@ -1474,7 +1425,7 @@
     "subject": "anatomy_physiology",
     "topic": "respiratory_system",
     "subtopic": "Regulation of Breathing",
-    "difficulty": 1,
+    "difficulty": 3,
     "type": "multiple_choice",
     "prompt": "Anaerobic exercises causes a dramatic increase in ventilation rate due to the production of _____ , which lowers _____ . Indeed, respiration is so rapid that carbon dioxide levels may be _____ , and oxygen levels _____, than their resting levels.",
     "choices": [
@@ -1490,7 +1441,7 @@
     "subject": "anatomy_physiology",
     "topic": "respiratory_system",
     "subtopic": "Regulation of Breathing",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Aerobic exercise alters breathing rate within seconds, in part due to direct communication between _____ and the _____.",
     "choices": [
@@ -1506,7 +1457,7 @@
     "subject": "anatomy_physiology",
     "topic": "respiratory_system",
     "subtopic": "Regulation of Breathing",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Aerobic exercise alters breathing rate within seconds, in part due to signals sent from _____ to the _____, informing it of the body's exertion.",
     "choices": [
@@ -1522,7 +1473,7 @@
     "subject": "anatomy_physiology",
     "topic": "respiratory_system",
     "subtopic": "Regulation of Breathing",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Adaptations to high altitudes include an increase in _____ , elevated 2,3-BPG, and increased production of erythropoietin (and thus of _____).",
     "choices": [
@@ -1570,7 +1521,7 @@
     "subject": "anatomy_physiology",
     "topic": "respiratory_system",
     "subtopic": "The Lungs",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Respiratory bronchioles themselves have several _____ on their surface, but they are still large enough to divide once again to form _____.",
     "choices": [
@@ -1586,7 +1537,7 @@
     "subject": "anatomy_physiology",
     "topic": "respiratory_system",
     "subtopic": "The Lungs",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "_____, which are found at the end of each alveolar duct, are chambers connected to several alveoli.",
     "choices": [
@@ -1602,7 +1553,7 @@
     "subject": "anatomy_physiology",
     "topic": "respiratory_system",
     "subtopic": "The Lungs",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Pores connect adjacent alveoli to allow air pressure to be _____ , and to provide alternate routes for airflow in case one or more alveoli _____.",
     "choices": [
@@ -1698,7 +1649,7 @@
     "subject": "anatomy_physiology",
     "topic": "respiratory_system",
     "subtopic": "The Lungs",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The lobes of the lungs are further divided to form _____ segments; to each of these, air is delivered by a single _____.",
     "choices": [
@@ -1714,7 +1665,7 @@
     "subject": "anatomy_physiology",
     "topic": "respiratory_system",
     "subtopic": "The Lungs",
-    "difficulty": 1,
+    "difficulty": 3,
     "type": "multiple_choice",
     "prompt": "Bronchopulmonary segments are subdivided to form _____ ; to each of these, air is delivered by a(n) _____.",
     "choices": [
@@ -1762,7 +1713,7 @@
     "subject": "anatomy_physiology",
     "topic": "respiratory_system",
     "subtopic": "The Lungs",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Each bronchopulmonary segment is served by its own _____ , _____ and _____.",
     "choices": [
@@ -1794,7 +1745,7 @@
     "subject": "anatomy_physiology",
     "topic": "respiratory_system",
     "subtopic": "The Lungs",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Each lung is surrounded by its own _____ and connected to the mediastinum by vascular and bronchial attachments called the _____.",
     "choices": [
@@ -1810,7 +1761,7 @@
     "subject": "anatomy_physiology",
     "topic": "respiratory_system",
     "subtopic": "The Lungs",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The parietal pleura covers the thoracic wall, superior face of the diaphragm, and continues _____, forming the boundary of the _____.",
     "choices": [
@@ -1826,7 +1777,7 @@
     "subject": "anatomy_physiology",
     "topic": "respiratory_system",
     "subtopic": "The Lungs",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The bronchial arteries provide _____.",
     "choices": [
@@ -1842,7 +1793,7 @@
     "subject": "anatomy_physiology",
     "topic": "respiratory_system",
     "subtopic": "The Lungs",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The lungs have two lymphatic supplies: the superficial lymphatic vessels drain lymph from _____.",
     "choices": [
@@ -1858,7 +1809,7 @@
     "subject": "anatomy_physiology",
     "topic": "respiratory_system",
     "subtopic": "The Lungs",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The lungs have two lymphatic supplies: the deep lymphatic vessels drain lymph from the _____.",
     "choices": [
@@ -1874,7 +1825,7 @@
     "subject": "anatomy_physiology",
     "topic": "respiratory_system",
     "subtopic": "The Lungs",
-    "difficulty": 1,
+    "difficulty": 3,
     "type": "multiple_choice",
     "prompt": "In the alveoli, lymphatic vessels are _____.",
     "choices": [
@@ -1890,7 +1841,7 @@
     "subject": "anatomy_physiology",
     "topic": "respiratory_system",
     "subtopic": "The Lungs",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "A droplet of water has far fewer molecules of water in contact with _____ than either a bubble of water or a flat sheet of water.",
     "choices": [
@@ -1906,7 +1857,7 @@
     "subject": "anatomy_physiology",
     "topic": "respiratory_system",
     "subtopic": "The Lungs",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Water tends to form droplets instead of to flatten out. This is true because the attraction of water molecules to _____ is stronger than their attraction to _____ . (The strength of this attraction is due to the ability of water to form _____.)",
     "choices": [
@@ -2050,7 +2001,7 @@
     "subject": "anatomy_physiology",
     "topic": "respiratory_system",
     "subtopic": "The Lungs",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The _____ is the amount of additional air that can be inhaled if, after inhaling, one breathes in as deeply as possible. In an average adult this is ~ _____ times the tidal volume.",
     "choices": [
@@ -2066,7 +2017,7 @@
     "subject": "anatomy_physiology",
     "topic": "respiratory_system",
     "subtopic": "The Lungs",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The _____ is the amount of air that can be forced out of the lungs after one has finished exhaling, and in an average adult is ~ _____ ml.",
     "choices": [
@@ -2082,7 +2033,7 @@
     "subject": "anatomy_physiology",
     "topic": "respiratory_system",
     "subtopic": "The Lungs",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The alveoli never _____, and air there, plus air in the anatomical dead space, remains in the lungs even after maximal, forcible exhalation. This is the _____, and in an average adult is ~ _____ ml.",
     "choices": [
@@ -2098,7 +2049,7 @@
     "subject": "anatomy_physiology",
     "topic": "respiratory_system",
     "subtopic": "The Lungs",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "_____ is the amount of air in the conducting system that is not available for use even after full forced inhalation, and is usually ~ _____ ml in an adult male.",
     "choices": [
@@ -2146,9 +2097,9 @@
     "subject": "anatomy_physiology",
     "topic": "respiratory_system",
     "subtopic": "The Lungs",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
-    "prompt": "The _____ is the maximum amount of air that can be inhaled.",
+    "prompt": "The _____ is the maximum amount of air that can be inhaled, starting from a normal (tidal) expiration.",
     "choices": [
       "inspiratory capacity",
       "inspiratory reserve volume",
@@ -2162,7 +2113,7 @@
     "subject": "anatomy_physiology",
     "topic": "respiratory_system",
     "subtopic": "The Lungs",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The amount of air remaining in the lungs after a normal expiration is called the _____.",
     "choices": [
@@ -2178,7 +2129,7 @@
     "subject": "anatomy_physiology",
     "topic": "respiratory_system",
     "subtopic": "The Lungs",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The total \"_____\" refers to the volume of air, in liters, that is inhaled in one minute. It is found by multiplying _____ by the _____.",
     "choices": [
@@ -2194,7 +2145,7 @@
     "subject": "anatomy_physiology",
     "topic": "respiratory_system",
     "subtopic": "The Lungs",
-    "difficulty": 1,
+    "difficulty": 3,
     "type": "multiple_choice",
     "prompt": "Since each breath exchanges not only the air in the lungs but also the air in the dead space, the volume of air, in liters, that reaches the alveoli is found by subtracting _____ from _____. This is called _____.",
     "choices": [
@@ -2226,7 +2177,7 @@
     "subject": "anatomy_physiology",
     "topic": "respiratory_system",
     "subtopic": "The Lungs",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Obstructive emphysema is a COPD which is characterized by _____ and _____.",
     "choices": [
@@ -2242,7 +2193,7 @@
     "subject": "anatomy_physiology",
     "topic": "respiratory_system",
     "subtopic": "The Lungs",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Until the 1930s, one third of the deaths in the 20-45 year old age group were due to _____. Antibiotics changed that, but failure of some patients to continue antibiotics until the last bacterium has died has led to the evolution of _____.",
     "choices": [
@@ -2354,7 +2305,7 @@
     "subject": "anatomy_physiology",
     "topic": "respiratory_system",
     "subtopic": "Upper Respiratory System",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Air entering the nose encounters the _____, which create turbulence and increase the chances that airborne contaminants will contact the nasal mucosa rather than passing into the lungs.",
     "choices": [
@@ -2418,7 +2369,7 @@
     "subject": "anatomy_physiology",
     "topic": "respiratory_system",
     "subtopic": "Upper Respiratory System",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The _____ contains the lymphatic pharyngeal tonsil (adenoid), which traps and destroys airborne pathogens, and the pharyngeal opening of the auditory tube.",
     "choices": [
@@ -2434,7 +2385,7 @@
     "subject": "anatomy_physiology",
     "topic": "respiratory_system",
     "subtopic": "Upper Respiratory System",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The _____ is an air and food passageway that extends inferiorly from the level of the soft palate to the epiglottis.",
     "choices": [
@@ -2450,7 +2401,7 @@
     "subject": "anatomy_physiology",
     "topic": "respiratory_system",
     "subtopic": "Upper Respiratory System",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The _____ is a food and drink passageway that lies directly behind the epiglottis, extends to the larynx, and is continuous inferiorly with the esophagus.",
     "choices": [
@@ -2466,7 +2417,7 @@
     "subject": "anatomy_physiology",
     "topic": "respiratory_system",
     "subtopic": "Upper Respiratory System",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Food and air are sorted into the stomach or lungs, respectively, in the _____ region of the pharnyx.",
     "choices": [

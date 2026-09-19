@@ -20,7 +20,7 @@
     "subject": "anatomy_physiology",
     "topic": "nervous_system",
     "subtopic": "Action Potential",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Action potentials in neurons are generated in the region called the _____.",
     "choices": [
@@ -36,7 +36,7 @@
     "subject": "anatomy_physiology",
     "topic": "nervous_system",
     "subtopic": "Action Potential",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "In a typical action potential, the membrane potential of the neuron or muscle changes from _____ millivolts to _____ millivolts.",
     "choices": [
@@ -84,7 +84,7 @@
     "subject": "anatomy_physiology",
     "topic": "nervous_system",
     "subtopic": "Action Potential",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "As the membrane potential near a voltage regulated sodium channel increases from -70 mV to -55 mV, the _____ of the voltage regulated sodium channel _____.",
     "choices": [
@@ -100,7 +100,7 @@
     "subject": "anatomy_physiology",
     "topic": "nervous_system",
     "subtopic": "Action Potential",
-    "difficulty": 1,
+    "difficulty": 3,
     "type": "multiple_choice",
     "prompt": "As the membrane potential near a voltage regulated sodium channel approaches +30 mV, the _____ begins to _____.",
     "choices": [
@@ -116,7 +116,7 @@
     "subject": "anatomy_physiology",
     "topic": "nervous_system",
     "subtopic": "Action Potential",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "As the membrane potential near a voltage regulated _____ channel approaches +30 mV, the channel opens.",
     "choices": [
@@ -132,7 +132,7 @@
     "subject": "anatomy_physiology",
     "topic": "nervous_system",
     "subtopic": "Action Potential",
-    "difficulty": 1,
+    "difficulty": 3,
     "type": "multiple_choice",
     "prompt": "In the resting state, before or long after an action potential occurs, the activation gates of voltage regulated sodium channels are _____, the inactivation gates of the voltage regulated sodium channels are _____, and the voltage regulated potassium channels are _____.",
     "choices": [
@@ -148,7 +148,7 @@
     "subject": "anatomy_physiology",
     "topic": "nervous_system",
     "subtopic": "Action Potential",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "An influx of positive sodium ions causes opening of the activation gates of voltage regulated sodium channels resulting in a further influx of positive sodium ions, and thus the initial stages of an action potential are regulated by _____ feedback.",
     "choices": [
@@ -164,7 +164,7 @@
     "subject": "anatomy_physiology",
     "topic": "nervous_system",
     "subtopic": "Action Potential",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "An influx of positive sodium ions eventually causes closing of the inactivation gates of voltage regulated sodium channels, stopping the influx of positive sodium ions, and thus the final stages of an action potential are regulated by _____ feedback.",
     "choices": [
@@ -180,7 +180,7 @@
     "subject": "anatomy_physiology",
     "topic": "nervous_system",
     "subtopic": "Action Potential",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "During the _____ phase of an action potential, both gates of the voltage regulated sodium channels are open and the voltage regulated potassium channels are closed.",
     "choices": [
@@ -196,7 +196,7 @@
     "subject": "anatomy_physiology",
     "topic": "nervous_system",
     "subtopic": "Action Potential",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "During the _____ phase of an action potential, the membrane potential is more positive than the resting potential, but potassium is leaving the cell and sodium is no longer entering, so membrane potential is _____.",
     "choices": [
@@ -212,7 +212,7 @@
     "subject": "anatomy_physiology",
     "topic": "nervous_system",
     "subtopic": "Action Potential",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "During the _____ phase of an action potential, so much potassium has left the cell that the membrane potential is actually more negative than the resting potential.",
     "choices": [
@@ -244,7 +244,7 @@
     "subject": "anatomy_physiology",
     "topic": "nervous_system",
     "subtopic": "Action Potential",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "While the inactivation gate is closed and the activation gate is open, sodium channels are _____.",
     "choices": [
@@ -260,7 +260,7 @@
     "subject": "anatomy_physiology",
     "topic": "nervous_system",
     "subtopic": "Action Potential",
-    "difficulty": 1,
+    "difficulty": 3,
     "type": "multiple_choice",
     "prompt": "During the _____ phase of an action potential, the voltage regulated sodium channels are open or inactive and voltage regulated potassium channels are open. During this time, the channels cannot respond to a voltage _____.",
     "choices": [
@@ -276,7 +276,7 @@
     "subject": "anatomy_physiology",
     "topic": "nervous_system",
     "subtopic": "Action Potential",
-    "difficulty": 1,
+    "difficulty": 3,
     "type": "multiple_choice",
     "prompt": "The relative refractory period occurs during the time when _____ channels are inactive.",
     "choices": [
@@ -292,7 +292,7 @@
     "subject": "anatomy_physiology",
     "topic": "nervous_system",
     "subtopic": "Action Potential",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "During the relative refractory period, action potentials require a(n) _____ stimulus.",
     "choices": [
@@ -324,7 +324,7 @@
     "subject": "anatomy_physiology",
     "topic": "nervous_system",
     "subtopic": "Action Potential",
-    "difficulty": 1,
+    "difficulty": 3,
     "type": "multiple_choice",
     "prompt": "The voltage required to cause action potentials to be generated so rapidly that their rate is controlled by the refractory period is called the _____.",
     "choices": [
@@ -340,7 +340,7 @@
     "subject": "anatomy_physiology",
     "topic": "nervous_system",
     "subtopic": "Action Potential",
-    "difficulty": 1,
+    "difficulty": 3,
     "type": "multiple_choice",
     "prompt": "A voltage greater than that which is required to cause action potentials to be generated so rapidly that their rate is controlled by the length of the refractory periods is called a(n) _____.",
     "choices": [
@@ -387,7 +387,7 @@
     "subject": "anatomy_physiology",
     "topic": "nervous_system",
     "subtopic": "Action Potential",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "In myelinated neuronal processes, ions enter during an action potential only _____.",
     "choices": [
@@ -499,7 +499,7 @@
     "subject": "anatomy_physiology",
     "topic": "nervous_system",
     "subtopic": "Divisions of the Nervous System",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "There are two classes of motor nerves: _____ fibers, which control involuntary effectors, and _____ fibers, which control voluntary effectors (muscles).",
     "choices": [
@@ -611,7 +611,7 @@
     "subject": "anatomy_physiology",
     "topic": "nervous_system",
     "subtopic": "Divisions of the Nervous System",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "One of the differences between a nerve and a tract is that a(n) _____ does not carry its own blood and lymphatic supply.",
     "choices": [
@@ -707,7 +707,7 @@
     "subject": "anatomy_physiology",
     "topic": "nervous_system",
     "subtopic": "Membrane Potential",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Cells allow _____ to diffuse slowly but freely across the cell membrane to generate a membrane potential.",
     "choices": [
@@ -739,7 +739,7 @@
     "subject": "anatomy_physiology",
     "topic": "nervous_system",
     "subtopic": "Membrane Potential",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Potassium tends to diffuse from the inside to the outside of a cell due to its _____.",
     "choices": [
@@ -755,7 +755,7 @@
     "subject": "anatomy_physiology",
     "topic": "nervous_system",
     "subtopic": "Membrane Potential",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The amount of potassium which leaves the cell is limited by _____.",
     "choices": [
@@ -771,7 +771,7 @@
     "subject": "anatomy_physiology",
     "topic": "nervous_system",
     "subtopic": "Membrane Potential",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "An electrochemical gradient is the sum of the _____ and _____, both of which influence the motion of an ion across a membrane.",
     "choices": [
@@ -787,7 +787,7 @@
     "subject": "anatomy_physiology",
     "topic": "nervous_system",
     "subtopic": "Membrane Potential",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "A change in membrane potential which is due to ion influx or efflux in a single region with the ions then diffusing away from that region is called a(n) _____.",
     "choices": [
@@ -803,7 +803,7 @@
     "subject": "anatomy_physiology",
     "topic": "nervous_system",
     "subtopic": "Membrane Potential",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "_____ potentials decrease in intensity as the distance from the site of generation increases.",
     "choices": [
@@ -819,7 +819,7 @@
     "subject": "anatomy_physiology",
     "topic": "nervous_system",
     "subtopic": "Membrane Potential",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The magnitude of a(n) _____ potential varies directly with the strength of the initial stimulus.",
     "choices": [
@@ -883,7 +883,7 @@
     "subject": "anatomy_physiology",
     "topic": "nervous_system",
     "subtopic": "Neural Cells",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "In the CNS, _____ are supporting cells which guide the migration of young neurons.",
     "choices": [
@@ -915,7 +915,7 @@
     "subject": "anatomy_physiology",
     "topic": "nervous_system",
     "subtopic": "Neural Cells",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "_____ are cells in the PNS which surround the cell bodies of neurons which are grouped in ganglia. They maintain the microenvironment and provide insulation.",
     "choices": [
@@ -995,7 +995,7 @@
     "subject": "anatomy_physiology",
     "topic": "nervous_system",
     "subtopic": "Neural Cells",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "In the CNS, _____ regulate the transport of nutrients and wastes to and from neurons and form part of the barrier which limits substances which may enter the CNS.",
     "choices": [
@@ -1027,7 +1027,7 @@
     "subject": "anatomy_physiology",
     "topic": "nervous_system",
     "subtopic": "Neural Cells",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "In the CNS, _____ are the glial cells which regulate the microenvironment (ion concentrations, etc.) surrounding the neuron.",
     "choices": [
@@ -1043,7 +1043,7 @@
     "subject": "anatomy_physiology",
     "topic": "nervous_system",
     "subtopic": "Neural Cells",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "In the CNS, _____ are the glial cells which anchor neurons to blood vessels.",
     "choices": [
@@ -1059,7 +1059,7 @@
     "subject": "anatomy_physiology",
     "topic": "nervous_system",
     "subtopic": "Neural Cells",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Nissl bodies are found in the _____ of the cell.",
     "choices": [
@@ -1091,7 +1091,7 @@
     "subject": "anatomy_physiology",
     "topic": "nervous_system",
     "subtopic": "Neural Cells",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "One of the main differences between an axon and a dendrite is that the axon contains _____ ion channels, while the dendrite contains _____ ion channels.",
     "choices": [
@@ -1139,7 +1139,7 @@
     "subject": "anatomy_physiology",
     "topic": "nervous_system",
     "subtopic": "Neural Cells",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "In the PNS, a Schwann cell encloses the axon of a single neuron with an empty portion of its _____.",
     "choices": [
@@ -1155,7 +1155,7 @@
     "subject": "anatomy_physiology",
     "topic": "nervous_system",
     "subtopic": "Neural Cells",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The _____ is the nucleus and cytoplasm of a Schwann cell which is wrapped around an axon.",
     "choices": [
@@ -1171,7 +1171,7 @@
     "subject": "anatomy_physiology",
     "topic": "nervous_system",
     "subtopic": "Neural Cells",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "A single Schwann cell generally interacts with the axons of how many neurons?",
     "choices": [
@@ -1187,7 +1187,7 @@
     "subject": "anatomy_physiology",
     "topic": "nervous_system",
     "subtopic": "Neural Cells",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "An oligodendrocyte is capable of interacting with the axons of how many neurons?",
     "choices": [
@@ -1203,7 +1203,7 @@
     "subject": "anatomy_physiology",
     "topic": "nervous_system",
     "subtopic": "Neural Cells",
-    "difficulty": 1,
+    "difficulty": 3,
     "type": "multiple_choice",
     "prompt": "During formation of a myelin sheath, the cytoplasm and nucleus of a(n) _____ remains free and does not form a neurilemma.",
     "choices": [
@@ -1251,7 +1251,7 @@
     "subject": "anatomy_physiology",
     "topic": "nervous_system",
     "subtopic": "Neural Cells",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Absence of a guiding line of Schwann cells after axonal damage in the PNS _____.",
     "choices": [
@@ -1267,7 +1267,7 @@
     "subject": "anatomy_physiology",
     "topic": "nervous_system",
     "subtopic": "Synaptic Transmission",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "A(n) _____ postsynaptic potential (abbreviated _____) occurs when the neurotransmitter activates channels which allow positive ions to leave the cell or negative ions to enter.",
     "choices": [
@@ -1283,7 +1283,7 @@
     "subject": "anatomy_physiology",
     "topic": "nervous_system",
     "subtopic": "Synaptic Transmission",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "A(n) _____ postsynaptic potential (abbreviated _____) occurs when the neurotransmitter activates channels which allow positive ions to enter the cell.",
     "choices": [
@@ -1299,7 +1299,7 @@
     "subject": "anatomy_physiology",
     "topic": "nervous_system",
     "subtopic": "Synaptic Transmission",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "An inhibitory postsynaptic potential results in a(n) _____ in membrane potential.",
     "choices": [
@@ -1315,7 +1315,7 @@
     "subject": "anatomy_physiology",
     "topic": "nervous_system",
     "subtopic": "Synaptic Transmission",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "An excitatory postsynaptic potential results in a(n) _____ in membrane potential.",
     "choices": [
@@ -1331,7 +1331,7 @@
     "subject": "anatomy_physiology",
     "topic": "nervous_system",
     "subtopic": "Synaptic Transmission",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Both excitatory and inhibitory postsynaptic potentials are _____ potentials, not _____ potentials.",
     "choices": [
@@ -1363,7 +1363,7 @@
     "subject": "anatomy_physiology",
     "topic": "nervous_system",
     "subtopic": "Synaptic Transmission",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "In temporal summation of postsynaptic potentials, several signals are received _____.",
     "choices": [
@@ -1379,7 +1379,7 @@
     "subject": "anatomy_physiology",
     "topic": "nervous_system",
     "subtopic": "Synaptic Transmission",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "In spatial summation of postsynaptic potentials, several signals are received _____.",
     "choices": [
@@ -1427,7 +1427,7 @@
     "subject": "anatomy_physiology",
     "topic": "nervous_system",
     "subtopic": "Synaptic Transmission",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Whether a neurotransmitter is excitatory or inhibitory to a given cell is determined by the _____.",
     "choices": [
@@ -1459,7 +1459,7 @@
     "subject": "anatomy_physiology",
     "topic": "nervous_system",
     "subtopic": "Synaptic Transmission",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "In cardiac muscle, the neurotransmitter acetylcholine is _____.",
     "choices": [
@@ -1475,7 +1475,7 @@
     "subject": "anatomy_physiology",
     "topic": "nervous_system",
     "subtopic": "Synaptic Transmission",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "_____ neurotransmitters bind to ion channels and cause them to open.",
     "choices": [
@@ -1491,7 +1491,7 @@
     "subject": "anatomy_physiology",
     "topic": "nervous_system",
     "subtopic": "Synaptic Transmission",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "____ neurotransmitters cause membrane proteins to change shape, which activates second messengers within the cell.",
     "choices": [
@@ -1507,7 +1507,7 @@
     "subject": "anatomy_physiology",
     "topic": "nervous_system",
     "subtopic": "Synaptic Transmission",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The response of cells to _____ neurotransmitters is much more rapid than their response to _____ neurotransmitters.",
     "choices": [
@@ -1555,7 +1555,7 @@
     "subject": "anatomy_physiology",
     "topic": "nervous_system",
     "subtopic": "Synaptic Transmission",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Second messenger systems allow complex cellular responses, but their signaling is usually _____.",
     "choices": [
@@ -1571,7 +1571,7 @@
     "subject": "anatomy_physiology",
     "topic": "nervous_system",
     "subtopic": "Synaptic Transmission",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The cell body and dendrites of a neuron contain _____ which allow them to respond to neurotransmitters.",
     "choices": [
@@ -1683,7 +1683,7 @@
     "subject": "anatomy_physiology",
     "topic": "nervous_system",
     "subtopic": "Synaptic Transmission",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "_____ synapses provide a one-way transmission of signals, as opposed to _____ synapses, which transmit signals in both directions.",
     "choices": [
@@ -1699,7 +1699,7 @@
     "subject": "anatomy_physiology",
     "topic": "nervous_system",
     "subtopic": "Synaptic Transmission",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "When a nerve impulse reaches the axonal terminal of a presynaptic neuron, _____ channels open and ions enter the cell.",
     "choices": [
@@ -1763,7 +1763,7 @@
     "subject": "anatomy_physiology",
     "topic": "nervous_system",
     "subtopic": "Synaptic Transmission",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The number of ions entering or leaving a neuron in response to a neurotransmitter depends on the _____ of the neurotransmitter and the _____ of the signal.",
     "choices": [

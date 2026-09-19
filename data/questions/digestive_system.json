@@ -1,0 +1,3648 @@
+[
+  {
+    "id": "bio-anat-20-001",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Accessory Digestive Organs",
+    "difficulty": 2,
+    "type": "multiple_choice",
+    "prompt": "The bulk of the liver is on the _____ side of the body, _____ to the esophagus and vena cava.",
+    "choices": [
+      "right; anterior",
+      "left; anterior",
+      "right; posterior",
+      "left; posterior"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-002",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Accessory Digestive Organs",
+    "difficulty": 2,
+    "type": "multiple_choice",
+    "prompt": "The lobes of the liver are the _____, _____, _____ and _____ lobes.",
+    "choices": [
+      "left; right; caudate; quadrate",
+      "left; right; caudate; falciform",
+      "anterior; posterior; caudate; quadrate",
+      "left; right; superior; inferior"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-003",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Accessory Digestive Organs",
+    "difficulty": 3,
+    "type": "multiple_choice",
+    "prompt": "The quadrate lobe of the liver is _____ to the caudate lobe. Both lie beneath and between the left and right lobes.",
+    "choices": [
+      "anterior",
+      "posterior",
+      "superior",
+      "lateral"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-004",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Accessory Digestive Organs",
+    "difficulty": 2,
+    "type": "multiple_choice",
+    "prompt": "The region on the _____ surface of the liver at which blood vessels, ducts, and nerves enter the organ is known as the _____.",
+    "choices": [
+      "inferior; porta",
+      "superior; porta",
+      "posterior; fossa",
+      "anterior; fossa"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-005",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Accessory Digestive Organs",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Blood enters the liver via two major vessels, the _____ and _____.",
+    "choices": [
+      "hepatic artery; portal vein",
+      "hepatic artery; hepatic vein",
+      "portal vein; hepatic vein",
+      "celiac artery; inferior vena cava"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-006",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Accessory Digestive Organs",
+    "difficulty": 2,
+    "type": "multiple_choice",
+    "prompt": "Innervation of the liver is enabled by entry of the _____ through the porta.",
+    "choices": [
+      "hepatic nerve plexus",
+      "celiac plexus",
+      "vagus nerve",
+      "phrenic nerve"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-007",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Accessory Digestive Organs",
+    "difficulty": 2,
+    "type": "multiple_choice",
+    "prompt": "Lymphatic vessels and _____ hepatic bile ducts leave the liver through the porta. The hepatic ducts merge to form the _____.",
+    "choices": [
+      "two; common hepatic duct",
+      "two; common bile duct",
+      "three; cystic duct",
+      "one; common bile duct"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-008",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Accessory Digestive Organs",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Dilute bile is produced by the liver and transferred to the _____, where it is _____ and _____.",
+    "choices": [
+      "gallbladder; concentrated; stored until needed",
+      "gallbladder; diluted; released continuously",
+      "pancreas; concentrated; stored until needed",
+      "duodenum; diluted; absorbed"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-009",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Accessory Digestive Organs",
+    "difficulty": 2,
+    "type": "multiple_choice",
+    "prompt": "Accumulation of unused bile in the gallbladder is dangerous, because as water and electrolytes continue to be removed, _____.",
+    "choices": [
+      "cholesterol may precipitate and form gallstones",
+      "bile salts may be reabsorbed into the blood",
+      "the gallbladder wall may rupture",
+      "bile may become too dilute to emulsify fats"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-010",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Accessory Digestive Organs",
+    "difficulty": 2,
+    "type": "multiple_choice",
+    "prompt": "Bile leaves the gallbladder via the _____ duct, which merges with the _____ duct to form the _____ duct.",
+    "choices": [
+      "cystic; common hepatic; common bile",
+      "common hepatic; cystic; pancreatic",
+      "cystic; common bile; common hepatic",
+      "hepatic; cystic; pancreatic"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-011",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Accessory Digestive Organs",
+    "difficulty": 3,
+    "type": "multiple_choice",
+    "prompt": "The gallbladder has three layers: the lumen is lined with _____, which is surrounded by the _____, and that in turn by _____.",
+    "choices": [
+      "mucosa; muscularis; serosa",
+      "mucosa; submucosa; muscularis",
+      "serosa; muscularis; mucosa",
+      "epithelium; submucosa; adventitia"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-012",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Accessory Digestive Organs",
+    "difficulty": 2,
+    "type": "multiple_choice",
+    "prompt": "The mucosa of the gallbladder, when empty, is _____ to form _____.",
+    "choices": [
+      "folded; rugae",
+      "folded; villi",
+      "stretched; haustra",
+      "smooth; plicae"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-013",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Accessory Digestive Organs",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The pancreas is a long, roughly triangular organ nestled in the curve of the _____, lying inferior to the _____.",
+    "choices": [
+      "duodenum; stomach",
+      "stomach; duodenum",
+      "jejunum; liver",
+      "duodenum; spleen"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-014",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Accessory Digestive Organs",
+    "difficulty": 2,
+    "type": "multiple_choice",
+    "prompt": "The head of the pancreas lies against the _____, while the tail extends toward (and almost reaches) the _____.",
+    "choices": [
+      "duodenum; spleen",
+      "stomach; spleen",
+      "duodenum; left kidney",
+      "jejunum; liver"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-015",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Accessory Digestive Organs",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The pancreas is essentially two glands in one: that is, it has both _____ and _____ functions.",
+    "choices": [
+      "endocrine; exocrine",
+      "endocrine; paracrine",
+      "exocrine; autocrine",
+      "merocrine; holocrine"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-016",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Accessory Digestive Organs",
+    "difficulty": 2,
+    "type": "multiple_choice",
+    "prompt": "The _____ are clusters of cells in the pancreas which secrete digestive enzymes.",
+    "choices": [
+      "acini",
+      "islets of Langerhans",
+      "lobules",
+      "follicles"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-017",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Accessory Digestive Organs",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The secretions of the acini are collected in a network of ducts which feeds into the _____, which empties into the _____ via two branches, one small and one large.",
+    "choices": [
+      "pancreatic duct; duodenum",
+      "pancreatic duct; jejunum",
+      "common bile duct; duodenum",
+      "cystic duct; stomach"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-018",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Accessory Digestive Organs",
+    "difficulty": 3,
+    "type": "multiple_choice",
+    "prompt": "The smaller branch of the pancreatic duct enters the duodenum via the _____.",
+    "choices": [
+      "minor duodenal papilla",
+      "major duodenal papilla",
+      "hepatopancreatic ampulla",
+      "duodenal sphincter"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-019",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Accessory Digestive Organs",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "_____ is the digestive juice that is produced by the liver, and which functions to emulsify _____.",
+    "choices": [
+      "bile; fats",
+      "pancreatic juice; proteins",
+      "gastric juice; carbohydrates",
+      "intestinal juice; nucleic acids"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-020",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Accessory Digestive Organs",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The liver is composed of microscopic structural units called _____.",
+    "choices": [
+      "liver lobules",
+      "portal triads",
+      "sinusoids",
+      "acini"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-021",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Accessory Digestive Organs",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Each liver lobule has roughly six sides consisting of adjacent plates, or layers, of liver cells called _____.",
+    "choices": [
+      "hepatocytes",
+      "Kupffer cells",
+      "monocytes"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-022",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Accessory Digestive Organs",
+    "difficulty": 2,
+    "type": "multiple_choice",
+    "prompt": "Between each layer of hepatocytes in a liver lobule lies a space called a(n) _____, which is a large, leaky capillary.",
+    "choices": [
+      "sinusoid",
+      "bile canaliculus",
+      "central vein",
+      "portal triad"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-023",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Accessory Digestive Organs",
+    "difficulty": 2,
+    "type": "multiple_choice",
+    "prompt": "Within the liver sinusoids, blood from the _____ and _____ mix before they reach the central vein.",
+    "choices": [
+      "hepatic artery; hepatic portal vein",
+      "hepatic vein; hepatic portal vein",
+      "hepatic artery; hepatic vein",
+      "hepatic vein; inferior vena cava"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-024",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Accessory Digestive Organs",
+    "difficulty": 2,
+    "type": "multiple_choice",
+    "prompt": "Blood in the _____ of the liver lobules eventually enters the hepatic veins, then leaves the liver to flow to the inferior vena cava.",
+    "choices": [
+      "central veins",
+      "portal triads",
+      "bile canaliculi",
+      "hepatic arteries"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-025",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Accessory Digestive Organs",
+    "difficulty": 2,
+    "type": "multiple_choice",
+    "prompt": "_____ are included in the sinusoid walls; their job is to eat debris, bacteria and worn out blood cells.",
+    "choices": [
+      "Kupffer cells",
+      "hepatocytes",
+      "goblet cells",
+      "parietal cells"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-026",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Accessory Digestive Organs",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Nutrients and waste products are altered or removed from the blood in _____ in the liver.",
+    "choices": [
+      "hepatocytes",
+      "Kupffer cells",
+      "enterocytes",
+      "goblet cells"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-027",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Accessory Digestive Organs",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "_____ in the liver are the cells in which _____ is stored, for use as an energy source during brief fasts.",
+    "choices": [
+      "hepatocytes; glycogen",
+      "Kupffer cells; glycogen",
+      "hepatocytes; starch",
+      "Kupffer cells; triglycerides"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-028",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Accessory Digestive Organs",
+    "difficulty": 2,
+    "type": "multiple_choice",
+    "prompt": "In the absence of insulin, _____ will use lipids to produce _____, an alternate fuel source usable by many tissues in the body, including the brain.",
+    "choices": [
+      "hepatocytes; ketone bodies",
+      "adipocytes; ketone bodies",
+      "hepatocytes; glycogen",
+      "adipocytes; glucose"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-029",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Accessory Digestive Organs",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "During periods of extreme hypernutrition (over-eating), _____ in the liver will store lipids. This is also common in alcoholism, since lipid metabolism is inhibited during the metabolism of alcohol.",
+    "choices": [
+      "hepatocytes",
+      "Kupffer cells",
+      "endothelial cells",
+      "goblet cells"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-030",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Accessory Digestive Organs",
+    "difficulty": 2,
+    "type": "multiple_choice",
+    "prompt": "Once bile is produced by _____, it leaves the liver lobules via the _____.",
+    "choices": [
+      "hepatocytes; bile canaliculi",
+      "Kupffer cells; bile canaliculi",
+      "hepatocytes; sinusoids",
+      "Kupffer cells; central veins"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-031",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Accessory Digestive Organs",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "_____ is any disease characterized by inflammation of the liver, and is often caused by viral infections.",
+    "choices": [
+      "hepatitis",
+      "cirrhosis",
+      "cholecystitis",
+      "pancreatitis"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-032",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Accessory Digestive Organs",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "_____ is a disease in which normal liver tissue is replaced by connective tissue.",
+    "choices": [
+      "cirrhosis",
+      "hepatitis",
+      "jaundice",
+      "cholelithiasis"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-033",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Accessory Digestive Organs",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Detoxified substances and waste products which are removed from the blood by the liver are disposed of in the _____.",
+    "choices": [
+      "bile",
+      "lymph",
+      "pancreatic juice",
+      "intestinal juice"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-034",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Accessory Digestive Organs",
+    "difficulty": 2,
+    "type": "multiple_choice",
+    "prompt": "Bile is a mixture of waste products and '_____,' which are required for fat digestion. They are _____ in the ileum so that they can be recycled.",
+    "choices": [
+      "bile salts; reabsorbed",
+      "bile pigments; reabsorbed",
+      "bile salts; degraded",
+      "bile pigments; excreted"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-035",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Accessory Digestive Organs",
+    "difficulty": 2,
+    "type": "multiple_choice",
+    "prompt": "_____ are made from cholesterol and use more cholesterol than any other single bodily function.",
+    "choices": [
+      "bile salts",
+      "steroid hormones",
+      "bile pigments",
+      "phospholipids"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-036",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Accessory Digestive Organs",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The major function of the gallbladder is to _____ and _____ bile until it is needed.",
+    "choices": [
+      "store; concentrate",
+      "produce; store",
+      "produce; dilute",
+      "store; dilute"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-037",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Accessory Digestive Organs",
+    "difficulty": 3,
+    "type": "multiple_choice",
+    "prompt": "Bile backs up into the gallbladder through the _____ due to the fact that the _____ is closed unless digestion is in progress.",
+    "choices": [
+      "cystic duct; hepatopancreatic sphincter",
+      "common bile duct; pyloric sphincter",
+      "cystic duct; ileocecal sphincter",
+      "common hepatic duct; hepatopancreatic sphincter"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-038",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Accessory Digestive Organs",
+    "difficulty": 2,
+    "type": "multiple_choice",
+    "prompt": "Gallbladder contraction and opening of the hepatopancreatic sphincter is controlled by _____, a hormone with several functions.",
+    "choices": [
+      "cholecystokinin (CCK)",
+      "secretin",
+      "gastrin",
+      "gastric inhibitory peptide (GIP)"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-039",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Accessory Digestive Organs",
+    "difficulty": 2,
+    "type": "multiple_choice",
+    "prompt": "Cholecystokinin (CCK) is released to the blood by the duodenum in response to the entry of _____.",
+    "choices": [
+      "fat-containing chyme",
+      "acidic chyme",
+      "carbohydrate-rich chyme",
+      "hypotonic chyme"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-040",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Accessory Digestive Organs",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "All of the macromolecules depend on _____ for the production of enzymes which lead to their digestion.",
+    "choices": [
+      "the pancreas",
+      "the liver",
+      "the gallbladder",
+      "the stomach"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-042",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Accessory Digestive Organs",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Secretion of bicarbonate by the pancreas is one of its major functions: it is used to _____ entering the _____.",
+    "choices": [
+      "neutralize acidic chyme; duodenum",
+      "neutralize acidic chyme; stomach",
+      "acidify chyme; duodenum",
+      "emulsify fats; ileum"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-043",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Accessory Digestive Organs",
+    "difficulty": 2,
+    "type": "multiple_choice",
+    "prompt": "Many enzymes produced by the pancreas are released as _____ (aka proenzymes).",
+    "choices": [
+      "zymogens",
+      "active enzymes",
+      "hormones",
+      "coenzymes"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-044",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Accessory Digestive Organs",
+    "difficulty": 2,
+    "type": "multiple_choice",
+    "prompt": "Two major hormonal controls of pancreatic activity are _____ and _____.",
+    "choices": [
+      "cholecystokinin (CCK); secretin",
+      "gastrin; secretin",
+      "cholecystokinin (CCK); insulin",
+      "gastrin; glucagon"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-045",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Accessory Digestive Organs",
+    "difficulty": 2,
+    "type": "multiple_choice",
+    "prompt": "Secretin is released by duodenal cells in response to _____.",
+    "choices": [
+      "low pH",
+      "fatty chyme",
+      "protein-rich chyme",
+      "distension of the stomach"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-046",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Accessory Digestive Organs",
+    "difficulty": 2,
+    "type": "multiple_choice",
+    "prompt": "Secretin prompts the pancreas to release _____-rich pancreatic juice.",
+    "choices": [
+      "bicarbonate",
+      "enzyme",
+      "mucus",
+      "chloride"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-047",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Accessory Digestive Organs",
+    "difficulty": 3,
+    "type": "multiple_choice",
+    "prompt": "Cholecystokinin (CCK) is released by duodenal cells in response to _____ and _____.",
+    "choices": [
+      "proteins; fats",
+      "carbohydrates; fats",
+      "acid; proteins",
+      "carbohydrates; acid"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-048",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Accessory Digestive Organs",
+    "difficulty": 2,
+    "type": "multiple_choice",
+    "prompt": "Cholecystokinin prompts the pancreas to release _____-rich pancreatic juice.",
+    "choices": [
+      "enzyme",
+      "bicarbonate",
+      "mucus",
+      "water"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-049",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Accessory Digestive Organs",
+    "difficulty": 3,
+    "type": "multiple_choice",
+    "prompt": "The CNS can also activate pancreatic secretions via the _____ nerve: this occurs primarily during the _____ and _____ phases of gastric regulation.",
+    "choices": [
+      "vagus; cephalic; gastric",
+      "vagus; gastric; intestinal",
+      "phrenic; cephalic; gastric",
+      "splanchnic; cephalic; intestinal"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-050",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Accessory Digestive Organs",
+    "difficulty": 2,
+    "type": "multiple_choice",
+    "prompt": "Premature activation of pepsinogen, trypsinogen, or any of the digestive enzymes would result in _____.",
+    "choices": [
+      "digestion of the cells that produce them",
+      "increased nutrient absorption",
+      "neutralization of the enzymes",
+      "faster emptying of the stomach"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-051",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Accessory Digestive Organs",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Digestive enzymes are produced primarily by the _____, not by the intestines.",
+    "choices": [
+      "pancreas",
+      "liver",
+      "gallbladder",
+      "stomach"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-052",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Chemical Digestion",
+    "difficulty": 2,
+    "type": "multiple_choice",
+    "prompt": "Microvilli have enzymes on their surfaces which _____.",
+    "choices": [
+      "digest carbohydrates and proteins",
+      "digest lipids",
+      "neutralize acid",
+      "emulsify fats"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-053",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Chemical Digestion",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "To suspend tiny droplets of one substance in another (for example, tiny droplets of oil in water) is to _____ it.",
+    "choices": [
+      "emulsify",
+      "hydrolyze",
+      "saponify",
+      "dissolve"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-054",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Chemical Digestion",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Fat is emulsified in order to increase the _____ of the droplets.",
+    "choices": [
+      "surface area",
+      "volume",
+      "density",
+      "viscosity"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-055",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Chemical Digestion",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Digestion of macromolecules involves their _____ into smaller molecules.",
+    "choices": [
+      "hydrolysis",
+      "dehydration synthesis",
+      "oxidation",
+      "emulsification"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-056",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Chemical Digestion",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Carbohydrate digestion begins in the _____ with the enzyme _____.",
+    "choices": [
+      "mouth; salivary amylase",
+      "stomach; pepsin",
+      "duodenum; pancreatic amylase",
+      "mouth; lingual lipase"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-057",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Chemical Digestion",
+    "difficulty": 2,
+    "type": "multiple_choice",
+    "prompt": "Carbohydrate digestion slows in the _____, then is accelerated again in the _____, where carbohydrates are exposed to _____.",
+    "choices": [
+      "stomach; duodenum; pancreatic amylase",
+      "stomach; duodenum; pepsin",
+      "esophagus; stomach; salivary amylase",
+      "duodenum; ileum; brush border enzymes"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-058",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Chemical Digestion",
+    "difficulty": 2,
+    "type": "multiple_choice",
+    "prompt": "Once carbohydrates have been broken down into disaccharides, the final hydrolysis to yield monomers is catalyzed by enzymes found _____.",
+    "choices": [
+      "on the brush border (microvilli)",
+      "in pancreatic juice",
+      "in saliva",
+      "in gastric juice"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-059",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Chemical Digestion",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "We lack enzymes to digest some carbohydrates (for example, cellulose) and so if eaten, these reach the _____ undigested. They are referred to as _____.",
+    "choices": [
+      "large intestine; fiber",
+      "stomach; fiber",
+      "large intestine; starch",
+      "small intestine; glycogen"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-060",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Chemical Digestion",
+    "difficulty": 2,
+    "type": "multiple_choice",
+    "prompt": "The first enzyme to hydrolyze proteins into smaller parts is _____, in the _____. This enzyme is inactivated when it reaches the _____.",
+    "choices": [
+      "pepsin; stomach; duodenum",
+      "trypsin; duodenum; ileum",
+      "pepsin; mouth; stomach",
+      "amylase; mouth; stomach"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-061",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Chemical Digestion",
+    "difficulty": 2,
+    "type": "multiple_choice",
+    "prompt": "Partially digested proteins are exposed to several free-floating proteases in the _____; these are produced by the _____.",
+    "choices": [
+      "duodenum; pancreas",
+      "stomach; pancreas",
+      "duodenum; liver",
+      "jejunum; gallbladder"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-062",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Chemical Digestion",
+    "difficulty": 3,
+    "type": "multiple_choice",
+    "prompt": "Polypeptides are hydrolyzed to single amino acids by _____, or in the case of some dipeptides or tripeptides, by _____ of the intestinal epithelial cells.",
+    "choices": [
+      "brush border enzymes; intracellular enzymes",
+      "pancreatic enzymes; brush border enzymes",
+      "gastric enzymes; pancreatic enzymes",
+      "intracellular enzymes; brush border enzymes"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-063",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Chemical Digestion",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Dietary fat is usually in the form of _____.",
+    "choices": [
+      "triglycerides",
+      "phospholipids",
+      "cholesterol",
+      "free fatty acids"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-064",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Chemical Digestion",
+    "difficulty": 2,
+    "type": "multiple_choice",
+    "prompt": "For the most part, digestion of fat begins in the _____, with their _____ by bile. (A very small amount of fat digestion occurs prior to this point.)",
+    "choices": [
+      "duodenum; emulsification",
+      "stomach; emulsification",
+      "duodenum; hydrolysis",
+      "mouth; hydrolysis"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-065",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Chemical Digestion",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Fat-digesting enzymes called _____ are released by the _____.",
+    "choices": [
+      "lipases; pancreas",
+      "lipases; liver",
+      "proteases; pancreas",
+      "amylases; liver"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-066",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Chemical Digestion",
+    "difficulty": 3,
+    "type": "multiple_choice",
+    "prompt": "Lipases in the small intestine hydrolyze triglycerides to form _____ and _____. These combine with a component of bile salts to form microscopic _____ in a process similar to emulsification of the original fats.",
+    "choices": [
+      "monoglycerides; fatty acids; micelles",
+      "glycerol; fatty acids; chylomicrons",
+      "monoglycerides; fatty acids; chylomicrons",
+      "diglycerides; glycerol; micelles"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-067",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Chemical Digestion",
+    "difficulty": 2,
+    "type": "multiple_choice",
+    "prompt": "In the epithelial cells of the small intestine, monoglycerides and fatty acids are used to re-make the triglycerides. These, and cholesterol, are coated with _____ to form structures called _____.",
+    "choices": [
+      "protein; chylomicrons",
+      "protein; micelles",
+      "phospholipid; micelles",
+      "bile salts; chylomicrons"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-068",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Chemical Digestion",
+    "difficulty": 2,
+    "type": "multiple_choice",
+    "prompt": "Digestion of nucleic acids begins in the _____, where they encounter _____ secreted by the _____.",
+    "choices": [
+      "duodenum; nucleases; pancreas",
+      "stomach; nucleases; pancreas",
+      "duodenum; proteases; liver",
+      "mouth; nucleases; salivary glands"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-069",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Digestive System Functions",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The digestive system organs fall into two major groups: the _____ and the _____.",
+    "choices": [
+      "gastrointestinal (GI) tract; accessory organs",
+      "alimentary canal; peritoneal organs",
+      "upper GI tract; lower GI tract",
+      "foregut; hindgut"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-070",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Digestive System Functions",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The gastrointestinal tract is sometimes called the _____.",
+    "choices": [
+      "alimentary canal",
+      "peritoneal canal",
+      "enteric canal",
+      "visceral canal"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-071",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Digestive System Functions",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The gastrointestinal (GI) tract is a(n) _____ tube that twists its way from the mouth to the anus. Chemically inert objects can travel in one end and out the other without change, and are technically never inside the body.",
+    "choices": [
+      "continuous",
+      "closed",
+      "branching",
+      "blind-ended"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-072",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Digestive System Functions",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The accessory digestive organs modify ingested food either _____ or _____, or both.",
+    "choices": [
+      "mechanically; chemically",
+      "thermally; chemically",
+      "mechanically; electrically",
+      "osmotically; thermally"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-073",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Digestive System Functions",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The central area of the gastrointestinal tract is called the _____, a name that describes this region in many other tubular organs as well.",
+    "choices": [
+      "lumen",
+      "hilum",
+      "fossa",
+      "sinus"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-074",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Digestive System Functions",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The organs of the digestive system which are found in the abdominal cavity, and the cavity itself, are lined by a(n) _____ membrane: the _____.",
+    "choices": [
+      "serous; peritoneum",
+      "mucous; peritoneum",
+      "serous; pleura",
+      "synovial; mesentery"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-075",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Digestive System Functions",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The peritoneal cavity is located between the visceral and parietal layers of the peritoneum and is filled with _____.",
+    "choices": [
+      "serous fluid",
+      "synovial fluid",
+      "mucus",
+      "lymph"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-076",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Digestive System Functions",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Several organs lie outside the peritoneal cavity, between the parietal peritoneum and the dorsal abdominal wall. These are referred to as _____ organs.",
+    "choices": [
+      "retroperitoneal",
+      "intraperitoneal",
+      "peritoneal",
+      "mesenteric"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-077",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Digestive System Functions",
+    "difficulty": 2,
+    "type": "multiple_choice",
+    "prompt": "The duodenum, pancreas, ascending colon, descending colon, rectum, kidneys, adrenal glands, and urinary bladder are all _____ organs.",
+    "choices": [
+      "retroperitoneal",
+      "intraperitoneal",
+      "peritoneal",
+      "mesenteric"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-078",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Digestive System Functions",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The _____ contains blood vessels, lymphatics, and nerves which supply the digestive organs.",
+    "choices": [
+      "mesentery",
+      "parietal peritoneum",
+      "peritoneal cavity",
+      "serosa"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-079",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Digestive System Functions",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The _____ holds the abdominal organs in place and prevents them from shifting within the abdominal cavity. In addition, fat accumulates within its folds.",
+    "choices": [
+      "mesentery",
+      "parietal peritoneum",
+      "peritoneal cavity",
+      "serosa"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-080",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Digestive System Functions",
+    "difficulty": 2,
+    "type": "multiple_choice",
+    "prompt": "The most visible mesentery (upon dissection) is the folded layer which hangs like a curtain from the stomach and transverse colon; it is called the _____.",
+    "choices": [
+      "greater omentum",
+      "lesser omentum",
+      "mesocolon",
+      "falciform ligament"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-081",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Digestive System Functions",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Fat accumulates between the folds of the _____, leading to its alternate name: the 'fatty apron.'",
+    "choices": [
+      "greater omentum",
+      "lesser omentum",
+      "mesocolon",
+      "falciform ligament"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-082",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Digestive System Functions",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "_____ means simply 'eating or drinking,' while _____ refers to the process of eliminating _____ (material which is left over after all usable substances have been extracted).",
+    "choices": [
+      "Ingestion; defecation; feces",
+      "Digestion; absorption; chyme",
+      "Ingestion; absorption; feces",
+      "Digestion; defecation; bolus"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-083",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Digestive System Functions",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "_____ is the breakdown of ingested foods into simple organic molecules.",
+    "choices": [
+      "Digestion",
+      "Absorption",
+      "Ingestion",
+      "Propulsion"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-084",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Digestive System Functions",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "_____ refers to the mixing of food and digestive juices into a soft pulp.",
+    "choices": [
+      "Mechanical digestion",
+      "Chemical digestion",
+      "Absorption",
+      "Propulsion"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-085",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Digestive System Functions",
+    "difficulty": 2,
+    "type": "multiple_choice",
+    "prompt": "Smooth muscles in the gastrointestinal tract are responsible for the _____ of food from mouth to anus via processes called _____ (swallowing) and _____.",
+    "choices": [
+      "propulsion; deglutition; peristalsis",
+      "propulsion; mastication; segmentation",
+      "absorption; deglutition; segmentation",
+      "digestion; mastication; peristalsis"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-086",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Digestive System Functions",
+    "difficulty": 2,
+    "type": "multiple_choice",
+    "prompt": "Mechanical digestion is continued throughout the gastrointestinal tract via a process called _____, in which the bolus is rhythmically divided into ever-smaller portions by bidirectional, peristalsis-like contractions of smooth muscle.",
+    "choices": [
+      "segmentation",
+      "peristalsis",
+      "mastication",
+      "deglutition"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-087",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Digestive System Functions",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "_____ of enzymes and corrosive liquids, as well as mucus to lubricate and protect the system itself is the function of specialized cells within the gastrointestinal tract and accessory organs.",
+    "choices": [
+      "Secretion",
+      "Absorption",
+      "Ingestion",
+      "Excretion"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-088",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Digestive System Functions",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "_____ of nutrients is possible because cells of the gastrointestinal tract actively transcytose them into the blood or lymph.",
+    "choices": [
+      "Absorption",
+      "Secretion",
+      "Digestion",
+      "Propulsion"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-089",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Digestive System Functions",
+    "difficulty": 2,
+    "type": "multiple_choice",
+    "prompt": "The epithelial cells of the GI tract are joined by _____ so that nutrient molecules cannot enter the body by passing between cells, but must instead pass through them.",
+    "choices": [
+      "tight junctions",
+      "gap junctions",
+      "desmosomes",
+      "hemidesmosomes"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-090",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Digestive System Functions",
+    "difficulty": 2,
+    "type": "multiple_choice",
+    "prompt": "Neural control is primarily _____, via the _____, with only minor modulation from the CNS.",
+    "choices": [
+      "local; enteric plexus",
+      "central; vagus nerve",
+      "local; vagus nerve",
+      "central; enteric plexus"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-091",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Digestive System Functions",
+    "difficulty": 2,
+    "type": "multiple_choice",
+    "prompt": "Neural regulation of the digestive system is complex, and involves over 30 _____, each mediating a slightly different response from the cells which receive them as signals.",
+    "choices": [
+      "neurotransmitters",
+      "hormones",
+      "enzymes",
+      "receptor types"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-092",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Digestive System Functions",
+    "difficulty": 2,
+    "type": "multiple_choice",
+    "prompt": "The outermost tunic of the GI tract is called the _____ when it is adjacent to the peritoneal cavity, or the _____ in regions where it is physically continuous with surrounding tissue.",
+    "choices": [
+      "visceral serosa; adventitia",
+      "adventitia; visceral serosa",
+      "parietal peritoneum; adventitia",
+      "visceral serosa; mesentery"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-093",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Digestive System Functions",
+    "difficulty": 3,
+    "type": "multiple_choice",
+    "prompt": "The mucosa of the intestinal tract consists of three layers: from the lumen outward, they are the _____, _____ and _____.",
+    "choices": [
+      "mucous epithelium; lamina propria; muscularis mucosae",
+      "lamina propria; mucous epithelium; muscularis mucosae",
+      "muscularis mucosae; lamina propria; mucous epithelium",
+      "mucous epithelium; muscularis mucosae; lamina propria"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-094",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Digestive System Functions",
+    "difficulty": 2,
+    "type": "multiple_choice",
+    "prompt": "In many regions of the GI tract, the mucous epithelium invaginates, penetrating the _____ to form _____.",
+    "choices": [
+      "lamina propria; glands",
+      "lamina propria; villi",
+      "submucosa; glands",
+      "muscularis mucosae; crypts"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-095",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Digestive System Functions",
+    "difficulty": 2,
+    "type": "multiple_choice",
+    "prompt": "Blood vessels and lymphatic vessels in the _____ layer of the GI tract's mucosa provide nutrients and oxygen, and remove wastes, from the mucous epithelium.",
+    "choices": [
+      "lamina propria",
+      "muscularis mucosae",
+      "submucosa",
+      "serosa"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-096",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Digestive System Functions",
+    "difficulty": 3,
+    "type": "multiple_choice",
+    "prompt": "The mucosa-associated lymphoid tissue (MALT) is found in the _____ . Since it is in the gut, MALT in this region is often called \"_____\" instead of MALT.",
+    "choices": [
+      "lamina propria; Gut-Associated Lymphoid Tissue (GALT)",
+      "muscularis mucosae; Gut-Associated Lymphoid Tissue (GALT)",
+      "lamina propria; Peyer's patches",
+      "submucosa; lymph nodes"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-097",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Digestive System Functions",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The purpose of the MALT is to protect the GI tract from _____.",
+    "choices": [
+      "bacteria which contaminate food or drink",
+      "digestive enzymes",
+      "hydrochloric acid",
+      "mechanical abrasion"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-098",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Digestive System Functions",
+    "difficulty": 3,
+    "type": "multiple_choice",
+    "prompt": "Smooth muscles in the _____ create transient wrinkles which decrease adherence of substances to the intestinal surface and increase local mixing.",
+    "choices": [
+      "muscularis mucosae",
+      "lamina propria",
+      "muscularis externa",
+      "submucosa"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-099",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Digestive System Functions",
+    "difficulty": 2,
+    "type": "multiple_choice",
+    "prompt": "Most blood vessels, lymphatic vessels, and nerve fibers of the GI tract are found in the _____ .",
+    "choices": [
+      "submucosa",
+      "mucosa",
+      "muscularis",
+      "serosa"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-100",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Digestive System Functions",
+    "difficulty": 2,
+    "type": "multiple_choice",
+    "prompt": "The inner layer of the muscularis consists of smooth muscle fibers which _____ the lumen, while in the outer layer the fibers are arranged _____.",
+    "choices": [
+      "encircle; longitudinally",
+      "run parallel to; circularly",
+      "encircle; obliquely",
+      "run parallel to; longitudinally"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-101",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Digestive System Functions",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "In the stomach and intestines, peristalsis and segmentation are accomplished by alternating contractions of the inner and outer layers of the _____ .",
+    "choices": [
+      "muscularis",
+      "mucosa",
+      "submucosa",
+      "serosa"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-102",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Digestive System Functions",
+    "difficulty": 2,
+    "type": "multiple_choice",
+    "prompt": "_____ cells in the muscularis control the rate of peristalsis and segmentation.",
+    "choices": [
+      "Pacemaker",
+      "Enteroendocrine",
+      "Parietal",
+      "Goblet"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-103",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Digestive System Functions",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "In certain regions of the GI tract, the muscles of the muscularis act as _____, and are capable of closing to prevent movement of food or liquid through the tract.",
+    "choices": [
+      "sphincters",
+      "valves",
+      "plicae",
+      "rugae"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-104",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Digestive System Functions",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "During _____, complex molecules are separated and hydrolyzed by enzymes, emulsifiers and corrosive chemicals.",
+    "choices": [
+      "chemical digestion",
+      "mechanical digestion",
+      "absorption",
+      "secretion"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-105",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Large Intestine",
+    "difficulty": 2,
+    "type": "multiple_choice",
+    "prompt": "The large intestine is divided into five regions. The _____, _____ and approximately one half of the _____ are found on the right side of the body.",
+    "choices": [
+      "vermiform appendix; cecum; colon",
+      "cecum; rectum; colon",
+      "vermiform appendix; rectum; anal canal",
+      "ileum; cecum; rectum"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-106",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Large Intestine",
+    "difficulty": 2,
+    "type": "multiple_choice",
+    "prompt": "The large intestine is divided into five regions. Approximately one half of the _____ is found on the left side of the body; from there, feces reach the _____, their final storage place prior to their exit through the _____.",
+    "choices": [
+      "colon; rectum; anal canal",
+      "colon; anal canal; rectum",
+      "cecum; colon; rectum",
+      "rectum; colon; anal canal"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-107",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Large Intestine",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The colon is divided into four regions, the _____ colon on the right side of the body, the _____ colon which crosses from right to left, and the _____ colon and _____ colon on the left side of the body.",
+    "choices": [
+      "ascending; transverse; descending; sigmoid",
+      "descending; transverse; ascending; sigmoid",
+      "ascending; sigmoid; descending; transverse",
+      "transverse; ascending; sigmoid; descending"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-108",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Large Intestine",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The _____ is a vestigial organ roughly the size of one's index finger, suspended from the cecum.",
+    "choices": [
+      "vermiform appendix",
+      "epiploic appendage",
+      "haustrum",
+      "taenia coli"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-109",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Large Intestine",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The chyme, or bolus, enters the large intestine at the top of the _____, and is allowed to fill it and remain there for awhile to decrease the water content.",
+    "choices": [
+      "cecum",
+      "rectum",
+      "sigmoid colon",
+      "duodenum"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-110",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Large Intestine",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Entry of chyme into the large intestine is controlled by the _____, which is found at the juncture of the ileum and large intestine.",
+    "choices": [
+      "ileocecal valve",
+      "pyloric sphincter",
+      "internal anal sphincter",
+      "cardiac sphincter"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-111",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Large Intestine",
+    "difficulty": 2,
+    "type": "multiple_choice",
+    "prompt": "The teniae coli are _____ which run the length of the large intestine. They cause the formation of puckered pouches called _____ along the entire length of the large intestine.",
+    "choices": [
+      "ribbons of smooth muscle; haustra",
+      "ribbons of smooth muscle; rugae",
+      "folds of mucosa; haustra",
+      "fat-filled pouches; epiploic appendages"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-112",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Large Intestine",
+    "difficulty": 2,
+    "type": "multiple_choice",
+    "prompt": "Small, fat-filled pouches are attached to the large intestine here and there along its length: these are called _____.",
+    "choices": [
+      "epiploic appendages",
+      "haustra",
+      "taeniae coli",
+      "rugae"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-113",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Large Intestine",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The anal canal is a 1.5 cm passageway which conducts feces out of the rectum. It includes two _____; the inner one is involuntary, the outer, voluntary.",
+    "choices": [
+      "sphincters",
+      "valves",
+      "anal columns",
+      "haustra"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-114",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Large Intestine",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "One of the main functions of the large intestine is to absorb _____.",
+    "choices": [
+      "water",
+      "proteins",
+      "lipids",
+      "monosaccharides"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-115",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Large Intestine",
+    "difficulty": 2,
+    "type": "multiple_choice",
+    "prompt": "In order to reduce friction as the rapidly dehydrating feces pass through the large intestine, the surface of the colon contains many deep microscopic indentations called _____, which contain a large number of mucus producing _____.",
+    "choices": [
+      "intestinal crypts; goblet cells",
+      "villi; goblet cells",
+      "haustra; parietal cells",
+      "intestinal crypts; chief cells"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-116",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Large Intestine",
+    "difficulty": 2,
+    "type": "multiple_choice",
+    "prompt": "The surface epithelium of the anal canal is _____ .",
+    "choices": [
+      "stratified squamous epithelium",
+      "simple columnar epithelium",
+      "simple squamous epithelium",
+      "transitional epithelium"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-117",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Large Intestine",
+    "difficulty": 2,
+    "type": "multiple_choice",
+    "prompt": "Bacteria which survive the digestion process multiply in the _____. Bacteria account for over one quarter of the dry weight of the feces.",
+    "choices": [
+      "ileum and large intestine",
+      "stomach and duodenum",
+      "duodenum and jejunum",
+      "esophagus and stomach"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-118",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Large Intestine",
+    "difficulty": 2,
+    "type": "multiple_choice",
+    "prompt": "The large intestine has two major patterns of movement: _____, which are a form of segmentation, and _____, which are powerful waves which send feces toward the rectum at a rapid pace.",
+    "choices": [
+      "haustral contractions; mass movements",
+      "mass movements; haustral contractions",
+      "peristaltic waves; haustral contractions",
+      "mixing waves; peristaltic waves"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-119",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Large Intestine",
+    "difficulty": 2,
+    "type": "multiple_choice",
+    "prompt": "One stimulus for mass movements of the colon is known as the _____ reflex, and is triggered by gastric filling.",
+    "choices": [
+      "gastrocolic",
+      "gastroileal",
+      "enterogastric",
+      "defecation"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-120",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Large Intestine",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "_____ in the diet increases fecal bulk and prevents damage to the walls of the colon caused by small, hard feces formed by over-absorption of water.",
+    "choices": [
+      "fiber",
+      "protein",
+      "saturated fat",
+      "simple sugar"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-121",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Large Intestine",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Overly rapid transit of feces through the large intestine does not allow time for water resorption; the result is _____.",
+    "choices": [
+      "diarrhea",
+      "constipation",
+      "flatulence",
+      "hemorrhoids"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-122",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Large Intestine",
+    "difficulty": 2,
+    "type": "multiple_choice",
+    "prompt": "Most intestinal gas (_____) is produced as a result of _____ of undigested macromolecules by _____ in the large intestine. (The amount produced depends on their identity and nature.)",
+    "choices": [
+      "flatus; fermentation; bacteria",
+      "flatus; hydrolysis; enzymes",
+      "chyme; fermentation; enzymes",
+      "feces; oxidation; bacteria"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-123",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Oral Cavity",
+    "difficulty": 2,
+    "type": "multiple_choice",
+    "prompt": "The oral cavity is divided into two regions: the _____ lies outside of the boundary formed by the teeth (or gums, aka _____) but inside of the mouth; the _____ lies inside of the boundary formed by the teeth (or gums).",
+    "choices": [
+      "vestibule; gingiva; oral cavity proper",
+      "oral cavity proper; gingiva; vestibule",
+      "vestibule; frenulum; fauces",
+      "fauces; gingiva; vestibule"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-124",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Oral Cavity",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The posterior of the oral cavity leads into the _____.",
+    "choices": [
+      "pharynx",
+      "esophagus",
+      "larynx",
+      "trachea"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-125",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Oral Cavity",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The Latin word for lip is _____ (plural, _____).",
+    "choices": [
+      "labium; labia",
+      "lingua; linguae",
+      "bucca; buccae"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-126",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Oral Cavity",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The roof of the oral cavity is divided into two parts: the bony _____ and the _____.",
+    "choices": [
+      "hard palate; soft palate",
+      "soft palate; hard palate",
+      "hard palate; uvula",
+      "palatine bone; fauces"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-127",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Oral Cavity",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The _____ is the 'dangly bit' that projects from the soft palate; together with the soft palate, it prevents _____ as one swallows.",
+    "choices": [
+      "uvula; food from entering the nose",
+      "epiglottis; food from entering the trachea",
+      "uvula; air from entering the esophagus",
+      "epiglottis; food from entering the nose"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-128",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Oral Cavity",
+    "difficulty": 2,
+    "type": "multiple_choice",
+    "prompt": "The opening to the pharynx, aka the _____, is bounded laterally by the _____ of the lymphatic system.",
+    "choices": [
+      "fauces; tonsils",
+      "fauces; lymph nodes",
+      "vestibule; tonsils",
+      "glottis; adenoids"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-129",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Oral Cavity",
+    "difficulty": 2,
+    "type": "multiple_choice",
+    "prompt": "The intrinsic muscles of the tongue allow it to change _____, while the extrinsic muscles change its _____.",
+    "choices": [
+      "shape; position",
+      "position; shape",
+      "size; shape",
+      "length; texture"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-130",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Oral Cavity",
+    "difficulty": 2,
+    "type": "multiple_choice",
+    "prompt": "Small bumps on the tongue enhance the tongue's ability to _____. In addition, some house receptors called _____.",
+    "choices": [
+      "grip food; taste buds",
+      "taste food; papillae",
+      "grip food; papillae",
+      "sense temperature; taste buds"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-131",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Oral Cavity",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Children have _____ teeth, adults (counting wisdom teeth), _____.",
+    "choices": [
+      "20; 32",
+      "32; 20",
+      "24; 28",
+      "20; 28"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-132",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Oral Cavity",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "_____ are teeth which cut; _____, teeth which tear; and _____ and _____, teeth which grind.",
+    "choices": [
+      "Incisors; canines; premolars; molars",
+      "Canines; incisors; premolars; molars",
+      "Incisors; premolars; canines; molars",
+      "Molars; canines; incisors; premolars"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-133",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Oral Cavity",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The part of a tooth visible above the gums is the _____; the part below the gums, the _____; and the boundary between the two, the _____.",
+    "choices": [
+      "crown; root; neck",
+      "root; crown; neck",
+      "crown; neck; root",
+      "enamel; dentin; cementum"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-134",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Oral Cavity",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The crown of a tooth is composed of a core of living tissue called _____ surrounded by a layer of nonliving _____, the hardest substance in the body.",
+    "choices": [
+      "dentin; enamel",
+      "enamel; dentin",
+      "pulp; cementum",
+      "cementum; dentin"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-135",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Oral Cavity",
+    "difficulty": 2,
+    "type": "multiple_choice",
+    "prompt": "Teeth are held in their sockets by _____; the joints they form with the _____ (the sockets) are called gomphoses.",
+    "choices": [
+      "periodontal ligaments; alveoli",
+      "gingival ligaments; alveoli",
+      "periodontal ligaments; foramina",
+      "cementum; fossae"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-136",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Oral Cavity",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "_____ pairs of large salivary glands and hundreds of microscopic ones produce saliva, which lubricates and moistens the oral cavity.",
+    "choices": [
+      "Three",
+      "Two",
+      "Four",
+      "Six"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-137",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Oral Cavity",
+    "difficulty": 2,
+    "type": "multiple_choice",
+    "prompt": "The parotid glands are located _____, and produce serous (watery) saliva.",
+    "choices": [
+      "posterolateral to the masseter",
+      "beneath the tongue",
+      "inferomedial to the mandible",
+      "anterior to the masseter"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-138",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Oral Cavity",
+    "difficulty": 2,
+    "type": "multiple_choice",
+    "prompt": "The sublingual glands are salivary glands which are located _____ and which produce _____ saliva.",
+    "choices": [
+      "beneath the tongue; mucus-rich",
+      "beneath the tongue; serous",
+      "posterolateral to the masseter; mucus-rich",
+      "inferomedial to the mandible; serous"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-139",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Oral Cavity",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "_____ means 'chewing.' It is one means by which _____ occurs.",
+    "choices": [
+      "Mastication; mechanical digestion",
+      "Deglutition; mechanical digestion",
+      "Mastication; chemical digestion",
+      "Deglutition; propulsion"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-140",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Oral Cavity",
+    "difficulty": 2,
+    "type": "multiple_choice",
+    "prompt": "The mouth is kept moist between meals primarily by the _____, which are scattered throughout the oral mucosa.",
+    "choices": [
+      "intrinsic (buccal) salivary glands",
+      "parotid glands",
+      "submandibular glands",
+      "sublingual glands"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-141",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Oral Cavity",
+    "difficulty": 2,
+    "type": "multiple_choice",
+    "prompt": "When we ingest food (or even think about it!) signals from the _____ branch of the autonomic nervous system cause the _____ salivary glands to produce saliva.",
+    "choices": [
+      "parasympathetic; extrinsic",
+      "sympathetic; extrinsic",
+      "parasympathetic; intrinsic",
+      "sympathetic; intrinsic"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-142",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Oral Cavity",
+    "difficulty": 3,
+    "type": "multiple_choice",
+    "prompt": "Damage to _____ can prevent signals from the CNS from reaching the salivary glands and increasing salivation.",
+    "choices": [
+      "cranial nerves VII or IX",
+      "cranial nerves III or IV",
+      "cranial nerves X or XI",
+      "cranial nerves I or II"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-143",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Oral Cavity",
+    "difficulty": 2,
+    "type": "multiple_choice",
+    "prompt": "The _____ branch of the autonomic nervous system inhibits production of serous (watery) saliva, but not of mucin-rich saliva, so that stress leaves the mouth feeling dry and sticky.",
+    "choices": [
+      "sympathetic",
+      "parasympathetic",
+      "somatic",
+      "enteric"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-144",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Oral Cavity",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The two major processes which moisten and soften food in the oral cavity are _____ and _____.",
+    "choices": [
+      "mastication; salivation",
+      "deglutition; salivation",
+      "mastication; peristalsis",
+      "segmentation; secretion"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-145",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Pharynx and Esophagus",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The lower esophageal sphincter is also known as the _____.",
+    "choices": [
+      "cardiac sphincter",
+      "pyloric sphincter",
+      "ileocecal valve",
+      "upper esophageal sphincter"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-146",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Pharynx and Esophagus",
+    "difficulty": 2,
+    "type": "multiple_choice",
+    "prompt": "The musculature of the esophagus is unusual in that the upper part is _____, while the lower part (close to the stomach) is _____.",
+    "choices": [
+      "voluntary muscle; smooth muscle",
+      "smooth muscle; voluntary muscle",
+      "cardiac muscle; smooth muscle",
+      "smooth muscle; cardiac muscle"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-147",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Pharynx and Esophagus",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "_____ means 'swallowing.'",
+    "choices": [
+      "Deglutition",
+      "Mastication",
+      "Defecation",
+      "Peristalsis"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-148",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Pharynx and Esophagus",
+    "difficulty": 2,
+    "type": "multiple_choice",
+    "prompt": "The voluntary portion of deglutition is the _____ phase, which occurs in the mouth. In this phase, the _____ is used to push the food into the _____.",
+    "choices": [
+      "buccal; tongue; oropharynx",
+      "pharyngeal; tongue; esophagus",
+      "buccal; soft palate; nasopharynx",
+      "esophageal; epiglottis; laryngopharynx"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-149",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Pharynx and Esophagus",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The second phase of deglutition, the _____ phase, is involuntary.",
+    "choices": [
+      "pharyngeal",
+      "buccal",
+      "esophageal",
+      "gastric"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-150",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Pharynx and Esophagus",
+    "difficulty": 2,
+    "type": "multiple_choice",
+    "prompt": "During the pharyngeal phase of deglutition, the _____ prevents food from returning to the mouth.",
+    "choices": [
+      "tongue",
+      "epiglottis",
+      "soft palate",
+      "uvula"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-151",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Pharynx and Esophagus",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "During the pharyngeal phase of deglutition, the _____ and _____ prevent food from entering the nasopharynx.",
+    "choices": [
+      "soft palate; uvula",
+      "epiglottis; glottis",
+      "tongue; hard palate",
+      "hard palate; epiglottis"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-152",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Pharynx and Esophagus",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "During the pharyngeal phase of deglutition, the _____ prevents food from entering the larynx.",
+    "choices": [
+      "epiglottis",
+      "uvula",
+      "soft palate",
+      "tongue"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-153",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Pharynx and Esophagus",
+    "difficulty": 3,
+    "type": "multiple_choice",
+    "prompt": "Cranial nerves V, IX, X and XI are all involved in the _____. Damage to any of them can make it difficult to swallow.",
+    "choices": [
+      "pharyngeal phase of deglutition",
+      "buccal phase of deglutition",
+      "esophageal phase of deglutition",
+      "gastric phase of digestion"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-154",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Pharynx and Esophagus",
+    "difficulty": 2,
+    "type": "multiple_choice",
+    "prompt": "Three rings of muscles in the pharynx called the _____ contract one after the other to propel food into the esophagus.",
+    "choices": [
+      "pharyngeal constrictor muscles",
+      "palatal muscles",
+      "laryngeal elevators",
+      "esophageal sphincters"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-155",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Pharynx and Esophagus",
+    "difficulty": 2,
+    "type": "multiple_choice",
+    "prompt": "As food reaches the bottom of the pharynx, the _____ relaxes.",
+    "choices": [
+      "upper esophageal sphincter",
+      "lower esophageal sphincter",
+      "pyloric sphincter",
+      "epiglottis"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-156",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Pharynx and Esophagus",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "During the third phase of deglutition, the _____ phase, food is propelled toward the stomach by _____ .",
+    "choices": [
+      "esophageal; peristalsis",
+      "pharyngeal; segmentation",
+      "esophageal; segmentation",
+      "gastric; peristalsis"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-157",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Pharynx and Esophagus",
+    "difficulty": 2,
+    "type": "multiple_choice",
+    "prompt": "Both the pharyngeal and esophageal stages of deglutition are triggered by _____ and lead to both local and CNS signals.",
+    "choices": [
+      "tactile receptors",
+      "chemoreceptors",
+      "baroreceptors",
+      "thermoreceptors"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-158",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Pharynx and Esophagus",
+    "difficulty": 2,
+    "type": "multiple_choice",
+    "prompt": "Since the task of the esophagus is simply to transport food, its surface is optimized for resisting friction as food passes by: it consists of _____.",
+    "choices": [
+      "stratified squamous epithelium",
+      "simple columnar epithelium",
+      "simple squamous epithelium",
+      "transitional epithelium"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-159",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Pharynx and Esophagus",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The surface of the esophagus includes _____ glands, which lubricate the surface.",
+    "choices": [
+      "mucous (esophageal)",
+      "serous",
+      "gastric",
+      "salivary"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-160",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Small Intestine",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The small intestine is divided conceptually into three regions. Listed in order as food moves, they are the _____, _____ and _____.",
+    "choices": [
+      "duodenum; jejunum; ileum",
+      "duodenum; ileum; jejunum",
+      "jejunum; duodenum; ileum",
+      "ileum; jejunum; duodenum"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-161",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Small Intestine",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The 25 cm _____ is the C-shaped portion of the small intestine into which the stomach empties. Its name is derived from the number 12, for '12 inches.'",
+    "choices": [
+      "duodenum",
+      "jejunum",
+      "ileum",
+      "cecum"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-162",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Small Intestine",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The second-longest portion of the small intestine is the _____, measuring 2.5 meters (just over 8 feet) in length. (It quickly becomes clear that the small intestine is named 'small' due to its diameter, not its length.)",
+    "choices": [
+      "jejunum",
+      "ileum",
+      "duodenum",
+      "colon"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-163",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Small Intestine",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The longest portion of the small intestine is the _____, measuring 3.5 meters (almost 11.5 feet).",
+    "choices": [
+      "ileum",
+      "jejunum",
+      "duodenum",
+      "colon"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-164",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Small Intestine",
+    "difficulty": 2,
+    "type": "multiple_choice",
+    "prompt": "The great length of the small intestine is necessary for _____; in addition, its surface is formed into _____, _____ and _____, so that its total surface area is huge - roughly the size of a tennis court!",
+    "choices": [
+      "nutrient absorption; circular folds; villi; microvilli",
+      "nutrient absorption; rugae; villi; microvilli",
+      "chemical digestion; circular folds; villi; cilia",
+      "water absorption; haustra; villi; microvilli"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-165",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Small Intestine",
+    "difficulty": 2,
+    "type": "multiple_choice",
+    "prompt": "A major change in the epithelia occurs between the stomach and duodenum: while the stomach is designed to protect itself and avoid self-digestion, the duodenum is specialized for _____ and _____, and its epithelia includes many _____.",
+    "choices": [
+      "digestion; absorption; villi",
+      "secretion; protection; rugae",
+      "digestion; absorption; gastric pits",
+      "absorption; secretion; plicae"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-166",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Small Intestine",
+    "difficulty": 2,
+    "type": "multiple_choice",
+    "prompt": "The _____ cells of the duodenum are covered with _____, which increase their surface area and allow them to absorb more nutrients than would otherwise be possible.",
+    "choices": [
+      "absorptive; microvilli",
+      "goblet; cilia",
+      "absorptive; villi",
+      "enteroendocrine; microvilli"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-167",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Small Intestine",
+    "difficulty": 2,
+    "type": "multiple_choice",
+    "prompt": "A(n) _____ and a(n) _____ are located in the core of each villus in the small intestine.",
+    "choices": [
+      "capillary bed; lacteal",
+      "artery; vein",
+      "lymph node; capillary bed",
+      "lacteal; crypt"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-168",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Small Intestine",
+    "difficulty": 3,
+    "type": "multiple_choice",
+    "prompt": "In addition to other cell types, villi also contain immune cells called _____.",
+    "choices": [
+      "intraepithelial lymphocytes",
+      "Kupffer cells",
+      "microglia",
+      "Langerhans cells"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-169",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Small Intestine",
+    "difficulty": 2,
+    "type": "multiple_choice",
+    "prompt": "In between the villi of the small intestine the mucosa forms _____ which secrete a watery mucus called intestinal juice.",
+    "choices": [
+      "intestinal crypts (crypts of Lieberkuhn)",
+      "gastric pits",
+      "duodenal glands",
+      "Peyer's patches"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-170",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Small Intestine",
+    "difficulty": 2,
+    "type": "multiple_choice",
+    "prompt": "The villus epithelium is replaced every 3-6 _______.",
+    "choices": [
+      "days",
+      "hours",
+      "weeks",
+      "months"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-171",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Small Intestine",
+    "difficulty": 2,
+    "type": "multiple_choice",
+    "prompt": "As one moves from the duodenum toward the ileum, patches of lymphoid tissue called _____ become more abundant.",
+    "choices": [
+      "Peyer's patches",
+      "Brunner's glands",
+      "intestinal crypts",
+      "lacteals"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-172",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Small Intestine",
+    "difficulty": 3,
+    "type": "multiple_choice",
+    "prompt": "A highly alkaline mucus which helps to neutralize the acidic chyme exiting the stomach is produced by _____ in the _____.",
+    "choices": [
+      "Brunner's glands; duodenum",
+      "gastric glands; stomach",
+      "intestinal crypts; ileum",
+      "pancreatic acini; pancreas"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-173",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Small Intestine",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Two accessory digestive organs, the _____ and _____, deliver their products directly to the duodenum.",
+    "choices": [
+      "liver; pancreas",
+      "spleen; pancreas",
+      "liver; kidneys",
+      "salivary glands; spleen"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-174",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Small Intestine",
+    "difficulty": 3,
+    "type": "multiple_choice",
+    "prompt": "Two openings are found in the duodenum through which digestive juices enter: the opening of the _____ and the large, nipple-like opening formed by the union of several ducts, the _____.",
+    "choices": [
+      "accessory pancreatic duct; hepatopancreatic ampulla",
+      "common bile duct; cystic duct",
+      "accessory pancreatic duct; pyloric sphincter",
+      "common hepatic duct; hepatopancreatic ampulla"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-175",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Small Intestine",
+    "difficulty": 3,
+    "type": "multiple_choice",
+    "prompt": "Entry of bile and pancreatic juice through the hepatopancreatic ampulla is controlled by the _____. The bulge formed by this, and the hepatopancreatic ampulla, is called the _____.",
+    "choices": [
+      "hepatopancreatic sphincter (sphincter of Oddi); major duodenal papilla",
+      "pyloric sphincter; minor duodenal papilla",
+      "ileocecal valve; major duodenal papilla",
+      "hepatopancreatic sphincter; duodenal ampulla"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-176",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Small Intestine",
+    "difficulty": 3,
+    "type": "multiple_choice",
+    "prompt": "The major histological differences seen as one progresses through the small intestine is that the _____ decrease in number and density while the _____ increase.",
+    "choices": [
+      "villi; Peyer's patches",
+      "Peyer's patches; villi",
+      "goblet cells; villi",
+      "villi; duodenal glands"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-177",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Small Intestine",
+    "difficulty": 2,
+    "type": "multiple_choice",
+    "prompt": "Most of the small intestine is covered by the visceral peritoneum; the duodenum, however, is _____ and so its outer layer is _____.",
+    "choices": [
+      "retroperitoneal; adventitia",
+      "intraperitoneal; serosa",
+      "retroperitoneal; serosa",
+      "intraperitoneal; adventitia"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-178",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Small Intestine",
+    "difficulty": 2,
+    "type": "multiple_choice",
+    "prompt": "Within the small intestine, _____ waves are rare while _____ waves are common. As a result, food is slow to pass through the small intestine.",
+    "choices": [
+      "peristaltic; mixing",
+      "mixing; peristaltic",
+      "segmentation; mass movement",
+      "haustral; peristaltic"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-179",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Small Intestine",
+    "difficulty": 3,
+    "type": "multiple_choice",
+    "prompt": "The ileocecal sphincter is normally _____. Two factors can change that: the _____ reflex and the hormone _____.",
+    "choices": [
+      "closed; gastroileal; gastrin",
+      "open; gastroileal; gastrin",
+      "closed; gastrocolic; secretin",
+      "open; enterogastric; cholecystokinin"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-180",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Small Intestine",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The gastroileal reflex is a reflex mediated by the CNS which is caused by activity in the stomach and leads to _____.",
+    "choices": [
+      "increased activity in the ileum",
+      "decreased activity in the ileum",
+      "increased gastric emptying",
+      "mass movements in the colon"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-181",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Small Intestine",
+    "difficulty": 2,
+    "type": "multiple_choice",
+    "prompt": "Gastrin released by the stomach signals the _____ to relax briefly, thus allowing a bolus of chyme to enter the large intestine.",
+    "choices": [
+      "ileocecal sphincter",
+      "pyloric sphincter",
+      "hepatopancreatic sphincter",
+      "internal anal sphincter"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-182",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Small Intestine",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "One of the major functions of the ileocecal sphincter is to prevent _____.",
+    "choices": [
+      "backflow from the large intestine into the small intestine",
+      "backflow from the stomach into the esophagus",
+      "premature emptying of the stomach",
+      "reflux of bile into the stomach"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-183",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Small Intestine",
+    "difficulty": 2,
+    "type": "multiple_choice",
+    "prompt": "Absorption of monosaccharides occurs in the entire small intestine, but primarily in the _____ and _____.",
+    "choices": [
+      "duodenum; jejunum",
+      "jejunum; ileum",
+      "cecum; colon",
+      "fundus; body"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-184",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Small Intestine",
+    "difficulty": 2,
+    "type": "multiple_choice",
+    "prompt": "Once absorbed, monosaccharides are transported in the _____ to the _____.",
+    "choices": [
+      "blood; liver",
+      "lymph; liver",
+      "blood; pancreas",
+      "lymph; heart"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-185",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Small Intestine",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Micelles containing monoglycerides, fatty acids, and cholesterol (another lipid) are absorbed by the epithelial cells of the _____.",
+    "choices": [
+      "small intestine",
+      "large intestine",
+      "stomach",
+      "esophagus"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-186",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Small Intestine",
+    "difficulty": 2,
+    "type": "multiple_choice",
+    "prompt": "Chylomicrons are exported into the _____ of the lamina propria where they enter _____, which deliver them to the blood vessels of the neck in the lymph.",
+    "choices": [
+      "interstitial fluid; lacteals",
+      "interstitial fluid; capillaries",
+      "plasma; lacteals",
+      "lymph; venules"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-187",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Small Intestine",
+    "difficulty": 2,
+    "type": "multiple_choice",
+    "prompt": "Vitamins, minerals, and drugs which are soluble in water enter through the intestinal epithelial cells and travel to the _____.",
+    "choices": [
+      "liver",
+      "lacteals",
+      "kidneys",
+      "gallbladder"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-188",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Small Intestine",
+    "difficulty": 2,
+    "type": "multiple_choice",
+    "prompt": "Vitamins and drugs which are soluble in fat enter through the intestinal epithelial cells along with the fat and travel to the _____ via the _____.",
+    "choices": [
+      "blood vessels of the neck; lymphatic system",
+      "liver; hepatic portal vein",
+      "kidneys; renal artery",
+      "heart; hepatic vein"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-189",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Small Intestine",
+    "difficulty": 2,
+    "type": "multiple_choice",
+    "prompt": "Nine liters (over two gallons) of water enter the intestines each day from the blood and by ingestion. Active transport of nutrients, ions, minerals, etc., into intestinal cells lowers the _____, and so water enters the cells as well.",
+    "choices": [
+      "tonicity (osmolarity) of the chyme",
+      "pH of the chyme",
+      "temperature of the chyme",
+      "viscosity of the chyme"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-190",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Stomach",
+    "difficulty": 2,
+    "type": "multiple_choice",
+    "prompt": "The upper opening of the stomach is the _____ or _____ opening; leakage of substances through the opening is prevented by the _____.",
+    "choices": [
+      "gastroesophageal; cardiac; cardiac sphincter",
+      "pyloric; cardiac; pyloric sphincter",
+      "gastroesophageal; fundic; fundic sphincter",
+      "esophageal; pyloric; cardiac sphincter"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-191",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Stomach",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "One part of the stomach, the _____, is superior to the cardiac sphincter. (Gas sometimes accumulates here, leading to an uncomfortably bloated sensation.)",
+    "choices": [
+      "fundus",
+      "body",
+      "pylorus",
+      "cardia"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-192",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Stomach",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The stomach's contents leave to enter the small intestine via the _____, and unintentional leakage of substances through the opening is prevented by the _____.",
+    "choices": [
+      "pyloric orifice; pyloric sphincter",
+      "cardiac orifice; cardiac sphincter",
+      "pyloric orifice; ileocecal valve",
+      "duodenal orifice; pyloric sphincter"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-193",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Stomach",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The interior of the empty stomach is extremely wrinkled: these wrinkles, or folds, are called _____ and allow the stomach to expand and stretch when storing food or drink.",
+    "choices": [
+      "rugae",
+      "haustra",
+      "villi",
+      "plicae circulares"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-194",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Stomach",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The stomach churns food and mixes it with gastric secretions to form _____, which literally means 'juice.'",
+    "choices": [
+      "chyme",
+      "bolus",
+      "chyle",
+      "feces"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-195",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Stomach",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The stomach does not digest itself because its lumen is coated heavily with a layer of _____.",
+    "choices": [
+      "alkaline mucus",
+      "acidic mucus",
+      "pepsinogen",
+      "keratin"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-196",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Stomach",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The lower region of the stomach (the _____ region) contracts against the lower sphincter, which does not fully open, in order to transfer chyme a little bit at a time to the small intestines.",
+    "choices": [
+      "pyloric",
+      "cardiac",
+      "fundic",
+      "duodenal"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-197",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Stomach",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Mixing semi-solid food with liquid to form completely liquid '_____' is one of the major functions of the _____.",
+    "choices": [
+      "chyme; stomach",
+      "bolus; esophagus",
+      "chyme; small intestine",
+      "bolus; stomach"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-198",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Stomach",
+    "difficulty": 2,
+    "type": "multiple_choice",
+    "prompt": "Liquid is secreted into the stomach by _____; their entrances, the _____, appear as pores on the stomach's interior surface.",
+    "choices": [
+      "gastric glands; gastric pits",
+      "gastric pits; gastric glands",
+      "rugae; gastric pits",
+      "gastric glands; rugae"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-199",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Stomach",
+    "difficulty": 2,
+    "type": "multiple_choice",
+    "prompt": "Unlike the esophagus, whose surface is specialized to resist friction, the surface of the stomach is specialized for _____, and consists of _____.",
+    "choices": [
+      "secretion; simple columnar epithelium",
+      "absorption; simple squamous epithelium",
+      "secretion; stratified squamous epithelium",
+      "protection; pseudostratified columnar epithelium"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-200",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Stomach",
+    "difficulty": 3,
+    "type": "multiple_choice",
+    "prompt": "Gastric secretions and food are mixed in the stomach by muscular contractions called _____: these occur primarily in the _____, the widest part of the pyloric region.",
+    "choices": [
+      "mixing waves; antrum",
+      "peristalsis; fundus",
+      "mixing waves; cardia",
+      "segmentation; pyloric canal"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-201",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Stomach",
+    "difficulty": 2,
+    "type": "multiple_choice",
+    "prompt": "Unlike the muscularis in other regions of the GI tract, that of the stomach has _____.",
+    "choices": [
+      "three layers",
+      "two layers",
+      "a single layer",
+      "skeletal muscle"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-202",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Stomach",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "While most digestion occurs in the _____, digestion of _____ begins in the stomach.",
+    "choices": [
+      "small intestine; protein",
+      "small intestine; carbohydrate",
+      "stomach; protein",
+      "large intestine; lipid"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-203",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Stomach",
+    "difficulty": 2,
+    "type": "multiple_choice",
+    "prompt": "_____ cells in the gastric glands secrete a(n) _____ called pepsinogen.",
+    "choices": [
+      "Chief; zymogen",
+      "Parietal; zymogen",
+      "Chief; coenzyme",
+      "Parietal; hormone"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-204",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Stomach",
+    "difficulty": 2,
+    "type": "multiple_choice",
+    "prompt": "Pepsinogen, when it is placed in a(n) _____ environment, is activated to form the enzyme _____. This enzyme hydrolyzes _____.",
+    "choices": [
+      "acidic; pepsin; proteins",
+      "alkaline; pepsin; lipids",
+      "acidic; trypsin; proteins",
+      "neutral; pepsin; carbohydrates"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-205",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Stomach",
+    "difficulty": 2,
+    "type": "multiple_choice",
+    "prompt": "_____ cells in the gastric glands secrete hydrochloric acid, which _____ the pH in the stomach's lumen.",
+    "choices": [
+      "Parietal (oxyntic); lowers",
+      "Chief; lowers",
+      "Parietal (oxyntic); raises",
+      "Chief; raises"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-206",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Stomach",
+    "difficulty": 2,
+    "type": "multiple_choice",
+    "prompt": "Hydrochloric acid _____ proteins and nucleic acids in the stomach and converts _____ to its active form, _____.",
+    "choices": [
+      "denatures; pepsinogen; pepsin",
+      "hydrolyzes; pepsin; pepsinogen",
+      "denatures; trypsinogen; trypsin",
+      "emulsifies; pepsinogen; pepsin"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-207",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Stomach",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Most bacteria are unable to survive in the stomach because of the _____.",
+    "choices": [
+      "low pH (acidity)",
+      "high pH (alkalinity)",
+      "lack of oxygen",
+      "lack of nutrients"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-208",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Stomach",
+    "difficulty": 3,
+    "type": "multiple_choice",
+    "prompt": "The parietal cells use _____ acid as the source for positive hydrogen ions. This produces the negative _____ ion, which they don't need or use.",
+    "choices": [
+      "carbonic; bicarbonate",
+      "hydrochloric; chloride",
+      "carbonic; chloride",
+      "lactic; lactate"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-209",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Stomach",
+    "difficulty": 3,
+    "type": "multiple_choice",
+    "prompt": "To get rid of bicarbonate ions, parietal cells secrete it into the blood, exchanging it for the readily available _____.",
+    "choices": [
+      "chloride ions",
+      "sodium ions",
+      "potassium ions",
+      "hydrogen ions"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-210",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Stomach",
+    "difficulty": 2,
+    "type": "multiple_choice",
+    "prompt": "The stomach's secretions must be electrically neutral, and so the secretion of positive hydrogen ions into the lumen is accompanied by the secretion of negative _____.",
+    "choices": [
+      "chloride ions",
+      "bicarbonate ions",
+      "phosphate ions",
+      "hydroxide ions"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-211",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Stomach",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "In water, hydrochloric acid is present as two ions: _____ and _____.",
+    "choices": [
+      "hydrogen ions; chloride ions",
+      "hydroxide ions; chloride ions",
+      "hydrogen ions; chlorate ions",
+      "sodium ions; chloride ions"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-212",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Stomach",
+    "difficulty": 2,
+    "type": "multiple_choice",
+    "prompt": "The mucus that coats the stomach is thick, heavy, and (just as importantly), _____. This is because the mucus producing cells mix their product with _____.",
+    "choices": [
+      "neutral; bicarbonate",
+      "acidic; hydrogen ions",
+      "sticky; pepsin",
+      "neutral; chloride ions"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-213",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Stomach",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Very few substances are absorbed in the stomach - most cannot penetrate the _____ layer. Those that can include water, alcohol, and a few drugs.",
+    "choices": [
+      "mucus",
+      "epithelial",
+      "lamina propria",
+      "muscularis mucosae"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-214",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Stomach",
+    "difficulty": 2,
+    "type": "multiple_choice",
+    "prompt": "_____ is needed not only to protect vitamin B12 from destruction in the stomach, but also to allow it to be absorbed in the intestine. Thus, production of this glycoprotein by the stomach is absolutely critical to survival.",
+    "choices": [
+      "Intrinsic factor",
+      "Gastrin",
+      "Pepsinogen",
+      "Mucin"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-215",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Stomach",
+    "difficulty": 3,
+    "type": "multiple_choice",
+    "prompt": "Three chemicals together signal the parietal cells to secrete HCl: _____, _____ and _____.",
+    "choices": [
+      "gastrin; histamine; acetylcholine",
+      "secretin; histamine; acetylcholine",
+      "gastrin; serotonin; norepinephrine",
+      "cholecystokinin; histamine; epinephrine"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-216",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Stomach",
+    "difficulty": 2,
+    "type": "multiple_choice",
+    "prompt": "Gastrin is released by enteroendocrine cells in the stomach mucosa in response to _____ or to signals from the _____.",
+    "choices": [
+      "an increase in stomach content; CNS",
+      "a decrease in stomach content; CNS",
+      "an increase in stomach content; duodenum",
+      "fat in the duodenum; pancreas"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-217",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Stomach",
+    "difficulty": 3,
+    "type": "multiple_choice",
+    "prompt": "_____ is released by 'ECL cells' and mast cells in the stomach's lamina propria in response to _____.",
+    "choices": [
+      "Histamine; gastrin",
+      "Gastrin; histamine",
+      "Histamine; secretin",
+      "Serotonin; gastrin"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-218",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Stomach",
+    "difficulty": 2,
+    "type": "multiple_choice",
+    "prompt": "Histamine binds to H2 receptors on _____ cells, and is the most potent acid-producing signal molecule. (Blocking these receptors with drugs such as Tagamet virtually abolishes acid production.)",
+    "choices": [
+      "parietal (oxyntic)",
+      "chief",
+      "G",
+      "mucous neck"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-219",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Stomach",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Regulation of the stomach's secretions and motility occurs in three phases: the _____ phase, _____ phase, and _____ phase.",
+    "choices": [
+      "cephalic; gastric; intestinal",
+      "buccal; pharyngeal; esophageal",
+      "cephalic; pharyngeal; intestinal",
+      "oral; gastric; duodenal"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-220",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Stomach",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The _____ phase of gastric regulation occurs before food (or drink) enters the stomach, and depends on taste, smell, and anticipation.",
+    "choices": [
+      "cephalic",
+      "gastric",
+      "intestinal",
+      "buccal"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-221",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Stomach",
+    "difficulty": 2,
+    "type": "multiple_choice",
+    "prompt": "During the _____ phase of gastric regulation, signals from the medulla oblongata are conveyed by the _____ nerve to the enteric ganglia.",
+    "choices": [
+      "cephalic; vagus",
+      "gastric; vagus",
+      "cephalic; glossopharyngeal",
+      "intestinal; splanchnic"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-222",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Stomach",
+    "difficulty": 3,
+    "type": "multiple_choice",
+    "prompt": "During the gastric phase of gastric regulation, the major signals are _____ and the presence of _____ in the stomach. In addition, over-secretion is prevented by _____ feedback. If pH falls too far, acid production stops.",
+    "choices": [
+      "distention; peptides; negative",
+      "distention; lipids; positive",
+      "acid; peptides; positive",
+      "relaxation; carbohydrates; negative"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-223",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Stomach",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Two chemicals commonly consumed by students (and teachers, to be fair) also trigger the gastric phase or gastric reflex: _____ and _____.",
+    "choices": [
+      "caffeine; alcohol",
+      "caffeine; sugar",
+      "aspartame; alcohol",
+      "sugar; salt"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-224",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Stomach",
+    "difficulty": 2,
+    "type": "multiple_choice",
+    "prompt": "In the _____ phase, sensations in the stomach are sent to the CNS via the vagus nerve: return signals, via the same nerve, increase _____ and _____.",
+    "choices": [
+      "gastric; gastric secretion; motility",
+      "cephalic; salivation; motility",
+      "intestinal; gastric secretion; emptying",
+      "gastric; bile secretion; absorption"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-225",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Stomach",
+    "difficulty": 3,
+    "type": "multiple_choice",
+    "prompt": "In the _____ phase, sensations in the stomach activate _____ cells: these release gastrin and other hormones into the blood, which eventually trigger an increase in _____.",
+    "choices": [
+      "gastric; enteroendocrine; gastric secretion and motility",
+      "cephalic; parietal; salivation",
+      "gastric; chief; pepsin secretion",
+      "intestinal; enteroendocrine; gastric emptying"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-226",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Stomach",
+    "difficulty": 2,
+    "type": "multiple_choice",
+    "prompt": "Mixing waves occur in the stomach three times per minute: less frequently, stronger _____ waves overwhelm the partially closed _____ sphincter and send a small amount of _____ into the duodenum.",
+    "choices": [
+      "peristaltic; pyloric; liquid",
+      "segmentation; pyloric; solids",
+      "peristaltic; lower esophageal; liquid",
+      "mixing; ileocecal; chyme"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-227",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Stomach",
+    "difficulty": 3,
+    "type": "multiple_choice",
+    "prompt": "_____ is secreted by the duodenum in response to acid: it travels through the blood to the _____ and _____ cells of the stomach, which it inhibits.",
+    "choices": [
+      "Secretin; parietal; chief",
+      "Gastrin; parietal; chief",
+      "Cholecystokinin; goblet; mucous neck",
+      "Secretin; G; enteroendocrine"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-228",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Stomach",
+    "difficulty": 3,
+    "type": "multiple_choice",
+    "prompt": "_____ and _____ are secreted by the duodenum in response to the presence of fat: among other activities, these hormones inhibit the activity of the _____.",
+    "choices": [
+      "Gastric inhibitory peptide; cholecystokinin; stomach",
+      "Secretin; gastrin; pancreas",
+      "Gastrin; cholecystokinin; liver",
+      "Secretin; gastric inhibitory peptide; gallbladder"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-20-229",
+    "subject": "anatomy_physiology",
+    "topic": "digestive_system",
+    "subtopic": "Stomach",
+    "difficulty": 2,
+    "type": "multiple_choice",
+    "prompt": "The duodenum signals the medulla oblongata when conditions are such that a further influx from the stomach would overwhelm it, and the medulla then signals the stomach to decrease gastric activity: this is the _____.",
+    "choices": [
+      "enterogastric reflex",
+      "gastroenteric reflex",
+      "gastroileal reflex",
+      "defecation reflex"
+    ],
+    "answer_index": 0
+  }
+]

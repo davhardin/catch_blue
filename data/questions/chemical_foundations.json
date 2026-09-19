@@ -84,7 +84,7 @@
     "subject": "anatomy_physiology",
     "topic": "chemical_foundations",
     "subtopic": "Atoms, Elements, and Compounds",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "If an element is a mixture of equal numbers of atoms whose atomic mass is either 12 or 14, what is the atomic weight?",
     "choices": [
@@ -100,7 +100,7 @@
     "subject": "anatomy_physiology",
     "topic": "chemical_foundations",
     "subtopic": "Atoms, Elements, and Compounds",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "If atom 'A' has 5 protons and 6 neutrons, atom 'B' has 5 protons and 7 neutrons, and atom 'C' has 6 protons and 6 neutrons: ... _____ and _____ are isotopes of the same element.",
     "choices": [
@@ -131,7 +131,7 @@
     "subject": "anatomy_physiology",
     "topic": "chemical_foundations",
     "subtopic": "Atoms, Elements, and Compounds",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "When two or more atoms are held together by a chemical bond, the resulting particle is called a(n) _____. (If the atoms are not all the same element, the particle is also called a(n) _____.)",
     "choices": [
@@ -259,7 +259,7 @@
     "subject": "anatomy_physiology",
     "topic": "chemical_foundations",
     "subtopic": "Chemical Bonds",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "If one atom of two covalently bonded atoms is more electronegative than the other, the bond is _______.",
     "choices": [
@@ -275,7 +275,7 @@
     "subject": "anatomy_physiology",
     "topic": "chemical_foundations",
     "subtopic": "Chemical Bonds",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The 3D shape of proteins, and correct base pairing of DNA, depends on the fact that _____ bonds are linear.",
     "choices": [
@@ -307,7 +307,7 @@
     "subject": "anatomy_physiology",
     "topic": "chemical_foundations",
     "subtopic": "Chemical Reactions",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Chemical energy is stored in the _____ of chemical substances.",
     "choices": [
@@ -339,7 +339,7 @@
     "subject": "anatomy_physiology",
     "topic": "chemical_foundations",
     "subtopic": "Chemical Reactions",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The primary molecule used by the cell to supply small amounts of energy when needed is _____, which is also one of the four nucleotides used to make _____. The energy in this nucleotide is stored in the _____.",
     "choices": [
@@ -355,7 +355,7 @@
     "subject": "anatomy_physiology",
     "topic": "chemical_foundations",
     "subtopic": "Chemical Reactions",
-    "difficulty": 2,
+    "difficulty": 1,
     "type": "multiple_choice",
     "prompt": "A catalyst ________ a reactant, and it _______ changed during a chemical reaction.",
     "choices": [
@@ -531,7 +531,7 @@
     "subject": "anatomy_physiology",
     "topic": "chemical_foundations",
     "subtopic": "Macromolecules",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Steroids are _____ with _____ rings.",
     "choices": [
@@ -547,7 +547,7 @@
     "subject": "anatomy_physiology",
     "topic": "chemical_foundations",
     "subtopic": "Macromolecules",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Eicosanoids are _____ that contain _____ carbons.",
     "choices": [
@@ -803,7 +803,7 @@
     "subject": "anatomy_physiology",
     "topic": "chemical_foundations",
     "subtopic": "Macromolecules",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The _____ structure of a protein refers to the folding caused by hydrogen bonding between amino and carboxyl groups within the same molecule, and usually leads to the formation of beta-pleated-sheets and alpha-helices.",
     "choices": [
@@ -819,7 +819,7 @@
     "subject": "anatomy_physiology",
     "topic": "chemical_foundations",
     "subtopic": "Macromolecules",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The _____ structure of a protein refers to the complex folding caused by interactions between the side chains of the subunits with each other and with the solvent.",
     "choices": [
@@ -835,7 +835,7 @@
     "subject": "anatomy_physiology",
     "topic": "chemical_foundations",
     "subtopic": "Macromolecules",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The _____ structure of a protein refers to the interaction of two separate protein molecules to form a single functional unit.",
     "choices": [
@@ -867,7 +867,7 @@
     "subject": "anatomy_physiology",
     "topic": "chemical_foundations",
     "subtopic": "Macromolecules",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Most enzymes are _____ proteins.",
     "choices": [
@@ -1027,7 +1027,7 @@
     "subject": "anatomy_physiology",
     "topic": "chemical_foundations",
     "subtopic": "pH and Body Fluids",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Carbon dioxide reacts with water to form carbonic acid. The ability of carbonic acid to donate or accept a hydrogen ion is important, because this system is the main buffer in the _____.",
     "choices": [

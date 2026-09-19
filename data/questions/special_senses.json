@@ -100,7 +100,7 @@
     "subject": "anatomy_physiology",
     "topic": "special_senses",
     "subtopic": "Equilibrium and Hearing",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The three small bones of the middle ear transmit vibratory motion from the eardrum to the _____.",
     "choices": [
@@ -116,7 +116,7 @@
     "subject": "anatomy_physiology",
     "topic": "special_senses",
     "subtopic": "Equilibrium and Hearing",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Excessive motion of the three bones of the middle ear is prevented by the _____ muscle and _____ muscle.",
     "choices": [
@@ -196,7 +196,7 @@
     "subject": "anatomy_physiology",
     "topic": "special_senses",
     "subtopic": "Equilibrium and Hearing",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The membranous labyrinth is surrounded by fluid called _____ and filled with _____.",
     "choices": [
@@ -292,7 +292,7 @@
     "subject": "anatomy_physiology",
     "topic": "special_senses",
     "subtopic": "Equilibrium and Hearing",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "As the eardrum vibrates, the ossicles move, and their movement is converted to motion of the _____.",
     "choices": [
@@ -308,7 +308,7 @@
     "subject": "anatomy_physiology",
     "topic": "special_senses",
     "subtopic": "Equilibrium and Hearing",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The oval window is blocked by the _____, while the round window is closed by a flexible membrane.",
     "choices": [
@@ -324,7 +324,7 @@
     "subject": "anatomy_physiology",
     "topic": "special_senses",
     "subtopic": "Equilibrium and Hearing",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Movement of fluid in the inner ear causes movement of the fibers of the _____, which are much like the strings of an instrument.",
     "choices": [
@@ -340,7 +340,7 @@
     "subject": "anatomy_physiology",
     "topic": "special_senses",
     "subtopic": "Equilibrium and Hearing",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Movement of the fibers of the basilar membrane causes movement of the _____ of hair cells, which in turn stimulate the cochlear (vestibulocochlear) nerve.",
     "choices": [
@@ -372,7 +372,7 @@
     "subject": "anatomy_physiology",
     "topic": "special_senses",
     "subtopic": "Equilibrium and Hearing",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Motion of the fluid in the inner ear causes the motion of _____ and the opening of _____ in the hair cells of the Organ of Corti.",
     "choices": [
@@ -404,7 +404,7 @@
     "subject": "anatomy_physiology",
     "topic": "special_senses",
     "subtopic": "Equilibrium and Hearing",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Auditory pathways decussate so that both cortices _____.",
     "choices": [
@@ -420,7 +420,7 @@
     "subject": "anatomy_physiology",
     "topic": "special_senses",
     "subtopic": "Equilibrium and Hearing",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Action potential frequency of cochlear cells gives information as to the _____ of a sound, while the responses of particular fibers in various regions of the basilar membrane gives information regarding _____.",
     "choices": [
@@ -436,7 +436,7 @@
     "subject": "anatomy_physiology",
     "topic": "special_senses",
     "subtopic": "Equilibrium and Hearing",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "We are able to localize sound by comparing the _____ each ear and the _____ each ear.",
     "choices": [
@@ -452,7 +452,7 @@
     "subject": "anatomy_physiology",
     "topic": "special_senses",
     "subtopic": "Equilibrium and Hearing",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The _____ are receptors in the vestibule which respond to vertical and horizontal acceleration and gravity.",
     "choices": [
@@ -468,7 +468,7 @@
     "subject": "anatomy_physiology",
     "topic": "special_senses",
     "subtopic": "Equilibrium and Hearing",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The vestibule contains two chambers: the _____, and slightly inferomedial to that, the _____.",
     "choices": [
@@ -484,7 +484,7 @@
     "subject": "anatomy_physiology",
     "topic": "special_senses",
     "subtopic": "Equilibrium and Hearing",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The maculae contain hair cells whose processes are imbedded in _____ called otoliths, which are bound together by a jellylike mass.",
     "choices": [
@@ -500,7 +500,7 @@
     "subject": "anatomy_physiology",
     "topic": "special_senses",
     "subtopic": "Equilibrium and Hearing",
-    "difficulty": 1,
+    "difficulty": 3,
     "type": "multiple_choice",
     "prompt": "The macula in the utricle is on the _____ surface: its hair cells are sensitive to _____.",
     "choices": [
@@ -516,7 +516,7 @@
     "subject": "anatomy_physiology",
     "topic": "special_senses",
     "subtopic": "Equilibrium and Hearing",
-    "difficulty": 1,
+    "difficulty": 3,
     "type": "multiple_choice",
     "prompt": "The macula in the saccule is on the _____ surface: its hair cells are sensitive to _____.",
     "choices": [
@@ -532,7 +532,7 @@
     "subject": "anatomy_physiology",
     "topic": "special_senses",
     "subtopic": "Equilibrium and Hearing",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The hair cells of the maculae respond to bending of their processes (which are called stereocilia and kinetocilia) by either opening or closing channel proteins, depending on _____.",
     "choices": [
@@ -548,7 +548,7 @@
     "subject": "anatomy_physiology",
     "topic": "special_senses",
     "subtopic": "Equilibrium and Hearing",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The swollen regions at the entrance to each semicircular canal are the _____, each of which houses an equilibrium receptor called a(n) _____.",
     "choices": [
@@ -564,7 +564,7 @@
     "subject": "anatomy_physiology",
     "topic": "special_senses",
     "subtopic": "Equilibrium and Hearing",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Each crista ampullaris has hair cells which extend into a soft ridge called the _____.",
     "choices": [
@@ -580,7 +580,7 @@
     "subject": "anatomy_physiology",
     "topic": "special_senses",
     "subtopic": "Equilibrium and Hearing",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "As fluid flows through the semicircular canals in response to rotation of the head, the _____ bends. This bends the hair cells, which then _____, depending on the direction in which they are bent.",
     "choices": [
@@ -596,7 +596,7 @@
     "subject": "anatomy_physiology",
     "topic": "special_senses",
     "subtopic": "Equilibrium and Hearing",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "In response to changes in their membrane potential caused by the opening or closing of channel proteins in their processes, hair cells in the inner ear _____, which activate associated nerve fibers.",
     "choices": [
@@ -676,7 +676,7 @@
     "subject": "anatomy_physiology",
     "topic": "special_senses",
     "subtopic": "Equilibrium and Hearing",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Ear development begins in the three week embryo, and diseases such as german measles, if contracted by the mother during _____, can cause deafness in the child.",
     "choices": [
@@ -692,7 +692,7 @@
     "subject": "anatomy_physiology",
     "topic": "special_senses",
     "subtopic": "Equilibrium and Hearing",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Death of the hair cells in the Organ of Corti is common in old age, leading to _____.",
     "choices": [
@@ -708,7 +708,7 @@
     "subject": "anatomy_physiology",
     "topic": "special_senses",
     "subtopic": "Eye Structures",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Eyelids are thick, skin covered folds supported internally by the _____, which also anchor the _____ and _____, the muscles which control the motion of the eyelids.",
     "choices": [
@@ -804,7 +804,7 @@
     "subject": "anatomy_physiology",
     "topic": "special_senses",
     "subtopic": "Eye Structures",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Tears enter the eye _____ and leave via ducts at the medial corner of the eye (the _____).",
     "choices": [
@@ -884,7 +884,7 @@
     "subject": "anatomy_physiology",
     "topic": "special_senses",
     "subtopic": "Eye Structures",
-    "difficulty": 1,
+    "difficulty": 3,
     "type": "multiple_choice",
     "prompt": "In the back of the eye, the fibrous tunic extends to cover the optic nerve, and is continuous with the _____.",
     "choices": [
@@ -932,7 +932,7 @@
     "subject": "anatomy_physiology",
     "topic": "special_senses",
     "subtopic": "Eye Structures",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The iris lies between the _____ and the _____ and is continuous with the next region, the ciliary body, which is _____.",
     "choices": [
@@ -964,7 +964,7 @@
     "subject": "anatomy_physiology",
     "topic": "special_senses",
     "subtopic": "Eye Structures",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The retina has two sub-layers: the outer layer of the retina (in relation to the center of the eye) is pigmented to _____.",
     "choices": [
@@ -996,7 +996,7 @@
     "subject": "anatomy_physiology",
     "topic": "special_senses",
     "subtopic": "Eye Structures",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The lens is made of special proteins called _____. These in turn are made by special cells called _____, which contain no nuclei and few organelles.",
     "choices": [
@@ -1012,7 +1012,7 @@
     "subject": "anatomy_physiology",
     "topic": "special_senses",
     "subtopic": "Eye Structures",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Unlike most proteins, crystallins are never _____.",
     "choices": [
@@ -1028,7 +1028,7 @@
     "subject": "anatomy_physiology",
     "topic": "special_senses",
     "subtopic": "Eye Structures",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The lens of the eye gets less flexible as we age in part because crystallins are _____ by cells throughout life, and because these proteins are apt to become _____ due to poor repair and lack of replacement.",
     "choices": [
@@ -1076,7 +1076,7 @@
     "subject": "anatomy_physiology",
     "topic": "special_senses",
     "subtopic": "Eye Structures",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The anterior and posterior chambers of the anterior cavity of the eye are separated by the _____.",
     "choices": [
@@ -1092,7 +1092,7 @@
     "subject": "anatomy_physiology",
     "topic": "special_senses",
     "subtopic": "Eye Structures",
-    "difficulty": 1,
+    "difficulty": 3,
     "type": "multiple_choice",
     "prompt": "The aqueous humor is formed in the _____ of the eye, and is reabsorbed in the _____.",
     "choices": [
@@ -1108,7 +1108,7 @@
     "subject": "anatomy_physiology",
     "topic": "special_senses",
     "subtopic": "Eye Structures",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The posterior cavity of the eye is filled with _____, a jelly-like substance which is produced _____ and is not _____.",
     "choices": [
@@ -1252,7 +1252,7 @@
     "subject": "anatomy_physiology",
     "topic": "special_senses",
     "subtopic": "Gustation and Olfaction",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Cells which comprise taste buds die after roughly _____, and are replaced by division of _____.",
     "choices": [
@@ -1284,7 +1284,7 @@
     "subject": "anatomy_physiology",
     "topic": "special_senses",
     "subtopic": "Gustation and Olfaction",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The nerves which send axons to meet the chemoreceptor cells involved in gustation are cranial nerves #s _____, _____, or _____.",
     "choices": [
@@ -1300,7 +1300,7 @@
     "subject": "anatomy_physiology",
     "topic": "special_senses",
     "subtopic": "Gustation and Olfaction",
-    "difficulty": 1,
+    "difficulty": 3,
     "type": "multiple_choice",
     "prompt": "Once a signal is generated by a taste bud, associated neurons carry the signal to the _____, which relays it to the _____, which in turn sends it to the _____, _____ and _____.",
     "choices": [
@@ -1348,7 +1348,7 @@
     "subject": "anatomy_physiology",
     "topic": "special_senses",
     "subtopic": "Gustation and Olfaction",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Olfactory cells are _____.",
     "choices": [
@@ -1364,7 +1364,7 @@
     "subject": "anatomy_physiology",
     "topic": "special_senses",
     "subtopic": "Gustation and Olfaction",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The axons of olfactory cells form the filaments of _____: they pass through the _____ of the skull to reach the olfactory bulb, where they synapse with neurons of the olfactory tract.",
     "choices": [
@@ -1380,7 +1380,7 @@
     "subject": "anatomy_physiology",
     "topic": "special_senses",
     "subtopic": "Gustation and Olfaction",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Unlike taste, there are _____ of odorant receptors (chemoreceptors for chemicals sensed as an odor).",
     "choices": [
@@ -1396,7 +1396,7 @@
     "subject": "anatomy_physiology",
     "topic": "special_senses",
     "subtopic": "Gustation and Olfaction",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Each neuron expresses _____ odorant receptors.",
     "choices": [
@@ -1444,7 +1444,7 @@
     "subject": "anatomy_physiology",
     "topic": "special_senses",
     "subtopic": "Visual System",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "In order to interact with photoreceptors, light must actually pass through the _____; the light-sensitive portion of the photoreceptor cells form the posterior aspect of this layer.",
     "choices": [
@@ -1460,7 +1460,7 @@
     "subject": "anatomy_physiology",
     "topic": "special_senses",
     "subtopic": "Visual System",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Most of the light-bending which results in an image forming on the retina is due to the _____. Many patients benefit from having it re-shaped surgically to correct myopia, hyperopia, or astigmatism.",
     "choices": [
@@ -1476,7 +1476,7 @@
     "subject": "anatomy_physiology",
     "topic": "special_senses",
     "subtopic": "Visual System",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "In a relaxed eye, the lens is _____ by ligaments of the eye.",
     "choices": [
@@ -1492,7 +1492,7 @@
     "subject": "anatomy_physiology",
     "topic": "special_senses",
     "subtopic": "Visual System",
-    "difficulty": 1,
+    "difficulty": 3,
     "type": "multiple_choice",
     "prompt": "Contracting the ciliary body of an eye results in _____ tension on the lens, so that (if the lens belongs to a young person) it becomes _____.",
     "choices": [
@@ -1540,7 +1540,7 @@
     "subject": "anatomy_physiology",
     "topic": "special_senses",
     "subtopic": "Visual System",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The membrane potential in photoreceptor cells is unusual: _____ is allowed to leak across the membrane. This flow of ions is called the _____.",
     "choices": [
@@ -1556,7 +1556,7 @@
     "subject": "anatomy_physiology",
     "topic": "special_senses",
     "subtopic": "Visual System",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Opsin activates a second messenger system which _____ sodium channels in the photoreceptor cells.",
     "choices": [
@@ -1572,7 +1572,7 @@
     "subject": "anatomy_physiology",
     "topic": "special_senses",
     "subtopic": "Visual System",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "When a photoreceptor cell membrane hyperpolarizes, the cell _____. This lets nearby bipolar neurons know that the photoreceptor has been exposed to light.",
     "choices": [
@@ -1604,7 +1604,7 @@
     "subject": "anatomy_physiology",
     "topic": "special_senses",
     "subtopic": "Visual System",
-    "difficulty": 1,
+    "difficulty": 3,
     "type": "multiple_choice",
     "prompt": "How many type(s) or retinal exist? How many type(s) of opsin?",
     "choices": [
@@ -1652,7 +1652,7 @@
     "subject": "anatomy_physiology",
     "topic": "special_senses",
     "subtopic": "Visual System",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The photopigment in rods is called _____; in bright light, it is present only as _____ and _____.",
     "choices": [
@@ -1668,7 +1668,7 @@
     "subject": "anatomy_physiology",
     "topic": "special_senses",
     "subtopic": "Visual System",
-    "difficulty": 1,
+    "difficulty": 3,
     "type": "multiple_choice",
     "prompt": "(A) Photoreceptor cell releases neurotransmitter. (B) Photoreceptor cell opens sodium channels. (C) Opsin closes sodium channels. (D) Neurotransmitter molecules from bipolar cells binds to ganglion cells. (E) Photoreceptor cell stops releasing neurotransmitter. (F) Light hits a photoreceptor cell and causes retinal and opsin to separate. (G) Bipolar cells start to release neurotransmitter molecules. What is the correct order for the above events?",
     "choices": [
@@ -1684,7 +1684,7 @@
     "subject": "anatomy_physiology",
     "topic": "special_senses",
     "subtopic": "Visual System",
-    "difficulty": 1,
+    "difficulty": 3,
     "type": "multiple_choice",
     "prompt": "Cones are about _____ sensitive than rods.",
     "choices": [
@@ -1700,7 +1700,7 @@
     "subject": "anatomy_physiology",
     "topic": "special_senses",
     "subtopic": "Visual System",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The acuity of vision with rods is lower than of vision with cones because _____.",
     "choices": [
@@ -1748,7 +1748,7 @@
     "subject": "anatomy_physiology",
     "topic": "special_senses",
     "subtopic": "Visual System",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "_____ is nearsightedness: the eye is _____, resulting in a very close field of vision.",
     "choices": [
@@ -1764,7 +1764,7 @@
     "subject": "anatomy_physiology",
     "topic": "special_senses",
     "subtopic": "Visual System",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "_____ is farsightedness: the eye is _____, and the lens cannot be _____ enough to focus on near objects.",
     "choices": [
@@ -1812,7 +1812,7 @@
     "subject": "anatomy_physiology",
     "topic": "special_senses",
     "subtopic": "Visual System",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "If the flow of the aqueous humor out of the eye is partially blocked, the result is _____ called glaucoma, which will eventually damage the retina and cause _____.",
     "choices": [
@@ -1860,7 +1860,7 @@
     "subject": "anatomy_physiology",
     "topic": "special_senses",
     "subtopic": "Visual System",
-    "difficulty": 1,
+    "difficulty": 3,
     "type": "multiple_choice",
     "prompt": "When we first enter a dim area, we are unable to see because _____ and _____.",
     "choices": [
@@ -1924,7 +1924,7 @@
     "subject": "anatomy_physiology",
     "topic": "special_senses",
     "subtopic": "Visual System",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "When exposed to light suddenly after the eyes have adjusted to dim light, the light seems bright because all _____ in the rods photobleaches, as does much of the photopigment in cones, resulting in complete closure of the _____ of the rods and a dramatic increase in their closure in cones. This effect is decreased by adaptation.",
     "choices": [
@@ -1940,7 +1940,7 @@
     "subject": "anatomy_physiology",
     "topic": "special_senses",
     "subtopic": "Visual System",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "At the optic chiasma, fibers from the _____ of each retinal field cross over to the opposite side.",
     "choices": [
@@ -1956,7 +1956,7 @@
     "subject": "anatomy_physiology",
     "topic": "special_senses",
     "subtopic": "Visual System",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The left hemisphere of the brain receives information from the _____..",
     "choices": [
@@ -1972,7 +1972,7 @@
     "subject": "anatomy_physiology",
     "topic": "special_senses",
     "subtopic": "Visual System",
-    "difficulty": 1,
+    "difficulty": 3,
     "type": "multiple_choice",
     "prompt": "Axons from retinal neurons meet to form the _____, and then travel to three areas, the _____, _____ and _____.",
     "choices": [
@@ -2004,7 +2004,7 @@
     "subject": "anatomy_physiology",
     "topic": "special_senses",
     "subtopic": "Visual System",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The combination of inhibitory and excitatory processing in the retina results in signal processing which emphasizes _____.",
     "choices": [
@@ -2020,7 +2020,7 @@
     "subject": "anatomy_physiology",
     "topic": "special_senses",
     "subtopic": "Visual System",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The _____ contains an exact map of the retina, so that a ganglion cell's action potential in the retina is matched by the excitation of a single neuron in this region.",
     "choices": [
@@ -2036,7 +2036,7 @@
     "subject": "anatomy_physiology",
     "topic": "special_senses",
     "subtopic": "Visual System",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Vision does not reach maturity until the age of, approximately, _____ years.",
     "choices": [
@@ -2052,7 +2052,7 @@
     "subject": "anatomy_physiology",
     "topic": "special_senses",
     "subtopic": "Visual System",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Age related damage to the _____ is called macular degeneration, and is a common cause of late-life blindness. (Only _____ vision remains.)",
     "choices": [

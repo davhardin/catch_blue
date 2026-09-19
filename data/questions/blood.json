@@ -20,7 +20,7 @@
     "subject": "anatomy_physiology",
     "topic": "blood",
     "subtopic": "Blood Composition",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The normal pH of blood is between _____, and even a slight change away from this value causes severe health problems.",
     "choices": [
@@ -148,13 +148,13 @@
     "subject": "anatomy_physiology",
     "topic": "blood",
     "subtopic": "Blood Composition",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "60% of the protein found in blood plasma is of one class: _____. It, and many of the other proteins, carry molecules which are _____.",
     "choices": [
-      "albumin; hydrophilic",
-      "globulin; hydrophilic",
       "albumin; hydrophobic",
+      "globulin; hydrophilic",
+      "albumin; hydrophilic",
       "globulin; hydrophobic"
     ],
     "answer_index": 0
@@ -164,7 +164,7 @@
     "subject": "anatomy_physiology",
     "topic": "blood",
     "subtopic": "Blood Composition",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "There is so much _____ in the blood plasma that it is the major contributor to blood's osmotic pressure. In addition, the side chains of its amino acids can bind or release hydrogen ions, making it an important _____.",
     "choices": [
@@ -212,7 +212,7 @@
     "subject": "anatomy_physiology",
     "topic": "blood",
     "subtopic": "Blood Composition",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Transfusion of _____ is more common when anemia is being treated, but blood volume in the patient is normal.",
     "choices": [
@@ -228,7 +228,7 @@
     "subject": "anatomy_physiology",
     "topic": "blood",
     "subtopic": "Blood Composition",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "A fairly comprehensive picture of general health can be gained by two types of blood tests: _____ and _____.",
     "choices": [
@@ -244,7 +244,7 @@
     "subject": "anatomy_physiology",
     "topic": "blood",
     "subtopic": "Blood Composition",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The _____ includes counts of the various formed elements, including platelets.",
     "choices": [
@@ -308,7 +308,7 @@
     "subject": "anatomy_physiology",
     "topic": "blood",
     "subtopic": "Blood Composition",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Leukocytes and platelets account for less than _____ of the blood's volume: the remainder is _____ (~ 55%) and _____ (~ 45%).",
     "choices": [
@@ -340,7 +340,7 @@
     "subject": "anatomy_physiology",
     "topic": "blood",
     "subtopic": "Blood Composition",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Formation of the megakarycytes involves repeated mitoses of megakaryoblasts without _____.",
     "choices": [
@@ -374,7 +374,7 @@
     "subtopic": "Blood Types",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Humans have different blood types based on specific ________ on erythrocyte membranes. For several ______, a severe immunoreaction occurs if a donor and a patient do not share the same one.",
+    "prompt": "Humans have different blood types based on specific ________ on erythrocyte membranes. For several of these, a severe immunoreaction occurs if a donor and a patient do not share the same one.",
     "choices": [
       "antigens",
       "antibodies",
@@ -406,7 +406,7 @@
     "subtopic": "Blood Types",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "_____' means 'glued together.'",
+    "prompt": "'_____' means 'glued together.'",
     "choices": [
       "agglutinated",
       "hemolyzed",
@@ -420,7 +420,7 @@
     "subject": "anatomy_physiology",
     "topic": "blood",
     "subtopic": "Blood Types",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Clumping of erythrocytes due to an immune reaction (e.g. after an improper transfusion) causes _____ of small vessels and release of dangerous levels of _____ into the bloodstream.",
     "choices": [
@@ -500,14 +500,13 @@
     "subject": "anatomy_physiology",
     "topic": "blood",
     "subtopic": "Hemostasis",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
-    "prompt": "Platelets bind tightly to any _____ they happen to encounter. This molecule is normally not accessible, since it is in _____ but not epithelial tissue, not even endothelium.",
+    "prompt": "Platelets bind tightly to any _____ they happen to encounter. This molecule is normally not accessible, since it is in connective tissue but not epithelial tissue, not even endothelium.",
     "choices": [
-      "collagen; connective",
-      "elastin; connective",
-      "collagen; epithelial",
-      "fibrin; muscle"
+      "collagen",
+      "elastin",
+      "fibrin"
     ],
     "answer_index": 0
   },
@@ -516,7 +515,7 @@
     "subject": "anatomy_physiology",
     "topic": "blood",
     "subtopic": "Hemostasis",
-    "difficulty": 1,
+    "difficulty": 3,
     "type": "multiple_choice",
     "prompt": "Platelets which have encountered collagen release _____ to attract other platelets, _____ to stimulate vasoconstriction, and _____ to help with both.",
     "choices": [
@@ -532,7 +531,7 @@
     "subject": "anatomy_physiology",
     "topic": "blood",
     "subtopic": "Hemostasis",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Platelets which have encountered _____ form _____ which allow them to reach out to, and adhere to, neighboring platelets.",
     "choices": [
@@ -548,7 +547,7 @@
     "subject": "anatomy_physiology",
     "topic": "blood",
     "subtopic": "Hemostasis",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Platelet plugs at the site of an injury grow because of _____ feedback. To limit this to the site of the injury, undamaged epithelial cells release _____, which inhibits plug formation.",
     "choices": [
@@ -598,7 +597,7 @@
     "subtopic": "Hemostasis",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "Normal blood clotting requires thirteen major _____, which except for factor III (tissue factor) and factor IV (calcium ion) are commonly referred to by Roman numerals.",
+    "prompt": "Normal blood clotting requires thirteen major _____, which are commonly referred to by Roman numerals.",
     "choices": [
       "clotting factors",
       "anticoagulants",
@@ -660,7 +659,7 @@
     "subject": "anatomy_physiology",
     "topic": "blood",
     "subtopic": "Hemostasis",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The final, major steps in blood clotting are formation of _____, conversion of prothrombin to _____, and the formation of a(n) _____ mesh from fibrinogen in the plasma.",
     "choices": [
@@ -676,12 +675,11 @@
     "subject": "anatomy_physiology",
     "topic": "blood",
     "subtopic": "Hemostasis",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
-    "prompt": "Prothrombin activator converts _____, which is an inactive enzyme, to _____, an active enzyme.",
+    "prompt": "Factors Xa and Va interact to activate _________, which is an inactive enzyme, to ________, an active enzyme.",
     "choices": [
       "prothrombin; thrombin",
-      "thrombin; prothrombin",
       "fibrinogen; fibrin",
       "plasminogen; plasmin"
     ],
@@ -692,7 +690,7 @@
     "subject": "anatomy_physiology",
     "topic": "blood",
     "subtopic": "Hemostasis",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The relatively small molecules of fibrinogen which are present in blood plasma are joined into long strands of _____ by _____, which together with calcium, also catalyzes the _____ of the strands.",
     "choices": [
@@ -708,7 +706,7 @@
     "subject": "anatomy_physiology",
     "topic": "blood",
     "subtopic": "Hemostasis",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Blood clotting may be initiated by either of two pathways: the _____ pathway is triggered by interactions between procoagulants and platelets, both of which are present in blood.",
     "choices": [
@@ -724,7 +722,7 @@
     "subject": "anatomy_physiology",
     "topic": "blood",
     "subtopic": "Hemostasis",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Blood clotting may be initiated by either of two pathways: the _____ pathway is triggered by _____ which is released by cells at the site of injury.",
     "choices": [
@@ -740,7 +738,7 @@
     "subject": "anatomy_physiology",
     "topic": "blood",
     "subtopic": "Hemostasis",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The _____ pathway initiates blood clotting quickly because it has fewer steps than the _____ pathway.",
     "choices": [
@@ -756,7 +754,7 @@
     "subject": "anatomy_physiology",
     "topic": "blood",
     "subtopic": "Hemostasis",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The components of plasma that remain after a clot forms are called _____. Clotting factors are for the most part absent, and _____ (released by platelets during clotting to stimulate cell division in injured tissue) are present.",
     "choices": [
@@ -788,14 +786,14 @@
     "subject": "anatomy_physiology",
     "topic": "blood",
     "subtopic": "Hemostasis",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
-    "prompt": "Blood clots contain a chemical called _____, which when activated by _____ which is released from surrounding, healthy cells, gradually dissolves the clot.",
+    "prompt": "Blood clots contain a chemical called _____, which when activated by tissue _____ which is released from surrounding, healthy cells, gradually dissolves the clot.",
     "choices": [
-      "plasminogen; tissue plasminogen activator",
-      "plasmin; thrombin",
-      "fibrinogen; tissue plasminogen activator",
-      "plasminogen; prothrombin activator"
+      "plasminogen; plasminogen activator",
+      "plasmin; plasmin activator",
+      "fibrinogen; fibrinogen activator",
+      "prothrombin; prothrombin activator"
     ],
     "answer_index": 0
   },
@@ -804,7 +802,7 @@
     "subject": "anatomy_physiology",
     "topic": "blood",
     "subtopic": "Hemostasis",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "_____, when activated, forms plasmin: this enzyme dissolves unneeded clots in a process called _____.",
     "choices": [
@@ -820,7 +818,7 @@
     "subject": "anatomy_physiology",
     "topic": "blood",
     "subtopic": "Hemostasis",
-    "difficulty": 1,
+    "difficulty": 3,
     "type": "multiple_choice",
     "prompt": "Three general mechanisms prevent unwanted clot formation and the spreading of a clot to areas where it is not needed: _____ of clotting factors by blood flow, _____ of clotting factors by anticoagulants, and entrapment of _____ by the fibrin mesh.",
     "choices": [
@@ -852,7 +850,7 @@
     "subject": "anatomy_physiology",
     "topic": "blood",
     "subtopic": "Hemostasis",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "A clot that breaks free of its original site and travels through the bloodstream is called a(n) _____: if it wedges itself into a vessel too small for it to traverse, clogging it, it is called a(n) _____.",
     "choices": [
@@ -868,7 +866,7 @@
     "subject": "anatomy_physiology",
     "topic": "blood",
     "subtopic": "Hemostasis",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "_____ is a common, over-the-counter drug which inhibits thromboxane A2 formation and so interferes with blood clot formation (including those associated with thromboembolytic disorders).",
     "choices": [
@@ -900,7 +898,7 @@
     "subject": "anatomy_physiology",
     "topic": "blood",
     "subtopic": "Hemostasis",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "A deficiency in circulating platelets ('_____'), failure of the liver to synthesize clotting factors, or a genetic defect in one or more of the clotting factors ('_____') all lead to bleeding disorders.",
     "choices": [
@@ -916,9 +914,9 @@
     "subject": "anatomy_physiology",
     "topic": "blood",
     "subtopic": "Hemostasis",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
-    "prompt": "There are roughly 275,000 _____ (which type of formed element?) in a microliter of blood.",
+    "prompt": "There are roughly 275,000 _____ in a microliter of blood.",
     "choices": [
       "platelets",
       "erythrocytes",
@@ -996,7 +994,7 @@
     "subject": "anatomy_physiology",
     "topic": "blood",
     "subtopic": "Red Blood Cells",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "If erythrocytes had mitochondria, they would use _____ and would have less to deliver to tissues of the body. Instead, they rely on _____ for energy.",
     "choices": [
@@ -1076,7 +1074,7 @@
     "subject": "anatomy_physiology",
     "topic": "blood",
     "subtopic": "Red Blood Cells",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "After a hematopoietic stem cell's descendent becomes committed to forming red blood cells, it begins to divide rapidly and fills with _____, which will be needed to synthesize hemoglobin.",
     "choices": [
@@ -1092,7 +1090,7 @@
     "subject": "anatomy_physiology",
     "topic": "blood",
     "subtopic": "Red Blood Cells",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "After a cell which is destined to become an erythrocyte has accumulated enough hemoglobin to function, it shuts down and ejects the _____. At this stage, it is a functional but immature erythrocyte and is called a(n) _____.",
     "choices": [
@@ -1108,7 +1106,7 @@
     "subject": "anatomy_physiology",
     "topic": "blood",
     "subtopic": "Red Blood Cells",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Immature (but functional) erythrocytes normally make up _____% of the erythrocytes in the blood. Higher or lower numbers indicate a problem with the rate of erythrocyte formation.",
     "choices": [
@@ -1126,7 +1124,7 @@
     "subtopic": "Red Blood Cells",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "There are roughly 5 million _____ (which type of formed element?) in a microliter of blood.",
+    "prompt": "There are roughly 5 million _____ in a microliter of blood.",
     "choices": [
       "erythrocytes",
       "leukocytes",
@@ -1236,7 +1234,7 @@
     "subject": "anatomy_physiology",
     "topic": "blood",
     "subtopic": "Red Blood Cells",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "As erythrocytes become old and damaged, they tend to become trapped in the smallest capillaries of the _____, where they are destroyed by _____. (This also occurs to a lesser extent in the liver and in bone marrow.)",
     "choices": [
@@ -1252,7 +1250,7 @@
     "subject": "anatomy_physiology",
     "topic": "blood",
     "subtopic": "Red Blood Cells",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "When heme from old erythrocytes is broken down, the _____ is recycled by the body, while most of the remainder of the molecule is converted to a chemical called _____.",
     "choices": [
@@ -1268,7 +1266,7 @@
     "subject": "anatomy_physiology",
     "topic": "blood",
     "subtopic": "Red Blood Cells",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Bilirubin is released into the blood, binds to _____, and then is transported to the liver where it is secreted into the intestine by the gallbladder, in _____.",
     "choices": [
@@ -1300,7 +1298,7 @@
     "subject": "anatomy_physiology",
     "topic": "blood",
     "subtopic": "Red Blood Cells",
-    "difficulty": 1,
+    "difficulty": 3,
     "type": "multiple_choice",
     "prompt": "The _____ convert reabsorbed urobilinogen into urobilin, a yellow pigment which gives urine its color.",
     "choices": [
@@ -1316,7 +1314,7 @@
     "subject": "anatomy_physiology",
     "topic": "blood",
     "subtopic": "Red Blood Cells",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Fetal blood cells form hemoglobin-F, which has a higher affinity for oxygen than adult hemoglobin, hemoglobin-A, allowing _____.",
     "choices": [
@@ -1366,7 +1364,7 @@
     "subtopic": "White Blood Cells",
     "difficulty": 1,
     "type": "multiple_choice",
-    "prompt": "There are two major classes of white blood cell: _____ and _____. They are named for the presence (or absence) of visible _____ (small grains) when the cells are stained with Wright's stain.",
+    "prompt": "There are two major classes of white blood cell: _____ and _____. They are named for the presence (or absence) of visible _____ when the cells are stained with Wright's stain.",
     "choices": [
       "granulocytes; agranulocytes; granules",
       "lymphocytes; monocytes; lobules",
@@ -1428,7 +1426,7 @@
     "subject": "anatomy_physiology",
     "topic": "blood",
     "subtopic": "White Blood Cells",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "90% of all leukocytes are _____ or _____: the remaining three types account for 10% or less of total number of leukocytes.",
     "choices": [
@@ -1444,7 +1442,7 @@
     "subject": "anatomy_physiology",
     "topic": "blood",
     "subtopic": "White Blood Cells",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Neutrophils can be recognized by their nuclei, which generally have _____. These cells also take up both acidic and basic dyes, which results in a(n) _____ color.",
     "choices": [
@@ -1476,7 +1474,7 @@
     "subject": "anatomy_physiology",
     "topic": "blood",
     "subtopic": "White Blood Cells",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Neutrophils use reactive oxygen as weapons in a process called the _____.",
     "choices": [
@@ -1492,7 +1490,7 @@
     "subject": "anatomy_physiology",
     "topic": "blood",
     "subtopic": "White Blood Cells",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Eosinophils can be recognized by their nuclei, which is generally _____. They also contain granules and nuclei which bind eosin, a(n) _____ dye. (Eosin binding is not unique to eosinophils, though: red blood cells and muscle fibers, to name two of many others, are also stained by eosin.)",
     "choices": [
@@ -1524,7 +1522,7 @@
     "subject": "anatomy_physiology",
     "topic": "blood",
     "subtopic": "White Blood Cells",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Lymphocytes can be recognized by their nuclei, which are _____, and by their cytoplasm, of which there is _____.",
     "choices": [
@@ -1572,7 +1570,7 @@
     "subject": "anatomy_physiology",
     "topic": "blood",
     "subtopic": "White Blood Cells",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Monocytes can be recognized by their size, by the _____ shape of their nucleus, and by the _____ in their cytoplasm.",
     "choices": [
@@ -1620,7 +1618,7 @@
     "subject": "anatomy_physiology",
     "topic": "blood",
     "subtopic": "White Blood Cells",
-    "difficulty": 1,
+    "difficulty": 3,
     "type": "multiple_choice",
     "prompt": "The formation of white blood cells is primarily controlled by hormones released by _____ and _____.",
     "choices": [
@@ -1636,7 +1634,7 @@
     "subject": "anatomy_physiology",
     "topic": "blood",
     "subtopic": "White Blood Cells",
-    "difficulty": 1,
+    "difficulty": 3,
     "type": "multiple_choice",
     "prompt": "The hormones which stimulate the formation of white blood cells fall into two families: _____ and _____. (Chemical signals that cause cells to divide are called _____.)",
     "choices": [
@@ -1652,9 +1650,9 @@
     "subject": "anatomy_physiology",
     "topic": "blood",
     "subtopic": "White Blood Cells",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
-    "prompt": "Most blood cells live for less than days or weeks, but monocytes may live for _____ and some lymphocytes live for _____.",
+    "prompt": "Most blood cells live for only days or weeks, while monocytes may live for _____ and some lymphocytes live for _____.",
     "choices": [
       "months; years",
       "days; weeks",

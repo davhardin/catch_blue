@@ -31,8 +31,10 @@ ship.
   the book's CC BY-SA license.
 - **Imported:** 2026-09-09 — 656 questions across `blood`, `heart`,
   `blood_vessels`, and `lymphatic_and_immune_system` (ids `bio-anat-15-*`
-  through `bio-anat-18-*`). Further topics (respiratory onward) will be added
-  as they are vetted.
+  through `bio-anat-18-*`); 2026-09-11 — 155 `respiratory_system`
+  questions (`bio-anat-19-*`); 2026-09-14 — 229 `digestive_system`
+  questions (`bio-anat-20-*`). Further topics (metabolism onward) will be
+  added as they are vetted.
 - **Changes made:** same treatment as Volume 1 — short-answer / fill-in items
   converted to multiple choice with project-written distractors; a few items
   lightly reworded (e.g. one grammar fix); questions reorganized under this

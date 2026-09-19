@@ -36,7 +36,7 @@
     "subject": "anatomy_physiology",
     "topic": "brain",
     "subtopic": "Brain Protection",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The separation between the cerebral hemispheres is reinforced by an extension of the dura mater called the _____: anteriorly, it is attached to the crista galli of the skull, and so helps to hold the brain in position.",
     "choices": [
@@ -52,7 +52,7 @@
     "subject": "anatomy_physiology",
     "topic": "brain",
     "subtopic": "Brain Protection",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The _____ are tubes that are formed between the two layers of the dura mater through which venous blood flows.",
     "choices": [
@@ -100,7 +100,7 @@
     "subject": "anatomy_physiology",
     "topic": "brain",
     "subtopic": "Brain Protection",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The wide, cerebrospinal fluid containing space is between the _____ mater and the pia mater and is called the _____ space.",
     "choices": [
@@ -116,7 +116,7 @@
     "subject": "anatomy_physiology",
     "topic": "brain",
     "subtopic": "Brain Protection",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The main blood vessels supplying the brain are in the _____ space.",
     "choices": [
@@ -132,7 +132,7 @@
     "subject": "anatomy_physiology",
     "topic": "brain",
     "subtopic": "Brain Protection",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The cells of the capillaries in the brain are unusual in that they are _____.",
     "choices": [
@@ -244,7 +244,7 @@
     "subject": "anatomy_physiology",
     "topic": "brain",
     "subtopic": "Brain Stem",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Auditory signals from the ears, and eye and head reflexes, are mediated by the corpora quadrigemina, a subdivision of the _____.",
     "choices": [
@@ -276,7 +276,7 @@
     "subject": "anatomy_physiology",
     "topic": "brain",
     "subtopic": "Brain Stem",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Red, blood-rich neural centers called red nuclei assist in the unconscious regulation of motor activities and are found in the _____.",
     "choices": [
@@ -292,7 +292,7 @@
     "subject": "anatomy_physiology",
     "topic": "brain",
     "subtopic": "Brain Stem",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Along with the corpus striatum (one of the basal nuclei), the substantia nigra regulates coordination of movement and is found in the _____. (Some authors consider it to be one of the basal nuclei.)",
     "choices": [
@@ -308,7 +308,7 @@
     "subject": "anatomy_physiology",
     "topic": "brain",
     "subtopic": "Brain Stem",
-    "difficulty": 1,
+    "difficulty": 3,
     "type": "multiple_choice",
     "prompt": "The fear response, suppression of pain, and the motor nuclei for two of the cranial nerves which control eye movement, are found in the periaqueductal gray matter of the _____.",
     "choices": [
@@ -324,7 +324,7 @@
     "subject": "anatomy_physiology",
     "topic": "brain",
     "subtopic": "Brain Stem",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The cerebral peduncles found on the ventral face of the _____, house the pyramidal fiber tracts and convey signals from the cerebral cortex to the spinal cord and PNS.",
     "choices": [
@@ -340,7 +340,7 @@
     "subject": "anatomy_physiology",
     "topic": "brain",
     "subtopic": "Brain Stem",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Fibers of the _____ relay impulses between the motor cortex and the cerebellum.",
     "choices": [
@@ -388,7 +388,7 @@
     "subject": "anatomy_physiology",
     "topic": "brain",
     "subtopic": "Brain Stem",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The reverse-lateralization of hemispheric function (in which the right half of the body is controlled by the left hemisphere, etc.) is caused by crossover of long nerve tracts (the pyramidal tracts) on the ventral surface of the _____ at a point called the decussation of the pyramids.",
     "choices": [
@@ -436,7 +436,7 @@
     "subject": "anatomy_physiology",
     "topic": "brain",
     "subtopic": "Brain Stem",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Wakefulness and muscle tone are maintained by small clusters of nuclei called the _____, scattered throughout the brain stem.",
     "choices": [
@@ -452,7 +452,7 @@
     "subject": "anatomy_physiology",
     "topic": "brain",
     "subtopic": "Brain Stem",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The _____, scattered throughout the brain stem, allow us to filter out unimportant sensory information such as background noises.",
     "choices": [
@@ -484,7 +484,7 @@
     "subject": "anatomy_physiology",
     "topic": "brain",
     "subtopic": "Brain Development",
-    "difficulty": 1,
+    "difficulty": 3,
     "type": "multiple_choice",
     "prompt": "The three primary brain vesicles are formed during the _____ week after conception.",
     "choices": [
@@ -500,7 +500,7 @@
     "subject": "anatomy_physiology",
     "topic": "brain",
     "subtopic": "Brain Development",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Between the fifth week post-conception and birth, the prosencephalon (aka _____) develops to produce the _____ and _____ of the adult brain.",
     "choices": [
@@ -532,7 +532,7 @@
     "subject": "anatomy_physiology",
     "topic": "brain",
     "subtopic": "Brain Development",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Between the fifth week post-conception and birth, the rhombencephalon (aka _____) develops to produce the _____, _____ and _____ of the adult brain.",
     "choices": [
@@ -564,7 +564,7 @@
     "subject": "anatomy_physiology",
     "topic": "brain",
     "subtopic": "Brain Development",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The _____ is formed of paired strips of cells arising from the ectoderm at the margin of the neural tube.",
     "choices": [
@@ -580,7 +580,7 @@
     "subject": "anatomy_physiology",
     "topic": "brain",
     "subtopic": "Cerebellum",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The gyri of the cerebellum are called _____.",
     "choices": [
@@ -596,7 +596,7 @@
     "subject": "anatomy_physiology",
     "topic": "brain",
     "subtopic": "Cerebellum",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The _____ is the central region of the cerebellum.",
     "choices": [
@@ -612,7 +612,7 @@
     "subject": "anatomy_physiology",
     "topic": "brain",
     "subtopic": "Cerebellum",
-    "difficulty": 1,
+    "difficulty": 3,
     "type": "multiple_choice",
     "prompt": "The cerebellum is connected to the _____ by the superior peduncle, to the _____ by the middle peduncle, and to the _____ by the inferior peduncle.",
     "choices": [
@@ -740,7 +740,7 @@
     "subject": "anatomy_physiology",
     "topic": "brain",
     "subtopic": "Cerebral Cortex",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The cerebrum and cerebellum are separated by the _____.",
     "choices": [
@@ -836,7 +836,7 @@
     "subject": "anatomy_physiology",
     "topic": "brain",
     "subtopic": "Cerebral Cortex",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The function of the primary motor cortex, which is located in the _____, is to _____.",
     "choices": [
@@ -852,7 +852,7 @@
     "subject": "anatomy_physiology",
     "topic": "brain",
     "subtopic": "Cerebral Cortex",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The function of the pre-motor cortex, which is _____ to the primary motor cortex, is to _____.",
     "choices": [
@@ -868,7 +868,7 @@
     "subject": "anatomy_physiology",
     "topic": "brain",
     "subtopic": "Cerebral Cortex",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The _____ is responsible for bringing information regarding touch, surface temperature, etc., to conscious awareness. It is normally located in the _____.",
     "choices": [
@@ -884,7 +884,7 @@
     "subject": "anatomy_physiology",
     "topic": "brain",
     "subtopic": "Cerebral Cortex",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The _____ region of the brain is responsible for interpretation of physical sensations, after they have been sorted and integrated by the primary somatosensory cortex.",
     "choices": [
@@ -916,7 +916,7 @@
     "subject": "anatomy_physiology",
     "topic": "brain",
     "subtopic": "Cerebral Cortex",
-    "difficulty": 1,
+    "difficulty": 3,
     "type": "multiple_choice",
     "prompt": "The _____ cortex allows us to maintain balance and is located in the _____.",
     "choices": [
@@ -964,7 +964,7 @@
     "subject": "anatomy_physiology",
     "topic": "brain",
     "subtopic": "Cerebral Cortex",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The _____ stores memories of sounds and allows identification of sounds.",
     "choices": [
@@ -980,7 +980,7 @@
     "subject": "anatomy_physiology",
     "topic": "brain",
     "subtopic": "Cerebral Cortex",
-    "difficulty": 1,
+    "difficulty": 3,
     "type": "multiple_choice",
     "prompt": "A patient who is able to speak but who chooses words at random and is unable to connect thought to language is likely to have damage to _____ area, in the _____ hemisphere.",
     "choices": [
@@ -996,7 +996,7 @@
     "subject": "anatomy_physiology",
     "topic": "brain",
     "subtopic": "Cerebral Cortex",
-    "difficulty": 1,
+    "difficulty": 3,
     "type": "multiple_choice",
     "prompt": "A patient who is unable to speak despite having a clear concept of what is conceived (e.g., wanting coffee but unable to think of the word 'coffee') has most likely incurred damage to _____ area in the _____ hemisphere.",
     "choices": [
@@ -1012,7 +1012,7 @@
     "subject": "anatomy_physiology",
     "topic": "brain",
     "subtopic": "Cerebral Cortex",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The ability to distinguish between (for example) a coin and a key by touch is localized in the _____ cortex.",
     "choices": [
@@ -1076,7 +1076,7 @@
     "subject": "anatomy_physiology",
     "topic": "brain",
     "subtopic": "Cerebral Cortex",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Cerebral dominance refers to the hemisphere of the cerebrum that is _____.",
     "choices": [
@@ -1092,7 +1092,7 @@
     "subject": "anatomy_physiology",
     "topic": "brain",
     "subtopic": "Cerebral Cortex",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "_____ are axons which connect the corresponding gray areas of the two brain hemispheres. Most pass through (and form) the _____.",
     "choices": [
@@ -1108,7 +1108,7 @@
     "subject": "anatomy_physiology",
     "topic": "brain",
     "subtopic": "Cerebral Cortex",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "_____ are axons which connect different parts of a single brain hemisphere.",
     "choices": [
@@ -1124,7 +1124,7 @@
     "subject": "anatomy_physiology",
     "topic": "brain",
     "subtopic": "Cerebral Cortex",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "_____ are nerve fibers which connect the hemispheres of the brain to the spinal cord and PNS.",
     "choices": [
@@ -1172,7 +1172,7 @@
     "subject": "anatomy_physiology",
     "topic": "brain",
     "subtopic": "Cerebral Cortex",
-    "difficulty": 1,
+    "difficulty": 3,
     "type": "multiple_choice",
     "prompt": "A patient exhibiting spastic movements, tremors, slowness, rigidity, or difficulty initiating voluntary movement may well have damage to the _____.",
     "choices": [
@@ -1204,7 +1204,7 @@
     "subject": "anatomy_physiology",
     "topic": "brain",
     "subtopic": "Cerebral Cortex",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Alpha and beta brainwaves occur _____, while theta waves are more common in _____.",
     "choices": [
@@ -1252,7 +1252,7 @@
     "subject": "anatomy_physiology",
     "topic": "brain",
     "subtopic": "Cerebral Cortex",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "During _____ sleep, the brain wave patterns mimic wakefulness.",
     "choices": [
@@ -1316,7 +1316,7 @@
     "subject": "anatomy_physiology",
     "topic": "brain",
     "subtopic": "Cerebral Cortex",
-    "difficulty": 1,
+    "difficulty": 3,
     "type": "multiple_choice",
     "prompt": "Procedural memory is mediated by the _____, one of the basal nuclei.",
     "choices": [
@@ -1332,7 +1332,7 @@
     "subject": "anatomy_physiology",
     "topic": "brain",
     "subtopic": "Cerebral Cortex",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Two changes that occur at the cellular level in the formation of new memories are the formation of new _____, or changes in the strength of the _____.",
     "choices": [
@@ -1348,7 +1348,7 @@
     "subject": "anatomy_physiology",
     "topic": "brain",
     "subtopic": "Cerebral Cortex",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The addition of extra neurotransmitter receptors at an existing synapse during the formation of a memory to make the synapse more responsive to a brief signal is an example of _____.",
     "choices": [
@@ -1364,7 +1364,7 @@
     "subject": "anatomy_physiology",
     "topic": "brain",
     "subtopic": "Cerebral Cortex",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "An abnormal build up of beta-amyloid protein fragments in the regions surrounding neurons, and of neurofibrillary tangles in the cytoplasm of pyramidal neurons and in that of neurons whose axons connect with them, are the causes of neuronal death in _____.",
     "choices": [
@@ -1396,7 +1396,7 @@
     "subject": "anatomy_physiology",
     "topic": "brain",
     "subtopic": "Cerebral Cortex",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "In Huntington's Disease, damage to the caudate nucleus, one of the basal nuclei, caused by an abnormal protein leads to _____ and eventually to death.",
     "choices": [
@@ -1412,7 +1412,7 @@
     "subject": "anatomy_physiology",
     "topic": "brain",
     "subtopic": "Cerebral Cortex",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Loss of dopamine-producing neurons in the substantia nigra leads to tremor, muscular rigidity, slow movement and postural instability in _____.",
     "choices": [
@@ -1428,7 +1428,7 @@
     "subject": "anatomy_physiology",
     "topic": "brain",
     "subtopic": "Cerebral Cortex",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Damage to the _____ in the brain causes the muscles to contract involuntarily and somewhat at random, a condition called _____ paralysis.",
     "choices": [
@@ -1492,7 +1492,7 @@
     "subject": "anatomy_physiology",
     "topic": "brain",
     "subtopic": "Cerebrospinal Fluid",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Cerebrospinal fluid is formed in regions within the ventricles called _____ by _____ cells.",
     "choices": [
@@ -1508,7 +1508,7 @@
     "subject": "anatomy_physiology",
     "topic": "brain",
     "subtopic": "Cerebrospinal Fluid",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "After the CSF is formed, it circulates from the lateral ventricles to the third and fourth ventricles, and from there to the _____ and central canal of the spinal cord.",
     "choices": [
@@ -1524,7 +1524,7 @@
     "subject": "anatomy_physiology",
     "topic": "brain",
     "subtopic": "Cerebrospinal Fluid",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "After circulation the CSF returns to the blood by passing through the _____, which are clusters of the arachnoid mater which project into the dural sinuses and act as one-way valves.",
     "choices": [
@@ -1620,7 +1620,7 @@
     "subject": "anatomy_physiology",
     "topic": "brain",
     "subtopic": "Diencephalon",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Much of the influence of the hypothalamus is due to the release of hormones which control the release of other hormones: appropriately enough, their names usually include the phrase, \"_____\".",
     "choices": [
@@ -1636,7 +1636,7 @@
     "subject": "anatomy_physiology",
     "topic": "brain",
     "subtopic": "Diencephalon",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The pineal gland, habenula, and choroid plexus of the third ventricle constitute the _____.",
     "choices": [
@@ -1652,7 +1652,7 @@
     "subject": "anatomy_physiology",
     "topic": "brain",
     "subtopic": "Diencephalon",
-    "difficulty": 1,
+    "difficulty": 3,
     "type": "multiple_choice",
     "prompt": "The _____ connects the limbic system to the midbrain - it's physiological roles are still under active investigation.",
     "choices": [
@@ -1700,7 +1700,7 @@
     "subject": "anatomy_physiology",
     "topic": "brain",
     "subtopic": "Limbic System",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The _____ is a group of nuclei and tracts which surround, and include several parts of, the diencephalon.",
     "choices": [
@@ -1716,7 +1716,7 @@
     "subject": "anatomy_physiology",
     "topic": "brain",
     "subtopic": "Limbic System",
-    "difficulty": 1,
+    "difficulty": 3,
     "type": "multiple_choice",
     "prompt": "The _____ is a bundle of nerve tracts linking structures in the limbic system to one another.",
     "choices": [
@@ -1748,7 +1748,7 @@
     "subject": "anatomy_physiology",
     "topic": "brain",
     "subtopic": "Limbic System",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Damage to the _____ will prevent the acquisition of new declarative memories.",
     "choices": [

@@ -4,7 +4,7 @@
     "subject": "anatomy_physiology",
     "topic": "sensory_pathways_and_somatic_nervous_system",
     "subtopic": "Afferent Division",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "_____ is the awareness of changes in the internal or external environment while _____ is their interpretation. Both of these occur only in the _____.",
     "choices": [
@@ -36,7 +36,7 @@
     "subject": "anatomy_physiology",
     "topic": "sensory_pathways_and_somatic_nervous_system",
     "subtopic": "Afferent Division",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The soma (cell bodies) of the first order neurons reside in the _____ or _____ ganglia.",
     "choices": [
@@ -52,7 +52,7 @@
     "subject": "anatomy_physiology",
     "topic": "sensory_pathways_and_somatic_nervous_system",
     "subtopic": "Afferent Division",
-    "difficulty": 1,
+    "difficulty": 3,
     "type": "multiple_choice",
     "prompt": "The _____ are the interneurons in the CNS which receive the signal from the first order neurons. Their cell bodies are found in the _____ of the spinal cord or in the _____, and convey their signals within the spinal cord, or to the thalamus or cerebellum.",
     "choices": [
@@ -68,7 +68,7 @@
     "subject": "anatomy_physiology",
     "topic": "sensory_pathways_and_somatic_nervous_system",
     "subtopic": "Afferent Division",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Some sensory signals are received by third order neurons in the _____ and are passed on to the cerebrum for perception. Others are never perceived, but are instead only sensed and acted on at the subconscious level.",
     "choices": [
@@ -132,7 +132,7 @@
     "subject": "anatomy_physiology",
     "topic": "sensory_pathways_and_somatic_nervous_system",
     "subtopic": "Afferent Division",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Cranial nerve # _____, the _____ nerve, controls several of the muscles needed for speech, chewing, and swallowing, as well as carrying sensory information from the face, scalp, and mandibles. (Two of its three branches innervate the teeth.)",
     "choices": [
@@ -164,7 +164,7 @@
     "subject": "anatomy_physiology",
     "topic": "sensory_pathways_and_somatic_nervous_system",
     "subtopic": "Afferent Division",
-    "difficulty": 1,
+    "difficulty": 3,
     "type": "multiple_choice",
     "prompt": "Cranial nerve # _____, the _____ nerve, is involved in taste and carries sensory signals from the tongue, middle ear, and pharynx. It also assists in monitoring blood pressure and blood gas concentrations by carrying information received from receptors in the carotid arteries.",
     "choices": [
@@ -196,7 +196,7 @@
     "subject": "anatomy_physiology",
     "topic": "sensory_pathways_and_somatic_nervous_system",
     "subtopic": "Afferent Division",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Unexplained pain in areas of the body not normally considered to be likely to give rise to life threatening problems (for example, the left arm) should be treated seriously because it may be _____.",
     "choices": [
@@ -212,7 +212,7 @@
     "subject": "anatomy_physiology",
     "topic": "sensory_pathways_and_somatic_nervous_system",
     "subtopic": "Efferent Division",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Cranial nerve # _____, the _____ nerve, is primarily a motor nerve: it controls the eyelid, four of the six extrinsic muscles which move the eye, and also resizes the iris and focuses the lens.",
     "choices": [
@@ -228,7 +228,7 @@
     "subject": "anatomy_physiology",
     "topic": "sensory_pathways_and_somatic_nervous_system",
     "subtopic": "Efferent Division",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Cranial nerve # _____, the _____ nerve, innervates only one of the six muscles which move the eye, the superior oblique muscle.",
     "choices": [
@@ -244,7 +244,7 @@
     "subject": "anatomy_physiology",
     "topic": "sensory_pathways_and_somatic_nervous_system",
     "subtopic": "Efferent Division",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Cranial nerve # _____, the _____ nerve, innervates the lateral rectus muscle (eye).",
     "choices": [
@@ -260,7 +260,7 @@
     "subject": "anatomy_physiology",
     "topic": "sensory_pathways_and_somatic_nervous_system",
     "subtopic": "Efferent Division",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Sensations of taste and the ability to control expressions are provided by cranial nerve # _____, the _____ nerve. It also helps with swallowing and controls the tear glands and two sets of salivary glands.",
     "choices": [
@@ -292,7 +292,7 @@
     "subject": "anatomy_physiology",
     "topic": "sensory_pathways_and_somatic_nervous_system",
     "subtopic": "Efferent Division",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Cranial nerve # _____, the _____ nerve, is the only 'cranial' nerve to include a spinal root. It innervates the larynx, pharynx, and several muscles of the neck.",
     "choices": [
@@ -452,7 +452,7 @@
     "subject": "anatomy_physiology",
     "topic": "sensory_pathways_and_somatic_nervous_system",
     "subtopic": "Sensory Receptors",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Free nerve endings are NOT responsible for detecting _____.",
     "choices": [
@@ -469,7 +469,7 @@
     "subject": "anatomy_physiology",
     "topic": "sensory_pathways_and_somatic_nervous_system",
     "subtopic": "Sensory Receptors",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Merkel disks respond to _____.",
     "choices": [
@@ -501,7 +501,7 @@
     "subject": "anatomy_physiology",
     "topic": "sensory_pathways_and_somatic_nervous_system",
     "subtopic": "Sensory Receptors",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Meissner's corpuscles are responsible for detecting _____.",
     "choices": [
@@ -517,7 +517,7 @@
     "subject": "anatomy_physiology",
     "topic": "sensory_pathways_and_somatic_nervous_system",
     "subtopic": "Sensory Receptors",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Pacinian corpuscles are responsible for detecting _____.",
     "choices": [
@@ -533,7 +533,7 @@
     "subject": "anatomy_physiology",
     "topic": "sensory_pathways_and_somatic_nervous_system",
     "subtopic": "Sensory Receptors",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Ruffini's corpuscles are responsible for detecting _____.",
     "choices": [
@@ -581,7 +581,7 @@
     "subject": "anatomy_physiology",
     "topic": "sensory_pathways_and_somatic_nervous_system",
     "subtopic": "Sensory Receptors",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "A generator potential is a(n) _____ potential and so depends on the strength of the stimulus.",
     "choices": [

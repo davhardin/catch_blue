@@ -20,7 +20,7 @@
     "subject": "anatomy_physiology",
     "topic": "cells",
     "subtopic": "Cellular Transport",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Molecules can passively diffuse through the plasma membrane with the aid of _____ proteins, which form a tunnel that specific molecules can travel, and _____ proteins, which bind to a molecule and change shape so that un-binding occurs on the opposite side of the membrane.",
     "choices": [
@@ -84,7 +84,7 @@
     "subject": "anatomy_physiology",
     "topic": "cells",
     "subtopic": "Cellular Transport",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "When a cell is surrounded by solution of higher solute concentration, the solution is said to be _____ to the cell, and the net movement of water is _____.",
     "choices": [
@@ -100,7 +100,7 @@
     "subject": "anatomy_physiology",
     "topic": "cells",
     "subtopic": "Cellular Transport",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "When a cell is surrounded by solution of lower solute concentration, the solution is said to be _____ to the cell, and the net movement of water is _____.",
     "choices": [
@@ -148,7 +148,7 @@
     "subject": "anatomy_physiology",
     "topic": "cells",
     "subtopic": "Cellular Transport",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Sodium and potassium gradients are maintained by an active-transport protein called the sodium-potassium pump, which moves _____ sodiums out of the cell for every _____ potassium ions brought in.",
     "choices": [
@@ -180,7 +180,7 @@
     "subject": "anatomy_physiology",
     "topic": "cells",
     "subtopic": "Cellular Transport",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "When a vesicle is formed on one side of the cell to endocytose extracellular material, and actually traverses the cell to leave on the other side, the process is called _____. (This process is important in digestion.)",
     "choices": [
@@ -212,7 +212,7 @@
     "subject": "anatomy_physiology",
     "topic": "cells",
     "subtopic": "DNA, Transcription and Translation",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "During DNA synthesis, new nucleotides can only be added to the _____ end of the DNA.",
     "choices": [
@@ -226,7 +226,7 @@
     "subject": "anatomy_physiology",
     "topic": "cells",
     "subtopic": "DNA, Transcription and Translation",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The _____ strand of DNA is made discontinuously (in small pieces).",
     "choices": [
@@ -242,7 +242,7 @@
     "subject": "anatomy_physiology",
     "topic": "cells",
     "subtopic": "DNA, Transcription and Translation",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "DNA polymerases require a(n) _____, which in the cell is either a pre-existing piece of DNA, or a newly made piece of RNA.",
     "choices": [
@@ -258,7 +258,7 @@
     "subject": "anatomy_physiology",
     "topic": "cells",
     "subtopic": "DNA, Transcription and Translation",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "At the DNA level, the difference between a liver cell and a brain cell, is that they _____, although they have the same _____.",
     "choices": [
@@ -386,7 +386,7 @@
     "subject": "anatomy_physiology",
     "topic": "cells",
     "subtopic": "DNA, Transcription and Translation",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Codons are found in _____ RNA, while anticodons are found in _____ RNA.",
     "choices": [
@@ -418,7 +418,7 @@
     "subject": "anatomy_physiology",
     "topic": "cells",
     "subtopic": "Cell Membrane",
-    "difficulty": 1,
+    "difficulty": 3,
     "type": "multiple_choice",
     "prompt": "The two factors that act in opposite ways to stabilize the resting membrane potential are _____ and _____.",
     "choices": [
@@ -546,7 +546,7 @@
     "subject": "anatomy_physiology",
     "topic": "cells",
     "subtopic": "Cell Membrane",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "_____ are membrane junctions which allow force to be passed from cell to cell without separation of, or damage to, the cellular membranes.",
     "choices": [
@@ -610,7 +610,7 @@
     "subject": "anatomy_physiology",
     "topic": "cells",
     "subtopic": "Organelles",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The entire region between the cellular nucleus and the membrane is called the _____, the liquid portion is called the _____, and the membrane-enclosed compartments in which specific functions are localized are called _____.",
     "choices": [
@@ -690,7 +690,7 @@
     "subject": "anatomy_physiology",
     "topic": "cells",
     "subtopic": "Organelles",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Cytosolic proteins are made by _____ ribosomes, while proteins destined for export, or use in membrane, are made by _____ ribosomes.",
     "choices": [
@@ -770,7 +770,7 @@
     "subject": "anatomy_physiology",
     "topic": "cells",
     "subtopic": "Organelles",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The organelles which isolate hazardous chemical reactions within the cell, especially those producing free radicals, are called _____.",
     "choices": [
@@ -802,7 +802,7 @@
     "subject": "anatomy_physiology",
     "topic": "cells",
     "subtopic": "Organelles",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The primary functions of _____ are to brace and strengthen the cell's surface and to attach to cellular adhesion molecules which allow binding to substrates and other cells. They also function in endocytosis and exocytosis.",
     "choices": [
@@ -818,7 +818,7 @@
     "subject": "anatomy_physiology",
     "topic": "cells",
     "subtopic": "Organelles",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The semi-permanent structural framework of the cell, which transmit force from one point in the membrane to others, allowing cells to spread a stretching force across a wide region and to other cells, are the _____.",
     "choices": [
@@ -834,7 +834,7 @@
     "subject": "anatomy_physiology",
     "topic": "cells",
     "subtopic": "Organelles",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The dynamic, hollow tubes which help to determine the overall shape of the cell and along which organelles move as if on a conveyor belt are the _____.",
     "choices": [
@@ -898,7 +898,7 @@
     "subject": "anatomy_physiology",
     "topic": "cells",
     "subtopic": "Organelles",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The cytoskeletal components that give cilia their mobility and structural strength are _____.",
     "choices": [
@@ -914,7 +914,7 @@
     "subject": "anatomy_physiology",
     "topic": "cells",
     "subtopic": "Organelles",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The primary difference between cilia and flagella is _____.",
     "choices": [
@@ -946,7 +946,7 @@
     "subject": "anatomy_physiology",
     "topic": "cells",
     "subtopic": "Organelles",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The outer membrane of the nuclear envelope is continuous with the _____.",
     "choices": [
@@ -1010,7 +1010,7 @@
     "subject": "anatomy_physiology",
     "topic": "cells",
     "subtopic": "Organelles",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Non-functional organelles are degraded by _____.",
     "choices": [
@@ -1074,7 +1074,7 @@
     "subject": "anatomy_physiology",
     "topic": "cells",
     "subtopic": "The Cell Cycle",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Cells that have permanently stopped dividing enter a phase of the cell cycle known as _____.",
     "choices": [

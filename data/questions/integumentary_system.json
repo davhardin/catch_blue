@@ -20,7 +20,7 @@
     "subject": "anatomy_physiology",
     "topic": "integumentary_system",
     "subtopic": "Aging: Integumentary System",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "In advanced age, the amount of dermal _____ decreases, and the fibers become thicker and disorganized.",
     "choices": [
@@ -36,7 +36,7 @@
     "subject": "anatomy_physiology",
     "topic": "integumentary_system",
     "subtopic": "Dermis and Hypodermis",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The dermis is composed of _____ and _____.",
     "choices": [
@@ -52,7 +52,7 @@
     "subject": "anatomy_physiology",
     "topic": "integumentary_system",
     "subtopic": "Dermis and Hypodermis",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The hypodermis is composed of _____ and _____.",
     "choices": [
@@ -132,7 +132,7 @@
     "subject": "anatomy_physiology",
     "topic": "integumentary_system",
     "subtopic": "Dermis and Hypodermis",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The papillary layer of the dermis contains _____ and _____ to sense gentle contact with objects in the environment.",
     "choices": [
@@ -148,7 +148,7 @@
     "subject": "anatomy_physiology",
     "topic": "integumentary_system",
     "subtopic": "Dermis and Hypodermis",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The reticular layer of the dermis contains _____ and _____ to sense firm pressure.",
     "choices": [
@@ -260,7 +260,7 @@
     "subject": "anatomy_physiology",
     "topic": "integumentary_system",
     "subtopic": "Epidermis",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Most of the melanin in skin is in _____ (what cell type).",
     "choices": [
@@ -276,7 +276,7 @@
     "subject": "anatomy_physiology",
     "topic": "integumentary_system",
     "subtopic": "Epidermis",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Our most superficial touch receptors are the _____, found in the _____ of the epidermis.",
     "choices": [
@@ -308,7 +308,7 @@
     "subject": "anatomy_physiology",
     "topic": "integumentary_system",
     "subtopic": "Epidermis",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "In the _____ of the epidermis, keratinocytes begin to accumulate keratohyalin, which is necessary for keratin production, and to degrade their nuclei and organelles in their final living actions.",
     "choices": [
@@ -324,7 +324,7 @@
     "subject": "anatomy_physiology",
     "topic": "integumentary_system",
     "subtopic": "Epidermis",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Keratinocytes in the _____ of the epidermis produce lamellated granules filled with a water-proofing glycolipid.",
     "choices": [
@@ -372,7 +372,7 @@
     "subject": "anatomy_physiology",
     "topic": "integumentary_system",
     "subtopic": "Epidermis",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Three quarters of the epidermal thickness is accounted for by the _____.",
     "choices": [
@@ -548,7 +548,7 @@
     "subject": "anatomy_physiology",
     "topic": "integumentary_system",
     "subtopic": "Hair and Nails",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The hair follicle is composed of cells from the _____ (which tissue layer in general?), but deep within the follicle, at the hair matrix, only cells of the _____ (which layer, specifically?) are present.",
     "choices": [
@@ -564,7 +564,7 @@
     "subject": "anatomy_physiology",
     "topic": "integumentary_system",
     "subtopic": "Hair and Nails",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "In hair, cell division occurs only in the _____.",
     "choices": [
@@ -580,7 +580,7 @@
     "subject": "anatomy_physiology",
     "topic": "integumentary_system",
     "subtopic": "Hair and Nails",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "In the hair, pigment is made by melanocytes and exported to keratinocytes in the _____, within the hair bulb.",
     "choices": [
@@ -756,7 +756,7 @@
     "subject": "anatomy_physiology",
     "topic": "integumentary_system",
     "subtopic": "Integumentary Damage / Repair",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Squamous cell carcinomas _____ and _____ if not removed.",
     "choices": [
@@ -772,7 +772,7 @@
     "subject": "anatomy_physiology",
     "topic": "integumentary_system",
     "subtopic": "Integumentary Damage / Repair",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Squamous cell carcinomas are found most frequently on the _____, _____, and _____.",
     "choices": [
@@ -804,7 +804,7 @@
     "subject": "anatomy_physiology",
     "topic": "integumentary_system",
     "subtopic": "Integumentary Damage / Repair",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Melanomas can often be spotted by application of the ABCD(E) rule. The letters refer to: _____, _____, _____, _____ and _____.",
     "choices": [
@@ -868,7 +868,7 @@
     "subject": "anatomy_physiology",
     "topic": "integumentary_system",
     "subtopic": "Integumentary Damage / Repair",
-    "difficulty": 1,
+    "difficulty": 3,
     "type": "multiple_choice",
     "prompt": "Burns are considered critical if over _____ of the body has second degree burns.",
     "choices": [
@@ -884,7 +884,7 @@
     "subject": "anatomy_physiology",
     "topic": "integumentary_system",
     "subtopic": "Integumentary Damage / Repair",
-    "difficulty": 1,
+    "difficulty": 3,
     "type": "multiple_choice",
     "prompt": "Burns are considered critical if over _____ of the body has third degree burns.",
     "choices": [
@@ -900,7 +900,7 @@
     "subject": "anatomy_physiology",
     "topic": "integumentary_system",
     "subtopic": "Integumentary Damage / Repair",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Burns are considered critical if there are third degree burns on the _____.",
     "choices": [
@@ -948,7 +948,7 @@
     "subject": "anatomy_physiology",
     "topic": "integumentary_system",
     "subtopic": "Sweat Glands",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Sudoriferous glands are _____ glands, meaning that their products enter the duct via exocytosis.",
     "choices": [
@@ -996,7 +996,7 @@
     "subject": "anatomy_physiology",
     "topic": "integumentary_system",
     "subtopic": "Sweat Glands",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The ducts of _____ (a type of sweat gland) open into hair follicles, rather than directly onto the skin's surface.",
     "choices": [
@@ -1060,7 +1060,7 @@
     "subject": "anatomy_physiology",
     "topic": "integumentary_system",
     "subtopic": "Sweat Glands",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Sebaceous glands are _____ glands, which means that the cells rupture in order to spill their contents into the duct.",
     "choices": [

@@ -68,7 +68,7 @@
     "subject": "anatomy_physiology",
     "topic": "spinal_cord",
     "subtopic": "Spinal Cord Structure",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The spinal cord itself is formed from the _____, and the dorsal root ganglia are formed from the _____.",
     "choices": [
@@ -84,7 +84,7 @@
     "subject": "anatomy_physiology",
     "topic": "spinal_cord",
     "subtopic": "Spinal Cord Structure",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The spinal cord extends from the _____ to the _____; below L1 it branches to form the _____.",
     "choices": [
@@ -116,7 +116,7 @@
     "subject": "anatomy_physiology",
     "topic": "spinal_cord",
     "subtopic": "Spinal Cord Structure",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "In the inferior regions, there is a gap between the _____ and the _____ into which anesthetics are often introduced (\"epidural\" – \"upon the dura\").",
     "choices": [
@@ -148,7 +148,7 @@
     "subject": "anatomy_physiology",
     "topic": "spinal_cord",
     "subtopic": "Spinal Cord Structure",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The butterfly-shaped central core of gray matter in the spinal cord can be divided into three regions. The _____ contains the cell bodies of the autonomic motor neurons and is present only in the thoracic and upper lumbar (L1 and L2) regions.",
     "choices": [
@@ -164,7 +164,7 @@
     "subject": "anatomy_physiology",
     "topic": "spinal_cord",
     "subtopic": "Spinal Cord Structure",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The butterfly-shaped central core of gray matter in the spinal cord can be divided into three regions. The _____ contains interneurons.",
     "choices": [
@@ -180,7 +180,7 @@
     "subject": "anatomy_physiology",
     "topic": "spinal_cord",
     "subtopic": "Spinal Cord Structure",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "_____ are white-matter columns consisting of the myelinated axons of neurons associated with the spinal cord.",
     "choices": [
@@ -196,7 +196,7 @@
     "subject": "anatomy_physiology",
     "topic": "spinal_cord",
     "subtopic": "Spinal Cord Structure",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The neuronal cell bodies for the ascending pathways of the spinal cord itself are found in the _____ or _____.",
     "choices": [
@@ -212,7 +212,7 @@
     "subject": "anatomy_physiology",
     "topic": "spinal_cord",
     "subtopic": "Spinal Cord Structure",
-    "difficulty": 1,
+    "difficulty": 3,
     "type": "multiple_choice",
     "prompt": "Detailed information concerning position, vibration, or fine touch are transmitted by the _____ pathway of the somatosensory tracts of the spinal cord. This pathway is located in the _____.",
     "choices": [
@@ -228,7 +228,7 @@
     "subject": "anatomy_physiology",
     "topic": "spinal_cord",
     "subtopic": "Spinal Cord Structure",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Information regarding crude touch, temperature, pressure, and pain is carried through the _____ pathway of the somatosensory tracts of the spinal cord.",
     "choices": [
@@ -244,7 +244,7 @@
     "subject": "anatomy_physiology",
     "topic": "spinal_cord",
     "subtopic": "Spinal Cord Structure",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Messages carried in the specific and non-specific ascending pathways ultimately reach the somatosensory cortex on _____ the sensor.",
     "choices": [
@@ -260,7 +260,7 @@
     "subject": "anatomy_physiology",
     "topic": "spinal_cord",
     "subtopic": "Spinal Cord Structure",
-    "difficulty": 1,
+    "difficulty": 3,
     "type": "multiple_choice",
     "prompt": "Impulses from the trunk and lower limb regarding position and movement are carried through the _____ pathway of the somatosensory tracts of the spinal cord. This pathway is located in the _____.",
     "choices": [
@@ -276,7 +276,7 @@
     "subject": "anatomy_physiology",
     "topic": "spinal_cord",
     "subtopic": "Spinal Cord Structure",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Messages carried in the spinocerebellar pathways ultimately reach the cerebellum on _____ the sensor.",
     "choices": [
@@ -292,7 +292,7 @@
     "subject": "anatomy_physiology",
     "topic": "spinal_cord",
     "subtopic": "Spinal Cord Structure",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Signals from the pyramidal cells in the motor cortex to the spinal cord are carried by the _____, one of the two motor tracts of the spinal cord.",
     "choices": [
@@ -308,7 +308,7 @@
     "subject": "anatomy_physiology",
     "topic": "spinal_cord",
     "subtopic": "Spinal Cord Structure",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Signals controlling automatic movements such as those needed to maintain balance are carried by the _____ system, one of the two motor tracts of the spinal cord.",
     "choices": [
@@ -324,7 +324,7 @@
     "subject": "anatomy_physiology",
     "topic": "spinal_cord",
     "subtopic": "Spinal Cord Structure",
-    "difficulty": 1,
+    "difficulty": 3,
     "type": "multiple_choice",
     "prompt": "The motor tracts of the spinal cord are located in the _____.",
     "choices": [
@@ -340,7 +340,7 @@
     "subject": "anatomy_physiology",
     "topic": "spinal_cord",
     "subtopic": "Spinal Cord Structure",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Damage to the _____ of the spinal cord prevents nerve impulses from reaching the muscle and causes the muscles to remain limp, a condition called _____ paralysis.",
     "choices": [
@@ -356,7 +356,7 @@
     "subject": "anatomy_physiology",
     "topic": "spinal_cord",
     "subtopic": "Spinal Cord Structure",
-    "difficulty": 1,
+    "difficulty": 3,
     "type": "multiple_choice",
     "prompt": "Because injuries to the anterior spinal cord are nearly always accompanied by injuries to the _____, flaccid paralysis is often accompanied by _____.",
     "choices": [
@@ -372,7 +372,7 @@
     "subject": "anatomy_physiology",
     "topic": "spinal_cord",
     "subtopic": "Spinal Nerves",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The axons of the neurons from the _____ and _____ horns emerge together as the ventral roots.",
     "choices": [
@@ -404,7 +404,7 @@
     "subject": "anatomy_physiology",
     "topic": "spinal_cord",
     "subtopic": "Spinal Nerves",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Neurons in the _____ have axons which extend from the receptor to the spinal cord, or in some cases all the way to the brain.",
     "choices": [
@@ -420,7 +420,7 @@
     "subject": "anatomy_physiology",
     "topic": "spinal_cord",
     "subtopic": "Spinal Nerves",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Neurons of the dorsal horn receive signals from those in the _____. Their own axons extend to reach neurons in the brain stem, diencephalon, etc.",
     "choices": [
@@ -452,7 +452,7 @@
     "subject": "anatomy_physiology",
     "topic": "spinal_cord",
     "subtopic": "Spinal Nerves",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The _____ is the connective tissue surrounding individual axons within a nerve.",
     "choices": [
@@ -468,7 +468,7 @@
     "subject": "anatomy_physiology",
     "topic": "spinal_cord",
     "subtopic": "Spinal Nerves",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The _____ is the connective tissue surrounding a fascicle of axons in a nerve.",
     "choices": [
@@ -484,7 +484,7 @@
     "subject": "anatomy_physiology",
     "topic": "spinal_cord",
     "subtopic": "Spinal Nerves",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The _____ is the connective tissue surrounding the entire nerve (including the blood vessels).",
     "choices": [
@@ -500,7 +500,7 @@
     "subject": "anatomy_physiology",
     "topic": "spinal_cord",
     "subtopic": "Spinal Nerves",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "After the axon of a peripheral neuron is damaged, the _____ end deteriorates.",
     "choices": [
@@ -516,7 +516,7 @@
     "subject": "anatomy_physiology",
     "topic": "spinal_cord",
     "subtopic": "Spinal Nerves",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "After the axon of a peripheral neuron is damaged, _____ cells detach from the myelin sheath and divide to guide new axonal growth.",
     "choices": [
@@ -532,7 +532,7 @@
     "subject": "anatomy_physiology",
     "topic": "spinal_cord",
     "subtopic": "Spinal Nerves",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "_____ are small bundles of axons emerging from or entering the spinal cord.",
     "choices": [
@@ -644,7 +644,7 @@
     "subject": "anatomy_physiology",
     "topic": "spinal_cord",
     "subtopic": "Spinal Nerves",
-    "difficulty": 1,
+    "difficulty": 3,
     "type": "multiple_choice",
     "prompt": "Soon after exiting the vertebral column, each spinal nerve divides into four branches, the _____, ______, _____ and _____.",
     "choices": [
@@ -692,7 +692,7 @@
     "subject": "anatomy_physiology",
     "topic": "spinal_cord",
     "subtopic": "Spinal Nerves",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Plexuses consist of axons from the _____ rami of spinal nerves.",
     "choices": [
@@ -708,7 +708,7 @@
     "subject": "anatomy_physiology",
     "topic": "spinal_cord",
     "subtopic": "Spinal Nerves",
-    "difficulty": 1,
+    "difficulty": 3,
     "type": "multiple_choice",
     "prompt": "All ventral rami except those from _____ intertwine in plexus.",
     "choices": [
@@ -724,7 +724,7 @@
     "subject": "anatomy_physiology",
     "topic": "spinal_cord",
     "subtopic": "Spinal Nerves",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "_____ innervate the thorax, controlling muscles to the ribs, anterolateral thorax, and abdominal wall.",
     "choices": [
@@ -740,7 +740,7 @@
     "subject": "anatomy_physiology",
     "topic": "spinal_cord",
     "subtopic": "Spinal Nerves",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Because of the complex intertwining of the motor nerves in plexuses, damage to the spinal nerves can be difficult to diagnose based on motor deficits, and must instead be diagnosed based on _____.",
     "choices": [
@@ -772,7 +772,7 @@
     "subject": "anatomy_physiology",
     "topic": "spinal_cord",
     "subtopic": "Spinal Nerves",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The _____ innervates the skin of the neck, ear, back of the head, shoulders, and diaphragm, and is formed from the ventral rami of _____.",
     "choices": [
@@ -804,7 +804,7 @@
     "subject": "anatomy_physiology",
     "topic": "spinal_cord",
     "subtopic": "Spinal Nerves",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The _____ plexus innervates the upper limb, and is formed from the ventral rami of _____.",
     "choices": [
@@ -820,7 +820,7 @@
     "subject": "anatomy_physiology",
     "topic": "spinal_cord",
     "subtopic": "Spinal Nerves",
-    "difficulty": 1,
+    "difficulty": 3,
     "type": "multiple_choice",
     "prompt": "The five ventral rami that form the _____ of the brachial plexus merge to form three _____, which then quickly branch into six _____. These then recombine to form three _____. Finally, these branch again to form the five nerves of the upper limb.",
     "choices": [
@@ -836,7 +836,7 @@
     "subject": "anatomy_physiology",
     "topic": "spinal_cord",
     "subtopic": "Spinal Nerves",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The _____ nerve of the brachial plexus innervates the deltoid and teres minor.",
     "choices": [
@@ -852,7 +852,7 @@
     "subject": "anatomy_physiology",
     "topic": "spinal_cord",
     "subtopic": "Spinal Nerves",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The _____ nerve of the brachial plexus innervates the biceps brachii, brachialis and coracobrachialis.",
     "choices": [
@@ -868,7 +868,7 @@
     "subject": "anatomy_physiology",
     "topic": "spinal_cord",
     "subtopic": "Spinal Nerves",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The _____ nerve of the brachial plexus innervates most of the flexor muscles of the forearm and the lateral portions of the hand.",
     "choices": [
@@ -884,7 +884,7 @@
     "subject": "anatomy_physiology",
     "topic": "spinal_cord",
     "subtopic": "Spinal Nerves",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The _____ nerve of the brachial plexus innervates the flexor carpi ulnaris, flexor digitorum profundus and the medial portions of the hand.",
     "choices": [
@@ -900,7 +900,7 @@
     "subject": "anatomy_physiology",
     "topic": "spinal_cord",
     "subtopic": "Spinal Nerves",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The _____ plexus innervates the thigh, abdominal wall, and psoas muscles, which is formed from the ventral rami of _____.",
     "choices": [
@@ -916,7 +916,7 @@
     "subject": "anatomy_physiology",
     "topic": "spinal_cord",
     "subtopic": "Spinal Nerves",
-    "difficulty": 1,
+    "difficulty": 3,
     "type": "multiple_choice",
     "prompt": "The _____ plexus innervates the foot and leg, and is formed from the ventral rami of _____.",
     "choices": [
@@ -1044,7 +1044,7 @@
     "subject": "anatomy_physiology",
     "topic": "spinal_cord",
     "subtopic": "Spinal Reflexes",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The _____ reflex leads to activation of flexors on one side of the body and extensors on the opposite side.",
     "choices": [
@@ -1060,7 +1060,7 @@
     "subject": "anatomy_physiology",
     "topic": "spinal_cord",
     "subtopic": "Spinal Reflexes",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The _____ reflex prevents an overly-powerful muscle contraction from tearing a tendon by inhibiting the contraction of the muscle.",
     "choices": [

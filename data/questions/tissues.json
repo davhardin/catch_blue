@@ -20,7 +20,7 @@
     "subject": "anatomy_physiology",
     "topic": "tissues",
     "subtopic": "Aging: Tissues",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "In advanced age, genes often ____ or change their normal pattern of _____.",
     "choices": [
@@ -100,7 +100,7 @@
     "subject": "anatomy_physiology",
     "topic": "tissues",
     "subtopic": "Connective Tissue",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "_____ is the embryonic tissue type that gives rise to all connective tissue in the adult body.",
     "choices": [
@@ -164,7 +164,7 @@
     "subject": "anatomy_physiology",
     "topic": "tissues",
     "subtopic": "Connective Tissue",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "_____ are fibrous proteins in connective tissue that branch and cross-connect to provide a flexible but form-holding framework in which cells reside.",
     "choices": [
@@ -244,7 +244,7 @@
     "subject": "anatomy_physiology",
     "topic": "tissues",
     "subtopic": "Connective Tissue",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The three types of loose connective tissue are _____, _____ and _____.",
     "choices": [
@@ -292,7 +292,7 @@
     "subject": "anatomy_physiology",
     "topic": "tissues",
     "subtopic": "Connective Tissue",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "_____ connective tissue is usually found under epithelia. It contains both elastic and collagen fibers and a large amount of ground substance.",
     "choices": [
@@ -324,7 +324,7 @@
     "subject": "anatomy_physiology",
     "topic": "tissues",
     "subtopic": "Connective Tissue",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "_____ connective tissue forms a soft internal skeleton that supports other cell types.",
     "choices": [
@@ -340,7 +340,7 @@
     "subject": "anatomy_physiology",
     "topic": "tissues",
     "subtopic": "Connective Tissue",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "_____ connective tissue attaches muscle to bone, and is very strong along one axis.",
     "choices": [
@@ -356,7 +356,7 @@
     "subject": "anatomy_physiology",
     "topic": "tissues",
     "subtopic": "Connective Tissue",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "_____ connective tissue is strong when pulled from any direction, and tends to form tough but flexible enclosures for joints, organs, etc.",
     "choices": [
@@ -372,7 +372,7 @@
     "subject": "anatomy_physiology",
     "topic": "tissues",
     "subtopic": "Connective Tissue",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "_____ has a featureless matrix in which individual fibers can't be clearly seen.",
     "choices": [
@@ -388,7 +388,7 @@
     "subject": "anatomy_physiology",
     "topic": "tissues",
     "subtopic": "Connective Tissue",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "_____ forms the embryonic skeleton, parts of the nose, the trachea, the larynx, and part of the ribs, and coats the ends of long bones.",
     "choices": [
@@ -420,7 +420,7 @@
     "subject": "anatomy_physiology",
     "topic": "tissues",
     "subtopic": "Connective Tissue",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "_____ is a cartilage that is found in regions of the body such as the knees and spine, which must resist both decompression (stretch or pulling) and compression.",
     "choices": [
@@ -468,7 +468,7 @@
     "subject": "anatomy_physiology",
     "topic": "tissues",
     "subtopic": "Connective Tissue",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The major matrix producing cells in bone are called _____.",
     "choices": [
@@ -484,7 +484,7 @@
     "subject": "anatomy_physiology",
     "topic": "tissues",
     "subtopic": "Connective Tissue",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "_____ cartilage makes up the larynx and reinforces air passages.",
     "choices": [
@@ -500,7 +500,7 @@
     "subject": "anatomy_physiology",
     "topic": "tissues",
     "subtopic": "Connective Tissue",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Articular cartilage is composed of _____.",
     "choices": [
@@ -516,7 +516,7 @@
     "subject": "anatomy_physiology",
     "topic": "tissues",
     "subtopic": "Connective Tissue",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Costal cartilage is composed of _____.",
     "choices": [
@@ -532,7 +532,7 @@
     "subject": "anatomy_physiology",
     "topic": "tissues",
     "subtopic": "Connective Tissue",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Respiratory cartilage is composed of _____.",
     "choices": [
@@ -548,7 +548,7 @@
     "subject": "anatomy_physiology",
     "topic": "tissues",
     "subtopic": "Connective Tissue",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Nasal cartilage is composed of _____.",
     "choices": [
@@ -564,7 +564,7 @@
     "subject": "anatomy_physiology",
     "topic": "tissues",
     "subtopic": "Connective Tissue",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "_____ is strong, moderately flexible, and resilient, but does not stretch or bend very far.",
     "choices": [
@@ -579,7 +579,7 @@
     "subject": "anatomy_physiology",
     "topic": "tissues",
     "subtopic": "Connective Tissue",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "_____ is fairly strong, very flexible, and somewhat stretchable.",
     "choices": [
@@ -594,7 +594,7 @@
     "subject": "anatomy_physiology",
     "topic": "tissues",
     "subtopic": "Connective Tissue",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "_____ <which type of cartilage?> is very strong and extremely resistant to compression, but does not stretch or bend.",
     "choices": [
@@ -770,7 +770,7 @@
     "subject": "anatomy_physiology",
     "topic": "tissues",
     "subtopic": "Epithelial Tissue",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "A non-cellular, adhesive supporting layer made up of glycoproteins secreted by epithelial cells is called a(n) _____.",
     "choices": [
@@ -786,7 +786,7 @@
     "subject": "anatomy_physiology",
     "topic": "tissues",
     "subtopic": "Epithelial Tissue",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The two layers that form the basement membrane, from superficial to deep, are the _____ and _____ laminae.",
     "choices": [
@@ -834,7 +834,7 @@
     "subject": "anatomy_physiology",
     "topic": "tissues",
     "subtopic": "Epithelial Tissue",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "The cells of epithelial tissue are joined by _____ or _____.",
     "choices": [
@@ -882,7 +882,7 @@
     "subject": "anatomy_physiology",
     "topic": "tissues",
     "subtopic": "Epithelial Tissue",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "_____ is a tissue which consists of a single layer of tall cells with round or oval nuclei, all in a row. It absorbs substances and secretes mucous from its exposed surface.",
     "choices": [
@@ -898,7 +898,7 @@
     "subject": "anatomy_physiology",
     "topic": "tissues",
     "subtopic": "Epithelial Tissue",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "_____ is a tissue which consists of a single layer of tall cells with round or oval nuclei, some of which are near the basal lamina and some of which are near the apical surface. It secretes mucous from its exposed surface.",
     "choices": [
@@ -914,7 +914,7 @@
     "subject": "anatomy_physiology",
     "topic": "tissues",
     "subtopic": "Epithelial Tissue",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "_____ is a tissue which consists of several layers of cells which separate an open space from a basal or reticular lamina. The surface cells are flat, the basal cells are rounded, square, or tall.",
     "choices": [
@@ -930,7 +930,7 @@
     "subject": "anatomy_physiology",
     "topic": "tissues",
     "subtopic": "Epithelial Tissue",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "_____ is a tissue which consists of two layers of round or square cells which separate an open space from a basal or reticular lamina. While most tissue types are found throughout the body, this one is rare and is only seen in sweat and mammary glands.",
     "choices": [
@@ -946,7 +946,7 @@
     "subject": "anatomy_physiology",
     "topic": "tissues",
     "subtopic": "Epithelial Tissue",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "_____ is a tissue which consists of two layers of tall cells which separate an open space from a basal or reticular lamina.",
     "choices": [
@@ -962,7 +962,7 @@
     "subject": "anatomy_physiology",
     "topic": "tissues",
     "subtopic": "Epithelial Tissue",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "_____ is a tissue which is easily stretched. It consists of several layers of cells which separate an open space from a basal or reticular lamina, and the surface cells are usually dome shaped if the tissue is not stretched at the time of fixation.",
     "choices": [
@@ -1010,7 +1010,7 @@
     "subject": "anatomy_physiology",
     "topic": "tissues",
     "subtopic": "Epithelial Tissue",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "_____ exocrine glands secrete substances: that is, the substance is exocytosed into the duct.",
     "choices": [
@@ -1026,7 +1026,7 @@
     "subject": "anatomy_physiology",
     "topic": "tissues",
     "subtopic": "Epithelial Tissue",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "_____ exocrine glands become filled with their product, then rupture, spilling their contents into the duct.",
     "choices": [
@@ -1042,7 +1042,7 @@
     "subject": "anatomy_physiology",
     "topic": "tissues",
     "subtopic": "Epithelial Tissue",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "_____ exocrine glands accumulate their product in the apex of the cell, which then detaches.",
     "choices": [
@@ -1170,7 +1170,7 @@
     "subject": "anatomy_physiology",
     "topic": "tissues",
     "subtopic": "Muscle and Nervous Tissue",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple_choice",
     "prompt": "Two defining characteristics of cardiac muscle include _____ and _____; the latter contain gap junctions which allow ions to move between cells.",
     "choices": [

@@ -183,8 +183,11 @@ def test_scrolled_rightmost_label_click_uses_instance_clip(renderer, bank, monke
     assert topics.scroll_region.right == expected_right
     assert topics.scroll_region.right <= SCREEN_WIDTH
     assert topics.max_scroll == max(0, len(checkboxes) * MENU_ROW_HEIGHT - SCROLL_REGION.height)
-    topics._set_scroll_offset(topics.max_scroll)
     target = max((c for _, c in topics.topic_checkboxes), key=lambda c: c.label_rect.right)
+    # Scroll so the widest label's row sits at the top of the region: that keeps it
+    # clickable however many topics ship, and pushes row 0 above the clip.
+    topics._set_scroll_offset(min(topics.max_scroll, target.label_rect.top - topics.scroll_region.top))
+    assert topics.scroll_offset > 0
     point = (target.label_rect.right - 1, target.label_rect.centery - topics.scroll_offset)
     assert topics.scroll_region.collidepoint(point)
     if target.label_rect.right - 1 >= SCROLL_REGION.right:
