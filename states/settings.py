@@ -55,17 +55,7 @@ class SettingsState:
             self.rows[key] = row
             next_top = row.rect.bottom + SETTINGS_ROW_GAP
 
-        self.custom_note = TextBox(
-            'Custom is automatic when values do not match a preset.',
-            self.renderer, 'credits', SETTINGS_LEFT, next_top,
-            SETTINGS_WIDTH, 'background_text',
-        )
-        self.tier_note = TextBox(
-            'Tier choices are saved now; question filtering arrives in M7.f.',
-            self.renderer, 'credits', SETTINGS_LEFT,
-            self.custom_note.y + self.custom_note.height + 8,
-            SETTINGS_WIDTH, 'background_text',
-        )
+
         self.back_button = Button(
             pygame.Rect(MENU_BACK_LEFT, MENU_START_TOP, MENU_BACK_WIDTH, MENU_BUTTON_HEIGHT),
             'Back', self.renderer, lift=self.renderer.theme.menu_lift,
@@ -138,6 +128,5 @@ class SettingsState:
             heading.draw(screen)
         for row in self.rows.values():
             row.draw(screen)
-        self.custom_note.draw(screen)
-        self.tier_note.draw(screen)
+
         self.back_button.draw(screen)

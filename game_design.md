@@ -10,7 +10,7 @@ The aim of the current project is to expand the game in both content and mechani
 
 The core gameplay loop is similar to that in Premedvillage. The player and Blue start on opposite ends of a 5 x 5 grid, and the player selects an adjacent topic square. Upon clicking, a flashcard- or fill-in-the-blank-style question pops up. Blue does not move if the player answers correctly. The game ends when the player clicks on Blue (they must be adjacent).
 
-- Note: there may be a loss condition which occurs when the player runs out of moves, set in the game settings.
+- Note: there is a loss condition when the player runs out of moves; the move limit is set in the game settings *(true since M7.b, 2026-09-08 — the Settings screen's Difficulty presets and Move limit row; the loss itself shipped in M4)*.
 
 The major contribution of this project beyond academic content is the addition of a new game mode, "Run from Red", of which there are two variants:
 

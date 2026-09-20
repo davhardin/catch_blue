@@ -89,6 +89,25 @@ class TierPolicy(StrEnum):
     DISTANCE = "distance"
 
 
+def allowed_tiers_for(
+    policy: TierPolicy,
+    *,
+    distance: int | None = None,
+) -> tuple[int, ...] | None:
+    """Return policy-wide limits, or current limits when distance is supplied."""
+    if policy == TierPolicy.TIERS_1_2:
+        return (1, 2)
+    if policy == TierPolicy.DISTANCE and distance is not None and distance > 2:
+        return (1, 2)
+    return None
+
+
+def wanted_tier_for(policy: TierPolicy, distance: int) -> int | None:
+    if policy != TierPolicy.DISTANCE or distance > 2:
+        return None
+    return 2 if distance == 2 else 3
+
+
 @dataclass(frozen=True)
 class Settings:
     board_size: int = 5
@@ -112,13 +131,13 @@ PRESETS: dict[str, Settings] = {
         tier_policy=TierPolicy.TIERS_1_2,
     ),
     "medium": Settings(
-        board_size=7,
-        move_limit=20,
-        tier_policy=TierPolicy.ALL,
+        board_size=5,
+        move_limit=15,
+        tier_policy=TierPolicy.DISTANCE,
     ),
     "hard": Settings(
-        board_size=9,
-        move_limit=25,
+        board_size=7,
+        move_limit=20,
         tier_policy=TierPolicy.DISTANCE,
     ),
 }

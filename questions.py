@@ -1,7 +1,14 @@
 import json
-from collections.abc import Iterable
+from collections.abc import Collection, Iterable
 from pathlib import Path
 from random import Random
+
+
+TIER_FALLBACKS: dict[int, tuple[int, ...]] = {
+    1: (1, 2, 3),
+    2: (2, 3, 1),
+    3: (3, 2, 1),
+}
 
 
 def _normalize_label(value: str) -> str:
@@ -36,6 +43,13 @@ class Question:
     @classmethod
     def from_dict(cls, data):
         try:
+            difficulty = data['difficulty']
+            if type(difficulty) is not int or difficulty not in (1, 2, 3):
+                raise ValueError(
+                    f"Invalid difficulty: {difficulty!r}; expected an integer "
+                    f"1, 2, or 3, see question {data.get('id', 'unknown')}"
+                )
+
             if data["type"] != 'multiple_choice':
                 raise ValueError(f"Invalid question type: {data['type']}, see question {data.get('id', 'unknown')}")
             if data['answer_index'] < 0 or data['answer_index'] >= len(data['choices']):
@@ -50,7 +64,7 @@ class Question:
                 subject = data['subject'],
                 topic = data['topic'],
                 subtopic = data['subtopic'],
-                difficulty = data['difficulty'],
+                difficulty = difficulty,
                 type = data['type'],
                 prompt = data['prompt'],
                 choices = data['choices'],
@@ -139,32 +153,52 @@ class QuestionBank:
             set(q.topic for q in self.questions if q.subject == subject)
         )
 
-    def subtopics(self, topic):
-        return sorted(
-            set(q.subtopic for q in self.questions if q.topic == topic)
-        )
+    def subtopics(
+        self,
+        topic,
+        *,
+        allowed_tiers: Collection[int] | None = None,
+    ) -> list[str]:
+        return sorted({
+            q.subtopic
+            for q in self.questions
+            if q.topic == topic
+            and (allowed_tiers is None or q.difficulty in allowed_tiers)
+        })
 
     def available_pools(
         self,
         pools: Iterable[tuple[str, str]],
+        *,
+        allowed_tiers: Collection[int] | None = None,
     ) -> list[tuple[str, str]]:
         allowed = set(pools)
         return sorted({
             (question.topic, question.subtopic)
             for question in self.questions
             if (question.topic, question.subtopic) in allowed
+            and (
+                allowed_tiers is None
+                or question.difficulty in allowed_tiers
+            )
             and question.id not in self.used_ids
         })
 
     def restart_pools(
         self,
         pools: Iterable[tuple[str, str]],
+        *,
+        allowed_tiers: Collection[int] | None = None,
     ) -> None:
         pools = set(pools)
         self.used_ids.difference_update(
             question.id
             for question in self.questions
             if (question.topic, question.subtopic) in pools
+            and (
+                allowed_tiers is None
+                or question.difficulty in allowed_tiers
+            )
         )
 
         # Rebuild and shuffle each pool only when it is next requested.
@@ -176,8 +210,17 @@ class QuestionBank:
         topic,
         subtopic,
         rng: Random,
+        *,
+        wanted_tier: int | None = None,
+        allowed_tiers: Collection[int] | None = None,
     ) -> Question | None:
-        """Return an unused question, or None if the pool is exhausted."""
+        """Draw an unused eligible question, preferring wanted_tier if given."""
+        if wanted_tier is not None and (
+            type(wanted_tier) is not int
+            or wanted_tier not in TIER_FALLBACKS
+        ):
+            raise ValueError("Wanted tier must be 1, 2, 3, or None")
+
         key = (topic, subtopic)
         candidates = self._pool_orders.get(key)
 
@@ -196,23 +239,71 @@ class QuestionBank:
             rng.shuffle(candidates)
             self._pool_orders[key] = candidates
 
-        for q in candidates:
-            if q.id not in self.used_ids:
+        tiers = (
+            (None,)
+            if wanted_tier is None
+            else TIER_FALLBACKS[wanted_tier]
+        )
+
+        for tier in tiers:
+            for q in candidates:
+                if q.id in self.used_ids:
+                    continue
+                if (
+                    allowed_tiers is not None
+                    and q.difficulty not in allowed_tiers
+                ):
+                    continue
+                if tier is not None and q.difficulty != tier:
+                    continue
+
                 self.used_ids.add(q.id)
                 return q
 
         return None
 
-    def next_question(self, topic, subtopic, rng: Random) -> Question:
-        question = self.next_unused_question(topic, subtopic, rng)
+    def next_question(
+        self,
+        topic,
+        subtopic,
+        rng: Random,
+        *,
+        wanted_tier: int | None = None,
+        allowed_tiers: Collection[int] | None = None,
+    ) -> Question:
+        """Draw a question, recycling this pool only after eligible exhaustion."""
+        question = self.next_unused_question(
+            topic,
+            subtopic,
+            rng,
+            wanted_tier=wanted_tier,
+            allowed_tiers=allowed_tiers,
+        )
         if question is not None:
             return question
 
         candidates = self._pool_orders[(topic, subtopic)]
+        if not any(
+            allowed_tiers is None or q.difficulty in allowed_tiers
+            for q in candidates
+        ):
+            raise ValueError(
+                f"No questions match the allowed tiers for topic '{topic}' "
+                f"and subtopic '{subtopic}'"
+            )
+
         for q in candidates:
-            self.used_ids.discard(q.id)
+            if allowed_tiers is None or q.difficulty in allowed_tiers:
+                self.used_ids.discard(q.id)
 
         rng.shuffle(candidates)
-        first = candidates[0]
-        self.used_ids.add(first.id)
-        return first
+
+        question = self.next_unused_question(
+            topic,
+            subtopic,
+            rng,
+            wanted_tier=wanted_tier,
+            allowed_tiers=allowed_tiers,
+        )
+        assert question is not None
+        return question

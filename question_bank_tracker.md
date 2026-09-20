@@ -1,6 +1,10 @@
 # Question Bank Tracker
 
-Last updated: 2026-09-14 (Anson Vol. 2 import IN PROGRESS — blood, heart,
+Last updated: 2026-09-19 — **question-bank work ON HOLD** (David, 2026-09-19:
+the bank is enough for A&P 1 and carries the A&P 2 students a few weeks;
+the rewrite queues, the loose ends below, and the five unvetted Vol. 2
+topics resume when it is needed). Tier counts added to the topic table.
+Previous status, 2026-09-14 (Anson Vol. 2 import IN PROGRESS — blood, heart,
 blood_vessels, lymphatic_and_immune_system, respiratory_system, and
 digestive_system vetted and imported, 1,040 questions; metabolism onward
 still awaiting David's vetting pass. Difficulty grading 1–3 done for the
@@ -47,36 +51,43 @@ respiratory_system, 20 digestive_system. The next Vol. 2 topics should take 21 m
 22 urinary_system, 23 fluids_and_acid-bases, 24 reproductive_system,
 25 development_and_inheritance.
 
-| Topic | Qs | Subtopics (imported count) | Anson vetted |
-|---|---|---|---|
-| anatomical_language | 136 | Anatomical Directions (26), Anatomy vs Physiology (8), Body Cavities (14), Body Regions (49), Homeostasis (13), Levels of Organization (26) | ✅ |
-| chemical_foundations | 66 | Atoms, Elements, and Compounds (15), Chemical Bonds (4), Chemical Reactions (11), Macromolecules (27), pH and Body Fluids (9) | ✅ |
-| cells | 75 | Cellular Transport (12), DNA, Transcription and Translation (13), Cell Membrane (11), Organelles (28), The Cell Cycle (11) | ✅ |
-| tissues | 76 | Aging: Tissues (2), Connective Tissue (38), Epithelial Tissue (28), Muscle and Nervous Tissue (8) | ✅ |
-| integumentary_system | 71 | Aging: Integumentary System (2), Dermis and Hypodermis (8), Epidermis (21), Hair and Nails (14), Integumentary Damage / Repair (14), Sweat Glands (12) | ✅ |
-| skeletal_system | 335 | Aging: Skeletal System (5), Appendicular Skeleton (82), Axial Skeleton (104), Bone Cell Types (6), Bone Classification (27), Bone Development and Growth (17), Bone Fractures (7), Joints (87) | ✅ |
-| muscular_system | 234 | Appendicular Muscles (56), Axial Muscles (49), Cardiac and Smooth Muscle (18), Neuromuscular Junction, EC Coupling, and Cross-Bridge Cycling (19), Muscle Energy & Recovery (23), Muscle Functions (30), Skeletal Muscle Structure (39) | ✅ |
-| nervous_system *(was nervous_tissue)* | 112 | Action Potential (26), Divisions of the Nervous System (14), Membrane Potential (12), Neural Cells (28), Synaptic Transmission (32) | ✅ |
-| spinal_cord | 67 | Spinal Cord Structure (23), Spinal Nerves (36), Spinal Reflexes (8) | ✅ |
-| brain | 111 | Brain Protection (11), Brain Stem (18), Brain Development (7), Cerebellum (4), Cerebral Cortex (50), Cerebrospinal Fluid (7), Diencephalon (9), Limbic System (5) | ✅ |
-| sensory_pathways_and_somatic_nervous_system | 39 | Afferent Division (13), Efferent Division (8), Sensory Receptors (18) | ✅ |
-| autonomic_nervous_system | 53 | Aging: ANS (2), Autonomic Nervous System (18), Divisions of the Autonomic Nervous System (33) | ✅ |
-| special_senses | 131 | Equilibrium and Hearing (45), Eye Structures (31), Gustation and Olfaction (14), Visual System (41) | ✅ |
-| endocrine_system | 88 | Adrenal Glands (15), Cell Signaling (11), Disease: Diabetes Mellitus (5), Endocrine Regulation (21), Pancreas (13), Parathyroid Glands (3), Secondary Endocrine Organs (7), Thyroid Gland (13) | ✅ |
-| blood | 106 | Blood Composition (23), Blood Types (4), Hemostasis (32), Red Blood Cells (24), White Blood Cells (23) | ✅ Vol. 2 |
-| heart | 172 | Cardiac Cycle (20), Cardiac Electrophysiology (37), Cardiac Output (42), Heart Anatomy (73) | ✅ Vol. 2 |
-| blood_vessels | 208 | Aging: Cardiovascular System (1), Arteries and Veins (53), Blood Pressure & Resistance (42), Fetal Cardiovascular System (6), Pulmonary & Systemic Circuits (67), Regulating Blood Flow (39) | ✅ Vol. 2 |
-| lymphatic_and_immune_system | 170 | Adaptive Immunity (75), Aging: Immune System (2), Immune Disorders (8), Innate Immunity (21), Innate vs Adaptive Immunity (2), Lymphatic System Anatomy (62) | ✅ Vol. 2 |
-| respiratory_system | 155 | Aging: Respiratory System (2), Gas Exchange (16), Gas Transport (21), Lower Respiratory System (26), Regulation of Breathing (31), The Lungs (47), Upper Respiratory System (12) | ✅ Vol. 2 |
-| digestive_system | 229 | Accessory Digestive Organs (51), Chemical Digestion (17), Digestive System Functions (36), Large Intestine (18), Oral Cavity (22), Pharynx and Esophagus (15), Small Intestine (30), Stomach (40) | ✅ Vol. 2 |
-| metabolism | 0 | *(plan: 7 subtopics)* | ⏳ audited, not vetted |
-| urinary_system | 0 | *(plan: 5 subtopics)* | ⏳ audited, not vetted |
-| fluids_and_acid-bases | 0 | *(plan: 6 subtopics)* | ⏳ audited, not vetted |
-| reproductive_system | 0 | *(plan: 6 subtopics)* | ⏳ audited, not vetted |
-| development_and_inheritance | 0 | *(plan: 6 subtopics)* | ⏳ audited, not vetted |
+| Topic | Qs | Tiers 1 / 2 / 3 | Subtopics (imported count) | Anson vetted |
+|---|---|---|---|---|
+| anatomical_language | 134 | 99 / 34 / 1 | Anatomical Directions (26), Anatomy vs Physiology (8), Body Cavities (14), Body Regions (49), Homeostasis (13), Levels of Organization (26) | ✅ |
+| chemical_foundations | 65 | 51 / 14 / 0 | Atoms, Elements, and Compounds (15), Chemical Bonds (4), Chemical Reactions (11), Macromolecules (27), pH and Body Fluids (9) | ✅ |
+| cells | 75 | 52 / 22 / 1 | Cellular Transport (12), DNA, Transcription and Translation (13), Cell Membrane (11), Organelles (28), The Cell Cycle (11) | ✅ |
+| tissues | 75 | 42 / 33 / 0 | Aging: Tissues (2), Connective Tissue (38), Epithelial Tissue (28), Muscle and Nervous Tissue (8) | ✅ |
+| integumentary_system | 70 | 48 / 20 / 2 | Aging: Integumentary System (2), Dermis and Hypodermis (8), Epidermis (21), Hair and Nails (14), Integumentary Damage / Repair (14), Sweat Glands (12) | ✅ |
+| skeletal_system | 332 | 135 / 165 / 32 | Aging: Skeletal System (5), Appendicular Skeleton (82), Axial Skeleton (104), Bone Cell Types (6), Bone Classification (27), Bone Development and Growth (17), Bone Fractures (7), Joints (87) | ✅ |
+| muscular_system | 231 | 114 / 98 / 19 | Appendicular Muscles (56), Axial Muscles (49), Cardiac and Smooth Muscle (18), Neuromuscular Junction, EC Coupling, and Cross-Bridge Cycling (19), Muscle Energy & Recovery (23), Muscle Functions (30), Skeletal Muscle Structure (39) | ✅ |
+| nervous_system *(was nervous_tissue)* | 111 | 54 / 50 / 7 | Action Potential (26), Divisions of the Nervous System (14), Membrane Potential (12), Neural Cells (28), Synaptic Transmission (32) | ✅ |
+| spinal_cord | 67 | 25 / 34 / 8 | Spinal Cord Structure (23), Spinal Nerves (36), Spinal Reflexes (8) | ✅ |
+| brain | 110 | 56 / 44 / 10 | Brain Protection (11), Brain Stem (18), Brain Development (7), Cerebellum (4), Cerebral Cortex (50), Cerebrospinal Fluid (7), Diencephalon (9), Limbic System (5) | ✅ |
+| sensory_pathways_and_somatic_nervous_system | 39 | 21 / 16 / 2 | Afferent Division (13), Efferent Division (8), Sensory Receptors (18) | ✅ |
+| autonomic_nervous_system | 49 | 16 / 27 / 6 | Aging: ANS (2), Autonomic Nervous System (18), Divisions of the Autonomic Nervous System (33) | ✅ |
+| special_senses | 129 | 64 / 54 / 11 | Equilibrium and Hearing (45), Eye Structures (31), Gustation and Olfaction (14), Visual System (41) | ✅ |
+| endocrine_system | 88 | 33 / 48 / 7 | Adrenal Glands (15), Cell Signaling (11), Disease: Diabetes Mellitus (5), Endocrine Regulation (21), Pancreas (13), Parathyroid Glands (3), Secondary Endocrine Organs (7), Thyroid Gland (13) | ✅ |
+| blood | 106 | 61 / 40 / 5 | Blood Composition (23), Blood Types (4), Hemostasis (32), Red Blood Cells (24), White Blood Cells (23) | ✅ Vol. 2 |
+| heart | 172 | 70 / 79 / 23 | Cardiac Cycle (20), Cardiac Electrophysiology (37), Cardiac Output (42), Heart Anatomy (73) | ✅ Vol. 2 |
+| blood_vessels | 202 | 58 / 111 / 33 | Aging: Cardiovascular System (1), Arteries and Veins (53), Blood Pressure & Resistance (42), Fetal Cardiovascular System (6), Pulmonary & Systemic Circuits (67), Regulating Blood Flow (39) | ✅ Vol. 2 |
+| lymphatic_and_immune_system | 168 | 79 / 68 / 21 | Adaptive Immunity (75), Aging: Immune System (2), Immune Disorders (8), Innate Immunity (21), Innate vs Adaptive Immunity (2), Lymphatic System Anatomy (62) | ✅ Vol. 2 |
+| respiratory_system | 152 | 73 / 69 / 10 | Aging: Respiratory System (2), Gas Exchange (16), Gas Transport (21), Lower Respiratory System (26), Regulation of Breathing (31), The Lungs (47), Upper Respiratory System (12) | ✅ Vol. 2 |
+| digestive_system | 228 | 93 / 107 / 28 | Accessory Digestive Organs (51), Chemical Digestion (17), Digestive System Functions (36), Large Intestine (18), Oral Cavity (22), Pharynx and Esophagus (15), Small Intestine (30), Stomach (40) | ✅ Vol. 2 |
+| metabolism | 0 | — | *(plan: 7 subtopics)* | ⏳ audited, not vetted |
+| urinary_system | 0 | — | *(plan: 5 subtopics)* | ⏳ audited, not vetted |
+| fluids_and_acid-bases | 0 | — | *(plan: 6 subtopics)* | ⏳ audited, not vetted |
+| reproductive_system | 0 | — | *(plan: 6 subtopics)* | ⏳ audited, not vetted |
+| development_and_inheritance | 0 | — | *(plan: 6 subtopics)* | ⏳ audited, not vetted |
 
-**Bank total as of 2026-09-14: 2,615 questions** (1,575 Vol. 1 after
-removals + 1,040 Vol. 2).
+**Bank total as of 2026-09-19: 2,603 questions** (1,575 Vol. 1 after
+removals + 1,028 Vol. 2 after the 2026-09-14 quality pass removed 12).
+
+**Tier thinness (M7.e success check):** every topic has tier-1 and tier-2
+questions. `chemical_foundations` and `tissues` have **no tier-3**
+question — Anson's items there are recall and application only, and
+nothing in the playtest notes rose to analysis. The OpenStax
+critical-thinking questions are the named well for both; until then the
+distance policy falls back 3 → 2 silently on those topics, by design.
 
 **Removed during playtesting:** questions pulled from the bank after they
 bit in play live in `data/questions/removed_questions.md`, verbatim, with
@@ -156,10 +167,10 @@ Cells"; the four macromolecule subtopics → "Macromolecules").
    (absorbed Muscle Fiber Types).
 7. **Missing concepts** (David's note, Body Regions): organ positions in the
    9 abdominopelvic regions and 4 quadrants — no source questions yet.
-8. **Difficulty tiers:** everything imported at difficulty 1. Decided
-   2026-09-01: grading waits for playtesting (see `implementation_plan.md`
-   §7) — it matters most for Run from Red. The difficulty-3 tier (OpenStax
-   critical thinking / VTCSOM) still to come.
+8. ~~**Difficulty tiers:** everything imported at difficulty 1.~~ — DONE
+   2026-09-14 (M7.e): every question graded 1–3; see the tier column above.
+   The difficulty-3 tier (OpenStax critical thinking / VTCSOM) is still the
+   thin one and still to come.
 
 ## Loose ends — Vol. 2 (need David's decision)
 

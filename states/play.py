@@ -13,7 +13,12 @@ from constants import (
     HUD_BUTTON_WIDTH, HUD_BUTTON_HEIGHT, HUD_PANEL_GAP,
     CONTINUE_HORIZONTAL_PADDING,
 )
-from game_setup import GameConfig, assign_cell_topics
+from game_setup import (
+    GameConfig,
+    allowed_tiers_for,
+    assign_cell_topics,
+    wanted_tier_for,
+)
 from questions import Question, QuestionBank
 
 from states.game_over import GameOverState
@@ -149,11 +154,22 @@ class PlayState:
 
         self.moves_remaining = settings.move_limit
         self.board = Board(settings.board_size, settings.board_size)
+        self.player = Player.at_start(self.board)
+        self.blue = Blue.at_start(self.board)
+
         self.topic_subtopics = tuple(
             (topic, subtopic)
             for topic in self.config.selected_topics
-            for subtopic in self.bank.subtopics(topic)
+            for subtopic in self.bank.subtopics(
+                topic,
+                allowed_tiers=allowed_tiers_for(settings.tier_policy),
+            )
         )
+        if not self.topic_subtopics:
+            raise ValueError(
+                "Selected topics contain no questions for this tier policy"
+            )
+
         self.cell_topics = assign_cell_topics(
             self.board.cells(),
             self.topic_subtopics,
@@ -197,10 +213,15 @@ class PlayState:
         self.pause_button.rect.bottom = SIDE_PANEL_TOP - HUD_PANEL_GAP
 
 
-        self.player = Player.at_start(self.board)
-        self.blue = Blue.at_start(self.board)
         self.entities: list[Character] = [self.player, self.blue]
         self.moves = self.player.legal_moves(self.board, {self.blue.cell})
+
+    @property
+    def allowed_tiers(self) -> tuple[int, ...] | None:
+        return allowed_tiers_for(
+            self.config.settings.tier_policy,
+            distance=get_distance(self.player.cell, self.blue.cell),
+        )
 
     def _catchable_cell(self) -> Cell | None:
         if is_adjacent(self.player.cell, self.blue.cell):
@@ -208,25 +229,34 @@ class PlayState:
         return None
 
     def _refresh_exhausted_cell_topics(self):
-        available = self.bank.available_pools(self.topic_subtopics)
-        available_set = set(available)
+        allowed_tiers = self.allowed_tiers
+        available = self.bank.available_pools(
+            self.topic_subtopics,
+            allowed_tiers=allowed_tiers,
+        )
 
+        if not available:
+            self.bank.restart_pools(
+                self.topic_subtopics,
+                allowed_tiers=allowed_tiers,
+            )
+            available = self.bank.available_pools(
+                self.topic_subtopics,
+                allowed_tiers=allowed_tiers,
+            )
+            if not available:
+                raise ValueError(
+                    "Selected topics contain no questions for this tier policy"
+                )
+
+        # Distance changes can leave some labels ineligible even after a restart.
+        available_set = set(available)
         exhausted_cells = [
             cell
             for cell, pair in sorted(self.cell_topics.items())
             if pair not in available_set
         ]
         if not exhausted_cells:
-            return
-
-        if not available:
-            self.bank.restart_pools(self.topic_subtopics)
-            if not self.bank.available_pools(self.topic_subtopics):
-                raise ValueError(
-                    "Selected topics contain no question pools"
-                )
-
-            # Every current assignment is fresh again; preserve the board.
             return
 
         counts = Counter(self.cell_topics.values())
@@ -470,8 +500,16 @@ class PlayState:
 
             self._refresh_exhausted_cell_topics()
             topic, subtopic = self.cell_topics[target]
+            wanted_tier = wanted_tier_for(
+                self.config.settings.tier_policy,
+                get_distance(self.player.cell, self.blue.cell),
+            )
             question = self.bank.next_unused_question(
-                topic, subtopic, self.rng
+                topic,
+                subtopic,
+                self.rng,
+                wanted_tier=wanted_tier,
+                allowed_tiers=self.allowed_tiers,
             )
             if question is None:
                 raise RuntimeError(

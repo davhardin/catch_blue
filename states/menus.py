@@ -1,5 +1,7 @@
 import pygame
 
+from board import Board, get_distance
+from characters import Blue, Player
 from constants import (
     SCREEN_WIDTH, MENU_BUTTON_WIDTH, MENU_BUTTON_HEIGHT, MENU_BUTTON_GAP,
     MENU_BUTTON_LEFT, MENU_FIRST_BUTTON_TOP, MENU_TITLE_TOP,
@@ -13,6 +15,7 @@ from constants import (
 from theme import Alignment
 from game_setup import (
     GameConfig,
+    allowed_tiers_for,
     order_topics_for_subject,
     prettify_topic,
     subject_display_name,
@@ -20,7 +23,7 @@ from game_setup import (
 from questions import QuestionBank
 from states.settings import SettingsState
 from ui import (
-    Button, ButtonAction, Checkbox,
+    Button, ButtonAction, Checkbox, TextBox,
     pointer_position as _menu_pointer_position,
     update_button_lifts as _update_menu_button_lifts,
 )
@@ -273,6 +276,15 @@ class TopicsState:
             MENU_START_TOP,
         )
         self.back_button = _make_back_button(self.renderer)
+        self.no_questions_note = TextBox(
+            "No questions match these tiers. Choose other topics or change Settings.",
+            self.renderer,
+            'credits',
+            MENU_CREDITS_SIDE_MARGIN,
+            self.start_button.rect.bottom + MENU_BUTTON_GAP,
+            SCREEN_WIDTH - 2 * MENU_CREDITS_SIDE_MARGIN,
+            'background_text',
+        )
         self._sync_selection()
 
     def _sync_selection(self):
@@ -285,7 +297,23 @@ class TopicsState:
         self.all_checkbox.checked = bool(self.topic_checkboxes) and all(
             checkbox.checked for _, checkbox in self.topic_checkboxes
         )
-        self.start_button.active = bool(selected)
+        settings = self.game.settings
+        board = Board(settings.board_size, settings.board_size)
+        starting_distance = get_distance(
+            Player.at_start(board).cell,
+            Blue.at_start(board).cell,
+        )
+        allowed_tiers = allowed_tiers_for(
+            settings.tier_policy,
+            distance=starting_distance,
+        )
+        has_questions = any(
+            self.bank.subtopics(topic, allowed_tiers=allowed_tiers)
+            for topic in selected
+        )
+
+        self.no_matching_questions = bool(selected) and not has_questions
+        self.start_button.active = has_questions
         if not self.start_button.active:
             self.start_button.reset_lift()
 
@@ -384,3 +412,5 @@ class TopicsState:
 
         self.start_button.draw(screen)
         self.back_button.draw(screen)
+        if self.no_matching_questions:
+            self.no_questions_note.draw(screen)
