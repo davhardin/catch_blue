@@ -30,17 +30,27 @@ sys.path.insert(0, str(ROOT))
 
 import pygame  # noqa: E402
 
-from board import Cell, get_distance, is_adjacent  # noqa: E402
 from constants import BUTTON_PRESS_DOWN_MS, BUTTON_PRESS_HOLD_MS  # noqa: E402
 from game import Game  # noqa: E402
 from theme import FLAT, THEMES  # noqa: E402
 from game_setup import GameConfig  # noqa: E402
+from modes import get_mode  # noqa: E402
 from questions import QuestionBank  # noqa: E402
 from states.game_over import GameOverState  # noqa: E402
 from states.menus import GameSelectState  # noqa: E402
 
 SEED = 2026
 TOPICS = ("cells", "tissues")
+GALLERY_MODE = "catch_blue"
+
+
+def gallery_config():
+    return GameConfig(
+        GALLERY_MODE,
+        "anatomy_physiology",
+        TOPICS,
+        settings=get_mode(GALLERY_MODE).settings_spec().default,
+    )
 
 
 def click(pos):
@@ -67,7 +77,9 @@ def press(game, pos):
 def finish_reveal(game, state):
     """Resolve the current reveal: tick a timed one, press Continue on a held one."""
     if state.reveal is not None and state.reveal.waits_for_click:
-        press(game, state.continue_button.rect.center)
+        assert state.popup is not None
+        assert state.popup.continue_button is not None
+        press(game, state.popup.continue_button.rect.center)
     elif state.reveal is not None:
         frame(game, dt=state.reveal.duration_ms)
 
@@ -79,10 +91,15 @@ def settle(game, ms=400):
 
 
 def answer_event(state, correct):
+    assert state.pending is not None
+    assert state.popup is not None
+
     question, _, _ = state.pending
-    for display_index, canonical in enumerate(state.answer_order):
+    for display_index, canonical in enumerate(state.popup.answer_order):
         if (canonical == question.answer_index) == correct:
-            return click(state.answer_buttons[display_index].rect.center)
+            return click(
+                state.popup.answer_buttons[display_index].rect.center,
+            )
     raise RuntimeError("no matching answer button")
 
 
@@ -103,7 +120,7 @@ def render_gallery(out_dir: Path, theme=FLAT):
     saved.append(capture(game, out_dir, "01_game_select"))
 
     # 2. Subject
-    press(game, game.state.catch_blue_button.rect.center)
+    press(game, game.state.mode_buttons[GALLERY_MODE].rect.center)
     saved.append(capture(game, out_dir, "02_subject"))
 
     # 3. Topics (as it opens, all checked)
@@ -111,13 +128,16 @@ def render_gallery(out_dir: Path, theme=FLAT):
     saved.append(capture(game, out_dir, "03_topics"))
 
     # 4. Play — board, straight into a fixed config for determinism
-    game.start_play(bank, GameConfig("catch_blue", "anatomy_physiology", TOPICS))
+    game.start_play(gallery_config())
     state = game.state
     frame(game)
     saved.append(capture(game, out_dir, "04_play_board"))
 
     # 5. Play — hover over a legal move
-    hover_cell = min(state.moves, key=lambda c: get_distance(c, state.blue.cell))
+    hover_cell = min(
+        state.moves,
+        key=lambda c: state.board.distance(c, state.blue.cell),
+    )
     hover = pygame.event.Event(
         pygame.MOUSEMOTION, pos=state.view.cell_to_rect(hover_cell).center
     )
@@ -137,7 +157,10 @@ def render_gallery(out_dir: Path, theme=FLAT):
     finish_reveal(game, state)  # M7.d: a wrong answer waits for Continue; Blue flees after
 
     # 8. Play — reveal after a correct answer
-    target = min(state.moves, key=lambda c: get_distance(c, state.blue.cell))
+    target = min(
+        state.moves,
+        key=lambda c: state.board.distance(c, state.blue.cell),
+    )
     frame(game, [click(state.view.cell_to_rect(target).center)])
     frame(game, [answer_event(state, True)])
     saved.append(capture(game, out_dir, "08_play_reveal_right"))
@@ -148,10 +171,13 @@ def render_gallery(out_dir: Path, theme=FLAT):
         if isinstance(game.state, GameOverState):
             break
         st = game.state
-        if is_adjacent(st.player.cell, st.blue.cell):
+        if st.blue.cell in st.board.neighbors(st.player.cell):
             target = st.blue.cell
         else:
-            target = min(st.moves, key=lambda c: get_distance(c, st.blue.cell))
+            target = min(
+                st.moves,
+                key=lambda c: st.board.distance(c, st.blue.cell),
+            )
         frame(game, [click(st.view.cell_to_rect(target).center)])
         frame(game, [answer_event(st, True)])
         finish_reveal(game, st)
@@ -160,9 +186,9 @@ def render_gallery(out_dir: Path, theme=FLAT):
     saved.append(capture(game, out_dir, "09_game_over_win"))
 
     # 10. Game Over — lose (fresh game, burn the counter on wrong answers)
-    game.start_play(bank, GameConfig("catch_blue", "anatomy_physiology", TOPICS))
+    game.start_play(gallery_config())
     state = game.state
-    state.moves_remaining = 1
+    state.match.moves_remaining = 1
     frame(game)
     target = next(iter(sorted(state.moves)))
     frame(game, [click(state.view.cell_to_rect(target).center)])
@@ -173,14 +199,14 @@ def render_gallery(out_dir: Path, theme=FLAT):
     saved.append(capture(game, out_dir, "10_game_over_lose"))
 
     # 11. Settings (M7.b) — from Game Select
-    game.show_main_menu(bank)
+    game.show_main_menu()
     frame(game)
     press(game, game.state.settings_button.rect.center)
     settle(game)
     saved.append(capture(game, out_dir, "11_settings"))
 
     # 12. Pause (M7.c) — over a fresh board with the popup open
-    game.start_play(bank, GameConfig("catch_blue", "anatomy_physiology", TOPICS))
+    game.start_play(gallery_config())
     state = game.state
     frame(game)
     target = next(iter(sorted(state.moves)))

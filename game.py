@@ -4,7 +4,7 @@ from random import Random
 import pygame
 
 from constants import SCREEN_HEIGHT, SCREEN_WIDTH
-from game_setup import DEFAULT_PRESET, PRESETS
+from modes import DEFAULT_MODE, MODES
 from render import Renderer
 from theme import DEFAULT_THEME, THEMES
 from states.menus import GameSelectState
@@ -16,6 +16,7 @@ class Game:
         pygame.init()
         self.renderer = Renderer(theme)
 
+        self.bank = bank
         self.rng = rng if rng is not None else Random()
 
         # In the browser (pygbag) the page scales the canvas itself, and SCALED
@@ -30,27 +31,25 @@ class Game:
         self.clock = pygame.time.Clock()
         self.fps = 60
         self.running = True
-        self.settings = PRESETS[DEFAULT_PRESET]
+        self.settings_by_mode = {
+            mode.key: mode.settings_spec().default
+            for mode in MODES.values()
+            if mode.active
+        }
+        self.settings_mode = DEFAULT_MODE
         self.topic_selections: dict[
             tuple[str, str], tuple[str, ...]
         ] = {}
-        self.state = GameSelectState(self, bank)
+        self.state = GameSelectState(self)
 
     def change_state(self, state):
         self.state = state
 
-    def start_play(self, bank, config):
-        self.change_state(
-            PlayState(
-                self,
-                bank,
-                config,
-                self.rng,
-            )
-        )
+    def start_play(self, config):
+        self.change_state(PlayState(self, config, self.rng))
 
-    def show_main_menu(self, bank):
-        self.change_state(GameSelectState(self, bank))
+    def show_main_menu(self):
+        self.change_state(GameSelectState(self))
 
     def step(self):
         """Advance one frame. Return False once the player has quit."""

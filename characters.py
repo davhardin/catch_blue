@@ -1,8 +1,43 @@
+from collections.abc import Callable, Set
+from operator import gt
 from random import Random
 
-from board import Cell, Board, get_distance
+from board import Board, Cell
 
-class Character():
+
+def best_step(
+    board: Board,
+    from_cell: Cell,
+    target: Cell,
+    rng: Random,
+    *,
+    prefer: Callable[[int, int], bool],
+    blocked: Set[Cell],
+) -> Cell:
+    """Choose a strictly improving step using a strict distance comparator.
+
+    prefer(candidate_distance, best_distance) is gt for fleeing or lt
+    for chasing. Randomness is used only for tied best steps.
+    """
+    best_distance = board.distance(from_cell, target)
+    best_cells: list[Cell] = []
+
+    for candidate in sorted(board.neighbors(from_cell) - blocked):
+        distance = board.distance(candidate, target)
+        if prefer(distance, best_distance):
+            best_distance = distance
+            best_cells = [candidate]
+        elif best_cells and distance == best_distance:
+            best_cells.append(candidate)
+
+    if not best_cells:
+        return from_cell
+    if len(best_cells) == 1:
+        return best_cells[0]
+    return rng.choice(best_cells)
+
+
+class Character:
     shape = "circle"
     color_role = 'character'
 
@@ -12,41 +47,24 @@ class Character():
     def move_to(self, cell: Cell) -> None:
         self.cell = cell
 
-    def legal_moves(self, board: Board, blocked: set[Cell]) -> set[Cell]:
+    def legal_moves(self, board: Board, blocked: Set[Cell]) -> set[Cell]:
         return board.neighbors(self.cell) - blocked
 
 
 class Player(Character):
     color_role = 'player'
 
-    @classmethod
-    def at_start(cls, board: Board):
-        return cls(Cell(0, board.rows - 1))
-
 
 class Blue(Character):
     shape = "square"
     color_role = 'blue'
 
-    @classmethod
-    def at_start(cls, board: Board):
-        return cls(Cell(board.cols // 2, board.rows // 2))
-
     def flee_step(self, board: Board, threat: Cell, rng: Random) -> Cell:
-        candidates = self.legal_moves(board, {threat})
-        current_distance = get_distance(self.cell, threat)
-        survivors = set()
-        for candidate in candidates:
-            if get_distance(candidate, threat) > current_distance:
-                survivors.add(candidate)
-
-        if not survivors:
-            return self.cell
-
-        # Every improving orthogonal step adds exactly one to Manhattan distance,
-        # so all survivors tie for best. Sort for reproducible seeded choices.
-        best_cells = sorted(survivors)
-        if len(best_cells) == 1:
-            return best_cells[0]
-
-        return rng.choice(best_cells)
+        return best_step(
+            board,
+            self.cell,
+            threat,
+            rng,
+            prefer=gt,
+            blocked={threat},
+        )

@@ -21,9 +21,9 @@ from constants import (
     SCREEN_HEIGHT, SCREEN_WIDTH,
 )
 from game_setup import subtopic_display_name
+from question_popup import build_question_popup
 from questions import QuestionBank
 from render import Renderer
-from states.play import build_question_popup
 from theme import THEMES
 
 

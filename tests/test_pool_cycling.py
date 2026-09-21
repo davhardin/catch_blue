@@ -19,7 +19,6 @@ from random import Random
 import pygame
 import pytest
 
-from board import get_distance
 from game_setup import GameConfig, Settings
 from questions import QuestionBank
 from render import Renderer
@@ -52,7 +51,8 @@ def write_bank(path, pools):
 
 
 class GameStub:
-    def __init__(self):
+    def __init__(self, bank):
+        self.bank = bank
         self.renderer = Renderer(FLAT)
         self.state = None
 
@@ -68,9 +68,9 @@ def fonts():
 
 
 def make_play(bank, seed=17):
-    game = GameStub()
+    game = GameStub(bank)
     state = PlayState(
-        game, bank,
+        game,
         GameConfig("catch_blue", "science", (TOPIC,), settings=Settings(move_limit=100)),
         Random(seed), reveal_duration_ms=0,
     )
@@ -90,8 +90,9 @@ def ask_wrong(state, cell=None):
     assert cell in state.moves
     state.handle_events([click(state.view.cell_to_rect(cell).center)])
     question = state.pending[0]
-    wrong = next(i for i in state.answer_order if i != question.answer_index)
-    button = state.answer_buttons[state.answer_order.index(wrong)]
+    popup = state.popup
+    wrong = next(i for i in popup.answer_order if i != question.answer_index)
+    button = popup.answer_buttons[popup.answer_order.index(wrong)]
     state.handle_events([click(button.rect.center)])
     assert state.pending is None and state.game.state is state
     return question, cell
@@ -152,15 +153,15 @@ def test_restart_pools_clears_only_the_named_pools_and_reshuffles(tmp_path):
 def test_a_dry_pool_leaves_the_board_and_its_cells_spread_evenly(tmp_path, fonts):
     bank = write_bank(tmp_path, TINY + BIG)
     state = make_play(bank)
-    before = Counter(state.cell_topics.values())
+    before = Counter(state.cell_topics.labels().values())
     assert set(before) == set(POOLS)
 
     drain(bank, POOLS[0])  # "A" is used up behind the board's back
     ask_wrong(state)       # the click-time refresh runs before the question is drawn
 
-    after = Counter(state.cell_topics.values())
+    after = Counter(state.cell_topics.labels().values())
     assert POOLS[0] not in after
-    assert sum(after.values()) == len(state.cell_topics)
+    assert sum(after.values()) == len(state.cell_topics.labels())
     # The ask may itself have drained the other one-question pool ("B"), in
     # which case it cycled off at the resolve — so judge balance over the
     # pools that still have questions, which is exactly what the board shows.
@@ -184,7 +185,7 @@ def test_the_question_served_always_matches_the_label_the_student_clicked(tmp_pa
         # Never a repeat while unused questions remain anywhere.
         assert len(bank.used_ids) == sum(seen.values())
     assert state.moves_remaining == 90
-    assert get_distance(state.player.cell, state.blue.cell) <= 8
+    assert state.board.distance(state.player.cell, state.blue.cell) <= 8
 
 
 def test_tiny_pool_cycles_off_after_its_single_ask(tmp_path, fonts):
@@ -200,7 +201,7 @@ def test_tiny_pool_cycles_off_after_its_single_ask(tmp_path, fonts):
     question, _ = ask_wrong(state, tiny)
     assert (question.topic, question.subtopic) == pair
     # Resolved: the refresh after the reveal has already moved every such cell.
-    assert pair not in set(state.cell_topics.values())
+    assert pair not in set(state.cell_topics.labels().values())
     assert bank.available_pools(POOLS) == sorted(set(POOLS) - {pair})
 
 
@@ -210,7 +211,7 @@ def test_all_pools_dry_restarts_them_and_keeps_every_label(tmp_path, fonts):
     for pair in POOLS[:2]:
         drain(bank, pair)
     assert bank.available_pools(POOLS[:2]) == []
-    snapshot = dict(state.cell_topics)
+    snapshot = dict(state.cell_topics.labels())
 
     cell = sorted(state.moves)[0]
     question, _ = ask_wrong(state, cell)
@@ -222,7 +223,7 @@ def test_all_pools_dry_restarts_them_and_keeps_every_label(tmp_path, fonts):
     for c, pair in snapshot.items():
         if pair != drained:
             assert state.cell_topics[c] == pair
-    assert drained not in set(state.cell_topics.values())
+    assert drained not in set(state.cell_topics.labels().values())
 
 
 def test_relabeling_is_seeded(tmp_path, fonts):
@@ -233,7 +234,7 @@ def test_relabeling_is_seeded(tmp_path, fonts):
         drain(bank, POOLS[0])
         drain(bank, POOLS[1])
         ask_wrong(state)
-        boards.append(dict(state.cell_topics))
+        boards.append(dict(state.cell_topics.labels()))
     assert boards[0] == boards[1]
 
 
@@ -244,6 +245,6 @@ def test_a_new_game_on_a_living_bank_hides_dry_pools_before_the_first_click(tmp_
     drain(bank, POOLS[0])
     drain(bank, POOLS[1])
     state = make_play(bank)
-    assert set(state.cell_topics.values()) == set(POOLS[2:])
-    counts = Counter(state.cell_topics.values()).values()
+    assert set(state.cell_topics.labels().values()) == set(POOLS[2:])
+    counts = Counter(state.cell_topics.labels().values()).values()
     assert max(counts) - min(counts) <= 1

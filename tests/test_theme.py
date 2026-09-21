@@ -54,6 +54,7 @@ def test_flat_preserves_all_palette_values():
         'button': (60, 88, 90), 'button_inactive': (75, 78, 86),
         'correct': (0, 100, 70),
         'player': (230, 159, 0), 'blue': (0, 114, 178),
+        'red': (213, 94, 0), 'green': (0, 158, 115), 'yellow': (240, 228, 66),
         'character': (180, 180, 180),
         'background_text': (245, 245, 245), 'highlight': (245, 245, 245),
     }

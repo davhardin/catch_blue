@@ -10,7 +10,7 @@ from pathlib import Path
 
 import pytest
 
-from board import Board, Cell, get_distance, is_adjacent
+from board import Board, Cell
 from board_view import BoardView
 from constants import BOARD_ORIGIN_X, BOARD_ORIGIN_Y, BOARD_REGION
 
@@ -65,24 +65,31 @@ def test_cells_yields_every_cell_exactly_once():
     ],
 )
 def test_distance_is_manhattan(a, b, expected):
-    assert get_distance(a, b) == expected
+    """Board.distance is the open orthogonal board's metric (Manhattan);
+    the strips and the maze override it (refactor doc 5c)."""
+    assert Board(5, 5).distance(a, b) == expected
 
 
 def test_no_cell_is_adjacent_to_itself():
-    assert not any(is_adjacent(c, c) for c in Board(5, 5).cells())
+    board = Board(5, 5)
+    assert not any(c in board.neighbors(c) for c in board.cells())
 
 
 def test_adjacency_is_symmetric():
-    cells = list(Board(5, 5).cells())
+    """True of the open orthogonal board; a forward-only strip board will
+    deliberately break it (refactor doc 5a)."""
+    board = Board(5, 5)
+    cells = list(board.cells())
     for a in cells:
         for b in cells:
-            assert is_adjacent(a, b) == is_adjacent(b, a)
+            assert (b in board.neighbors(a)) == (a in board.neighbors(b))
 
 
 def test_diagonal_cells_are_not_adjacent():
     """Adjacency is 4-way orthogonal (m2.md); 8-way creep starts here."""
-    assert not is_adjacent(Cell(2, 2), Cell(3, 3))
-    assert not is_adjacent(Cell(2, 2), Cell(1, 3))
+    board = Board(5, 5)
+    assert Cell(3, 3) not in board.neighbors(Cell(2, 2))
+    assert Cell(1, 3) not in board.neighbors(Cell(2, 2))
 
 
 @pytest.mark.parametrize(
@@ -107,13 +114,14 @@ def test_every_neighbor_is_on_the_board():
             assert board.in_bounds(neighbor.col, neighbor.row)
 
 
-def test_neighbors_agrees_with_is_adjacent_for_every_pair():
-    """One adjacency rule, two views (set-valued and boolean) -- no drift."""
+def test_neighbors_agrees_with_distance_for_every_pair():
+    """One adjacency rule, two views (the neighbor set and the metric) -- no
+    drift: on the open board a neighbor is exactly a cell at distance 1."""
     board = Board(5, 5)
     for a in board.cells():
         neighbors = board.neighbors(a)
         for b in board.cells():
-            assert (b in neighbors) == is_adjacent(a, b)
+            assert (b in neighbors) == (board.distance(a, b) == 1)
 
 
 def test_neighbors_is_not_confused_by_a_non_square_board():

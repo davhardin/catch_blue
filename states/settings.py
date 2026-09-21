@@ -7,78 +7,107 @@ from constants import (
     SETTINGS_LEFT, SETTINGS_WIDTH, SETTINGS_TITLE_TOP, SETTINGS_FIRST_ROW_TOP,
     SETTINGS_LABEL_GAP, SETTINGS_ROW_GAP, SETTINGS_OPTION_GAP,
 )
-from game_setup import PRESETS, TierPolicy, preset_for
+from modes import MODES, get_mode
 from theme import Alignment
 from ui import Button, ButtonAction, OptionRow, TextBox, pointer_position, update_button_lifts
 
 
 class SettingsState:
-    def __init__(self, game, bank):
+    def __init__(self, game, *, mode=None):
         self.game = game
-        self.bank = bank
         self.renderer = game.renderer
         self.pointer_pos: tuple[int, int] | None = None
         self.button_action = ButtonAction()
 
-        limits = sorted({10, 15, 20, 25, 30, game.settings.move_limit})
-        row_specs = (
-            ('preset', 'Difficulty', (
-                ('easy', 'Easy'), ('medium', 'Medium'),
-                ('hard', 'Hard'), ('custom', 'Custom'),
-            )),
-            ('board_size', 'Board size', ((5, '5 x 5'), (7, '7 x 7'), (9, '9 x 9'))),
-            ('move_limit', 'Move limit', tuple((value, str(value)) for value in limits)),
-            ('tier_policy', 'Question tiers', (
-                (TierPolicy.TIERS_1_2, 'T1 + T2'),
-                (TierPolicy.ALL, 'All tiers'),
-                (TierPolicy.DISTANCE, 'Distance based'),
-            )),
+        self._select_mode(game.settings_mode if mode is None else mode)
+
+        self.back_button = Button(
+            pygame.Rect(
+                MENU_BACK_LEFT, MENU_START_TOP,
+                MENU_BACK_WIDTH, MENU_BUTTON_HEIGHT,
+            ),
+            'Back',
+            self.renderer,
+            lift=self.renderer.theme.menu_lift,
         )
+
+    def _select_mode(self, mode):
+        self.spec = get_mode(mode).settings_spec()
+        self.mode = mode
+        self.game.settings_mode = mode
+        self._build_rows()
+
+    def _build_rows(self):
+        settings = self.game.settings_by_mode[self.mode]
+        row_specs = list(self.spec.row_specs(settings))
+        available_modes = tuple(
+            (mode.key, mode.display_name)
+            for mode in MODES.values()
+            if mode.active
+        )
+        if len(available_modes) > 1:
+            row_specs.insert(0, ('mode', 'Game', available_modes))
+
         self.headings = []
         self.rows = {}
         values = self._values()
         next_top = SETTINGS_FIRST_ROW_TOP
+
         for key, label, options in row_specs:
             heading = TextBox(
-                label, self.renderer, 'checkbox', SETTINGS_LEFT, next_top,
-                SETTINGS_WIDTH, 'background_text',
+                label,
+                self.renderer,
+                'checkbox',
+                SETTINGS_LEFT,
+                next_top,
+                SETTINGS_WIDTH,
+                'background_text',
             )
             self.headings.append(heading)
             row = OptionRow(
                 pygame.Rect(
-                    SETTINGS_LEFT, heading.y + heading.height + SETTINGS_LABEL_GAP,
-                    SETTINGS_WIDTH, MENU_BUTTON_HEIGHT,
+                    SETTINGS_LEFT,
+                    heading.y + heading.height + SETTINGS_LABEL_GAP,
+                    SETTINGS_WIDTH,
+                    MENU_BUTTON_HEIGHT,
                 ),
-                options, self.renderer, selected=values[key], gap=SETTINGS_OPTION_GAP,
+                options,
+                self.renderer,
+                selected=values[key],
+                gap=SETTINGS_OPTION_GAP,
                 read_only=('custom',) if key == 'preset' else (),
             )
             self.rows[key] = row
             next_top = row.rect.bottom + SETTINGS_ROW_GAP
 
-
-        self.back_button = Button(
-            pygame.Rect(MENU_BACK_LEFT, MENU_START_TOP, MENU_BACK_WIDTH, MENU_BUTTON_HEIGHT),
-            'Back', self.renderer, lift=self.renderer.theme.menu_lift,
-        )
-
     def _values(self):
-        settings = self.game.settings
+        settings = self.game.settings_by_mode[self.mode]
         return {
-            'preset': preset_for(settings),
-            'board_size': settings.board_size,
-            'move_limit': settings.move_limit,
-            'tier_policy': settings.tier_policy,
+            'mode': self.mode,
+            'preset': self.spec.preset_for(settings),
+            **{
+                row.key: getattr(settings, row.key)
+                for row in self.spec.rows
+            },
         }
 
     def _sync_rows(self):
-        for key, value in self._values().items():
-            self.rows[key].set_selected(value)
+        values = self._values()
+        for key, row in self.rows.items():
+            row.set_selected(values[key])
 
     def _apply_option(self, key, value):
+        if key == 'mode':
+            self._select_mode(value)
+            return
+
+        settings = self.game.settings_by_mode[self.mode]
         if key == 'preset':
-            self.game.settings = PRESETS[value]
+            settings = self.spec.preset(value)
         else:
-            self.game.settings = replace(self.game.settings, **{key: value})
+            settings = replace(settings, **{key: value})
+
+        self.game.settings_by_mode[self.mode] = settings
         self._sync_rows()
 
     def handle_events(self, events):
@@ -94,7 +123,7 @@ class SettingsState:
             if self.back_button.is_clicked(event.pos):
                 self.button_action.begin(
                     self.back_button,
-                    lambda: self.game.show_main_menu(self.bank),
+                    lambda: self.game.show_main_menu(),
                 )
                 return
 

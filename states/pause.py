@@ -64,7 +64,8 @@ class PauseState:
     def _resume(self):
         self.play_state.pointer_pos = None
         self.play_state.hovering = None
-        self.play_state.hovered_answer = None
+        if self.play_state.popup is not None:
+            self.play_state.popup.hover(None)
         self.game.change_state(self.play_state)
 
     def handle_events(self, events):
@@ -90,7 +91,7 @@ class PauseState:
                 self.button_action.begin(
                     self.retry_button,
                     lambda: self.game.start_play(
-                        self.play_state.bank, self.play_state.config,
+                        self.play_state.config,
                     ),
                 )
                 return
@@ -98,7 +99,7 @@ class PauseState:
             if self.main_menu_button.is_clicked(event.pos):
                 self.button_action.begin(
                     self.main_menu_button,
-                    lambda: self.game.show_main_menu(self.play_state.bank),
+                    lambda: self.game.show_main_menu(),
                 )
                 return
 

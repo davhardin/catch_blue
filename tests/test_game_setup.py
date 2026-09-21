@@ -1,7 +1,8 @@
 """Game setup: topic prettifying and the scrambled cell->pair assignment.
 
-Everything here runs without a window -- game_setup.py is pygame-free by
-design, and the last test makes sure it stays that way.
+Everything here runs without a window -- game_setup.py and cell_topics.py
+(where assign_cell_topics moved in the Phase 2 refactor) are pygame-free by
+design, and the last tests make sure they stay that way.
 
 The assignment tests lean on seeded random.Random instances (milestones/m4.md
 trap 5): same seed asserts exact equality, and the coverage test sweeps many
@@ -19,10 +20,10 @@ from random import Random
 import pytest
 
 from board import Board
+from cell_topics import assign_cell_topics
 from game_setup import (
     SUBJECT_TOPIC_ORDERS,
     SUBTOPIC_DISPLAY_NAMES,
-    assign_cell_topics,
     order_topics_for_subject,
     prettify_topic,
     subtopic_display_name,
@@ -246,3 +247,14 @@ def test_game_setup_module_never_imports_pygame():
         cwd=Path(__file__).parent.parent,
     )
     assert result.returncode == 0, "game_setup.py has picked up a pygame dependency"
+
+
+def test_cell_topics_module_never_imports_pygame():
+    """assign_cell_topics moved to cell_topics.py in the Phase 2 refactor; the
+    label map stays pygame-free so the strips and the maze can reuse it."""
+    result = subprocess.run(
+        [sys.executable, "-c", "import cell_topics, sys; assert 'pygame' not in sys.modules"],
+        capture_output=True,
+        cwd=Path(__file__).parent.parent,
+    )
+    assert result.returncode == 0, "cell_topics.py has picked up a pygame dependency"

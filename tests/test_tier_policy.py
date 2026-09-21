@@ -22,17 +22,20 @@ from types import SimpleNamespace
 import pygame
 import pytest
 
-from board import get_distance
 from constants import SCREEN_HEIGHT, SCREEN_WIDTH
 from game_setup import (
-    DEFAULT_PRESET, PRESETS, GameConfig, Settings, TierPolicy,
-    allowed_tiers_for, wanted_tier_for,
+    GameConfig, Settings, TierPolicy, allowed_tiers_for, wanted_tier_for,
 )
+from modes import get_mode
 from questions import TIER_FALLBACKS, QuestionBank
 from render import Renderer
+from rules import Intent
 from states.menus import TopicsState
 from states.play import PlayState
 from theme import FLAT
+
+# Presets moved into the mode registry in the Phase 2 refactor (step 4).
+SPEC = get_mode("catch_blue").settings_spec()
 
 SUBJECT = "science"
 TOPIC = "tiers"
@@ -144,10 +147,11 @@ def test_only_the_distance_policy_wants_a_tier(policy, distance):
 
 
 def test_presets_carry_the_shipped_policies():
-    assert PRESETS["easy"].tier_policy is TierPolicy.TIERS_1_2
-    assert PRESETS["medium"].tier_policy is TierPolicy.DISTANCE
-    assert PRESETS["hard"].tier_policy is TierPolicy.DISTANCE
-    assert PRESETS[DEFAULT_PRESET] is PRESETS["easy"]
+    assert SPEC.preset("easy").tier_policy is TierPolicy.TIERS_1_2
+    assert SPEC.preset("medium").tier_policy is TierPolicy.DISTANCE
+    assert SPEC.preset("hard").tier_policy is TierPolicy.DISTANCE
+    assert SPEC.default_preset == "easy"
+    assert SPEC.default is SPEC.preset("easy")
 
 
 # --- bank draws under a wanted tier ------------------------------------------
@@ -293,7 +297,8 @@ def test_no_policy_matches_the_pre_m7f_sequence_on_the_real_bank(seed):
 
 
 class GameStub:
-    def __init__(self):
+    def __init__(self, bank):
+        self.bank = bank
         self.renderer = Renderer(FLAT)
         self.state = None
 
@@ -302,9 +307,9 @@ class GameStub:
 
 
 def make_play(bank, settings, seed=17):
-    game = GameStub()
+    game = GameStub(bank)
     state = PlayState(
-        game, bank,
+        game,
         GameConfig("catch_blue", SUBJECT, (TOPIC,), settings=settings),
         Random(seed), reveal_duration_ms=0,
     )
@@ -320,16 +325,16 @@ def place_player_at_distance(state, distance):
     blue = state.blue.cell
     cell = next(
         c for c in state.board.cells()
-        if c != blue and get_distance(c, blue) == distance
+        if c != blue and state.board.distance(c, blue) == distance
     )
     state.player.move_to(cell)
-    assert get_distance(state.player.cell, state.blue.cell) == distance
+    assert state.board.distance(state.player.cell, state.blue.cell) == distance
 
 
 def open_question(state):
     moves = state.player.legal_moves(state.board, {state.blue.cell})
     target = sorted(moves)[0]
-    distance = get_distance(state.player.cell, state.blue.cell)
+    distance = state.board.distance(state.player.cell, state.blue.cell)
     state.handle_events([click(state.view.cell_to_rect(target).center)])
     assert state.pending is not None
     return state.pending[0], distance
@@ -337,8 +342,9 @@ def open_question(state):
 
 def answer_wrong(state):
     question = state.pending[0]
-    wrong = next(i for i in state.answer_order if i != question.answer_index)
-    button = state.answer_buttons[state.answer_order.index(wrong)]
+    popup = state.popup
+    wrong = next(i for i in popup.answer_order if i != question.answer_index)
+    button = popup.answer_buttons[popup.answer_order.index(wrong)]
     state.handle_events([click(button.rect.center)])
     assert state.pending is None and state.game.state is state
 
@@ -359,7 +365,7 @@ def test_distance_policy_catch_click_asks_a_tier_3(tmp_path, fonts):
     place_player_at_distance(state, 1)
     state.handle_events([click(state.view.cell_to_rect(state.blue.cell).center)])
     question, _, intent = state.pending
-    assert intent == "catch"
+    assert intent == Intent.CATCH
     assert question.difficulty == 3
 
 
@@ -442,8 +448,8 @@ def test_play_drops_subtopics_with_nothing_allowed_and_refuses_an_empty_selectio
         question("b-3", 3, subtopic="Beta"),
     ])
     state = make_play(bank, Settings(tier_policy=TierPolicy.TIERS_1_2, move_limit=100))
-    assert state.topic_subtopics == ((TOPIC, "Alpha"),)
-    assert set(state.cell_topics.values()) == {(TOPIC, "Alpha")}
+    assert state.cell_topics.topic_subtopics == ((TOPIC, "Alpha"),)
+    assert set(state.cell_topics.labels().values()) == {(TOPIC, "Alpha")}
 
     only_hard = write_bank(tmp_path, [question("b-3", 3, subtopic="Beta")])
     with pytest.raises(ValueError, match="tier policy"):
@@ -453,9 +459,19 @@ def test_play_drops_subtopics_with_nothing_allowed_and_refuses_an_empty_selectio
 # --- Topics screen guard ------------------------------------------------------
 
 
+def make_game(bank, settings, renderer):
+    """The Game surface TopicsState reads: bank, per-mode settings, renderer."""
+    return SimpleNamespace(
+        bank=bank,
+        settings_by_mode={"catch_blue": settings},
+        settings_mode="catch_blue",
+        topic_selections={},
+        renderer=renderer,
+    )
+
+
 def make_topics(bank, settings, renderer):
-    game = SimpleNamespace(settings=settings, topic_selections={}, renderer=renderer)
-    return TopicsState(game, bank, "catch_blue", SUBJECT)
+    return TopicsState(make_game(bank, settings, renderer), "catch_blue", SUBJECT)
 
 
 def note_rect(topics):
@@ -466,14 +482,14 @@ def note_rect(topics):
 def test_topics_refuses_to_start_when_nothing_matches_the_allowed_tiers(tmp_path, fonts):
     bank = write_bank(tmp_path, [question("b-3", 3)])
     renderer = Renderer(FLAT)
-    topics = make_topics(bank, PRESETS["easy"], renderer)
+    topics = make_topics(bank, SPEC.preset("easy"), renderer)
     assert topics.no_matching_questions
     assert not topics.start_button.active
 
     # The distance presets check the *starting* distance, which is always far,
     # so a tier-3-only selection cannot start there either.
     for name in ("medium", "hard"):
-        far = make_topics(bank, PRESETS[name], renderer)
+        far = make_topics(bank, SPEC.preset(name), renderer)
         assert far.no_matching_questions, name
         assert not far.start_button.active, name
 
@@ -484,7 +500,7 @@ def test_topics_refuses_to_start_when_nothing_matches_the_allowed_tiers(tmp_path
 
 def test_topics_note_sits_inside_the_screen_clear_of_the_buttons(tmp_path, fonts):
     bank = write_bank(tmp_path, [question("b-3", 3)])
-    topics = make_topics(bank, PRESETS["easy"], Renderer(FLAT))
+    topics = make_topics(bank, SPEC.preset("easy"), Renderer(FLAT))
     rect = note_rect(topics)
     screen = pygame.Rect(0, 0, SCREEN_WIDTH, SCREEN_HEIGHT)
     assert screen.contains(rect)
@@ -499,7 +515,7 @@ def test_topics_start_follows_the_selection_under_the_allowed_tiers(tmp_path, fo
         question("mixed-1", 1, topic="mixed_topic"),
         question("mixed-3", 3, topic="mixed_topic"),
     ])
-    topics = make_topics(bank, PRESETS["easy"], Renderer(FLAT))
+    topics = make_topics(bank, SPEC.preset("easy"), Renderer(FLAT))
     boxes = dict(topics.topic_checkboxes)
     assert topics.start_button.active and not topics.no_matching_questions
 
@@ -519,8 +535,8 @@ def test_topics_start_follows_the_selection_under_the_allowed_tiers(tmp_path, fo
 @pytest.mark.parametrize("preset", ["easy", "medium", "hard"])
 def test_every_real_topic_can_start_on_every_preset(fonts, preset):
     bank = QuestionBank(REAL_BANK)
-    game = SimpleNamespace(settings=PRESETS[preset], topic_selections={}, renderer=Renderer(FLAT))
-    topics = TopicsState(game, bank, "catch_blue", "anatomy_physiology")
+    game = make_game(bank, SPEC.preset(preset), Renderer(FLAT))
+    topics = TopicsState(game, "catch_blue", "anatomy_physiology")
     for topic, checkbox in topics.topic_checkboxes:
         for _, other in topics.topic_checkboxes:
             other.checked = other is checkbox

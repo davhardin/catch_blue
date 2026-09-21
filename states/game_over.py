@@ -3,6 +3,7 @@ import pygame
 from constants import (
     SIDE_PANEL_LEFT, SIDE_PANEL_TOP, SIDE_PANEL_WIDTH, SIDE_PANEL_PADDING,
 )
+from rules import Outcome
 from ui import Button, ButtonAction, TextBox, pointer_position, update_button_lifts
 
 BUTTON_HEIGHT = 60
@@ -10,28 +11,25 @@ BUTTON_GAP = 24
 
 
 class GameOverState:
-    def __init__(self, game, bank, config, result, play_state):
+    def __init__(self, game, config, result, play_state):
         if result not in {"win", "lose"}:
             raise ValueError(f"Unknown game result: {result}")
 
         self.game = game
-        self.bank = bank
         self.config = config
-        self.result = result
+        self.result = Outcome(result)
         self.play_state = play_state
-        self.renderer = game.renderer
+        self.renderer = play_state.renderer
         self.pointer_pos = None
         self.button_action = ButtonAction()
 
         content_left = SIDE_PANEL_LEFT + SIDE_PANEL_PADDING
         content_width = SIDE_PANEL_WIDTH - 2 * SIDE_PANEL_PADDING
 
-        if self.result == "win":
-            message = "You caught Blue!"
-            replay_text = "Play again"
-        else:
-            message = "Blue got away!"
-            replay_text = "Try again"
+        message = play_state.rules.result_messages[self.result]
+        replay_text = (
+            "Play again" if self.result == Outcome.WIN else "Try again"
+        )
 
         self.result_box = TextBox(
             message,
@@ -93,14 +91,14 @@ class GameOverState:
             if self.replay_button.is_clicked(event.pos):
                 self.button_action.begin(
                     self.replay_button,
-                    lambda: self.game.start_play(self.bank, self.config),
+                    lambda: self.game.start_play(self.config),
                 )
                 return
 
             if self.main_menu_button.is_clicked(event.pos):
                 self.button_action.begin(
                     self.main_menu_button,
-                    lambda: self.game.show_main_menu(self.bank),
+                    lambda: self.game.show_main_menu(),
                 )
                 return
 

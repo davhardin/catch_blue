@@ -14,27 +14,41 @@ from constants import (
     SCREEN_WIDTH, SCREEN_HEIGHT, SIDE_PANEL_GAP, SIDE_PANEL_LEFT, SIDE_PANEL_PADDING,
     SIDE_PANEL_TOP, SIDE_PANEL_WIDTH,
 )
-from game_setup import DEFAULT_PRESET, GameConfig, PRESETS
+from game_setup import GameConfig
+from modes import get_mode
+from question_popup import build_question_popup
 from questions import QuestionBank
 from render import Renderer
 from states.game_over import GameOverState
-from states.play import PlayState, build_question_popup
+from states.play import PlayState
 from theme import FLAT, PIXEL
+
+DEFAULT_SETTINGS = get_mode('catch_blue').settings_spec().default
+BANK = QuestionBank(Path(__file__).resolve().parents[1] / 'data' / 'questions')
 
 
 @pytest.fixture(params=[FLAT, PIXEL], ids=['flat', 'pixel'])
 def game(request):
     pygame.font.init()
-    yield SimpleNamespace(settings=PRESETS[DEFAULT_PRESET], topic_selections={}, renderer=Renderer(request.param), start_play=Mock(), show_main_menu=Mock())
+    yield SimpleNamespace(
+        bank=BANK,
+        settings_by_mode={'catch_blue': DEFAULT_SETTINGS},
+        settings_mode='catch_blue',
+        topic_selections={},
+        renderer=Renderer(request.param),
+        start_play=Mock(),
+        show_main_menu=Mock(),
+    )
     pygame.font.quit()
 
 
 @pytest.mark.parametrize('result', ['win', 'lose'])
 def test_ending_panel_matches_question_and_navigation(game, result):
-    bank = QuestionBank(Path(__file__).resolve().parents[1] / 'data' / 'questions')
-    config = GameConfig('catch_blue', 'anatomy_physiology', ('cells',))
-    play = PlayState(game, bank, config, Random(17))
-    state = GameOverState(game, bank, config, result, play)
+    bank = game.bank
+    config = GameConfig('catch_blue', 'anatomy_physiology', ('cells',), DEFAULT_SETTINGS)
+    play = PlayState(game, config, Random(17))
+    state = GameOverState(game, config, result, play)
+    assert state.renderer is play.renderer
     question = bank.questions[0]
     panel, prompt, choices = build_question_popup(
         question, game.renderer, list(range(len(question.choices))),
@@ -67,8 +81,8 @@ def test_ending_panel_matches_question_and_navigation(game, result):
     assert pygame.image.tobytes(screen.subsurface(hud), 'RGB') == before_hud
     assert pygame.image.tobytes(screen.subsurface(board), 'RGB') == before_board
     for button, callback, args in (
-        (state.replay_button, game.start_play, (bank, config)),
-        (state.main_menu_button, game.show_main_menu, (bank,)),
+        (state.replay_button, game.start_play, (config,)),
+        (state.main_menu_button, game.show_main_menu, ()),
     ):
         state.handle_events([])  # drain the batch a previous press discards
         state.handle_events([pygame.event.Event(

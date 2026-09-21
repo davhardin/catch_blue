@@ -1,25 +1,24 @@
 import pygame
 
-from board import Board, get_distance
-from characters import Blue, Player
 from constants import (
-    SCREEN_WIDTH, MENU_BUTTON_WIDTH, MENU_BUTTON_HEIGHT, MENU_BUTTON_GAP,
+    SCREEN_WIDTH, SCREEN_HEIGHT,
+    MENU_BUTTON_WIDTH, MENU_BUTTON_HEIGHT, MENU_BUTTON_GAP,
     MENU_BUTTON_LEFT, MENU_FIRST_BUTTON_TOP, MENU_TITLE_TOP,
     MENU_CHECKBOX_SIZE, MENU_ROW_HEIGHT, MENU_LIST_SIDE_PADDING,
     MENU_CHECKBOX_LEFT, MENU_CHECKBOX_TOP, MENU_TOPICS_TITLE_TOP,
     MENU_SCROLL_LEFT, MENU_SCROLL_TOP, MENU_SCROLL_WIDTH, MENU_SCROLL_HEIGHT,
     MENU_START_TOP, MENU_CREDITS_SIDE_MARGIN, MENU_CREDITS_TOP, MENU_CREDITS_HEIGHT,
     MENU_BACK_LEFT, MENU_BACK_WIDTH,
-    MENU_THREE_FIRST_BUTTON_TOP, MENU_THREE_TITLE_TOP,
+    MENU_TITLE_OFFSET,
 )
 from theme import Alignment
 from game_setup import (
     GameConfig,
-    allowed_tiers_for,
     order_topics_for_subject,
     prettify_topic,
     subject_display_name,
 )
+from modes import MODES, get_mode
 from questions import QuestionBank
 from states.settings import SettingsState
 from ui import (
@@ -68,83 +67,91 @@ def _make_back_button(renderer):
     )
 
 
+def _menu_button_tops(count):
+    stack_height = count * MENU_BUTTON_HEIGHT + (count - 1) * MENU_BUTTON_GAP
+    first_top = (SCREEN_HEIGHT - stack_height) // 2
+    return tuple(
+        first_top + index * (MENU_BUTTON_HEIGHT + MENU_BUTTON_GAP)
+        for index in range(count)
+    )
+
+
 class GameSelectState:
-    def __init__(self, game, bank: QuestionBank):
+    def __init__(self, game):
         self.game = game
-        self.bank = bank
         self.renderer = game.renderer
         self.pointer_pos: tuple[int, int] | None = None
         self.button_action = ButtonAction()
 
-        self.catch_blue_button = _make_menu_button(
-            "Catch Blue",
-            self.renderer,
-            MENU_THREE_FIRST_BUTTON_TOP,
-        )
-        self.run_from_red_button = _make_menu_button(
-            "Run from Red (coming soon)",
-            self.renderer,
-            MENU_THREE_FIRST_BUTTON_TOP + MENU_BUTTON_HEIGHT + MENU_BUTTON_GAP,
-            active=False,
-        )
+        tops = _menu_button_tops(len(MODES) + 1)
+        self.title_top = tops[0] - MENU_TITLE_OFFSET
+        self.mode_buttons = {}
+
+        for mode, top in zip(MODES.values(), tops):
+            label = (
+                mode.display_name
+                if mode.active
+                else f'{mode.display_name} (coming soon)'
+            )
+            self.mode_buttons[mode.key] = _make_menu_button(
+                label,
+                self.renderer,
+                top,
+                active=mode.active,
+            )
+
         self.settings_button = _make_menu_button(
-            'Settings', self.renderer,
-            self.run_from_red_button.rect.bottom + MENU_BUTTON_GAP,
+            'Settings', self.renderer, tops[-1],
         )
+        self.buttons = (*self.mode_buttons.values(), self.settings_button)
+
+    def _select_mode(self, key):
+        self.game.settings_mode = key
+        self.game.change_state(SubjectState(self.game, mode=key))
 
     def handle_events(self, events):
         if self.button_action.blocks_events():
             for event in events:
                 self.pointer_pos = _menu_pointer_position(self.pointer_pos, event)
             return
+
         for event in events:
             self.pointer_pos = _menu_pointer_position(self.pointer_pos, event)
             if event.type != pygame.MOUSEBUTTONDOWN or event.button != 1:
                 continue
 
-            if self.catch_blue_button.is_clicked(event.pos):
-                self.button_action.begin(
-                    self.catch_blue_button,
-                    lambda: self.game.change_state(SubjectState(
-                        self.game,
-                        self.bank,
-                        mode="catch_blue",
-                    )),
-                )
-                return
+            for key, button in self.mode_buttons.items():
+                if button.is_clicked(event.pos):
+                    self.button_action.begin(
+                        button,
+                        lambda key=key: self._select_mode(key),
+                    )
+                    return
 
             if self.settings_button.is_clicked(event.pos):
                 self.button_action.begin(
                     self.settings_button,
-                    lambda: self.game.change_state(SettingsState(self.game, self.bank)),
+                    lambda: self.game.change_state(SettingsState(self.game)),
                 )
                 return
 
     def update(self, dt_ms):
-        _update_menu_button_lifts(
-            (self.catch_blue_button, self.run_from_red_button, self.settings_button),
-            dt_ms, self.pointer_pos,
-        )
+        _update_menu_button_lifts(self.buttons, dt_ms, self.pointer_pos)
         self.button_action.update(dt_ms)
 
     def draw(self, screen):
         self.renderer.fill(screen)
         _draw_centered_text(
-            screen,
-            "Select Game",
-            self.renderer,
-            MENU_THREE_TITLE_TOP,
+            screen, 'Select Game', self.renderer, self.title_top,
         )
-        self.catch_blue_button.draw(screen)
-        self.run_from_red_button.draw(screen)
-        self.settings_button.draw(screen)
+        for button in self.buttons:
+            button.draw(screen)
         self.renderer.text(screen, CREDITS_TEXT, CREDITS_RECT, 'credits')
 
 
 class SubjectState:
-    def __init__(self, game, bank: QuestionBank, mode):
+    def __init__(self, game, mode):
         self.game = game
-        self.bank = bank
         self.mode = mode
         self.renderer = game.renderer
         self.pointer_pos: tuple[int, int] | None = None
@@ -176,7 +183,7 @@ class SubjectState:
             if self.back_button.is_clicked(event.pos):
                 self.button_action.begin(
                     self.back_button,
-                    lambda: self.game.show_main_menu(self.bank),
+                    lambda: self.game.show_main_menu(),
                 )
                 return
 
@@ -185,7 +192,6 @@ class SubjectState:
                     self.anatomy_button,
                     lambda: self.game.change_state(TopicsState(
                         self.game,
-                        self.bank,
                         mode=self.mode,
                         subject="anatomy_physiology",
                     )),
@@ -213,10 +219,11 @@ class SubjectState:
 
 
 class TopicsState:
-    def __init__(self, game, bank: QuestionBank, mode, subject):
+    def __init__(self, game, mode, subject):
         self.game = game
-        self.bank = bank
+        self.bank: QuestionBank = game.bank
         self.mode = mode
+        self.rules = get_mode(mode).make_rules()
         self.subject = subject
         self.topics = order_topics_for_subject(
             self.subject,
@@ -297,20 +304,8 @@ class TopicsState:
         self.all_checkbox.checked = bool(self.topic_checkboxes) and all(
             checkbox.checked for _, checkbox in self.topic_checkboxes
         )
-        settings = self.game.settings
-        board = Board(settings.board_size, settings.board_size)
-        starting_distance = get_distance(
-            Player.at_start(board).cell,
-            Blue.at_start(board).cell,
-        )
-        allowed_tiers = allowed_tiers_for(
-            settings.tier_policy,
-            distance=starting_distance,
-        )
-        has_questions = any(
-            self.bank.subtopics(topic, allowed_tiers=allowed_tiers)
-            for topic in selected
-        )
+        settings = self.game.settings_by_mode[self.mode]
+        has_questions = self.rules.menu_eligible(settings, self.bank, selected)
 
         self.no_matching_questions = bool(selected) and not has_questions
         self.start_button.active = has_questions
@@ -341,7 +336,7 @@ class TopicsState:
                 self.button_action.begin(
                     self.back_button,
                     lambda: self.game.change_state(
-                        SubjectState(self.game, self.bank, mode=self.mode),
+                        SubjectState(self.game, mode=self.mode),
                     ),
                 )
                 return
@@ -356,11 +351,11 @@ class TopicsState:
                     mode=self.mode,
                     subject=self.subject,
                     selected_topics=selected_topics,
-                    settings=self.game.settings,
+                    settings=self.game.settings_by_mode[self.mode],
                 )
                 self.button_action.begin(
                     self.start_button,
-                    lambda: self.game.start_play(self.bank, config),
+                    lambda: self.game.start_play(config),
                 )
                 return
 

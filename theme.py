@@ -42,6 +42,9 @@ class Palette:
 
     player: Color
     blue: Color
+    red: Color
+    green: Color
+    yellow: Color
     character: Color
     background_text: Color = (245, 245, 245)
     highlight: Color = (245, 245, 245)
@@ -145,6 +148,9 @@ FLAT = Theme(
 
         player=(230, 159, 0),
         blue=(0, 114, 178),
+        red=(213, 94, 0),
+        green=(0, 158, 115),
+        yellow=(240, 228, 66),
         character=(180, 180, 180),
     ),
     fonts=Fonts(

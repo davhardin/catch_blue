@@ -7,17 +7,18 @@ from unittest.mock import Mock, call
 import pygame
 import pytest
 
-from game_setup import DEFAULT_PRESET, PRESETS
-
 from constants import (
     SCREEN_HEIGHT, SCREEN_WIDTH, MENU_BUTTON_LEFT, MENU_BUTTON_WIDTH,
     MENU_BUTTON_HEIGHT, MENU_BUTTON_GAP, MENU_FIRST_BUTTON_TOP, MENU_START_TOP,
-    MENU_THREE_FIRST_BUTTON_TOP,
     MENU_CREDITS_SIDE_MARGIN, MENU_CREDITS_TOP, MENU_CREDITS_HEIGHT,
 )
+from modes import get_mode
 from questions import QuestionBank
 from render import Renderer
-from states.menus import CREDITS_RECT, CREDITS_TEXT, GameSelectState, SubjectState, TopicsState
+from states.menus import (
+    CREDITS_RECT, CREDITS_TEXT, GameSelectState, SubjectState, TopicsState,
+    _menu_button_tops,
+)
 from theme import FLAT, PIXEL
 
 
@@ -31,11 +32,17 @@ def renderer(request):
 @pytest.fixture
 def menus(renderer):
     bank = QuestionBank(Path(__file__).resolve().parents[1] / 'data' / 'questions')
-    game = SimpleNamespace(settings=PRESETS[DEFAULT_PRESET], topic_selections={}, renderer=renderer)
+    game = SimpleNamespace(
+        bank=bank,
+        settings_by_mode={'catch_blue': get_mode('catch_blue').settings_spec().default},
+        settings_mode='catch_blue',
+        topic_selections={},
+        renderer=renderer,
+    )
     return (
-        GameSelectState(game, bank),
-        SubjectState(game, bank, 'catch_blue'),
-        TopicsState(game, bank, 'catch_blue', 'anatomy_physiology'),
+        GameSelectState(game),
+        SubjectState(game, 'catch_blue'),
+        TopicsState(game, 'catch_blue', 'anatomy_physiology'),
     )
 
 
@@ -65,7 +72,7 @@ def test_credits_exact_call_and_actual_rendered_bounds(renderer, menus, monkeypa
     assert screen.last_blit_bounds == bounds
     assert CREDITS_RECT.contains(bounds)
     assert screen.get_rect().contains(CREDITS_RECT)
-    for button in (menus[0].catch_blue_button, menus[0].run_from_red_button):
+    for button in menus[0].mode_buttons.values():
         assert not bounds.colliderect(button.rect)
 
     # Compare actual footer pixels to an independently centered font render.
@@ -94,12 +101,14 @@ def test_menu_buttons_use_shared_geometry(menus):
     first = pygame.Rect(MENU_BUTTON_LEFT, MENU_FIRST_BUTTON_TOP, MENU_BUTTON_WIDTH, MENU_BUTTON_HEIGHT)
     second = first.move(0, MENU_BUTTON_HEIGHT + MENU_BUTTON_GAP)
     step = MENU_BUTTON_HEIGHT + MENU_BUTTON_GAP
-    # Game Select is a three-button stack (Settings, M7.b) with its own top.
+    # Game Select stacks one button per registered mode plus Settings; the
+    # stack is centred as a block, so its top is derived from the count.
     select_first = pygame.Rect(
-        MENU_BUTTON_LEFT, MENU_THREE_FIRST_BUTTON_TOP, MENU_BUTTON_WIDTH, MENU_BUTTON_HEIGHT,
+        MENU_BUTTON_LEFT, _menu_button_tops(3)[0], MENU_BUTTON_WIDTH, MENU_BUTTON_HEIGHT,
     )
-    assert select.catch_blue_button.rect == select_first
-    assert select.run_from_red_button.rect == select_first.move(0, step)
+    assert select_first.top == (SCREEN_HEIGHT - (3 * MENU_BUTTON_HEIGHT + 2 * MENU_BUTTON_GAP)) // 2
+    assert select.mode_buttons['catch_blue'].rect == select_first
+    assert select.mode_buttons['run_from_red'].rect == select_first.move(0, step)
     assert select.settings_button.rect == select_first.move(0, 2 * step)
     assert subject.anatomy_button.rect == first
     assert subject.organic_chemistry_button.rect == second

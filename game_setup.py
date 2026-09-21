@@ -1,9 +1,7 @@
-from collections.abc import Iterable, Sequence
-from dataclasses import dataclass, field
+from collections.abc import Iterable
+from dataclasses import dataclass
 from enum import StrEnum
-from random import Random
 
-from board import Cell
 from constants import MOVE_LIMIT
 
 TopicPair = tuple[str, str]
@@ -124,42 +122,12 @@ class Settings:
         object.__setattr__(self, "tier_policy", TierPolicy(self.tier_policy))
 
 
-PRESETS: dict[str, Settings] = {
-    "easy": Settings(
-        board_size=5,
-        move_limit=15,
-        tier_policy=TierPolicy.TIERS_1_2,
-    ),
-    "medium": Settings(
-        board_size=5,
-        move_limit=15,
-        tier_policy=TierPolicy.DISTANCE,
-    ),
-    "hard": Settings(
-        board_size=7,
-        move_limit=20,
-        tier_policy=TierPolicy.DISTANCE,
-    ),
-}
-
-DEFAULT_PRESET = "easy"
-
-
-def preset_for(settings: Settings) -> str:
-    for name, preset in PRESETS.items():
-        if settings == preset:
-            return name
-    return "custom"
-
-
 @dataclass(frozen=True)
 class GameConfig:
     mode: str
     subject: str
     selected_topics: tuple[str, ...]
-    settings: Settings = field(
-        default_factory=lambda: PRESETS[DEFAULT_PRESET],
-    )
+    settings: Settings
 
 
 def prettify_topic(topic: str) -> str:
@@ -198,24 +166,3 @@ def order_topics_for_subject(
     configured_topic_set = set(configured_order)
     additional_topics = sorted(available_topics - configured_topic_set)
     return configured_topics + additional_topics
-
-
-def assign_cell_topics(
-    cells: Iterable[Cell],
-    topic_subtopics: Sequence[TopicPair],
-    rng: Random,
-) -> dict[Cell, TopicPair]:
-    cells = list(cells)
-    topic_subtopics = list(topic_subtopics)
-
-    if not topic_subtopics:
-        raise ValueError("Cannot assign cells without topic/subtopic pairs")
-
-    rng.shuffle(topic_subtopics)
-    assignments = [
-        topic_subtopics[index % len(topic_subtopics)]
-        for index in range(len(cells))
-    ]
-    rng.shuffle(assignments)
-
-    return dict(zip(cells, assignments))

@@ -8,12 +8,16 @@ import pygame
 import pytest
 
 from constants import BUTTON_PRESS_DOWN_MS, BUTTON_PRESS_HOLD_MS, SCREEN_HEIGHT, SCREEN_WIDTH
-from game_setup import DEFAULT_PRESET, GameConfig, PRESETS
+from game_setup import GameConfig
+from modes import get_mode
+from question_popup import build_question_popup
 from questions import QuestionBank
 from render import Renderer
-from states.play import PlayState, build_question_popup
+from states.play import PlayState
 from theme import FLAT, PIXEL
 from ui import Button
+
+DEFAULT_SETTINGS = get_mode('catch_blue').settings_spec().default
 
 
 @pytest.fixture(params=[FLAT, PIXEL], ids=['flat', 'pixel'])
@@ -135,8 +139,11 @@ def test_all_question_feedback_outlines_fit(renderer):
 def test_outcome_timing_input_guard_and_draw_clock(renderer, correct, duration, monkeypatch):
     bank = QuestionBank(Path(__file__).resolve().parents[1] / 'data' / 'questions')
     state = PlayState(
-        SimpleNamespace(settings=PRESETS[DEFAULT_PRESET], topic_selections={}, renderer=renderer), bank,
-        GameConfig('catch_blue', 'anatomy_physiology', ('cells',)), Random(17),
+        SimpleNamespace(
+            bank=bank, settings_by_mode={'catch_blue': DEFAULT_SETTINGS}, settings_mode='catch_blue',
+            topic_selections={}, renderer=renderer,
+        ),
+        GameConfig('catch_blue', 'anatomy_physiology', ('cells',), settings=DEFAULT_SETTINGS), Random(17),
         reveal_duration_ms=duration,
     )
     def click(pos):
@@ -144,8 +151,9 @@ def test_outcome_timing_input_guard_and_draw_clock(renderer, correct, duration, 
     target = sorted(state.moves)[0]
     state.handle_events([click(state.view.cell_to_rect(target).center)])
     question = state.pending[0]
-    chosen = next(i for i in state.answer_order if (i == question.answer_index) == correct)
-    chosen_button = state.answer_buttons[state.answer_order.index(chosen)]
+    popup = state.popup
+    chosen = next(i for i in popup.answer_order if (i == question.answer_index) == correct)
+    chosen_button = popup.answer_buttons[popup.answer_order.index(chosen)]
     before = (state.player.cell, state.blue.cell, state.moves_remaining, state.rng.getstate())
     screen = pygame.Surface((SCREEN_WIDTH, SCREEN_HEIGHT))
     # Let the answer buttons settle at their resting lift (M6.f.8) before
@@ -153,7 +161,7 @@ def test_outcome_timing_input_guard_and_draw_clock(renderer, correct, duration, 
     state.update(1000)
     state.draw(screen)
     distractors = [(b.rect.copy(), pixels(screen.subsurface(b.rect))) for i, b in zip(
-        state.answer_order, state.answer_buttons,
+        popup.answer_order, popup.answer_buttons,
     ) if i not in (chosen, question.answer_index)]
     state.handle_events([click(chosen_button.rect.center)])
     if not duration:
@@ -185,7 +193,7 @@ def test_outcome_timing_input_guard_and_draw_clock(renderer, correct, duration, 
         state.update(60_000)  # a held reveal never expires on its own
         assert (state.player.cell, state.blue.cell, state.moves_remaining, state.rng.getstate()) == before
         assert state.pending is not None
-        state.handle_events([click(state.continue_button.rect.center)])
+        state.handle_events([click(popup.continue_button.rect.center)])
         state.update(BUTTON_PRESS_DOWN_MS)
         state.update(BUTTON_PRESS_HOLD_MS)
     assert state.reveal is None and state.pending is None

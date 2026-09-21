@@ -13,12 +13,11 @@ from types import SimpleNamespace
 import pygame
 import pytest
 
-from game_setup import DEFAULT_PRESET, PRESETS
-
 from constants import (
     SCREEN_HEIGHT, SCREEN_WIDTH, MENU_ROW_HEIGHT, MENU_BOTTOM_MARGIN,
     MENU_CREDITS_BOTTOM_MARGIN, MENU_VISIBLE_ROWS, MENU_TITLE_OFFSET, MENU_TOPICS_TITLE_TOP,
 )
+from modes import get_mode
 from questions import QuestionBank
 from render import Renderer
 from states.menus import (
@@ -30,13 +29,7 @@ from states.menus import (
 from theme import FLAT, PIXEL
 
 SCREEN = pygame.Rect(0, 0, SCREEN_WIDTH, SCREEN_HEIGHT)
-
-
-@pytest.fixture(params=[FLAT, PIXEL], ids=['flat', 'pixel'])
-def game(request):
-    pygame.font.init()
-    yield SimpleNamespace(settings=PRESETS[DEFAULT_PRESET], topic_selections={}, renderer=Renderer(request.param))
-    pygame.font.quit()
+DEFAULT_SETTINGS = get_mode('catch_blue').settings_spec().default
 
 
 @pytest.fixture(scope='module')
@@ -44,17 +37,39 @@ def bank():
     return QuestionBank(Path(__file__).resolve().parents[1] / 'data' / 'questions')
 
 
+@pytest.fixture(params=[FLAT, PIXEL], ids=['flat', 'pixel'])
+def game(request, bank):
+    pygame.font.init()
+    yield SimpleNamespace(
+        bank=bank,
+        settings_by_mode={'catch_blue': DEFAULT_SETTINGS},
+        settings_mode='catch_blue',
+        topic_selections={},
+        renderer=Renderer(request.param),
+    )
+    pygame.font.quit()
+
+
 def buttons_of(state):
-    return [value for value in vars(state).values()
-            if hasattr(value, 'rect') and hasattr(value, 'is_clicked')]
+    # Game Select keeps its mode buttons in a dict (one per registered mode);
+    # flatten containers so every button on the screen is found.
+    found = []
+    for value in vars(state).values():
+        items = value.values() if isinstance(value, dict) else (
+            value if isinstance(value, (list, tuple)) else (value,)
+        )
+        for item in items:
+            if hasattr(item, 'rect') and hasattr(item, 'is_clicked') and item not in found:
+                found.append(item)
+    return found
 
 
 @pytest.mark.parametrize('make', [
-    lambda game, bank: GameSelectState(game, bank),
-    lambda game, bank: SubjectState(game, bank, 'catch_blue'),
+    lambda game: GameSelectState(game),
+    lambda game: SubjectState(game, 'catch_blue'),
 ], ids=['game_select', 'subject'])
-def test_two_button_menus_stack_inside_the_screen(game, bank, make, monkeypatch):
-    state = make(game, bank)
+def test_two_button_menus_stack_inside_the_screen(game, make, monkeypatch):
+    state = make(game)
     buttons = buttons_of(state)
     assert all(SCREEN.contains(button.rect) for button in buttons)
     # The centered stack; a Back button (M7.c) sits outside it, bottom-left.
@@ -94,8 +109,8 @@ def test_credits_line_sits_in_the_bottom_band():
     assert SCREEN_HEIGHT - CREDITS_RECT.bottom == MENU_CREDITS_BOTTOM_MARGIN
 
 
-def test_topics_screen_regions_do_not_collide(game, bank):
-    state = TopicsState(game, bank, 'catch_blue', 'anatomy_physiology')
+def test_topics_screen_regions_do_not_collide(game):
+    state = TopicsState(game, 'catch_blue', 'anatomy_physiology')
     region = state.scroll_region
     start = state.start_button.rect
     assert SCREEN.contains(region)
@@ -128,8 +143,8 @@ def test_topics_screen_regions_do_not_collide(game, bank):
     assert region.contains(last)
 
 
-def test_topics_scroll_snaps_clamps_and_clicks_last_visible_row(game, bank):
-    state = TopicsState(game, bank, 'catch_blue', 'anatomy_physiology')
+def test_topics_scroll_snaps_clamps_and_clicks_last_visible_row(game):
+    state = TopicsState(game, 'catch_blue', 'anatomy_physiology')
     assert state.max_scroll > 0
     state._set_scroll_offset(MENU_ROW_HEIGHT + 7)
     assert state.scroll_offset == MENU_ROW_HEIGHT
@@ -154,8 +169,8 @@ def test_topics_scroll_snaps_clamps_and_clicks_last_visible_row(game, bank):
 
 
 @pytest.mark.parametrize('position', ['top', 'middle', 'bottom'])
-def test_topics_screen_draws_without_touching_the_start_button(game, bank, position):
-    state = TopicsState(game, bank, 'catch_blue', 'anatomy_physiology')
+def test_topics_screen_draws_without_touching_the_start_button(game, position):
+    state = TopicsState(game, 'catch_blue', 'anatomy_physiology')
     offset = {'top': 0, 'middle': state.max_scroll // 2, 'bottom': state.max_scroll}[position]
     state._set_scroll_offset(offset)
     screen = pygame.Surface(SCREEN.size)

@@ -14,15 +14,20 @@ from constants import (
 )
 from render import Renderer
 from theme import FLAT, Alignment
-from board import Cell, get_distance
+from board import Cell
 from game_setup import GameConfig
+from modes import get_mode
+from question_popup import build_question_popup
 from questions import Question, QuestionBank
 from states.game_over import GameOverState
-from states.play import PlayState, build_question_popup
+from states.play import PlayState
+
+DEFAULT_SETTINGS = get_mode('catch_blue').settings_spec().default
 
 
 class GameStub:
-    def __init__(self):
+    def __init__(self, bank):
+        self.bank = bank
         self.renderer = Renderer(FLAT)
         self.state = None
         self.transitions = []
@@ -51,11 +56,10 @@ def make_play(tmp_path):
     ]), encoding="utf-8")
 
     def factory(**kwargs):
-        game = GameStub()
+        game = GameStub(QuestionBank(tmp_path))
         state = PlayState(
             game,
-            QuestionBank(tmp_path),
-            GameConfig("catch_blue", "science", ("testing",)),
+            GameConfig("catch_blue", "science", ("testing",), settings=DEFAULT_SETTINGS),
             Random(17),
             **kwargs,
         )
@@ -87,15 +91,16 @@ def open_question(state, intent="move"):
 
 
 def answer_click(state, canonical_index):
-    return click(state.answer_buttons[state.answer_order.index(canonical_index)].rect.center)
+    popup = state.popup
+    return click(popup.answer_buttons[popup.answer_order.index(canonical_index)].rect.center)
 
 
 def press_continue(state):
     """Click Continue on a held (wrong-answer) reveal; it resolves once the
     press animation (down, then hold) has run."""
     assert state.reveal is not None and state.reveal.waits_for_click
-    assert state.continue_button is not None
-    state.handle_events([click(state.continue_button.rect.center)])
+    assert state.popup.continue_button is not None
+    state.handle_events([click(state.popup.continue_button.rect.center)])
     state.update(BUTTON_PRESS_DOWN_MS)
     state.update(BUTTON_PRESS_HOLD_MS)
     assert state.reveal is None
@@ -112,10 +117,7 @@ def assert_popup_cleared(state):
     assert state.pending is None
     assert state.reveal is None
     assert state.selected is None
-    assert state.popup_rect is None
-    assert state.prompt_box is None
-    assert state.answer_buttons == []
-    assert state.answer_order == []
+    assert state.popup is None
 
 
 @pytest.mark.parametrize('duration', [0, 35])
@@ -134,7 +136,7 @@ def test_distance_loss_uses_resolved_positions_and_preserves_win(
     state = make_play(reveal_duration_ms=duration)
     state.player.move_to(player)
     state.blue.move_to(blue)
-    state.moves_remaining = moves
+    state.match.moves_remaining = moves
     state.handle_events([board_click(state, target)])
     assert state.pending is not None
     before = snapshot(state)
@@ -162,7 +164,7 @@ def test_distance_loss_uses_resolved_positions_and_preserves_win(
     assert state.blue.cell == expected_blue
     assert state.player.cell == (target if correct and result != 'win' else player)
     assert state.rng.getstate() == expected_rng.getstate()
-    distance = get_distance(state.player.cell, state.blue.cell)
+    distance = state.board.distance(state.player.cell, state.blue.cell)
     if result is None:
         assert state.game.state is state
         assert state.moves_remaining == distance
@@ -187,37 +189,39 @@ def test_shuffled_highlights_use_canonical_indices(make_play, monkeypatch, chose
     state = make_play()
     open_question(state)
     before = snapshot(state)
-    popup = (state.pending, state.popup_rect, state.prompt_box, state.selected)
-    button_rects = [button.rect.copy() for button in state.answer_buttons]
+    popup = state.popup
+    opened = (state.pending, popup.popup_rect, popup.prompt_box, state.selected)
+    button_rects = [button.rect.copy() for button in popup.answer_buttons]
     text_rects = [
         state.renderer.text_rects(button.lines, button.rect, 'choice')
-        for button in state.answer_buttons
+        for button in popup.answer_buttons
     ]
 
     state.handle_events([answer_click(state, chosen)])
 
     assert state.reveal_duration_ms == constants.REVEAL_DURATION
-    assert state.answer_order == [1, 2, 0]
-    assert [button.text for button in state.answer_buttons] == [
+    assert state.popup is popup
+    assert popup.answer_order == [1, 2, 0]
+    assert [button.text for button in popup.answer_buttons] == [
         "Wrong one", "Wrong two", "Correct",
     ]
-    assert [button.highlight for button in state.answer_buttons] == [
+    assert [button.highlight for button in popup.answer_buttons] == [
         'incorrect' if chosen == 1 else None,
         'incorrect' if chosen == 2 else None,
         'correct',
     ]
-    assert [button.rect for button in state.answer_buttons] == button_rects
+    assert [button.rect for button in popup.answer_buttons] == button_rects
     assert [
         state.renderer.text_rects(button.lines, button.rect, 'choice')
-        for button in state.answer_buttons
+        for button in popup.answer_buttons
     ] == text_rects
-    for button, rects in zip(state.answer_buttons, text_rects):
+    for button, rects in zip(popup.answer_buttons, text_rects):
         assert all(rect.centerx == button.rect.centerx for rect in rects)
         assert abs((rects[0].top + rects[-1].bottom) / 2 - button.rect.centery) <= 1
     assert state.reveal.canonical_index == chosen
     assert state.reveal.elapsed_ms == 0
     assert snapshot(state) == before
-    assert (state.pending, state.popup_rect, state.prompt_box, state.selected) == popup
+    assert (state.pending, popup.popup_rect, popup.prompt_box, state.selected) == opened
     state.draw(pygame.Surface((constants.SCREEN_WIDTH, constants.SCREEN_HEIGHT)))
     if chosen == 0:
         duration = constants.REVEAL_DURATION
@@ -288,7 +292,7 @@ def test_delayed_consequences_resolve_exactly_once(make_play, intent, correct, o
 ])
 def test_last_move_result_waits_for_reveal(make_play, intent, correct, result):
     state = make_play(reveal_duration_ms=50)
-    state.moves_remaining = 1
+    state.match.moves_remaining = 1
     open_question(state, intent)
     state.handle_events([answer_click(state, 0 if correct else 1)])
     assert state.reveal.duration_ms == (50 if correct else None)
@@ -333,7 +337,7 @@ def test_answer_ignores_remaining_batch_and_reveal_blocks_input(make_play, durat
         assert state.hovering is None
         state.update(duration)
     assert state.player.cell == Cell(1, 4)
-    assert state.moves_remaining == constants.MOVE_LIMIT - 1
+    assert state.moves_remaining == DEFAULT_SETTINGS.move_limit - 1
     assert_popup_cleared(state)
 
 
@@ -359,7 +363,7 @@ def test_expiry_discards_one_batch_then_accepts_input(make_play, empty_batch):
     assert state.pending is not None
     assert state.pending[1:] == (next_cell, "move")
     assert state.reveal is None
-    assert all(button.highlight is None for button in state.answer_buttons)
+    assert all(button.highlight is None for button in state.popup.answer_buttons)
 
 
 @pytest.mark.parametrize("intent", ["move", "catch"])

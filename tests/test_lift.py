@@ -16,7 +16,8 @@ import pytest
 from board import Board, Cell
 from board_view import BoardView
 from constants import BOARD_ORIGIN_X, BOARD_ORIGIN_Y, BOARD_REGION, SCREEN_HEIGHT, SCREEN_WIDTH
-from game_setup import DEFAULT_PRESET, GameConfig, PRESETS
+from game_setup import GameConfig
+from modes import get_mode
 from questions import QuestionBank
 from render import Renderer
 from states.menus import GameSelectState, TopicsState
@@ -25,6 +26,18 @@ from theme import FLAT, PIXEL, CellLift
 from ui import Button
 
 SCREEN = pygame.Rect(0, 0, SCREEN_WIDTH, SCREEN_HEIGHT)
+DEFAULT_SETTINGS = get_mode('catch_blue').settings_spec().default
+
+
+def fake_game(bank, renderer, **extra):
+    return SimpleNamespace(
+        bank=bank, settings_by_mode={'catch_blue': DEFAULT_SETTINGS}, settings_mode='catch_blue',
+        topic_selections={}, renderer=renderer, change_state=lambda s: None, **extra,
+    )
+
+
+def config():
+    return GameConfig('catch_blue', 'anatomy_physiology', ('cells',), settings=DEFAULT_SETTINGS)
 
 
 @pytest.fixture(params=[FLAT, PIXEL], ids=['flat', 'pixel'])
@@ -40,9 +53,7 @@ def bank():
 
 
 def make_play(renderer, bank, seed=17):
-    game = SimpleNamespace(settings=PRESETS[DEFAULT_PRESET], topic_selections={}, renderer=renderer, change_state=lambda s: None)
-    return PlayState(game, bank, GameConfig('catch_blue', 'anatomy_physiology', ('cells',)),
-                     Random(seed), reveal_duration_ms=0)
+    return PlayState(fake_game(bank, renderer), config(), Random(seed), reveal_duration_ms=0)
 
 
 def settle(state, ms=1000):
@@ -217,7 +228,7 @@ def test_answer_buttons_lift_rest_pop_and_press(renderer, bank):
     state.handle_events([pygame.event.Event(
         pygame.MOUSEBUTTONDOWN, button=1, pos=state.view.cell_to_rect(target).center)])
     assert state.pending is not None
-    buttons = state.answer_buttons
+    buttons = state.popup.answer_buttons
     settle(state)
     assert all(b.draw_lift == lift.rest_px for b in buttons)
     state.handle_events([pygame.event.Event(pygame.MOUSEMOTION, pos=buttons[1].rect.center)])
@@ -233,14 +244,12 @@ def test_reveal_presses_the_pick_and_freezes_the_rest(bank):
     pygame.font.init()
     try:
         renderer = Renderer(PIXEL)
-        state = PlayState(SimpleNamespace(settings=PRESETS[DEFAULT_PRESET], topic_selections={}, renderer=renderer, change_state=lambda s: None), bank,
-                          GameConfig('catch_blue', 'anatomy_physiology', ('cells',)),
-                          Random(17), reveal_duration_ms=1300)
+        state = PlayState(fake_game(bank, renderer), config(), Random(17), reveal_duration_ms=1300)
         lift = PIXEL.answer_lift
         target = sorted(state.moves)[0]
         state.handle_events([pygame.event.Event(
             pygame.MOUSEBUTTONDOWN, button=1, pos=state.view.cell_to_rect(target).center)])
-        buttons = state.answer_buttons
+        buttons = state.popup.answer_buttons
         state.handle_events([pygame.event.Event(pygame.MOUSEMOTION, pos=buttons[2].rect.center)])
         settle(state)
         assert buttons[2].draw_lift == lift.hover_px
@@ -257,10 +266,9 @@ def test_reveal_presses_the_pick_and_freezes_the_rest(bank):
 
 
 def test_menu_buttons_pop_on_hover_and_inactive_never_lift(renderer, bank):
-    game = SimpleNamespace(settings=PRESETS[DEFAULT_PRESET], topic_selections={}, renderer=renderer, change_state=lambda s: None)
-    state = GameSelectState(game, bank)
+    state = GameSelectState(fake_game(bank, renderer))
     lift = renderer.theme.menu_lift
-    active, inactive = state.catch_blue_button, state.run_from_red_button
+    active, inactive = state.mode_buttons['catch_blue'], state.mode_buttons['run_from_red']
     state.update(1000)
     assert active.draw_lift == lift.rest_px
     assert inactive.draw_lift == 0
@@ -276,8 +284,7 @@ def test_menu_buttons_pop_on_hover_and_inactive_never_lift(renderer, bank):
 
 
 def test_start_button_drops_when_disabled(renderer, bank):
-    game = SimpleNamespace(settings=PRESETS[DEFAULT_PRESET], topic_selections={}, renderer=renderer, change_state=lambda s: None, start_play=lambda *a: None)
-    state = TopicsState(game, bank, 'catch_blue', 'anatomy_physiology')
+    state = TopicsState(fake_game(bank, renderer, start_play=lambda *a: None), 'catch_blue', 'anatomy_physiology')
     state.update(1000)
     assert state.start_button.draw_lift == renderer.theme.menu_lift.rest_px
     all_box = state.all_checkbox
