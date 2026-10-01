@@ -1,10 +1,13 @@
 """Immutable, pygame-free visual theme definitions."""
 
+from colorsys import hsv_to_rgb, rgb_to_hsv
 from dataclasses import dataclass, field, replace
 from pathlib import Path
 from typing import Literal
 
 Color = tuple[int, int, int]
+Accent = Literal['blue', 'red', 'green', 'yellow']
+ACCENT_KEYS: tuple[Accent, ...] = ('blue', 'red', 'green', 'yellow')
 ASSET_ROOT = Path(__file__).resolve().parent / 'assets'
 
 
@@ -70,6 +73,16 @@ class Fonts:
 class NineSlice:
     source: tuple[int, int, int, int]
     insets: tuple[int, int, int, int]
+    # Exact sheet colors swapped once at load, (sheet color, drawn color).
+    recolor: tuple[tuple[Color, Color], ...] = ()
+
+
+@dataclass(frozen=True)
+class HueShift:
+    source_hue: int
+    target_hue: int
+    tolerance: int = 18
+    minimum_saturation: float = 0.10
 
 
 @dataclass(frozen=True)
@@ -77,6 +90,9 @@ class Skin:
     sheet: Path
     scale: int
     elements: tuple[tuple[str, NineSlice], ...]
+    packed_tile_size: int | None = None
+    packed_tile_gap: int = 0
+    hue_shift: HueShift | None = None
 
 
 @dataclass(frozen=True)
@@ -125,6 +141,29 @@ class Theme:
     menu_lift: CellLift = field(default_factory=CellLift)
     board_label_sizes: tuple[tuple[int, int], ...] = ()
 
+
+def shift_color_to_hue(color: Color, target_hue: int) -> Color:
+    _, saturation, value = rgb_to_hsv(
+        *(channel / 255 for channel in color)
+    )
+    red, green, blue = hsv_to_rgb(
+        (target_hue % 360) / 360,
+        saturation,
+        value,
+    )
+    return (
+        round(red * 255),
+        round(green * 255),
+        round(blue * 255),
+    )
+
+
+def _mix_color(start: Color, end: Color, amount: float) -> Color:
+    return (
+        round(start[0] + (end[0] - start[0]) * amount),
+        round(start[1] + (end[1] - start[1]) * amount),
+        round(start[2] + (end[2] - start[2]) * amount),
+    )
 
 
 FLAT = Theme(
@@ -228,5 +267,218 @@ PIXEL = Theme(
     board_label_sizes=((7, 14), (9, 12)),
 )
 
-THEMES = {'flat': FLAT, 'pixel': PIXEL}
-DEFAULT_THEME = 'pixel'
+_ACCENT_HUES: dict[Accent, int] = {
+    'blue': 207,
+    'red': 27,
+    'green': 164,
+    'yellow': 56,
+}
+
+_BLUE_GREY_ROLES = (
+    'background',
+    'cell',
+    'cell_move',
+    'button',
+    'button_inactive',
+    'highlight',
+)
+
+
+def with_accent(theme: Theme, accent: Accent) -> Theme:
+    if accent not in ACCENT_KEYS:
+        raise ValueError(f'Unknown accent: {accent}')
+    if theme is not PIXEL:
+        raise ValueError('Hue-remapped accents require the PIXEL theme')
+    if accent == 'blue':
+        return PIXEL
+
+    target_hue = _ACCENT_HUES[accent]
+    palette_changes = {
+        role: shift_color_to_hue(
+            getattr(theme.palette, role),
+            target_hue,
+        )
+        for role in _BLUE_GREY_ROLES
+    }
+    palette = replace(theme.palette, **palette_changes)
+
+    if accent == 'red':
+        palette = replace(palette, red=(149, 66, 0))
+
+    assert theme.skin is not None
+    skin = replace(
+        theme.skin,
+        hue_shift=HueShift(
+            source_hue=_ACCENT_HUES['blue'],
+            target_hue=target_hue,
+        ),
+    )
+    return replace(
+        theme,
+        name=f'pixel-{accent}',
+        palette=palette,
+        skin=skin,
+    )
+
+
+PIXEL_ACCENTS: dict[Accent, Theme] = {
+    accent: with_accent(PIXEL, accent)
+    for accent in ACCENT_KEYS
+}
+
+_UI_SHEET = (
+    ASSET_ROOT
+    / 'kenney_pixel-ui-pack'
+    / 'Spritesheet'
+    / 'UIpackSheet_transparent.png'
+)
+
+_UI_COLOR_X: dict[Accent, int] = {
+    'yellow': 108,
+    'green': 216,
+    'red': 324,
+    'blue': 432,
+}
+
+_UI_FACE_COLORS: dict[Accent, Color] = {
+    'blue': (30, 167, 225),
+    'red': (232, 106, 23),
+    'green': (115, 205, 75),
+    'yellow': (255, 204, 0),
+}
+
+# The sheet's drop shadow under each solid face; lifted elements sit on it.
+_UI_SHADOW_COLORS: dict[Accent, Color] = {
+    'blue': (22, 110, 147),
+    'red': (170, 78, 17),
+    'green': (71, 131, 44),
+    'yellow': (168, 134, 0),
+}
+
+_UI_CELL_FACE = (238, 238, 238)
+
+# Resting cells sit below the sheet's white face; legal moves glow above it.
+_UI_REST_BASE = (200, 200, 200)
+_UI_GLOW_BASE = (250, 250, 250)
+
+# One outline pixel and two highlight pixels; the bottom adds a 2 px shadow.
+_UI_BEVEL_INSETS = (3, 3, 3, 5)
+
+
+def _ui_slice(
+    x: int,
+    y: int,
+    insets: tuple[int, int, int, int] = _UI_BEVEL_INSETS,
+    recolor: tuple[tuple[Color, Color], ...] = (),
+) -> NineSlice:
+    return NineSlice(
+        source=(x, y, 52, 52),
+        insets=insets,
+        recolor=recolor,
+    )
+
+
+def _ui_theme(accent: Accent) -> Theme:
+    x = _UI_COLOR_X[accent]
+    face = _UI_FACE_COLORS[accent]
+    dark_accent = _mix_color((0, 0, 0), face, 0.45)
+    rest_face = _mix_color(_UI_REST_BASE, face, 0.10)
+    move_face = _mix_color(_UI_GLOW_BASE, face, 0.25)
+    cell = _ui_slice(x, 144, recolor=((_UI_CELL_FACE, rest_face),))
+
+    palette = replace(
+        PIXEL.palette,
+        background=dark_accent,
+        cell=rest_face,
+        cell_move=move_face,
+        selected_line=dark_accent,
+        panel=_UI_CELL_FACE,
+        panel_line=_UI_SHADOW_COLORS[accent],
+        button=face,
+        button_inactive=_UI_CELL_FACE,
+        correct=_UI_FACE_COLORS['green'],
+        highlight=dark_accent,
+    )
+
+    skin = Skin(
+        sheet=_UI_SHEET,
+        scale=2,
+        # Each color block opens with two one-tile-tall bars (y 0 and 18);
+        # its 3x3 panels start below them: solid at y 36, outline at y 144.
+        # The outline face is recolored to palette.cell, so the move tint
+        # replaces it.
+        elements=(
+            ('panel', _ui_slice(0, 162, (2, 3, 2, 2))),
+            ('button.normal', _ui_slice(x, 36)),
+            ('button.inactive', _ui_slice(0, 36)),
+            ('button.correct', _ui_slice(_UI_COLOR_X['green'], 36)),
+            ('cell.normal', cell),
+            ('cell.move', cell),
+        ),
+        packed_tile_size=16,
+        packed_tile_gap=2,
+    )
+
+    return replace(
+        PIXEL,
+        name=f'ui-{accent}',
+        palette=palette,
+        skin=skin,
+    )
+
+
+UI_ACCENTS: dict[Accent, Theme] = {
+    accent: _ui_theme(accent)
+    for accent in ACCENT_KEYS
+}
+
+UI_BLUE = UI_ACCENTS['blue']
+UI_RED = UI_ACCENTS['red']
+UI_GREEN = UI_ACCENTS['green']
+UI_YELLOW = UI_ACCENTS['yellow']
+
+_ACCENT_FAMILIES = {
+    'pixel': PIXEL_ACCENTS,
+    'ui': UI_ACCENTS,
+}
+
+_THEME_FAMILIES = {
+    theme.name: family_name
+    for family_name, family in _ACCENT_FAMILIES.items()
+    for theme in family.values()
+}
+
+_THEME_ACCENTS: dict[str, Accent] = {
+    theme.name: accent
+    for family in _ACCENT_FAMILIES.values()
+    for accent, theme in family.items()
+}
+
+
+def theme_accent(theme: Theme) -> Accent | None:
+    return _THEME_ACCENTS.get(theme.name)
+
+
+def resolve_accent(theme: Theme, accent: Accent) -> Theme:
+    if accent not in ACCENT_KEYS:
+        raise ValueError(f'Unknown accent: {accent}')
+
+    family_name = _THEME_FAMILIES.get(theme.name)
+    if family_name is None:
+        return theme
+
+    return _ACCENT_FAMILIES[family_name][accent]
+
+
+THEMES = {
+    'flat': FLAT,
+    'pixel': PIXEL,
+    'pixel-red': PIXEL_ACCENTS['red'],
+    'pixel-green': PIXEL_ACCENTS['green'],
+    'pixel-yellow': PIXEL_ACCENTS['yellow'],
+    'ui-blue': UI_BLUE,
+    'ui-red': UI_RED,
+    'ui-green': UI_GREEN,
+    'ui-yellow': UI_YELLOW,
+}
+DEFAULT_THEME = 'ui-blue'

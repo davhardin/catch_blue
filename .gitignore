@@ -40,6 +40,9 @@ data/questions/removed_questions.md
 # Machine-local memory export and scraps
 catch_blue_local_only/
 
+# Claude Code job worktrees (each is its own checkout, not repo content)
+.claude/worktrees/
+
 # Assets: commit fonts, licenses, and packed tilesheets only (see assets/ATTRIBUTION.md).
 # Archives, loose per-tile PNGs, previews, and shortcut files stay local.
 assets/*.zip
@@ -47,3 +50,8 @@ assets/*/Tiles/
 assets/**/Preview.png
 assets/**/Sample.png
 assets/**/*.url
+
+# Pixel UI comparison pack: ship only the transparent packed sheet and license.
+assets/kenney_pixel-ui-pack/9-Slice/
+assets/kenney_pixel-ui-pack/Spritesheet/UIpackSheet_magenta.png
+assets/kenney_pixel-ui-pack/Spritesheet/spritesheetInfo.txt

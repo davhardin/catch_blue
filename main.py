@@ -13,6 +13,11 @@ from theme import DEFAULT_THEME, THEMES
 def build_game(argv=None):
     parser = argparse.ArgumentParser(description="Catch Blue: The Science Learning Game")
     parser.add_argument("--theme", choices=sorted(THEMES), default=DEFAULT_THEME)
+    parser.add_argument(
+        "--dev-accent-cycle",
+        action="store_true",
+        help="enable temporary F8 accent cycling on menu screens",
+    )
     args = parser.parse_args(argv)
 
     questions_path = Path(__file__).resolve().parent / "data" / "questions"
@@ -21,7 +26,11 @@ def build_game(argv=None):
     if not bank.subjects:
         raise ValueError("The question bank contains no subjects")
 
-    return Game(bank, theme=THEMES[args.theme])
+    return Game(
+        bank,
+        theme=THEMES[args.theme],
+        dev_accent_cycle=args.dev_accent_cycle,
+    )
 
 
 def main(argv=None):

@@ -11,11 +11,7 @@ from constants import (
     SIDE_PANEL_LEFT, SIDE_PANEL_TOP, SIDE_PANEL_WIDTH,
     HUD_BUTTON_WIDTH, HUD_BUTTON_HEIGHT, HUD_PANEL_GAP,
 )
-from game_setup import (
-    GameConfig,
-    allowed_tiers_for,
-    wanted_tier_for,
-)
+from game_setup import GameConfig
 from match import Match
 from modes import get_mode
 from question_popup import AnswerReveal, QuestionPopup
@@ -38,6 +34,7 @@ class PlayState:
         config: GameConfig,
         rng: Random,
         *,
+        renderer=None,
         reveal_duration_ms: int = REVEAL_DURATION,
     ):
         if reveal_duration_ms < 0:
@@ -49,7 +46,7 @@ class PlayState:
         self.rng = rng
         self.reveal_duration_ms = reveal_duration_ms
         settings = config.settings
-        self.renderer = game.renderer
+        self.renderer = game.renderer if renderer is None else renderer
 
         self.mode = get_mode(config.mode)
         self.match = Match(settings, rng, rules=self.mode.make_rules())
@@ -59,7 +56,7 @@ class PlayState:
             self.config.selected_topics,
             self.rng,
             cells=self.board.cells(),
-            policy_tiers=allowed_tiers_for(settings.tier_policy),
+            policy_tiers=self.rules.allowed_tiers(settings.tier_policy),
         )
         self.cell_topics.refresh(allowed_tiers=self.allowed_tiers)
 
@@ -133,7 +130,7 @@ class PlayState:
 
     @property
     def allowed_tiers(self) -> tuple[int, ...] | None:
-        return allowed_tiers_for(
+        return self.rules.allowed_tiers(
             self.config.settings.tier_policy,
             distance=self.rules.pressure_distance(self.match),
         )
@@ -285,7 +282,7 @@ class PlayState:
             self.cell_topics.refresh(allowed_tiers=self.allowed_tiers)
             question_cell = self.rules.question_cell(target, intent, self.match)
             topic, subtopic = self.cell_topics[question_cell]
-            wanted_tier = wanted_tier_for(
+            wanted_tier = self.rules.wanted_tier(
                 self.config.settings.tier_policy,
                 self.rules.pressure_distance(self.match),
             )

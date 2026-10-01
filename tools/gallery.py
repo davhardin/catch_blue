@@ -4,6 +4,7 @@ Usage (from the repo root):
 
     .venv/bin/python tools/gallery.py --out catch_blue_local_only/gallery/flat-before
     .venv/bin/python tools/gallery.py --theme pixel --out catch_blue_local_only/gallery/pixel-v1
+    .venv/bin/python tools/gallery.py --accent-comparison --out catch_blue_local_only/gallery/accents
     .venv/bin/python tools/gallery.py --compare A B      # pixel-diff two galleries
 
 Deterministic: a fixed seed drives the scramble, rotation, shuffle, and flee,
@@ -32,12 +33,13 @@ import pygame  # noqa: E402
 
 from constants import BUTTON_PRESS_DOWN_MS, BUTTON_PRESS_HOLD_MS  # noqa: E402
 from game import Game  # noqa: E402
-from theme import FLAT, THEMES  # noqa: E402
+from theme import ACCENT_KEYS, FLAT, PIXEL, THEMES, UI_BLUE  # noqa: E402
 from game_setup import GameConfig  # noqa: E402
 from modes import get_mode  # noqa: E402
 from questions import QuestionBank  # noqa: E402
 from states.game_over import GameOverState  # noqa: E402
 from states.menus import GameSelectState  # noqa: E402
+from states.play import PlayState  # noqa: E402
 
 SEED = 2026
 TOPICS = ("cells", "tissues")
@@ -219,6 +221,43 @@ def render_gallery(out_dir: Path, theme=FLAT):
     return saved
 
 
+def render_accent_comparison(out_dir: Path):
+    out_dir.mkdir(parents=True, exist_ok=True)
+    saved = []
+
+    mechanisms = (
+        ('remap', PIXEL),
+        ('ui', UI_BLUE),
+    )
+
+    for mechanism, base_theme in mechanisms:
+        for accent in ACCENT_KEYS:
+            bank = QuestionBank(ROOT / 'data' / 'questions')
+            rng = Random(SEED)
+            game = Game(bank, rng=rng, theme=base_theme)
+            renderer = game.renderer_for(accent)
+
+            state = PlayState(
+                game,
+                gallery_config(),
+                rng,
+                renderer=renderer,
+            )
+            state.npc.color_role = accent
+            game.change_state(state)
+
+            frame(game)
+            settle(game)
+            saved.append(capture(
+                game,
+                out_dir,
+                f'{mechanism}-{accent}',
+            ))
+
+    pygame.quit()
+    return saved
+
+
 def compare(a: Path, b: Path) -> int:
     """Byte-compare same-named PNGs in two galleries; return the mismatch count."""
     names = sorted({p.name for p in a.glob("*.png")} | {p.name for p in b.glob("*.png")})
@@ -241,7 +280,15 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     parser.add_argument("--theme", default="flat", choices=THEMES, help="renderer theme")
     parser.add_argument("--out", type=Path, help="output folder (default: catch_blue_local_only/gallery/<theme>)")
-    parser.add_argument("--compare", nargs=2, type=Path, metavar=("A", "B"), help="diff two gallery folders instead of rendering")
+    actions = parser.add_mutually_exclusive_group()
+    actions.add_argument(
+        "--compare", nargs=2, type=Path, metavar=("A", "B"),
+        help="diff two gallery folders instead of rendering",
+    )
+    actions.add_argument(
+        "--accent-comparison", action="store_true",
+        help="render one board per accent for both candidate mechanisms",
+    )
     args = parser.parse_args()
 
     if args.compare:
@@ -251,6 +298,18 @@ def main():
         print(f"{n} mismatch(es)")
         sys.exit(1 if n else 0)
 
+    if args.accent_comparison:
+        out = args.out or (
+            ROOT
+            / "catch_blue_local_only"
+            / "gallery"
+            / "accent-comparison"
+        )
+        saved = render_accent_comparison(out)
+        print(f"rendered {len(saved)} accent boards to {out}")
+        for path in saved:
+            print(f"  {path.name}")
+        return
 
     out = args.out or (ROOT / "catch_blue_local_only" / "gallery" / args.theme)
     saved = render_gallery(out, THEMES[args.theme])

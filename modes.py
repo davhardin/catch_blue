@@ -3,7 +3,8 @@
 from dataclasses import dataclass
 
 from game_setup import Settings, TierPolicy
-from rules import CatchBlueRules, Rules
+from rules import CatchBlueRules, Rules, RunFromRedRules
+from theme import Accent
 
 Options = tuple[tuple[int | str, str], ...]
 RowSpec = tuple[str, str, Options]
@@ -72,8 +73,7 @@ class ModeSettings:
 class Mode:
     key: str
     display_name: str
-    npc_color_role: str
-    accent: str
+    accent: Accent
     rules_factory: type[Rules] | None = None
     settings: ModeSettings | None = None
 
@@ -135,13 +135,55 @@ CATCH_BLUE_SETTINGS = ModeSettings(
     ),
 )
 
+RUN_FROM_RED_SETTINGS = ModeSettings(
+    presets=(
+        ('easy', Settings(
+            board_size=7,
+            move_limit=15,
+            tier_policy=TierPolicy.TIERS_1_2,
+        )),
+        ('medium', Settings(
+            board_size=7,
+            move_limit=20,
+            tier_policy=TierPolicy.DISTANCE,
+        )),
+        ('hard', Settings(
+            board_size=5,
+            move_limit=25,
+            tier_policy=TierPolicy.DISTANCE,
+        )),
+    ),
+    default_preset='easy',
+    rows=(
+        SettingRow(
+            'board_size',
+            'Board size',
+            ((5, '5 x 5'), (7, '7 x 7'), (9, '9 x 9')),
+        ),
+        SettingRow(
+            'move_limit',
+            'Move limit',
+            tuple((value, str(value)) for value in (10, 15, 20, 25, 30)),
+            include_current=True,
+        ),
+        SettingRow(
+            'tier_policy',
+            'Question tiers',
+            (
+                (TierPolicy.TIERS_1_2, 'T1 + T2'),
+                (TierPolicy.ALL, 'All tiers'),
+                (TierPolicy.DISTANCE, 'Distance based'),
+            ),
+        ),
+    ),
+)
+
 DEFAULT_MODE = 'catch_blue'
 
 MODES = {
     'catch_blue': Mode(
         key='catch_blue',
         display_name='Catch Blue',
-        npc_color_role='blue',
         accent='blue',
         rules_factory=CatchBlueRules,
         settings=CATCH_BLUE_SETTINGS,
@@ -149,8 +191,9 @@ MODES = {
     'run_from_red': Mode(
         key='run_from_red',
         display_name='Run from Red',
-        npc_color_role='red',
         accent='red',
+        rules_factory=RunFromRedRules,
+        settings=RUN_FROM_RED_SETTINGS,
     ),
 }
 

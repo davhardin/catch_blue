@@ -45,7 +45,7 @@ class Match:
 
         self.moves_remaining -= 1
 
-        # A successful catch wins even when it consumes the final move.
+        # Immediate results take precedence over the post-turn outcome.
         if immediate is not None:
             return immediate
 

@@ -4,17 +4,38 @@ from random import Random
 import pygame
 
 from constants import SCREEN_HEIGHT, SCREEN_WIDTH
-from modes import DEFAULT_MODE, MODES
+from modes import DEFAULT_MODE, MODES, get_mode
 from render import Renderer
-from theme import DEFAULT_THEME, THEMES
-from states.menus import GameSelectState
+from states.menus import GameSelectState, SubjectState, TopicsState
 from states.play import PlayState
+from states.settings import SettingsState
+from theme import (
+    Accent,
+    ACCENT_KEYS,
+    DEFAULT_THEME,
+    THEMES,
+    resolve_accent,
+    theme_accent,
+)
 
 
 class Game:
-    def __init__(self, bank, rng=None, *, theme=THEMES[DEFAULT_THEME]):
+    def __init__(
+        self,
+        bank,
+        rng=None,
+        *,
+        theme=THEMES[DEFAULT_THEME],
+        dev_accent_cycle=False,
+    ):
         pygame.init()
+        self._base_theme = theme
         self.renderer = Renderer(theme)
+        self._renderers = {
+            self.renderer.theme.name: self.renderer,
+        }
+        self._dev_accent_cycle = dev_accent_cycle
+        self._accent_override: Accent | None = None
 
         self.bank = bank
         self.rng = rng if rng is not None else Random()
@@ -45,8 +66,74 @@ class Game:
     def change_state(self, state):
         self.state = state
 
+    def renderer_for(self, accent: Accent):
+        effective_accent = self._accent_override or accent
+        theme = resolve_accent(
+            self._base_theme,
+            effective_accent,
+        )
+        renderer = self._renderers.get(theme.name)
+        if renderer is None:
+            renderer = Renderer(theme)
+            self._renderers[theme.name] = renderer
+        return renderer
+
+    def _rebuild_menu_for_accent(self):
+        state = self.state
+
+        if isinstance(state, GameSelectState):
+            replacement = GameSelectState(self)
+        elif isinstance(state, SubjectState):
+            replacement = SubjectState(self, mode=state.mode)
+        elif isinstance(state, TopicsState):
+            replacement = TopicsState(
+                self,
+                mode=state.mode,
+                subject=state.subject,
+            )
+            replacement._set_scroll_offset(state.scroll_offset)
+        elif isinstance(state, SettingsState):
+            replacement = SettingsState(self, mode=state.mode)
+        else:
+            return False
+
+        self.change_state(replacement)
+        return True
+
+    def _cycle_dev_accent(self):
+        if not self._dev_accent_cycle:
+            return
+
+        base_accent = theme_accent(self._base_theme)
+        if base_accent is None:
+            return
+
+        state = self.state
+        if not isinstance(
+            state,
+            (GameSelectState, SubjectState, TopicsState, SettingsState),
+        ):
+            return
+
+        current = self._accent_override or base_accent
+        index = ACCENT_KEYS.index(current)
+        accent = ACCENT_KEYS[(index + 1) % len(ACCENT_KEYS)]
+
+        self._accent_override = accent
+        self.renderer = self.renderer_for(accent)
+        self._rebuild_menu_for_accent()
+
     def start_play(self, config):
-        self.change_state(PlayState(self, config, self.rng))
+        mode = get_mode(config.mode)
+        renderer = self.renderer_for(mode.accent)
+        self.change_state(
+            PlayState(
+                self,
+                config,
+                self.rng,
+                renderer=renderer,
+            )
+        )
 
     def show_main_menu(self):
         self.change_state(GameSelectState(self))
@@ -59,6 +146,12 @@ class Game:
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
                 self.running = False
+            elif (
+                self._dev_accent_cycle
+                and event.type == pygame.KEYDOWN
+                and event.key == pygame.K_F8
+            ):
+                self._cycle_dev_accent()
             else:
                 state_events.append(event)
 

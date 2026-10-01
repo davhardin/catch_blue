@@ -1,5 +1,6 @@
 """Theme-aware pygame drawing and text layout."""
 
+from colorsys import rgb_to_hsv
 from contextlib import contextmanager
 from dataclasses import fields, replace
 from math import cos, tau
@@ -7,7 +8,7 @@ from math import cos, tau
 import pygame
 
 from constants import LINE_WIDTH
-from theme import Alignment, Theme
+from theme import Alignment, HueShift, Skin, Theme, shift_color_to_hue
 
 
 def mix_color(start, end, amount):
@@ -60,54 +61,239 @@ class Renderer:
                 )
             self.fonts[role] = loaded[key]
 
-    def _load_skin(self, skin):
+    @staticmethod
+    def _extract_packed_source(
+        sheet: pygame.Surface,
+        source_rect: pygame.Rect,
+        tile_size: int,
+        gap: int,
+    ) -> pygame.Surface:
+        pitch = tile_size + gap
+        if (
+            (source_rect.width + gap) % pitch
+            or (source_rect.height + gap) % pitch
+        ):
+            raise ValueError('Packed skin source does not align to its tile grid')
+
+        cols = (source_rect.width + gap) // pitch
+        rows = (source_rect.height + gap) // pitch
+        extracted = pygame.Surface(
+            (cols * tile_size, rows * tile_size),
+            pygame.SRCALPHA,
+        )
+
+        for row in range(rows):
+            for col in range(cols):
+                tile_rect = pygame.Rect(
+                    source_rect.left + col * pitch,
+                    source_rect.top + row * pitch,
+                    tile_size,
+                    tile_size,
+                )
+                extracted.blit(
+                    sheet,
+                    (col * tile_size, row * tile_size),
+                    tile_rect,
+                )
+
+        return extracted
+
+    @staticmethod
+    def _apply_hue_shift(
+        surface: pygame.Surface,
+        shift: HueShift,
+    ) -> None:
+        for y in range(surface.get_height()):
+            for x in range(surface.get_width()):
+                color = surface.get_at((x, y))
+                if color.a == 0:
+                    continue
+
+                hue, saturation, _ = rgb_to_hsv(
+                    color.r / 255,
+                    color.g / 255,
+                    color.b / 255,
+                )
+                hue_degrees = hue * 360
+                distance = abs(
+                    (hue_degrees - shift.source_hue + 180) % 360 - 180
+                )
+                if (
+                    saturation < shift.minimum_saturation
+                    or distance > shift.tolerance
+                ):
+                    continue
+
+                red, green, blue = shift_color_to_hue(
+                    (color.r, color.g, color.b),
+                    shift.target_hue,
+                )
+                surface.set_at((x, y), (red, green, blue, color.a))
+
+    def _load_skin(self, skin: Skin):
         if type(skin.scale) is not int or skin.scale <= 0:
             raise ValueError('Skin scale must be an exact positive integer')
+
+        tile_size = skin.packed_tile_size
+        gap = skin.packed_tile_gap
+        if tile_size is None:
+            if gap != 0:
+                raise ValueError('Packed skin gap requires a tile size')
+        elif (
+            type(tile_size) is not int
+            or tile_size <= 0
+            or type(gap) is not int
+            or gap < 0
+        ):
+            raise ValueError('Packed skin tile size and gap are invalid')
+
         # Renderer is constructed before Game creates the display.
         sheet = pygame.image.load(str(skin.sheet))
-        scale = skin.scale
+        uses_custom_sources = (
+            tile_size is not None
+            or skin.hue_shift is not None
+        )
+
+        if not uses_custom_sources:
+            self._skin_sheet = pygame.transform.scale(
+                sheet,
+                (
+                    sheet.get_width() * skin.scale,
+                    sheet.get_height() * skin.scale,
+                ),
+            )
+
         for name, spec in skin.elements:
             if name in self._skin_elements:
                 raise ValueError(f'Duplicate skin element: {name}')
+
             x, y, width, height = spec.source
-            if (any(type(value) is not int for value in spec.source)
-                    or width <= 0 or height <= 0
-                    or not sheet.get_rect().contains(pygame.Rect(spec.source))):
+            source_rect = pygame.Rect(spec.source)
+            if (
+                any(type(value) is not int for value in spec.source)
+                or width <= 0
+                or height <= 0
+                or not sheet.get_rect().contains(source_rect)
+            ):
                 raise ValueError(f'Invalid skin source: {name}')
+
+            if tile_size is not None:
+                source = self._extract_packed_source(
+                    sheet,
+                    source_rect,
+                    tile_size,
+                    gap,
+                )
+            elif skin.hue_shift is not None:
+                source = sheet.subsurface(source_rect).copy()
+            else:
+                assert self._skin_sheet is not None
+                scaled_rect = pygame.Rect(
+                    x * skin.scale,
+                    y * skin.scale,
+                    width * skin.scale,
+                    height * skin.scale,
+                )
+                source = self._skin_sheet.subsurface(scaled_rect)
+
             left, top, right, bottom = spec.insets
-            if (any(type(value) is not int or value < 0 for value in spec.insets)
-                    or left + right >= width or top + bottom >= height):
+            inset_width = source.get_width() if uses_custom_sources else width
+            inset_height = source.get_height() if uses_custom_sources else height
+            if (
+                any(
+                    type(value) is not int or value < 0
+                    for value in spec.insets
+                )
+                or left + right >= inset_width
+                or top + bottom >= inset_height
+            ):
                 raise ValueError(f'Invalid skin insets: {name}')
+
+            if uses_custom_sources:
+                source = source.copy()
+                if skin.hue_shift is not None:
+                    self._apply_hue_shift(source, skin.hue_shift)
+                source = pygame.transform.scale(
+                    source,
+                    (
+                        source.get_width() * skin.scale,
+                        source.get_height() * skin.scale,
+                    ),
+                )
+
+            if spec.recolor:
+                # A plain skin's source is a view into the shared sheet.
+                source = source.copy()
+                with pygame.PixelArray(source) as pixels:
+                    for sheet_color, drawn_color in spec.recolor:
+                        pixels.replace(sheet_color, drawn_color)
+
             self._skin_elements[name] = (
-                pygame.Rect(x * scale, y * scale, width * scale, height * scale),
-                tuple(value * scale for value in spec.insets),
+                source,
+                tuple(value * skin.scale for value in spec.insets),
             )
-        self._skin_sheet = pygame.transform.scale(
-            sheet, (sheet.get_width() * scale, sheet.get_height() * scale),
-        )
 
     def _draw_skin(self, surface, rect, name) -> bool:
         if name not in self._skin_elements:
             return False
+
         source, (left, top, right, bottom) = self._skin_elements[name]
         if rect.width <= left + right or rect.height <= top + bottom:
             raise ValueError(f'Destination too small for skin element: {name}')
-        source_x = (source.left, source.left + left, source.right - right, source.right)
-        source_y = (source.top, source.top + top, source.bottom - bottom, source.bottom)
-        dest_x = (rect.left, rect.left + left, rect.right - right, rect.right)
-        dest_y = (rect.top, rect.top + top, rect.bottom - bottom, rect.bottom)
+
+        source_rect = source.get_rect()
+        source_x = (
+            source_rect.left,
+            source_rect.left + left,
+            source_rect.right - right,
+            source_rect.right,
+        )
+        source_y = (
+            source_rect.top,
+            source_rect.top + top,
+            source_rect.bottom - bottom,
+            source_rect.bottom,
+        )
+        dest_x = (
+            rect.left,
+            rect.left + left,
+            rect.right - right,
+            rect.right,
+        )
+        dest_y = (
+            rect.top,
+            rect.top + top,
+            rect.bottom - bottom,
+            rect.bottom,
+        )
+
         for row in range(3):
             for col in range(3):
-                src = pygame.Rect(source_x[col], source_y[row],
-                                  source_x[col + 1] - source_x[col], source_y[row + 1] - source_y[row])
-                dst = pygame.Rect(dest_x[col], dest_y[row],
-                                  dest_x[col + 1] - dest_x[col], dest_y[row + 1] - dest_y[row])
-                if not src.width or not src.height or not dst.width or not dst.height:
+                src = pygame.Rect(
+                    source_x[col],
+                    source_y[row],
+                    source_x[col + 1] - source_x[col],
+                    source_y[row + 1] - source_y[row],
+                )
+                dst = pygame.Rect(
+                    dest_x[col],
+                    dest_y[row],
+                    dest_x[col + 1] - dest_x[col],
+                    dest_y[row + 1] - dest_y[row],
+                )
+                if (
+                    not src.width
+                    or not src.height
+                    or not dst.width
+                    or not dst.height
+                ):
                     continue
-                piece = self._skin_sheet.subsurface(src)
+
+                piece = source.subsurface(src)
                 if piece.get_size() != dst.size:
                     piece = pygame.transform.scale(piece, dst.size)
                 surface.blit(piece, dst)
+
         return True
 
     def color(self, role):

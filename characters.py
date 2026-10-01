@@ -1,5 +1,5 @@
 from collections.abc import Callable, Set
-from operator import gt
+from operator import gt, lt
 from random import Random
 
 from board import Board, Cell
@@ -67,4 +67,19 @@ class Blue(Character):
             rng,
             prefer=gt,
             blocked={threat},
+        )
+
+
+class Red(Character):
+    shape = "square"
+    color_role = 'red'
+
+    def chase_step(self, board: Board, target: Cell, rng: Random) -> Cell:
+        return best_step(
+            board,
+            self.cell,
+            target,
+            rng,
+            prefer=lt,
+            blocked=frozenset(),
         )
