@@ -355,7 +355,21 @@ _UI_SHADOW_COLORS: dict[Accent, Color] = {
     'yellow': (168, 134, 0),
 }
 
+# The sheet's neutral tile colors: outer rim, bevel highlight, face, and the
+# 2 px ledge under each tile.
+_UI_RIM = (213, 213, 213)
+_UI_HIGHLIGHT = (255, 255, 255)
 _UI_CELL_FACE = (238, 238, 238)
+_UI_LEDGE = (170, 170, 170)
+
+# Popups are the grey bevel recolored to pixel's cream face and wood frame.
+_UI_CREAM = (255, 241, 210)
+_UI_PANEL_RECOLOR = (
+    (_UI_RIM, (109, 75, 39)),
+    (_UI_HIGHLIGHT, (197, 135, 71)),
+    (_UI_CELL_FACE, _UI_CREAM),
+    (_UI_LEDGE, (80, 55, 28)),
+)
 
 # Resting cells sit below the sheet's white face; legal moves glow above it.
 _UI_REST_BASE = (200, 200, 200)
@@ -384,15 +398,24 @@ def _ui_theme(accent: Accent) -> Theme:
     dark_accent = _mix_color((0, 0, 0), face, 0.45)
     rest_face = _mix_color(_UI_REST_BASE, face, 0.10)
     move_face = _mix_color(_UI_GLOW_BASE, face, 0.25)
-    cell = _ui_slice(x, 144, recolor=((_UI_CELL_FACE, rest_face),))
+    # Dark gaps and ledges outline every cell; only legal moves keep the
+    # accent frame.
+    edges = (
+        (_UI_CELL_FACE, rest_face),
+        (_UI_RIM, dark_accent),
+        (_UI_LEDGE, _mix_color((0, 0, 0), dark_accent, 0.5)),
+    )
+    rest_frame = _mix_color(rest_face, (0, 0, 0), 0.35)
+    cell_normal = _ui_slice(x, 144, recolor=(*edges, (face, rest_frame)))
+    cell_move = _ui_slice(x, 144, recolor=edges)
 
     palette = replace(
         PIXEL.palette,
         background=dark_accent,
         cell=rest_face,
         cell_move=move_face,
-        selected_line=dark_accent,
-        panel=_UI_CELL_FACE,
+        selected_line=_UI_CREAM,
+        panel=_UI_CREAM,
         panel_line=_UI_SHADOW_COLORS[accent],
         button=face,
         button_inactive=_UI_CELL_FACE,
@@ -408,12 +431,12 @@ def _ui_theme(accent: Accent) -> Theme:
         # The outline face is recolored to palette.cell, so the move tint
         # replaces it.
         elements=(
-            ('panel', _ui_slice(0, 162, (2, 3, 2, 2))),
+            ('panel', _ui_slice(0, 36, recolor=_UI_PANEL_RECOLOR)),
             ('button.normal', _ui_slice(x, 36)),
             ('button.inactive', _ui_slice(0, 36)),
             ('button.correct', _ui_slice(_UI_COLOR_X['green'], 36)),
-            ('cell.normal', cell),
-            ('cell.move', cell),
+            ('cell.normal', cell_normal),
+            ('cell.move', cell_move),
         ),
         packed_tile_size=16,
         packed_tile_gap=2,
