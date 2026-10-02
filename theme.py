@@ -504,4 +504,4 @@ THEMES = {
     'ui-green': UI_GREEN,
     'ui-yellow': UI_YELLOW,
 }
-DEFAULT_THEME = 'ui-blue'
+DEFAULT_THEME = 'pixel'

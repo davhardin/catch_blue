@@ -1,8 +1,17 @@
 from collections.abc import Callable
+from typing import Literal
 
 import pygame
 
-from constants import BUTTON_PRESS_DOWN_MS, BUTTON_PRESS_HOLD_MS
+from constants import (
+    BUTTON_PRESS_DOWN_MS,
+    BUTTON_PRESS_HOLD_MS,
+    MENU_SCROLL_ARROW_GAP,
+    MENU_SCROLL_ARROW_HEIGHT,
+    MENU_SCROLL_BAR_GAP,
+    MENU_SCROLL_BAR_WIDTH,
+    MENU_SCROLL_THUMB_MIN_HEIGHT,
+)
 from theme import Alignment, CellLift
 
 
@@ -238,6 +247,181 @@ class OptionRow:
     def draw(self, surface):
         for button in self.buttons.values():
             button.draw(surface)
+
+
+ScrollBarPart = Literal[
+    'up',
+    'down',
+    'thumb',
+    'page_up',
+    'page_down',
+]
+
+
+class ScrollBar:
+    def __init__(
+        self,
+        list_region,
+        *,
+        row_height,
+        visible_rows,
+        row_count,
+        gap=MENU_SCROLL_BAR_GAP,
+        width=MENU_SCROLL_BAR_WIDTH,
+        arrow_height=MENU_SCROLL_ARROW_HEIGHT,
+        arrow_gap=MENU_SCROLL_ARROW_GAP,
+        min_thumb_height=MENU_SCROLL_THUMB_MIN_HEIGHT,
+    ):
+        if row_height <= 0:
+            raise ValueError('ScrollBar row height must be positive')
+        if visible_rows <= 0:
+            raise ValueError('ScrollBar visible row count must be positive')
+        if row_count < 0:
+            raise ValueError('ScrollBar row count cannot be negative')
+        if list_region.height != visible_rows * row_height:
+            raise ValueError(
+                'ScrollBar list height must equal visible rows times row height'
+            )
+        if gap < 0 or arrow_gap < 0 or width <= 0 or arrow_height <= 0:
+            raise ValueError('ScrollBar dimensions are invalid')
+        if 2 * (arrow_height + arrow_gap) >= list_region.height:
+            raise ValueError('ScrollBar arrows leave no room for a track')
+        if min_thumb_height <= 0:
+            raise ValueError('ScrollBar minimum thumb height must be positive')
+
+        self.list_region = list_region.copy()
+        self.row_height = row_height
+        self.visible_rows = visible_rows
+        self.row_count = row_count
+        self.min_thumb_height = min_thumb_height
+        self.max_scroll = max(
+            0,
+            (row_count - visible_rows) * row_height,
+        )
+        self.page_scroll = max(1, visible_rows - 1) * row_height
+
+        self.rect = pygame.Rect(
+            self.list_region.right + gap,
+            self.list_region.top,
+            width,
+            self.list_region.height,
+        )
+        self.up_rect = pygame.Rect(
+            self.rect.left,
+            self.rect.top,
+            self.rect.width,
+            arrow_height,
+        )
+        self.down_rect = pygame.Rect(
+            self.rect.left,
+            self.rect.bottom - arrow_height,
+            self.rect.width,
+            arrow_height,
+        )
+        track_top = self.up_rect.bottom + arrow_gap
+        track_bottom = self.down_rect.top - arrow_gap
+        self.track_rect = pygame.Rect(
+            self.rect.left,
+            track_top,
+            self.rect.width,
+            track_bottom - track_top,
+        )
+
+        if (
+            self.max_scroll > 0
+            and min_thumb_height >= self.track_rect.height
+        ):
+            raise ValueError(
+                'ScrollBar minimum thumb height leaves no drag travel'
+            )
+
+    def _thumb_height(self):
+        proportional_height = (
+            self.track_rect.height
+            * self.visible_rows
+            // self.row_count
+        )
+        return max(self.min_thumb_height, proportional_height)
+
+    def thumb_rect(self, offset) -> pygame.Rect | None:
+        if self.max_scroll == 0:
+            return None
+
+        offset = max(0, min(int(offset), self.max_scroll))
+        thumb_height = self._thumb_height()
+        thumb_travel = self.track_rect.height - thumb_height
+
+        # Ceiling division keeps a row-snapped offset on the same row when a
+        # drag begins and the pointer has not moved.
+        thumb_distance = (
+            offset * thumb_travel + self.max_scroll - 1
+        ) // self.max_scroll
+
+        return pygame.Rect(
+            self.track_rect.left,
+            self.track_rect.top + thumb_distance,
+            self.track_rect.width,
+            thumb_height,
+        )
+
+    def part_at(self, pos, offset) -> ScrollBarPart | None:
+        thumb_rect = self.thumb_rect(offset)
+        if thumb_rect is None:
+            return None
+
+        if self.up_rect.collidepoint(pos):
+            return 'up'
+        if self.down_rect.collidepoint(pos):
+            return 'down'
+        if thumb_rect.collidepoint(pos):
+            return 'thumb'
+        if not self.track_rect.collidepoint(pos):
+            return None
+        if pos[1] < thumb_rect.top:
+            return 'page_up'
+        return 'page_down'
+
+    def click_target_offset(
+        self,
+        part: ScrollBarPart,
+        offset,
+    ) -> int | None:
+        if part == 'up':
+            return offset - self.row_height
+        if part == 'down':
+            return offset + self.row_height
+        if part == 'page_up':
+            return offset - self.page_scroll
+        if part == 'page_down':
+            return offset + self.page_scroll
+        return None
+
+    def drag_target_offset(self, pointer_y, grab_y) -> int:
+        if self.max_scroll == 0:
+            return 0
+
+        thumb_height = self._thumb_height()
+        thumb_travel = self.track_rect.height - thumb_height
+        desired_top = pointer_y - grab_y
+        thumb_distance = max(
+            0,
+            min(
+                desired_top - self.track_rect.top,
+                thumb_travel,
+            ),
+        )
+
+        if thumb_distance == 0:
+            return 0
+        if thumb_distance == thumb_travel:
+            return self.max_scroll
+
+        # This is the inverse of thumb_rect's ceiling-based placement. The
+        # final row remains reachable because the bottom endpoint is handled
+        # explicitly above.
+        return (
+            thumb_distance * self.max_scroll + thumb_travel - 1
+        ) // thumb_travel
 
 
 class Checkbox:

@@ -362,6 +362,46 @@ class Renderer:
                 'correct': 'correct'}[style]
         pygame.draw.rect(surface, self.color(role), draw_rect)
 
+    def scroll_bar(
+        self,
+        surface,
+        *,
+        track_rect,
+        thumb_rect,
+    ):
+        self.cell(surface, track_rect, 'normal')
+        self.button(surface, thumb_rect, 'normal')
+
+    def scroll_arrow(
+        self,
+        surface,
+        rect,
+        direction,
+        *,
+        lift=0,
+    ):
+        draw_rect = rect.move(0, -lift)
+        radius = max(
+            1,
+            min(draw_rect.width, draw_rect.height) // 6,
+        )
+        center_x, center_y = draw_rect.center
+        points = (
+            (center_x, center_y + direction * radius),
+            (
+                center_x - radius,
+                center_y - direction * radius,
+            ),
+            (
+                center_x + radius,
+                center_y - direction * radius,
+            ),
+        )
+        arrow_color = self.color(
+            self._font_specs['button'].color_role
+        )
+        pygame.draw.polygon(surface, arrow_color, points)
+
     def answer_feedback(self, surface, rect, outcome, elapsed_ms):
         style = self.theme.reveal
         background = self.color('background')

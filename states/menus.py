@@ -1,17 +1,38 @@
 import pygame
 
 from constants import (
-    SCREEN_WIDTH, SCREEN_HEIGHT,
-    MENU_BUTTON_WIDTH, MENU_BUTTON_HEIGHT, MENU_BUTTON_GAP,
-    MENU_BUTTON_LEFT, MENU_FIRST_BUTTON_TOP, MENU_TITLE_TOP,
-    MENU_CHECKBOX_SIZE, MENU_ROW_HEIGHT, MENU_LIST_SIDE_PADDING,
-    MENU_CHECKBOX_LEFT, MENU_CHECKBOX_TOP, MENU_TOPICS_TITLE_TOP,
-    MENU_SCROLL_LEFT, MENU_SCROLL_TOP, MENU_SCROLL_WIDTH, MENU_SCROLL_HEIGHT,
-    MENU_START_TOP, MENU_CREDITS_SIDE_MARGIN, MENU_CREDITS_TOP, MENU_CREDITS_HEIGHT,
-    MENU_BACK_LEFT, MENU_BACK_WIDTH,
+    MENU_BACK_LEFT,
+    MENU_BACK_WIDTH,
+    MENU_BUTTON_GAP,
+    MENU_BUTTON_HEIGHT,
+    MENU_BUTTON_LEFT,
+    MENU_BUTTON_WIDTH,
+    MENU_CHECKBOX_LEFT,
+    MENU_CHECKBOX_SIZE,
+    MENU_CHECKBOX_TOP,
+    MENU_CREDITS_HEIGHT,
+    MENU_CREDITS_SIDE_MARGIN,
+    MENU_CREDITS_TOP,
+    MENU_FIRST_BUTTON_TOP,
+    MENU_LIST_SIDE_PADDING,
+    MENU_ROW_HEIGHT,
+    MENU_SCROLL_ARROW_GAP,
+    MENU_SCROLL_ARROW_HEIGHT,
+    MENU_SCROLL_BAR_GAP,
+    MENU_SCROLL_BAR_WIDTH,
+    MENU_SCROLL_HEIGHT,
+    MENU_SCROLL_LEFT,
+    MENU_SCROLL_THUMB_MIN_HEIGHT,
+    MENU_SCROLL_TOP,
+    MENU_SCROLL_WIDTH,
+    MENU_START_TOP,
     MENU_TITLE_OFFSET,
+    MENU_TITLE_TOP,
+    MENU_TOPICS_TITLE_TOP,
+    MENU_VISIBLE_ROWS,
+    SCREEN_HEIGHT,
+    SCREEN_WIDTH,
 )
-from theme import Alignment
 from game_setup import (
     GameConfig,
     order_topics_for_subject,
@@ -21,8 +42,13 @@ from game_setup import (
 from modes import MODES, get_mode
 from questions import QuestionBank
 from states.settings import SettingsState
+from theme import Alignment
 from ui import (
-    Button, ButtonAction, Checkbox, TextBox,
+    Button,
+    ButtonAction,
+    Checkbox,
+    ScrollBar,
+    TextBox,
     pointer_position as _menu_pointer_position,
     update_button_lifts as _update_menu_button_lifts,
 )
@@ -273,9 +299,33 @@ class TopicsState:
         right = max(SCROLL_REGION.right, max(checkbox.hit_rect.right for checkbox in checkboxes) + MENU_LIST_SIDE_PADDING)
         self.scroll_region.width = right - self.scroll_region.left
         self.scroll_offset = 0
-        self.max_scroll = max(
-            0, len(checkboxes) * MENU_ROW_HEIGHT - self.scroll_region.height,
+        self.scroll_bar = ScrollBar(
+            self.scroll_region,
+            row_height=MENU_ROW_HEIGHT,
+            visible_rows=MENU_VISIBLE_ROWS,
+            row_count=len(checkboxes),
+            gap=MENU_SCROLL_BAR_GAP,
+            width=MENU_SCROLL_BAR_WIDTH,
+            arrow_height=MENU_SCROLL_ARROW_HEIGHT,
+            arrow_gap=MENU_SCROLL_ARROW_GAP,
+            min_thumb_height=MENU_SCROLL_THUMB_MIN_HEIGHT,
         )
+        self.scroll_arrow_buttons = {
+            'up': Button(
+                self.scroll_bar.up_rect.copy(),
+                '',
+                self.renderer,
+                lift=self.renderer.theme.menu_lift,
+            ),
+            'down': Button(
+                self.scroll_bar.down_rect.copy(),
+                '',
+                self.renderer,
+                lift=self.renderer.theme.menu_lift,
+            ),
+        }
+        self.max_scroll = self.scroll_bar.max_scroll
+        self._scroll_thumb_grab_y: int | None = None
 
         self.start_button = _make_menu_button(
             "Start",
@@ -316,20 +366,84 @@ class TopicsState:
         clamped = max(0, min(offset, self.max_scroll))
         self.scroll_offset = (int(clamped) // MENU_ROW_HEIGHT) * MENU_ROW_HEIGHT
 
+    def _activate_scroll_bar_part(self, part):
+        target = self.scroll_bar.click_target_offset(
+            part,
+            self.scroll_offset,
+        )
+        assert target is not None
+        self._set_scroll_offset(target)
+
+    def _handle_scroll_bar_press(self, pos):
+        part = self.scroll_bar.part_at(pos, self.scroll_offset)
+        if part is None:
+            return None
+
+        if part == 'thumb':
+            thumb_rect = self.scroll_bar.thumb_rect(
+                self.scroll_offset
+            )
+            assert thumb_rect is not None
+            self._scroll_thumb_grab_y = (
+                pos[1] - thumb_rect.top
+            )
+            return 'scroll'
+
+        if part in self.scroll_arrow_buttons:
+            button = self.scroll_arrow_buttons[part]
+            self.button_action.begin(
+                button,
+                lambda part=part: self._activate_scroll_bar_part(part),
+            )
+            return 'button'
+
+        self._activate_scroll_bar_part(part)
+        return 'scroll'
+
     def handle_events(self, events):
-        if self.button_action.blocks_events():
-            for event in events:
-                self.pointer_pos = _menu_pointer_position(self.pointer_pos, event)
-            return
+        events_blocked = self.button_action.blocks_events()
+
         for event in events:
-            self.pointer_pos = _menu_pointer_position(self.pointer_pos, event)
+            self.pointer_pos = _menu_pointer_position(
+                self.pointer_pos,
+                event,
+            )
+
+            if event.type == pygame.WINDOWLEAVE:
+                self._scroll_thumb_grab_y = None
+                continue
+
+            if (
+                event.type == pygame.MOUSEBUTTONUP
+                and event.button == 1
+            ):
+                self._scroll_thumb_grab_y = None
+                continue
+
+            if (
+                event.type == pygame.MOUSEMOTION
+                and self._scroll_thumb_grab_y is not None
+            ):
+                target = self.scroll_bar.drag_target_offset(
+                    event.pos[1],
+                    self._scroll_thumb_grab_y,
+                )
+                self._set_scroll_offset(target)
+                continue
+
+            if events_blocked:
+                continue
+
             if event.type == pygame.MOUSEWHEEL:
                 self._set_scroll_offset(
                     self.scroll_offset - event.y * MENU_ROW_HEIGHT
                 )
                 continue
 
-            if event.type != pygame.MOUSEBUTTONDOWN or event.button != 1:
+            if (
+                event.type != pygame.MOUSEBUTTONDOWN
+                or event.button != 1
+            ):
                 continue
 
             if self.back_button.is_clicked(event.pos):
@@ -359,6 +473,15 @@ class TopicsState:
                 )
                 return
 
+            scroll_action = self._handle_scroll_bar_press(
+                event.pos
+            )
+            if scroll_action == 'button':
+                events_blocked = True
+                continue
+            if scroll_action == 'scroll':
+                continue
+
             if not self.scroll_region.collidepoint(event.pos):
                 continue
 
@@ -381,8 +504,20 @@ class TopicsState:
                     break
 
     def update(self, dt_ms):
+        buttons = (
+            self.start_button,
+            self.back_button,
+        )
+        if self.max_scroll > 0:
+            buttons = (
+                *buttons,
+                *self.scroll_arrow_buttons.values(),
+            )
+
         _update_menu_button_lifts(
-            (self.start_button, self.back_button), dt_ms, self.pointer_pos,
+            buttons,
+            dt_ms,
+            self.pointer_pos,
         )
         self.button_action.update(dt_ms)
 
@@ -403,6 +538,27 @@ class TopicsState:
                 checkbox.draw(
                     screen,
                     offset_y=self.scroll_offset,
+                )
+
+        thumb_rect = self.scroll_bar.thumb_rect(self.scroll_offset)
+        if thumb_rect is not None:
+            self.renderer.scroll_bar(
+                screen,
+                track_rect=self.scroll_bar.track_rect,
+                thumb_rect=thumb_rect,
+            )
+
+            for part, direction in (
+                ('up', -1),
+                ('down', 1),
+            ):
+                button = self.scroll_arrow_buttons[part]
+                button.draw(screen)
+                self.renderer.scroll_arrow(
+                    screen,
+                    button.rect,
+                    direction,
+                    lift=button.draw_lift,
                 )
 
         self.start_button.draw(screen)
