@@ -8,13 +8,13 @@ design, and the last test makes sure it stays that way.
 import subprocess
 import sys
 from operator import gt, lt
-from pathlib import Path
 from random import Random
 
 import pytest
 
 from board import Board, Cell
 from characters import Blue, Character, Player, best_step
+from conftest import ROOT
 from rules import CatchBlueRules
 
 # Same sizes as test_board.py: 5x5 is the shipping board, 9x9 proves nothing
@@ -229,21 +229,20 @@ def test_flee_at_an_edge_chooses_only_improving_neighbors():
     assert results == expected
 
 
-@pytest.mark.parametrize("seed", range(10))
-def test_flee_stays_when_cornered(seed):
+# No tie here, so the rng is never drawn (next test): one seed covers it.
+def test_flee_stays_when_cornered():
     """Both exits reduce distance when the threat is on the diagonal."""
     board = Board(5, 5)
     blue = Blue(Cell(0, 0))
 
-    assert blue.flee_step(board, Cell(1, 1), Random(seed)) == blue.cell
+    assert blue.flee_step(board, Cell(1, 1), Random(0)) == blue.cell
 
 
-@pytest.mark.parametrize("seed", range(10))
-def test_flee_chooses_the_only_improving_candidate(seed):
+def test_flee_chooses_the_only_improving_candidate():
     board = Board(5, 5)
     blue = Blue(Cell(0, 0))
 
-    assert blue.flee_step(board, Cell(0, 1), Random(seed)) == Cell(1, 0)
+    assert blue.flee_step(board, Cell(0, 1), Random(0)) == Cell(1, 0)
 
 
 @pytest.mark.parametrize(
@@ -261,7 +260,8 @@ def test_flee_without_a_tie_does_not_consume_randomness(threat):
     assert rng.getstate() == before
 
 
-@pytest.mark.parametrize("seed", range(10))
+# The rng only picks among tied best cells, so a few seeds vary every tie.
+@pytest.mark.parametrize("seed", range(3))
 def test_flee_from_every_position_stays_on_board_and_off_the_threat(seed):
     """Sweep all 600 distinct pairings, including the full escape contract."""
     board = Board(5, 5)
@@ -424,7 +424,7 @@ def test_characters_module_never_imports_pygame():
     """
     result = subprocess.run(
         [sys.executable, "-c", "import characters, sys; assert 'pygame' not in sys.modules"],
-        cwd=Path(__file__).resolve().parents[1],
+        cwd=ROOT,
         capture_output=True,
     )
     assert result.returncode == 0, "characters.py has picked up a pygame dependency"

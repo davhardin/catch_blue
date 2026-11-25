@@ -7,9 +7,6 @@ hold before and after that change, so they guard the change rather than
 freezing today's numbers.
 """
 
-from pathlib import Path
-from types import SimpleNamespace
-
 import pygame
 import pytest
 
@@ -17,37 +14,21 @@ from constants import (
     SCREEN_HEIGHT, SCREEN_WIDTH, MENU_ROW_HEIGHT, MENU_BOTTOM_MARGIN,
     MENU_CREDITS_BOTTOM_MARGIN, MENU_VISIBLE_ROWS, MENU_TITLE_OFFSET, MENU_TOPICS_TITLE_TOP,
 )
-from modes import get_mode
-from questions import QuestionBank
-from render import Renderer
 from states.menus import (
     CREDITS_RECT,
     GameSelectState,
     SubjectState,
     TopicsState,
 )
-from theme import FLAT, PIXEL
+
+from conftest import GameStub, click
 
 SCREEN = pygame.Rect(0, 0, SCREEN_WIDTH, SCREEN_HEIGHT)
-DEFAULT_SETTINGS = get_mode('catch_blue').settings_spec().default
 
 
-@pytest.fixture(scope='module')
-def bank():
-    return QuestionBank(Path(__file__).resolve().parents[1] / 'data' / 'questions')
-
-
-@pytest.fixture(params=[FLAT, PIXEL], ids=['flat', 'pixel'])
-def game(request, bank):
-    pygame.font.init()
-    yield SimpleNamespace(
-        bank=bank,
-        settings_by_mode={'catch_blue': DEFAULT_SETTINGS},
-        settings_mode='catch_blue',
-        topic_selections={},
-        renderer=Renderer(request.param),
-    )
-    pygame.font.quit()
+@pytest.fixture
+def game(renderer, bank):
+    return GameStub(bank, renderer)
 
 
 def buttons_of(state):
@@ -141,6 +122,14 @@ def test_topics_screen_regions_do_not_collide(game):
     state._set_scroll_offset(state.max_scroll)
     last = checkboxes[-1].hit_rect.move(0, -state.scroll_offset)
     assert region.contains(last)
+    # The scroll bar (M8.e) runs beside the list, level with it, against the
+    # instance region a long label widens, and clear of every other control.
+    bar = state.scroll_bar
+    assert SCREEN.contains(bar.rect)
+    assert bar.rect.left >= region.right
+    assert (bar.rect.top, bar.rect.bottom) == (region.top, region.bottom)
+    for other in (start, state.back_button.rect, title):
+        assert not bar.rect.colliderect(other)
 
 
 def test_topics_scroll_snaps_clamps_and_clicks_last_visible_row(game):
@@ -154,13 +143,13 @@ def test_topics_scroll_snaps_clamps_and_clicks_last_visible_row(game):
     assert state.scroll_offset == state.max_scroll
     checkbox = state.topic_checkboxes[-1][1]
     point = checkbox.hit_rect.move(0, -state.scroll_offset).center
-    state.handle_events([pygame.event.Event(pygame.MOUSEBUTTONDOWN, button=1, pos=point)])
+    state.handle_events([click(point)])
     assert not checkbox.checked
     assert not state.all_checkbox.checked
     hidden = state.all_checkbox.hit_rect.move(0, -state.scroll_offset).center
     assert not state.scroll_region.collidepoint(hidden)
     selected = [c.checked for _, c in state.topic_checkboxes]
-    state.handle_events([pygame.event.Event(pygame.MOUSEBUTTONDOWN, button=1, pos=hidden)])
+    state.handle_events([click(hidden)])
     assert [c.checked for _, c in state.topic_checkboxes] == selected
     state.handle_events([pygame.event.Event(pygame.MOUSEWHEEL, y=100)])
     assert state.scroll_offset == 0

@@ -3,14 +3,13 @@ click-to-continue on wrong answers.
 
 Every button press is deferred behind the press animation for exactly
 BUTTON_PRESS_DOWN_MS + BUTTON_PRESS_HOLD_MS on every theme, so `press()`
-advances that much and no more.
+advances that much and no more. The reveal and resolve rules themselves
+(timers, zero duration, the last move) belong to test_play.py. Flows that do
+not depend on the theme run on flat only; the theme parameter stays where
+layout, fonts, or lift data are what is tested.
 """
 
 from dataclasses import replace
-from pathlib import Path
-from random import Random
-from types import SimpleNamespace
-from unittest.mock import Mock
 
 import pygame
 import pytest
@@ -20,107 +19,28 @@ from board import Cell
 from constants import (
     BUTTON_PRESS_DOWN_MS, BUTTON_PRESS_HOLD_MS, REVEAL_DURATION, SCREEN_HEIGHT, SCREEN_WIDTH,
 )
+from conftest import (
+    A_AND_P, GameStub, answer, click, make_play, open_question, play_config, press, settle,
+)
 from game_setup import (
     COMPACT_SUBTOPIC_DISPLAY_NAMES, GameConfig, Settings, TierPolicy,
     subtopic_display_name,
 )
-from modes import get_mode
-from questions import QuestionBank
+from modes import MODES, get_mode
 from render import Renderer
 from states.game_over import GameOverState
 from states.menus import GameSelectState, SubjectState, TopicsState
 from states.pause import PauseState
-from states.play import PlayState
 from states.settings import SettingsState
-from theme import FLAT, PIXEL
+from theme import PIXEL
 
 SCREEN = pygame.Rect(0, 0, SCREEN_WIDTH, SCREEN_HEIGHT)
-A_AND_P = 'anatomy_physiology'
 MODE = 'catch_blue'
 SPEC = get_mode(MODE).settings_spec()
 PRESETS = dict(SPEC.presets)
 DEFAULT_PRESET = SPEC.default_preset
 preset_for = SPEC.preset_for
-
-
-@pytest.fixture(params=[FLAT, PIXEL], ids=['flat', 'pixel'])
-def renderer(request):
-    pygame.font.init()
-    yield Renderer(request.param)
-    pygame.font.quit()
-
-
-@pytest.fixture(scope='module')
-def bank():
-    return QuestionBank(Path(__file__).resolve().parents[1] / 'data' / 'questions')
-
-
-class FakeGame:
-    def __init__(self, renderer, bank=None):
-        self.renderer = renderer
-        self.bank = bank
-        self.settings_by_mode = {MODE: SPEC.default}
-        self.settings_mode = MODE
-        self.topic_selections = {}
-        self.state = None
-        self.transitions = []
-        self.start_play = Mock()
-        self.show_main_menu = Mock()
-
-    @property
-    def settings(self):
-        # The session's settings for the mode under test (per-mode since step 4).
-        return self.settings_by_mode[MODE]
-
-    def change_state(self, state):
-        self.state = state
-        self.transitions.append(state)
-
-
-def click(pos):
-    return pygame.event.Event(pygame.MOUSEBUTTONDOWN, button=1, pos=pos)
-
-
-def settle(state, frames=30):
-    for _ in range(frames):
-        state.update(16)
-
-
-def land_press(state):
-    """Tick exactly the press animation: the down phase, then the hold."""
-    state.update(BUTTON_PRESS_DOWN_MS)
-    state.update(BUTTON_PRESS_HOLD_MS)
-
-
-def press(state, button):
-    # A press swallows the batch after it lands; drain before clicking.
-    state.handle_events([])
-    state.handle_events([click(button.rect.center)])
-    land_press(state)
-
-
-def make_play(game, bank, settings=None, *, reveal_duration_ms=REVEAL_DURATION, topics=('cells',)):
-    config = GameConfig('catch_blue', A_AND_P, topics,
-                        settings=settings or PRESETS[DEFAULT_PRESET])
-    game.bank = bank
-    state = PlayState(game, config, Random(17), reveal_duration_ms=reveal_duration_ms)
-    game.state = state
-    return state
-
-
-def open_question(state):
-    target = sorted(state.moves)[0]
-    state.handle_events([click(state.view.cell_to_rect(target).center)])
-    assert state.pending is not None
-    return target
-
-
-def answer(state, correct):
-    question = state.pending[0]
-    popup = state.popup
-    canonical = next(i for i in popup.answer_order if (i == question.answer_index) == correct)
-    state.handle_events([click(popup.answer_buttons[popup.answer_order.index(canonical)].rect.center)])
-    assert state.reveal is not None
+ACTIVE_MODES = [key for key, mode in MODES.items() if mode.active]
 
 
 # ---------------------------------------------------------------- M7.a ------
@@ -144,18 +64,11 @@ def test_settings_validate_their_inputs():
     assert Settings(tier_policy='distance').tier_policy is TierPolicy.DISTANCE
 
 
-def test_preset_lookup_round_trips_and_detects_custom():
-    for name, preset in PRESETS.items():
-        assert preset_for(preset) == name
-        assert preset_for(replace(preset, move_limit=preset.move_limit + 1)) == 'custom'
-    assert preset_for(replace(PRESETS['easy'], board_size=9)) == 'custom'
-
-
 @pytest.mark.parametrize('size', [5, 7, 9])
 def test_board_size_and_move_limit_ride_in_from_the_config(renderer, bank, size):
-    game = FakeGame(renderer)
+    game = GameStub(renderer=renderer)
     settings = replace(PRESETS['medium'], board_size=size, move_limit=22)
-    state = make_play(game, bank, settings)
+    state = make_play(bank, play_config(settings=settings), game=game)
     assert (state.board.cols, state.board.rows) == (size, size)
     assert state.moves_remaining == 22
     assert state.view.cell_to_rect(Cell(size - 1, size - 1)).bottom <= SCREEN_HEIGHT
@@ -170,7 +83,7 @@ def test_board_size_and_move_limit_ride_in_from_the_config(renderer, bank, size)
     )
     assert label_font.size('Cardiac Conduction') == reference.size('Cardiac Conduction')
     # Start distance never trips the early-loss rule on the first move.
-    assert state.moves_remaining > state.board.distance(state.player.cell, state.blue.cell) + 1
+    assert state.moves_remaining > state.board.distance(state.player.cell, state.npc.cell) + 1
 
 
 def test_compact_labels_name_real_pairs_and_apply_only_above_five(bank):
@@ -210,8 +123,8 @@ def test_renderer_holds_a_label_font_per_board_size(renderer):
 
 # ---------------------------------------------------------------- M7.b ------
 
-def test_preset_click_stamps_rows_and_row_click_flips_to_custom(renderer, bank):
-    game = FakeGame(renderer)
+def test_preset_click_stamps_rows_and_row_click_flips_to_custom(flat_renderer):
+    game = GameStub(renderer=flat_renderer)
     state = SettingsState(game)
     assert state.rows['preset'].selected == DEFAULT_PRESET
 
@@ -239,8 +152,8 @@ def test_preset_click_stamps_rows_and_row_click_flips_to_custom(renderer, bank):
     assert state.rows['preset'].selected == 'easy'
 
 
-def test_settings_back_keeps_values_and_start_carries_them_into_the_config(renderer, bank):
-    game = FakeGame(renderer, bank)
+def test_settings_back_keeps_values_and_start_carries_them_into_the_config(flat_renderer, bank):
+    game = GameStub(bank, flat_renderer)
     state = SettingsState(game)
     press(state, state.rows['board_size'].buttons[9])
     press(state, state.back_button)
@@ -255,21 +168,31 @@ def test_settings_back_keeps_values_and_start_carries_them_into_the_config(rende
     assert config.settings.board_size == 9
 
 
-def test_settings_screen_fits_and_draws_through_the_renderer(renderer, bank):
-    state = SettingsState(FakeGame(renderer))
+@pytest.mark.parametrize('mode', ACTIVE_MODES)
+def test_settings_screen_fits_and_draws_through_the_renderer(renderer, mode):
+    state = SettingsState(GameStub(renderer=renderer), mode=mode)
     for row in state.rows.values():
         for button in row.buttons.values():
             assert SCREEN.contains(button.rect)
     assert SCREEN.contains(state.back_button.rect)
     rects = [b.rect for row in state.rows.values() for b in row.buttons.values()]
     assert all(not a.colliderect(b) for i, a in enumerate(rects) for b in rects[i + 1:])
+    # Every row, the Game row included, ends above the Back line (M8.b: the
+    # fifth row on pixel once reached 781 px against Back's 756).
+    back_top = state.back_button.rect.top
+    assert 'mode' in state.rows and len(state.rows) == 5
+    for key, row in state.rows.items():
+        assert row.rect.bottom < back_top, (key, row.rect.bottom, back_top)
+        assert all(b.rect.bottom < back_top for b in row.buttons.values()), key
     settle(state)
+    # A lift draws a button higher, never lower, so drawn rows stay clear of Back too.
+    assert all(b.draw_lift >= 0 for row in state.rows.values() for b in row.buttons.values())
     state.draw(pygame.Surface(SCREEN.size))
 
 
-def test_press_timing_is_identical_on_every_theme(renderer, bank):
+def test_press_timing_is_identical_on_every_theme(renderer):
     """The press delay is behaviour, so it must not vary with theme lift data."""
-    game = FakeGame(renderer)
+    game = GameStub(renderer=renderer)
     state = SettingsState(game)
     state.handle_events([click(state.back_button.rect.center)])
     game.show_main_menu.assert_not_called()
@@ -283,8 +206,8 @@ def test_press_timing_is_identical_on_every_theme(renderer, bank):
     game.show_main_menu.assert_called_once_with()
 
 
-def test_game_select_offers_settings(renderer, bank):
-    game = FakeGame(renderer, bank)
+def test_game_select_offers_settings(flat_renderer, bank):
+    game = GameStub(bank, flat_renderer)
     state = GameSelectState(game)
     press(state, state.settings_button)
     assert isinstance(game.state, SettingsState)
@@ -292,8 +215,8 @@ def test_game_select_offers_settings(renderer, bank):
 
 # ---------------------------------------------------------------- M7.c ------
 
-def test_back_buttons_return_and_keep_the_topic_selection(renderer, bank):
-    game = FakeGame(renderer, bank)
+def test_back_buttons_return_and_keep_the_topic_selection(flat_renderer, bank):
+    game = GameStub(bank, flat_renderer)
     subject = SubjectState(game, MODE)
     press(subject, subject.back_button)
     game.show_main_menu.assert_called_once_with()
@@ -313,9 +236,9 @@ def test_back_buttons_return_and_keep_the_topic_selection(renderer, bank):
 
 
 @pytest.mark.parametrize('how', ['button', 'escape'])
-def test_pause_opens_from_the_hud_button_or_escape(renderer, bank, how):
-    game = FakeGame(renderer)
-    state = make_play(game, bank)
+def test_pause_opens_from_the_hud_button_or_escape(flat_renderer, bank, how):
+    game = GameStub(renderer=flat_renderer)
+    state = make_play(bank, game=game)
     if how == 'button':
         state.handle_events([click(state.pause_button.rect.center)])
     else:
@@ -324,9 +247,9 @@ def test_pause_opens_from_the_hud_button_or_escape(renderer, bank, how):
     assert game.state.play_state is state
 
 
-def test_pause_freezes_the_reveal_and_continue_resumes_it(renderer, bank):
-    game = FakeGame(renderer)
-    state = make_play(game, bank)
+def test_pause_freezes_the_reveal_and_continue_resumes_it(flat_renderer, bank):
+    game = GameStub(renderer=flat_renderer)
+    state = make_play(bank, game=game)
     open_question(state)
     answer(state, True)
     state.update(300)
@@ -352,9 +275,9 @@ def test_pause_freezes_the_reveal_and_continue_resumes_it(renderer, bank):
     assert state.reveal is None and state.pending is None
 
 
-def test_pause_retry_and_main_menu_route_through_the_game(renderer, bank):
-    game = FakeGame(renderer)
-    state = make_play(game, bank)
+def test_pause_retry_and_main_menu_route_through_the_game(flat_renderer, bank):
+    game = GameStub(renderer=flat_renderer)
+    state = make_play(bank, game=game)
     state.handle_events([click(state.pause_button.rect.center)])
     pause = game.state
     press(pause, pause.retry_button)
@@ -366,8 +289,8 @@ def test_pause_retry_and_main_menu_route_through_the_game(renderer, bank):
 
 
 def test_pause_draws_the_board_beneath_its_panel(renderer, bank):
-    game = FakeGame(renderer)
-    state = make_play(game, bank)
+    game = GameStub(renderer=renderer)
+    state = make_play(bank, game=game)
     pause = PauseState(state)
     settle(pause)
     screen = pygame.Surface(SCREEN.size)
@@ -377,23 +300,26 @@ def test_pause_draws_the_board_beneath_its_panel(renderer, bank):
         assert pause.panel_rect.contains(button.rect)
 
 
-def test_end_screen_buttons_lift_like_menu_buttons(renderer, bank):
-    game = FakeGame(renderer)
-    state = make_play(game, bank)
+def test_end_screen_buttons_lift_like_menu_buttons(fonts, bank):
+    # Pixel only: flat's lift is zero, so the same check there asserts nothing.
+    game = GameStub(renderer=Renderer(PIXEL))
+    state = make_play(bank, game=game)
     over = GameOverState(game, state.config, 'lose', state)
-    assert over.replay_button.lift_settings == renderer.theme.menu_lift
+    assert over.replay_button.lift_settings == PIXEL.menu_lift
     over.pointer_pos = over.replay_button.rect.center
     settle(over)
-    assert over.replay_button.draw_lift == renderer.theme.menu_lift.hover_px
+    assert over.replay_button.draw_lift == PIXEL.menu_lift.hover_px > 0
 
 
 # ---------------------------------------------------------------- M7.d ------
 
 def test_wrong_answer_holds_until_continue_then_blue_flees(renderer, bank):
-    game = FakeGame(renderer)
-    state = make_play(game, bank)
+    # The hold itself is test_play.py's; this checks Continue's placement on
+    # each theme and that the board and answers stay locked while it waits.
+    game = GameStub(renderer=renderer)
+    state = make_play(bank, game=game)
     open_question(state)
-    blue_before = state.blue.cell
+    blue_before = state.npc.cell
     answer(state, False)
     assert state.reveal.waits_for_click
     popup = state.popup
@@ -402,45 +328,15 @@ def test_wrong_answer_holds_until_continue_then_blue_flees(renderer, bank):
     assert popup.continue_button.rect.top >= popup.popup_rect.bottom
 
     state.update(10 * 60 * 1000)  # ten minutes: still waiting
-    assert state.pending is not None and state.blue.cell == blue_before
+    assert state.pending is not None and state.npc.cell == blue_before
 
     # Board and answer clicks are ignored while the reveal holds.
     target = sorted(state.moves)[0]
     state.handle_events([click(state.view.cell_to_rect(target).center)])
     state.handle_events([click(popup.answer_buttons[0].rect.center)])
-    assert state.pending is not None and state.blue.cell == blue_before
+    assert state.pending is not None and state.npc.cell == blue_before
 
     press(state, popup.continue_button)
     assert state.reveal is None and state.pending is None
     assert state.popup is None
-    assert state.blue.cell != blue_before
-
-
-def test_correct_answer_still_resolves_on_the_timer(renderer, bank):
-    game = FakeGame(renderer)
-    state = make_play(game, bank)
-    target = open_question(state)
-    answer(state, True)
-    assert state.reveal.duration_ms == REVEAL_DURATION
-    assert state.popup.continue_button is None
-    state.update(REVEAL_DURATION - 1)
-    assert state.pending is not None
-    state.update(1)
-    assert state.pending is None and state.player.cell == target
-
-
-def test_zero_duration_resolves_wrong_answers_immediately_without_continue(renderer, bank):
-    game = FakeGame(renderer)
-    state = make_play(game, bank, reveal_duration_ms=0)
-    open_question(state)
-    blue_before = state.blue.cell
-    popup = state.popup
-    question = state.pending[0]
-    wrong = next(i for i in popup.answer_order if i != question.answer_index)
-    state.handle_events([click(popup.answer_buttons[popup.answer_order.index(wrong)].rect.center)])
-    assert state.pending is None and state.popup is None
-    assert state.blue.cell != blue_before
-
-
-def test_the_extra_second_constant_is_gone():
-    assert not hasattr(constants, 'WRONG_REVEAL_EXTRA_MS')
+    assert state.npc.cell != blue_before

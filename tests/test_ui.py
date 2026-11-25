@@ -3,16 +3,14 @@
 import pygame
 import pytest
 
-from render import Renderer
 from theme import FLAT
 from ui import Button
 
 
 @pytest.fixture
-def renderer():
-    pygame.font.init()
-    yield Renderer(FLAT)
-    pygame.font.quit()
+def renderer(flat_renderer):
+    """These tests pin flat's own primitives."""
+    return flat_renderer
 
 
 @pytest.mark.parametrize("active", [True, False])

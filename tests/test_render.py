@@ -13,10 +13,9 @@ from ui import Button, Checkbox, TextBox
 
 
 @pytest.fixture
-def renderer():
-    pygame.font.init()
-    yield Renderer(FLAT)
-    pygame.font.quit()
+def renderer(flat_renderer):
+    """These tests pin flat's own primitives."""
+    return flat_renderer
 
 
 @pytest.mark.parametrize('role', ['label', 'choice'])

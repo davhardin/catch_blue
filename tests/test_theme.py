@@ -7,7 +7,21 @@ import sys
 
 import pytest
 
-from theme import ASSET_ROOT, DEFAULT_THEME, FLAT, PIXEL, THEMES, Alignment, FontSpec, Layout, NineSlice, Skin, SpriteSpec, Theme
+import theme as theme_module
+from theme import (
+    ACCENT_KEYS, ASSET_ROOT, DEFAULT_THEME, FLAT, PIXEL, PIXEL_ACCENTS, THEMES,
+    Alignment, FontSpec, NineSlice, Skin, SpriteSpec, Theme, resolve_accent,
+    theme_accent,
+)
+
+# GDD §3: character colors come from the Okabe-Ito colorblind-safe palette.
+OKABE_ITO = {
+    'player': (230, 159, 0),
+    'blue': (0, 114, 178),
+    'red': (213, 94, 0),
+    'green': (0, 158, 115),
+    'yellow': (240, 228, 66),
+}
 
 
 def assert_immutable(value):
@@ -25,16 +39,15 @@ def assert_immutable(value):
 
 
 def test_nested_theme_data_is_immutable():
-    assert_immutable(FLAT)
-    assert_immutable(PIXEL)
-    assert THEMES == {'flat': FLAT, 'pixel': PIXEL}
-    assert FLAT.layout == Layout()
-    assert FLAT.fonts.choice.color_role == 'choice_text'
-    assert all(getattr(PIXEL.fonts, role.name).path.is_file() for role in fields(PIXEL.fonts))
+    for registered in THEMES.values():
+        assert_immutable(registered)
     assert_immutable(Theme(
         'future', FLAT.palette, FLAT.fonts,
         Skin(ASSET_ROOT / 'skin.png', 2, (
             ('panel', NineSlice((0, 0, 16, 16), (2, 3, 4, 5))),
+            ('cell.normal', NineSlice(
+                (0, 0, 32, 32), (5, 5, 5, 5), tile=ASSET_ROOT / 'tile.png', tile_size=32,
+            )),
         )),
         (('blue', SpriteSpec(ASSET_ROOT / 'sprites.png', (0, 0, 8, 8))),),
     ))
@@ -43,76 +56,73 @@ def test_nested_theme_data_is_immutable():
     assert first.alignment is not second.alignment
 
 
-def test_flat_preserves_all_palette_values():
-    assert {item.name: getattr(FLAT.palette, item.name) for item in fields(FLAT.palette)} == {
-        'background': (24, 26, 32), 'cell': (58, 64, 78),
-        'cell_move': (60, 88, 90), 'cell_line': (120, 130, 148),
-        'selected_line': (255, 0, 0), 'hover_line': (120, 130, 148),
-        'label': (245, 245, 245), 'text': (245, 245, 245),
-        'choice_text': (255, 255, 255), 'text_inactive': (145, 148, 156),
-        'panel': (58, 64, 78), 'panel_line': (120, 130, 148),
-        'button': (60, 88, 90), 'button_inactive': (75, 78, 86),
-        'correct': (0, 100, 70),
-        'player': (230, 159, 0), 'blue': (0, 114, 178),
-        'red': (213, 94, 0), 'green': (0, 158, 115), 'yellow': (240, 228, 66),
-        'character': (180, 180, 180),
-        'background_text': (245, 245, 245), 'highlight': (245, 245, 245),
+def test_registry_is_flat_and_the_pixel_family():
+    assert THEMES == {
+        'flat': FLAT,
+        'pixel': PIXEL,
+        'pixel-red': PIXEL_ACCENTS['red'],
+        'pixel-green': PIXEL_ACCENTS['green'],
+        'pixel-yellow': PIXEL_ACCENTS['yellow'],
     }
+    assert all(name == registered.name for name, registered in THEMES.items())
+    assert PIXEL_ACCENTS['blue'] is PIXEL
+    assert DEFAULT_THEME == 'pixel' and THEMES[DEFAULT_THEME] is PIXEL
+    # M8.d (2026-11-24): the hue remap and the ui-* themes were deleted.
+    assert not any(name.startswith('ui-') for name in THEMES)
+    for removed in ('UI_ACCENTS', 'UI_BLUE', 'HueShift', 'with_accent', 'shift_color_to_hue'):
+        assert not hasattr(theme_module, removed), removed
 
 
-def test_flat_fonts_and_alignment():
-    assert FLAT.name == 'flat'
-    assert FLAT.skin is None
-    assert FLAT.sprites == ()
-    assert ASSET_ROOT == Path(__file__).resolve().parents[1] / 'assets'
-    assert FLAT.fonts.label.path == (
-        ASSET_ROOT / 'Atkinson_Hyperlegible_Next' / 'static'
-        / 'AtkinsonHyperlegibleNext-Regular.ttf'
-    )
-    assert FLAT.fonts.label.path.is_file()
-    sizes = dict(label=16, prompt=32, choice=32, button=36,
-                 title=56, counter=36, checkbox=30, result=40)
-    for role, size in sizes.items():
-        spec = getattr(FLAT.fonts, role)
-        assert spec.size == size
-        if role != 'label':
-            assert spec.path is None
-        assert spec.alignment == (
-            Alignment('center', 'center') if role in ('label', 'choice') else Alignment()
-        )
+@pytest.mark.parametrize('accent', ACCENT_KEYS)
+def test_accents_resolve_within_the_pixel_family_and_flat_ignores_them(accent):
+    assert resolve_accent(PIXEL, accent) is PIXEL_ACCENTS[accent]
+    assert resolve_accent(PIXEL_ACCENTS['red'], accent) is PIXEL_ACCENTS[accent]
+    assert resolve_accent(FLAT, accent) is FLAT
+    assert theme_accent(PIXEL_ACCENTS[accent]) == accent
 
 
-def test_readability_label_sizes():
-    assert PIXEL.fonts.label.size == 20
-    assert FLAT.fonts.label.size == 16
+def test_unknown_accent_is_rejected_and_flat_has_none():
+    assert theme_accent(FLAT) is None
+    with pytest.raises(ValueError):
+        resolve_accent(PIXEL, 'purple')
+
+
+@pytest.mark.parametrize('theme', THEMES.values(), ids=THEMES.keys())
+def test_character_colors_are_okabe_ito(theme):
+    expected = dict(OKABE_ITO)
+    if theme is PIXEL_ACCENTS['red']:
+        # A darker Red so it stands out on its own board (M8.d).
+        expected['red'] = (149, 66, 0)
+    assert {role: getattr(theme.palette, role) for role in expected} == expected
+
+
+@pytest.mark.parametrize('theme', THEMES.values(), ids=THEMES.keys())
+def test_text_alignment_roles(theme):
+    for role in fields(theme.fonts):
+        spec = getattr(theme.fonts, role.name)
+        if role.name in ('label', 'choice', 'credits'):
+            assert spec.alignment == Alignment('center', 'center'), role.name
+        elif theme is FLAT:
+            assert spec.alignment == Alignment(), role.name
+    # Credits sit on the window background, never on a panel.
+    assert theme.fonts.credits.color_role == 'background_text'
 
 
 @pytest.mark.parametrize('theme', THEMES.values(), ids=THEMES.keys())
 def test_registered_popup_fonts_and_no_banner(theme):
-    size = {'flat': 32, 'pixel': 24}[theme.name]
-    assert theme.fonts.prompt.size == size
-    assert theme.fonts.choice.size == size
+    assert theme.fonts.choice.size == theme.fonts.prompt.size
     assert theme.fonts.choice.alignment == Alignment('center', 'center')
     assert not hasattr(theme.fonts, 'banner')
     assert not hasattr(theme.layout, 'show_category_banner')
     assert not hasattr(theme.palette, 'incorrect')
     assert not hasattr(theme.reveal, 'wash_min_alpha')
-    assert theme.palette.highlight == ((69, 82, 91) if theme is PIXEL else (245, 245, 245))
     if theme.skin:
+        # The correct-answer pulse tints the bevel toward the window color.
+        assert theme.palette.highlight == theme.palette.background
         assert not {'banner', 'button.incorrect'} & dict(theme.skin.elements).keys()
-
-
-def test_default_theme_and_credits_fonts():
-    assert DEFAULT_THEME == 'pixel'
-    assert THEMES[DEFAULT_THEME] is PIXEL
-    assert FLAT.fonts.credits == FontSpec(
-        None, 20, Alignment('center', 'center'), color_role='background_text',
-    )
-    assert PIXEL.fonts.credits == FontSpec(
-        ASSET_ROOT / 'Atkinson_Hyperlegible_Mono' / 'static'
-        / 'AtkinsonHyperlegibleMono-Regular.ttf',
-        16, Alignment('center', 'center'), color_role='background_text',
-    )
+    else:
+        # Flat pulses an outline, which must stand out from the window.
+        assert theme.palette.highlight != theme.palette.background
 
 
 @pytest.mark.parametrize('theme', THEMES.values(), ids=THEMES.keys())
@@ -121,11 +131,15 @@ def test_registered_assets_and_licenses_exist(theme, monkeypatch, tmp_path):
     paths = [getattr(theme.fonts, role.name).path for role in fields(theme.fonts)]
     if theme.skin is not None:
         paths.append(theme.skin.sheet)
+        paths.extend(spec.tile for _, spec in theme.skin.elements if spec.tile is not None)
     paths.extend(spec.sheet for _, spec in theme.sprites)
+    # License files relative to ASSET_ROOT. The hand-drawn tiles were edited
+    # from the Pixel Adventure pack, so they carry its license (ATTRIBUTION.md).
     licenses = {
-        'Atkinson_Hyperlegible_Next': 'OFL.txt',
-        'Atkinson_Hyperlegible_Mono': 'OFL.txt',
-        'kenney_ui-pack-pixel-adventure': 'License.txt',
+        'Atkinson_Hyperlegible_Next': 'Atkinson_Hyperlegible_Next/OFL.txt',
+        'Atkinson_Hyperlegible_Mono': 'Atkinson_Hyperlegible_Mono/OFL.txt',
+        'kenney_ui-pack-pixel-adventure': 'kenney_ui-pack-pixel-adventure/License.txt',
+        'four_color_buttons': 'kenney_ui-pack-pixel-adventure/License.txt',
     }
     for path in paths:
         if path is None:
@@ -133,7 +147,7 @@ def test_registered_assets_and_licenses_exist(theme, monkeypatch, tmp_path):
         assert path.is_absolute()
         assert path.is_file(), path
         package = path.relative_to(ASSET_ROOT).parts[0]
-        license_path = ASSET_ROOT / package / licenses[package]
+        license_path = ASSET_ROOT / licenses[package]
         assert license_path.is_file(), license_path
         assert license_path.stat().st_size > 0
 

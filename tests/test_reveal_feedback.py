@@ -1,30 +1,14 @@
 """Pulsing bevels, steady correct faces, and low-contrast wrong selections."""
 
-from pathlib import Path
-from random import Random
-from types import SimpleNamespace
-
 import pygame
 import pytest
 
-from constants import BUTTON_PRESS_DOWN_MS, BUTTON_PRESS_HOLD_MS, SCREEN_HEIGHT, SCREEN_WIDTH
-from game_setup import GameConfig
-from modes import get_mode
+from constants import SCREEN_HEIGHT, SCREEN_WIDTH
 from question_popup import build_question_popup
-from questions import QuestionBank
-from render import Renderer
-from states.play import PlayState
 from theme import FLAT, PIXEL
 from ui import Button
 
-DEFAULT_SETTINGS = get_mode('catch_blue').settings_spec().default
-
-
-@pytest.fixture(params=[FLAT, PIXEL], ids=['flat', 'pixel'])
-def renderer(request):
-    pygame.font.init()
-    yield Renderer(request.param)
-    pygame.font.quit()
+from conftest import GameStub, answer_button, click, land_press, make_play
 
 
 def pixels(surface):
@@ -120,8 +104,7 @@ def test_wrong_selection_desaturates_and_fades_without_animation(renderer):
     assert pixels(surface.subsurface(button.rect)) == pixels(normal)
 
 
-def test_all_question_feedback_outlines_fit(renderer):
-    bank = QuestionBank(Path(__file__).resolve().parents[1] / 'data' / 'questions')
+def test_all_question_feedback_outlines_fit(renderer, bank):
     screen = pygame.Rect(0, 0, SCREEN_WIDTH, SCREEN_HEIGHT)
     width = renderer.theme.reveal.outline_width
     for question in bank.questions:
@@ -135,26 +118,17 @@ def test_all_question_feedback_outlines_fit(renderer):
 
 
 @pytest.mark.parametrize('correct', [True, False])
-@pytest.mark.parametrize('duration', [0, 1300])
-def test_outcome_timing_input_guard_and_draw_clock(renderer, correct, duration, monkeypatch):
-    bank = QuestionBank(Path(__file__).resolve().parents[1] / 'data' / 'questions')
-    state = PlayState(
-        SimpleNamespace(
-            bank=bank, settings_by_mode={'catch_blue': DEFAULT_SETTINGS}, settings_mode='catch_blue',
-            topic_selections={}, renderer=renderer,
-        ),
-        GameConfig('catch_blue', 'anatomy_physiology', ('cells',), settings=DEFAULT_SETTINGS), Random(17),
-        reveal_duration_ms=duration,
-    )
-    def click(pos):
-        return pygame.event.Event(pygame.MOUSEBUTTONDOWN, button=1, pos=pos)
+def test_outcome_timing_input_guard_and_draw_clock(renderer, bank, correct, monkeypatch):
+    # Zero-duration resolution is test_play.py's; this checks what the reveal draws.
+    duration = 1300
+    state = make_play(bank, game=GameStub(bank, renderer), reveal_duration_ms=duration)
     target = sorted(state.moves)[0]
     state.handle_events([click(state.view.cell_to_rect(target).center)])
     question = state.pending[0]
     popup = state.popup
-    chosen = next(i for i in popup.answer_order if (i == question.answer_index) == correct)
-    chosen_button = popup.answer_buttons[popup.answer_order.index(chosen)]
-    before = (state.player.cell, state.blue.cell, state.moves_remaining, state.rng.getstate())
+    chosen_button = answer_button(state, correct)
+    chosen = popup.answer_order[popup.answer_buttons.index(chosen_button)]
+    before = (state.player.cell, state.npc.cell, state.moves_remaining, state.rng.getstate())
     screen = pygame.Surface((SCREEN_WIDTH, SCREEN_HEIGHT))
     # Let the answer buttons settle at their resting lift (M6.f.8) before
     # capturing the distractors; the reveal must then leave them untouched.
@@ -164,12 +138,6 @@ def test_outcome_timing_input_guard_and_draw_clock(renderer, correct, duration, 
         popup.answer_order, popup.answer_buttons,
     ) if i not in (chosen, question.answer_index)]
     state.handle_events([click(chosen_button.rect.center)])
-    if not duration:
-        assert state.reveal is None
-        assert state.pending is None
-        assert state.moves_remaining == before[2] - 1
-        return
-
     assert state.reveal.duration_ms == (1300 if correct else None)
     assert state.reveal.waits_for_click == (not correct)
     calls = []
@@ -187,15 +155,14 @@ def test_outcome_timing_input_guard_and_draw_clock(renderer, correct, duration, 
     state.handle_events([click(chosen_button.rect.center)])
     if correct:
         state.update(state.reveal.duration_ms - 501)
-        assert (state.player.cell, state.blue.cell, state.moves_remaining, state.rng.getstate()) == before
+        assert (state.player.cell, state.npc.cell, state.moves_remaining, state.rng.getstate()) == before
         state.update(1)
     else:
         state.update(60_000)  # a held reveal never expires on its own
-        assert (state.player.cell, state.blue.cell, state.moves_remaining, state.rng.getstate()) == before
+        assert (state.player.cell, state.npc.cell, state.moves_remaining, state.rng.getstate()) == before
         assert state.pending is not None
         state.handle_events([click(popup.continue_button.rect.center)])
-        state.update(BUTTON_PRESS_DOWN_MS)
-        state.update(BUTTON_PRESS_HOLD_MS)
+        land_press(state)
     assert state.reveal is None and state.pending is None
     assert state.moves_remaining == before[2] - 1
     next_click = click(state.view.cell_to_rect(sorted(state.moves)[0]).center)

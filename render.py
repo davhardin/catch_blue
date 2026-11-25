@@ -1,6 +1,5 @@
 """Theme-aware pygame drawing and text layout."""
 
-from colorsys import rgb_to_hsv
 from contextlib import contextmanager
 from dataclasses import fields, replace
 from math import cos, tau
@@ -8,7 +7,7 @@ from math import cos, tau
 import pygame
 
 from constants import LINE_WIDTH
-from theme import Alignment, HueShift, Skin, Theme, shift_color_to_hue
+from theme import Alignment, NineSlice, Skin, Theme
 
 
 def mix_color(start, end, amount):
@@ -62,110 +61,49 @@ class Renderer:
             self.fonts[role] = loaded[key]
 
     @staticmethod
-    def _extract_packed_source(
-        sheet: pygame.Surface,
-        source_rect: pygame.Rect,
-        tile_size: int,
-        gap: int,
-    ) -> pygame.Surface:
-        pitch = tile_size + gap
+    def _load_tile(name: str, spec: NineSlice) -> pygame.Surface:
+        tile = pygame.image.load(str(spec.tile))
+        width, height = tile.get_size()
+        art_width = spec.tile_size
         if (
-            (source_rect.width + gap) % pitch
-            or (source_rect.height + gap) % pitch
+            type(art_width) is not int
+            or art_width <= 0
+            or width % art_width
         ):
-            raise ValueError('Packed skin source does not align to its tile grid')
-
-        cols = (source_rect.width + gap) // pitch
-        rows = (source_rect.height + gap) // pitch
-        extracted = pygame.Surface(
-            (cols * tile_size, rows * tile_size),
-            pygame.SRCALPHA,
-        )
-
-        for row in range(rows):
-            for col in range(cols):
-                tile_rect = pygame.Rect(
-                    source_rect.left + col * pitch,
-                    source_rect.top + row * pitch,
-                    tile_size,
-                    tile_size,
-                )
-                extracted.blit(
-                    sheet,
-                    (col * tile_size, row * tile_size),
-                    tile_rect,
-                )
-
-        return extracted
-
-    @staticmethod
-    def _apply_hue_shift(
-        surface: pygame.Surface,
-        shift: HueShift,
-    ) -> None:
-        for y in range(surface.get_height()):
-            for x in range(surface.get_width()):
-                color = surface.get_at((x, y))
-                if color.a == 0:
-                    continue
-
-                hue, saturation, _ = rgb_to_hsv(
-                    color.r / 255,
-                    color.g / 255,
-                    color.b / 255,
-                )
-                hue_degrees = hue * 360
-                distance = abs(
-                    (hue_degrees - shift.source_hue + 180) % 360 - 180
-                )
-                if (
-                    saturation < shift.minimum_saturation
-                    or distance > shift.tolerance
-                ):
-                    continue
-
-                red, green, blue = shift_color_to_hue(
-                    (color.r, color.g, color.b),
-                    shift.target_hue,
-                )
-                surface.set_at((x, y), (red, green, blue, color.a))
+            raise ValueError(f'Invalid skin tile size: {name}')
+        factor = width // art_width
+        if height % factor:
+            raise ValueError(f'Skin tile is not a whole-pixel export: {name}')
+        if factor == 1:
+            return tile
+        # An export drawn at 8x holds 8x8 blocks of one color, so shrinking
+        # by the same whole factor returns each art pixel exactly.
+        return pygame.transform.scale(tile, (art_width, height // factor))
 
     def _load_skin(self, skin: Skin):
         if type(skin.scale) is not int or skin.scale <= 0:
             raise ValueError('Skin scale must be an exact positive integer')
 
-        tile_size = skin.packed_tile_size
-        gap = skin.packed_tile_gap
-        if tile_size is None:
-            if gap != 0:
-                raise ValueError('Packed skin gap requires a tile size')
-        elif (
-            type(tile_size) is not int
-            or tile_size <= 0
-            or type(gap) is not int
-            or gap < 0
-        ):
-            raise ValueError('Packed skin tile size and gap are invalid')
-
         # Renderer is constructed before Game creates the display.
         sheet = pygame.image.load(str(skin.sheet))
-        uses_custom_sources = (
-            tile_size is not None
-            or skin.hue_shift is not None
+        self._skin_sheet = pygame.transform.scale(
+            sheet,
+            (
+                sheet.get_width() * skin.scale,
+                sheet.get_height() * skin.scale,
+            ),
         )
-
-        if not uses_custom_sources:
-            self._skin_sheet = pygame.transform.scale(
-                sheet,
-                (
-                    sheet.get_width() * skin.scale,
-                    sheet.get_height() * skin.scale,
-                ),
-            )
 
         for name, spec in skin.elements:
             if name in self._skin_elements:
                 raise ValueError(f'Duplicate skin element: {name}')
+
+            # A loose tile is its own small sheet, already in art pixels.
+            element_sheet = (
+                sheet if spec.tile is None else self._load_tile(name, spec)
+            )
+            # Loose tiles are scaled one element at a time.
+            scales_alone = spec.tile is not None
 
             x, y, width, height = spec.source
             source_rect = pygame.Rect(spec.source)
@@ -173,21 +111,13 @@ class Renderer:
                 any(type(value) is not int for value in spec.source)
                 or width <= 0
                 or height <= 0
-                or not sheet.get_rect().contains(source_rect)
+                or not element_sheet.get_rect().contains(source_rect)
             ):
                 raise ValueError(f'Invalid skin source: {name}')
 
-            if tile_size is not None:
-                source = self._extract_packed_source(
-                    sheet,
-                    source_rect,
-                    tile_size,
-                    gap,
-                )
-            elif skin.hue_shift is not None:
-                source = sheet.subsurface(source_rect).copy()
+            if scales_alone:
+                source = element_sheet.subsurface(source_rect)
             else:
-                assert self._skin_sheet is not None
                 scaled_rect = pygame.Rect(
                     x * skin.scale,
                     y * skin.scale,
@@ -197,8 +127,8 @@ class Renderer:
                 source = self._skin_sheet.subsurface(scaled_rect)
 
             left, top, right, bottom = spec.insets
-            inset_width = source.get_width() if uses_custom_sources else width
-            inset_height = source.get_height() if uses_custom_sources else height
+            inset_width = source.get_width() if scales_alone else width
+            inset_height = source.get_height() if scales_alone else height
             if (
                 any(
                     type(value) is not int or value < 0
@@ -209,10 +139,7 @@ class Renderer:
             ):
                 raise ValueError(f'Invalid skin insets: {name}')
 
-            if uses_custom_sources:
-                source = source.copy()
-                if skin.hue_shift is not None:
-                    self._apply_hue_shift(source, skin.hue_shift)
+            if scales_alone:
                 source = pygame.transform.scale(
                     source,
                     (

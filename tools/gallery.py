@@ -5,6 +5,7 @@ Usage (from the repo root):
     .venv/bin/python tools/gallery.py --out catch_blue_local_only/gallery/flat-before
     .venv/bin/python tools/gallery.py --theme pixel --out catch_blue_local_only/gallery/pixel-v1
     .venv/bin/python tools/gallery.py --accent-comparison --out catch_blue_local_only/gallery/accents
+    .venv/bin/python tools/gallery.py --theme pixel --mode run_from_red   # that mode's play frames
     .venv/bin/python tools/gallery.py --compare A B      # pixel-diff two galleries
 
 Deterministic: a fixed seed drives the scramble, rotation, shuffle, and flee,
@@ -13,6 +14,9 @@ byte. That is the M6.f.2 check — the flat gallery must be identical before
 and after the render-primitive refactor.
 
 `--theme` selects the actual renderer theme; flat remains the default.
+`--mode run_from_red` renders that mode's board, both reveals, and both end
+screens instead of the full Catch Blue gallery. Play starts through
+`Game.start_play`, so the mode gets its accent renderer.
 """
 
 from __future__ import annotations
@@ -33,7 +37,7 @@ import pygame  # noqa: E402
 
 from constants import BUTTON_PRESS_DOWN_MS, BUTTON_PRESS_HOLD_MS  # noqa: E402
 from game import Game  # noqa: E402
-from theme import ACCENT_KEYS, FLAT, PIXEL, THEMES, UI_BLUE  # noqa: E402
+from theme import ACCENT_KEYS, FLAT, PIXEL, THEMES  # noqa: E402
 from game_setup import GameConfig  # noqa: E402
 from modes import get_mode  # noqa: E402
 from questions import QuestionBank  # noqa: E402
@@ -138,7 +142,7 @@ def render_gallery(out_dir: Path, theme=FLAT):
     # 5. Play — hover over a legal move
     hover_cell = min(
         state.moves,
-        key=lambda c: state.board.distance(c, state.blue.cell),
+        key=lambda c: state.board.distance(c, state.npc.cell),
     )
     hover = pygame.event.Event(
         pygame.MOUSEMOTION, pos=state.view.cell_to_rect(hover_cell).center
@@ -161,7 +165,7 @@ def render_gallery(out_dir: Path, theme=FLAT):
     # 8. Play — reveal after a correct answer
     target = min(
         state.moves,
-        key=lambda c: state.board.distance(c, state.blue.cell),
+        key=lambda c: state.board.distance(c, state.npc.cell),
     )
     frame(game, [click(state.view.cell_to_rect(target).center)])
     frame(game, [answer_event(state, True)])
@@ -173,12 +177,12 @@ def render_gallery(out_dir: Path, theme=FLAT):
         if isinstance(game.state, GameOverState):
             break
         st = game.state
-        if st.blue.cell in st.board.neighbors(st.player.cell):
-            target = st.blue.cell
+        if st.npc.cell in st.board.neighbors(st.player.cell):
+            target = st.npc.cell
         else:
             target = min(
                 st.moves,
-                key=lambda c: st.board.distance(c, st.blue.cell),
+                key=lambda c: st.board.distance(c, st.npc.cell),
             )
         frame(game, [click(st.view.cell_to_rect(target).center)])
         frame(game, [answer_event(st, True)])
@@ -221,13 +225,85 @@ def render_gallery(out_dir: Path, theme=FLAT):
     return saved
 
 
+def render_run_from_red_gallery(out_dir: Path, theme=FLAT):
+    """Run from Red's play frames: the board, a wrong reveal, a right reveal,
+    the catch, and the escape. Right answers step to the legal square farthest
+    from Red; wrong answers click the first legal square, which leaves the
+    Player put while Red closes in."""
+    out_dir.mkdir(parents=True, exist_ok=True)
+    bank = QuestionBank(ROOT / "data" / "questions")
+    game = Game(bank, rng=Random(SEED), theme=theme)
+    config = GameConfig(
+        "run_from_red",
+        "anatomy_physiology",
+        TOPICS,
+        settings=get_mode("run_from_red").settings_spec().default,
+    )
+    saved = []
+
+    def flee_target(st):
+        return max(
+            sorted(st.moves),
+            key=lambda c: st.board.distance(c, st.npc.cell),
+        )
+
+    # 1. Board
+    game.start_play(config)
+    state = game.state
+    frame(game)
+    settle(game)
+    saved.append(capture(game, out_dir, "red_01_board"))
+
+    # 2. A wrong answer: the reveal holds for Continue, then Red steps closer
+    frame(game, [click(state.view.cell_to_rect(sorted(state.moves)[0]).center)])
+    frame(game, [answer_event(state, False)])
+    assert state.reveal is not None
+    saved.append(capture(game, out_dir, "red_02_reveal_wrong"))
+    finish_reveal(game, state)
+
+    # 3. A right answer: the Player steps away and Red holds still
+    frame(game, [click(state.view.cell_to_rect(flee_target(state)).center)])
+    frame(game, [answer_event(state, True)])
+    assert state.reveal is not None
+    saved.append(capture(game, out_dir, "red_03_reveal_right"))
+    finish_reveal(game, state)
+
+    # 4. Caught: a fresh game, every answer wrong until Red lands on the Player
+    game.start_play(config)
+    for _ in range(40):
+        if isinstance(game.state, GameOverState):
+            break
+        st = game.state
+        frame(game, [click(st.view.cell_to_rect(sorted(st.moves)[0]).center)])
+        frame(game, [answer_event(st, False)])
+        finish_reveal(game, st)
+    assert isinstance(game.state, GameOverState) and game.state.result == "lose"
+    settle(game)
+    saved.append(capture(game, out_dir, "red_04_caught"))
+
+    # 5. Escaped: a fresh game, every answer right, fleeing until Red can't catch up
+    game.start_play(config)
+    for _ in range(40):
+        if isinstance(game.state, GameOverState):
+            break
+        st = game.state
+        frame(game, [click(st.view.cell_to_rect(flee_target(st)).center)])
+        frame(game, [answer_event(st, True)])
+        finish_reveal(game, st)
+    assert isinstance(game.state, GameOverState) and game.state.result == "win"
+    settle(game)
+    saved.append(capture(game, out_dir, "red_05_got_away"))
+
+    pygame.quit()
+    return saved
+
+
 def render_accent_comparison(out_dir: Path):
     out_dir.mkdir(parents=True, exist_ok=True)
     saved = []
 
     mechanisms = (
-        ('remap', PIXEL),
-        ('ui', UI_BLUE),
+        ('pixel', PIXEL),
     )
 
     for mechanism, base_theme in mechanisms:
@@ -280,6 +356,10 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     parser.add_argument("--theme", default="flat", choices=THEMES, help="renderer theme")
     parser.add_argument("--out", type=Path, help="output folder (default: catch_blue_local_only/gallery/<theme>)")
+    parser.add_argument(
+        "--mode", default=GALLERY_MODE, choices=(GALLERY_MODE, "run_from_red"),
+        help="catch_blue renders every screen; run_from_red renders that mode's play frames",
+    )
     actions = parser.add_mutually_exclusive_group()
     actions.add_argument(
         "--compare", nargs=2, type=Path, metavar=("A", "B"),
@@ -287,7 +367,7 @@ def main():
     )
     actions.add_argument(
         "--accent-comparison", action="store_true",
-        help="render one board per accent for both candidate mechanisms",
+        help="render one board per accent",
     )
     args = parser.parse_args()
 
@@ -311,8 +391,12 @@ def main():
             print(f"  {path.name}")
         return
 
-    out = args.out or (ROOT / "catch_blue_local_only" / "gallery" / args.theme)
-    saved = render_gallery(out, THEMES[args.theme])
+    if args.mode == "run_from_red":
+        out = args.out or (ROOT / "catch_blue_local_only" / "gallery" / f"{args.theme}-run_from_red")
+        saved = render_run_from_red_gallery(out, THEMES[args.theme])
+    else:
+        out = args.out or (ROOT / "catch_blue_local_only" / "gallery" / args.theme)
+        saved = render_gallery(out, THEMES[args.theme])
     print(f"rendered {len(saved)} screens to {out}")
     for path in saved:
         print(f"  {path.name}")

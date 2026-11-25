@@ -14,7 +14,7 @@ The player starts in the corner of the grid (usually 5 x 5--see Systems), and Bl
 Beyond simply replicating John Wetzel's game in Python, the current project will also add three new game modes: Run from Red, Race Green, and Find Yellow.
 
 ### Run from Red
-In Run from Red, the roles are reversed: the Player starts in the middle, Red starts in the corner, and the goal is to run away! Red must catch the Player, by landing on the Player's square, within a certain number of turns. As in Catch Blue, the Player must answer questions to move. Correct answers move the Player forward, incorrect answers allow Red to catch up. The win condition is the reverse of Catch Blue's early loss: the Player wins once the moves left are fewer than the distance Red needs to close, so Red can no longer catch them.
+In Run from Red, the roles are reversed: the Player starts in the middle, Red starts in the corner, and the goal is to run away! Red must catch the Player, by landing on the Player's square, within a certain number of turns. As in Catch Blue, the Player must answer questions to move, and the question comes from the square they click. The Player can't step onto Red's square. Correct answers move the Player forward, incorrect answers allow Red to catch up. The win condition is the reverse of Catch Blue's early loss: the Player wins once the moves left are fewer than the distance Red needs to close, so Red can no longer catch them.
 
 ### Race Green
 In Race Green, the Player and Green each start at the bottom of their own vertical strip (3 wide, 9 tall by default) and race to the top. The first to reach the top wins! Movement is forward-only: every move is one row up, straight or diagonal, so a runner in the middle column has three squares to choose from and a runner on an edge has two. The Player answers a question from the square they pick; correct, they move there; incorrect, Green advances one row instead (this may change for the Medium and Hard difficulties). Because every move is progress, the Player's real decision each turn is which subtopic to answer next. The board is viewed through a camera showing five rows at a time, starting at the bottom and following the Player up, so strip height can grow with difficulty.
@@ -28,7 +28,7 @@ Find Yellow places the Player and Yellow on a procedurally generated maze. The w
 - Every character moves one square at a time within the board. Catch Blue, Run from Red, and Find Yellow move orthogonally (no diagonals). Race Green moves forward-only: up, up-left, or up-right, never sideways or back.
 - A turn is one answered question. Exactly one side moves per turn: correct, the Player moves onto the clicked square; incorrect, the Player stays and the NPC moves.
 - **Blue** flees greedily: any adjacent free square that increases its distance from the Player, ties broken at random, holds still when cornered.
-- **Red** (planned) steps toward the Player on incorrect answers only, mirroring Blue, and catches by landing on the Player's square. **Green** (planned) advances one row on incorrect answers, choosing any of its forward squares; Medium and Hard may change the trigger. **Yellow** (planned) flees like Blue, unseen until found.
+- **Red** steps toward the Player on incorrect answers only, mirroring Blue, and catches by landing on the Player's square. **Green** (planned) advances one row on incorrect answers, choosing any of its forward squares; Medium and Hard may change the trigger. **Yellow** (planned) flees like Blue, unseen until found.
 
 ### Board and squares
 - Board size is a setting: 5 x 5, 7 x 7, or 9 x 9. The board is drawn in a fixed 800 px region, so the window never changes size. Race Green and Find Yellow both use boards larger than the region and need a camera that follows the Player; the region becomes a viewport onto the board. Race Green's viewport shows five rows and starts at the bottom of the strips; Find Yellow's follows the Player through the maze and is what keeps Yellow hidden at the start. Not built yet.
@@ -40,7 +40,7 @@ Find Yellow places the Player and Yellow on a procedurally generated maze. The w
 ### Characters
 - `Character` base class (cell, shape, color) with `Player` and `Blue` subclasses; Red, Green, and Yellow join as siblings. Start cells are set per mode.
 - Colors are from the Okabe-Ito colorblind-safe palette; sprites are planned once art arrives, with shapes as the fallback.
-- The pixel theme takes its accent color from the mode: blue for Catch Blue, red for Run from Red, green for Race Green, yellow for Find Yellow.
+- The pixel theme takes its accent color from the mode: blue for Catch Blue, red for Run from Red, green for Race Green, yellow for Find Yellow. Each color has its own hand-drawn set of button and square tiles. The menus stay blue; play, pause, and the end screen take the mode's color.
 
 ### Questions and difficulty
 - Multiple choice only; choices are shuffled at ask time. Stored as JSON, one file per topic, in a subject → topic → subtopic hierarchy. The board shows subtopics; the Topics menu selects topics.

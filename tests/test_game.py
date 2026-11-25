@@ -8,10 +8,11 @@ from game import Game
 
 @pytest.mark.parametrize("transition", [False, True])
 def test_frame_updates_before_input_and_does_not_forward_stale_events(monkeypatch, transition):
-    game = Game.__new__(Game)
+    game = Game.__new__(Game)  # skips __init__, so set what step() reads
     game.screen = object()
     game.fps = 60
     game.running = True
+    game._dev_accent_cycle = False
     calls = []
     event = pygame.event.Event(pygame.MOUSEBUTTONDOWN, button=1, pos=(10, 10))
     batches = iter([[event], [pygame.event.Event(pygame.QUIT)]])
@@ -69,10 +70,11 @@ def test_frame_updates_before_input_and_does_not_forward_stale_events(monkeypatc
 
 
 def test_step_reports_running_and_leaves_quit_to_the_caller(monkeypatch):
-    game = Game.__new__(Game)
+    game = Game.__new__(Game)  # skips __init__, so set what step() reads
     game.screen = object()
     game.fps = 60
     game.running = True
+    game._dev_accent_cycle = False
     calls = []
     batches = iter([[], [pygame.event.Event(pygame.QUIT)]])
 

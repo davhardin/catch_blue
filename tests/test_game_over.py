@@ -1,52 +1,23 @@
 """Ending panels share question geometry and retain their navigation actions."""
 
-from pathlib import Path
-from random import Random
-from types import SimpleNamespace
-from unittest.mock import Mock
-
 import pygame
 import pytest
 
 from board import Cell
 from constants import (
-    BUTTON_PRESS_DOWN_MS, BUTTON_PRESS_HOLD_MS,
     SCREEN_WIDTH, SCREEN_HEIGHT, SIDE_PANEL_GAP, SIDE_PANEL_LEFT, SIDE_PANEL_PADDING,
     SIDE_PANEL_TOP, SIDE_PANEL_WIDTH,
 )
-from game_setup import GameConfig
-from modes import get_mode
+from conftest import GameStub, land_press, make_play, play_config
 from question_popup import build_question_popup
-from questions import QuestionBank
-from render import Renderer
 from states.game_over import GameOverState
-from states.play import PlayState
-from theme import FLAT, PIXEL
-
-DEFAULT_SETTINGS = get_mode('catch_blue').settings_spec().default
-BANK = QuestionBank(Path(__file__).resolve().parents[1] / 'data' / 'questions')
-
-
-@pytest.fixture(params=[FLAT, PIXEL], ids=['flat', 'pixel'])
-def game(request):
-    pygame.font.init()
-    yield SimpleNamespace(
-        bank=BANK,
-        settings_by_mode={'catch_blue': DEFAULT_SETTINGS},
-        settings_mode='catch_blue',
-        topic_selections={},
-        renderer=Renderer(request.param),
-        start_play=Mock(),
-        show_main_menu=Mock(),
-    )
-    pygame.font.quit()
 
 
 @pytest.mark.parametrize('result', ['win', 'lose'])
-def test_ending_panel_matches_question_and_navigation(game, result):
-    bank = game.bank
-    config = GameConfig('catch_blue', 'anatomy_physiology', ('cells',), DEFAULT_SETTINGS)
-    play = PlayState(game, config, Random(17))
+def test_ending_panel_matches_question_and_navigation(renderer, bank, result):
+    game = GameStub(bank, renderer)
+    config = play_config()
+    play = make_play(bank, config, game=game)
     state = GameOverState(game, config, result, play)
     assert state.renderer is play.renderer
     question = bank.questions[0]
@@ -89,6 +60,5 @@ def test_ending_panel_matches_question_and_navigation(game, result):
             pygame.MOUSEBUTTONDOWN, button=1, pos=button.rect.center,
         )])
         callback.assert_not_called()  # the press lands after its animation
-        state.update(BUTTON_PRESS_DOWN_MS)
-        state.update(BUTTON_PRESS_HOLD_MS)
+        land_press(state)
         callback.assert_called_once_with(*args)

@@ -13,6 +13,9 @@ from theme import DEFAULT_THEME, FLAT, PIXEL, THEMES
 
 @pytest.fixture
 def startup(monkeypatch):
+    # Python 3.14's argparse colors --help when FORCE_COLOR is set; these
+    # tests read the plain text. (color=False would break older Pythons.)
+    monkeypatch.setenv('PYTHON_COLORS', '0')
     bank = SimpleNamespace(subjects=['anatomy_physiology'])
     load = Mock(return_value=bank)
     game = Mock()
@@ -29,7 +32,7 @@ def test_theme_selection_passes_registry_identity(startup, argv, selected):
     bank, load, game = startup
     main.main(argv)
     load.assert_called_once_with(Path(main.__file__).resolve().parent / 'data' / 'questions')
-    game.assert_called_once_with(bank, theme=selected)
+    game.assert_called_once_with(bank, theme=selected, dev_accent_cycle=False)
     assert game.call_args.kwargs['theme'] is selected
     game.return_value.run.assert_called_once_with()
     assert DEFAULT_THEME == 'pixel'
@@ -57,6 +60,11 @@ def test_choices_are_taken_from_registry_and_sorted(startup, monkeypatch, capsys
     assert '--theme {alpha,pixel,zeta}' in capsys.readouterr().out
     startup[1].assert_not_called()
     startup[2].assert_not_called()
+
+
+def test_dev_accent_cycle_flag_reaches_the_game(startup):
+    main.main(['--dev-accent-cycle'])
+    assert startup[2].call_args.kwargs['dev_accent_cycle'] is True
 
 
 def test_none_argv_reads_process_arguments(startup, monkeypatch):
@@ -105,7 +113,9 @@ def test_web_loop_yields_every_frame_and_quits_once(startup, monkeypatch):
     asyncio.run(main.main_web())
 
     load.assert_called_once()
-    game.assert_called_once_with(load.return_value, theme=THEMES[DEFAULT_THEME])
+    game.assert_called_once_with(
+        load.return_value, theme=THEMES[DEFAULT_THEME], dev_accent_cycle=False,
+    )
     assert game.return_value.step.call_count == 3
     game.return_value.run.assert_not_called()
     assert sleeps == [0, 0]

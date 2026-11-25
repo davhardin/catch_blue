@@ -1,27 +1,23 @@
-"""Display-only board aliases and shipped-label fit on the current 5x5 board."""
+"""Display-only board aliases.
+
+Every shipped label's fit on the board is checked by the full-bank audit in
+test_pixel_layout.py, at each board size on both themes.
+"""
 
 from collections import Counter
-from pathlib import Path
 
 import pygame
 import pytest
 
-from render import Renderer
-from theme import FLAT
 from board import Board, Cell
 from board_view import BoardView
-from constants import BOARD_REGION, LABEL_PADDING
-from game_setup import subtopic_display_name
-from questions import QuestionBank
+from constants import BOARD_REGION
 
 
 @pytest.fixture
-def renderer():
-    pygame.font.init()
-    try:
-        yield Renderer(FLAT)
-    finally:
-        pygame.font.quit()
+def renderer(flat_renderer):
+    """These tests pin flat's own primitives."""
+    return flat_renderer
 
 
 def test_board_draw_uses_display_alias_without_mutating_labels(renderer, monkeypatch):
@@ -53,29 +49,3 @@ def test_board_draw_uses_display_alias_without_mutating_labels(renderer, monkeyp
     assert Counter(wrapped_texts) == {"Muscle Physiology": 1, "Overview": 24}
     assert raw_subtopic not in wrapped_texts
     assert labels == original
-
-
-def test_all_shipped_labels_fit_current_board(renderer):
-    bank = QuestionBank(Path(__file__).resolve().parent.parent / "data" / "questions")
-    raw_pairs = {(q.topic, q.subtopic) for q in bank.questions}
-    # A floor, not an exact count: the bank is content and changes on its own clock.
-    assert len(raw_pairs) >= 60
-    view = BoardView(Board(5, 5), 0, 0, BOARD_REGION)
-    available = view.cell_size - 2 * LABEL_PADDING
-    failures = []
-
-    for topic, subtopic in sorted(raw_pairs):
-        display_name = subtopic_display_name(topic, subtopic)
-        lines = renderer.wrap(display_name, available, 'label')
-        widths = [renderer.measure(line, 'label')[0] for line in lines]
-        rect = pygame.Rect(LABEL_PADDING, LABEL_PADDING, available, available)
-        assert all(rect.contains(line_rect) for line_rect in renderer.text_rects(lines, rect, 'label'))
-        height = len(lines) * renderer.line_height('label')
-        if any(width > available for width in widths) or height > available:
-            failures.append(
-                f"{(topic, subtopic)!r}: display={display_name!r}, "
-                f"lines={lines!r}, widths={widths}, height={height}, "
-                f"available={available}x{available}"
-            )
-
-    assert not failures, "Labels exceed cell bounds:\n" + "\n".join(failures)

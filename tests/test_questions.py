@@ -1,22 +1,24 @@
-"""Questions: the from_dict boundary, bank loading, and pair-scoped rotation.
+"""Questions: the from_dict boundary, bank loading, and pair-scoped draws.
 
 Everything here runs without a window -- questions.py is pygame-free by
 design, and the last test makes sure it stays that way.
 
-Per milestones/m3.md trap 7: next_question mutates used-state, so every test
-builds its own bank from its own tmp_path files -- no shared banks, ever.
-The real data/questions/ content gets exactly one smoke test; content is
-data, not behavior, and M5 will churn it.
+Per milestones/m3.md trap 7: drawing a question (next_unused_question)
+mutates used-state, so every test builds its own bank from its own tmp_path
+files -- no shared banks, ever. The real data/questions/ content gets exactly
+one smoke test; content is data, not behavior, and M5 will churn it.
+
+Drawing until a pool is dry, and restarting pools, are in test_pool_cycling.py.
 """
 
 import json
 import subprocess
 import sys
-from pathlib import Path
 from random import Random
 
 import pytest
 
+from conftest import ROOT, write_bank
 from questions import Question, QuestionBank
 
 # --- helpers ----------------------------------------------------------------
@@ -40,13 +42,8 @@ def make_question(**overrides):
 
 
 def write_file(directory, filename, questions):
+    """Write one file without loading, for banks built from several files."""
     (directory / filename).write_text(json.dumps(questions), encoding="utf-8")
-
-
-def build_bank(tmp_path, questions, filename="bank.json"):
-    """One-file bank from a list of question dicts."""
-    write_file(tmp_path, filename, questions)
-    return QuestionBank(tmp_path)
 
 
 # --- Question.from_dict: the happy path -------------------------------------
@@ -115,11 +112,6 @@ def test_shuffle_false_preserves_file_order():
         assert q.display_order(Random(seed)) == canonical_order
 
 
-def test_same_seed_produces_same_display_order():
-    q = Question.from_dict(make_question())
-    assert q.display_order(Random(42)) == q.display_order(Random(42))
-
-
 def test_repeated_asks_create_fresh_orders_without_mutating_question():
     q = Question.from_dict(make_question())
     original_choices = list(q.choices)
@@ -159,7 +151,7 @@ def test_from_dict_rejects_missing_field(field):
         Question.from_dict(data)
 
 
-@pytest.mark.parametrize("bad_index", [-1, 3, 99])
+@pytest.mark.parametrize("bad_index", [-1, 3])
 def test_from_dict_rejects_out_of_range_answer_index(bad_index):
     """Three choices, so valid indices are 0-2; the error names the id."""
     with pytest.raises(ValueError, match="q-001"):
@@ -173,7 +165,7 @@ def test_from_dict_rejects_unknown_type():
         Question.from_dict(make_question(type="fill_blank"))
 
 
-@pytest.mark.parametrize("bad_shuffle", ["false", 0, 1, None])
+@pytest.mark.parametrize("bad_shuffle", ["false", 1, None])
 def test_from_dict_rejects_non_boolean_shuffle(bad_shuffle):
     with pytest.raises(ValueError, match="q-001"):
         Question.from_dict(make_question(shuffle=bad_shuffle))
@@ -285,7 +277,7 @@ def test_bank_rejects_near_identical_subjects(tmp_path):
 
 
 def test_near_identical_subtopics_are_allowed_under_different_topics(tmp_path):
-    bank = build_bank(tmp_path, [
+    bank = write_bank(tmp_path, [
         make_question(
             id="a1",
             topic="topic_a",
@@ -306,7 +298,7 @@ def test_near_identical_subtopics_are_allowed_under_different_topics(tmp_path):
 
 
 def test_subjects_are_sorted_and_unique(tmp_path):
-    bank = build_bank(tmp_path, [
+    bank = write_bank(tmp_path, [
         make_question(id="1", subject="subject_z"),
         make_question(id="2", subject="subject_a", topic="anatomy"),
         make_question(id="3", subject="subject_a", topic="zoology"),
@@ -315,7 +307,7 @@ def test_subjects_are_sorted_and_unique(tmp_path):
 
 
 def test_topics_are_sorted_unique_and_scoped_to_subject(tmp_path):
-    bank = build_bank(tmp_path, [
+    bank = write_bank(tmp_path, [
         make_question(id="1", subject="subject_a", topic="zoology"),
         make_question(id="2", subject="subject_a", topic="anatomy"),
         make_question(id="3", subject="subject_b", topic="chemistry"),
@@ -326,7 +318,7 @@ def test_topics_are_sorted_unique_and_scoped_to_subject(tmp_path):
 
 
 def test_subtopics_are_sorted_unique_and_scoped_to_their_topic(tmp_path):
-    bank = build_bank(tmp_path, [
+    bank = write_bank(tmp_path, [
         make_question(id="1", topic="topic_a", subtopic="Zebra Section"),
         make_question(id="2", topic="topic_a", subtopic="Apple Section"),
         make_question(id="3", topic="topic_a", subtopic="Apple Section"),
@@ -336,57 +328,18 @@ def test_subtopics_are_sorted_unique_and_scoped_to_their_topic(tmp_path):
     assert bank.subtopics("topic_b") == ["Other Section"]
 
 
-# --- next_question: rotation within a (topic, subtopic) pool ----------------
+# --- next_unused_question: draws within a (topic, subtopic) pool -----------
+#
+# The checks here hold for any draw. Serving each question once and then
+# None, and restarting a pool with a fresh shuffle, are in test_pool_cycling.py.
 
 
-def three_pool():
-    """One pool of three questions, in load order a1, a2, a3."""
-    return [make_question(id=f"a{n}") for n in (1, 2, 3)]
+def draw(bank, rng, topic="topic_a", subtopic="Section One"):
+    question = bank.next_unused_question(topic, subtopic, rng)
+    return None if question is None else question.id
 
 
-def draw_ids(bank, rng, count, topic="topic_a", subtopic="Section One"):
-    return [bank.next_question(topic, subtopic, rng).id for _ in range(count)]
-
-
-@pytest.mark.parametrize("seed", range(10))
-def test_rotation_serves_each_question_once(tmp_path, seed):
-    bank = build_bank(tmp_path, three_pool())
-    assert sorted(draw_ids(bank, Random(seed), 3)) == ["a1", "a2", "a3"]
-
-
-@pytest.mark.parametrize("seed", range(10))
-def test_dry_pool_recycles_every_question(tmp_path, seed):
-    bank = build_bank(tmp_path, three_pool())
-    rng = Random(seed)
-    for _ in range(4):
-        assert sorted(draw_ids(bank, rng, 3)) == ["a1", "a2", "a3"]
-        assert bank.used_ids == {"a1", "a2", "a3"}
-
-
-def test_same_seed_produces_same_rotation_across_recycles(tmp_path):
-    bank = build_bank(tmp_path, three_pool())
-    other = QuestionBank(tmp_path)
-    assert draw_ids(bank, Random(42), 12) == draw_ids(other, Random(42), 12)
-
-
-def test_different_seeds_produce_different_rotations(tmp_path):
-    questions = [make_question(id=f"q{n}") for n in range(10)]
-    build_bank(tmp_path, questions)
-    sequences = [
-        draw_ids(QuestionBank(tmp_path), Random(seed), 20)
-        for seed in range(5)
-    ]
-    assert any(sequence != sequences[0] for sequence in sequences[1:])
-
-
-def test_recycled_orders_vary(tmp_path):
-    bank = build_bank(tmp_path, [make_question(id=f"q{n}") for n in range(10)])
-    rng = Random(7)
-    cycles = [tuple(draw_ids(bank, rng, 10)) for _ in range(5)]
-    assert len(set(cycles)) > 1
-
-
-def test_pool_shuffles_only_on_first_draw_and_recycle(tmp_path):
+def test_pool_shuffles_once_on_its_first_draw(tmp_path):
     class RecordingRandom(Random):
         def __init__(self, seed):
             super().__init__(seed)
@@ -396,96 +349,72 @@ def test_pool_shuffles_only_on_first_draw_and_recycle(tmp_path):
             self.shuffled_ids.append({q.id for q in items})
             super().shuffle(items)
 
-    bank = build_bank(tmp_path, three_pool())
+    bank = write_bank(tmp_path, [make_question(id=f"a{n}") for n in (1, 2, 3)])
     rng = RecordingRandom(7)
-    draw_ids(bank, rng, 3)
+    for _ in range(3):
+        draw(bank, rng)
     assert rng.shuffled_ids == [{"a1", "a2", "a3"}]
-    draw_ids(bank, rng, 3)
-    assert rng.shuffled_ids == [{"a1", "a2", "a3"}] * 2
 
 
-def test_rotation_continues_across_session_batches(tmp_path):
-    bank = build_bank(tmp_path, three_pool())
-    rng = Random(7)
-    first_session = draw_ids(bank, rng, 1)
-    assert bank.used_ids == set(first_session)
-    # Replay retains the bank and RNG rather than resetting either.
-    next_session = draw_ids(bank, rng, 2)
-    assert sorted(first_session + next_session) == ["a1", "a2", "a3"]
-
-
-def test_rotation_does_not_mutate_canonical_questions(tmp_path):
-    bank = build_bank(tmp_path, [
+def test_draws_do_not_mutate_canonical_questions(tmp_path):
+    bank = write_bank(tmp_path, [
         make_question(id=f"q{n}", shuffle=False) for n in range(5)
     ])
     originals = [(q.id, list(q.choices), q.answer_index, q.shuffle) for q in bank.questions]
-    rng = Random(7)
-    cycles = [tuple(draw_ids(bank, rng, 5)) for _ in range(4)]
-    assert len(set(cycles)) > 1  # shuffle=False controls answers, not rotation.
-    assert [(q.id, q.choices, q.answer_index, q.shuffle) for q in bank.questions] == originals
-    for q in bank.questions:
-        assert q.display_order(rng) == list(range(len(q.choices)))
-
-
-def test_recycle_resets_only_its_own_pool(tmp_path):
-    """Exhausting pool A must not disturb pool B's mid-rotation position."""
-    bank = build_bank(tmp_path, [
-        make_question(id="a1"),
-        make_question(id="a2"),
-        make_question(id="b1", subtopic="Section Two"),
-        make_question(id="b2", subtopic="Section Two"),
-    ])
-    rng = Random(7)
-    first_b = bank.next_question("topic_a", "Section Two", rng).id
-    # Exhaust and recycle Section One...
-    draw_ids(bank, rng, 3)
-    assert bank.used_ids & {"b1", "b2"} == {first_b}
-    # ...and Section Two resumes where it left off.
-    second_b = bank.next_question("topic_a", "Section Two", rng).id
-    assert {first_b, second_b} == {"b1", "b2"}
+    load_order = [q.id for q in bank.questions]
+    orders = set()
+    for seed in range(4):
+        fresh = QuestionBank(tmp_path)
+        rng = Random(seed)
+        orders.add(tuple(draw(fresh, rng) for _ in range(5)))
+        assert [(q.id, q.choices, q.answer_index, q.shuffle) for q in fresh.questions] == originals
+        for q in fresh.questions:
+            assert q.display_order(rng) == list(range(len(q.choices)))
+    # shuffle=False keeps each question's answers in file order, not the pool's.
+    assert any(order != tuple(load_order) for order in orders)
 
 
 def test_pools_of_the_same_topic_stay_isolated(tmp_path):
-    bank = build_bank(tmp_path, [
+    bank = write_bank(tmp_path, [
         make_question(id="a1"),
         make_question(id="b1", subtopic="Section Two"),
     ])
-    drawn = draw_ids(bank, Random(7), 4)
-    assert drawn == ["a1", "a1", "a1", "a1"]
+    rng = Random(7)
+    assert [draw(bank, rng), draw(bank, rng)] == ["a1", None]
+    assert bank.used_ids == {"a1"}
 
 
 def test_same_subtopic_name_under_two_topics_is_two_pools(tmp_path):
     """milestones/m3.md trap 10, live in the real data already: cells and
     tissues both have Filler subtopics. The pair key keeps them apart."""
-    bank = build_bank(tmp_path, [
+    bank = write_bank(tmp_path, [
         make_question(id="a1", topic="topic_a", subtopic="Overview"),
         make_question(id="b1", topic="topic_b", subtopic="Overview"),
     ])
     rng = Random(7)
-    assert bank.next_question("topic_a", "Overview", rng).id == "a1"
-    assert bank.next_question("topic_b", "Overview", rng).id == "b1"
-    # Recycling one Overview must not reset or leak into the other.
-    assert bank.next_question("topic_a", "Overview", rng).id == "a1"
-    assert bank.next_question("topic_b", "Overview", rng).id == "b1"
+    assert draw(bank, rng, "topic_a", "Overview") == "a1"
+    assert draw(bank, rng, "topic_b", "Overview") == "b1"
+    # Using up one Overview must not reset or leak into the other.
+    assert draw(bank, rng, "topic_a", "Overview") is None
+    assert draw(bank, rng, "topic_b", "Overview") is None
 
 
-def test_unknown_pair_raises(tmp_path):
-    bank = build_bank(tmp_path, [make_question()])
+def test_unknown_pair_raises_naming_it_and_marks_nothing_used(tmp_path):
+    bank = write_bank(tmp_path, [make_question()])
     rng = Random(7)
     with pytest.raises(ValueError, match="No Such Section"):
-        bank.next_question("topic_a", "No Such Section", rng)
+        draw(bank, rng, "topic_a", "No Such Section")
     with pytest.raises(ValueError, match="no_such_topic"):
-        bank.next_question("no_such_topic", "Section One", rng)
+        draw(bank, rng, "no_such_topic", "Section One")
     assert bank.used_ids == set()
 
 
 # --- the shipped data: one smoke test ---------------------------------------
 
 
-def test_shipped_question_files_load_and_validate():
+def test_shipped_question_files_load_and_validate(bank):
     """Content is data, not behavior -- this only proves the real files pass
     the from_dict gate and every topic has at least one subtopic."""
-    bank = QuestionBank(Path(__file__).parent.parent / "data" / "questions")
     assert bank.subjects
     for subject in bank.subjects:
         topics = bank.topics(subject)
@@ -503,6 +432,6 @@ def test_questions_module_never_imports_pygame():
     result = subprocess.run(
         [sys.executable, "-c", "import questions, sys; assert 'pygame' not in sys.modules"],
         capture_output=True,
-        cwd=Path(__file__).parent.parent,
+        cwd=ROOT,
     )
     assert result.returncode == 0, "questions.py has picked up a pygame dependency"

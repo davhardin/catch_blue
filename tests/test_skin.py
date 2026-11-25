@@ -5,14 +5,42 @@ import pygame
 import pytest
 
 from render import Renderer
-from theme import FLAT, PIXEL, NineSlice, Skin
+from theme import ACCENT_KEYS, FLAT, PIXEL, PIXEL_ACCENTS, NineSlice, Skin
+
+pytestmark = pytest.mark.usefixtures('fonts')
 
 
-@pytest.fixture(autouse=True)
-def fonts():
-    pygame.font.init()
-    yield
-    pygame.font.quit()
+def art_pixels(path, art_width=32):
+    """A tile file read back at one pixel per art pixel, by sampling block centres."""
+    image = pygame.image.load(str(path))
+    factor = image.get_width() // art_width
+    height = image.get_height() // factor
+    return [
+        [tuple(image.get_at((x * factor + factor // 2, y * factor + factor // 2)))
+         for x in range(art_width)]
+        for y in range(height)
+    ]
+
+
+def write_export(path, art, factor):
+    """Save `art` (rows of RGBA tuples) blown up by `factor`, as a pixel editor exports it."""
+    height, width = len(art), len(art[0])
+    image = pygame.Surface((width * factor, height * factor), pygame.SRCALPHA)
+    for y, row in enumerate(art):
+        for x, color in enumerate(row):
+            image.fill(color, pygame.Rect(x * factor, y * factor, factor, factor))
+    pygame.image.save(image, path)
+
+
+def tile_skin_theme(path, tile_size, source=(0, 0, 4, 3), insets=(1, 1, 1, 1), scale=2):
+    spec = NineSlice(source, insets, tile=path, tile_size=tile_size)
+    return replace(FLAT, skin=Skin(path, scale, (('panel', spec),)))
+
+
+ART = [
+    [(x * 60, y * 80, 200, 255) for x in range(4)]
+    for y in range(3)
+]
 
 
 def synthetic(tmp_path, scale=1, source=(1, 2, 9, 11), insets=(2, 3, 4, 2)):
@@ -125,26 +153,114 @@ def test_sheet_scaled_once(tmp_path, monkeypatch):
     assert calls.count(((12, 15), (24, 30))) == 1
 
 
-def test_correct_skin_has_green_face_and_preserves_corners():
-    style, border = 'correct', (114, 184, 78)
-    renderer = Renderer(PIXEL)
+@pytest.mark.parametrize('accent', ACCENT_KEYS)
+def test_correct_skin_has_green_face_and_preserves_corners(accent):
+    theme = PIXEL_ACCENTS[accent]
+    renderer = Renderer(theme)
+    spec = dict(theme.skin.elements)['button.correct']
+    art = art_pixels(spec.tile)
     surface = pygame.Surface((480, 70))
     surface.fill((1, 2, 3))
-    renderer.button(surface, surface.get_rect(), style)
-    assert surface.get_at((4, 35))[:3] == border
-    assert surface.get_at((240, 35))[:3] == PIXEL.palette.correct
-    assert surface.get_at((0, 0))[:3] == (1, 2, 3)  # colorkey survives scaling
+    renderer.button(surface, surface.get_rect(), 'correct')
+    # The left edge stretches the tile's edge column; the face is the correct color.
+    assert surface.get_at((4, 35))[:3] == art[16][2][:3]
+    assert surface.get_at((240, 35))[:3] == theme.palette.correct
     # Diagonal corner accents must remain local, never stretch across the face.
-    assert surface.get_at((240, 10))[:3] == (148, 175, 198)
-    spec = dict(PIXEL.skin.elements)[f'button.{style}']
-    source = pygame.image.load(str(PIXEL.skin.sheet))
+    assert surface.get_at((240, 10))[:3] == art[5][16][:3]
+    # The corner is the tile at scale 2, with transparent pixels left see-through.
     for y in range(12):
         for x in range(12):
-            color = source.get_at((spec.source[0] + x // 2, spec.source[1] + y // 2))
-            expected = (1, 2, 3) if color[:3] == (0, 0, 0) else color[:3]
+            color = art[y // 2][x // 2]
+            expected = (1, 2, 3) if color[3] == 0 else color[:3]
             assert surface.get_at((x, y))[:3] == expected
     renderer.cell(surface, surface.get_rect(), 'selected')
-    assert surface.get_at((240, 35))[:3] == PIXEL.palette.correct
+    assert surface.get_at((240, 35))[:3] == theme.palette.correct
+
+
+# --- loose tiles (M8.d) -------------------------------------------------------
+
+
+@pytest.mark.parametrize('factor', [1, 8])
+def test_tile_export_is_read_back_at_one_pixel_per_art_pixel(tmp_path, factor):
+    path = tmp_path / 'tile.png'
+    write_export(path, ART, factor)
+    spec = NineSlice((0, 0, 4, 3), (1, 1, 1, 1), tile=path, tile_size=4)
+    tile = Renderer._load_tile('panel', spec)
+    assert tile.get_size() == (4, 3)
+    assert [[tuple(tile.get_at((x, y))) for x in range(4)] for y in range(3)] == ART
+
+    # Through the skin: the element is the art at the skin's scale, insets scaled too.
+    renderer = Renderer(tile_skin_theme(path, 4))
+    source, insets = renderer._skin_elements['panel']
+    assert source.get_size() == (8, 6)
+    assert insets == (2, 2, 2, 2)
+    for y in range(6):
+        for x in range(8):
+            assert tuple(source.get_at((x, y))) == ART[y // 2][x // 2]
+
+
+@pytest.mark.parametrize('file_size,tile_size,message', [
+    ((30, 24), 4, 'tile size'),  # 30 px is not a whole multiple of 4
+    ((32, 20), 4, 'whole-pixel'),  # 8x wide, but 20 px is not a whole number of 8x rows
+    ((32, 24), None, 'tile size'),
+    ((32, 24), 0, 'tile size'),
+    ((32, 24), True, 'tile size'),
+    ((32, 24), 4.0, 'tile size'),
+])
+def test_invalid_tile_exports_are_rejected(tmp_path, file_size, tile_size, message):
+    path = tmp_path / 'tile.png'
+    pygame.image.save(pygame.Surface(file_size, pygame.SRCALPHA), path)
+    with pytest.raises(ValueError, match=message):
+        Renderer(tile_skin_theme(path, tile_size))
+
+
+def test_tile_source_is_checked_in_art_pixels(tmp_path):
+    path = tmp_path / 'tile.png'
+    write_export(path, ART, 8)
+    # The file is 32 px wide, but the art is 4: a 5 px source does not fit.
+    with pytest.raises(ValueError, match='source'):
+        Renderer(tile_skin_theme(path, 4, source=(0, 0, 5, 3)))
+
+
+@pytest.mark.parametrize('accent', ACCENT_KEYS)
+def test_shipped_tiles_are_whole_pixel_exports(accent):
+    tiles = {spec.tile for _, spec in PIXEL_ACCENTS[accent].skin.elements if spec.tile}
+    assert len(tiles) == 4  # normal (buttons and resting cells), inactive, correct, move
+    for path in tiles:
+        image = pygame.image.load(str(path))
+        spec = next(s for _, s in PIXEL_ACCENTS[accent].skin.elements if s.tile == path)
+        art = Renderer._load_tile(path.name, spec)
+        assert art.get_size() == (spec.tile_size, spec.tile_size)
+        # Blowing the art back up reproduces the file byte for byte: no smoothing.
+        restored = pygame.transform.scale(art, image.get_size())
+        assert pygame.image.tobytes(restored, 'RGBA') == pygame.image.tobytes(image, 'RGBA'), path.name
+
+
+@pytest.mark.parametrize('accent', ACCENT_KEYS)
+def test_move_tint_finds_each_accents_cell_face(accent):
+    theme = PIXEL_ACCENTS[accent]
+    renderer = Renderer(theme)
+    palette = theme.palette
+
+    # The move tile's face was recolored to palette.cell at load, so the tint finds it.
+    move_tile = renderer._skin_elements['cell.move'][0]
+    assert any(move_tile.get_at((x, y))[:3] == palette.cell
+               for x in range(move_tile.get_width())
+               for y in range(move_tile.get_height()))
+
+    rest, move = pygame.Surface((152, 152)), pygame.Surface((152, 152))
+    for surface, style in ((rest, 'normal'), (move, 'move')):
+        renderer.fill(surface)
+        renderer.cell(surface, surface.get_rect(), style)
+    assert rest.get_at((76, 76))[:3] == palette.cell
+    assert move.get_at((76, 76))[:3] == palette.cell_move
+
+    # No untinted face is left on a legal move: neither the resting face nor
+    # the move tile's own face as drawn in the file.
+    raw_move_face = art_pixels(dict(theme.skin.elements)['cell.move'].tile)[16][16][:3]
+    leftovers = {palette.cell, raw_move_face} - {palette.cell_move}
+    assert not any(move.get_at((x, y))[:3] in leftovers
+                   for x in range(0, 152, 2) for y in range(0, 152, 2))
 
 
 

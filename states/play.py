@@ -5,7 +5,7 @@ import pygame
 from board import Board, Cell
 from board_view import BoardView
 from cell_topics import CellTopics
-from characters import Blue, Character, Player
+from characters import Character, Player
 from constants import (
     BOARD_ORIGIN_X, BOARD_ORIGIN_Y, BOARD_REGION, REVEAL_DURATION,
     SIDE_PANEL_LEFT, SIDE_PANEL_TOP, SIDE_PANEL_WIDTH,
@@ -104,13 +104,6 @@ class PlayState:
     @property
     def npc(self) -> Character:
         return self.match.npc
-
-    @property
-    def blue(self) -> Blue:
-        npc = self.npc
-        if not isinstance(npc, Blue):
-            raise AttributeError('This match does not have Blue')
-        return npc
 
     @property
     def entities(self) -> list[Character]:

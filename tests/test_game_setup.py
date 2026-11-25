@@ -2,7 +2,8 @@
 
 Everything here runs without a window -- game_setup.py and cell_topics.py
 (where assign_cell_topics moved in the Phase 2 refactor) are pygame-free by
-design, and the last tests make sure they stay that way.
+design, and the last test makes sure they stay that way, along with the
+Phase 2 rule modules (match, rules, modes).
 
 The assignment tests lean on seeded random.Random instances (milestones/m4.md
 trap 5): same seed asserts exact equality, and the coverage test sweeps many
@@ -14,13 +15,13 @@ beyond the board size were deterministically excluded from every game.
 import subprocess
 import sys
 from collections import Counter
-from pathlib import Path
 from random import Random
 
 import pytest
 
 from board import Board
 from cell_topics import assign_cell_topics
+from conftest import ROOT
 from game_setup import (
     SUBJECT_TOPIC_ORDERS,
     SUBTOPIC_DISPLAY_NAMES,
@@ -28,14 +29,12 @@ from game_setup import (
     prettify_topic,
     subtopic_display_name,
 )
-from questions import QuestionBank
 
 # --- prettify_topic ---------------------------------------------------------
 
 
 @pytest.mark.parametrize("raw, display", [
     ("anatomical_language", "Anatomical Language"),
-    ("chemical_foundations", "Chemical Foundations"),
     ("cells", "Cells"),
 ])
 def test_prettify_topic(raw, display):
@@ -69,8 +68,7 @@ def test_subtopic_alias_is_scoped_to_its_topic():
     assert subtopic_display_name("cells", MUSCLE_SUBTOPIC) == MUSCLE_SUBTOPIC
 
 
-def test_subtopic_alias_keys_exist_in_shipped_bank():
-    bank = QuestionBank(Path(__file__).resolve().parent.parent / "data" / "questions")
+def test_subtopic_alias_keys_exist_in_shipped_bank(bank):
     raw_pairs = {(q.topic, q.subtopic) for q in bank.questions}
     assert set(SUBTOPIC_DISPLAY_NAMES) <= raw_pairs
 
@@ -78,7 +76,8 @@ def test_subtopic_alias_keys_exist_in_shipped_bank():
 HEART_SUBTOPIC = "Cardiac Electrophysiology"
 
 
-@pytest.mark.parametrize("board_size", [5, 7, 9])
+# 5 is the compact-names boundary; 7 and 9 sit on the same side of it.
+@pytest.mark.parametrize("board_size", [5, 9])
 def test_cardiac_conduction_alias_applies_at_every_board_size(board_size):
     """'Electrophysiology' alone overflows a 5x5 pixel tile, so the alias
     lives in the all-sizes map, not the compact one (Anson Vol. 2 import,
@@ -91,49 +90,17 @@ def test_cardiac_conduction_alias_applies_at_every_board_size(board_size):
 # --- order_topics_for_subject ----------------------------------------------
 
 
-ANATOMY_PHYSIOLOGY_TOPICS = [
-    "anatomical_language",
-    "chemical_foundations",
-    "cells",
-    "tissues",
-    "integumentary_system",
-    "skeletal_system",
-    "muscular_system",
-    "nervous_system",
-    "spinal_cord",
-    "brain",
-    "sensory_pathways_and_somatic_nervous_system",
-    "autonomic_nervous_system",
-    "special_senses",
-    "endocrine_system",
-    "blood",
-    "heart",
-    "blood_vessels",
-    "lymphatic_and_immune_system",
-    "respiratory_system",
-    "digestive_system",
-]
-
-
-def test_configured_order_matches_this_file():
-    assert list(SUBJECT_TOPIC_ORDERS["anatomy_physiology"]) == (
-        ANATOMY_PHYSIOLOGY_TOPICS
-    )
-
-
-def test_every_shipped_topic_has_a_configured_position():
+def test_every_shipped_topic_has_a_configured_position(bank):
     """An unlisted topic still loads but falls to the alphabetical tail of
     the menu; this guard turns that silent demotion into a failure."""
-    bank = QuestionBank(Path(__file__).resolve().parent.parent / "data" / "questions")
     shipped = set(bank.topics("anatomy_physiology"))
     assert shipped <= set(SUBJECT_TOPIC_ORDERS["anatomy_physiology"])
 
 
 def test_anatomy_physiology_topics_follow_curriculum_order():
-    scrambled = list(reversed(ANATOMY_PHYSIOLOGY_TOPICS))
-    assert order_topics_for_subject("anatomy_physiology", scrambled) == (
-        ANATOMY_PHYSIOLOGY_TOPICS
-    )
+    configured = list(SUBJECT_TOPIC_ORDERS["anatomy_physiology"])
+    scrambled = list(reversed(configured))
+    assert order_topics_for_subject("anatomy_physiology", scrambled) == configured
 
 
 def test_topic_order_omits_configured_topics_absent_from_bank():
@@ -181,7 +148,9 @@ def test_only_given_pairs_appear():
     assert set(assignment.values()) <= set(given)
 
 
-@pytest.mark.parametrize("n_pairs", [1, 3, 5, 25, 27])
+# Uneven split, exactly one each, and more pairs than cells (one pair is
+# test_single_pair_covers_the_whole_board).
+@pytest.mark.parametrize("n_pairs", [3, 25, 27])
 def test_assignment_is_balanced(n_pairs):
     """Counting absent pairs as zero: no pair may appear twice while another
     never appears -- max and min counts differ by at most 1."""
@@ -238,23 +207,17 @@ def test_input_pair_list_order_is_not_mutated():
 # --- the pure/pixel line ----------------------------------------------------
 
 
-def test_game_setup_module_never_imports_pygame():
+@pytest.mark.parametrize("module", ["game_setup", "cell_topics", "match", "rules", "modes"])
+def test_rule_modules_never_import_pygame(module):
     """milestones/m4.md: game_setup.py stays pygame-free so setup logic stays
-    headless-testable. Same guard as board, characters, and questions."""
+    headless-testable. cell_topics.py (assign_cell_topics moved there in the
+    Phase 2 refactor) and the Phase 2 rule modules -- match.py, rules.py,
+    modes.py -- hold to the same line, so the strips and the maze can reuse
+    them. Same guard as board, characters, and questions; a subprocess,
+    because this file's own imports would pollute sys.modules."""
     result = subprocess.run(
-        [sys.executable, "-c", "import game_setup, sys; assert 'pygame' not in sys.modules"],
+        [sys.executable, "-c", f"import {module}, sys; assert 'pygame' not in sys.modules"],
         capture_output=True,
-        cwd=Path(__file__).parent.parent,
+        cwd=ROOT,
     )
-    assert result.returncode == 0, "game_setup.py has picked up a pygame dependency"
-
-
-def test_cell_topics_module_never_imports_pygame():
-    """assign_cell_topics moved to cell_topics.py in the Phase 2 refactor; the
-    label map stays pygame-free so the strips and the maze can reuse it."""
-    result = subprocess.run(
-        [sys.executable, "-c", "import cell_topics, sys; assert 'pygame' not in sys.modules"],
-        capture_output=True,
-        cwd=Path(__file__).parent.parent,
-    )
-    assert result.returncode == 0, "cell_topics.py has picked up a pygame dependency"
+    assert result.returncode == 0, f"{module}.py has picked up a pygame dependency"

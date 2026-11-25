@@ -1,7 +1,10 @@
-"""Answer reveal timing and input isolation, without a display or real bank."""
+"""Answer reveal timing and input isolation, without a display or real bank.
+
+This file owns the reveal and resolve rules (timed right answers, held wrong
+answers, zero duration, the last move); other flow tests rely on it for them.
+"""
 
 from dataclasses import replace
-import json
 from random import Random
 
 import pygame
@@ -9,69 +12,32 @@ import pytest
 
 import constants
 from constants import (
-    BUTTON_PRESS_DOWN_MS, BUTTON_PRESS_HOLD_MS,
     SIDE_PANEL_LEFT, SIDE_PANEL_PADDING, SIDE_PANEL_TOP, SIDE_PANEL_WIDTH,
+)
+from conftest import (
+    click, default_settings, land_press, make_play, play_config, question_dict, write_bank,
 )
 from render import Renderer
 from theme import FLAT, Alignment
 from board import Cell
-from game_setup import GameConfig
-from modes import get_mode
 from question_popup import build_question_popup
 from questions import Question, QuestionBank
 from states.game_over import GameOverState
-from states.play import PlayState
-
-DEFAULT_SETTINGS = get_mode('catch_blue').settings_spec().default
-
-
-class GameStub:
-    def __init__(self, bank):
-        self.bank = bank
-        self.renderer = Renderer(FLAT)
-        self.state = None
-        self.transitions = []
-
-    def change_state(self, state):
-        self.state = state
-        self.transitions.append(state)
 
 
 @pytest.fixture
-def make_play(tmp_path):
-    pygame.font.init()
-    (tmp_path / "questions.json").write_text(json.dumps([
-        {
-            "id": f"synthetic-{index}",
-            "subject": "science",
-            "topic": "testing",
-            "subtopic": "Reveal",
-            "difficulty": 1,
-            "type": "multiple_choice",
-            "prompt": "Which answer is correct?",
-            "choices": ["Correct", "Wrong one", "Wrong two"],
-            "answer_index": 0,
-        }
+def new_play(tmp_path, fonts):
+    """A factory for play states on three identical synthetic questions."""
+    write_bank(tmp_path, [
+        question_dict(f"synthetic-{index}", prompt="Which answer is correct?")
         for index in range(3)
-    ]), encoding="utf-8")
+    ], name="questions.json")
+    config = play_config(("testing",), subject="science")
 
-    def factory(**kwargs):
-        game = GameStub(QuestionBank(tmp_path))
-        state = PlayState(
-            game,
-            GameConfig("catch_blue", "science", ("testing",), settings=DEFAULT_SETTINGS),
-            Random(17),
-            **kwargs,
-        )
-        game.state = state
-        return state
+    def factory(**play_kwargs):
+        return make_play(QuestionBank(tmp_path), config, **play_kwargs)
 
-    yield factory
-    pygame.font.quit()
-
-
-def click(pos):
-    return pygame.event.Event(pygame.MOUSEBUTTONDOWN, button=1, pos=pos)
+    return factory
 
 
 def board_click(state, cell):
@@ -81,7 +47,7 @@ def board_click(state, cell):
 def open_question(state, intent="move"):
     if intent == "catch":
         state.player.move_to(Cell(1, 2))
-        target = state.blue.cell
+        target = state.npc.cell
     else:
         target = Cell(1, 4)
     state.handle_events([board_click(state, target)])
@@ -101,14 +67,13 @@ def press_continue(state):
     assert state.reveal is not None and state.reveal.waits_for_click
     assert state.popup.continue_button is not None
     state.handle_events([click(state.popup.continue_button.rect.center)])
-    state.update(BUTTON_PRESS_DOWN_MS)
-    state.update(BUTTON_PRESS_HOLD_MS)
+    land_press(state)
     assert state.reveal is None
 
 
 def snapshot(state):
     return (
-        state.player.cell, state.blue.cell, state.moves_remaining,
+        state.player.cell, state.npc.cell, state.moves_remaining,
         state.rng.getstate(), tuple(state.game.transitions),
     )
 
@@ -131,18 +96,18 @@ def assert_popup_cleared(state):
     (Cell(1, 2), Cell(2, 2), Cell(2, 2), 1, True, 'win'),
 ])
 def test_distance_loss_uses_resolved_positions_and_preserves_win(
-    make_play, duration, player, blue, target, moves, correct, result,
+    new_play, duration, player, blue, target, moves, correct, result,
 ):
-    state = make_play(reveal_duration_ms=duration)
+    state = new_play(reveal_duration_ms=duration)
     state.player.move_to(player)
-    state.blue.move_to(blue)
+    state.npc.move_to(blue)
     state.match.moves_remaining = moves
     state.handle_events([board_click(state, target)])
     assert state.pending is not None
     before = snapshot(state)
     expected_rng = Random()
     expected_rng.setstate(state.rng.getstate())
-    expected_blue = blue if correct else state.blue.flee_step(
+    expected_blue = blue if correct else state.npc.flee_step(
         state.board, player, expected_rng,
     )
     state.handle_events([answer_click(state, 0 if correct else 1)])
@@ -161,10 +126,10 @@ def test_distance_loss_uses_resolved_positions_and_preserves_win(
         press_continue(state)
     assert_popup_cleared(state)
     assert state.moves_remaining == moves - 1
-    assert state.blue.cell == expected_blue
+    assert state.npc.cell == expected_blue
     assert state.player.cell == (target if correct and result != 'win' else player)
     assert state.rng.getstate() == expected_rng.getstate()
-    distance = state.board.distance(state.player.cell, state.blue.cell)
+    distance = state.board.distance(state.player.cell, state.npc.cell)
     if result is None:
         assert state.game.state is state
         assert state.moves_remaining == distance
@@ -184,9 +149,9 @@ def test_distance_loss_uses_resolved_positions_and_preserves_win(
 
 
 @pytest.mark.parametrize("chosen", [0, 1, 2])
-def test_shuffled_highlights_use_canonical_indices(make_play, monkeypatch, chosen):
+def test_shuffled_highlights_use_canonical_indices(new_play, monkeypatch, chosen):
     monkeypatch.setattr(Question, "display_order", lambda self, rng: [1, 2, 0])
-    state = make_play()
+    state = new_play()
     open_question(state)
     before = snapshot(state)
     popup = state.popup
@@ -241,16 +206,16 @@ def test_shuffled_highlights_use_canonical_indices(make_play, monkeypatch, chose
 @pytest.mark.parametrize("intent", ["move", "catch"])
 @pytest.mark.parametrize("correct", [True, False])
 @pytest.mark.parametrize("overshoot", [0, 75])
-def test_delayed_consequences_resolve_exactly_once(make_play, intent, correct, overshoot):
-    state = make_play(reveal_duration_ms=100)
+def test_delayed_consequences_resolve_exactly_once(new_play, intent, correct, overshoot):
+    state = new_play(reveal_duration_ms=100)
     target = open_question(state, intent)
     before = snapshot(state)
     expected_rng = Random()
     expected_rng.setstate(state.rng.getstate())
-    expected_blue = state.blue.cell
+    expected_blue = state.npc.cell
     if not correct:
-        expected_blue = state.blue.flee_step(state.board, state.player.cell, expected_rng)
-        assert expected_blue != state.blue.cell
+        expected_blue = state.npc.flee_step(state.board, state.player.cell, expected_rng)
+        assert expected_blue != state.npc.cell
 
     state.handle_events([answer_click(state, 0 if correct else 1)])
     state.update(40)
@@ -269,10 +234,10 @@ def test_delayed_consequences_resolve_exactly_once(make_play, intent, correct, o
         assert state.pending is not None
         press_continue(state)
     assert state.player.cell == (target if correct and intent == "move" else before[0])
-    assert state.blue.cell == expected_blue
+    assert state.npc.cell == expected_blue
     assert state.rng.getstate() == expected_rng.getstate()
     assert state.moves_remaining == before[2] - 1
-    assert state.moves == state.player.legal_moves(state.board, {state.blue.cell})
+    assert state.moves == state.player.legal_moves(state.board, {state.npc.cell})
     assert_popup_cleared(state)
     assert len(state.game.transitions) == int(correct and intent == "catch")
     if state.game.transitions:
@@ -290,8 +255,8 @@ def test_delayed_consequences_resolve_exactly_once(make_play, intent, correct, o
     ("move", True, "lose"),
     ("move", False, "lose"),
 ])
-def test_last_move_result_waits_for_reveal(make_play, intent, correct, result):
-    state = make_play(reveal_duration_ms=50)
+def test_last_move_result_waits_for_reveal(new_play, intent, correct, result):
+    state = new_play(reveal_duration_ms=50)
     state.match.moves_remaining = 1
     open_question(state, intent)
     state.handle_events([answer_click(state, 0 if correct else 1)])
@@ -315,8 +280,8 @@ def test_last_move_result_waits_for_reveal(make_play, intent, correct, result):
 
 
 @pytest.mark.parametrize("duration", [0, 100])
-def test_answer_ignores_remaining_batch_and_reveal_blocks_input(make_play, duration):
-    state = make_play(reveal_duration_ms=duration)
+def test_answer_ignores_remaining_batch_and_reveal_blocks_input(new_play, duration):
+    state = new_play(reveal_duration_ms=duration)
     open_question(state)
     accepted = answer_click(state, 0)
     other_answer = answer_click(state, 1)
@@ -337,13 +302,13 @@ def test_answer_ignores_remaining_batch_and_reveal_blocks_input(make_play, durat
         assert state.hovering is None
         state.update(duration)
     assert state.player.cell == Cell(1, 4)
-    assert state.moves_remaining == DEFAULT_SETTINGS.move_limit - 1
+    assert state.moves_remaining == default_settings().move_limit - 1
     assert_popup_cleared(state)
 
 
 @pytest.mark.parametrize("empty_batch", [False, True])
-def test_expiry_discards_one_batch_then_accepts_input(make_play, empty_batch):
-    state = make_play(reveal_duration_ms=10)
+def test_expiry_discards_one_batch_then_accepts_input(new_play, empty_batch):
+    state = new_play(reveal_duration_ms=10)
     open_question(state)
     state.handle_events([answer_click(state, 0)])
     state.update(10)
@@ -368,19 +333,19 @@ def test_expiry_discards_one_batch_then_accepts_input(make_play, empty_batch):
 
 @pytest.mark.parametrize("intent", ["move", "catch"])
 @pytest.mark.parametrize("correct", [True, False])
-def test_zero_duration_resolves_immediately_once(make_play, intent, correct):
-    state = make_play(reveal_duration_ms=0)
+def test_zero_duration_resolves_immediately_once(new_play, intent, correct):
+    state = new_play(reveal_duration_ms=0)
     target = open_question(state, intent)
     before = snapshot(state)
     expected_rng = Random()
     expected_rng.setstate(state.rng.getstate())
-    expected_blue = state.blue.cell if correct else state.blue.flee_step(
+    expected_blue = state.npc.cell if correct else state.npc.flee_step(
         state.board, state.player.cell, expected_rng,
     )
     event = answer_click(state, 0 if correct else 1)
     state.handle_events([event, event])
     assert state.player.cell == (target if correct and intent == "move" else before[0])
-    assert state.blue.cell == expected_blue
+    assert state.npc.cell == expected_blue
     assert state.rng.getstate() == expected_rng.getstate()
     assert state.moves_remaining == before[2] - 1
     assert len(state.game.transitions) == int(correct and intent == "catch")
@@ -391,8 +356,8 @@ def test_zero_duration_resolves_immediately_once(make_play, intent, correct):
 
 
 @pytest.mark.parametrize('long_choices', [False, True])
-def test_choice_centering_preserves_popup_geometry_and_indices(make_play, long_choices):
-    state = make_play()
+def test_choice_centering_preserves_popup_geometry_and_indices(new_play, long_choices):
+    state = new_play()
     open_question(state)
     question = state.pending[0]
     if long_choices:
@@ -426,6 +391,6 @@ def test_choice_centering_preserves_popup_geometry_and_indices(make_play, long_c
     assert rect.bottom == buttons[-1].rect.bottom + 20
 
 
-def test_negative_reveal_duration_is_rejected(make_play):
+def test_negative_reveal_duration_is_rejected(new_play):
     with pytest.raises(ValueError):
-        make_play(reveal_duration_ms=-1)
+        new_play(reveal_duration_ms=-1)

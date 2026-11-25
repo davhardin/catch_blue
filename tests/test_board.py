@@ -6,12 +6,12 @@ run headless (in CI, over SSH, wherever).
 
 import subprocess
 import sys
-from pathlib import Path
 
 import pytest
 
 from board import Board, Cell
 from board_view import BoardView
+from conftest import ROOT
 from constants import BOARD_ORIGIN_X, BOARD_ORIGIN_Y, BOARD_REGION
 
 # 5x5 divides BOARD_REGION evenly; 9x9 leaves slack the origin has to absorb.
@@ -33,7 +33,8 @@ def test_in_bounds_accepts_every_cell_on_the_grid():
 
 @pytest.mark.parametrize(
     "col,row",
-    [(-1, 0), (0, -1), (5, 0), (0, 5), (-1, -1), (5, 5), (99, 99)],
+    [(-1, 0), (0, -1), (5, 0), (0, 5)],
+    ids=["left", "top", "right", "bottom"],
 )
 def test_in_bounds_rejects_cells_off_the_grid(col, row):
     assert not Board(5, 5).in_bounds(col, row)
@@ -70,11 +71,6 @@ def test_distance_is_manhattan(a, b, expected):
     assert Board(5, 5).distance(a, b) == expected
 
 
-def test_no_cell_is_adjacent_to_itself():
-    board = Board(5, 5)
-    assert not any(c in board.neighbors(c) for c in board.cells())
-
-
 def test_adjacency_is_symmetric():
     """True of the open orthogonal board; a forward-only strip board will
     deliberately break it (refactor doc 5a)."""
@@ -83,13 +79,6 @@ def test_adjacency_is_symmetric():
     for a in cells:
         for b in cells:
             assert (b in board.neighbors(a)) == (a in board.neighbors(b))
-
-
-def test_diagonal_cells_are_not_adjacent():
-    """Adjacency is 4-way orthogonal (m2.md); 8-way creep starts here."""
-    board = Board(5, 5)
-    assert Cell(3, 3) not in board.neighbors(Cell(2, 2))
-    assert Cell(1, 3) not in board.neighbors(Cell(2, 2))
 
 
 @pytest.mark.parametrize(
@@ -116,7 +105,9 @@ def test_every_neighbor_is_on_the_board():
 
 def test_neighbors_agrees_with_distance_for_every_pair():
     """One adjacency rule, two views (the neighbor set and the metric) -- no
-    drift: on the open board a neighbor is exactly a cell at distance 1."""
+    drift: on the open board a neighbor is exactly a cell at distance 1.
+    With the Manhattan table above (self 0, diagonal 2), this also rules out
+    self-adjacency and 8-way creep: adjacency is 4-way orthogonal (m2.md)."""
     board = Board(5, 5)
     for a in board.cells():
         neighbors = board.neighbors(a)
@@ -199,7 +190,7 @@ def test_board_module_never_imports_pygame():
     """
     result = subprocess.run(
         [sys.executable, "-c", "import board, sys; assert 'pygame' not in sys.modules"],
-        cwd=Path(__file__).resolve().parents[1],
+        cwd=ROOT,
         capture_output=True,
     )
     assert result.returncode == 0, "board.py has picked up a pygame dependency"

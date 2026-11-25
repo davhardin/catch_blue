@@ -12,18 +12,13 @@ resolve on the click; a wrong answer keeps the player put (only Blue moves),
 which keeps every click a plain 'move' and the game far from ending.
 """
 
-import json
 from collections import Counter
 from random import Random
 
-import pygame
 import pytest
 
-from game_setup import GameConfig, Settings
-from questions import QuestionBank
-from render import Renderer
-from states.play import PlayState
-from theme import FLAT
+from conftest import answer, make_play, open_question, play_config, question_dict, write_bank
+from game_setup import Settings
 
 TOPIC = "cycling"
 TINY = (("A", 1), ("B", 1))
@@ -31,55 +26,19 @@ BIG = (("C", 5), ("D", 5))
 POOLS = tuple((TOPIC, name) for name, _ in TINY + BIG)
 
 
-def write_bank(path, pools):
-    questions = []
-    for name, count in pools:
-        for index in range(count):
-            questions.append({
-                "id": f"{name}-{index}",
-                "subject": "science",
-                "topic": TOPIC,
-                "subtopic": name,
-                "difficulty": 1,
-                "type": "multiple_choice",
-                "prompt": f"{name} question {index}?",
-                "choices": ["Correct", "Wrong one", "Wrong two"],
-                "answer_index": 0,
-            })
-    (path / "bank.json").write_text(json.dumps(questions), encoding="utf-8")
-    return QuestionBank(path)
+def pool_bank(path, pools):
+    """One question file holding `count` questions for each (subtopic, count)."""
+    return write_bank(path, [
+        question_dict(f"{name}-{index}", topic=TOPIC, subtopic=name, prompt=f"{name} question {index}?")
+        for name, count in pools
+        for index in range(count)
+    ])
 
 
-class GameStub:
-    def __init__(self, bank):
-        self.bank = bank
-        self.renderer = Renderer(FLAT)
-        self.state = None
-
-    def change_state(self, state):
-        self.state = state
-
-
-@pytest.fixture
-def fonts():
-    pygame.font.init()
-    yield
-    pygame.font.quit()
-
-
-def make_play(bank, seed=17):
-    game = GameStub(bank)
-    state = PlayState(
-        game,
-        GameConfig("catch_blue", "science", (TOPIC,), settings=Settings(move_limit=100)),
-        Random(seed), reveal_duration_ms=0,
-    )
-    game.state = state
-    return state
-
-
-def click(pos):
-    return pygame.event.Event(pygame.MOUSEBUTTONDOWN, button=1, pos=pos)
+def cycling_play(bank, seed=17):
+    """A zero-reveal Catch Blue game on the cycling topic, far from any move limit."""
+    config = play_config((TOPIC,), subject="science", settings=Settings(move_limit=100))
+    return make_play(bank, config, seed=seed, reveal_duration_ms=0)
 
 
 def ask_wrong(state, cell=None):
@@ -88,12 +47,9 @@ def ask_wrong(state, cell=None):
     if cell is None:
         cell = sorted(state.moves)[0]
     assert cell in state.moves
-    state.handle_events([click(state.view.cell_to_rect(cell).center)])
+    open_question(state, cell)
     question = state.pending[0]
-    popup = state.popup
-    wrong = next(i for i in popup.answer_order if i != question.answer_index)
-    button = popup.answer_buttons[popup.answer_order.index(wrong)]
-    state.handle_events([click(button.rect.center)])
+    answer(state, False)
     assert state.pending is None and state.game.state is state
     return question, cell
 
@@ -108,7 +64,7 @@ def drain(bank, pair, rng=None):
 
 
 def test_available_pools_lists_only_pairs_with_unused_questions(tmp_path):
-    bank = write_bank(tmp_path, TINY + BIG)
+    bank = pool_bank(tmp_path, TINY + BIG)
     assert bank.available_pools(POOLS) == sorted(POOLS)
     # Restricted to the pairs asked about, sorted, unknown pairs ignored.
     assert bank.available_pools([POOLS[2], POOLS[0], (TOPIC, "nope")]) == [POOLS[0], POOLS[2]]
@@ -119,7 +75,7 @@ def test_available_pools_lists_only_pairs_with_unused_questions(tmp_path):
 
 
 def test_next_unused_question_returns_none_when_dry_and_never_recycles(tmp_path):
-    bank = write_bank(tmp_path, TINY + BIG)
+    bank = pool_bank(tmp_path, TINY + BIG)
     rng = Random(3)
     served = {bank.next_unused_question(*POOLS[2], rng).id for _ in range(5)}
     assert len(served) == 5
@@ -131,7 +87,7 @@ def test_next_unused_question_returns_none_when_dry_and_never_recycles(tmp_path)
 
 
 def test_restart_pools_clears_only_the_named_pools_and_reshuffles(tmp_path):
-    bank = write_bank(tmp_path, TINY + BIG)
+    bank = pool_bank(tmp_path, TINY + BIG)
     for pair in POOLS:
         drain(bank, pair)
     assert bank.available_pools(POOLS) == []
@@ -151,8 +107,8 @@ def test_restart_pools_clears_only_the_named_pools_and_reshuffles(tmp_path):
 
 
 def test_a_dry_pool_leaves_the_board_and_its_cells_spread_evenly(tmp_path, fonts):
-    bank = write_bank(tmp_path, TINY + BIG)
-    state = make_play(bank)
+    bank = pool_bank(tmp_path, TINY + BIG)
+    state = cycling_play(bank)
     before = Counter(state.cell_topics.labels().values())
     assert set(before) == set(POOLS)
 
@@ -173,8 +129,8 @@ def test_a_dry_pool_leaves_the_board_and_its_cells_spread_evenly(tmp_path, fonts
 
 
 def test_the_question_served_always_matches_the_label_the_student_clicked(tmp_path, fonts):
-    bank = write_bank(tmp_path, TINY + BIG)
-    state = make_play(bank)
+    bank = pool_bank(tmp_path, TINY + BIG)
+    state = cycling_play(bank)
     seen = Counter()
     for _ in range(10):
         cell = sorted(state.moves)[0]
@@ -185,14 +141,14 @@ def test_the_question_served_always_matches_the_label_the_student_clicked(tmp_pa
         # Never a repeat while unused questions remain anywhere.
         assert len(bank.used_ids) == sum(seen.values())
     assert state.moves_remaining == 90
-    assert state.board.distance(state.player.cell, state.blue.cell) <= 8
+    assert state.board.distance(state.player.cell, state.npc.cell) <= 8
 
 
 def test_tiny_pool_cycles_off_after_its_single_ask(tmp_path, fonts):
     # Find a seed whose opening legal moves include a one-question pool.
     for seed in range(40):
-        bank = write_bank(tmp_path, TINY + BIG)
-        state = make_play(bank, seed=seed)
+        bank = pool_bank(tmp_path, TINY + BIG)
+        state = cycling_play(bank, seed=seed)
         tiny = next((c for c in sorted(state.moves) if state.cell_topics[c] in POOLS[:2]), None)
         if tiny is not None:
             break
@@ -206,8 +162,8 @@ def test_tiny_pool_cycles_off_after_its_single_ask(tmp_path, fonts):
 
 
 def test_all_pools_dry_restarts_them_and_keeps_every_label(tmp_path, fonts):
-    bank = write_bank(tmp_path, TINY)
-    state = make_play(bank)
+    bank = pool_bank(tmp_path, TINY)
+    state = cycling_play(bank)
     for pair in POOLS[:2]:
         drain(bank, pair)
     assert bank.available_pools(POOLS[:2]) == []
@@ -229,8 +185,8 @@ def test_all_pools_dry_restarts_them_and_keeps_every_label(tmp_path, fonts):
 def test_relabeling_is_seeded(tmp_path, fonts):
     boards = []
     for _ in range(2):
-        bank = write_bank(tmp_path, TINY + BIG)
-        state = make_play(bank, seed=5)
+        bank = pool_bank(tmp_path, TINY + BIG)
+        state = cycling_play(bank, seed=5)
         drain(bank, POOLS[0])
         drain(bank, POOLS[1])
         ask_wrong(state)
@@ -241,10 +197,10 @@ def test_relabeling_is_seeded(tmp_path, fonts):
 def test_a_new_game_on_a_living_bank_hides_dry_pools_before_the_first_click(tmp_path, fonts):
     """Used marks carry across replays (m5), so a replay must not open with a
     label whose pool is already empty."""
-    bank = write_bank(tmp_path, TINY + BIG)
+    bank = pool_bank(tmp_path, TINY + BIG)
     drain(bank, POOLS[0])
     drain(bank, POOLS[1])
-    state = make_play(bank)
+    state = cycling_play(bank)
     assert set(state.cell_topics.labels().values()) == set(POOLS[2:])
     counts = Counter(state.cell_topics.labels().values()).values()
     assert max(counts) - min(counts) <= 1

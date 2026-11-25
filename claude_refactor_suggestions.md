@@ -74,7 +74,7 @@ A `modes.py` (pygame-free) with a small frozen dataclass per mode — key, displ
 - `GameSelectState` builds its buttons *from* the registry (§9). Today it hand-places "Catch Blue" and "Run from Red (coming soon)", and the constants file already needed a `MENU_THREE_*` set to fit a third button. Five buttons breaks that pattern.
 - `GameConfig.mode` stays a string key (serializable, test-friendly); `PlayState` does `MODES[config.mode].rules`.
 - `Palette` gains a color role per character (§6c); the registry names which role each mode's NPC uses.
-- **[rev] `accent` is a key, not a color.** Two accent mechanisms are being built side by side for comparison (David, 2026-09-20): a hue remap of the current pixel theme's blue-grey roles (plan §7) and a whole-skin variant from the Pixel UI pack (§11a). The registry entry names the accent (`"red"`, `"green"`, …); `Game.renderer_for(accent)` resolves it to a `Theme` through whichever mechanism the session's base theme uses. Step 4 is written against the key and stays neutral; which mechanism ships is the §14 decision.
+- **[rev] `accent` is a key, not a color.** Two accent mechanisms are being built side by side for comparison (David, 2026-09-20): a hue remap of the current pixel theme's blue-grey roles (plan §7) and a whole-skin variant from the Pixel UI pack (§11a). The registry entry names the accent (`"red"`, `"green"`, …); `Game.renderer_for(accent)` resolves it to a `Theme` through whichever mechanism the session's base theme uses. Step 4 is written against the key and stays neutral; which mechanism ships is the §14 decision. *[2026-11-24] Decided in M8.d: neither as built. Hand-drawn tile sets per accent replace both (§14). The key and `renderer_for` are unchanged; `resolve_accent` now resolves over one family, the pixel themes.*
 
 *Serves: all three modes. This is the prerequisite for everything else.*
 
@@ -324,6 +324,8 @@ Also: `answer_feedback` for an incorrect choice runs `pygame.transform.grayscale
 
 ### 11a. A third theme from the Pixel UI pack, as the accent test-bed **[added 2026-09-20]**
 
+**Status (2026-11-24): built in M8.d, compared, and removed.** The four `ui-*` themes shipped in `e2978d7` and `b792833` and were compared against the hue remap. David then drew his own tile set per accent for the pixel theme, and both mechanisms were deleted (§14). The packed-tile loader went with the `ui-*` themes. The sheet, its license, the ignore rules, and the attribution row stay in the repository, unused. The cycling key below is kept behind `--dev-accent-cycle` and now cycles the pixel accents. The rest of this section is kept as the record of the design.
+
 David added `assets/kenney_pixel-ui-pack/` (Kenney, CC0, 2015): one 538×592 sheet of 16 px tiles on an 18 px pitch, with panel and button faces in **blue, green, red, and yellow**, each with a pressed state, in a solid variant and a light-face-with-colored-outline variant, plus tan/grey/brown/white panels, checkboxes, radio dots, sliders, arrows, and cursors. It answers the accent question in §11 with data instead of the hue remap sketched in plan §7: per color, a different set of source rects in the *same* sheet, which is exactly what `Skin.elements` already expresses. The renderer needs no new code path to draw it.
 
 **Shape, and how it fits the refactor order.**
@@ -381,7 +383,7 @@ Each step should leave the suite green and the flat gallery byte-identical.
 | 2 | Extract `QuestionPopup` and `CellTopics`, as two separate behavior-preserving changes | 3a, 3c | recommended before M8; each is independently revertible |
 | 3 | `Board.distance` (Manhattan default, BFS hook), catches via `board.neighbors`, tidy `neighbors`; shared step-chooser with RNG-compatibility tests; start cells from outside; palette roles | 5b, 5c, 5e, 6 | **prerequisite** (small) |
 | 4 | Minimal mode registry + rules interface built around Catch Blue and Run from Red only; `PlayState` delegates at the ten sites; Game Select from the registry; per-mode preset tables; `GameOverState` inherits the play renderer | 2, 8b, 9, 11 | **prerequisite** |
-| 5 | **Run from Red** as M8: `Red`, its rules, end-screen copy, accent + renderer-per-accent cache; both accent mechanisms — the hue remap of `PIXEL` (plan §7) and the Pixel UI variants with their cycling key (§11a) — are built side by side in this milestone for comparison and can land at any step, being additive | — | the milestone |
+| 5 | **Run from Red** as M8: `Red`, its rules, end-screen copy, accent + renderer-per-accent cache; both accent mechanisms — the hue remap of `PIXEL` (plan §7) and the Pixel UI variants with their cycling key (§11a) — are built side by side in this milestone for comparison and can land at any step, being additive *(compared and decided 2026-11-24: neither ships as built; hand-drawn tiles per accent instead, §14)*. **Done (M8, 2026-11-24).** | — | the milestone |
 | 6 | Walkability + `offsets` on `Board` (forward-only strips); BFS `distance`; camera in `BoardView` with the §7a requirements, five rows visible from the bottom; `BoardFrame` draw value; label sizing by cell size | 5a, 5c, 7 | with Race Green |
 | 7 | **Race Green** | — | — |
 | 8 | Maze generator, walls, BFS distance with disconnected handling, placement validation, wall drawing | 5c, 5d, 7b, 7d | with Find Yellow |
@@ -399,14 +401,14 @@ Two notes on testing through this:
 
 Several sketches above read as settled mechanics. They are not; each is David's call, for the relevant milestone doc. The rules interface should make each one a single method so the decision has one home.
 
-- **Can the Player move onto Red's cell?** Red landing on the Player is the catch; that does not imply the reverse. Default recommendation: block it.
+- ~~Can the Player move onto Red's cell?~~ **Settled 2026-09-23 (David):** no, the Player is blocked from Red's cell. Red landing on the Player is still the catch (`RunFromRedRules.player_blocked`).
 - ~~Does Green always step straight up?~~ **Mostly settled by forward-only (2026-09-20):** every Green move is one row up, so only the column is open — random, straight, or toward the Player's column. Cosmetic; pick in the Race Green doc.
 - **Race Green's move limit.** Drop the row, or keep it and define the outcome when moves run out with neither runner at the top (§8b).
 - **Race Green's viewport width.** Seven columns cannot show as "5 × 5"; choose between a 7 × 5 view at 114 px cells, a divider-style gap, or a wider region (§7a).
 - ~~Does Green's question difficulty rise near the finish?~~ **Settled 2026-09-20 (David):** Race Green's distance tier policy measures the Player's distance to the top of the grid, not Player-to-Green. Under the `distance` policy that means tier 3 on the last row or two before the finish, tier 2 two rows out, tiers 1 and 2 beyond. Because every move is one row up, the difficulty curve is fixed by the strip height and cannot be dodged.
-- **Which square supplies Run from Red's questions?** The plan leaves it open. The square fled to, or Red's square, are the two candidates.
-- **Where settings are chosen** — before or after the mode (§8b).
-- **Which accent mechanism ships.** Both are being built (David, 2026-09-20): hue-remapped accents on the current `PIXEL` theme, and the Pixel UI third theme with four color variants (§11a). Compare them in the gallery, one board per accent per mechanism, at the end of M8. The loser is deleted rather than kept as an option, the cycling key goes away either way, and plan §7 and `assets/ATTRIBUTION.md` are updated to match the winner.
+- ~~Which square supplies Run from Red's questions?~~ **Settled 2026-09-23 (David):** the clicked square, the same as Catch Blue (`Rules.question_cell` is the one method to change if playtesting disagrees).
+- ~~Where settings are chosen~~ **Settled in M8.b (2026-09-30):** on the Settings screen, reached from Game Select, which gains a Game row once a second mode is active. Switching the row switches the preset table and the rows beneath it, and each mode keeps its own settings for the session (§8b).
+- ~~Which accent mechanism ships.~~ **Settled 2026-11-24 (David):** neither as built. Both were built and compared in M8.d: hue-remapped accents on `PIXEL`, and the Pixel UI third theme with four color variants (§11a). David then drew one set of button and square tiles per accent in the Pixel Adventure layout (`assets/four_color_buttons/`). The pixel family now loads those tiles directly (`NineSlice.tile`), and its palettes are sampled from them. The hue remap (`HueShift`, `with_accent`) and the `ui-*` themes are deleted rather than kept as options. One departure from this item as written: the cycling key did not go away. It stays behind `--dev-accent-cycle` as an art-preview tool, since it now steps through the four pixel accents on the menus. Plan §7, GDD §3, `assets/ATTRIBUTION.md`, and `milestones/m8.md` are updated.
 
 ---
 

@@ -9,6 +9,7 @@ package's license with its assets when redistributing the game.
 | `Atkinson_Hyperlegible_Mono/static/AtkinsonHyperlegibleMono-Regular.ttf` | Braille Institute via [Google Fonts](https://fonts.google.com/specimen/Atkinson+Hyperlegible+Mono) | `Atkinson_Hyperlegible_Mono/OFL.txt` | SIL Open Font License 1.1 |
 | `Atkinson_Hyperlegible_Mono/static/AtkinsonHyperlegibleMono-Bold.ttf` | Braille Institute via [Google Fonts](https://fonts.google.com/specimen/Atkinson+Hyperlegible+Mono) | `Atkinson_Hyperlegible_Mono/OFL.txt` | SIL Open Font License 1.1 |
 | `kenney_ui-pack-pixel-adventure/Tilesheets/Large tiles/Thick outline/tilemap_packed.png` | Kenney, [UI Pack — Pixel Adventure 2.0](https://kenney.nl/assets/ui-pack-pixel-adventure) | `kenney_ui-pack-pixel-adventure/License.txt` | CC0 1.0 |
+| `four_color_buttons/*.png` (16 tiles: normal, inactive, correct, and move, in blue, red, green, and yellow) | Recolored and hand-edited for this project from Kenney's [UI Pack — Pixel Adventure 2.0](https://kenney.nl/assets/ui-pack-pixel-adventure) tiles | `kenney_ui-pack-pixel-adventure/License.txt` | CC0 1.0 |
 | `kenney_pixel-ui-pack/Spritesheet/UIpackSheet_transparent.png` | Kenney, with Lynn Evers, [Pixel UI Pack](https://kenney.nl/assets/pixel-ui-pack) | `kenney_pixel-ui-pack/License.txt` | CC0 1.0 |
 
 ## Notes
@@ -16,13 +17,16 @@ package's license with its assets when redistributing the game.
 - The Atkinson Hyperlegible Next Regular (400) static instance was generated
   locally from the variable font using `fonttools varLib.instancer` on
   2026-09-06.
-- Both Kenney packed sheets are unmodified. The renderer selects, crops, and
-  scales regions at runtime for panels, buttons, and board cells. Correct-answer
-  buttons receive a green center fill and a pulsing border tint at runtime.
-- The Pixel UI Pack sheet packs 16 px tiles on an 18 px pitch. At load the
-  renderer drops the 2 px gaps and joins 3 x 3 tiles into each nine-slice
-  panel. Its `9-Slice/` cutouts, magenta-keyed sheet, and preview stay local
-  and are not shipped.
+- Both Kenney packed sheets are unmodified. The renderer crops and scales the
+  Pixel Adventure sheet's panel at runtime. Correct-answer buttons receive a
+  green center fill and a pulsing border tint at runtime.
+- The pixel theme's button and cell tiles come from `four_color_buttons/`,
+  one set per mode color, each a 32 px tile in the packed sheet's layout. They
+  are exported at 8x (256 px); the renderer reads them back at one pixel per
+  art pixel before scaling. Panels still come from the packed sheet.
+- The Pixel UI Pack sheet is kept with its license, but no theme draws from
+  it since the `ui-*` themes were removed on 2026-11-24 (M8.d). Its `9-Slice/`
+  cutouts, magenta-keyed sheet, and preview stay local and are not shipped.
 - The Game Select screen displays the courtesy credit
   “UI assets: Kenney | Fonts: Braille Institute”. This on-screen credit is
   not a license requirement; the font licenses must still accompany the fonts.

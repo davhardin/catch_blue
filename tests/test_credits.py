@@ -1,7 +1,5 @@
 """Credits use real fonts/rendering without changing menu hit targets."""
 
-from pathlib import Path
-from types import SimpleNamespace
 from unittest.mock import Mock, call
 
 import pygame
@@ -12,33 +10,17 @@ from constants import (
     MENU_BUTTON_HEIGHT, MENU_BUTTON_GAP, MENU_FIRST_BUTTON_TOP, MENU_START_TOP,
     MENU_CREDITS_SIDE_MARGIN, MENU_CREDITS_TOP, MENU_CREDITS_HEIGHT,
 )
-from modes import get_mode
-from questions import QuestionBank
-from render import Renderer
 from states.menus import (
     CREDITS_RECT, CREDITS_TEXT, GameSelectState, SubjectState, TopicsState,
     _menu_button_tops,
 )
-from theme import FLAT, PIXEL
 
-
-@pytest.fixture(params=[FLAT, PIXEL], ids=['flat', 'pixel'])
-def renderer(request):
-    pygame.font.init()
-    yield Renderer(request.param)
-    pygame.font.quit()
+from conftest import GameStub
 
 
 @pytest.fixture
-def menus(renderer):
-    bank = QuestionBank(Path(__file__).resolve().parents[1] / 'data' / 'questions')
-    game = SimpleNamespace(
-        bank=bank,
-        settings_by_mode={'catch_blue': get_mode('catch_blue').settings_spec().default},
-        settings_mode='catch_blue',
-        topic_selections={},
-        renderer=renderer,
-    )
+def menus(renderer, bank):
+    game = GameStub(bank, renderer)
     return (
         GameSelectState(game),
         SubjectState(game, 'catch_blue'),
