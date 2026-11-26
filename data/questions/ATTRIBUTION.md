@@ -34,8 +34,10 @@ ship.
   through `bio-anat-18-*`); 2026-09-11 — 155 `respiratory_system`
   questions (`bio-anat-19-*`); 2026-09-14 — 229 `digestive_system`
   questions (`bio-anat-20-*`); 2026-11-25 — 128 `metabolism` questions
-  (`bio-anat-21-001` through `bio-anat-21-128`). Further topics
-  (urinary_system onward) will be added as they are vetted.
+  (`bio-anat-21-001` through `bio-anat-21-128`); 2026-11-26 — 141
+  `urinary_system` questions (`bio-anat-22-001` through `bio-anat-22-141`).
+  Further topics (fluids_and_acid-bases onward) will be added as they are
+  vetted.
 - **Questions written for this project:** 6 of the 128 `metabolism`
   questions were written for this project to fill coverage gaps against the
   OpenStax *Anatomy and Physiology 2e* chapter 24 learning objectives:
@@ -46,6 +48,14 @@ ship.
   multi-pass review (build, independent review, final review), more of its
   items are reworded or rebuilt from Anson's originals than in earlier
   topics.
+- **Questions written for this project, urinary_system:** 10 of the 141
+  `urinary_system` questions were written for this project to fill coverage
+  gaps against the OpenStax *Anatomy and Physiology 2e* chapter 25 learning
+  objectives: `bio-anat-22-001`, `-002`, `-003`, `-004`, `-033`, `-040`,
+  `-105`, `-106`, `-107`, `-108`. They are not from Anson. Their facts come from
+  OpenStax A&P 2e, MedlinePlus and StatPearls (NCBI Bookshelf); the wording is
+  the project's own. The topic's other 131 questions are adapted from Anson
+  and went through the same multi-pass review as metabolism.
 - **Changes made:** same treatment as Volume 1 — short-answer / fill-in items
   converted to multiple choice with project-written distractors; a few items
   lightly reworded (e.g. one grammar fix); questions reorganized under this

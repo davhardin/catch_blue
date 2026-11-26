@@ -1,6 +1,13 @@
 # Question Bank Tracker
 
-Last updated: 2026-11-25 — **metabolism imported** through the new agent
+Last updated: 2026-11-26 — **urinary_system imported** through the agent
+pipeline. David approved the final set 2026-11-26 with two changes (#147,
+#149 and #162 removed after his Martini check; New #10 kept as Claude B wrote
+it); 141 questions, `bio-anat-22-001`–`-141`. Registered in
+`SUBJECT_TOPIC_ORDERS` and the scroll-bar test at David's request; suite 559
+green. Final set, decision log and approval request are in
+`question_sources/Claude_C_Final_Review/` (local only). Bank total now 2,872.
+Previous status, 2026-11-25 — **metabolism imported** through the new agent
 pipeline (Claude A builds → Claude B reviews + two blind tests → Claude C
 finalizes; briefs in `question_sources/agent_briefs/`). David approved the
 final set 2026-11-25 with four changes; 128 questions, `bio-anat-21-001`–`-128`.
@@ -32,7 +39,7 @@ Questions.md`, `Anson Vol.1 - unreviewed.md`, and the Vol. 2 set:
 | Source | License | Status |
 |---|---|---|
 | Anson *3600+ Review Questions*, Vol. 1 (5th ed.) | CC BY-SA 3.0 | **Import complete.** All 1,870 questions audited (2026-08-31) → David vetted all 14 topics → 1,595 imported 2026-09-01. Remaining: the 177-question edit pile in `Anson Vol.1 - unreviewed.md` (David's rewrites). |
-| Anson *3600+ Review Questions*, Vol. 2 (3rd ed.) | CC BY-SA 3.0 | **Import in progress.** All 1,884 questions audited (2026-09-08) → `question_recommendations_part2.md` (1,594 REC / 273 EDIT / 17 NO). David has vetted 6 of 11 topics (blood → digestive_system) in `Anson Vol.2 Final Questions.md` → 1,040 imported (656 on 2026-09-09, +155 respiratory_system on 2026-09-11, +229 digestive_system on 2026-09-14) via `anson_import2.py`. **+128 metabolism on 2026-11-25 via the agent pipeline** (not `anson_import2.py`; the pipeline reviews the audit's Recommended-with-Edits entries itself, so metabolism adds nothing to the edit pile). 1,168 imported in all (1,156 after the 2026-09-14 removals). **Still to vet:** urinary_system, fluids_and_acid-bases, reproductive_system, development_and_inheritance (the audit is done for all of them). Edit pile for the 6 earlier topics: 145 entries (see loose ends). |
+| Anson *3600+ Review Questions*, Vol. 2 (3rd ed.) | CC BY-SA 3.0 | **Import in progress.** All 1,884 questions audited (2026-09-08) → `question_recommendations_part2.md` (1,594 REC / 273 EDIT / 17 NO). David has vetted 6 of 11 topics (blood → digestive_system) in `Anson Vol.2 Final Questions.md` → 1,040 imported (656 on 2026-09-09, +155 respiratory_system on 2026-09-11, +229 digestive_system on 2026-09-14) via `anson_import2.py`. **+128 metabolism on 2026-11-25 and +141 urinary_system on 2026-11-26, both via the agent pipeline** (not `anson_import2.py`; the pipeline reviews the audit's Recommended-with-Edits entries itself, so neither topic adds to the edit pile). 1,309 imported in all (1,297 after the 2026-09-14 removals). **Still to vet:** fluids_and_acid-bases (in the pipeline: Claude A and B done 2026-11-26), reproductive_system, development_and_inheritance (the audit is done for all of them). Edit pile for the 6 earlier topics: 145 entries (see loose ends). |
 | OpenStax *A&P 2e* review questions (ch. 1–4+) | CC BY-NC-SA 4.0 | **Not started.** Maps section-for-section onto existing subtopics. Educator account (free instructor test bank) not yet applied for. |
 | OpenStax *A&P 2e* critical-thinking questions | CC BY-NC-SA 4.0 | **Not started.** Raw material for the difficulty-3 tier; needs MCQ-ification. |
 | OER Commons question banks (OpenStax-aligned) | varies per item | **Not started.** Needs a free account; check each item's license. |
@@ -50,12 +57,15 @@ digestive_system was graded on import the same day.
 Seven questions carry `"shuffle": false` (two-choice items): `bio-anat-06-229`,
 `bio-anat-14-067`, and from Vol. 2 `bio-anat-16-003`, `-004`, `-005`, `-010`,
 `-068` (heart — systole/diastole pairs and one "overlap is greater/less").
+urinary_system adds four more (`bio-anat-22-019`, `-032`, `-044`, `-052`:
+cortex | medulla, visceral | parietal, apical | basolateral, afferent |
+efferent), each listed in natural order with the key second.
 
 Id prefixes continue the Vol. 1 numbering in topic-plan order: 15 blood,
 16 heart, 17 blood_vessels, 18 lymphatic_and_immune_system, 19
-respiratory_system, 20 digestive_system, 21 metabolism. The next Vol. 2 topics should take
-22 urinary_system, 23 fluids_and_acid-bases, 24 reproductive_system,
-25 development_and_inheritance.
+respiratory_system, 20 digestive_system, 21 metabolism, 22 urinary_system. The
+next Vol. 2 topics should take 23 fluids_and_acid-bases, 24
+reproductive_system, 25 development_and_inheritance.
 
 | Topic | Qs | Tiers 1 / 2 / 3 | Subtopics (imported count) | Anson vetted |
 |---|---|---|---|---|
@@ -80,14 +90,14 @@ respiratory_system, 20 digestive_system, 21 metabolism. The next Vol. 2 topics s
 | respiratory_system | 152 | 73 / 69 / 10 | Aging: Respiratory System (2), Gas Exchange (16), Gas Transport (21), Lower Respiratory System (26), Regulation of Breathing (31), The Lungs (47), Upper Respiratory System (12) | ✅ Vol. 2 |
 | digestive_system | 228 | 93 / 107 / 28 | Accessory Digestive Organs (51), Chemical Digestion (17), Digestive System Functions (36), Large Intestine (18), Oral Cavity (22), Pharynx and Esophagus (15), Small Intestine (30), Stomach (40) | ✅ Vol. 2 |
 | metabolism | 128 | 91 / 33 / 4 | Absorptive vs Postabsorptive States (6), Carbohydrate Metabolism (26), Catabolism vs Anabolism (4), Lipid Metabolism (19), Metabolic Rate (14), Nutrition & Normal Functioning (44), Protein Metabolism (15) | ✅ Vol. 2 (agent pipeline, approved 2026-11-25) |
-| urinary_system | 0 | — | *(plan: 5 subtopics)* | ⏳ audited, not vetted |
+| urinary_system | 141 | 106 / 33 / 2 | Aging: Urinary System (4), Kidney Anatomy (36), Renal Physiology (68), Urinary Reflexes (9), Urinary System Function (24) | ✅ Vol. 2 (agent pipeline, approved 2026-11-26) |
 | fluids_and_acid-bases | 0 | — | *(plan: 6 subtopics)* | ⏳ audited, not vetted |
 | reproductive_system | 0 | — | *(plan: 6 subtopics)* | ⏳ audited, not vetted |
 | development_and_inheritance | 0 | — | *(plan: 6 subtopics)* | ⏳ audited, not vetted |
 
-**Bank total as of 2026-11-25: 2,731 questions** (1,575 Vol. 1 after
-removals + 1,156 Vol. 2: 1,028 after the 2026-09-14 quality pass removed 12,
-plus 128 metabolism).
+**Bank total as of 2026-11-26: 2,872 questions** (1,575 Vol. 1 after
+removals + 1,297 Vol. 2: 1,028 after the 2026-09-14 quality pass removed 12,
+plus 128 metabolism and 141 urinary_system).
 
 **Tier thinness (M7.e success check):** every topic has tier-1 and tier-2
 questions. `chemical_foundations` and `tissues` have **no tier-3**
@@ -184,7 +194,8 @@ Cells"; the four macromolecule subtopics → "Macromolecules").
 Items 1–9 came out of the 2026-09-09 import of the first four topics; items
 10–13 from the 2026-09-11 respiratory_system import; items 14–20 from the
 2026-09-14 digestive_system import; items 21–29 from the 2026-11-25 metabolism
-import (agent pipeline, not `anson_import2.py`). `anson_import2.py` reproduces the run
+import and items 30–37 from the 2026-11-26 urinary_system import (agent
+pipeline, not `anson_import2.py`). `anson_import2.py` reproduces the run
 (`--write` regenerates every listed JSON file from the audit + vetting file,
 so fix things at the source and rerun). **Since 2026-09-14 pass
 `--only=topic` with `--write`** — the other banks now carry hand-applied
@@ -354,3 +365,46 @@ difficulty grades that a full regeneration would reset to 1.
 29. **Tier skew, metabolism:** 91 / 33 / 4 (71% / 26% / 3%), against the bank's
     48 / 44 / 9. Most of it is the Nutrition definitions (39 of 44 are tier 1).
     No grades were inflated.
+30. ~~**Topic menu order and scroll-bar constants (game and test code),
+    urinary_system:**~~ — DONE 2026-11-26 by Claude C at David's request:
+    `"urinary_system"` appended after `"metabolism"` in `SUBJECT_TOPIC_ORDERS`;
+    `tests/test_scroll_bar.py` set to `ROWS = 23` and 728 = (23 − 9) × 52 in both
+    places (docstring now "23 rows (All plus 22 topics)"). Suite 559 green. No
+    display alias needed: every urinary label passes the label-fit checks. The
+    next topic needs the same scroll-bar edit (24 rows, 780).
+31. **Thin subtopic, urinary_system:** Aging: Urinary System (4, all
+    originals: New #1, #2, #3, #9) is above the floor of 3 but below the target
+    of 8. The audit had no aging entries. Urinary Reflexes is at 9 after David's
+    removals.
+32. **Martini checks, urinary_system: settled** (David, 2026-11-26). Every
+    item on the list checked out, including #87 (angiotensin II constricts the
+    efferent arteriole more), #124 (ANP inhibits renin), #156/#157 (the pontine
+    center and the frontal lobe) and #16–#18 (the kidney's coverings). David
+    removed #147 (first urge at 150–200 mL), #149 (the male urethra is about
+    five times as long) and #162 (stress vs urge incontinence). Nothing is open.
+33. **Skips David may want to revisit, urinary_system (37 + 1 replaced + 3
+    removed):** Claude A's 37, with reasons, are in the approval request. #45
+    (fenestrations) was replaced by New #10 (mesangial cells) as a near-duplicate
+    of `bio-anat-17-029`. Facts that left the topic:
+    - the ureter wall's three layers (#140; #143 covers only the bladder wall);
+    - the first-urge volume, the urethra length ratio and the incontinence types
+      (David's removals).
+34. **Plan-file label (local only):** `question_sources/anat_phys_topics_plan.md`
+    still lists "Kidneys: Gross Anatomy"; the shipped label is "Kidney Anatomy"
+    (David's rename, 2026-11-25). Only David edits the plan file.
+35. **Fluids carryover: superseded.** Claude B's urinary review listed fluids
+    audit entries that are near-duplicates of urinary items (pH #24, #29, #50;
+    F&E #18, #30, #39, #41, #52, #58), recorded in
+    `question_sources/Claude_C_Final_Review/carryover_urinary_to_fluids_and_acid-bases.md`.
+    The fluids Claude A and B runs (2026-11-26) had already checked against the
+    urinary final set, and David decided their eight overlap items the same day.
+    The fluids Claude C checks against the shipped `bio-anat-22` bank as usual.
+36. **Uncovered OpenStax objectives, urinary_system:**
+    - the average GFR (25.5) and the urine osmolarity range (25.1), both
+      textbook-dependent values;
+    - the epithelia of the loop and DCT, and slide-level cortex vs medulla
+      histology (25.4);
+    - the ureter wall (25.2), after the #140 skip.
+37. **Tier skew, urinary_system:** 106 / 33 / 2 (75% / 23% / 1%), against the
+    bank's 48 / 44 / 9. Kidney Anatomy is 35 of 36 tier 1. Tier 3 is #86b
+    (`bio-anat-22-067`) and New #8 (`-108`). No grades were inflated.

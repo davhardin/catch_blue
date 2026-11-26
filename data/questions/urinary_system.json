@@ -1,0 +1,2252 @@
+[
+  {
+    "id": "bio-anat-22-001",
+    "subject": "anatomy_physiology",
+    "topic": "urinary_system",
+    "subtopic": "Aging: Urinary System",
+    "difficulty": 2,
+    "type": "multiple_choice",
+    "prompt": "Glomerular filtration rate tends to fall slowly with age, mainly because _____.",
+    "choices": [
+      "the number of functional nephrons decreases",
+      "the afferent arterioles stay permanently dilated",
+      "the filtration membrane becomes more permeable",
+      "the liver makes fewer plasma proteins"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-22-002",
+    "subject": "anatomy_physiology",
+    "topic": "urinary_system",
+    "subtopic": "Aging: Urinary System",
+    "difficulty": 2,
+    "type": "multiple_choice",
+    "prompt": "With age, the bladder wall becomes stiffer and the detrusor muscle weakens. As a result, older adults tend to _____.",
+    "choices": [
+      "urinate more often and empty the bladder less completely",
+      "urinate less often and empty the bladder more completely",
+      "urinate more often and empty the bladder more completely",
+      "urinate less often and empty the bladder less completely"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-22-003",
+    "subject": "anatomy_physiology",
+    "topic": "urinary_system",
+    "subtopic": "Aging: Urinary System",
+    "difficulty": 2,
+    "type": "multiple_choice",
+    "prompt": "In older men, an enlarged prostate can cause urinary retention because the gland _____.",
+    "choices": [
+      "surrounds the urethra just below the bladder and narrows it",
+      "presses on the ureters where they leave the kidneys",
+      "blocks blood flow to the detrusor muscle",
+      "releases a hormone that relaxes the detrusor"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-22-004",
+    "subject": "anatomy_physiology",
+    "topic": "urinary_system",
+    "subtopic": "Aging: Urinary System",
+    "difficulty": 2,
+    "type": "multiple_choice",
+    "prompt": "With age, the kidneys become less able to concentrate urine, so older adults lose more water and dehydrate more easily. This change is linked mainly to reduced kidney responsiveness to _____.",
+    "choices": [
+      "ADH",
+      "aldosterone",
+      "parathyroid hormone",
+      "atrial natriuretic peptide"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-22-005",
+    "subject": "anatomy_physiology",
+    "topic": "urinary_system",
+    "subtopic": "Kidney Anatomy",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Each kidney lies against the posterior abdominal wall, roughly between vertebrae _____.",
+    "choices": [
+      "T12 and L3",
+      "T6 and T10",
+      "L3 and L5",
+      "L5 and S2"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-22-006",
+    "subject": "anatomy_physiology",
+    "topic": "urinary_system",
+    "subtopic": "Kidney Anatomy",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The right kidney usually sits slightly lower than the left because the _____ lies directly above it.",
+    "choices": [
+      "liver",
+      "spleen",
+      "stomach",
+      "pancreas"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-22-007",
+    "subject": "anatomy_physiology",
+    "topic": "urinary_system",
+    "subtopic": "Kidney Anatomy",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The layer of dense connective tissue that adheres directly to the outer surface of each kidney is the _____.",
+    "choices": [
+      "fibrous capsule",
+      "renal fascia",
+      "adipose capsule",
+      "visceral peritoneum"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-22-008",
+    "subject": "anatomy_physiology",
+    "topic": "urinary_system",
+    "subtopic": "Kidney Anatomy",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The kidneys are surrounded by an outer fibrous layer called the _____, which _____. This layer surrounds the adrenal glands as well.",
+    "choices": [
+      "renal fascia; anchors the kidney to surrounding structures",
+      "fibrous capsule; prevents the spread of infection",
+      "adipose capsule; cushions the kidney",
+      "parietal peritoneum; secretes serous fluid"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-22-009",
+    "subject": "anatomy_physiology",
+    "topic": "urinary_system",
+    "subtopic": "Kidney Anatomy",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Between the fibrous capsule and the renal fascia lies the _____, which cushions the kidney and helps hold it in place.",
+    "choices": [
+      "adipose capsule",
+      "renal sinus",
+      "parietal peritoneum",
+      "renal cortex"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-22-010",
+    "subject": "anatomy_physiology",
+    "topic": "urinary_system",
+    "subtopic": "Kidney Anatomy",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The concave medial surface of each kidney has a(n) _____, where the ureter, blood vessels, nerves, and lymphatics enter or leave the kidney.",
+    "choices": [
+      "hilum",
+      "renal sinus",
+      "renal pelvis",
+      "major calyx"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-22-011",
+    "subject": "anatomy_physiology",
+    "topic": "urinary_system",
+    "subtopic": "Kidney Anatomy",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The hilum is continuous with the _____, a much deeper indentation filled with fat which cushions the structures which enter and leave the kidney.",
+    "choices": [
+      "renal sinus",
+      "renal pelvis",
+      "renal medulla",
+      "adipose capsule"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-22-012",
+    "subject": "anatomy_physiology",
+    "topic": "urinary_system",
+    "subtopic": "Kidney Anatomy",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The outer region of the kidney, just deep to the fibrous capsule, is the _____. Inward extensions of this region, the _____, reach toward the renal sinus and carry the interlobar arteries and veins.",
+    "choices": [
+      "renal cortex; renal columns",
+      "renal medulla; renal pyramids",
+      "renal cortex; renal pyramids",
+      "renal medulla; renal columns"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-22-013",
+    "subject": "anatomy_physiology",
+    "topic": "urinary_system",
+    "subtopic": "Kidney Anatomy",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The renal columns divide the renal medulla into cone-shaped regions called _____, whose tips point toward the renal sinus.",
+    "choices": [
+      "renal pyramids",
+      "renal lobes",
+      "renal papillae",
+      "minor calyces"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-22-014",
+    "subject": "anatomy_physiology",
+    "topic": "urinary_system",
+    "subtopic": "Kidney Anatomy",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "A renal pyramid together with the cortical tissue around it forms a(n) _____.",
+    "choices": [
+      "renal lobe",
+      "renal lobule",
+      "renal column",
+      "renal papilla"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-22-015",
+    "subject": "anatomy_physiology",
+    "topic": "urinary_system",
+    "subtopic": "Kidney Anatomy",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Each renal pyramid projects into the renal sinus. The projecting part is the _____, and the urine draining from it enters a(n) _____.",
+    "choices": [
+      "renal papilla; minor calyx",
+      "renal papilla; major calyx",
+      "renal column; minor calyx",
+      "renal column; major calyx"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-22-016",
+    "subject": "anatomy_physiology",
+    "topic": "urinary_system",
+    "subtopic": "Kidney Anatomy",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Several minor calyces merge to form a(n) _____.",
+    "choices": [
+      "major calyx",
+      "renal pelvis",
+      "renal papilla",
+      "ureter"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-22-017",
+    "subject": "anatomy_physiology",
+    "topic": "urinary_system",
+    "subtopic": "Kidney Anatomy",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The major calyces merge to form a funnel-shaped chamber, the _____, which narrows as it leaves the kidney to become the ureter.",
+    "choices": [
+      "renal pelvis",
+      "renal sinus",
+      "hilum",
+      "minor calyx"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-22-018",
+    "subject": "anatomy_physiology",
+    "topic": "urinary_system",
+    "subtopic": "Kidney Anatomy",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Each renal artery divides into _____ arteries, which branch further and then pass through the renal columns toward the cortex as the _____ arteries.",
+    "choices": [
+      "segmental; interlobar",
+      "segmental; cortical radiate",
+      "arcuate; interlobar",
+      "arcuate; cortical radiate"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-22-019",
+    "subject": "anatomy_physiology",
+    "topic": "urinary_system",
+    "subtopic": "Kidney Anatomy",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Only a small share of the blood reaching the kidney flows to the _____.",
+    "choices": [
+      "renal cortex",
+      "renal medulla"
+    ],
+    "answer_index": 1,
+    "shuffle": false
+  },
+  {
+    "id": "bio-anat-22-020",
+    "subject": "anatomy_physiology",
+    "topic": "urinary_system",
+    "subtopic": "Kidney Anatomy",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "At the boundary between the cortex and the medulla, each interlobar artery branches into _____ arteries, which run along the bases of the renal pyramids.",
+    "choices": [
+      "arcuate",
+      "cortical radiate",
+      "segmental",
+      "suprarenal"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-22-021",
+    "subject": "anatomy_physiology",
+    "topic": "urinary_system",
+    "subtopic": "Kidney Anatomy",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Cortical radiate (interlobular) arteries give rise to the _____, each of which carries blood into a single glomerulus.",
+    "choices": [
+      "afferent arterioles",
+      "efferent arterioles",
+      "peritubular capillaries",
+      "vasa recta"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-22-022",
+    "subject": "anatomy_physiology",
+    "topic": "urinary_system",
+    "subtopic": "Kidney Anatomy",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "After leaving the glomerulus through the efferent arteriole, blood flows into a second capillary bed, the _____, which surrounds the renal tubules in the cortex.",
+    "choices": [
+      "peritubular capillaries",
+      "vasa recta",
+      "glomerular capillaries",
+      "cortical radiate veins"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-22-023",
+    "subject": "anatomy_physiology",
+    "topic": "urinary_system",
+    "subtopic": "Kidney Anatomy",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "In juxtamedullary nephrons, the efferent arteriole also gives rise to the _____, long straight vessels that run beside the loop of Henle deep into the medulla.",
+    "choices": [
+      "vasa recta",
+      "glomerular capillaries",
+      "arcuate veins",
+      "cortical radiate arteries"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-22-024",
+    "subject": "anatomy_physiology",
+    "topic": "urinary_system",
+    "subtopic": "Kidney Anatomy",
+    "difficulty": 2,
+    "type": "multiple_choice",
+    "prompt": "Veins in the kidney run alongside the arteries of the same names. Blood leaving the peritubular capillaries therefore drains, in order, through the _____ veins before entering the renal vein.",
+    "choices": [
+      "cortical radiate, arcuate, and interlobar",
+      "interlobar, arcuate, and cortical radiate",
+      "cortical radiate, interlobar, and arcuate",
+      "arcuate, interlobar, and cortical radiate"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-22-025",
+    "subject": "anatomy_physiology",
+    "topic": "urinary_system",
+    "subtopic": "Kidney Anatomy",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "_____ are the structures within the kidney that actually sort the substances which should be kept or discarded.",
+    "choices": [
+      "Nephrons",
+      "Renal pyramids",
+      "Calyces",
+      "Renal columns"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-22-026",
+    "subject": "anatomy_physiology",
+    "topic": "urinary_system",
+    "subtopic": "Kidney Anatomy",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Each kidney contains _____ nephrons.",
+    "choices": [
+      "about 1 million",
+      "about 10,000",
+      "about 100,000",
+      "about 100 million"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-22-027",
+    "subject": "anatomy_physiology",
+    "topic": "urinary_system",
+    "subtopic": "Kidney Anatomy",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Each nephron has two major parts: the _____ in the cortex and a thin _____, U-shaped at the center, which extends from the cortex into the medulla and back.",
+    "choices": [
+      "renal corpuscle; renal tubule",
+      "glomerulus; collecting duct",
+      "renal pyramid; calyx",
+      "Bowman's capsule; vasa recta"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-22-028",
+    "subject": "anatomy_physiology",
+    "topic": "urinary_system",
+    "subtopic": "Kidney Anatomy",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "There are two types of nephron: the glomerulus of _____ nephrons lies deep in the cortex, and the tubule of these nephrons _____ into a renal pyramid. These nephrons are very important in the production of _____ urine.",
+    "choices": [
+      "juxtamedullary; extends deep; concentrated",
+      "cortical; extends deep; dilute",
+      "cortical; barely extends; concentrated",
+      "juxtamedullary; barely extends; dilute"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-22-029",
+    "subject": "anatomy_physiology",
+    "topic": "urinary_system",
+    "subtopic": "Kidney Anatomy",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Most nephrons are _____ nephrons, whose loops of Henle _____.",
+    "choices": [
+      "cortical; are short and stay near the cortex",
+      "juxtamedullary; reach deep into the medulla",
+      "cortical; reach deep into the medulla",
+      "juxtamedullary; are short and stay near the cortex"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-22-030",
+    "subject": "anatomy_physiology",
+    "topic": "urinary_system",
+    "subtopic": "Kidney Anatomy",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The renal corpuscle has two parts: the central portion is a tangled ball of capillaries called the _____. This is surrounded by the outer portion, a double-walled, cup-like chamber called the _____.",
+    "choices": [
+      "glomerulus; glomerular (Bowman's) capsule",
+      "glomerulus; fibrous capsule",
+      "peritubular capillaries; glomerular (Bowman's) capsule",
+      "peritubular capillaries; fibrous capsule"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-22-031",
+    "subject": "anatomy_physiology",
+    "topic": "urinary_system",
+    "subtopic": "Kidney Anatomy",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The _____ is the interior of the Bowman's capsule, and is continuous with the _____.",
+    "choices": [
+      "capsular space; proximal convoluted tubule",
+      "capsular space; distal convoluted tubule",
+      "renal sinus; proximal convoluted tubule",
+      "renal sinus; distal convoluted tubule"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-22-032",
+    "subject": "anatomy_physiology",
+    "topic": "urinary_system",
+    "subtopic": "Kidney Anatomy",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The outer wall of the glomerular capsule is a layer of simple squamous cells that filtrate cannot cross. It is the capsule's _____ layer.",
+    "choices": [
+      "visceral",
+      "parietal"
+    ],
+    "answer_index": 1,
+    "shuffle": false
+  },
+  {
+    "id": "bio-anat-22-033",
+    "subject": "anatomy_physiology",
+    "topic": "urinary_system",
+    "subtopic": "Kidney Anatomy",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "_____ cells sit between the capillary loops of the glomerulus, and by contracting they can reduce the rate of filtration.",
+    "choices": [
+      "Mesangial",
+      "Juxtaglomerular",
+      "Macula densa",
+      "Intercalated"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-22-034",
+    "subject": "anatomy_physiology",
+    "topic": "urinary_system",
+    "subtopic": "Kidney Anatomy",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The visceral layer of the Bowman's capsule is formed by specialized cells called _____. Fingerlike extensions of these cells wrap the capillaries of the glomerulus; between these are gaps called _____, which allow liquid to pass into the capsular space.",
+    "choices": [
+      "podocytes; filtration slits",
+      "podocytes; fenestrations",
+      "mesangial cells; filtration slits",
+      "mesangial cells; fenestrations"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-22-035",
+    "subject": "anatomy_physiology",
+    "topic": "urinary_system",
+    "subtopic": "Kidney Anatomy",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Between the capillary walls and the visceral layer of the Bowman's capsule is a thin basement membrane through which liquid easily passes. Together, these three structures form the _____.",
+    "choices": [
+      "filtration membrane",
+      "glomerular capsule",
+      "renal corpuscle",
+      "tubular epithelium"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-22-036",
+    "subject": "anatomy_physiology",
+    "topic": "urinary_system",
+    "subtopic": "Kidney Anatomy",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Blood leaves the glomerulus through the _____.",
+    "choices": [
+      "efferent arteriole",
+      "afferent arteriole",
+      "peritubular capillaries",
+      "cortical radiate vein"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-22-037",
+    "subject": "anatomy_physiology",
+    "topic": "urinary_system",
+    "subtopic": "Kidney Anatomy",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The region of the loop of Henle in which fluid is traveling toward the hilum is called the _____; the region where fluid is flowing toward the outer surface of the kidney is the _____.",
+    "choices": [
+      "descending limb; ascending limb",
+      "ascending limb; descending limb",
+      "thick limb; thin limb",
+      "proximal limb; distal limb"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-22-038",
+    "subject": "anatomy_physiology",
+    "topic": "urinary_system",
+    "subtopic": "Kidney Anatomy",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The distal convoluted tubules of several nephrons empty into a single _____.",
+    "choices": [
+      "collecting duct",
+      "papillary duct",
+      "minor calyx",
+      "renal pelvis"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-22-039",
+    "subject": "anatomy_physiology",
+    "topic": "urinary_system",
+    "subtopic": "Kidney Anatomy",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Several collecting ducts merge into a larger _____, which delivers urine into a minor calyx.",
+    "choices": [
+      "papillary duct",
+      "connecting tubule",
+      "major calyx",
+      "renal pelvis"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-22-040",
+    "subject": "anatomy_physiology",
+    "topic": "urinary_system",
+    "subtopic": "Kidney Anatomy",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The cells lining the proximal convoluted tubule carry a dense brush border of _____, which greatly enlarges the surface available for reabsorption.",
+    "choices": [
+      "microvilli",
+      "cilia",
+      "villi",
+      "rugae"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-22-041",
+    "subject": "anatomy_physiology",
+    "topic": "urinary_system",
+    "subtopic": "Renal Physiology",
+    "difficulty": 2,
+    "type": "multiple_choice",
+    "prompt": "In uncontrolled diabetes mellitus, plasma glucose rises so high that the PCT's glucose carriers are saturated. As a result, _____.",
+    "choices": [
+      "glucose appears in the urine",
+      "glucose is secreted into the filtrate",
+      "urine output falls",
+      "the kidneys stop filtering glucose"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-22-042",
+    "subject": "anatomy_physiology",
+    "topic": "urinary_system",
+    "subtopic": "Renal Physiology",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The function of the renal corpuscle is to _____ in the first step of urine formation.",
+    "choices": [
+      "filter the blood",
+      "reabsorb water",
+      "secrete hydrogen ions",
+      "concentrate the urine"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-22-043",
+    "subject": "anatomy_physiology",
+    "topic": "urinary_system",
+    "subtopic": "Renal Physiology",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "_____ forces liquid to leave the capillaries in the glomerulus, while formed elements and large molecules are left behind. The fluid passes through the visceral layer of the Bowman's capsule to enter the capsular space.",
+    "choices": [
+      "Blood pressure",
+      "Blood colloid osmotic pressure",
+      "Capsular hydrostatic pressure",
+      "Active transport"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-22-044",
+    "subject": "anatomy_physiology",
+    "topic": "urinary_system",
+    "subtopic": "Renal Physiology",
+    "difficulty": 2,
+    "type": "multiple_choice",
+    "prompt": "During tubular secretion, a substance moves from the interstitial fluid into the filtrate, so it crosses the tubule cell's _____ membrane first and its _____ membrane second.",
+    "choices": [
+      "apical; basolateral",
+      "basolateral; apical"
+    ],
+    "answer_index": 1,
+    "shuffle": false
+  },
+  {
+    "id": "bio-anat-22-045",
+    "subject": "anatomy_physiology",
+    "topic": "urinary_system",
+    "subtopic": "Renal Physiology",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The tubular portion of the nephron is divided into several sections both functionally and conceptually: the portion of the tube closest to the renal corpuscle is the _____. Its primary function is _____.",
+    "choices": [
+      "proximal convoluted tubule; reabsorption of solutes and water",
+      "proximal convoluted tubule; regulated water reabsorption",
+      "distal convoluted tubule; reabsorption of solutes and water",
+      "distal convoluted tubule; regulated water reabsorption"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-22-046",
+    "subject": "anatomy_physiology",
+    "topic": "urinary_system",
+    "subtopic": "Renal Physiology",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The main job of the loop of Henle is to _____.",
+    "choices": [
+      "reabsorb water and NaCl, building the medullary gradient",
+      "reabsorb nearly all filtered glucose and amino acids",
+      "secrete H+ and K+ under hormonal control",
+      "filter plasma out of the glomerular capillaries"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-22-047",
+    "subject": "anatomy_physiology",
+    "topic": "urinary_system",
+    "subtopic": "Renal Physiology",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The tubule of the nephron twists in such a way that the beginning of the DCT and the afferent and efferent arterioles contact one another. Cells in this region (the _____) are specialized to sense blood pressure and the NaCl content of the filtrate.",
+    "choices": [
+      "juxtaglomerular apparatus",
+      "renal corpuscle",
+      "vasa recta",
+      "filtration membrane"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-22-048",
+    "subject": "anatomy_physiology",
+    "topic": "urinary_system",
+    "subtopic": "Renal Physiology",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "There are three processes involved in urine formation: _____, _____ and _____.",
+    "choices": [
+      "filtration; reabsorption; secretion",
+      "filtration; absorption; excretion",
+      "digestion; absorption; secretion",
+      "osmosis; diffusion; active transport"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-22-049",
+    "subject": "anatomy_physiology",
+    "topic": "urinary_system",
+    "subtopic": "Renal Physiology",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "In _____, the liquid components of the blood (including small molecules that are dissolved therein) are separated from the formed elements and large molecules.",
+    "choices": [
+      "filtration",
+      "reabsorption",
+      "secretion",
+      "excretion"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-22-050",
+    "subject": "anatomy_physiology",
+    "topic": "urinary_system",
+    "subtopic": "Renal Physiology",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "In reabsorption, molecules which are _____ are allowed to remain in the filtrate, while glucose, amino acids, ions, and so on are reclaimed.",
+    "choices": [
+      "unneeded or harmful",
+      "small and lipid-soluble",
+      "carried by sodium cotransporters",
+      "bound to plasma proteins"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-22-051",
+    "subject": "anatomy_physiology",
+    "topic": "urinary_system",
+    "subtopic": "Renal Physiology",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "In the _____ and _____, several substances may be specifically secreted: these include ammonium ions, hydrogen ions, and some drugs.",
+    "choices": [
+      "proximal convoluted tubule; distal convoluted tubule",
+      "glomerulus; distal convoluted tubule",
+      "proximal convoluted tubule; loop of Henle",
+      "glomerulus; loop of Henle"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-22-052",
+    "subject": "anatomy_physiology",
+    "topic": "urinary_system",
+    "subtopic": "Renal Physiology",
+    "difficulty": 2,
+    "type": "multiple_choice",
+    "prompt": "Glomerular blood pressure is higher than in other capillaries because the _____ arteriole is narrower than the _____ arteriole.",
+    "choices": [
+      "afferent; efferent",
+      "efferent; afferent"
+    ],
+    "answer_index": 1,
+    "shuffle": false
+  },
+  {
+    "id": "bio-anat-22-053",
+    "subject": "anatomy_physiology",
+    "topic": "urinary_system",
+    "subtopic": "Renal Physiology",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The blood pressure in the glomerulus is often referred to as the _____.",
+    "choices": [
+      "glomerular hydrostatic pressure",
+      "blood colloid osmotic pressure",
+      "capsular hydrostatic pressure",
+      "net filtration pressure"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-22-054",
+    "subject": "anatomy_physiology",
+    "topic": "urinary_system",
+    "subtopic": "Renal Physiology",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The _____ is the sum of all of the forces which influence glomerular filtration rate.",
+    "choices": [
+      "net filtration pressure",
+      "glomerular hydrostatic pressure",
+      "blood colloid osmotic pressure",
+      "capsular hydrostatic pressure"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-22-055",
+    "subject": "anatomy_physiology",
+    "topic": "urinary_system",
+    "subtopic": "Renal Physiology",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Plasma proteins that cannot cross the filtration membrane create the _____, which draws fluid back into the glomerular capillaries and opposes filtration.",
+    "choices": [
+      "blood colloid osmotic pressure",
+      "capsular hydrostatic pressure",
+      "glomerular hydrostatic pressure",
+      "net filtration pressure"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-22-056",
+    "subject": "anatomy_physiology",
+    "topic": "urinary_system",
+    "subtopic": "Renal Physiology",
+    "difficulty": 2,
+    "type": "multiple_choice",
+    "prompt": "If glomerular hydrostatic pressure is 55 mm Hg, capsular hydrostatic pressure is 15 mm Hg, and blood colloid osmotic pressure is 30 mm Hg, the net filtration pressure is _____.",
+    "choices": [
+      "10 mm Hg",
+      "40 mm Hg",
+      "70 mm Hg",
+      "100 mm Hg"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-22-057",
+    "subject": "anatomy_physiology",
+    "topic": "urinary_system",
+    "subtopic": "Renal Physiology",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "A bit over one liter of blood flows through the two kidneys each minute: this is the _____.",
+    "choices": [
+      "renal blood flow rate",
+      "glomerular filtration rate",
+      "renal plasma flow rate",
+      "filtration fraction"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-22-058",
+    "subject": "anatomy_physiology",
+    "topic": "urinary_system",
+    "subtopic": "Renal Physiology",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The amount of filtrate formed by the kidneys per minute is the _____, and is usually about a fifth of the plasma flow rate.",
+    "choices": [
+      "glomerular filtration rate",
+      "renal plasma flow rate",
+      "renal blood flow rate",
+      "filtration fraction"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-22-059",
+    "subject": "anatomy_physiology",
+    "topic": "urinary_system",
+    "subtopic": "Renal Physiology",
+    "difficulty": 2,
+    "type": "multiple_choice",
+    "prompt": "To change the filtration rate, both local and systemic mechanisms are able to change the _____.",
+    "choices": [
+      "glomerular hydrostatic pressure",
+      "capsular hydrostatic pressure",
+      "blood colloid osmotic pressure",
+      "number of functioning nephrons"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-22-060",
+    "subject": "anatomy_physiology",
+    "topic": "urinary_system",
+    "subtopic": "Renal Physiology",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "A '_____' is one in which the smooth muscle in a blood vessel wall contracts when it is stretched and relaxes when the stretch decreases.",
+    "choices": [
+      "myogenic response",
+      "tubuloglomerular feedback",
+      "baroreceptor reflex",
+      "renin–angiotensin mechanism"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-22-061",
+    "subject": "anatomy_physiology",
+    "topic": "urinary_system",
+    "subtopic": "Renal Physiology",
+    "difficulty": 2,
+    "type": "multiple_choice",
+    "prompt": "When systemic blood pressure rises moderately, the stretched smooth muscle of the afferent arteriole contracts. As a result, the glomerular filtration rate _____.",
+    "choices": [
+      "stays nearly the same, as the narrowing offsets the higher pressure",
+      "rises, as the higher pressure pushes more blood into the glomerulus",
+      "falls, as the narrowed arteriole lets too little blood through",
+      "rises, as the narrowed arteriole raises glomerular pressure"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-22-062",
+    "subject": "anatomy_physiology",
+    "topic": "urinary_system",
+    "subtopic": "Renal Physiology",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Macula densa cells sense the NaCl concentration and flow rate of the filtrate and signal the afferent arteriole to change its diameter. This mechanism is called _____.",
+    "choices": [
+      "tubuloglomerular feedback",
+      "the myogenic response",
+      "the renin–angiotensin mechanism",
+      "the baroreceptor reflex"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-22-063",
+    "subject": "anatomy_physiology",
+    "topic": "urinary_system",
+    "subtopic": "Renal Physiology",
+    "difficulty": 2,
+    "type": "multiple_choice",
+    "prompt": "When filtrate flows too quickly through the DCT, cells of the juxtaglomerular apparatus called _____ cells release a chemical signal that makes the _____.",
+    "choices": [
+      "macula densa; afferent arteriole constrict",
+      "macula densa; afferent arteriole dilate",
+      "juxtaglomerular; afferent arteriole constrict",
+      "juxtaglomerular; afferent arteriole dilate"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-22-064",
+    "subject": "anatomy_physiology",
+    "topic": "urinary_system",
+    "subtopic": "Renal Physiology",
+    "difficulty": 2,
+    "type": "multiple_choice",
+    "prompt": "When blood pressure in the afferent and efferent arterioles is insufficient, _____ cells secrete renin, which indirectly causes a(n) _____ in systemic blood pressure and indirectly _____.",
+    "choices": [
+      "juxtaglomerular; increase; increases sodium retention",
+      "juxtaglomerular; decrease; decreases sodium retention",
+      "macula densa; increase; increases potassium retention",
+      "macula densa; decrease; increases water loss"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-22-065",
+    "subject": "anatomy_physiology",
+    "topic": "urinary_system",
+    "subtopic": "Renal Physiology",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Renin converts the plasma protein angiotensinogen into _____, which angiotensin-converting enzyme (ACE) then converts into _____.",
+    "choices": [
+      "angiotensin I; angiotensin II",
+      "angiotensin II; angiotensin I",
+      "angiotensin I; aldosterone",
+      "angiotensin II; aldosterone"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-22-066",
+    "subject": "anatomy_physiology",
+    "topic": "urinary_system",
+    "subtopic": "Renal Physiology",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Aldosterone, which acts on the DCT and collecting duct, is released by the _____.",
+    "choices": [
+      "adrenal cortex",
+      "adrenal medulla",
+      "posterior pituitary",
+      "juxtaglomerular cells"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-22-067",
+    "subject": "anatomy_physiology",
+    "topic": "urinary_system",
+    "subtopic": "Renal Physiology",
+    "difficulty": 3,
+    "type": "multiple_choice",
+    "prompt": "Aldosterone is a key regulator of how the kidney handles sodium and potassium. A tumor that secretes excess aldosterone would be expected to cause _____.",
+    "choices": [
+      "high blood pressure and low plasma K+",
+      "low blood pressure and high plasma K+",
+      "high blood pressure and high plasma K+",
+      "low blood pressure and low plasma K+"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-22-068",
+    "subject": "anatomy_physiology",
+    "topic": "urinary_system",
+    "subtopic": "Renal Physiology",
+    "difficulty": 2,
+    "type": "multiple_choice",
+    "prompt": "In the kidney, angiotensin II constricts both the afferent and the efferent arterioles, but it constricts the _____ arteriole more strongly. On its own, this effect tends to _____ glomerular hydrostatic pressure and GFR.",
+    "choices": [
+      "efferent; raise",
+      "afferent; raise",
+      "efferent; lower",
+      "afferent; lower"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-22-069",
+    "subject": "anatomy_physiology",
+    "topic": "urinary_system",
+    "subtopic": "Renal Physiology",
+    "difficulty": 2,
+    "type": "multiple_choice",
+    "prompt": "During intense stress or severe blood loss, strong sympathetic signals override the kidney's autoregulation and _____.",
+    "choices": [
+      "constrict the afferent arterioles, lowering GFR",
+      "dilate the afferent arterioles, raising GFR",
+      "constrict the efferent arterioles, raising GFR",
+      "dilate the efferent arterioles, lowering GFR"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-22-070",
+    "subject": "anatomy_physiology",
+    "topic": "urinary_system",
+    "subtopic": "Renal Physiology",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Renal clearance tests measure the _____ per minute, and are used to diagnose glomerular damage or monitor kidney disease.",
+    "choices": [
+      "volume of plasma from which a solute is removed",
+      "volume of urine produced by both kidneys",
+      "mass of a solute excreted in the urine",
+      "volume of blood flowing through the kidneys"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-22-071",
+    "subject": "anatomy_physiology",
+    "topic": "urinary_system",
+    "subtopic": "Renal Physiology",
+    "difficulty": 2,
+    "type": "multiple_choice",
+    "prompt": "If a renal clearance test is done using a solute that enters the filtrate but which is neither reabsorbed nor secreted by the nephron, then the renal clearance rate equals the _____. (_____ is often administered and used for this purpose.)",
+    "choices": [
+      "glomerular filtration rate; inulin",
+      "renal plasma flow; PAH",
+      "renal blood flow; creatinine",
+      "urine output; glucose"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-22-072",
+    "subject": "anatomy_physiology",
+    "topic": "urinary_system",
+    "subtopic": "Renal Physiology",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Most solutes and water are reabsorbed in the _____.",
+    "choices": [
+      "PCT",
+      "DCT",
+      "loop of Henle",
+      "collecting duct"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-22-073",
+    "subject": "anatomy_physiology",
+    "topic": "urinary_system",
+    "subtopic": "Renal Physiology",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Most or all of the organic nutrients such as glucose that are present in the filtrate are _____.",
+    "choices": [
+      "reabsorbed in the PCT",
+      "reabsorbed in the DCT",
+      "secreted in the PCT",
+      "secreted in the DCT"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-22-074",
+    "subject": "anatomy_physiology",
+    "topic": "urinary_system",
+    "subtopic": "Renal Physiology",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Under certain conditions, so much of a particular solute may be present in the filtrate that the _____ responsible for its reabsorption aren't sufficient for the task. In such cases, the concentration in the plasma is said to be above the _____.",
+    "choices": [
+      "carrier proteins; renal threshold",
+      "carrier proteins; filtration fraction",
+      "aquaporins; renal threshold",
+      "aquaporins; filtration fraction"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-22-075",
+    "subject": "anatomy_physiology",
+    "topic": "urinary_system",
+    "subtopic": "Renal Physiology",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "_____ join tubule cells to one another and prevent the passage of most substances between cells; however, water and a few ions are reabsorbed by this _____ route.",
+    "choices": [
+      "Tight junctions; paracellular",
+      "Tight junctions; transcellular",
+      "Desmosomes; paracellular",
+      "Desmosomes; transcellular"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-22-076",
+    "subject": "anatomy_physiology",
+    "topic": "urinary_system",
+    "subtopic": "Renal Physiology",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "A large volume of water is reabsorbed in the PCT, simply because the _____ creates enough osmotic pressure to cause the water to follow. (Sodium in particular contributes to this effect.)",
+    "choices": [
+      "transfer of solutes to the interstitial fluid",
+      "secretion of solutes into the filtrate",
+      "release of ADH",
+      "constriction of the efferent arteriole"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-22-077",
+    "subject": "anatomy_physiology",
+    "topic": "urinary_system",
+    "subtopic": "Renal Physiology",
+    "difficulty": 2,
+    "type": "multiple_choice",
+    "prompt": "As water is reabsorbed from the PCT, solutes such as urea and Cl− that are left in the filtrate become more concentrated, so they _____.",
+    "choices": [
+      "diffuse out of the tubule more easily",
+      "need more ATP to be reabsorbed",
+      "stay trapped in the tubule and are excreted",
+      "are secreted back into the filtrate"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-22-078",
+    "subject": "anatomy_physiology",
+    "topic": "urinary_system",
+    "subtopic": "Renal Physiology",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Water movement out of the proximal tubule and loop of Henle is driven by osmotic pressure and sodium concentrations, and is referred to as _____ because it is not regulated directly.",
+    "choices": [
+      "obligatory water reabsorption",
+      "facultative water reabsorption",
+      "osmotic diuresis",
+      "countercurrent multiplication"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-22-079",
+    "subject": "anatomy_physiology",
+    "topic": "urinary_system",
+    "subtopic": "Renal Physiology",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Water reabsorption in the DCT and collecting duct is hormonally controlled, and is referred to as _____.",
+    "choices": [
+      "facultative water reabsorption",
+      "obligatory water reabsorption",
+      "osmotic diuresis",
+      "countercurrent exchange"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-22-080",
+    "subject": "anatomy_physiology",
+    "topic": "urinary_system",
+    "subtopic": "Renal Physiology",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Reabsorption of most substances in the PCT depends on a large _____ gradient between the filtrate and the tubule cells. This gradient is maintained by pumps in the _____ membrane of the tubule cells.",
+    "choices": [
+      "sodium; basolateral",
+      "sodium; apical",
+      "potassium; basolateral",
+      "potassium; apical"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-22-081",
+    "subject": "anatomy_physiology",
+    "topic": "urinary_system",
+    "subtopic": "Renal Physiology",
+    "difficulty": 2,
+    "type": "multiple_choice",
+    "prompt": "In the PCT, the sodium-potassium ATPase moves Na+ out of the tubule cell by _____, and the Na+ gradient it creates then drives glucose into the cell by _____.",
+    "choices": [
+      "primary active transport; secondary active transport",
+      "secondary active transport; primary active transport",
+      "primary active transport; primary active transport",
+      "secondary active transport; secondary active transport"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-22-082",
+    "subject": "anatomy_physiology",
+    "topic": "urinary_system",
+    "subtopic": "Renal Physiology",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Glucose that entered a PCT cell by cotransport with Na+ leaves the cell across its basolateral membrane by _____.",
+    "choices": [
+      "facilitated diffusion",
+      "simple diffusion",
+      "primary active transport",
+      "sodium cotransport"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-22-083",
+    "subject": "anatomy_physiology",
+    "topic": "urinary_system",
+    "subtopic": "Renal Physiology",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Water and solutes that have been reabsorbed enter the _____ and are carried from the kidney.",
+    "choices": [
+      "peritubular capillaries",
+      "glomerular capillaries",
+      "collecting ducts",
+      "afferent arterioles"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-22-084",
+    "subject": "anatomy_physiology",
+    "topic": "urinary_system",
+    "subtopic": "Renal Physiology",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The major difference between the permeabilities of the descending and ascending limbs of the loop of Henle is that the descending limb is permeable to _____ but not to _____, while the reverse is true in the ascending limb.",
+    "choices": [
+      "water; NaCl",
+      "NaCl; water",
+      "urea; water",
+      "glucose; NaCl"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-22-085",
+    "subject": "anatomy_physiology",
+    "topic": "urinary_system",
+    "subtopic": "Renal Physiology",
+    "difficulty": 2,
+    "type": "multiple_choice",
+    "prompt": "The thick ascending limb pumps NaCl out of the filtrate but is impermeable to water. As a result, the filtrate leaving the loop of Henle is _____ compared with blood plasma.",
+    "choices": [
+      "hypotonic",
+      "isotonic",
+      "hypertonic"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-22-086",
+    "subject": "anatomy_physiology",
+    "topic": "urinary_system",
+    "subtopic": "Renal Physiology",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Removal of NaCl from the filtrate in the thick ascending limb of the loop of Henle requires _____.",
+    "choices": [
+      "active transport",
+      "osmosis",
+      "facilitated diffusion",
+      "simple diffusion"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-22-087",
+    "subject": "anatomy_physiology",
+    "topic": "urinary_system",
+    "subtopic": "Renal Physiology",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "_____ is able to diffuse from the collecting duct into the deep medullary tissue, contributing to the increasing osmotic gradient encountered by filtrate as it moves through the loop.",
+    "choices": [
+      "Urea",
+      "Glucose",
+      "Creatinine",
+      "Uric acid"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-22-088",
+    "subject": "anatomy_physiology",
+    "topic": "urinary_system",
+    "subtopic": "Renal Physiology",
+    "difficulty": 2,
+    "type": "multiple_choice",
+    "prompt": "In the medulla, the interstitial fluid is 4 times more concentrated near the _____ than near the _____. This allows juxtamedullary nephrons to produce urine that is _____.",
+    "choices": [
+      "renal papillae; cortex; very concentrated",
+      "cortex; renal papillae; very dilute",
+      "cortex; renal papillae; very concentrated",
+      "renal papillae; cortex; very dilute"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-22-089",
+    "subject": "anatomy_physiology",
+    "topic": "urinary_system",
+    "subtopic": "Renal Physiology",
+    "difficulty": 2,
+    "type": "multiple_choice",
+    "prompt": "In the renal medulla, the loop of Henle builds the osmotic gradient by acting as a countercurrent _____, while the vasa recta preserve it by acting as a countercurrent _____.",
+    "choices": [
+      "multiplier; exchanger",
+      "exchanger; multiplier",
+      "multiplier; multiplier",
+      "exchanger; exchanger"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-22-090",
+    "subject": "anatomy_physiology",
+    "topic": "urinary_system",
+    "subtopic": "Renal Physiology",
+    "difficulty": 2,
+    "type": "multiple_choice",
+    "prompt": "As blood descends into the medulla in the vasa recta, it loses water and gains salt. As it climbs back toward the cortex, it _____, so the medullary gradient is not washed away.",
+    "choices": [
+      "gains water and loses salt",
+      "loses water and gains salt",
+      "gains both water and salt",
+      "loses both water and salt"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-22-091",
+    "subject": "anatomy_physiology",
+    "topic": "urinary_system",
+    "subtopic": "Renal Physiology",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The sodium gradient used by the PCT to cotransport solutes during reabsorption can also be used for _____. In this process, a molecule or ion is secreted. The membrane protein performing the task is referred to as a(n) _____.",
+    "choices": [
+      "countertransport; antiporter",
+      "cotransport; symporter",
+      "active transport; ATPase",
+      "facilitated diffusion; channel"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-22-092",
+    "subject": "anatomy_physiology",
+    "topic": "urinary_system",
+    "subtopic": "Renal Physiology",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "In addition to their obvious function (collecting urine), collecting ducts in the kidney also control the concentration of the urine by changing their _____ in response to ADH.",
+    "choices": [
+      "permeability to water",
+      "permeability to sodium",
+      "rate of potassium secretion",
+      "rate of hydrogen ion secretion"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-22-093",
+    "subject": "anatomy_physiology",
+    "topic": "urinary_system",
+    "subtopic": "Renal Physiology",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "When the hypothalamus detects that the osmolarity of the blood is too high, _____ is released from the neurohypophysis to conserve water.",
+    "choices": [
+      "antidiuretic hormone",
+      "aldosterone",
+      "atrial natriuretic peptide",
+      "oxytocin"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-22-094",
+    "subject": "anatomy_physiology",
+    "topic": "urinary_system",
+    "subtopic": "Renal Physiology",
+    "difficulty": 2,
+    "type": "multiple_choice",
+    "prompt": "Atrial natriuretic peptide lowers blood volume partly by inhibiting the kidney's release of _____ and by dilating the afferent arteriole, which _____ the glomerular filtration rate.",
+    "choices": [
+      "renin; increases",
+      "renin; decreases",
+      "erythropoietin; increases",
+      "erythropoietin; decreases"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-22-095",
+    "subject": "anatomy_physiology",
+    "topic": "urinary_system",
+    "subtopic": "Renal Physiology",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Solutes that are filtered but cannot be reabsorbed, because they exceed the transport maximum of their carriers or are not recognized by any carrier, act as _____.",
+    "choices": [
+      "osmotic diuretics",
+      "antidiuretics",
+      "loop diuretics",
+      "vasoconstrictors"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-22-096",
+    "subject": "anatomy_physiology",
+    "topic": "urinary_system",
+    "subtopic": "Renal Physiology",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Calcium reabsorption is controlled by _____; in response to this hormone, calcium reabsorption in the _____ is increased.",
+    "choices": [
+      "parathyroid hormone; DCT",
+      "parathyroid hormone; PCT",
+      "calcitonin; DCT",
+      "calcitonin; PCT"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-22-097",
+    "subject": "anatomy_physiology",
+    "topic": "urinary_system",
+    "subtopic": "Renal Physiology",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Aldosterone acts on the DCT and collecting duct to increase _____.",
+    "choices": [
+      "sodium reabsorption",
+      "potassium reabsorption",
+      "calcium reabsorption",
+      "urea reabsorption"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-22-098",
+    "subject": "anatomy_physiology",
+    "topic": "urinary_system",
+    "subtopic": "Renal Physiology",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Excess potassium is toxic, and so secretion is sometimes necessary: this occurs in the _____ and _____ and is controlled by the hormone _____.",
+    "choices": [
+      "DCT; collecting duct; aldosterone",
+      "DCT; collecting duct; ADH",
+      "PCT; loop of Henle; aldosterone",
+      "PCT; loop of Henle; ADH"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-22-099",
+    "subject": "anatomy_physiology",
+    "topic": "urinary_system",
+    "subtopic": "Renal Physiology",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "In the DCT and collecting duct, Na+ reabsorption is coupled to the secretion of _____ into the filtrate.",
+    "choices": [
+      "K+ and H+",
+      "Ca2+ and Mg2+",
+      "glucose and amino acids",
+      "urea and creatinine"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-22-100",
+    "subject": "anatomy_physiology",
+    "topic": "urinary_system",
+    "subtopic": "Renal Physiology",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "An increase in plasma potassium levels results in the secretion of _____, which indirectly leads the kidney to secrete more potassium.",
+    "choices": [
+      "aldosterone",
+      "ADH",
+      "ANP",
+      "renin"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-22-101",
+    "subject": "anatomy_physiology",
+    "topic": "urinary_system",
+    "subtopic": "Renal Physiology",
+    "difficulty": 2,
+    "type": "multiple_choice",
+    "prompt": "When blood pH falls, the kidneys respond by _____.",
+    "choices": [
+      "secreting more H+ and reabsorbing more HCO3−",
+      "secreting more H+ and excreting more HCO3−",
+      "secreting less H+ and reabsorbing more HCO3−",
+      "secreting less H+ and excreting more HCO3−"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-22-102",
+    "subject": "anatomy_physiology",
+    "topic": "urinary_system",
+    "subtopic": "Renal Physiology",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Most of the filtered bicarbonate is reclaimed in the _____.",
+    "choices": [
+      "PCT",
+      "loop of Henle",
+      "DCT",
+      "collecting duct"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-22-103",
+    "subject": "anatomy_physiology",
+    "topic": "urinary_system",
+    "subtopic": "Renal Physiology",
+    "difficulty": 2,
+    "type": "multiple_choice",
+    "prompt": "If blood pH is acidic, the kidney uses nitrogen from _____ to form _____, which combines with a hydrogen ion and allows it to be disposed of in the urine.",
+    "choices": [
+      "glutamine; ammonia",
+      "glutamine; uric acid",
+      "urea; ammonia",
+      "urea; uric acid"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-22-104",
+    "subject": "anatomy_physiology",
+    "topic": "urinary_system",
+    "subtopic": "Renal Physiology",
+    "difficulty": 2,
+    "type": "multiple_choice",
+    "prompt": "A urine output of about 400 mL per day, well below normal but not zero, is called _____. One common cause is a fall in _____.",
+    "choices": [
+      "oliguria; glomerular hydrostatic pressure",
+      "anuria; glomerular hydrostatic pressure",
+      "oliguria; blood colloid osmotic pressure",
+      "anuria; blood colloid osmotic pressure"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-22-105",
+    "subject": "anatomy_physiology",
+    "topic": "urinary_system",
+    "subtopic": "Renal Physiology",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Glomerular filtrate is very similar in composition to blood plasma, except that it contains almost no _____.",
+    "choices": [
+      "plasma proteins",
+      "glucose",
+      "sodium ions",
+      "urea"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-22-106",
+    "subject": "anatomy_physiology",
+    "topic": "urinary_system",
+    "subtopic": "Renal Physiology",
+    "difficulty": 2,
+    "type": "multiple_choice",
+    "prompt": "The kidneys form about 180 L of filtrate per day and reabsorb about 99% of it. Daily urine output is therefore about _____.",
+    "choices": [
+      "1.8 L",
+      "18 L",
+      "0.18 L",
+      "178 L"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-22-107",
+    "subject": "anatomy_physiology",
+    "topic": "urinary_system",
+    "subtopic": "Renal Physiology",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "ADH increases water reabsorption in the collecting duct by causing its principal cells to insert _____ into their apical membranes.",
+    "choices": [
+      "aquaporins",
+      "sodium-potassium ATPases",
+      "glucose transporters",
+      "proton pumps"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-22-108",
+    "subject": "anatomy_physiology",
+    "topic": "urinary_system",
+    "subtopic": "Renal Physiology",
+    "difficulty": 3,
+    "type": "multiple_choice",
+    "prompt": "A kidney stone lodged in a ureter blocks the flow of urine, and fluid backs up through the nephrons into the glomerular capsules. Glomerular filtration in that kidney would _____.",
+    "choices": [
+      "fall, because capsular hydrostatic pressure rises",
+      "rise, because capsular hydrostatic pressure rises",
+      "fall, because blood colloid osmotic pressure rises",
+      "rise, because blood colloid osmotic pressure rises"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-22-109",
+    "subject": "anatomy_physiology",
+    "topic": "urinary_system",
+    "subtopic": "Urinary Reflexes",
+    "difficulty": 2,
+    "type": "multiple_choice",
+    "prompt": "If a person keeps holding urine as the bladder nears its capacity, eventually _____.",
+    "choices": [
+      "the micturition reflex overrides voluntary control and urine is released",
+      "the kidneys stop forming urine until the bladder empties",
+      "the bladder wall reabsorbs the excess urine",
+      "the internal sphincter tightens further and blocks all flow"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-22-110",
+    "subject": "anatomy_physiology",
+    "topic": "urinary_system",
+    "subtopic": "Urinary Reflexes",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "_____ is another word for urination.",
+    "choices": [
+      "Micturition",
+      "Defecation",
+      "Diuresis",
+      "Enuresis"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-22-111",
+    "subject": "anatomy_physiology",
+    "topic": "urinary_system",
+    "subtopic": "Urinary Reflexes",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The lowest level of bladder control, and first to develop, is the _____; filling of the bladder sends a signal to the spinal cord, and an efferent signal is sent in response which triggers _____.",
+    "choices": [
+      "sacral micturition reflex; micturition",
+      "sacral micturition reflex; urine retention",
+      "pontine micturition center; micturition",
+      "pontine micturition center; urine retention"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-22-112",
+    "subject": "anatomy_physiology",
+    "topic": "urinary_system",
+    "subtopic": "Urinary Reflexes",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "As a child develops, the sacral micturition reflex comes under the control of a center in the _____.",
+    "choices": [
+      "pons",
+      "medulla oblongata",
+      "thalamus",
+      "cerebellum"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-22-113",
+    "subject": "anatomy_physiology",
+    "topic": "urinary_system",
+    "subtopic": "Urinary Reflexes",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Voluntary control of urination, which develops at about 2–4 years of age, depends on a center in the _____ that can inhibit the micturition center in the brainstem.",
+    "choices": [
+      "frontal lobe",
+      "parietal lobe",
+      "temporal lobe",
+      "cerebellum"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-22-114",
+    "subject": "anatomy_physiology",
+    "topic": "urinary_system",
+    "subtopic": "Urinary Reflexes",
+    "difficulty": 2,
+    "type": "multiple_choice",
+    "prompt": "Bladder filling is an active process that depends on sympathetic fibers leaving the lumbar spinal cord. During filling, these signals _____.",
+    "choices": [
+      "relax the detrusor and contract the internal urethral sphincter",
+      "contract the detrusor and relax the internal urethral sphincter",
+      "relax both the detrusor and the internal urethral sphincter",
+      "contract both the detrusor and the internal urethral sphincter"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-22-115",
+    "subject": "anatomy_physiology",
+    "topic": "urinary_system",
+    "subtopic": "Urinary Reflexes",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The voluntary external urethral sphincter is controlled by somatic motor fibers in the _____ nerve.",
+    "choices": [
+      "pudendal",
+      "pelvic",
+      "hypogastric",
+      "obturator"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-22-116",
+    "subject": "anatomy_physiology",
+    "topic": "urinary_system",
+    "subtopic": "Urinary Reflexes",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Contraction of the detrusor muscle (which is necessary to fully empty the bladder) is triggered by parasympathetic fibers in the _____ nerves.",
+    "choices": [
+      "pelvic",
+      "hypogastric",
+      "pudendal",
+      "vagus"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-22-117",
+    "subject": "anatomy_physiology",
+    "topic": "urinary_system",
+    "subtopic": "Urinary Reflexes",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "_____ carry most of the afferent signals of detrusor stretch; if the spinal cord is intact, these signals are relayed to the pons and from there to higher brain regions.",
+    "choices": [
+      "Sacral nerves",
+      "Lumbar nerves",
+      "Thoracic nerves",
+      "Vagus nerves"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-22-118",
+    "subject": "anatomy_physiology",
+    "topic": "urinary_system",
+    "subtopic": "Urinary System Function",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Much of what the intestines discard never truly entered the body. Most of the dissolved wastes made by the body's own cells, such as urea, are removed by the _____.",
+    "choices": [
+      "kidneys",
+      "liver",
+      "lungs",
+      "sweat glands"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-22-119",
+    "subject": "anatomy_physiology",
+    "topic": "urinary_system",
+    "subtopic": "Urinary System Function",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Urine is usually _____ but the pH can vary from ~4.5 to ~8.0 in response to changes in metabolism or diet.",
+    "choices": [
+      "slightly acidic",
+      "neutral",
+      "slightly alkaline"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-22-120",
+    "subject": "anatomy_physiology",
+    "topic": "urinary_system",
+    "subtopic": "Urinary System Function",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Uric acid in urine comes mainly from the breakdown of _____.",
+    "choices": [
+      "nucleic acids",
+      "amino acids",
+      "creatine phosphate",
+      "hemoglobin"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-22-121",
+    "subject": "anatomy_physiology",
+    "topic": "urinary_system",
+    "subtopic": "Urinary System Function",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "_____, a waste product of muscle metabolism, is filtered but not reabsorbed, so its blood level is used to estimate GFR.",
+    "choices": [
+      "Creatinine",
+      "Urea",
+      "Uric acid",
+      "Ammonium"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-22-122",
+    "subject": "anatomy_physiology",
+    "topic": "urinary_system",
+    "subtopic": "Urinary System Function",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Urea, the main nitrogenous waste in urine, comes mainly from the breakdown of _____.",
+    "choices": [
+      "amino acids",
+      "nucleic acids",
+      "creatine phosphate",
+      "hemoglobin"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-22-123",
+    "subject": "anatomy_physiology",
+    "topic": "urinary_system",
+    "subtopic": "Urinary System Function",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Urochrome (urobilin), the pigment that gives urine its yellow color, comes from the breakdown of _____.",
+    "choices": [
+      "hemoglobin",
+      "nucleic acids",
+      "amino acids",
+      "creatine phosphate"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-22-124",
+    "subject": "anatomy_physiology",
+    "topic": "urinary_system",
+    "subtopic": "Urinary System Function",
+    "difficulty": 2,
+    "type": "multiple_choice",
+    "prompt": "Large amounts of protein in the urine usually indicate damage to the _____.",
+    "choices": [
+      "filtration membrane",
+      "collecting ducts",
+      "loop of Henle",
+      "juxtaglomerular apparatus"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-22-125",
+    "subject": "anatomy_physiology",
+    "topic": "urinary_system",
+    "subtopic": "Urinary System Function",
+    "difficulty": 2,
+    "type": "multiple_choice",
+    "prompt": "The kidneys monitor their own oxygen supply and respond to low oxygen by releasing a hormone. Patients with chronic kidney failure therefore often develop anemia, because their kidneys _____.",
+    "choices": [
+      "release too little erythropoietin",
+      "secrete too much renin",
+      "activate too little vitamin D",
+      "lose red blood cells into the urine"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-22-126",
+    "subject": "anatomy_physiology",
+    "topic": "urinary_system",
+    "subtopic": "Urinary System Function",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The kidneys help to control calcium absorption by regulating the conversion of vitamin D to its active form, _____, which is done in response to _____.",
+    "choices": [
+      "calcitriol; parathyroid hormone",
+      "calcitriol; calcitonin",
+      "calcidiol; parathyroid hormone",
+      "calcidiol; calcitonin"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-22-127",
+    "subject": "anatomy_physiology",
+    "topic": "urinary_system",
+    "subtopic": "Urinary System Function",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Urine formed by each kidney is carried by a muscular tube, the _____, to the _____, where it is stored until it leaves the body through the _____.",
+    "choices": [
+      "ureter; urinary bladder; urethra",
+      "urethra; urinary bladder; ureter",
+      "ureter; renal pelvis; urethra",
+      "urethra; renal pelvis; ureter"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-22-128",
+    "subject": "anatomy_physiology",
+    "topic": "urinary_system",
+    "subtopic": "Urinary System Function",
+    "difficulty": 2,
+    "type": "multiple_choice",
+    "prompt": "The ureters enter the bladder at the base and at an angle. Because of this, increases in bladder pressure cause _____ which prevents _____.",
+    "choices": [
+      "the ureters to close; backflow of urine to the kidney",
+      "the ureters to open; overfilling of the bladder",
+      "the urethra to narrow; incontinence",
+      "the trigone to relax; ureteral obstruction"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-22-129",
+    "subject": "anatomy_physiology",
+    "topic": "urinary_system",
+    "subtopic": "Urinary System Function",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The muscularis of the ureters contracts in _____.",
+    "choices": [
+      "peristaltic waves",
+      "tonic contractions",
+      "segmentation",
+      "tetanic contractions"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-22-130",
+    "subject": "anatomy_physiology",
+    "topic": "urinary_system",
+    "subtopic": "Urinary System Function",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The urinary bladder is lined by a _____ and is covered mostly by a fibrous _____; on its superior surface, the outer layer is the peritoneum instead.",
+    "choices": [
+      "mucosa; adventitia",
+      "mucosa; serosa",
+      "submucosa; adventitia",
+      "submucosa; serosa"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-22-131",
+    "subject": "anatomy_physiology",
+    "topic": "urinary_system",
+    "subtopic": "Urinary System Function",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The mucosa of the bladder consists of _____ epithelium, which allows it to stretch easily and far, supported by a(n) _____.",
+    "choices": [
+      "transitional; lamina propria",
+      "transitional; adventitia",
+      "stratified squamous; lamina propria",
+      "stratified squamous; adventitia"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-22-132",
+    "subject": "anatomy_physiology",
+    "topic": "urinary_system",
+    "subtopic": "Urinary System Function",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The muscular layer which comprises the bulk of the bladder is the _____ muscle, and consists of _____ muscle whose fibers are arranged in three layers.",
+    "choices": [
+      "detrusor; smooth",
+      "detrusor; skeletal",
+      "levator ani; smooth",
+      "levator ani; skeletal"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-22-133",
+    "subject": "anatomy_physiology",
+    "topic": "urinary_system",
+    "subtopic": "Urinary System Function",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "At the base of the bladder, the two ureteric openings and the urethral opening form a triangle: the region of the bladder encompassed by this triangle is called the _____.",
+    "choices": [
+      "trigone",
+      "bladder neck",
+      "bladder apex",
+      "internal urethral orifice"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-22-134",
+    "subject": "anatomy_physiology",
+    "topic": "urinary_system",
+    "subtopic": "Urinary System Function",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Urine is prevented from leaving the bladder prematurely by two rings of muscle: one is the voluntarily controlled _____, which can be assisted by contraction of the _____.",
+    "choices": [
+      "external urethral sphincter; levator ani",
+      "internal urethral sphincter; detrusor",
+      "external urethral sphincter; detrusor",
+      "internal urethral sphincter; levator ani"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-22-135",
+    "subject": "anatomy_physiology",
+    "topic": "urinary_system",
+    "subtopic": "Urinary System Function",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Urine is prevented from leaving the bladder prematurely by two rings of muscle: the involuntary _____ is formed continuous with the detrusor muscle.",
+    "choices": [
+      "internal urethral sphincter",
+      "external urethral sphincter",
+      "trigone",
+      "levator ani"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-22-136",
+    "subject": "anatomy_physiology",
+    "topic": "urinary_system",
+    "subtopic": "Urinary System Function",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "In females, the outer urethral opening is immediately _____ to the vaginal opening.",
+    "choices": [
+      "anterior",
+      "posterior",
+      "lateral",
+      "inferior"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-22-137",
+    "subject": "anatomy_physiology",
+    "topic": "urinary_system",
+    "subtopic": "Urinary System Function",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "In males, urine passes from the bladder through the _____ urethra, surrounded by a gland just below the bladder, then the short _____ urethra, and finally the _____ urethra within the penis.",
+    "choices": [
+      "prostatic; membranous; spongy",
+      "prostatic; spongy; membranous",
+      "membranous; spongy; prostatic",
+      "spongy; membranous; prostatic"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-22-138",
+    "subject": "anatomy_physiology",
+    "topic": "urinary_system",
+    "subtopic": "Urinary System Function",
+    "difficulty": 2,
+    "type": "multiple_choice",
+    "prompt": "Because the female urethra is short and opens close to the anus, women are especially prone to _____.",
+    "choices": [
+      "urinary tract infections",
+      "kidney stones",
+      "urinary retention",
+      "glomerulonephritis"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-22-139",
+    "subject": "anatomy_physiology",
+    "topic": "urinary_system",
+    "subtopic": "Urinary System Function",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Inflammation of components of the urinary system is common in response to bacterial or fungal infections: _____ is inflammation of the bladder.",
+    "choices": [
+      "cystitis",
+      "urethritis",
+      "nephritis",
+      "pyelonephritis"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-22-140",
+    "subject": "anatomy_physiology",
+    "topic": "urinary_system",
+    "subtopic": "Urinary System Function",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "_____ is inflammation of the kidney and renal pelvis, usually caused by an infection that has spread up from the bladder.",
+    "choices": [
+      "Pyelonephritis",
+      "Glomerulonephritis",
+      "Cystitis",
+      "Urethritis"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-22-141",
+    "subject": "anatomy_physiology",
+    "topic": "urinary_system",
+    "subtopic": "Urinary System Function",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Various health and dietary factors may lead to the formation of _____, which if small may pass on their own (with much pain!) or if large may require medical intervention.",
+    "choices": [
+      "renal calculi",
+      "renal cysts",
+      "renal tumors",
+      "urinary casts"
+    ],
+    "answer_index": 0
+  }
+]

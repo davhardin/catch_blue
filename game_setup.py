@@ -80,6 +80,7 @@ SUBJECT_TOPIC_ORDERS = {
         "respiratory_system",
         "digestive_system",
         "metabolism",
+        "urinary_system",
     ),
 }
 
