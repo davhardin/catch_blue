@@ -53,6 +53,8 @@ COMPACT_SUBTOPIC_DISPLAY_NAMES: dict[TopicPair, str] = {
         "Vascular Aging",
     ("blood_vessels", "Fetal Cardiovascular System"):
         "Fetal Heart",
+    ("metabolism", "Absorptive vs Postabsorptive States"):
+        "Fed & Fasting States",
 }
 
 SUBJECT_TOPIC_ORDERS = {
@@ -77,6 +79,7 @@ SUBJECT_TOPIC_ORDERS = {
         "lymphatic_and_immune_system",
         "respiratory_system",
         "digestive_system",
+        "metabolism",
     ),
 }
 

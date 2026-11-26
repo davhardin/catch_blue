@@ -33,8 +33,19 @@ ship.
   `blood_vessels`, and `lymphatic_and_immune_system` (ids `bio-anat-15-*`
   through `bio-anat-18-*`); 2026-09-11 — 155 `respiratory_system`
   questions (`bio-anat-19-*`); 2026-09-14 — 229 `digestive_system`
-  questions (`bio-anat-20-*`). Further topics (metabolism onward) will be
-  added as they are vetted.
+  questions (`bio-anat-20-*`); 2026-11-25 — 128 `metabolism` questions
+  (`bio-anat-21-001` through `bio-anat-21-128`). Further topics
+  (urinary_system onward) will be added as they are vetted.
+- **Questions written for this project:** 6 of the 128 `metabolism`
+  questions were written for this project to fill coverage gaps against the
+  OpenStax *Anatomy and Physiology 2e* chapter 24 learning objectives:
+  `bio-anat-21-005`, `-006`, `-035`, `-036`, `-055`, `-069`. They are not
+  from Anson. Their facts come from OpenStax A&P 2e and FDA food-labeling
+  rules (21 CFR 101.9); the wording is the project's own. The topic's other
+  122 questions are adapted from Anson. Because metabolism went through a
+  multi-pass review (build, independent review, final review), more of its
+  items are reworded or rebuilt from Anson's originals than in earlier
+  topics.
 - **Changes made:** same treatment as Volume 1 — short-answer / fill-in items
   converted to multiple choice with project-written distractors; a few items
   lightly reworded (e.g. one grammar fix); questions reorganized under this

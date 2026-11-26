@@ -1,0 +1,2050 @@
+[
+  {
+    "id": "bio-anat-21-001",
+    "subject": "anatomy_physiology",
+    "topic": "metabolism",
+    "subtopic": "Absorptive vs Postabsorptive States",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "For several hours after eating, the body is in the _____ state, during which its needs for energy and raw materials for anabolic processes are met by _____.",
+    "choices": [
+      "absorptive; nutrients being absorbed by the intestines",
+      "postabsorptive; nutrients being absorbed by the intestines",
+      "absorptive; breakdown of stored fuels",
+      "postabsorptive; breakdown of stored fuels"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-21-002",
+    "subject": "anatomy_physiology",
+    "topic": "metabolism",
+    "subtopic": "Absorptive vs Postabsorptive States",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Once the intestines are empty, the body enters the _____ state.",
+    "choices": [
+      "postabsorptive",
+      "absorptive",
+      "starvation",
+      "anabolic"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-21-003",
+    "subject": "anatomy_physiology",
+    "topic": "metabolism",
+    "subtopic": "Absorptive vs Postabsorptive States",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "During the postabsorptive state, energy needs are met mainly by _____.",
+    "choices": [
+      "drawing on glycogen and fat reserves",
+      "absorbing nutrients from the intestine",
+      "breaking down muscle protein",
+      "converting fatty acids into glucose"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-21-004",
+    "subject": "anatomy_physiology",
+    "topic": "metabolism",
+    "subtopic": "Absorptive vs Postabsorptive States",
+    "difficulty": 2,
+    "type": "multiple_choice",
+    "prompt": "Between meals, a cell that needs amino acids to build a new enzyme gets most of them by _____.",
+    "choices": [
+      "breaking down other proteins in the body",
+      "absorbing them from the intestine",
+      "making all twenty from glucose",
+      "converting fatty acids into amino acids"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-21-005",
+    "subject": "anatomy_physiology",
+    "topic": "metabolism",
+    "subtopic": "Absorptive vs Postabsorptive States",
+    "difficulty": 2,
+    "type": "multiple_choice",
+    "prompt": "During the absorptive state, which lasts up to about four hours after a meal, the liver _____.",
+    "choices": [
+      "converts excess glucose into glycogen and fat",
+      "releases glucose from glycogen into the blood",
+      "makes new glucose from amino acids and lactate",
+      "produces ketone bodies from fatty acids"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-21-006",
+    "subject": "anatomy_physiology",
+    "topic": "metabolism",
+    "subtopic": "Absorptive vs Postabsorptive States",
+    "difficulty": 2,
+    "type": "multiple_choice",
+    "prompt": "In prolonged starvation, once fat reserves are exhausted, the body's main remaining fuel reserve is _____.",
+    "choices": [
+      "muscle protein",
+      "liver glycogen",
+      "muscle glycogen",
+      "ketone bodies"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-21-007",
+    "subject": "anatomy_physiology",
+    "topic": "metabolism",
+    "subtopic": "Carbohydrate Metabolism",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Excess glucose is stored as glycogen mainly in the _____ and the _____.",
+    "choices": [
+      "liver; skeletal muscle",
+      "liver; brain",
+      "adipose tissue; skeletal muscle",
+      "adipose tissue; brain"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-21-008",
+    "subject": "anatomy_physiology",
+    "topic": "metabolism",
+    "subtopic": "Carbohydrate Metabolism",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "_____ is the set of reactions in which the body generates glycogen polymers from glucose.",
+    "choices": [
+      "glycogenesis",
+      "glycogenolysis",
+      "gluconeogenesis",
+      "glycolysis"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-21-009",
+    "subject": "anatomy_physiology",
+    "topic": "metabolism",
+    "subtopic": "Carbohydrate Metabolism",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "When glucose is needed by the body as fuel, glycogen is broken back down to glucose in a process called _____.",
+    "choices": [
+      "glycogenolysis",
+      "glycogenesis",
+      "gluconeogenesis",
+      "glycolysis"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-21-010",
+    "subject": "anatomy_physiology",
+    "topic": "metabolism",
+    "subtopic": "Carbohydrate Metabolism",
+    "difficulty": 2,
+    "type": "multiple_choice",
+    "prompt": "Glycogenolysis in the _____ releases glucose into the blood, whereas the glucose produced by glycogenolysis in skeletal muscle is used by _____.",
+    "choices": [
+      "liver; the muscle fiber itself",
+      "liver; the brain",
+      "pancreas; the muscle fiber itself",
+      "pancreas; the brain"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-21-011",
+    "subject": "anatomy_physiology",
+    "topic": "metabolism",
+    "subtopic": "Carbohydrate Metabolism",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Glycolysis takes place in the _____, and it can make ATP at a _____ rate than oxidative phosphorylation.",
+    "choices": [
+      "cytoplasm; much faster",
+      "cytoplasm; much slower",
+      "mitochondrial matrix; much faster",
+      "mitochondrial matrix; much slower"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-21-012",
+    "subject": "anatomy_physiology",
+    "topic": "metabolism",
+    "subtopic": "Carbohydrate Metabolism",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "When oxygen is available, the NADH produced in glycolysis is reoxidized by the _____, and the energy it carries is used to make ATP.",
+    "choices": [
+      "electron transport chain",
+      "citric acid cycle",
+      "conversion of pyruvate to lactate",
+      "ATP synthase"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-21-013",
+    "subject": "anatomy_physiology",
+    "topic": "metabolism",
+    "subtopic": "Carbohydrate Metabolism",
+    "difficulty": 2,
+    "type": "multiple_choice",
+    "prompt": "If _____, NADH generated during glycolysis is re-oxidized by reducing the product of glycolysis (pyruvate) to lactate, and the energy in the NADH is _____.",
+    "choices": [
+      "oxygen is not available; not captured as ATP",
+      "oxygen is available; not captured as ATP",
+      "oxygen is not available; captured as ATP",
+      "oxygen is available; captured as ATP"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-21-014",
+    "subject": "anatomy_physiology",
+    "topic": "metabolism",
+    "subtopic": "Carbohydrate Metabolism",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "When ATP is made by the direct transfer of a phosphate group from another molecule to ADP, the process is called _____.",
+    "choices": [
+      "substrate-level phosphorylation",
+      "oxidative phosphorylation",
+      "chemiosmosis",
+      "transamination"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-21-015",
+    "subject": "anatomy_physiology",
+    "topic": "metabolism",
+    "subtopic": "Carbohydrate Metabolism",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "When ATP synthase makes ATP using energy released as electrons pass along the electron transport chain, the process is called _____.",
+    "choices": [
+      "oxidative phosphorylation",
+      "substrate-level phosphorylation",
+      "glycolysis",
+      "the citric acid cycle"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-21-016",
+    "subject": "anatomy_physiology",
+    "topic": "metabolism",
+    "subtopic": "Carbohydrate Metabolism",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The citric acid cycle, which finishes oxidizing fuel molecules that were partly oxidized elsewhere in the cell, takes place in the _____.",
+    "choices": [
+      "mitochondrial matrix",
+      "cytoplasm",
+      "inner mitochondrial membrane",
+      "intermembrane space"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-21-017",
+    "subject": "anatomy_physiology",
+    "topic": "metabolism",
+    "subtopic": "Carbohydrate Metabolism",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The citric acid cycle is often called the _____ cycle.",
+    "choices": [
+      "Krebs",
+      "Cori",
+      "Calvin",
+      "urea"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-21-018",
+    "subject": "anatomy_physiology",
+    "topic": "metabolism",
+    "subtopic": "Carbohydrate Metabolism",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The electron transport chain is found in the _____.",
+    "choices": [
+      "inner mitochondrial membrane",
+      "outer mitochondrial membrane",
+      "mitochondrial matrix",
+      "cytoplasm"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-21-019",
+    "subject": "anatomy_physiology",
+    "topic": "metabolism",
+    "subtopic": "Carbohydrate Metabolism",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "NADH and FADH2 deliver electrons to the electron transport chain. At the end of the chain, the electrons are passed to the final electron acceptor, _____.",
+    "choices": [
+      "oxygen",
+      "NAD+",
+      "pyruvate",
+      "carbon dioxide"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-21-020",
+    "subject": "anatomy_physiology",
+    "topic": "metabolism",
+    "subtopic": "Carbohydrate Metabolism",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The _____ across the mitochondrial inner membrane is used to power ATP synthase: as _____ flow through the ATP synthase, ATP is made from ADP and Pi.",
+    "choices": [
+      "hydrogen ion gradient; hydrogen ions",
+      "sodium ion gradient; sodium ions",
+      "electron gradient; electrons",
+      "oxygen gradient; oxygen molecules"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-21-021",
+    "subject": "anatomy_physiology",
+    "topic": "metabolism",
+    "subtopic": "Carbohydrate Metabolism",
+    "difficulty": 2,
+    "type": "multiple_choice",
+    "prompt": "Without oxygen, glycolysis yields a net of _____ ATP per glucose, and most of the glucose's energy leaves the cell in _____.",
+    "choices": [
+      "2; lactate",
+      "2; carbon dioxide",
+      "4; lactate",
+      "4; carbon dioxide"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-21-022",
+    "subject": "anatomy_physiology",
+    "topic": "metabolism",
+    "subtopic": "Carbohydrate Metabolism",
+    "difficulty": 2,
+    "type": "multiple_choice",
+    "prompt": "Heart muscle and other tissues can take up lactic acid from the blood and convert it to _____, which then enters the mitochondria to be fully oxidized.",
+    "choices": [
+      "pyruvate",
+      "glucose",
+      "glycogen",
+      "ketone bodies"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-21-023",
+    "subject": "anatomy_physiology",
+    "topic": "metabolism",
+    "subtopic": "Carbohydrate Metabolism",
+    "difficulty": 2,
+    "type": "multiple_choice",
+    "prompt": "In the liver, pyruvate can be produced from _____ or from _____ as well as from glucose.",
+    "choices": [
+      "amino acids; lactate",
+      "amino acids; acetyl-CoA",
+      "fatty acids; lactate",
+      "fatty acids; acetyl-CoA"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-21-024",
+    "subject": "anatomy_physiology",
+    "topic": "metabolism",
+    "subtopic": "Carbohydrate Metabolism",
+    "difficulty": 2,
+    "type": "multiple_choice",
+    "prompt": "When blood glucose is low, liver cells use much of their pyruvate for _____ instead of oxidizing it in the citric acid cycle.",
+    "choices": [
+      "gluconeogenesis",
+      "glycogenesis",
+      "lipogenesis",
+      "glycolysis"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-21-025",
+    "subject": "anatomy_physiology",
+    "topic": "metabolism",
+    "subtopic": "Carbohydrate Metabolism",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Because glycogen is stored with a large amount of water, it is bulky and heavy for the energy it holds. As a result, the body's glycogen stores hold only about _____ of energy.",
+    "choices": [
+      "a day's worth",
+      "an hour's worth",
+      "a week's worth",
+      "a month's worth"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-21-026",
+    "subject": "anatomy_physiology",
+    "topic": "metabolism",
+    "subtopic": "Carbohydrate Metabolism",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "As glycogen stores run low, the body makes glucose from amino acids, lactate and glycerol, a process called _____.",
+    "choices": [
+      "gluconeogenesis",
+      "glycogenolysis",
+      "glycogenesis",
+      "glycolysis"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-21-027",
+    "subject": "anatomy_physiology",
+    "topic": "metabolism",
+    "subtopic": "Carbohydrate Metabolism",
+    "difficulty": 3,
+    "type": "multiple_choice",
+    "prompt": "A person who starts a very low-carbohydrate diet often loses several pounds in the first few days. Most of this early loss is _____.",
+    "choices": [
+      "water lost as glycogen is used up",
+      "body fat oxidized for energy",
+      "muscle protein broken down for fuel",
+      "ketone bodies excreted in the urine"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-21-028",
+    "subject": "anatomy_physiology",
+    "topic": "metabolism",
+    "subtopic": "Carbohydrate Metabolism",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Before entering the citric acid cycle, each pyruvate loses one carbon as CO2 and is converted to _____; the energy released is captured in _____.",
+    "choices": [
+      "acetyl-CoA; NADH",
+      "acetyl-CoA; FADH2",
+      "lactate; NADH",
+      "lactate; FADH2"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-21-029",
+    "subject": "anatomy_physiology",
+    "topic": "metabolism",
+    "subtopic": "Carbohydrate Metabolism",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "In the citric acid cycle, carbon that enters as acetyl-CoA eventually leaves as _____.",
+    "choices": [
+      "carbon dioxide",
+      "ketone bodies",
+      "fatty acids",
+      "lactate"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-21-030",
+    "subject": "anatomy_physiology",
+    "topic": "metabolism",
+    "subtopic": "Carbohydrate Metabolism",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Each turn of the citric acid cycle captures energy in three NADH, one ATP (or GTP) and one _____.",
+    "choices": [
+      "FADH2",
+      "FAD",
+      "NAD+",
+      "NADPH"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-21-031",
+    "subject": "anatomy_physiology",
+    "topic": "metabolism",
+    "subtopic": "Carbohydrate Metabolism",
+    "difficulty": 2,
+    "type": "multiple_choice",
+    "prompt": "Far more ATP is made from each glucose when oxygen is available than when it is not, because with oxygen _____.",
+    "choices": [
+      "glucose is fully oxidized to CO2",
+      "glycolysis runs much faster",
+      "oxygen itself is used as a fuel",
+      "more glucose enters each cell"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-21-032",
+    "subject": "anatomy_physiology",
+    "topic": "metabolism",
+    "subtopic": "Carbohydrate Metabolism",
+    "difficulty": 2,
+    "type": "multiple_choice",
+    "prompt": "During a fast, skeletal muscle supplies the liver with _____ for making new glucose.",
+    "choices": [
+      "lactate and amino acids",
+      "glucose from its glycogen",
+      "fatty acids",
+      "ketone bodies"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-21-033",
+    "subject": "anatomy_physiology",
+    "topic": "metabolism",
+    "subtopic": "Catabolism vs Anabolism",
+    "difficulty": 2,
+    "type": "multiple_choice",
+    "prompt": "Building a protein from amino acids is an example of _____, and reactions of this kind draw much of their energy from _____.",
+    "choices": [
+      "anabolism; ATP",
+      "catabolism; ATP",
+      "anabolism; NADH",
+      "catabolism; NADH"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-21-034",
+    "subject": "anatomy_physiology",
+    "topic": "metabolism",
+    "subtopic": "Catabolism vs Anabolism",
+    "difficulty": 2,
+    "type": "multiple_choice",
+    "prompt": "Breaking glucose down to carbon dioxide and water is an example of _____, and much of the energy it releases is captured in _____.",
+    "choices": [
+      "catabolism; ATP",
+      "anabolism; ATP",
+      "catabolism; glycogen",
+      "anabolism; glycogen"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-21-035",
+    "subject": "anatomy_physiology",
+    "topic": "metabolism",
+    "subtopic": "Catabolism vs Anabolism",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "In catabolism, NAD+ accepts electrons, along with hydrogen, removed from fuel molecules and becomes NADH. A molecule that gains electrons in this way is said to be _____.",
+    "choices": [
+      "reduced",
+      "oxidized",
+      "phosphorylated",
+      "hydrolyzed"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-21-036",
+    "subject": "anatomy_physiology",
+    "topic": "metabolism",
+    "subtopic": "Catabolism vs Anabolism",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Cortisol, glucagon and epinephrine promote catabolism. The hormone that most directly opposes them, promoting the storage of glucose as glycogen and fat, is _____.",
+    "choices": [
+      "insulin",
+      "growth hormone",
+      "testosterone",
+      "thyroid hormone"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-21-037",
+    "subject": "anatomy_physiology",
+    "topic": "metabolism",
+    "subtopic": "Lipid Metabolism",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Although cholesterol is found in the animal foods we eat, most of the cholesterol in the blood comes from _____.",
+    "choices": [
+      "synthesis by the body's own cells",
+      "absorption of cholesterol from the diet",
+      "release from stores in adipose tissue",
+      "reabsorption of bile salts from the gut"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-21-038",
+    "subject": "anatomy_physiology",
+    "topic": "metabolism",
+    "subtopic": "Lipid Metabolism",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Because fats do not dissolve in water, they travel in the blood packaged with proteins inside a coat of phospholipids. These particles are called _____.",
+    "choices": [
+      "lipoproteins",
+      "glycoproteins",
+      "glycolipids",
+      "micelles"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-21-039",
+    "subject": "anatomy_physiology",
+    "topic": "metabolism",
+    "subtopic": "Lipid Metabolism",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The liver packages the triglycerides it makes into _____, which it releases into the blood.",
+    "choices": [
+      "very low-density lipoproteins (VLDL)",
+      "low-density lipoproteins (LDL)",
+      "high-density lipoproteins (HDL)",
+      "chylomicrons"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-21-040",
+    "subject": "anatomy_physiology",
+    "topic": "metabolism",
+    "subtopic": "Lipid Metabolism",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The lipoproteins that carry most of the cholesterol in the blood, delivering it to body cells, are _____.",
+    "choices": [
+      "low-density lipoproteins (LDL)",
+      "high-density lipoproteins (HDL)",
+      "very low-density lipoproteins (VLDL)",
+      "chylomicrons"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-21-041",
+    "subject": "anatomy_physiology",
+    "topic": "metabolism",
+    "subtopic": "Lipid Metabolism",
+    "difficulty": 2,
+    "type": "multiple_choice",
+    "prompt": "Because lipid is less dense than protein, the lipoproteins with the highest proportion of protein and the least lipid are _____.",
+    "choices": [
+      "high-density lipoproteins (HDL)",
+      "low-density lipoproteins (LDL)",
+      "very low-density lipoproteins (VLDL)",
+      "chylomicrons"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-21-042",
+    "subject": "anatomy_physiology",
+    "topic": "metabolism",
+    "subtopic": "Lipid Metabolism",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "VLDL and LDL carry phospholipids, triglycerides and cholesterol from the _____ to the _____, where they will be used.",
+    "choices": [
+      "liver; body",
+      "body; liver",
+      "intestine; liver",
+      "liver; intestine"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-21-043",
+    "subject": "anatomy_physiology",
+    "topic": "metabolism",
+    "subtopic": "Lipid Metabolism",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Most of the body's stored fat is held as triglyceride inside _____.",
+    "choices": [
+      "adipocytes",
+      "hepatocytes",
+      "skeletal muscle fibers",
+      "enterocytes"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-21-044",
+    "subject": "anatomy_physiology",
+    "topic": "metabolism",
+    "subtopic": "Lipid Metabolism",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The breakdown of stored triglycerides into glycerol and fatty acids, the first step in fat catabolism, is called _____.",
+    "choices": [
+      "lipolysis",
+      "lipogenesis",
+      "beta-oxidation",
+      "ketogenesis"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-21-045",
+    "subject": "anatomy_physiology",
+    "topic": "metabolism",
+    "subtopic": "Lipid Metabolism",
+    "difficulty": 2,
+    "type": "multiple_choice",
+    "prompt": "Glycerol released by lipolysis can enter _____ to be oxidized, or, in the liver, be used to make _____.",
+    "choices": [
+      "glycolysis; glucose",
+      "glycolysis; ketone bodies",
+      "beta-oxidation; glucose",
+      "beta-oxidation; ketone bodies"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-21-046",
+    "subject": "anatomy_physiology",
+    "topic": "metabolism",
+    "subtopic": "Lipid Metabolism",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Fatty acids are broken down by beta-oxidation in the _____, a process that _____.",
+    "choices": [
+      "mitochondria; removes two carbons at a time as acetyl-CoA",
+      "mitochondria; removes three carbons at a time as pyruvate",
+      "cytoplasm; removes two carbons at a time as acetyl-CoA",
+      "cytoplasm; removes three carbons at a time as pyruvate"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-21-047",
+    "subject": "anatomy_physiology",
+    "topic": "metabolism",
+    "subtopic": "Lipid Metabolism",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "In most tissues, acetyl-CoA formed by oxidation of fatty acids enters the _____.",
+    "choices": [
+      "citric acid cycle",
+      "glycolytic pathway",
+      "gluconeogenic pathway",
+      "ketogenic pathway"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-21-048",
+    "subject": "anatomy_physiology",
+    "topic": "metabolism",
+    "subtopic": "Lipid Metabolism",
+    "difficulty": 2,
+    "type": "multiple_choice",
+    "prompt": "If the liver has too little pyruvate, both gluconeogenesis and the citric acid cycle slow down. Fatty acid oxidation continues, however, so the level of _____ in liver cells rises.",
+    "choices": [
+      "acetyl-CoA",
+      "glucose",
+      "glycogen",
+      "lactate"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-21-049",
+    "subject": "anatomy_physiology",
+    "topic": "metabolism",
+    "subtopic": "Lipid Metabolism",
+    "difficulty": 2,
+    "type": "multiple_choice",
+    "prompt": "When the liver has more acetyl-CoA from fatty acid oxidation than its citric acid cycle can use, it converts the surplus into _____, which other tissues, including the brain, use as fuel.",
+    "choices": [
+      "ketone bodies",
+      "glucose",
+      "lipoproteins",
+      "glycerol"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-21-050",
+    "subject": "anatomy_physiology",
+    "topic": "metabolism",
+    "subtopic": "Lipid Metabolism",
+    "difficulty": 3,
+    "type": "multiple_choice",
+    "prompt": "Consider a two-week fast, untreated diabetic ketoacidosis and an overnight fast. From lowest to highest typical blood level of ketone bodies, they rank _____.",
+    "choices": [
+      "overnight fast, two-week fast, diabetic ketoacidosis",
+      "overnight fast, diabetic ketoacidosis, two-week fast",
+      "two-week fast, overnight fast, diabetic ketoacidosis",
+      "diabetic ketoacidosis, overnight fast, two-week fast"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-21-051",
+    "subject": "anatomy_physiology",
+    "topic": "metabolism",
+    "subtopic": "Lipid Metabolism",
+    "difficulty": 3,
+    "type": "multiple_choice",
+    "prompt": "Ketone bodies rise during both a prolonged fast and untreated type 1 diabetes, but only in the diabetic state do they _____.",
+    "choices": [
+      "lower blood pH dangerously",
+      "serve as fuel for the brain",
+      "appear in the urine",
+      "come from fatty acid oxidation"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-21-052",
+    "subject": "anatomy_physiology",
+    "topic": "metabolism",
+    "subtopic": "Lipid Metabolism",
+    "difficulty": 2,
+    "type": "multiple_choice",
+    "prompt": "In diabetic ketoacidosis, the treatment that stops the runaway production of ketone bodies is _____.",
+    "choices": [
+      "insulin",
+      "sodium bicarbonate",
+      "potassium",
+      "glucagon"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-21-053",
+    "subject": "anatomy_physiology",
+    "topic": "metabolism",
+    "subtopic": "Lipid Metabolism",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "HDL carries cholesterol from the _____ to the _____, where it is recycled or disposed of.",
+    "choices": [
+      "body tissues; liver",
+      "liver; body tissues",
+      "intestine; liver",
+      "liver; adipose tissue"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-21-054",
+    "subject": "anatomy_physiology",
+    "topic": "metabolism",
+    "subtopic": "Lipid Metabolism",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Once glycogen stores are full, excess glucose is converted into fatty acids and stored as triglyceride, a process called _____.",
+    "choices": [
+      "lipogenesis",
+      "lipolysis",
+      "glycogenesis",
+      "gluconeogenesis"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-21-055",
+    "subject": "anatomy_physiology",
+    "topic": "metabolism",
+    "subtopic": "Lipid Metabolism",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Tissues that use ketone bodies as fuel convert them back into _____, which then enters the citric acid cycle.",
+    "choices": [
+      "acetyl-CoA",
+      "pyruvate",
+      "glucose",
+      "fatty acids"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-21-056",
+    "subject": "anatomy_physiology",
+    "topic": "metabolism",
+    "subtopic": "Metabolic Rate",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "On average, each gram of protein in a food contributes _____ Calories (kilocalories) to one's diet.",
+    "choices": [
+      "4",
+      "9",
+      "7",
+      "2"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-21-057",
+    "subject": "anatomy_physiology",
+    "topic": "metabolism",
+    "subtopic": "Metabolic Rate",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "On average, each gram of digestible carbohydrate in a food contributes _____ Calories (kilocalories) to one's diet.",
+    "choices": [
+      "4",
+      "9",
+      "7",
+      "2"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-21-058",
+    "subject": "anatomy_physiology",
+    "topic": "metabolism",
+    "subtopic": "Metabolic Rate",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "On average, each gram of fat in a food contributes _____ Calories (kilocalories) to one's diet.",
+    "choices": [
+      "9",
+      "4",
+      "7",
+      "12"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-21-059",
+    "subject": "anatomy_physiology",
+    "topic": "metabolism",
+    "subtopic": "Metabolic Rate",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "A person who takes in exactly as many Calories as they use, so that none are stored and there is no deficit, is in _____.",
+    "choices": [
+      "energy balance",
+      "positive energy balance",
+      "negative energy balance",
+      "nitrogen balance"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-21-060",
+    "subject": "anatomy_physiology",
+    "topic": "metabolism",
+    "subtopic": "Metabolic Rate",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The _____ is the average dietary energy intake that is predicted to maintain energy balance in a healthy adult of a defined age, gender, weight, height, level of physical activity, and biological status (pregnant, nursing, etc.).",
+    "choices": [
+      "Estimated Energy Requirement (EER)",
+      "Recommended Dietary Allowance (RDA)",
+      "Basal Metabolic Rate (BMR)",
+      "Tolerable Upper Intake Level (UL)"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-21-061",
+    "subject": "anatomy_physiology",
+    "topic": "metabolism",
+    "subtopic": "Metabolic Rate",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "_____ is the energy the body uses at rest to sustain its basic functions; in most people it is the largest share of daily energy use.",
+    "choices": [
+      "basal metabolic rate",
+      "total daily energy expenditure",
+      "thermic effect of food",
+      "energy balance"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-21-062",
+    "subject": "anatomy_physiology",
+    "topic": "metabolism",
+    "subtopic": "Metabolic Rate",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "_____ is the basal metabolic rate plus the energy used for physical activity and for processing food.",
+    "choices": [
+      "total daily energy expenditure (TDEE)",
+      "resting energy expenditure (REE)",
+      "activity energy expenditure (AEE)",
+      "thermic effect of food (TEF)"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-21-063",
+    "subject": "anatomy_physiology",
+    "topic": "metabolism",
+    "subtopic": "Metabolic Rate",
+    "difficulty": 2,
+    "type": "multiple_choice",
+    "prompt": "Two adults have the same height and weight, but one has much more muscle. At rest, the more muscular adult has the higher _____.",
+    "choices": [
+      "basal metabolic rate",
+      "body mass index",
+      "body fat percentage",
+      "thermic effect of food"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-21-064",
+    "subject": "anatomy_physiology",
+    "topic": "metabolism",
+    "subtopic": "Metabolic Rate",
+    "difficulty": 2,
+    "type": "multiple_choice",
+    "prompt": "Body temperature rises during heavy exercise mainly because _____.",
+    "choices": [
+      "active muscle releases much of its energy as heat",
+      "the hypothalamus raises its temperature set point",
+      "sweat glands stop secreting",
+      "blood flow to the skin decreases"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-21-065",
+    "subject": "anatomy_physiology",
+    "topic": "metabolism",
+    "subtopic": "Metabolic Rate",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Basal metabolic rate is largely controlled by the _____, which among other things can change the amount of \"wasteful\" ion transport across cell membranes.",
+    "choices": [
+      "thyroid hormones",
+      "insulin",
+      "parathyroid hormone",
+      "aldosterone"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-21-066",
+    "subject": "anatomy_physiology",
+    "topic": "metabolism",
+    "subtopic": "Metabolic Rate",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The Calorie (capital C) used on food labels is the amount of heat needed to raise the temperature of _____ of water by 1 degree Celsius.",
+    "choices": [
+      "1 kilogram",
+      "1 gram",
+      "100 grams",
+      "1 pound"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-21-067",
+    "subject": "anatomy_physiology",
+    "topic": "metabolism",
+    "subtopic": "Metabolic Rate",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "When body temperature falls, the hypothalamus reduces heat loss by _____ and increases heat production by _____.",
+    "choices": [
+      "constricting skin blood vessels; shivering",
+      "dilating skin blood vessels; shivering",
+      "constricting skin blood vessels; sweating",
+      "dilating skin blood vessels; sweating"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-21-068",
+    "subject": "anatomy_physiology",
+    "topic": "metabolism",
+    "subtopic": "Metabolic Rate",
+    "difficulty": 2,
+    "type": "multiple_choice",
+    "prompt": "During vigorous exercise, the body gets rid of most of its excess heat by _____.",
+    "choices": [
+      "evaporation of sweat",
+      "radiation from the skin",
+      "conduction to cooler objects",
+      "convection by moving air"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-21-069",
+    "subject": "anatomy_physiology",
+    "topic": "metabolism",
+    "subtopic": "Metabolic Rate",
+    "difficulty": 2,
+    "type": "multiple_choice",
+    "prompt": "A snack contains 10 g of protein, 20 g of carbohydrate and 5 g of fat. It provides about _____ kcal of energy.",
+    "choices": [
+      "165",
+      "140",
+      "215",
+      "290"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-21-070",
+    "subject": "anatomy_physiology",
+    "topic": "metabolism",
+    "subtopic": "Nutrition & Normal Functioning",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "A(n) _____ is a substance in food that provides energy or material for growth, maintenance, or repair.",
+    "choices": [
+      "nutrient",
+      "calorie",
+      "enzyme",
+      "hormone"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-21-071",
+    "subject": "anatomy_physiology",
+    "topic": "metabolism",
+    "subtopic": "Nutrition & Normal Functioning",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Vitamins and minerals are classed as _____ because the body needs them only in small amounts.",
+    "choices": [
+      "micronutrients",
+      "macronutrients",
+      "trace elements",
+      "electrolytes"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-21-072",
+    "subject": "anatomy_physiology",
+    "topic": "metabolism",
+    "subtopic": "Nutrition & Normal Functioning",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The _____ is the average daily nutrient intake meeting the needs of half the healthy individuals in a given life stage and gender group (but insufficient for the other half).",
+    "choices": [
+      "Estimated Average Requirement (EAR)",
+      "Recommended Dietary Allowance (RDA)",
+      "Adequate Intake (AI)",
+      "Tolerable Upper Intake Level (UL)"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-21-073",
+    "subject": "anatomy_physiology",
+    "topic": "metabolism",
+    "subtopic": "Nutrition & Normal Functioning",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The _____ is the average daily nutrient intake meeting the needs of nearly all healthy individuals in a given life stage and gender group.",
+    "choices": [
+      "Recommended Dietary Allowance (RDA)",
+      "Estimated Average Requirement (EAR)",
+      "Adequate Intake (AI)",
+      "Tolerable Upper Intake Level (UL)"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-21-074",
+    "subject": "anatomy_physiology",
+    "topic": "metabolism",
+    "subtopic": "Nutrition & Normal Functioning",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The _____ is the observed nutrient intake of apparently healthy people and is simply the amount that is assumed to be enough. It is used when an RDA hasn't been determined.",
+    "choices": [
+      "Adequate Intake (AI)",
+      "Estimated Average Requirement (EAR)",
+      "Tolerable Upper Intake Level (UL)",
+      "Estimated Energy Requirement (EER)"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-21-075",
+    "subject": "anatomy_physiology",
+    "topic": "metabolism",
+    "subtopic": "Nutrition & Normal Functioning",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The _____ is the highest average daily nutrient intake level that is thought to be safe for almost all individuals in the general population.",
+    "choices": [
+      "Tolerable Upper Intake Level (UL)",
+      "Recommended Dietary Allowance (RDA)",
+      "Adequate Intake (AI)",
+      "Estimated Average Requirement (EAR)"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-21-076",
+    "subject": "anatomy_physiology",
+    "topic": "metabolism",
+    "subtopic": "Nutrition & Normal Functioning",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "There are four values commonly used to describe nutrient requirements in humans: EAR, RDA, AI, and UL. As a group, these are referred to as the _____.",
+    "choices": [
+      "Dietary Reference Intakes (DRI)",
+      "Recommended Dietary Allowances (RDA)",
+      "Estimated Energy Requirements (EER)",
+      "Daily Values (DV)"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-21-077",
+    "subject": "anatomy_physiology",
+    "topic": "metabolism",
+    "subtopic": "Nutrition & Normal Functioning",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The nutrient the body needs in the largest daily amount, and can survive without for only a few days, is _____.",
+    "choices": [
+      "water",
+      "protein",
+      "carbohydrate",
+      "fat"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-21-078",
+    "subject": "anatomy_physiology",
+    "topic": "metabolism",
+    "subtopic": "Nutrition & Normal Functioning",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "_____ is the macronutrient used mainly to build and repair body tissues.",
+    "choices": [
+      "protein",
+      "carbohydrate",
+      "fat",
+      "fiber"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-21-079",
+    "subject": "anatomy_physiology",
+    "topic": "metabolism",
+    "subtopic": "Nutrition & Normal Functioning",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "_____ is a macronutrient which is used to provide energy, but which can only be stored in limited amounts because it is stored with a large amount of water.",
+    "choices": [
+      "carbohydrate",
+      "fat",
+      "protein",
+      "cholesterol"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-21-080",
+    "subject": "anatomy_physiology",
+    "topic": "metabolism",
+    "subtopic": "Nutrition & Normal Functioning",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "_____ is the macronutrient that supplies the most energy per gram, and without it some vitamins cannot be absorbed.",
+    "choices": [
+      "fat",
+      "carbohydrate",
+      "protein",
+      "fiber"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-21-081",
+    "subject": "anatomy_physiology",
+    "topic": "metabolism",
+    "subtopic": "Nutrition & Normal Functioning",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Vitamins are _____ molecules, and many of them serve as _____.",
+    "choices": [
+      "organic; coenzymes",
+      "organic; energy sources",
+      "inorganic; coenzymes",
+      "inorganic; energy sources"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-21-082",
+    "subject": "anatomy_physiology",
+    "topic": "metabolism",
+    "subtopic": "Nutrition & Normal Functioning",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "_____ are nutrients whose functions include participating in cellular reactions, serving as structural components of the body, serving as electrochemical energy reservoirs, and participating in fluid balance.",
+    "choices": [
+      "minerals",
+      "vitamins",
+      "fats",
+      "proteins"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-21-083",
+    "subject": "anatomy_physiology",
+    "topic": "metabolism",
+    "subtopic": "Nutrition & Normal Functioning",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "_____ feeds the beneficial bacteria of the large intestine and is needed for normal intestinal function, even though it supplies little energy directly.",
+    "choices": [
+      "fiber",
+      "water",
+      "vitamin K",
+      "cholesterol"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-21-084",
+    "subject": "anatomy_physiology",
+    "topic": "metabolism",
+    "subtopic": "Nutrition & Normal Functioning",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "_____ are fatty acids, or fats containing fatty acids, which do not contain any double bonds.",
+    "choices": [
+      "saturated fats",
+      "monounsaturated fats",
+      "polyunsaturated fats",
+      "trans fats"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-21-085",
+    "subject": "anatomy_physiology",
+    "topic": "metabolism",
+    "subtopic": "Nutrition & Normal Functioning",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "_____ are fatty acids which contain only one double bond.",
+    "choices": [
+      "monounsaturated fatty acids",
+      "polyunsaturated fatty acids",
+      "saturated fatty acids",
+      "trans fatty acids"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-21-086",
+    "subject": "anatomy_physiology",
+    "topic": "metabolism",
+    "subtopic": "Nutrition & Normal Functioning",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "_____ are fatty acids which contain several double bonds.",
+    "choices": [
+      "polyunsaturated fatty acids",
+      "monounsaturated fatty acids",
+      "saturated fatty acids",
+      "trans fatty acids"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-21-087",
+    "subject": "anatomy_physiology",
+    "topic": "metabolism",
+    "subtopic": "Nutrition & Normal Functioning",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Artificial trans fatty acids, made by partially hydrogenating vegetable oils, raise the risk of heart disease because they _____.",
+    "choices": [
+      "raise LDL and lower HDL cholesterol",
+      "lower LDL and raise HDL cholesterol",
+      "raise both LDL and HDL cholesterol",
+      "lower both LDL and HDL cholesterol"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-21-088",
+    "subject": "anatomy_physiology",
+    "topic": "metabolism",
+    "subtopic": "Nutrition & Normal Functioning",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Humans are unable to make _____ and _____ fatty acids, and so they need to consume them in their diet.",
+    "choices": [
+      "omega-3; omega-6",
+      "omega-6; omega-9",
+      "omega-3; omega-7",
+      "omega-7; omega-9"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-21-089",
+    "subject": "anatomy_physiology",
+    "topic": "metabolism",
+    "subtopic": "Nutrition & Normal Functioning",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Except for _____ from milk and the tiny amounts of _____ left in meats after storage, all the carbohydrates we ingest are derived from plants.",
+    "choices": [
+      "lactose; glycogen",
+      "glycogen; lactose",
+      "sucrose; starch",
+      "lactose; starch"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-21-090",
+    "subject": "anatomy_physiology",
+    "topic": "metabolism",
+    "subtopic": "Nutrition & Normal Functioning",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Simple carbohydrates include _____ and _____.",
+    "choices": [
+      "monosaccharides; disaccharides",
+      "monosaccharides; starches",
+      "polysaccharides; disaccharides",
+      "polysaccharides; starches"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-21-091",
+    "subject": "anatomy_physiology",
+    "topic": "metabolism",
+    "subtopic": "Nutrition & Normal Functioning",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Starch from plants and the glycogen we store in our liver and muscles are both polymers of _____.",
+    "choices": [
+      "glucose",
+      "fructose",
+      "galactose",
+      "sucrose"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-21-092",
+    "subject": "anatomy_physiology",
+    "topic": "metabolism",
+    "subtopic": "Nutrition & Normal Functioning",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "_____ is the sensation of having eaten enough to be satisfied; it is the opposite of hunger.",
+    "choices": [
+      "satiety",
+      "hunger",
+      "appetite",
+      "anorexia"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-21-093",
+    "subject": "anatomy_physiology",
+    "topic": "metabolism",
+    "subtopic": "Nutrition & Normal Functioning",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "In general, foods rich in both _____ and _____ lead to delayed satiation. (That is, more calories will be eaten in a single sitting.)",
+    "choices": [
+      "simple carbohydrates; fat",
+      "protein; fiber",
+      "complex carbohydrates; protein",
+      "fiber; water"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-21-094",
+    "subject": "anatomy_physiology",
+    "topic": "metabolism",
+    "subtopic": "Nutrition & Normal Functioning",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "In general, foods containing only _____ lead to rapid satiation, but hunger returns quickly.",
+    "choices": [
+      "simple carbohydrates",
+      "complex carbohydrates",
+      "protein",
+      "fat"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-21-095",
+    "subject": "anatomy_physiology",
+    "topic": "metabolism",
+    "subtopic": "Nutrition & Normal Functioning",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The fat-soluble vitamins are vitamins A, D, E and _____.",
+    "choices": [
+      "K",
+      "C",
+      "B6",
+      "B12"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-21-096",
+    "subject": "anatomy_physiology",
+    "topic": "metabolism",
+    "subtopic": "Nutrition & Normal Functioning",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Eating fat-soluble vitamins without any accompanying fat results in _____, since they will not be dissolved.",
+    "choices": [
+      "malabsorption",
+      "toxicity",
+      "excretion in the urine",
+      "increased storage in fat"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-21-097",
+    "subject": "anatomy_physiology",
+    "topic": "metabolism",
+    "subtopic": "Nutrition & Normal Functioning",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Mild overdoses of water-soluble vitamins are _____.",
+    "choices": [
+      "excreted in the urine",
+      "stored in adipose tissue",
+      "broken down for energy",
+      "converted to provitamins"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-21-098",
+    "subject": "anatomy_physiology",
+    "topic": "metabolism",
+    "subtopic": "Nutrition & Normal Functioning",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Some vitamins can be taken in excess without harm, but overdoses of fat-soluble vitamins such as _____ can build up in the liver and fat stores, reaching toxic levels.",
+    "choices": [
+      "vitamin A",
+      "vitamin C",
+      "thiamin",
+      "vitamin B12"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-21-099",
+    "subject": "anatomy_physiology",
+    "topic": "metabolism",
+    "subtopic": "Nutrition & Normal Functioning",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "_____ are chemicals that the body can convert into vitamins if needed, and they are often safer at high intakes than the vitamins themselves. An example is _____, which the body converts to vitamin A.",
+    "choices": [
+      "provitamins; beta-carotene",
+      "provitamins; retinol",
+      "antioxidants; beta-carotene",
+      "antioxidants; retinol"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-21-100",
+    "subject": "anatomy_physiology",
+    "topic": "metabolism",
+    "subtopic": "Nutrition & Normal Functioning",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Many vitamins and minerals are required in the diet, and no single food supplies all of them, so a healthy diet needs _____.",
+    "choices": [
+      "variety",
+      "supplementation",
+      "fortification",
+      "restriction"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-21-101",
+    "subject": "anatomy_physiology",
+    "topic": "metabolism",
+    "subtopic": "Nutrition & Normal Functioning",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Most vitamins can be obtained from both plant and animal foods, but vitamin _____ is not made by plants, so strict vegans rely on fortified foods or supplements to get it.",
+    "choices": [
+      "B12",
+      "B9",
+      "C",
+      "K"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-21-102",
+    "subject": "anatomy_physiology",
+    "topic": "metabolism",
+    "subtopic": "Nutrition & Normal Functioning",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "For sedentary adults, a BMI of 25 to 29.9 indicates that the individual is _____; a value of 30 or more means that the person is considered by the World Health Organization to be _____.",
+    "choices": [
+      "overweight; obese",
+      "obese; morbidly obese",
+      "normal weight; overweight",
+      "underweight; normal weight"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-21-103",
+    "subject": "anatomy_physiology",
+    "topic": "metabolism",
+    "subtopic": "Nutrition & Normal Functioning",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "In children and teens, BMI is interpreted by comparing it with _____.",
+    "choices": [
+      "children of the same age and sex",
+      "the adult cutoffs of 25 and 30",
+      "the average for children of any age",
+      "the BMI of both parents at that age"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-21-104",
+    "subject": "anatomy_physiology",
+    "topic": "metabolism",
+    "subtopic": "Nutrition & Normal Functioning",
+    "difficulty": 2,
+    "type": "multiple_choice",
+    "prompt": "Body mass index is weight in kilograms divided by the square of height in meters. A man who is 1.80 m tall and weighs 81 kg has a BMI of about _____.",
+    "choices": [
+      "25",
+      "22.5",
+      "45",
+      "14"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-21-105",
+    "subject": "anatomy_physiology",
+    "topic": "metabolism",
+    "subtopic": "Nutrition & Normal Functioning",
+    "difficulty": 2,
+    "type": "multiple_choice",
+    "prompt": "Alcohol cannot be stored, and an alcoholic drink with a meal results in temporary _____ as the alcohol is used.",
+    "choices": [
+      "storage of the macronutrients ingested in the meal",
+      "oxidation of the macronutrients ingested in the meal",
+      "excretion of the macronutrients in the urine",
+      "conversion of the macronutrients to ketone bodies"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-21-106",
+    "subject": "anatomy_physiology",
+    "topic": "metabolism",
+    "subtopic": "Nutrition & Normal Functioning",
+    "difficulty": 2,
+    "type": "multiple_choice",
+    "prompt": "When a person eats more calories than they use, the part of the meal most readily stored as body fat is the _____.",
+    "choices": [
+      "fat",
+      "carbohydrate",
+      "protein",
+      "alcohol"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-21-107",
+    "subject": "anatomy_physiology",
+    "topic": "metabolism",
+    "subtopic": "Nutrition & Normal Functioning",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The body can convert many nutrients into one another, but it cannot make _____.",
+    "choices": [
+      "essential amino acids",
+      "glucose from amino acids",
+      "fatty acids from glucose",
+      "non-essential amino acids"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-21-108",
+    "subject": "anatomy_physiology",
+    "topic": "metabolism",
+    "subtopic": "Nutrition & Normal Functioning",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Most (although not all) nutrient inter-conversions occur in the _____, and this is one of its primary tasks.",
+    "choices": [
+      "liver",
+      "kidney",
+      "pancreas",
+      "skeletal muscle"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-21-109",
+    "subject": "anatomy_physiology",
+    "topic": "metabolism",
+    "subtopic": "Nutrition & Normal Functioning",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Long-chain omega-3 (n-3) fatty acids are most plentiful in _____.",
+    "choices": [
+      "oily fish",
+      "flaxseed",
+      "olive oil",
+      "butter"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-21-110",
+    "subject": "anatomy_physiology",
+    "topic": "metabolism",
+    "subtopic": "Nutrition & Normal Functioning",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "In general, meals made up mainly of protein, complex carbohydrates and fiber produce satiation that is _____.",
+    "choices": [
+      "early and long-lasting",
+      "early but short-lived",
+      "delayed and long-lasting",
+      "delayed and short-lived"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-21-111",
+    "subject": "anatomy_physiology",
+    "topic": "metabolism",
+    "subtopic": "Nutrition & Normal Functioning",
+    "difficulty": 2,
+    "type": "multiple_choice",
+    "prompt": "Overcooking destroys some vitamins, but cooking also makes some nutrients easier to absorb. Cooking spinach makes its _____ more available.",
+    "choices": [
+      "beta-carotene",
+      "vitamin C",
+      "folate",
+      "thiamin"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-21-112",
+    "subject": "anatomy_physiology",
+    "topic": "metabolism",
+    "subtopic": "Nutrition & Normal Functioning",
+    "difficulty": 2,
+    "type": "multiple_choice",
+    "prompt": "Because BMI is calculated only from height and weight, it can wrongly classify _____ as overweight.",
+    "choices": [
+      "muscular athletes",
+      "sedentary adults",
+      "older adults with little muscle",
+      "people with excess body fat"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-21-113",
+    "subject": "anatomy_physiology",
+    "topic": "metabolism",
+    "subtopic": "Nutrition & Normal Functioning",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The WHO and the CDC class adults with a BMI below _____ as underweight.",
+    "choices": [
+      "18.5",
+      "22",
+      "25",
+      "30"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-21-114",
+    "subject": "anatomy_physiology",
+    "topic": "metabolism",
+    "subtopic": "Protein Metabolism",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Some nutrients can be made by the human body if they are in short supply: for example, some amino acids can be made by converting others. Such nutrients are called _____.",
+    "choices": [
+      "non-essential",
+      "essential",
+      "complete",
+      "incomplete"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-21-115",
+    "subject": "anatomy_physiology",
+    "topic": "metabolism",
+    "subtopic": "Protein Metabolism",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Humans lack the enzymatic machinery required to create some nutrients even if provided with raw materials. These nutrients must be present in the diet if one is to survive, and are called _____ nutrients.",
+    "choices": [
+      "essential",
+      "non-essential",
+      "complete",
+      "conditional"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-21-116",
+    "subject": "anatomy_physiology",
+    "topic": "metabolism",
+    "subtopic": "Protein Metabolism",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "There are 20 different amino acids encoded in DNA. Most proteins in the human body require _____ of these for their construction.",
+    "choices": [
+      "all 20",
+      "only the 9 or 10 essential ones",
+      "only the 10 or 11 non-essential ones",
+      "about half"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-21-117",
+    "subject": "anatomy_physiology",
+    "topic": "metabolism",
+    "subtopic": "Protein Metabolism",
+    "difficulty": 2,
+    "type": "multiple_choice",
+    "prompt": "Dietary protein needs depend partly on calorie intake, because when energy intake is too low, the body _____.",
+    "choices": [
+      "burns amino acids for fuel",
+      "stores amino acids as fat",
+      "excretes amino acids unchanged",
+      "converts fat into amino acids"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-21-118",
+    "subject": "anatomy_physiology",
+    "topic": "metabolism",
+    "subtopic": "Protein Metabolism",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "_____ refers to the state in which the amount of protein (as measured by amino nitrogen) eaten by an organism is equal to the amount excreted.",
+    "choices": [
+      "nitrogen balance",
+      "energy balance",
+      "positive nitrogen balance",
+      "negative nitrogen balance"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-21-119",
+    "subject": "anatomy_physiology",
+    "topic": "metabolism",
+    "subtopic": "Protein Metabolism",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "Proteins that contain all of the essential amino acids (9 or 10, depending on the reference) in the ratio needed by the human body are referred to as _____ proteins. Those in which one or more of them is missing are called _____ proteins.",
+    "choices": [
+      "complete; incomplete",
+      "incomplete; complete",
+      "essential; non-essential",
+      "fibrous; globular"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-21-120",
+    "subject": "anatomy_physiology",
+    "topic": "metabolism",
+    "subtopic": "Protein Metabolism",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "When an amino acid is to be catabolized, the amino groups are converted to _____ and then to _____ in the liver.",
+    "choices": [
+      "ammonia; urea",
+      "urea; ammonia",
+      "ammonia; uric acid",
+      "urea; creatinine"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-21-121",
+    "subject": "anatomy_physiology",
+    "topic": "metabolism",
+    "subtopic": "Protein Metabolism",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "When an amino acid is to be catabolized, after removal of the amino group, the remaining \"keto acid\" is altered to allow it to enter the _____ (the point of entry depends on the identity of the amino acid).",
+    "choices": [
+      "citric acid cycle",
+      "beta-oxidation pathway",
+      "electron transport chain",
+      "urea cycle"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-21-122",
+    "subject": "anatomy_physiology",
+    "topic": "metabolism",
+    "subtopic": "Protein Metabolism",
+    "difficulty": 2,
+    "type": "multiple_choice",
+    "prompt": "Ketogenic amino acids, such as leucine, are broken down only to acetyl-CoA or ketone bodies, so their carbon skeletons cannot be used to make _____.",
+    "choices": [
+      "glucose",
+      "ATP",
+      "fatty acids",
+      "cholesterol"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-21-123",
+    "subject": "anatomy_physiology",
+    "topic": "metabolism",
+    "subtopic": "Protein Metabolism",
+    "difficulty": 3,
+    "type": "multiple_choice",
+    "prompt": "An abrupt drop in protein intake from accustomed levels can cause a negative nitrogen balance, because for a time the body continues to _____.",
+    "choices": [
+      "oxidize amino acids at the old rate",
+      "store surplus amino acids as fat",
+      "excrete amino acids unchanged in urine",
+      "convert amino acids into glycogen"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-21-124",
+    "subject": "anatomy_physiology",
+    "topic": "metabolism",
+    "subtopic": "Protein Metabolism",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "prompt": "The body makes non-essential amino acids by moving the nitrogen-containing group of one amino acid onto a keto acid, a reaction called _____.",
+    "choices": [
+      "transamination",
+      "deamination",
+      "gluconeogenesis",
+      "hydrolysis"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-21-125",
+    "subject": "anatomy_physiology",
+    "topic": "metabolism",
+    "subtopic": "Protein Metabolism",
+    "difficulty": 2,
+    "type": "multiple_choice",
+    "prompt": "If one of the _____ essential amino acids is missing, a cell trying to build a protein that contains it _____.",
+    "choices": [
+      "9 or 10; cannot complete the protein",
+      "9 or 10; substitutes a similar amino acid",
+      "11 or 12; cannot complete the protein",
+      "11 or 12; substitutes a similar amino acid"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-21-126",
+    "subject": "anatomy_physiology",
+    "topic": "metabolism",
+    "subtopic": "Protein Metabolism",
+    "difficulty": 2,
+    "type": "multiple_choice",
+    "prompt": "How much of a given food protein must be eaten to meet the body's needs depends mainly on its content of _____.",
+    "choices": [
+      "essential amino acids",
+      "non-essential amino acids",
+      "nitrogen",
+      "total amino acids"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-21-127",
+    "subject": "anatomy_physiology",
+    "topic": "metabolism",
+    "subtopic": "Protein Metabolism",
+    "difficulty": 2,
+    "type": "multiple_choice",
+    "prompt": "A vegetarian who eats beans with rice is combining two _____ proteins, so that together they supply all the essential amino acids.",
+    "choices": [
+      "incomplete",
+      "complete",
+      "essential",
+      "non-essential"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "bio-anat-21-128",
+    "subject": "anatomy_physiology",
+    "topic": "metabolism",
+    "subtopic": "Protein Metabolism",
+    "difficulty": 2,
+    "type": "multiple_choice",
+    "prompt": "A sedentary adult who already eats enough calories starts eating twice as much protein as they need. Most of the surplus amino acids are _____.",
+    "choices": [
+      "oxidized for energy or converted to fat",
+      "built into muscle or kept as a protein reserve",
+      "stored as glycogen in the liver or muscles",
+      "excreted unchanged in the urine or sweat"
+    ],
+    "answer_index": 0
+  }
+]

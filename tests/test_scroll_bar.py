@@ -16,7 +16,7 @@ from ui import ScrollBar
 
 from conftest import A_AND_P, GameStub, land_press, question_dict, write_bank
 
-ROWS = 21
+ROWS = 22
 REGION = pygame.Rect(540, 260, 540, MENU_VISIBLE_ROWS * MENU_ROW_HEIGHT)
 
 
@@ -35,7 +35,7 @@ def test_bar_sits_beside_the_list_with_arrows_at_both_ends():
     assert (bar.rect.top, bar.rect.bottom) == (REGION.top, REGION.bottom)
     assert bar.up_rect.top == bar.rect.top and bar.down_rect.bottom == bar.rect.bottom
     assert bar.up_rect.bottom < bar.track_rect.top < bar.track_rect.bottom < bar.down_rect.top
-    assert bar.max_scroll == (ROWS - MENU_VISIBLE_ROWS) * MENU_ROW_HEIGHT == 624
+    assert bar.max_scroll == (ROWS - MENU_VISIBLE_ROWS) * MENU_ROW_HEIGHT == 676
     # A page is the visible rows less one, so the edge row stays in view.
     assert bar.page_scroll == (MENU_VISIBLE_ROWS - 1) * MENU_ROW_HEIGHT
 
@@ -148,7 +148,7 @@ def topics(flat_renderer, bank):
     # The bar's behavior does not depend on the theme; its placement on both
     # themes is checked in test_menu_layout.py and test_pixel_layout.py.
     state = TopicsState(GameStub(bank, flat_renderer), 'catch_blue', A_AND_P)
-    assert len(checked(state)) == ROWS and state.max_scroll == 624
+    assert len(checked(state)) == ROWS and state.max_scroll == 676
     return state
 
 

@@ -1,6 +1,12 @@
 # Question Bank Tracker
 
-Last updated: 2026-09-19 — **question-bank work ON HOLD** (David, 2026-09-19:
+Last updated: 2026-11-25 — **metabolism imported** through the new agent
+pipeline (Claude A builds → Claude B reviews + two blind tests → Claude C
+finalizes; briefs in `question_sources/agent_briefs/`). David approved the
+final set 2026-11-25 with four changes; 128 questions, `bio-anat-21-001`–`-128`.
+The final set, decision log and approval request are in
+`question_sources/Claude_C_Final_Review/` (local only). Bank total now 2,731.
+Previous status, 2026-09-19 — **question-bank work ON HOLD** (David, 2026-09-19:
 the bank is enough for A&P 1 and carries the A&P 2 students a few weeks;
 the rewrite queues, the loose ends below, and the five unvetted Vol. 2
 topics resume when it is needed). Tier counts added to the topic table.
@@ -26,7 +32,7 @@ Questions.md`, `Anson Vol.1 - unreviewed.md`, and the Vol. 2 set:
 | Source | License | Status |
 |---|---|---|
 | Anson *3600+ Review Questions*, Vol. 1 (5th ed.) | CC BY-SA 3.0 | **Import complete.** All 1,870 questions audited (2026-08-31) → David vetted all 14 topics → 1,595 imported 2026-09-01. Remaining: the 177-question edit pile in `Anson Vol.1 - unreviewed.md` (David's rewrites). |
-| Anson *3600+ Review Questions*, Vol. 2 (3rd ed.) | CC BY-SA 3.0 | **Import in progress.** All 1,884 questions audited (2026-09-08) → `question_recommendations_part2.md` (1,594 REC / 273 EDIT / 17 NO). David has vetted 6 of 11 topics (blood → digestive_system) in `Anson Vol.2 Final Questions.md` → 1,040 imported (656 on 2026-09-09, +155 respiratory_system on 2026-09-11, +229 digestive_system on 2026-09-14) via `anson_import2.py`. **Still to vet:** metabolism, urinary_system, fluids_and_acid-bases, reproductive_system, development_and_inheritance (the audit is done for all of them). Edit pile for the 6 imported topics: 145 entries (see loose ends). |
+| Anson *3600+ Review Questions*, Vol. 2 (3rd ed.) | CC BY-SA 3.0 | **Import in progress.** All 1,884 questions audited (2026-09-08) → `question_recommendations_part2.md` (1,594 REC / 273 EDIT / 17 NO). David has vetted 6 of 11 topics (blood → digestive_system) in `Anson Vol.2 Final Questions.md` → 1,040 imported (656 on 2026-09-09, +155 respiratory_system on 2026-09-11, +229 digestive_system on 2026-09-14) via `anson_import2.py`. **+128 metabolism on 2026-11-25 via the agent pipeline** (not `anson_import2.py`; the pipeline reviews the audit's Recommended-with-Edits entries itself, so metabolism adds nothing to the edit pile). 1,168 imported in all (1,156 after the 2026-09-14 removals). **Still to vet:** urinary_system, fluids_and_acid-bases, reproductive_system, development_and_inheritance (the audit is done for all of them). Edit pile for the 6 earlier topics: 145 entries (see loose ends). |
 | OpenStax *A&P 2e* review questions (ch. 1–4+) | CC BY-NC-SA 4.0 | **Not started.** Maps section-for-section onto existing subtopics. Educator account (free instructor test bank) not yet applied for. |
 | OpenStax *A&P 2e* critical-thinking questions | CC BY-NC-SA 4.0 | **Not started.** Raw material for the difficulty-3 tier; needs MCQ-ification. |
 | OER Commons question banks (OpenStax-aligned) | varies per item | **Not started.** Needs a free account; check each item's license. |
@@ -47,7 +53,7 @@ Seven questions carry `"shuffle": false` (two-choice items): `bio-anat-06-229`,
 
 Id prefixes continue the Vol. 1 numbering in topic-plan order: 15 blood,
 16 heart, 17 blood_vessels, 18 lymphatic_and_immune_system, 19
-respiratory_system, 20 digestive_system. The next Vol. 2 topics should take 21 metabolism,
+respiratory_system, 20 digestive_system, 21 metabolism. The next Vol. 2 topics should take
 22 urinary_system, 23 fluids_and_acid-bases, 24 reproductive_system,
 25 development_and_inheritance.
 
@@ -73,14 +79,15 @@ respiratory_system, 20 digestive_system. The next Vol. 2 topics should take 21 m
 | lymphatic_and_immune_system | 168 | 79 / 68 / 21 | Adaptive Immunity (75), Aging: Immune System (2), Immune Disorders (8), Innate Immunity (21), Innate vs Adaptive Immunity (2), Lymphatic System Anatomy (62) | ✅ Vol. 2 |
 | respiratory_system | 152 | 73 / 69 / 10 | Aging: Respiratory System (2), Gas Exchange (16), Gas Transport (21), Lower Respiratory System (26), Regulation of Breathing (31), The Lungs (47), Upper Respiratory System (12) | ✅ Vol. 2 |
 | digestive_system | 228 | 93 / 107 / 28 | Accessory Digestive Organs (51), Chemical Digestion (17), Digestive System Functions (36), Large Intestine (18), Oral Cavity (22), Pharynx and Esophagus (15), Small Intestine (30), Stomach (40) | ✅ Vol. 2 |
-| metabolism | 0 | — | *(plan: 7 subtopics)* | ⏳ audited, not vetted |
+| metabolism | 128 | 91 / 33 / 4 | Absorptive vs Postabsorptive States (6), Carbohydrate Metabolism (26), Catabolism vs Anabolism (4), Lipid Metabolism (19), Metabolic Rate (14), Nutrition & Normal Functioning (44), Protein Metabolism (15) | ✅ Vol. 2 (agent pipeline, approved 2026-11-25) |
 | urinary_system | 0 | — | *(plan: 5 subtopics)* | ⏳ audited, not vetted |
 | fluids_and_acid-bases | 0 | — | *(plan: 6 subtopics)* | ⏳ audited, not vetted |
 | reproductive_system | 0 | — | *(plan: 6 subtopics)* | ⏳ audited, not vetted |
 | development_and_inheritance | 0 | — | *(plan: 6 subtopics)* | ⏳ audited, not vetted |
 
-**Bank total as of 2026-09-19: 2,603 questions** (1,575 Vol. 1 after
-removals + 1,028 Vol. 2 after the 2026-09-14 quality pass removed 12).
+**Bank total as of 2026-11-25: 2,731 questions** (1,575 Vol. 1 after
+removals + 1,156 Vol. 2: 1,028 after the 2026-09-14 quality pass removed 12,
+plus 128 metabolism).
 
 **Tier thinness (M7.e success check):** every topic has tier-1 and tier-2
 questions. `chemical_foundations` and `tissues` have **no tier-3**
@@ -176,7 +183,8 @@ Cells"; the four macromolecule subtopics → "Macromolecules").
 
 Items 1–9 came out of the 2026-09-09 import of the first four topics; items
 10–13 from the 2026-09-11 respiratory_system import; items 14–20 from the
-2026-09-14 digestive_system import. `anson_import2.py` reproduces the run
+2026-09-14 digestive_system import; items 21–29 from the 2026-11-25 metabolism
+import (agent pipeline, not `anson_import2.py`). `anson_import2.py` reproduces the run
 (`--write` regenerates every listed JSON file from the audit + vetting file,
 so fix things at the source and rerun). **Since 2026-09-14 pass
 `--only=topic` with `--write`** — the other banks now carry hand-applied
@@ -277,3 +285,72 @@ difficulty grades that a full regeneration would reset to 1.
     `data/questions/flagged_questions.md` (second section, own summary
     table). Nothing removed — David decides per entry, as with the Vol. 1
     pass.
+21. ~~**Topic menu order (game code), metabolism:**~~ — DONE 2026-11-25:
+    appended after `digestive_system`. The test list half no longer applies:
+    the M8.f sweep removed `ANATOMY_PHYSIOLOGY_TOPICS`, and the order test now
+    reads `SUBJECT_TOPIC_ORDERS` directly. Original note:
+    `test_every_shipped_topic_has_a_configured_position`
+    fails until `"metabolism"` is added to `SUBJECT_TOPIC_ORDERS["anatomy_physiology"]`
+    in `game_setup.py` after `digestive_system`, and in the same place in
+    `ANATOMY_PHYSIOLOGY_TOPICS` in `tests/test_game_setup.py`.
+22. ~~**Display alias needed (game code):**~~ — DONE 2026-11-25: "Fed &
+    Fasting States" added to `COMPACT_SUBTOPIC_DISPLAY_NAMES`. Original note:
+    `Absorptive vs Postabsorptive States`
+    fails the 9×9 label-fit check on both themes. The single word "Postabsorptive"
+    is 78 px against 76 available, so it can't wrap. Suggested compact alias
+    (`COMPACT_SUBTOPIC_DISPLAY_NAMES`, used at 7×7 and 9×9): **"Fed & Fasting
+    States"**, OpenStax's own synonyms. Checked in memory with
+    `tools.theme_fit.audit`: it fits at 5/7/9 on both themes ("Metabolic States"
+    also fits). The full label fits at 5×5 and 7×7.
+23. ~~**Scroll-bar test constants (test code):**~~ — DONE 2026-11-25: set to
+    22 rows and 676; suite 559 green. The count is still hardcoded, so the next
+    topic needs the same edit (+52). Original note: `tests/test_scroll_bar.py`
+    hardcodes the topic count: `ROWS = 21` (line 19) and `max_scroll` 624
+    (lines 38 and 151). With metabolism there are 22 rows, so the 8
+    `topics`-fixture tests error. Set `ROWS = 22` and `676` = (22 − 9) × 52 in
+    both places. The page test still holds: two pages (832) pass the end.
+    Each new topic adds 52 to the figure. A count derived from the bank would
+    stop this recurring.
+24. **Thin subtopics, metabolism:** Catabolism vs Anabolism (4) and Absorptive
+    vs Postabsorptive States (6) are above the floor of 3 but below the target
+    of 8. The audit had no more sound items for either.
+25. **Martini checks, metabolism (David to confirm):** keys that differ between
+    references (`bio-anat-21` ids). Competing values are in the approval request.
+    - `-025` (Metabolism #51): glycogen stores = "a day's
+      worth" (Anson: "a few days'").
+    - `-061` (#59): BMR is the "largest share" (OpenStax ~70%;
+      Anson "a bit more than half").
+    - `-050` (#36): ketone ranking at "typical" levels.
+    - `-030` (#18b): "ATP (or GTP)".
+    - `-026, -032` (#53/#54): kidney
+      gluconeogenesis left out.
+    - `-113` (Nutrition #81): WHO/CDC 18.5 vs OpenStax's 18.
+    - `-037, -038, -039, -040, -041, -042, -053`
+      (Nutrition #45–#51): lipoprotein classes (Martini-level; OpenStax covers
+      only chylomicrons).
+    - `-098` (Nutrition #71): vitamin A stored mainly in the
+      liver.
+    - Settled: `-062` (#60) now keys "total daily energy
+      expenditure (TDEE)" (David, 2026-11-25); the essential amino acid count
+      is "9 or 10" (David, 2026-11-25).
+26. **Two "controllers" of metabolic rate:** metabolism's `bio-anat-21-065` (#65) keys thyroid
+    hormones (as does endocrine `bio-anat-14-083`). Autonomic
+    `bio-anat-12-025` says metabolic rate "is controlled by the sympathetic
+    division". Students meet both; 12-025 was not touched.
+27. **Skips David may want to revisit, metabolism (31 + 1 moved):** Claude A's
+    27 and Claude C's 4, with reasons, are in the approval request. Facts that
+    left the topic with them:
+    - DRI values are averages, not single-day targets (Nutrition #9 and #87);
+    - protein needs rise when tissue is built (Nutrition #29);
+    - cut energy, not essential nutrients, to lose weight (Nutrition #90);
+    - fuel-mix adaptation timing (Metabolism #46).
+    The Urinary System #135 moved to fluids_and_acid-bases (David, 2026-11-25).
+    Hand `question_sources/Claude_A_Question_Sets/carryover_to_fluids_and_acid-bases.md`
+    to that run.
+28. **Uncovered OpenStax objectives, metabolism:** 24.4 "how the body digests
+    proteins" is left to digestive_system (`bio-anat-20-060`, `-062`, `-204`).
+    24.7 "a healthy diet as recommended by the USDA" rests on Nutrition #75
+    alone (David, 2026-11-25: no MyPlate question).
+29. **Tier skew, metabolism:** 91 / 33 / 4 (71% / 26% / 3%), against the bank's
+    48 / 44 / 9. Most of it is the Nutrition definitions (39 of 44 are tier 1).
+    No grades were inflated.
